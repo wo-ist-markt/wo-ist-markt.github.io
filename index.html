@@ -23,7 +23,7 @@
                 white-space: normal;
             }
 
-            .legend {
+            #legend {
                 margin: 3em;
                 border: 1px solid #555;
                 background-color: #eee;
@@ -36,13 +36,38 @@
                 width: 22em;
             }
 
-            .legend p {
+            #legend p {
                 margin: 0;
             }
 
-            .legend h1 {
+            #legend h1 {
                 margin-top: 0;
                 font-size: 120%;
+            }
+
+            #legend form {
+                margin-bottom: 0.5em;
+            }
+
+            #legend input {
+                margin-left: 0;
+                vertical-align: top;
+            }
+
+            #legend label {
+                margin-right:1em;
+                vertical-align: middle;
+                font-weight: bold;
+            }
+
+            table.times th {
+                font-weight: normal;
+                font-style: italic;
+                padding-right: 0.75em;
+            }
+
+            table.times tr.today * {
+                font-weight: bold;
             }
         </style>
 
@@ -59,6 +84,9 @@
                               'CartoDB</a>';
 
             var map;
+            var nowGroup = L.layerGroup();
+            var todayGroup = L.layerGroup();
+            var otherGroup = L.layerGroup();
 
             var now = new Date();
             var time = [now.getHours(), now.getMinutes()];
@@ -94,7 +122,12 @@
                 for (var i = 0; i < 7; i++) {
                     var t = times[i];
                     if (t !== null) {
-                        s += '<tr><th>' + dayNames[i] + '</th><td>' +
+                        if (i === dayIndex) {
+                            cls = ' class="today"';
+                        } else {
+                            cls = '';
+                        }
+                        s += '<tr' + cls + '><th>' + dayNames[i] + '</th><td>' +
                              t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2) +
                              '</td></tr>';
                     }
@@ -103,13 +136,36 @@
                 return s;
             }
 
+            /*
+             * Check if 2-tuple `a1` is lexicographically greater than
+             * 2-tuple `a2`.
+             */
+            function lexgt(a1, a2) {
+                return (a1[0] > a2[0] || (a1[0] === a2[0] && a1[1] > a2[1]));
+            }
+
+            function updateLayers() {
+                var value = document.querySelector('[name="display"]:checked').value;
+                switch (value) {
+                    case "now":
+                        map.removeLayer(todayGroup);
+                        map.removeLayer(otherGroup);
+                        break;
+                    case "today":
+                        map.addLayer(todayGroup);
+                        map.removeLayer(otherGroup);
+                        break;
+                    case "other":
+                        map.addLayer(todayGroup);
+                        map.addLayer(otherGroup);
+                        break;
+                }
+            }
+
             $(document).ready(function() {
                 var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
                 map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
                 $.getJSON("markt.json", function(json) {
-                    var nowGroup = L.layerGroup();
-                    var todayGroup = L.layerGroup();
-                    var otherGroup = L.layerGroup();
                     for (var market in json) {
                         var data = json[market];
                         var times = data['days'];
@@ -117,10 +173,12 @@
                         var marker = L.marker(data['location']);
                         marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
                         if (todayTimes !== null) {
-                            if (todayTimes[0] <= time && time <= todayTimes[1]) {
+                            if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
+                                console.log(todayTimes + ' is open');
                                 marker.setIcon(nowIcon);
                                 nowGroup.addLayer(marker);
                             } else {
+                                console.log(todayTimes + ' is closed');
                                 marker.setIcon(todayIcon);
                                 todayGroup.addLayer(marker);
                             }
@@ -129,28 +187,32 @@
                             otherGroup.addLayer(marker);
                         }
                     }
-                    nowGroup.addTo(map);
-                    todayGroup.addTo(map);
-                    otherGroup.addTo(map);
+                    map.addLayer(nowGroup);
+                    updateLayers();
                 });
 
                 var legend = L.control({position: 'bottomright'});
                 legend.onAdd = function (m) {
-                    var div = L.DomUtil.create('div', 'legend');
-                    div.innerHTML = '<h1>Wo ist Markt in Karlsruhe?</h1>' +
-                                     '<p>Ein Projekt des <a href="http://codefor.de/karlsruhe">' +
-                                     'Open Knowledge Lab Karlsruhe</a>. ' +
-                                     '<a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">' +
-                                     'Daten</a> von der Stadt Karlsruhe. ' +
-                                     '<a href="https://github.com/CodeforKarlsruhe/wo-ist-markt">Code</a> ' +
-                                     'auf GiHub.</p>';
-                    return div;
+                    return L.DomUtil.get('legend');
                 };
                 legend.addTo(map);
+
+                $("input[name=display]").click(updateLayers);
             });
         </script>
     </head>
     <body>
         <div id="map"></div>
+        <div id="legend">
+            <h1>Wo ist Markt in Karlsruhe?</h1>
+            <form>
+                <label><input type="radio" name="display" value="now"/>jetzt</label>
+                <label><input type="radio" name="display" value="today" checked="checked"/>heute</label>
+                <label><input type="radio" name="display" value="other"/>alle</label>
+            </form>
+            <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a>.
+            <a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">Daten</a> von der Stadt
+            Karlsruhe. <a href="https://github.com/CodeforKarlsruhe/wo-ist-markt">Code</a> auf GiHub.</p>
+        </div>
     </body>
 </html>
