@@ -1,0 +1,195 @@
+{
+    "Bauernmarkt Durlach": {
+        "days": [
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Daxlanden": {
+        "days": [
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Durlach": {
+        "days": [
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Gottesauer Platz": {
+        "days": [
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Gutenbergplatz": {
+        "days": [
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Grünwinkel": {
+        "days": [
+            null,
+            null,
+            null,
+            [[14, 0], [18, 30]],
+            null,
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Knielingen": {
+        "days": [
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Kronenplatz": {
+        "days": [
+            [[9, 0], [20, 0]],
+            [[9, 0], [20, 0]],
+            [[9, 0], [20, 0]],
+            [[9, 0], [20, 0]],
+            [[9, 0], [20, 0]],
+            [[9, 0], [16, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Mühlburg": {
+        "days": [
+            null,
+            null,
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Neureut": {
+        "days": [
+            null,
+            null,
+            null,
+            null,
+            [[7, 30], [18, 0]],
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Nordweststadt": {
+        "days": [
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Oberreut": {
+        "days": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            [[14, 0], [18, 30]],
+            null
+        ],
+        "location": null
+    },
+    "Rüppurr": {
+        "days": [
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Stephanplatz": {
+        "days": [
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            null,
+            null
+        ],
+        "location": null
+    },
+    "Waldstadt": {
+        "days": [
+            null,
+            null,
+            [[14, 0], [18, 30]],
+            null,
+            [[12, 0], [18, 30]],
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    },
+    "Werderplatz": {
+        "days": [
+            null,
+            [[7, 30], [14, 0]],
+            null,
+            null,
+            [[7, 30], [14, 0]],
+            [[7, 30], [14, 0]],
+            null
+        ],
+        "location": null
+    }
+}
