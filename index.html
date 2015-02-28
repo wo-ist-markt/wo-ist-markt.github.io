@@ -59,12 +59,20 @@
                               'CartoDB</a>';
 
             var map;
+
             var now = new Date();
+            var time = [now.getHours(), now.getMinutes()];
             var dayIndex = (now.getDay() + 6) % 7;  // In our data, first day is Monday
+            var dayNames = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
 
             L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
+            var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
+            var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'shopping-cart'});
+            var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'shopping-cart'});
 
-
+            /*
+             * Return 0-padded string of a number.
+             */
             function pad(num, totalDigits) {
                 var s = num.toString();
                 while (s.length < totalDigits) {
@@ -73,31 +81,63 @@
                 return s;
             }
 
-            function formatTimes(t) {
-                return t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2);
+            /*
+             * Create time-table HTML code.
+             *
+             * `times` is a list of 7 items. Each item is either `null`
+             * (market is not open on that day) or a 2-tuple consisting
+             * of the opening and closing times (each of which is given
+             * as a 2-tuple consisting of the hour and the minutes).
+             */
+            function timeTable(times) {
+                s = '<table class="times">';
+                for (var i = 0; i < 7; i++) {
+                    var t = times[i];
+                    if (t !== null) {
+                        s += '<tr><th>' + dayNames[i] + '</th><td>' +
+                             t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2) +
+                             '</td></tr>';
+                    }
+                }
+                s += '</table>';
+                return s;
             }
-
-            var greenIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
 
             $(document).ready(function() {
                 var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
                 map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
                 $.getJSON("markt.json", function(json) {
+                    var nowGroup = L.layerGroup();
+                    var todayGroup = L.layerGroup();
+                    var otherGroup = L.layerGroup();
                     for (var market in json) {
                         var data = json[market];
                         var times = data['days'];
-                        if (times[dayIndex] !== null) {
-                            var marker = L.marker(data['location'], {icon: greenIcon}).addTo(map);
-                            marker.bindPopup('<b>' + market + '</b>' +
-                                             '<p>' + formatTimes(times[dayIndex]) + '</p>');
+                        var todayTimes = times[dayIndex];
+                        var marker = L.marker(data['location']);
+                        marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
+                        if (todayTimes !== null) {
+                            if (todayTimes[0] <= time && time <= todayTimes[1]) {
+                                marker.setIcon(nowIcon);
+                                nowGroup.addLayer(marker);
+                            } else {
+                                marker.setIcon(todayIcon);
+                                todayGroup.addLayer(marker);
+                            }
+                        } else {
+                            marker.setIcon(otherIcon);
+                            otherGroup.addLayer(marker);
                         }
                     }
+                    nowGroup.addTo(map);
+                    todayGroup.addTo(map);
+                    otherGroup.addTo(map);
                 });
 
                 var legend = L.control({position: 'bottomright'});
                 legend.onAdd = function (m) {
                     var div = L.DomUtil.create('div', 'legend');
-                    div.innerHTML = '<h1>Wo ist heute Markt in Karlsruhe?</h1>' +
+                    div.innerHTML = '<h1>Wo ist Markt in Karlsruhe?</h1>' +
                                      '<p>Ein Projekt des <a href="http://codefor.de/karlsruhe">' +
                                      'Open Knowledge Lab Karlsruhe</a>. ' +
                                      '<a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">' +
@@ -112,6 +152,5 @@
     </head>
     <body>
         <div id="map"></div>
-        <div id="legend">foobar</div>
     </body>
 </html>
