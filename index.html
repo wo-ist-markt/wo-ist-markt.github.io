@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wo ist Markt in Karlsruhe?</title>
+        <link rel="stylesheet" href="leaflet.label/leaflet.label.css" />
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <style>
+            html, body, #map {
+                height: 100%;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+
+            .leaflet-label {
+                font-weight: normal;
+            }
+
+            div.info {
+                width: 40em;
+                white-space: normal;
+            }
+
+            .legend {
+                margin: 3em;
+                border: 1px solid #555;
+                background-color: #eee;
+                padding: 1em;
+                border-radius: 6px;
+                -o-border-radius: 6px;
+                -moz-border-radius: 6px;
+                -webkit-border-radius: 6px;
+                color: #555;
+                width: 22em;
+            }
+
+            .legend p {
+                margin: 0;
+            }
+
+            .legend h1 {
+                margin-top: 0;
+                font-size: 120%;
+            }
+        </style>
+
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script>
+            var TILES_URL = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
+            var INITIAL_LOCATION = [49.0140679, 8.4044366];
+            var INITIAL_ZOOM = 13;
+            var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
+                              'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
+                              'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
+                              'CartoDB</a>';
+
+            var map;
+
+            $(document).ready(function() {
+                var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
+                map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
+                $.getJSON("markt.json", function(json) {
+                    for (var market in json) {
+                        var data = json[market];
+                        console.log(data['location']);
+                        L.marker(data['location']).addTo(map);
+                    }
+                });
+
+                var legend = L.control({position: 'bottomright'});
+                legend.onAdd = function (m) {
+                    var div = L.DomUtil.create('div', 'legend');
+                    div.innerHTML = '<h1>Wo ist Markt in Karlsruhe?</h1>' +
+                                     '<p>Ein Projekt des <a href="http://codefor.de/karlsruhe">' +
+                                     'Open Knowledge Lab Karlsruhe</a>. ' +
+                                     '<a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">' +
+                                     'Daten</a> von der Stadt Karlsruhe. ' +
+                                     '<a href="https://github.com/CodeforKarlsruhe/wo-ist-markt">Code</a> ' +
+                                     'auf GiHub.</p>';
+                    return div;
+                };
+                legend.addTo(map);
+            });
+        </script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="legend">foobar</div>
+    </body>
+</html>
