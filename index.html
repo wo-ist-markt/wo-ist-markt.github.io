@@ -57,6 +57,8 @@
                               'CartoDB</a>';
 
             var map;
+            var now = new Date();
+            var dayIndex = (now.getDay() + 6) % 7;  // In our data, first day is Monday
 
             $(document).ready(function() {
                 var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
@@ -64,15 +66,18 @@
                 $.getJSON("markt.json", function(json) {
                     for (var market in json) {
                         var data = json[market];
-                        console.log(data['location']);
-                        L.marker(data['location']).addTo(map);
+                        var times = data['days'];
+                        if (times[dayIndex] !== null) {
+                            console.log(market + ' ' + times);
+                            L.marker(data['location']).addTo(map);
+                        }
                     }
                 });
 
                 var legend = L.control({position: 'bottomright'});
                 legend.onAdd = function (m) {
                     var div = L.DomUtil.create('div', 'legend');
-                    div.innerHTML = '<h1>Wo ist Markt in Karlsruhe?</h1>' +
+                    div.innerHTML = '<h1>Wo ist heute Markt in Karlsruhe?</h1>' +
                                      '<p>Ein Projekt des <a href="http://codefor.de/karlsruhe">' +
                                      'Open Knowledge Lab Karlsruhe</a>. ' +
                                      '<a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">' +
