@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Wo ist Markt in Karlsruhe?</title>
-        <link rel="stylesheet" href="leaflet.label/leaflet.label.css" />
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <link rel="stylesheet" href="Leaflet.awesome-markers-2.0.2/leaflet.awesome-markers.css"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
         <style>
             html, body, #map {
                 height: 100%;
@@ -47,6 +48,7 @@
 
         <script src="jquery-1.11.2.min.js"></script>
         <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script src="Leaflet.awesome-markers-2.0.2/leaflet.awesome-markers.min.js"></script>
         <script>
             var TILES_URL = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
             var INITIAL_LOCATION = [49.0140679, 8.4044366];
@@ -60,6 +62,23 @@
             var now = new Date();
             var dayIndex = (now.getDay() + 6) % 7;  // In our data, first day is Monday
 
+            L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
+
+
+            function pad(num, totalDigits) {
+                var s = num.toString();
+                while (s.length < totalDigits) {
+                    s = '0' + s;
+                }
+                return s;
+            }
+
+            function formatTimes(t) {
+                return t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2);
+            }
+
+            var greenIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
+
             $(document).ready(function() {
                 var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
                 map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
@@ -68,8 +87,9 @@
                         var data = json[market];
                         var times = data['days'];
                         if (times[dayIndex] !== null) {
-                            console.log(market + ' ' + times);
-                            L.marker(data['location']).addTo(map);
+                            var marker = L.marker(data['location'], {icon: greenIcon}).addTo(map);
+                            marker.bindPopup('<b>' + market + '</b>' +
+                                             '<p>' + formatTimes(times[dayIndex]) + '</p>');
                         }
                     }
                 });
