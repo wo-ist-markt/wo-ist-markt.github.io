@@ -9,7 +9,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [48.9988247, 8.4708768]
     },
     "Daxlanden": {
         "days": [
@@ -21,7 +21,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.0046859, 8.3323837]
     },
     "Durlach": {
         "days": [
@@ -33,7 +33,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [48.9991056, 8.4714722]
     },
     "Gottesauer Platz": {
         "days": [
@@ -45,7 +45,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.0074213, 8.4237841]
     },
     "Gutenbergplatz": {
         "days": [
@@ -57,7 +57,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [49.008835, 8.375717]
     },
     "Grünwinkel": {
         "days": [
@@ -69,7 +69,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.00252, 8.35588]
     },
     "Knielingen": {
         "days": [
@@ -81,7 +81,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [49.030625, 8.340640]
     },
     "Kronenplatz": {
         "days": [
@@ -93,7 +93,7 @@
             [[9, 0], [16, 0]],
             null
         ],
-        "location": null
+        "location": [49.008690, 8.409358]
     },
     "Mühlburg": {
         "days": [
@@ -105,7 +105,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.010222, 8.358549]
     },
     "Neureut": {
         "days": [
@@ -117,7 +117,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.0445057, 8.382284]
     },
     "Nordweststadt": {
         "days": [
@@ -129,7 +129,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [49.0291955, 8.3700837]
     },
     "Oberreut": {
         "days": [
@@ -141,7 +141,7 @@
             [[14, 0], [18, 30]],
             null
         ],
-        "location": null
+        "location": [48.9857738, 8.3621401]
     },
     "Rüppurr": {
         "days": [
@@ -153,7 +153,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [48.9713553, 8.4050009]
     },
     "Stephanplatz": {
         "days": [
@@ -166,7 +166,7 @@
             null,
             null
         ],
-        "location": null
+        "location": [49.0086757, 8.3940901]
     },
     "Waldstadt": {
         "days": [
@@ -178,7 +178,7 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [49.0347051, 8.4441821]
     },
     "Werderplatz": {
         "days": [
@@ -190,6 +190,6 @@
             [[7, 30], [14, 0]],
             null
         ],
-        "location": null
+        "location": [49.0015128, 8.4069493]
     }
 }
