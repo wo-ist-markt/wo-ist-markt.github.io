@@ -174,11 +174,9 @@
                         marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
                         if (todayTimes !== null) {
                             if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
-                                console.log(todayTimes + ' is open');
                                 marker.setIcon(nowIcon);
                                 nowGroup.addLayer(marker);
                             } else {
-                                console.log(todayTimes + ' is closed');
                                 marker.setIcon(todayIcon);
                                 todayGroup.addLayer(marker);
                             }
@@ -188,6 +186,17 @@
                         }
                     }
                     map.addLayer(nowGroup);
+                    if (nowGroup.getLayers().length > 0) {
+                        $('#now').attr('checked', true);
+                    } else {
+                        $('#now').attr('disabled', true);
+                        if (todayGroup.getLayers().length > 0) {
+                            $('#today').attr('checked', true);
+                        } else {
+                            $('#today').attr('disabled', true);
+                            $('#other').attr('checked', true);
+                        }
+                    }
                     updateLayers();
                 });
 
@@ -206,9 +215,9 @@
         <div id="legend">
             <h1>Wo ist Markt in Karlsruhe?</h1>
             <form>
-                <label><input type="radio" name="display" value="now"/>jetzt</label>
-                <label><input type="radio" name="display" value="today" checked="checked"/>heute</label>
-                <label><input type="radio" name="display" value="other"/>alle</label>
+                <label><input type="radio" name="display" id="now" value="now"/>jetzt</label>
+                <label><input type="radio" name="display" id="today" value="today"/>heute</label>
+                <label><input type="radio" name="display" id="other" value="other"/>alle</label>
             </form>
             <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a>.
             <a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">Daten</a> von der Stadt
