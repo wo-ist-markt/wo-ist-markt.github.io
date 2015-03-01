@@ -274,11 +274,13 @@
 
             $(document).ready(function() {
                 initMap();
-                $.getJSON("markt.json", initMarkers);
-                initControls();
-                map.addLayer(nowGroup);
-                updateLayers();
                 initLegend();
+                $.getJSON("markt.json", function(json) {
+                    initMarkers(json);
+                    initControls();
+                    map.addLayer(nowGroup);
+                    updateLayers();
+                });
             });
         </script>
     </head>
