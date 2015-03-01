@@ -69,6 +69,10 @@
             table.times tr.today * {
                 font-weight: bold;
             }
+
+            :disabled + span {
+                color: #999;
+            }
         </style>
 
         <script src="jquery-1.11.2.min.js"></script>
@@ -206,7 +210,7 @@
                 };
                 legend.addTo(map);
 
-                $("input[name=display]").click(updateLayers);
+                $("input[name=display]").change(updateLayers);
             });
         </script>
     </head>
@@ -215,9 +219,9 @@
         <div id="legend">
             <h1>Wo ist Markt in Karlsruhe?</h1>
             <form>
-                <label><input type="radio" name="display" id="now" value="now"/>jetzt</label>
-                <label><input type="radio" name="display" id="today" value="today"/>heute</label>
-                <label><input type="radio" name="display" id="other" value="other"/>alle</label>
+                <label><input type="radio" name="display" id="now" value="now"/><span>jetzt</span></label>
+                <label><input type="radio" name="display" id="today" value="today"/><span>heute</span></label>
+                <label><input type="radio" name="display" id="other" value="other"/><span>alle</span></label>
             </form>
             <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a>.
             <a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">Daten</a> von der Stadt
