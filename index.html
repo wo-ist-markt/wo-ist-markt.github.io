@@ -110,6 +110,15 @@
                               'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                               'CartoDB</a>';
 
+
+            /*
+             * Leaflet uses a combination of a marker's y position and an offset to
+             * set the Z index.
+             */
+            var OTHER_Z_OFFSET = screen.height;
+            var TODAY_Z_OFFSET = 2 * OTHER_Z_OFFSET;
+            var NOW_Z_OFFSET = 3 * OTHER_Z_OFFSET;
+
             var map;
             var nowGroup = L.layerGroup();
             var todayGroup = L.layerGroup();
@@ -237,13 +246,16 @@
                     if (todayTimes !== null) {
                         if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
                             marker.setIcon(nowIcon);
+                            marker.setZIndexOffset(NOW_Z_OFFSET);
                             nowGroup.addLayer(marker);
                         } else {
                             marker.setIcon(todayIcon);
+                            marker.setZIndexOffset(TODAY_Z_OFFSET);
                             todayGroup.addLayer(marker);
                         }
                     } else {
                         marker.setIcon(otherIcon);
+                        marker.setZIndexOffset(OTHER_Z_OFFSET);
                         otherGroup.addLayer(marker);
                     }
                 }
