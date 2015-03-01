@@ -60,9 +60,14 @@
                 font-weight: bold;
             }
 
+            table.times {
+                margin-top: 0.75em;
+            }
+
             table.times th {
                 font-weight: normal;
                 font-style: italic;
+                padding-left: 0;
                 padding-right: 0.75em;
             }
 
@@ -85,6 +90,11 @@
 
             .leaflet-popup-content h1 {
                 font-size: 120%;
+                margin-bottom: 0.25em;
+            }
+
+            .leaflet-popup-content p {
+                margin: 0;
             }
         </style>
 
@@ -146,7 +156,7 @@
                         }
                         s += '<tr' + cls + '><th>' + dayNames[i] + '</th><td>' +
                              t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2) +
-                             '</td></tr>';
+                             ' Uhr</td></tr>';
                     }
                 }
                 s += '</table>';
@@ -216,8 +226,14 @@
                     var data = json[market];
                     var times = data['days'];
                     var todayTimes = times[dayIndex];
-                    var marker = L.marker(data['location']);
-                    marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
+                    var marker = L.marker(data['coordinates']);
+                    var where = data['location'];
+                    if (where !== null) {
+                        where = '<p>' + where + '</p>';
+                    } else {
+                        where = '';
+                    }
+                    marker.bindPopup('<h1>' + market + '</h1>' + where + timeTable(times));
                     if (todayTimes !== null) {
                         if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
                             marker.setIcon(nowIcon);
