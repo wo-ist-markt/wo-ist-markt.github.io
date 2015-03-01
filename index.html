@@ -161,6 +161,35 @@
                 return (a1[0] > a2[0] || (a1[0] === a2[0] && a1[1] > a2[1]));
             }
 
+            /*
+             * Initialize map.
+             */
+            function initMap() {
+                var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
+                map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
+            }
+
+            /*
+             * Initialize layer controls.
+             */
+            function initControls() {
+                if (nowGroup.getLayers().length > 0) {
+                    $('#now').attr('checked', true);
+                } else {
+                    $('#now').attr('disabled', true);
+                    if (todayGroup.getLayers().length > 0) {
+                        $('#today').attr('checked', true);
+                    } else {
+                        $('#today').attr('disabled', true);
+                        $('#other').attr('checked', true);
+                    }
+                }
+                $("input[name=display]").change(updateLayers);
+            }
+
+            /*
+             * Update layer visibility according to layer control settings.
+             */
             function updateLayers() {
                 var value = document.querySelector('[name="display"]:checked').value;
                 switch (value) {
@@ -179,51 +208,49 @@
                 }
             }
 
-            $(document).ready(function() {
-                var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-                map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
-                $.getJSON("markt.json", function(json) {
-                    for (var market in json) {
-                        var data = json[market];
-                        var times = data['days'];
-                        var todayTimes = times[dayIndex];
-                        var marker = L.marker(data['location']);
-                        marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
-                        if (todayTimes !== null) {
-                            if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
-                                marker.setIcon(nowIcon);
-                                nowGroup.addLayer(marker);
-                            } else {
-                                marker.setIcon(todayIcon);
-                                todayGroup.addLayer(marker);
-                            }
+            /*
+             * Create map markers from JSON market data.
+             */
+            function initMarkers(json) {
+                for (var market in json) {
+                    var data = json[market];
+                    var times = data['days'];
+                    var todayTimes = times[dayIndex];
+                    var marker = L.marker(data['location']);
+                    marker.bindPopup('<h1>' + market + '</h1>' + timeTable(times));
+                    if (todayTimes !== null) {
+                        if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
+                            marker.setIcon(nowIcon);
+                            nowGroup.addLayer(marker);
                         } else {
-                            marker.setIcon(otherIcon);
-                            otherGroup.addLayer(marker);
+                            marker.setIcon(todayIcon);
+                            todayGroup.addLayer(marker);
                         }
-                    }
-                    map.addLayer(nowGroup);
-                    if (nowGroup.getLayers().length > 0) {
-                        $('#now').attr('checked', true);
                     } else {
-                        $('#now').attr('disabled', true);
-                        if (todayGroup.getLayers().length > 0) {
-                            $('#today').attr('checked', true);
-                        } else {
-                            $('#today').attr('disabled', true);
-                            $('#other').attr('checked', true);
-                        }
+                        marker.setIcon(otherIcon);
+                        otherGroup.addLayer(marker);
                     }
-                    updateLayers();
-                });
+                }
+            }
 
+            /*
+             * Initialize legend.
+             */
+            function initLegend() {
                 var legend = L.control({position: 'bottomright'});
                 legend.onAdd = function (m) {
                     return L.DomUtil.get('legend');
                 };
                 legend.addTo(map);
+            }
 
-                $("input[name=display]").change(updateLayers);
+            $(document).ready(function() {
+                initMap();
+                $.getJSON("markt.json", initMarkers);
+                initControls();
+                map.addLayer(nowGroup);
+                updateLayers();
+                initLegend();
             });
         </script>
     </head>
