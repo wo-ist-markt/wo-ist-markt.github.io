@@ -181,16 +181,24 @@
 
             /*
              * Initialize layer controls.
+             *
+             * Controls which serve no purpose are disabled. For example, if
+             * currently no markets are open then the corresponding radio
+             * button is disabled.
              */
             function initControls() {
+                var todayCount = todayGroup.getLayers().length;
+                if (todayCount === 0) {
+                    // No markets today or all of today's markets currently open
+                    $('#today').attr('disabled', true);
+                }
                 if (nowGroup.getLayers().length > 0) {
                     $('#now').attr('checked', true);
                 } else {
                     $('#now').attr('disabled', true);
-                    if (todayGroup.getLayers().length > 0) {
+                    if (todayCount > 0) {
                         $('#today').attr('checked', true);
                     } else {
-                        $('#today').attr('disabled', true);
                         $('#other').attr('checked', true);
                     }
                 }
