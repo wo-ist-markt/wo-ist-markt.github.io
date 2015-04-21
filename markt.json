@@ -84,7 +84,7 @@
             [[7, 30], [14, 0]],
             null,
             null,
-            [[7, 30], [14, 0]],
+            [[7, 30], [16, 0]],
             null
         ],
         "location": "Auf dem Elsässer Platz",
@@ -148,8 +148,8 @@
             null,
             null,
             null,
-            null,
             [[14, 0], [18, 30]],
+            null,
             null
         ],
         "location": "Auf dem Julius-Leber-Platz",
@@ -174,7 +174,6 @@
             null,
             [[7, 30], [14, 0]],
             null,
-            [[7, 30], [14, 0]],
             [[7, 30], [14, 0]],
             null,
             null
