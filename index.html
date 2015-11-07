@@ -173,6 +173,15 @@
             }
 
             /*
+             * Returns true if time is within the given time range; otherwise false.
+             */
+            function timeRangeContainsTime(timeRange, time) {
+                var startTime = timeRange[0];
+                var endTime = timeRange[1];
+                return lexgt(time, startTime) && lexgt(endTime, time);
+            }
+
+            /*
              * Initialize map.
              */
             function initMap() {
@@ -246,7 +255,7 @@
                     var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
                     marker.bindPopup(popupHtml);
                     if (todayTimes !== null) {
-                        if (lexgt(TIME_NOW, todayTimes[0]) && lexgt(todayTimes[1], TIME_NOW)) {
+                        if (timeRangeContainsTime(todayTimes, TIME_NOW)) {
                             marker.setIcon(nowIcon);
                             nowGroup.addLayer(marker);
                         } else {
