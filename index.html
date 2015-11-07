@@ -242,7 +242,9 @@
                     } else {
                         where = '';
                     }
-                    marker.bindPopup('<h1>' + market + '</h1>' + where + timeTable(times));
+                    var timeTableHtml = timeTable(times);
+                    var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
+                    marker.bindPopup(popupHtml);
                     if (todayTimes !== null) {
                         if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
                             marker.setIcon(nowIcon);
