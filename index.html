@@ -117,9 +117,9 @@
             var otherGroup = L.layerGroup();
 
             var now = new Date();
-            var time = [now.getHours(), now.getMinutes()];
-            var dayIndex = (now.getDay() + 6) % 7;  // In our data, first day is Monday
-            var dayNames = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
+            var TIME_NOW = [now.getHours(), now.getMinutes()];
+            var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
+            var DAY_NAMES = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
 
             L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
             var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
@@ -150,12 +150,12 @@
                 for (var i = 0; i < 7; i++) {
                     var t = times[i];
                     if (t !== null) {
-                        if (i === dayIndex) {
+                        if (i === DAY_INDEX) {
                             cls = ' class="today"';
                         } else {
                             cls = '';
                         }
-                        s += '<tr' + cls + '><th>' + dayNames[i] + '</th><td>' +
+                        s += '<tr' + cls + '><th>' + DAY_NAMES[i] + '</th><td>' +
                              t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2) +
                              ' Uhr</td></tr>';
                     }
@@ -170,6 +170,15 @@
              */
             function lexgt(a1, a2) {
                 return (a1[0] > a2[0] || (a1[0] === a2[0] && a1[1] > a2[1]));
+            }
+
+            /*
+             * Returns true if time is within the given time range; otherwise false.
+             */
+            function timeRangeContainsTime(timeRange, time) {
+                var startTime = timeRange[0];
+                var endTime = timeRange[1];
+                return lexgt(time, startTime) && lexgt(endTime, time);
             }
 
             /*
@@ -234,7 +243,7 @@
                 for (var market in json) {
                     var data = json[market];
                     var times = data['days'];
-                    var todayTimes = times[dayIndex];
+                    var todayTimes = times[DAY_INDEX];
                     var marker = L.marker(data['coordinates']);
                     var where = data['location'];
                     if (where !== null) {
@@ -242,9 +251,11 @@
                     } else {
                         where = '';
                     }
-                    marker.bindPopup('<h1>' + market + '</h1>' + where + timeTable(times));
+                    var timeTableHtml = timeTable(times);
+                    var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
+                    marker.bindPopup(popupHtml);
                     if (todayTimes !== null) {
-                        if (lexgt(time, todayTimes[0]) && lexgt(todayTimes[1], time)) {
+                        if (timeRangeContainsTime(todayTimes, TIME_NOW)) {
                             marker.setIcon(nowIcon);
                             nowGroup.addLayer(marker);
                         } else {
