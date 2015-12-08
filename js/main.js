@@ -70,23 +70,6 @@ function getTableRowForDay(openingRange, dayIsToday) {
 }
 
 /*
- * Check if 2-tuple `a1` is lexicographically greater than
- * 2-tuple `a2`.
- */
-function lexgt(a1, a2) {
-    return (a1[0] > a2[0] || (a1[0] === a2[0] && a1[1] > a2[1]));
-}
-
-/*
- * Returns true if time is within the given time range; otherwise false.
- */
-function timeRangeContainsTime(timeRange, time) {
-    var startTime = timeRange[0];
-    var endTime = timeRange[1];
-    return lexgt(time, startTime) && lexgt(endTime, time);
-}
-
-/*
  * Initialize map.
  */
 function initMap() {
@@ -152,6 +135,14 @@ function openingRangeMatchesDay(openingRange, date) {
 }
 
 /*
+ * Returns true if opening range contains the time of the given date; otherwise false.
+ */
+function openingRangeContainsTime(openingRange, date) {
+    var range = moment.range(openingRange[0], openingRange[1]);
+    return range.contains(date);
+}
+
+/*
  * Returns opening ranges compiled via opening_hours.js.
  */
 function getOpeningRanges(opening_hours_strings) {
@@ -162,15 +153,31 @@ function getOpeningRanges(opening_hours_strings) {
 }
 
 /*
+ * Returns opening range for date or undefined.
+ */
+function getOpeningRangeForDate(openingRanges, date) {
+    if (openingRanges !== undefined) {
+        for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
+            var openingRange = openingRanges[index];
+
+            var dayIsToday = openingRangeMatchesDay(openingRange, date);
+            if (dayIsToday) {
+                return openingRange;
+            }
+        }
+    }
+    return undefined;
+}
+
+/*
  * Create map markers from JSON market data.
  */
 function initMarkers(json) {
     for (var market in json) {
         var data = json[market];
-        var times = data['days'];
         var opening_hours_strings = data['opening_hours'];
         var openingRanges = getOpeningRanges(opening_hours_strings);
-        var todayTimes = times[DAY_INDEX];
+        var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
         var marker = L.marker(data['coordinates']);
         var where = data['location'];
         if (where !== null) {
@@ -181,8 +188,8 @@ function initMarkers(json) {
         var timeTableHtml = getTimeTable(openingRanges);
         var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
         marker.bindPopup(popupHtml);
-        if (todayTimes !== null) {
-            if (timeRangeContainsTime(todayTimes, TIME_NOW)) {
+        if (todayOpeningRange !== undefined) {
+            if (openingRangeContainsTime(todayOpeningRange, now)) {
                 marker.setIcon(nowIcon);
                 nowGroup.addLayer(marker);
             } else {

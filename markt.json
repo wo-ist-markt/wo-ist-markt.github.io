@@ -1,224 +1,80 @@
 {
     "Bauernmarkt Durlach": {
-        "days": [
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null,
-            null,
-            null
-        ],
         "opening_hours": "We 07:30-14:00",
         "location": "Am Saumarkt",
         "coordinates": [48.9988247, 8.4708768]
     },
     "Daxlanden": {
-        "days": [
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null
-        ],
         "opening_hours": "Tu, Fr 07:30-14:00",
         "location": "Vor der Heilig-Geist-Kirche",
         "coordinates": [49.0046859, 8.3323837]
     },
     "Durlach": {
-        "days": [
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "Mo-Sa 07:30-14:00",
         "location": "Auf dem Marktplatz",
         "coordinates": [48.9991056, 8.4714722]
     },
     "Gottesauer Platz": {
-        "days": [
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null
-        ],
         "opening_hours": "Mo, We, Fr 07:30-14:00",
         "location": null,
         "coordinates": [49.0074213, 8.4237841]
     },
     "Gutenbergplatz": {
-        "days": [
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "Tu, Th, Sa 07:30-14:00",
         "location": null,
         "coordinates": [49.008835, 8.375717]
     },
     "Grünwinkel": {
-        "days": [
-            null,
-            null,
-            null,
-            [[14, 0], [18, 30]],
-            null,
-            null,
-            null
-        ],
         "opening_hours": "Th 14:00-18:30",
         "location": "Auf dem Robert-Sinner-Platz",
         "coordinates": [49.00252, 8.35588]
     },
     "Knielingen": {
-        "days": [
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [16, 0]],
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "We, Sa 07:30-14:00; Fr 07:30-16:00",
         "location": "Auf dem Elsässer Platz",
         "coordinates": [49.030625, 8.340640]
     },
     "Kronenplatz": {
-        "days": [
-            [[9, 0], [20, 0]],
-            [[9, 0], [20, 0]],
-            [[9, 0], [20, 0]],
-            [[9, 0], [20, 0]],
-            [[9, 0], [20, 0]],
-            [[9, 0], [16, 0]],
-            null
-        ],
         "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00",
         "location": null,
         "coordinates": [49.008690, 8.409358]
     },
     "Mühlburg": {
-        "days": [
-            null,
-            null,
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null
-        ],
         "opening_hours": "Fr 07:30-14:00",
         "location": "Am Entenfang",
         "coordinates": [49.010222, 8.358549]
     },
     "Neureut": {
-        "days": [
-            null,
-            null,
-            null,
-            null,
-            [[7, 30], [18, 0]],
-            null,
-            null
-        ],
         "opening_hours": "Fr 07:30-18:00",
         "location": "Auf dem Neureuter Platz",
         "coordinates": [49.0445057, 8.382284]
     },
     "Nordweststadt": {
-        "days": [
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "Tu, Sa 07:30-14:00",
         "location": "Auf dem Walther-Rathenau-Platz",
         "coordinates": [49.0291955, 8.3700837]
     },
     "Oberreut": {
-        "days": [
-            null,
-            null,
-            null,
-            null,
-            [[14, 0], [18, 30]],
-            null,
-            null
-        ],
         "opening_hours": "Fr 14:00-18:30",
         "location": "Auf dem Julius-Leber-Platz",
         "coordinates": [48.9857738, 8.3621401]
     },
     "Rüppurr": {
-        "days": [
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "We, Sa 07:30-14:00",
         "location": "Vor der Christ-König-Kirche",
         "coordinates": [48.9713553, 8.4050009]
     },
     "Stephanplatz": {
-        "days": [
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null
-        ],
         "opening_hours": "Mo, We, Fr 07:30-14:00",
         "location": null,
         "coordinates": [49.0086757, 8.3940901]
     },
     "Waldstadt": {
-        "days": [
-            null,
-            null,
-            [[14, 0], [18, 30]],
-            null,
-            [[12, 0], [18, 30]],
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "We 14:00-18:30; Fr 12:00-18:30; Sa 07:30-14:00",
         "location": "Am Waldstadtzentrum",
         "coordinates": [49.0347051, 8.4441821]
     },
     "Werderplatz": {
-        "days": [
-            null,
-            [[7, 30], [14, 0]],
-            null,
-            null,
-            [[7, 30], [14, 0]],
-            [[7, 30], [14, 0]],
-            null
-        ],
         "opening_hours": "Tu, Fr, Sa 07:30-14:00",
         "location": null,
         "coordinates": [49.0015128, 8.4069493]
