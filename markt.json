@@ -1,82 +1,130 @@
 {
     "Bauernmarkt Durlach": {
-        "opening_hours": "We 07:30-14:00",
+        "coordinates": [
+            48.9988247,
+            8.4708768
+        ],
         "location": "Am Saumarkt",
-        "coordinates": [48.9988247, 8.4708768]
+        "opening_hours": "We 07:30-14:00"
     },
     "Daxlanden": {
-        "opening_hours": "Tu, Fr 07:30-14:00",
+        "coordinates": [
+            49.0046859,
+            8.3323837
+        ],
         "location": "Vor der Heilig-Geist-Kirche",
-        "coordinates": [49.0046859, 8.3323837]
+        "opening_hours": "Tu, Fr 07:30-14:00"
     },
     "Durlach": {
-        "opening_hours": "Mo-Sa 07:30-14:00",
+        "coordinates": [
+            48.9991056,
+            8.4714722
+        ],
         "location": "Auf dem Marktplatz",
-        "coordinates": [48.9991056, 8.4714722]
+        "opening_hours": "Mo-Sa 07:30-14:00"
     },
     "Gottesauer Platz": {
-        "opening_hours": "Mo, We, Fr 07:30-14:00",
+        "coordinates": [
+            49.0074213,
+            8.4237841
+        ],
         "location": null,
-        "coordinates": [49.0074213, 8.4237841]
-    },
-    "Gutenbergplatz": {
-        "opening_hours": "Tu, Th, Sa 07:30-14:00",
-        "location": null,
-        "coordinates": [49.008835, 8.375717]
+        "opening_hours": "Mo, We, Fr 07:30-14:00"
     },
     "Grünwinkel": {
-        "opening_hours": "Th 14:00-18:30",
+        "coordinates": [
+            49.00252,
+            8.35588
+        ],
         "location": "Auf dem Robert-Sinner-Platz",
-        "coordinates": [49.00252, 8.35588]
+        "opening_hours": "Th 14:00-18:30"
+    },
+    "Gutenbergplatz": {
+        "coordinates": [
+            49.008835,
+            8.375717
+        ],
+        "location": null,
+        "opening_hours": "Tu, Th, Sa 07:30-14:00"
     },
     "Knielingen": {
-        "opening_hours": "We, Sa 07:30-14:00; Fr 07:30-16:00",
+        "coordinates": [
+            49.030625,
+            8.34064
+        ],
         "location": "Auf dem Elsässer Platz",
-        "coordinates": [49.030625, 8.340640]
+        "opening_hours": "We, Sa 07:30-14:00; Fr 07:30-16:00"
     },
     "Kronenplatz": {
-        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00",
+        "coordinates": [
+            49.00869,
+            8.409358
+        ],
         "location": null,
-        "coordinates": [49.008690, 8.409358]
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00"
     },
     "Mühlburg": {
-        "opening_hours": "Fr 07:30-14:00",
+        "coordinates": [
+            49.010222,
+            8.358549
+        ],
         "location": "Am Entenfang",
-        "coordinates": [49.010222, 8.358549]
+        "opening_hours": "Fr 07:30-14:00"
     },
     "Neureut": {
-        "opening_hours": "Fr 07:30-18:00",
+        "coordinates": [
+            49.0445057,
+            8.382284
+        ],
         "location": "Auf dem Neureuter Platz",
-        "coordinates": [49.0445057, 8.382284]
+        "opening_hours": "Fr 07:30-18:00"
     },
     "Nordweststadt": {
-        "opening_hours": "Tu, Sa 07:30-14:00",
+        "coordinates": [
+            49.0291955,
+            8.3700837
+        ],
         "location": "Auf dem Walther-Rathenau-Platz",
-        "coordinates": [49.0291955, 8.3700837]
+        "opening_hours": "Tu, Sa 07:30-14:00"
     },
     "Oberreut": {
-        "opening_hours": "Fr 14:00-18:30",
+        "coordinates": [
+            48.9857738,
+            8.3621401
+        ],
         "location": "Auf dem Julius-Leber-Platz",
-        "coordinates": [48.9857738, 8.3621401]
+        "opening_hours": "Fr 14:00-18:30"
     },
     "Rüppurr": {
-        "opening_hours": "We, Sa 07:30-14:00",
+        "coordinates": [
+            48.9713553,
+            8.4050009
+        ],
         "location": "Vor der Christ-König-Kirche",
-        "coordinates": [48.9713553, 8.4050009]
+        "opening_hours": "We, Sa 07:30-14:00"
     },
     "Stephanplatz": {
-        "opening_hours": "Mo, We, Fr 07:30-14:00",
+        "coordinates": [
+            49.0086757,
+            8.3940901
+        ],
         "location": null,
-        "coordinates": [49.0086757, 8.3940901]
+        "opening_hours": "Mo, We, Fr 07:30-14:00"
     },
     "Waldstadt": {
-        "opening_hours": "We 14:00-18:30; Fr 12:00-18:30; Sa 07:30-14:00",
+        "coordinates": [
+            49.0347051,
+            8.4441821
+        ],
         "location": "Am Waldstadtzentrum",
-        "coordinates": [49.0347051, 8.4441821]
+        "opening_hours": "We 14:00-18:30; Fr 12:00-18:30; Sa 07:30-14:00"
     },
     "Werderplatz": {
-        "opening_hours": "Tu, Fr, Sa 07:30-14:00",
+        "coordinates": [
+            49.0015128,
+            8.4069493
+        ],
         "location": null,
-        "coordinates": [49.0015128, 8.4069493]
+        "opening_hours": "Tu, Fr, Sa 07:30-14:00"
     }
 }
