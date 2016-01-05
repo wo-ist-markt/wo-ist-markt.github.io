@@ -33,47 +33,40 @@ function pad(num, totalDigits) {
 }
 
 /*
- * Create time-table HTML code.
+ * Creates time-table HTML code.
  *
- * `times` is a list of 7 items. Each item is either `null`
- * (market is not open on that day) or a 2-tuple consisting
- * of the opening and closing times (each of which is given
- * as a 2-tuple consisting of the hour and the minutes).
+ * `openingRanges` is a list of ranges compiled via opening_hours.js.
+ * The first and second element of each range item are the starting and closing dates.
  */
-function timeTable(times) {
-    s = '<table class="times">';
-    for (var i = 0; i < 7; i++) {
-        var t = times[i];
-        if (t !== null) {
-            if (i === DAY_INDEX) {
-                cls = ' class="today"';
-            } else {
-                cls = '';
-            }
-            s += '<tr' + cls + '><th>' + DAY_NAMES[i] + '</th><td>' +
-                 t[0][0] + ':' + pad(t[0][1], 2) + ' - ' + t[1][0] + ':' + pad(t[1][1], 2) +
-                 ' Uhr</td></tr>';
+function getTimeTable(openingRanges) {
+    var html = '<table class="times">';
+    if (openingRanges !== undefined) {
+        for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
+            var openingRange = openingRanges[index];
+
+            var dayIsToday = openingRangeMatchesDay(openingRange, now);
+            var tableRow = getTableRowForDay(openingRange, dayIsToday);
+            html += tableRow;
         }
     }
-    s += '</table>';
-    return s;
+    html += '</table>';
+    return html;
 }
 
 /*
- * Check if 2-tuple `a1` is lexicographically greater than
- * 2-tuple `a2`.
+ * Returns table row for a day with opening hours.
+ * If the day matches today the row is styled.
  */
-function lexgt(a1, a2) {
-    return (a1[0] > a2[0] || (a1[0] === a2[0] && a1[1] > a2[1]));
-}
-
-/*
- * Returns true if time is within the given time range; otherwise false.
- */
-function timeRangeContainsTime(timeRange, time) {
-    var startTime = timeRange[0];
-    var endTime = timeRange[1];
-    return lexgt(time, startTime) && lexgt(endTime, time);
+function getTableRowForDay(openingRange, dayIsToday) {
+    var openFromDate = openingRange[0];
+    var openTillDate = openingRange[1];
+    var dayNameIndex = openFromDate.getDay();
+    var dayName = DAY_NAMES[dayNameIndex - 1];
+    var cls = dayIsToday ? ' class="today"' : '';
+    var formattedOpenFrom = moment(openFromDate).format('HH:mm');
+    var formattedOpenTill = moment(openTillDate).format('HH:mm');
+    return '<tr' + cls + '><th>' + dayName + '</th>' +
+           '<td>' + formattedOpenFrom + ' - ' + formattedOpenTill + ' Uhr</td></tr>';
 }
 
 /*
@@ -132,13 +125,59 @@ function updateLayers() {
 }
 
 /*
+ * Returns true if opening range matches the day of the given date; otherwise false.
+ */
+function openingRangeMatchesDay(openingRange, date) {
+    var openFromDate = openingRange[0];
+    var openTillDate = openingRange[1];
+    var dayIndex = date.getDay();
+    return openFromDate.getDay() == dayIndex && openTillDate.getDay() == dayIndex;
+}
+
+/*
+ * Returns true if opening range contains the time of the given date; otherwise false.
+ */
+function openingRangeContainsTime(openingRange, date) {
+    var range = moment.range(openingRange[0], openingRange[1]);
+    return range.contains(date);
+}
+
+/*
+ * Returns opening ranges compiled via opening_hours.js.
+ */
+function getOpeningRanges(opening_hours_strings) {
+    var monday = moment().startOf("week").add(1, 'days').toDate();
+    var sunday = moment().endOf("week").add(1, 'days').toDate();
+    var oh = new opening_hours(opening_hours_strings);
+    return oh.getOpenIntervals(monday, sunday);
+}
+
+/*
+ * Returns opening range for date or undefined.
+ */
+function getOpeningRangeForDate(openingRanges, date) {
+    if (openingRanges !== undefined) {
+        for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
+            var openingRange = openingRanges[index];
+
+            var dayIsToday = openingRangeMatchesDay(openingRange, date);
+            if (dayIsToday) {
+                return openingRange;
+            }
+        }
+    }
+    return undefined;
+}
+
+/*
  * Create map markers from JSON market data.
  */
 function initMarkers(json) {
     for (var market in json) {
         var data = json[market];
-        var times = data['days'];
-        var todayTimes = times[DAY_INDEX];
+        var opening_hours_strings = data['opening_hours'];
+        var openingRanges = getOpeningRanges(opening_hours_strings);
+        var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
         var marker = L.marker(data['coordinates']);
         var where = data['location'];
         if (where !== null) {
@@ -146,11 +185,11 @@ function initMarkers(json) {
         } else {
             where = '';
         }
-        var timeTableHtml = timeTable(times);
+        var timeTableHtml = getTimeTable(openingRanges);
         var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
         marker.bindPopup(popupHtml);
-        if (todayTimes !== null) {
-            if (timeRangeContainsTime(todayTimes, TIME_NOW)) {
+        if (todayOpeningRange !== undefined) {
+            if (openingRangeContainsTime(todayOpeningRange, now)) {
                 marker.setIcon(nowIcon);
                 nowGroup.addLayer(marker);
             } else {
