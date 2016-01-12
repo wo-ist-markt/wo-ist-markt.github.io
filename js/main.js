@@ -172,34 +172,50 @@ function getOpeningRangeForDate(openingRanges, date) {
 /*
  * Create map markers from JSON market data.
  */
-function initMarkers(json) {
-    for (var market in json) {
-        var data = json[market];
-        var opening_hours_strings = data['opening_hours'];
-        var openingRanges = getOpeningRanges(opening_hours_strings);
-        var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
-        var marker = L.marker(data['coordinates']);
-        var where = data['location'];
-        if (where !== null) {
-            where = '<p>' + where + '</p>';
+function initMarkers(featureCollection) {
+    L.geoJson(featureCollection, {
+        onEachFeature: initMarker
+    });
+}
+
+function initMarker(feature) {
+    var properties = feature.properties;
+    var opening_hours_strings = properties.opening_hours;
+    if (opening_hours_strings === undefined) {
+        throw "Missing property 'opening_hours' for " + properties.title + ".";
+    }
+    var openingRanges = getOpeningRanges(opening_hours_strings);
+    var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
+
+    var coordinates = feature.geometry.coordinates;
+    var marker = L.marker(L.latLng(coordinates[1], coordinates[0]));
+    var where = properties.location;
+    if (where === undefined) {
+        throw "Missing property 'location' for " + properties.title + ".";
+    }
+    if (where !== null) {
+        where = '<p>' + where + '</p>';
+    } else {
+        where = '';
+    }
+    var title = properties.title;
+    if (title === undefined) {
+        throw "Missing property 'title'.";
+    }
+    var timeTableHtml = getTimeTable(openingRanges);
+    var popupHtml = '<h1>' + title + '</h1>' + where + timeTableHtml;
+    marker.bindPopup(popupHtml);
+    if (todayOpeningRange !== undefined) {
+        if (openingRangeContainsTime(todayOpeningRange, now)) {
+            marker.setIcon(nowIcon);
+            nowGroup.addLayer(marker);
         } else {
-            where = '';
+            marker.setIcon(todayIcon);
+            todayGroup.addLayer(marker);
         }
-        var timeTableHtml = getTimeTable(openingRanges);
-        var popupHtml = '<h1>' + market + '</h1>' + where + timeTableHtml;
-        marker.bindPopup(popupHtml);
-        if (todayOpeningRange !== undefined) {
-            if (openingRangeContainsTime(todayOpeningRange, now)) {
-                marker.setIcon(nowIcon);
-                nowGroup.addLayer(marker);
-            } else {
-                marker.setIcon(todayIcon);
-                todayGroup.addLayer(marker);
-            }
-        } else {
-            marker.setIcon(otherIcon);
-            otherGroup.addLayer(marker);
-        }
+    } else {
+        marker.setIcon(otherIcon);
+        otherGroup.addLayer(marker);
     }
 }
 
@@ -217,7 +233,7 @@ function initLegend() {
 $(document).ready(function() {
     initMap();
     initLegend();
-    $.getJSON("markt.json", function(json) {
+    $.getJSON("maerkte-karlsruhe.json", function(json) {
         initMarkers(json);
         initControls();
         map.addLayer(nowGroup);
