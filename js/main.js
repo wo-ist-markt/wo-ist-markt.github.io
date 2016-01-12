@@ -15,6 +15,7 @@ var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
 var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
 var DAY_NAMES = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
+var DEFAULT_MARKET_TITLE = 'Markt';
 
 L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
 var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
@@ -201,6 +202,9 @@ function initMarker(feature) {
     var title = properties.title;
     if (title === undefined) {
         throw "Missing property 'title'.";
+    }
+    if (title === null || title.length == 0) {
+        title = DEFAULT_MARKET_TITLE;
     }
     var timeTableHtml = getTimeTable(openingRanges);
     var popupHtml = '<h1>' + title + '</h1>' + where + timeTableHtml;
