@@ -14,7 +14,7 @@ var otherGroup = L.layerGroup();
 var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
 var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
-var DAY_NAMES = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
+var DAY_NAMES = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
 var DEFAULT_MARKET_TITLE = 'Markt';
 
 L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
@@ -62,7 +62,7 @@ function getTableRowForDay(openingRange, dayIsToday) {
     var openFromDate = openingRange[0];
     var openTillDate = openingRange[1];
     var dayNameIndex = openFromDate.getDay();
-    var dayName = DAY_NAMES[dayNameIndex - 1];
+    var dayName = DAY_NAMES[dayNameIndex];
     var cls = dayIsToday ? ' class="today"' : '';
     var formattedOpenFrom = moment(openFromDate).format('HH:mm');
     var formattedOpenTill = moment(openTillDate).format('HH:mm');
