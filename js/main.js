@@ -183,7 +183,7 @@ function initMarker(feature) {
     var properties = feature.properties;
     var opening_hours_strings = properties.opening_hours;
     if (opening_hours_strings === undefined) {
-        throw "Missing property 'opening_hours' for " + properties.title + ".";
+        throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
     }
     var openingRanges = getOpeningRanges(opening_hours_strings);
     var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
