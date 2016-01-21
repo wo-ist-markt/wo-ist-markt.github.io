@@ -5,6 +5,7 @@ var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreet
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
+var JSON_URL = "maerkte-karlsruhe.json";
 
 var map;
 var nowGroup = L.layerGroup();
@@ -237,7 +238,7 @@ function initLegend() {
 $(document).ready(function() {
     initMap();
     initLegend();
-    $.getJSON("maerkte-karlsruhe.json", function(json) {
+    $.getJSON(JSON_URL, function(json) {
         initMarkers(json);
         initControls();
         map.addLayer(nowGroup);
