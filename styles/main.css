@@ -87,3 +87,8 @@ table.times tr.today * {
 .leaflet-popup-content p {
     margin: 0;
 }
+
+.leaflet-popup-content p.unclassified {
+    margin-top: 0.5em;
+    font-style: italic;
+}
