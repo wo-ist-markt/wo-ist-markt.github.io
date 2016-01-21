@@ -10,6 +10,7 @@ var map;
 var nowGroup = L.layerGroup();
 var todayGroup = L.layerGroup();
 var otherGroup = L.layerGroup();
+var unclassifiedGroup = L.layerGroup();
 
 var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
@@ -21,6 +22,7 @@ L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
 var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
 var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'shopping-cart'});
 var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'shopping-cart'});
+var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'shopping-cart'});
 
 /*
  * Return 0-padded string of a number.
@@ -183,10 +185,18 @@ function initMarker(feature) {
     var properties = feature.properties;
     var opening_hours_strings = properties.opening_hours;
     if (opening_hours_strings === undefined) {
-        throw "Missing property 'opening_hours' for " + properties.title + ".";
+        throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
     }
-    var openingRanges = getOpeningRanges(opening_hours_strings);
-    var todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
+    var todayOpeningRange = undefined;
+    var timeTableHtml = undefined;
+    var opening_hours_unclassified = undefined;
+    if (opening_hours_strings === null || opening_hours_strings.length == 0) {
+        opening_hours_unclassified = properties.opening_hours_unclassified;
+    } else {
+        var openingRanges = getOpeningRanges(opening_hours_strings);
+        todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
+        timeTableHtml = getTimeTable(openingRanges);
+    }
 
     var coordinates = feature.geometry.coordinates;
     var marker = L.marker(L.latLng(coordinates[1], coordinates[0]));
@@ -206,8 +216,12 @@ function initMarker(feature) {
     if (title === null || title.length == 0) {
         title = DEFAULT_MARKET_TITLE;
     }
-    var timeTableHtml = getTimeTable(openingRanges);
-    var popupHtml = '<h1>' + title + '</h1>' + where + timeTableHtml;
+    var popupHtml = '<h1>' + title + '</h1>' + where;
+    if (opening_hours_unclassified !== undefined) {
+        popupHtml += '<p class="unclassified">' + opening_hours_unclassified + '</p>';
+    } else {
+        popupHtml += timeTableHtml;
+    }
     marker.bindPopup(popupHtml);
     if (todayOpeningRange !== undefined) {
         if (openingRangeContainsTime(todayOpeningRange, now)) {
@@ -218,8 +232,13 @@ function initMarker(feature) {
             todayGroup.addLayer(marker);
         }
     } else {
-        marker.setIcon(otherIcon);
-        otherGroup.addLayer(marker);
+        if (opening_hours_unclassified !== undefined) {
+            marker.setIcon(unclassifiedIcon);
+            unclassifiedGroup.addLayer(marker);
+        } else {
+            marker.setIcon(otherIcon);
+            otherGroup.addLayer(marker);
+        }
     }
 }
 
@@ -240,6 +259,7 @@ $(document).ready(function() {
     $.getJSON("maerkte-karlsruhe.json", function(json) {
         initMarkers(json);
         initControls();
+        map.addLayer(unclassifiedGroup);
         map.addLayer(nowGroup);
         updateLayers();
     });
