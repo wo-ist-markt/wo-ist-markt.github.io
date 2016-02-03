@@ -306,10 +306,20 @@ function updateDocumentTitle(cityName) {
 }
 
 /*
+ * Updates the legend data source.
+ */
+function updateLegendDataSource(dataSource) {
+    var title = dataSource.title;
+    var url = dataSource.url;
+    $("#legend #dataSource").html('<a href="' + url + '">' + title + '</a>');
+}
+
+/*
  * Initialize application when market data is loaded.
  */
 function init(json, cityName) {
     positionMap(json.metadata.map_initialization);
+    updateLegendDataSource(json.metadata.data_source)
     initMarkers(json);
     initControls();
     map.addLayer(unclassifiedGroup);
