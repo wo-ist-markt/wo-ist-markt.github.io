@@ -1,6 +1,4 @@
 var TILES_URL = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
-var INITIAL_LOCATION = [49.0140679, 8.4044366];
-var INITIAL_ZOOM = 13;
 var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
@@ -78,7 +76,16 @@ function getTableRowForDay(openingRange, dayIsToday) {
  */
 function initMap() {
     var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
+    map = new L.Map('map').addLayer(tiles);
+}
+
+/*
+ * Moves the map to its initial position.
+ */
+function positionMap(mapInitialization) {
+    var coordinates = mapInitialization.coordinates;
+    var zoomLevel = mapInitialization.zoom_level;
+    map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
 }
 
 /*
@@ -258,6 +265,7 @@ $(document).ready(function() {
     initMap();
     initLegend();
     $.getJSON(JSON_URL, function(json) {
+        positionMap(json.metadata.map_initialization);
         initMarkers(json);
         initControls();
         map.addLayer(unclassifiedGroup);

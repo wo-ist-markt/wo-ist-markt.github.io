@@ -247,5 +247,14 @@
             "type": "Feature"
         }
     ],
+    "metadata": {
+        "map_initialization": {
+            "coordinates": [
+                8.4044366,
+                49.0140679
+            ],
+            "zoom_level": 13
+        }
+    },
     "type": "FeatureCollection"
 }
