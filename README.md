@@ -1,8 +1,6 @@
-# Markets in Karlsruhe
+# A map of farmer markets
 
-A small visualization of the weekly farmer markets in [Karlsruhe][karlsruhe-wikipedia].
-
-The raw data is [provided by the city of Karlsruhe][karlsruhe-wochenmarkte].
+A small visualization of the weekly markets in different cities.
 
 
 ## Data format
@@ -18,6 +16,24 @@ The raw data is [provided by the city of Karlsruhe][karlsruhe-wochenmarkte].
 * Besides the actual market information map **coordinates** and **zoom level** must be provided.
   These information are being used to set the initial position of the map. They must be part of
   the city-specific GeoJSON file. Please adapt the format as being used in *maerkte-karlsruhe.json*.
+
+
+## Navigation
+
+* The individual market data for supported cities is displayed when the city name is given in the
+  address bar of the browser.
+
+  Example: https://codeforkarlsruhe.github.io/wo-ist-markt/#karlsruhe.
+
+  By default or on error *Karlsruhe* is rendered.
+
+
+## Supported cities
+
+|City name|Data source|
+|:---|:---|
+|[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-wochenmarkte]|
+
 
 
 [geojson]: http://geojson.org

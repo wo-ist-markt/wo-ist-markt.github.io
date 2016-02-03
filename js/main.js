@@ -3,7 +3,7 @@ var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreet
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
-var JSON_URL = "maerkte-karlsruhe.json";
+var DEFAULT_CITY = "karlsruhe";
 
 var map;
 var nowGroup = L.layerGroup();
@@ -261,15 +261,64 @@ function initLegend() {
     legend.addTo(map);
 }
 
+/*
+ * Returns the city name when present in the hash of the current URI;
+ * otherwise the default city name;
+ */
+function getCityName() {
+    var hash = window.location.hash;
+    if (hash === undefined || hash === "") {
+        return DEFAULT_CITY;
+    } else {
+        hash = hash.toLowerCase();
+        return hash.substring(1, hash.length);
+    }
+}
+
+/*
+ * Constructs a file path for the market data from the given city name.
+ */
+function getMarketDataFilePath(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    return "maerkte/" + cityName + ".json";
+}
+
+/*
+ * Initialize application when market data is loaded.
+ */
+function init(json) {
+    positionMap(json.metadata.map_initialization);
+    initMarkers(json);
+    initControls();
+    map.addLayer(unclassifiedGroup);
+    map.addLayer(nowGroup);
+    updateLayers();
+}
+
+/*
+ * Forces reloading when URI hash changed.
+ */
+$(window).on('hashchange',function() {
+    window.location.reload(true);
+});
+
 $(document).ready(function() {
     initMap();
     initLegend();
-    $.getJSON(JSON_URL, function(json) {
-        positionMap(json.metadata.map_initialization);
-        initMarkers(json);
-        initControls();
-        map.addLayer(unclassifiedGroup);
-        map.addLayer(nowGroup);
-        updateLayers();
+    var cityName = getCityName();
+    var marketDataFileName = getMarketDataFilePath(cityName);
+    $.getJSON(marketDataFileName, function(json) {
+        init(json);
+    }).fail(function() {
+        console.log("Failure loading '" + marketDataFileName + "'. Loading market file for default city (" + DEFAULT_CITY + ") instead.");
+        cityName = DEFAULT_CITY;
+        marketDataFileName = getMarketDataFilePath(cityName);
+        $.getJSON(marketDataFileName, function(json) {
+            init(json);
+        }).fail(function() {
+           console.log("Failure loading default market file.");
+        });
     });
 });
