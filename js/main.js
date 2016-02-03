@@ -306,6 +306,17 @@ function updateDocumentTitle(cityName) {
 }
 
 /*
+ * Updates the legend headline.
+ */
+function updateLegendHeadline(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    var formattedCityName = toCamelCase(cityName);
+    $("#legend h1").text("Wo ist Markt in " + formattedCityName +"?");
+}
+
+/*
  * Updates the legend data source.
  */
 function updateLegendDataSource(dataSource) {
@@ -326,6 +337,7 @@ function init(json, cityName) {
     map.addLayer(nowGroup);
     updateLayers();
     updateDocumentTitle(cityName);
+    updateLegendHeadline(cityName);
 }
 
 /*
