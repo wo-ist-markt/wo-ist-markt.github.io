@@ -286,15 +286,36 @@ function getMarketDataFilePath(cityName) {
 }
 
 /*
+ * Returns the given string in camel case.
+ */
+function toCamelCase(str) {
+    return str.replace(/(?:^|\s)\w/g, function(match) {
+        return match.toUpperCase();
+    });
+}
+
+/*
+ * Updates the document title.
+ */
+function updateDocumentTitle(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    var formattedCityName = toCamelCase(cityName);
+    document.title = "Wo ist Markt in " + formattedCityName +"?";
+}
+
+/*
  * Initialize application when market data is loaded.
  */
-function init(json) {
+function init(json, cityName) {
     positionMap(json.metadata.map_initialization);
     initMarkers(json);
     initControls();
     map.addLayer(unclassifiedGroup);
     map.addLayer(nowGroup);
     updateLayers();
+    updateDocumentTitle(cityName);
 }
 
 /*
@@ -310,13 +331,13 @@ $(document).ready(function() {
     var cityName = getCityName();
     var marketDataFileName = getMarketDataFilePath(cityName);
     $.getJSON(marketDataFileName, function(json) {
-        init(json);
+        init(json, cityName);
     }).fail(function() {
         console.log("Failure loading '" + marketDataFileName + "'. Loading market file for default city (" + DEFAULT_CITY + ") instead.");
         cityName = DEFAULT_CITY;
         marketDataFileName = getMarketDataFilePath(cityName);
         $.getJSON(marketDataFileName, function(json) {
-            init(json);
+            init(json, cityName);
         }).fail(function() {
            console.log("Failure loading default market file.");
         });
