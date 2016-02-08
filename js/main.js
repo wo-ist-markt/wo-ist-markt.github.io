@@ -282,7 +282,7 @@ function getMarketDataFilePath(cityName) {
     if (cityName === undefined) {
         throw "City name is undefined.";
     }
-    return "maerkte/" + cityName + ".json";
+    return "cities/" + cityName + ".json";
 }
 
 /*
