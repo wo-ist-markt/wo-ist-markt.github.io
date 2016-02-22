@@ -276,6 +276,20 @@ function getCityName() {
 }
 
 /*
+ * Updates the URL hash in the browser.
+ */
+function updateUrlHash(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    if (history.pushState) {
+        history.pushState(null, null, "#" + cityName);
+    } else {
+        window.location.hash = cityName;
+    }
+}
+
+/*
  * Constructs a file path for the market data from the given city name.
  */
 function getMarketDataFilePath(cityName) {
@@ -337,6 +351,7 @@ function init(json, cityName) {
     map.addLayer(nowGroup);
     updateLayers();
     updateDocumentTitle(cityName);
+    updateUrlHash(cityName);
     updateLegendHeadline(cityName);
 }
 
