@@ -1,11 +1,9 @@
 var TILES_URL = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
-var INITIAL_LOCATION = [49.0140679, 8.4044366];
-var INITIAL_ZOOM = 13;
 var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
-var JSON_URL = "maerkte-karlsruhe.json";
+var DEFAULT_CITY = "karlsruhe";
 
 var map;
 var nowGroup = L.layerGroup();
@@ -78,7 +76,16 @@ function getTableRowForDay(openingRange, dayIsToday) {
  */
 function initMap() {
     var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles).setView(INITIAL_LOCATION, INITIAL_ZOOM);
+    map = new L.Map('map').addLayer(tiles);
+}
+
+/*
+ * Moves the map to its initial position.
+ */
+function positionMap(mapInitialization) {
+    var coordinates = mapInitialization.coordinates;
+    var zoomLevel = mapInitialization.zoom_level;
+    map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
 }
 
 /*
@@ -254,14 +261,122 @@ function initLegend() {
     legend.addTo(map);
 }
 
+/*
+ * Returns the city name when present in the hash of the current URI;
+ * otherwise the default city name;
+ */
+function getCityName() {
+    var hash = window.location.hash;
+    if (hash === undefined || hash === "") {
+        return DEFAULT_CITY;
+    } else {
+        hash = hash.toLowerCase();
+        return hash.substring(1, hash.length);
+    }
+}
+
+/*
+ * Updates the URL hash in the browser.
+ */
+function updateUrlHash(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    if (history.pushState) {
+        history.pushState(null, null, "#" + cityName);
+    } else {
+        window.location.hash = cityName;
+    }
+}
+
+/*
+ * Constructs a file path for the market data from the given city name.
+ */
+function getMarketDataFilePath(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    return "cities/" + cityName + ".json";
+}
+
+/*
+ * Returns the given string in camel case.
+ */
+function toCamelCase(str) {
+    return str.replace(/(?:^|\s)\w/g, function(match) {
+        return match.toUpperCase();
+    });
+}
+
+/*
+ * Updates the document title.
+ */
+function updateDocumentTitle(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    var formattedCityName = toCamelCase(cityName);
+    document.title = "Wo ist Markt in " + formattedCityName +"?";
+}
+
+/*
+ * Updates the legend headline.
+ */
+function updateLegendHeadline(cityName) {
+    if (cityName === undefined) {
+        throw "City name is undefined.";
+    }
+    var formattedCityName = toCamelCase(cityName);
+    $("#legend h1").text("Wo ist Markt in " + formattedCityName +"?");
+}
+
+/*
+ * Updates the legend data source.
+ */
+function updateLegendDataSource(dataSource) {
+    var title = dataSource.title;
+    var url = dataSource.url;
+    $("#legend #dataSource").html('<a href="' + url + '">' + title + '</a>');
+}
+
+/*
+ * Initialize application when market data is loaded.
+ */
+function init(json, cityName) {
+    positionMap(json.metadata.map_initialization);
+    updateLegendDataSource(json.metadata.data_source)
+    initMarkers(json);
+    initControls();
+    map.addLayer(unclassifiedGroup);
+    map.addLayer(nowGroup);
+    updateLayers();
+    updateDocumentTitle(cityName);
+    updateUrlHash(cityName);
+    updateLegendHeadline(cityName);
+}
+
+/*
+ * Forces reloading when URI hash changed.
+ */
+$(window).on('hashchange',function() {
+    window.location.reload(true);
+});
+
 $(document).ready(function() {
     initMap();
     initLegend();
-    $.getJSON(JSON_URL, function(json) {
-        initMarkers(json);
-        initControls();
-        map.addLayer(unclassifiedGroup);
-        map.addLayer(nowGroup);
-        updateLayers();
+    var cityName = getCityName();
+    var marketDataFileName = getMarketDataFilePath(cityName);
+    $.getJSON(marketDataFileName, function(json) {
+        init(json, cityName);
+    }).fail(function() {
+        console.log("Failure loading '" + marketDataFileName + "'. Loading market file for default city (" + DEFAULT_CITY + ") instead.");
+        cityName = DEFAULT_CITY;
+        marketDataFileName = getMarketDataFilePath(cityName);
+        $.getJSON(marketDataFileName, function(json) {
+            init(json, cityName);
+        }).fail(function() {
+           console.log("Failure loading default market file.");
+        });
     });
 });

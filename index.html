@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1,width=device-width">
-        <title>Wo ist Markt in Karlsruhe?</title>
+        <title>Wo ist Markt?</title>
         <link rel="stylesheet" href="js/leaflet/leaflet.css"/>
         <link rel="stylesheet" href="js/leaflet.awesome-markers/leaflet.awesome-markers.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
@@ -20,15 +20,14 @@
     <body>
         <div id="map"></div>
         <div id="legend">
-            <h1>Wo ist Markt in Karlsruhe?</h1>
+            <h1>Wo ist Markt?</h1>
             <form>
                 <label><input type="radio" name="display" id="now" value="now"/><span>jetzt</span></label>
                 <label><input type="radio" name="display" id="today" value="today"/><span>heute</span></label>
                 <label><input type="radio" name="display" id="other" value="other"/><span>alle</span></label>
             </form>
             <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a>.
-            <a href="http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de">Daten</a> von der Stadt
-            Karlsruhe. <a href="https://github.com/CodeforKarlsruhe/wo-ist-markt">Code</a> auf GitHub.</p>
+            <span id="dataSource">Datenquelle</span>. <a href="https://github.com/CodeforKarlsruhe/wo-ist-markt">Code</a> auf GitHub.</p>
         </div>
     </body>
 </html>

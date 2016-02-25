@@ -247,5 +247,18 @@
             "type": "Feature"
         }
     ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Stadt Karlsruhe",
+            "url": "http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
+        },
+        "map_initialization": {
+            "coordinates": [
+                8.4044366,
+                49.0140679
+            ],
+            "zoom_level": 13
+        }
+    },
     "type": "FeatureCollection"
 }
