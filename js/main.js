@@ -1,3 +1,8 @@
+/*
+ * © 2015 Code for Karlsruhe and contributors.
+ * See the file LICENSE for details.
+ */
+
 var TILES_URL = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
 var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
