@@ -142,7 +142,7 @@ function openingRangeMatchesDay(openingRange, date) {
     var openFromDate = openingRange[0];
     var openTillDate = openingRange[1];
     var dayIndex = date.getDay();
-    return openFromDate.getDay() == dayIndex && openTillDate.getDay() == dayIndex;
+    return openFromDate.getDay() === dayIndex && openTillDate.getDay() === dayIndex;
 }
 
 /*
@@ -198,7 +198,7 @@ function initMarker(feature) {
     var todayOpeningRange = undefined;
     var timeTableHtml = undefined;
     var opening_hours_unclassified = undefined;
-    if (opening_hours_strings === null || opening_hours_strings.length == 0) {
+    if (opening_hours_strings === null || opening_hours_strings.length === 0) {
         opening_hours_unclassified = properties.opening_hours_unclassified;
     } else {
         var openingRanges = getOpeningRanges(opening_hours_strings);
@@ -221,7 +221,7 @@ function initMarker(feature) {
     if (title === undefined) {
         throw "Missing property 'title'.";
     }
-    if (title === null || title.length == 0) {
+    if (title === null || title.length === 0) {
         title = DEFAULT_MARKET_TITLE;
     }
     var popupHtml = '<h1>' + title + '</h1>' + where;
