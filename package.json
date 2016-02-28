@@ -1,0 +1,12 @@
+{
+  "name": "wo-ist-markt",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "~2.9.1"
+  },
+  "scripts": {
+      "lint": "jshint js/main.js",
+      "test": "npm run lint"
+  }
+}
+

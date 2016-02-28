@@ -36,8 +36,18 @@ A small visualization of the weekly markets in different cities.
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-wochenmarkte]|
 
 
+## Development
+
+Tests can be run using [npm][npm]:
+
+    $ npm install  # Just once after you've cloned the repo
+
+    $ npm test     # Whenever you want to run the tests
+
 
 [geojson]: http://geojson.org
 [osm-openinghours]: https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-wochenmarkte]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[npm]: https://www.npmjs.com
+
