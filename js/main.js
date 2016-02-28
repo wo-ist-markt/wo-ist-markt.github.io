@@ -200,9 +200,9 @@ function initMarker(feature) {
     if (opening_hours_strings === undefined) {
         throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
     }
-    var todayOpeningRange = undefined;
-    var timeTableHtml = undefined;
-    var opening_hours_unclassified = undefined;
+    var todayOpeningRange;
+    var timeTableHtml;
+    var opening_hours_unclassified;
     if (opening_hours_strings === null || opening_hours_strings.length === 0) {
         opening_hours_unclassified = properties.opening_hours_unclassified;
     } else {
@@ -349,7 +349,7 @@ function updateLegendDataSource(dataSource) {
  */
 function init(json, cityName) {
     positionMap(json.metadata.map_initialization);
-    updateLegendDataSource(json.metadata.data_source)
+    updateLegendDataSource(json.metadata.data_source);
     initMarkers(json);
     initControls();
     map.addLayer(unclassifiedGroup);
