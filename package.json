@@ -2,10 +2,12 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "devDependencies": {
-    "jshint": "~2.9.1"
+    "jshint": "~2.9.1",
+    "moment": "~2.11.0",
+    "opening_hours": "~3.4.0"
   },
   "scripts": {
-      "lint": "jshint js",
+      "lint": "jshint js preprocessing",
       "test": "npm run lint"
   }
 }

@@ -34,6 +34,7 @@ A small visualization of the weekly markets in different cities.
 |City name|Data source|
 |:---|:---|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-wochenmarkte]|
+|[Berlin][berlin-wikipedia]|[City of Berlin][berlin-wochenmarkte]|
 
 
 ## Development
@@ -49,5 +50,6 @@ Tests can be run using [npm][npm]:
 [osm-openinghours]: https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-wochenmarkte]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
+[berlin-wochenmarkte]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
 [npm]: https://www.npmjs.com
-
