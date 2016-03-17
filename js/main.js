@@ -271,7 +271,7 @@ function initLegend() {
  * otherwise the default city name;
  */
 function getCityName() {
-    var hash = window.location.hash;
+    var hash = decodeURIComponent(window.location.hash);
     if (hash === undefined || hash === "") {
         return DEFAULT_CITY;
     } else {
