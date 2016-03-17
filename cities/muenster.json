@@ -1,0 +1,276 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Domplatz",
+        "title": "Großer Wochenmarkt Münster, http://www.wochenmarkt-muenster.de",
+        "opening_hours": "We, Sa 07:00-14:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6262,
+          51.9622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Domplatz",
+        "title": "Ökologischer Bauernmarkt Münster http://www.oekomarkt-ms.de",
+        "opening_hours": "Fr 12:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6263,
+          51.9623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Aegidiimarkt",
+        "title": "Aegidiimarkt",
+        "opening_hours": "Fr 13:30-18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6231,
+          51.9605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Geiststr./Sentmaringer Weg",
+        "title": "Geiststr./Sentmaringer Weg",
+        "opening_hours": "We, Sa 07:00-12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6221,
+          51.9456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Hubertiplatz",
+        "title": "Hubertiplatz",
+        "opening_hours": "We, Sa 07:00-13:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6503,
+          51.9536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Warendorfer Straße/Oststraße",
+        "title": "Warendorfer Straße/Oststraße",
+        "opening_hours": "Tu, Fr 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6441,
+          51.962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Albachten: Dülmener Str./Rottkamp",
+        "title": "Albachten: Dülmener Str./Rottkamp",
+        "opening_hours": "Th 14:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5198,
+          51.9247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Angelmodde West: Clemens-August-Platz 11",
+        "title": "Angelmodde West: Clemens-August-Platz 11",
+        "opening_hours": "Th 08:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6896,
+          51.915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Angelmodde Dorf: Haus Angelmodde",
+        "title": "Angelmodde Dorf: Haus Angelmodde",
+        "opening_hours": "Sa 08:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7005,
+          51.9203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Coerde: Hamannplatz",
+        "title": "Coerde: Hamannplatz",
+        "opening_hours": "Th 13:30-18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6484,
+          51.9936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Gievenbeck: Rüschhausweg/ Ortsmitte",
+        "title": "Gievenbeck: Rüschhausweg/ Ortsmitte",
+        "opening_hours": "Th 14:00-18:00"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Gremmendorf: Gremmendorfer Weg",
+        "title": "Gremmendorf: Gremmendorfer Weg",
+        "opening_hours": "Fr 13:30-18:30"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Handorf: Hugo-Pottebaum-Platz",
+        "title": "Handorf: Hugo-Pottebaum-Platz",
+        "opening_hours": "Tu 13:30-18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6976,
+          51.9874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Hiltrup: Moränenstr./Parkplatz",
+        "title": "Hiltrup: Moränenstr./Parkplatz",
+        "opening_hours": "Fr 07:30-12:30 "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6428,
+          51.9048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Kinderhaus: Idenbrockplatz",
+        "title": "Kinderhaus: Idenbrockplatz",
+        "opening_hours": "Th 07:30-12.30 "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6031,
+          51.995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Nienberge: Kirchplatz",
+        "title": "Nienberge: Kirchplatz",
+        "opening_hours": "Fr 08:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5595,
+          51.9985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Roxel: Pantaleonplatz",
+        "title": "Roxel: Pantaleonplatz",
+        "opening_hours": "Fr 13:30-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5337,
+          51.9538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Wolbeck: Hiltruper Straße",
+        "title": "Wolbeck: Hiltruper Straße",
+        "opening_hours": "We 15:00-18.00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7259,
+          51.9159
+        ]
+      }
+    }
+  ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Stadt Münster",
+            "url": "http://www.muenster.de/stadt/maerkte/markt.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                7.62,
+                51.96
+            ],
+            "zoom_level": 12
+        }
+    }
+}
