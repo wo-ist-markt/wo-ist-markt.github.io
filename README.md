@@ -1,6 +1,6 @@
 # A map of farmer markets
 
-A small visualization of the weekly markets in different cities.
+A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
 
 
 ## Data format
