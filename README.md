@@ -1,6 +1,6 @@
 # A map of farmer markets
 
-A small visualization of the weekly markets in different cities.
+A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
 
 
 ## Data format
@@ -24,7 +24,7 @@ A small visualization of the weekly markets in different cities.
 * The individual market data for supported cities is displayed when the city name is given in the
   address bar of the browser.
 
-  Example: https://codeforkarlsruhe.github.io/wo-ist-markt/#karlsruhe.
+  Example: http://wo-ist-markt.de/#karlsruhe.
 
   By default or on error *Karlsruhe* is rendered.
 
