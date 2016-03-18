@@ -167,7 +167,13 @@
         "title": "Gremmendorf: Gremmendorfer Weg",
         "opening_hours": "Fr 13:30-18:30"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.67122,
+          51.9296
+        ]
+      }
     },
     {
       "type": "Feature",
