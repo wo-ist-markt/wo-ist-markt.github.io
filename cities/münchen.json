@@ -1,0 +1,834 @@
+{
+   "type": "FeatureCollection",
+   "metadata": {
+      "data_source": {
+         "title": "Daten von der Stadt München, CC BY 2.0 DE, aktualisiert am 27.02.2015",
+         "url": "https://www.opengov-muenchen.de/dataset/maerkte"
+      },
+      "map_initialization": {
+         "coordinates": [
+            11.541836,
+            48.15491
+         ],
+         "zoom_level": 11
+      }
+   },
+   "features": [
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.540421,
+               48.121143
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Untersendling",
+            "location": "Margaretenplatz",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.519338,
+               48.077675
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Solln",
+            "location": "Fellerer Platz",
+            "opening_hours": "Fr 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.435387,
+               48.14943
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Neuaubing",
+            "location": "Mainaustraße 67-73",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.592677,
+               48.11069
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Giesing",
+            "location": "Perlacher Straße 111 - 119",
+            "opening_hours": "Fr 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.481647,
+               48.090126
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Fürstenried-West",
+            "location": "Graubündener Straße (Schweizer Platz)",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.633326,
+               48.130077
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Berg am Laim",
+            "location": "Baumkirchner Straße 22b - 26",
+            "opening_hours": "Fr 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.550996,
+               48.11394
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Untersendling",
+            "location": "Brudermühlstraße/Thalkirchner Straße",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.677149,
+               48.113495
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Trudering",
+            "location": "Friedenspromenade (zw. Hugo-Wess-Straße u. Felizitasstraße)",
+            "opening_hours": "Fr 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.588526,
+               48.164333
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Schwabing",
+            "location": "Münchner Freiheit",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.48031,
+               48.115334
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Großhadern",
+            "location": "Heiglhofstraße 1 - 11",
+            "opening_hours": "We 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.516404,
+               48.17859
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Moosach",
+            "location": "Nanga-Parbat-Straße 1-15",
+            "opening_hours": "Th 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.497052,
+               48.09623
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Fürstenried-Ost",
+            "location": "Berner Straße 2 - 4",
+            "opening_hours": "We 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.553454,
+               48.2161
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Hasenbergl",
+            "location": "Wellenkampstraße 1-5 / 31-51",
+            "opening_hours": "Th 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.526691,
+               48.11271
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Sendling",
+            "location": "Jean-Paul-Richter-Straße 9 - 19",
+            "opening_hours": "We 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.636759,
+               48.173214
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Johanneskirchen",
+            "location": "Fritz-Meyer-Weg 38 - 46",
+            "opening_hours": "Fr 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.576585,
+               48.182114
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Milbertshofen",
+            "location": "Christoph-von-Gluck-Platz 2",
+            "opening_hours": "Fr 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.572136,
+               48.11736
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Untergiesing",
+            "location": "Hans-Mielich-Platz",
+            "opening_hours": "Th 12:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.649461,
+               48.101707
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Neuperlach",
+            "location": "Hanns-Seidl-Platz",
+            "opening_hours": "Tu 08:00-17:00;Fr 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.607943,
+               48.202553
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Freimann",
+            "location": "Karl-Köglsbergerstraße 17-23",
+            "opening_hours": "We 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.491608,
+               48.119137
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Hadern",
+            "location": "Guardinistraße 83 - 87",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.584202,
+               48.126152
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Au, Mariahilfplatz",
+            "location": "Mariahilfplatz",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.596085,
+               48.17379
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Schwabing, Fritz-Hommel-Weg 2-6",
+            "location": "Fritz-Hommel-Weg 2-6",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.50295,
+               48.14048
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Laim, Agnes-Bernauer-Straße",
+            "location": "Agnes-Bernauer-Straße 77",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.567267,
+               48.15499
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Maxvorstadt, Zieblandstraße/Augustenstraße",
+            "location": "Zieblandstraße/Augustenstraße",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.572609,
+               48.14798
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Maxvorstadt, Pinakothek der Moderne",
+            "location": "Barerstraße/Gabelsbergerstraße",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.554533,
+               48.152786
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Maxvorstadt, St. Benno Kirche",
+            "location": "St.-Benno-Kirche",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.588662,
+               48.140945
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Lehel, St.-Anna-Platz",
+            "location": "St.-Anna-Platz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.55618,
+               48.181202
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Olympiazentrum",
+            "location": "nördlicher Aufgang",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.575727,
+               48.157814
+            ]
+         },
+         "properties": {
+            "title": "Ständiger Markt Elisabethmarkt",
+            "location": "Schwabing - Elisabethplatz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.463033,
+               48.14833
+            ]
+         },
+         "properties": {
+            "title": "Ständiger Markt Pasinger Viktualienmarkt",
+            "location": "Bäckerstraße",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.597538,
+               48.135483
+            ]
+         },
+         "properties": {
+            "title": "Ständiger Markt Wiener Markt",
+            "location": "Wiener Platz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.577761,
+               48.136
+            ]
+         },
+         "properties": {
+            "title": "Ständiger Markt Viktualienmarkt",
+            "location": "Stadtzentrum",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.596458,
+               48.129692
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Haidhausen",
+            "location": "Weißenburger Straße 2 - 10",
+            "opening_hours": "Tu 08:00-12:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.477093,
+               48.12767
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Blumenau",
+            "location": "Blumenauer Straße 2 - 16",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.584246,
+               48.126186
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Au",
+            "location": "Mariahilfplatz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.536519,
+               48.201515
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Lerchenauer See",
+            "location": "Lasallestraße 111",
+            "opening_hours": "Fr 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.539885,
+               48.13507
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Schwanthalerhöhe, Georg-Freundorfer-Platz",
+            "location": "Georg-Freundorfer-Platz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.575966,
+               48.13533
+            ]
+         },
+         "properties": {
+            "title": "Ständiger Markt Schrannenhalle",
+            "location": "Viktualienmarkt 15",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.692736,
+               48.133377
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Messestadt Riem",
+            "location": "Willy-Brandt-Platz",
+            "opening_hours": "Fr 10:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.63915,
+               48.08804
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Neuperlach",
+            "location": "Dietzfelbingerplatz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.555896,
+               48.11814
+            ]
+         },
+         "properties": {
+            "title": "Großmarkt Großmarktgelände München",
+            "location": "Thalkirchner Straße",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.538844,
+               48.144836
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Arnulfpark",
+            "location": "Rainer-Werner-Fassbinder-Platz",
+            "opening_hours": "Fr 10:00-18:00;Tu 11:00-17:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.620274,
+               48.153393
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Bogenhausen",
+            "location": "Rosenkavalierplatz",
+            "opening_hours": "Th 08:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.534736,
+               48.153633
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Neuhausen",
+            "location": "Rotkreuzplatz",
+            "opening_hours": "Th 10:00-19:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.55501,
+               48.12057
+            ]
+         },
+         "properties": {
+            "title": "Großmarkt Markthallen München - Großmarkthalle",
+            "location": "Thalkirchner Straße 81",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.553458,
+               48.119854
+            ]
+         },
+         "properties": {
+            "title": "Großmarkt Gärtnerhalle (Markthallen München)",
+            "location": "Thalkirchner Straße 81",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.558096,
+               48.118958
+            ]
+         },
+         "properties": {
+            "title": "Großmarkt Blumengroßmarkt",
+            "location": "Schäftlarnstraße 2",
+            "opening_hours": "Th 13:00-18:00",
+            "opening_hours_unclassified": null
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.557895,
+               48.12399
+            ]
+         },
+         "properties": {
+            "title": "Großmarkt Markthallen München (Schlacht- und Viehhof)",
+            "location": "Zenettistraße 11",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.583082,
+               48.098778
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Harlaching, Mangfallplatz",
+            "location": "Mangfallplatz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.450236,
+               48.16373
+            ]
+         },
+         "properties": {
+            "title": "Bauernmarkt Obermenzing, Rüttenauer Platz",
+            "location": "Rüttenauer Platz",
+            "opening_hours": null,
+            "opening_hours_unclassified": ""
+         }
+      },
+      {
+         "type": "Feature",
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               11.632245,
+               48.101353
+            ]
+         },
+         "properties": {
+            "title": "Wochenmarkt Perlach",
+            "location": "Pfanzeltplatz",
+            "opening_hours": "Sa 07:00-13:00",
+            "opening_hours_unclassified": null
+         }
+      }
+   ]
+}
