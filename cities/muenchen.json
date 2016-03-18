@@ -218,7 +218,7 @@
          "properties": {
             "title": "Wochenmarkt Hasenbergl",
             "location": "Wellenkampstraße 1-5 / 31-51",
-            "opening_hours": "Do 08:00-12:00",
+            "opening_hours": "Th 08:00-12:00",
             "opening_hours_unclassified": null
          }
       },
@@ -234,7 +234,7 @@
          "properties": {
             "title": "Wochenmarkt Sendling",
             "location": "Jean-Paul-Richter-Straße 9 - 19",
-            "opening_hours": "Mi 08:00-12:00",
+            "opening_hours": "We 08:00-12:00",
             "opening_hours_unclassified": null
          }
       },
