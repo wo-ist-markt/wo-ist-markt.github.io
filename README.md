@@ -38,6 +38,11 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-wochenmarkte]|
 
 
+## Contributing
+
+* Please make sure to read the [contributing guide](CONTRIBUTING.md).
+
+
 ## Development
 
 Tests can be run using [npm][npm]:
