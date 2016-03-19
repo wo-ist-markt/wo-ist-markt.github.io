@@ -1,0 +1,243 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.42495,
+                    51.35542
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "An der Kaufhalle",
+                "opening_hours": "We 09:00-13:00; Fr 09:00-14:00",
+                "title": "Wochenmarkt in der Bästleinstraße"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.37084,
+                    51.36221
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lützowstraße/Georg-Schumann-Straße",
+                "opening_hours": "We 09:00-16:00",
+                "title": "Wochenmarkt Gohlis-Arkaden"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.36016,
+                    51.37624
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Landsberger Straße/Max-Liebermann-Straße",
+                "opening_hours": "Tu, Th 09:00-16:00",
+                "title": "Wochenmarkt Gohlis-Park"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.30418,
+                    51.32200
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Grünauer Allee/Alte Salzstraße",
+                "opening_hours": "Fr 09:00-15:00",
+                "title": "Wochenmarkt Grünau (Wohnkomplex 2)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.29290,
+                    51.31414
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stuttgarter Allee an der ehem. Post",
+                "opening_hours": "Tu, Th 09:00-16:00",
+                "title": "Wochenmarkt Grünau (Wohnkomplex 4)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.26863,
+                    51.31611
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Miltitzer Allee/Jupiterstraße",
+                "opening_hours": "We 09:00-14:00",
+                "title": "Wochenmarkt Grünau (Wohnkomplex 7)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.4639511,
+                    51.2826373
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Marktplatz",
+                "opening_hours": "Fr 08:00-14:00",
+                "title": "Wochenmarkt Liebertwolkwitz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.33403,
+                    51.33722
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lindenauer Markt",
+                "opening_hours": "We, Fr 09:00-16:00",
+                "title": "Wochenmarkt am Lindenauer Markt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.3990085,
+                    51.3011382
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Johannes-R.-Becher-Straße",
+                "opening_hours": "Th 09:00-15:00; Sa 08:30-12:00",
+                "title": "Wochenmarkt Lößnig"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.37265,
+                    51.34362
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Richard-Wagner-Platz",
+                "opening_hours": "Sa 10:00-16:00",
+                "title": "Wochenmarkt am Richard-Wagner-Platz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.45988,
+                    51.35224
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": null,
+                "opening_hours": "Th 09:00-16:00",
+                "title": "Wochenmarkt Paunsdorf"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.41489,
+                    51.34599
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Torgauer Platz",
+                "opening_hours": "Th 09:00-14:00",
+                "title": "Wochenmarkt am Torgauer Platz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.37342,
+                    51.39332
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Hugo-Krone-Platz",
+                "opening_hours": "Th 09:00-12:00",
+                "title": "Wochenmarkt Wiederitzsch"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.3800753,
+                    51.330633
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bayrischer Platz",
+                "opening_hours": "We, Fr 09:00-17:00",
+                "title": "Wochenmarkt am Bayrischer Platz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.3747374,
+                    51.3405479
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Marktplatz oder Agustusplatz",
+                "opening_hours": "Tu, Fr 09:00-17:00",
+                "title": "Wochenmarkt in der Innenstadt"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten der Stadt Leipzig",
+            "url": "https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                12.3810549,
+                51.3391827
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
