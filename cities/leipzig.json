@@ -1,0 +1,227 @@
+{
+  "features": [{
+    "geometry": {
+      "coordinates": [
+        51.354998,
+        12.423646
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Bästleinstraße",
+      "location": "Bästleinstraße (an der Kaufhalle)",
+      "opening_hours": "We, Fr 09:00 bis 13:00 Uhr und 09:00 bis 14:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.330645,
+        12.380051
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Bayrischer Platz",
+      "location": "Bayrischer Platz",
+      "opening_hours": "We, Fr 09:00 bis 17:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.361782,
+        12.370702
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Gohlis-Arkaden",
+      "location": "Lützowstraße/Georg-Schumann-Straße",
+      "opening_hours": "We 09:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.375836,
+        12.360442
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Gohlis-Park",
+      "location": "Landsberger Straße/Max-Liebermann-Straße",
+      "opening_hours": "Tu, Th 09:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.321749,
+        12.303313
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Grünau WK 2",
+      "location": "Grünauer Allee/Alte Salzstraße",
+      "opening_hours": "Fr 09:00 bis 15:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.317902,
+        12.290770
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Grünau WK 4",
+      "location": "Stuttgarter Allee an der ehem. Post",
+      "opening_hours": "Tu, Th 09:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.316528,
+        12.268807
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Grünau WK 7",
+      "location": "Miltitzer Allee/Jupiterstraße",
+      "opening_hours": "We 09:00 bis 14:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.340512,
+        12.374548
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Innenstadt",
+      "location": "Marktplatz oder Augustusplatz",
+      "opening_hours": "Tu, Fr 09:00 bis 17:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.282723,
+        12.463993
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Liebertwolkwitz",
+      "location": "Marktplatz",
+      "opening_hours": "Fr 08:00 bis 14:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.337211,
+        12.334245
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Lindenauer Markt",
+      "location": "Lindenauer Markt",
+      "opening_hours": "We, Fr 09:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.301814,
+        12.398504
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Lößnig",
+      "location": "Johannes-R.-Becher-Straße",
+      "opening_hours": "Tu, Sa 09:00 bis 15:00 Uhr und 08:30 bis 12:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.343790,
+        12.371722
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Richard-Wagner-Platz",
+      "location": "Richard-Wagner-Platz",
+      "opening_hours": "Sa 10:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.352191,
+        12.461072
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Paunsdorf",
+      "location": "Waldzieststraße",
+      "opening_hours": "Th 09:00 bis 16:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.345778,
+        12.414643
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Torgauer Platz",
+      "location": "Torgauer Platz",
+      "opening_hours": "Th 09:00 bis 14:00 Uhr"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
+      "coordinates": [
+        51.393144,
+        12.373437
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "title": "Wiederitzsch",
+      "location": "Hugo-Krone-Platz",
+      "opening_hours": "Th 09:00 bis 12:00 Uhr"
+    },
+    "type": "Feature"
+  }],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von der Stadt Leipzig, CC BY 3.0 DE, aktualisiert am 19.03.2016",
+      "url": "http://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/wochenmaerkte/"
+    },
+    "map_initialization": {
+      "coordinates": [
+        51.345643,
+        12.368572
+      ],
+      "zoom_level": 11
+    }
+  },
+  "type": "FeatureCollection"
+}

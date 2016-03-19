@@ -36,7 +36,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-wochenmarkte]|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-wochenmarkte]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-wochenmarkte]|
-
+|[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-wochenmarkte]|
 
 ## Contributing
 
@@ -61,3 +61,5 @@ Tests can be run using [npm][npm]:
 [npm]: https://www.npmjs.com
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-wochenmarkte]: http://www.muenster.de/stadt/maerkte/markt.html
+[leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
+[leipzig-wochenmarkte]:http://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/wochenmaerkte/
