@@ -158,7 +158,13 @@
         "title": "Gievenbeck: Rüschhausweg/ Ortsmitte",
         "opening_hours": "Th 14:00-18:00"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.578852,
+          51.9676841
+        ]
+      }
     },
     {
       "type": "Feature",
