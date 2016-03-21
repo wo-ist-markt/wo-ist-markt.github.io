@@ -161,10 +161,10 @@ function openingRangeContainsTime(openingRange, date) {
 /*
  * Returns opening ranges compiled via opening_hours.js.
  */
-function getOpeningRanges(opening_hours_strings) {
+function getOpeningRanges(openingHoursStrings) {
     var monday = moment().startOf("week").add(1, 'days').toDate();
     var sunday = moment().endOf("week").add(1, 'days').toDate();
-    var oh = new opening_hours(opening_hours_strings);
+    var oh = new opening_hours(openingHoursStrings);
     return oh.getOpenIntervals(monday, sunday);
 }
 
@@ -196,17 +196,17 @@ function initMarkers(featureCollection) {
 
 function initMarker(feature) {
     var properties = feature.properties;
-    var opening_hours_strings = properties.opening_hours;
-    if (opening_hours_strings === undefined) {
+    var openingHoursStrings = properties.opening_hours;
+    if (openingHoursStrings === undefined) {
         throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
     }
     var todayOpeningRange;
     var timeTableHtml;
-    var opening_hours_unclassified;
-    if (opening_hours_strings === null || opening_hours_strings.length === 0) {
-        opening_hours_unclassified = properties.opening_hours_unclassified;
+    var openingHoursUnclassified;
+    if (openingHoursStrings === null || openingHoursStrings.length === 0) {
+        openingHoursUnclassified = properties.openingHoursUnclassified;
     } else {
-        var openingRanges = getOpeningRanges(opening_hours_strings);
+        var openingRanges = getOpeningRanges(openingHoursStrings);
         todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
         timeTableHtml = getTimeTable(openingRanges);
     }
@@ -230,8 +230,8 @@ function initMarker(feature) {
         title = DEFAULT_MARKET_TITLE;
     }
     var popupHtml = '<h1>' + title + '</h1>' + where;
-    if (opening_hours_unclassified !== undefined) {
-        popupHtml += '<p class="unclassified">' + opening_hours_unclassified + '</p>';
+    if (openingHoursUnclassified !== undefined) {
+        popupHtml += '<p class="unclassified">' + openingHoursUnclassified + '</p>';
     } else {
         popupHtml += timeTableHtml;
     }
@@ -245,7 +245,7 @@ function initMarker(feature) {
             todayGroup.addLayer(marker);
         }
     } else {
-        if (opening_hours_unclassified !== undefined) {
+        if (openingHoursUnclassified !== undefined) {
             marker.setIcon(unclassifiedIcon);
             unclassifiedGroup.addLayer(marker);
         } else {
