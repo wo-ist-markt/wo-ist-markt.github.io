@@ -1,0 +1,63 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.99145,
+                    48.39832
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Ulmer Wochenmarkt",
+                "location": "Münsterplatz Ulm",
+                "opening_hours": "We 06:00-13:00;Sa 06:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.97479,
+                    48.35138
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ulm-Wiblingen",
+                "location": "Am Tannenplatz, Wiblingen",
+                "opening_hours": "Fr 10:00-17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.95377,
+                    48.39647
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ulm-Söflingen",
+                "location": "Klosterhof Söflingen",
+                "opening_hours": "Fr 08:00-18:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Stadt Ulm",
+            "url": "http://www.ulm-messe.de/marktwesen.97940.21332,97940.htm"
+        },
+        "map_initialization": {
+            "coordinates": [
+                9.9932755,
+                48.3973944
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
