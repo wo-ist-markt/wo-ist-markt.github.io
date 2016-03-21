@@ -38,7 +38,9 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-wochenmarkte]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-wochenmarkte]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-wochenmarkte]|
+|[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-wochenmarkte]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-wochenmarkte]|
+|[Ulm][ulm-wikipedia]|[City of Ulm][ulm-wochenmarkte]|
 
 
 ## Contributing
@@ -66,7 +68,11 @@ Tests can be run using [npm][npm]:
 [muenchen-wochenmarkte]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-wochenmarkte]: http://www.muenster.de/stadt/maerkte/markt.html
+[neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
+[neu-ulm-wochenmarkte]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
 [leipzig-wochenmarkte]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-wochenmarkte]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
+[ulm-wochenmarkte]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
