@@ -33,14 +33,14 @@ A small visualization of the weekly markets in different cities. Available at: h
 
 |City name|Data source|
 |:---|:---|
-|[Berlin][berlin-wikipedia]|[City of Berlin][berlin-wochenmarkte]|
-|[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-wochenmarkte]|
-|[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-wochenmarkte]|
-|[München][muenchen-wikipedia]|[City of München][muenchen-wochenmarkte]|
-|[Münster][muenster-wikipedia]|[City of Münster][muenster-wochenmarkte]|
-|[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-wochenmarkte]|
-|[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-wochenmarkte]|
-|[Ulm][ulm-wikipedia]|[City of Ulm][ulm-wochenmarkte]|
+|[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
+|[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
+|[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
+|[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
+|[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
+|[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
+|[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 
 
 ## Contributing
@@ -60,19 +60,19 @@ Tests can be run using [npm][npm]:
 [geojson]: http://geojson.org
 [osm-openinghours]: https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
-[karlsruhe-wochenmarkte]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
-[berlin-wochenmarkte]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
+[berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
 [npm]: https://www.npmjs.com
 [muenchen-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnchen
-[muenchen-wochenmarkte]: https://www.opengov-muenchen.de/dataset/maerkte
+[muenchen-markets]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
-[muenster-wochenmarkte]: http://www.muenster.de/stadt/maerkte/markt.html
+[muenster-markets]: http://www.muenster.de/stadt/maerkte/markt.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
-[neu-ulm-wochenmarkte]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
+[neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
-[leipzig-wochenmarkte]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
+[leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
-[paderborn-wochenmarkte]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
-[ulm-wochenmarkte]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
+[ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
