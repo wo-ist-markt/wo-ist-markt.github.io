@@ -59,19 +59,20 @@ Tests can be run using [npm][npm]:
 
 [geojson]: http://geojson.org
 [osm-openinghours]: https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification
-[karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
-[karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[npm]: https://www.npmjs.com
+
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
-[npm]: https://www.npmjs.com
+[karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
+[karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
+[leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [muenchen-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnchen
 [muenchen-markets]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-markets]: http://www.muenster.de/stadt/maerkte/markt.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
-[leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
-[leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
