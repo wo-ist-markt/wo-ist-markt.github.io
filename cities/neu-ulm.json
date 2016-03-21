@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.99875,
+                    48.39394
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Neu-Ulmer Wochenmarkt",
+                "location": "Petrusplatz Neu-Ulm",
+                "opening_hours": "We 07:00-13:00;Sa 07:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Stadt Neu-Ulm",
+            "url": "http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                9.99875,
+                48.39394
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
