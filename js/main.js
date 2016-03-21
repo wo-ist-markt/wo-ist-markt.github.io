@@ -259,10 +259,41 @@ function initMarker(feature) {
  * Initialize legend.
  */
 function initLegend() {
-    var legend = L.control({position: 'bottomright'});
-    legend.onAdd = function (m) {
+    var legend = L.control({position: 'bottomright'}),
+        currentCity = getCityName(),
+        apiUrl = "https://api.github.com/repos/wo-ist-markt/wo-ist-markt.github.io/contents/cities",
+        dropDownCitySelection = $('#selectOtherCitiesDropdown'),
+        dropDownCitySelectionContainer = $('#selectOtherCitiesDropdownContainer');
+    legend.onAdd = function () {
         return L.DomUtil.get('legend');
     };
+
+    // populate select box
+    $.get(apiUrl, function(result) {
+        $.each(result, function(idx, value) {
+            var cityKey = value.name.replace(".json", "");
+
+            // capitalize first letter by Steve Harrison
+            // http://stackoverflow.com/users/48492/steve-harrison
+            // http://stackoverflow.com/a/1026087
+            var cityLabel = cityKey.charAt(0).toUpperCase() + cityKey.slice(1);
+            dropDownCitySelection.append(
+                $('<option></option>').val(cityKey).html(cityLabel)
+            );
+            dropDownCitySelection.val(currentCity);
+            dropDownCitySelectionContainer.show();
+        });
+    });
+
+    // deactivate event propagation as suggested by user259124
+    // http://stackoverflow.com/users/3546234/user259124
+    // http://stackoverflow.com/a/23139415
+    dropDownCitySelection.mousedown(L.DomEvent.stopPropagation);
+    dropDownCitySelection.dblclick(L.DomEvent.stopPropagation);
+    dropDownCitySelection.change(function() {
+        updateUrlHash(this.value);
+        window.location.reload(true);
+    });
     legend.addTo(map);
 }
 
