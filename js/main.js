@@ -261,7 +261,7 @@ function initMarker(feature) {
 function initLegend() {
     var legend = L.control({position: 'bottomright'}),
         currentCity = getCityName(),
-        apiUrl = "https://api.github.com/repos/wo-ist-markt/wo-ist-markt.github.io/contents/cities",
+        apiUrl = "//api.github.com/repos/wo-ist-markt/wo-ist-markt.github.io/contents/cities",
         dropDownCitySelection = $('#selectOtherCitiesDropdown'),
         dropDownCitySelectionContainer = $('#selectOtherCitiesDropdownContainer');
     legend.onAdd = function () {
