@@ -1,5 +1,5 @@
 /*
- * © 2015-2016 Code for Karlsruhe and contributors.
+ * © Code for Karlsruhe and contributors.
  * See the file LICENSE for details.
  */
 
@@ -262,8 +262,8 @@ function initLegend() {
     var legend = L.control({position: 'bottomright'}),
         currentCity = getCityName(),
         apiUrl = "https://api.github.com/repos/wo-ist-markt/wo-ist-markt.github.io/contents/cities",
-        dropDownCitySelection = $('#selectOtherCitiesDropdown'),
-        dropDownCitySelectionContainer = $('#selectOtherCitiesDropdownContainer');
+        dropDownCitySelection = $('#dropDownCitySelection');
+
     legend.onAdd = function () {
         return L.DomUtil.get('legend');
     };
@@ -279,19 +279,22 @@ function initLegend() {
                 $('<option></option>').val(cityKey).html(cityLabel)
             );
             dropDownCitySelection.val(currentCity);
-            dropDownCitySelectionContainer.show();
         });
+        dropDownCitySelection.select2({
+            minimumResultsForSearch: 10
+        }).change(function() {
+            updateUrlHash(dropDownCitySelection.select2().val());
+            window.location.reload(true);
+        });
+        // Force select2 update to fix dropdown position
+        dropDownCitySelection.select2('open');
+        dropDownCitySelection.select2('close');
     });
 
-    // deactivate event propagation as suggested by user259124
-    // http://stackoverflow.com/users/3546234/user259124
-    // http://stackoverflow.com/a/23139415
-    dropDownCitySelection.mousedown(L.DomEvent.stopPropagation);
-    dropDownCitySelection.dblclick(L.DomEvent.stopPropagation);
-    dropDownCitySelection.change(function() {
-        updateUrlHash(this.value);
-        window.location.reload(true);
-    });
+    // Stop map movement by mouse events in legend.
+    // See https://gis.stackexchange.com/a/106777/48264.
+    L.DomEvent.disableClickPropagation(L.DomUtil.get('legend'));
+
     legend.addTo(map);
 }
 
@@ -354,17 +357,6 @@ function updateDocumentTitle(cityName) {
 }
 
 /*
- * Updates the legend headline.
- */
-function updateLegendHeadline(cityName) {
-    if (cityName === undefined) {
-        throw "City name is undefined.";
-    }
-    var formattedCityName = toCamelCase(cityName);
-    $("#legend h1").text("Wo ist Markt in " + formattedCityName +"?");
-}
-
-/*
  * Updates the legend data source.
  */
 function updateLegendDataSource(dataSource) {
@@ -386,7 +378,6 @@ function init(json, cityName) {
     updateLayers();
     updateDocumentTitle(cityName);
     updateUrlHash(cityName);
-    updateLegendHeadline(cityName);
 }
 
 /*

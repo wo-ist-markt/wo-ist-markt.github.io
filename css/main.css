@@ -1,17 +1,21 @@
+/*** BORDER BOX SIZING ***/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*** GLOBAL ***/
+
 html, body, #map {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
-}
-
-.leaflet-label {
-    font-weight: normal;
-}
-
-div.info {
-    width: 40em;
-    white-space: normal;
 }
 
 #legend {
@@ -25,6 +29,7 @@ div.info {
     -webkit-border-radius: 6px;
     color: #555;
     width: 22em;
+    cursor: text;
 }
 
 #legend p {
@@ -41,34 +46,20 @@ div.info {
 }
 
 #legend input {
-    margin-left: 0;
-    vertical-align: top;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
 }
 
 #legend label {
     margin-right:1em;
-    vertical-align: middle;
-    font-weight: bold;
-}
-
-table.times {
-    margin-top: 0.75em;
-}
-
-table.times th {
-    font-weight: normal;
-    font-style: italic;
-    padding-left: 0;
-    padding-right: 0.75em;
-}
-
-table.times tr.today * {
     font-weight: bold;
 }
 
 :disabled + span {
     color: #999;
 }
+
+/*** MAP POPUPS ***/
 
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
@@ -92,3 +83,34 @@ table.times tr.today * {
     margin-top: 0.5em;
     font-style: italic;
 }
+
+table.times {
+    margin-top: 0.75em;
+}
+
+table.times th {
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 0;
+    padding-right: 0.75em;
+}
+
+table.times tr.today * {
+    font-weight: bold;
+}
+
+/*** CITY DROPDOWN ***/
+
+#dropDownCitySelection {
+    width: 8em;
+}
+
+.select2 {
+    top: -2px;
+    margin: 0 4px 0 2px;
+}
+
+.select2-dropdown {
+    font-size: 80%;
+}
+

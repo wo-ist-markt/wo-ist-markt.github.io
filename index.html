@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1,width=device-width">
         <title>Wo ist Markt?</title>
+        <link rel="stylesheet" href="lib/normalize/normalize.css"/>
         <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
         <link rel="stylesheet" href="lib/leaflet.awesome-markers/leaflet.awesome-markers.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        <link href="lib/select2/select2.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/main.css"/>
         <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/select2/select2.min.js"></script>
         <script src="lib/leaflet/leaflet.js"></script>
         <script src="lib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
         <script src="lib/suncalc/suncalc.js"></script>
@@ -20,7 +23,7 @@
     <body>
         <div id="map"></div>
         <div id="legend">
-            <h1>Wo ist Markt?</h1>
+            <h1>Wo ist Markt in <select id="dropDownCitySelection"></select>?</h1>
             <form>
                 <label><input type="radio" name="display" id="now" value="now"/><span>jetzt</span></label>
                 <label><input type="radio" name="display" id="today" value="today"/><span>heute</span></label>
@@ -29,11 +32,6 @@
             <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a> und
             des <a href="http://codefor.de/berlin">Open Knowledge Lab Berlin</a>.
             <span id="dataSource">Datenquelle</span>. <a href="https://github.com/wo-ist-markt/wo-ist-markt.github.io">Code</a> auf GitHub.</p>
-            <p id="selectOtherCitiesDropdownContainer" style="display: none;">Andere Stadt?
-                <select id="selectOtherCitiesDropdown">
-                    <!-- Is being populated by javascript -->
-                </select>
-            </p>
         </div>
     </body>
 </html>
