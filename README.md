@@ -38,6 +38,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-wochenmarkte]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-wochenmarkte]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-wochenmarkte]|
+|[Nersingen][nersingen-wikipedia]|[Village of Nersingen][nersingen-wochenmarkte]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-wochenmarkte]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-wochenmarkte]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-wochenmarkte]|
@@ -68,6 +69,8 @@ Tests can be run using [npm][npm]:
 [muenchen-wochenmarkte]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-wochenmarkte]: http://www.muenster.de/stadt/maerkte/markt.html
+[nersingen-wikipedia]: https://de.wikipedia.org/wiki/Nersingen
+[nersingen-wochenmarkte]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-wochenmarkte]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
