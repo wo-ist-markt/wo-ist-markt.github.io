@@ -3,8 +3,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    10.12398,
-                    48.42750
+                    10.12275,
+                    48.42747
                 ],
                 "type": "Point"
             },
@@ -23,8 +23,8 @@
         },
         "map_initialization": {
             "coordinates": [
-                10.12398,
-                48.42750
+                10.12275,
+                48.42747
             ],
             "zoom_level": 12
         }
