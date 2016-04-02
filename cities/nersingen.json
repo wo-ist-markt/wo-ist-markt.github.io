@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.12398,
+                    48.42750
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Nersinger Wochenmarkt",
+                "location": "Rathausplatz Nersingen",
+                "opening_hours": "Fr 13:00-17:00; PH off"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Gemeinde Nersingen",
+            "url": "http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                10.12398,
+                48.42750
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
