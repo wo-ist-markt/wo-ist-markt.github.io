@@ -272,11 +272,9 @@ function initLegend() {
     $.get(apiUrl, function(result) {
         $.each(result, function(idx, value) {
             var cityKey = value.name.replace(".json", "");
-
-            // capitalize first letter by Steve Harrison
-            // http://stackoverflow.com/users/48492/steve-harrison
-            // http://stackoverflow.com/a/1026087
-            var cityLabel = cityKey.charAt(0).toUpperCase() + cityKey.slice(1);
+            var cityLabel = cityKey.replace(/(^|\s|\-)([a-zA-ZäöüÄÖÜß])/g, function(l) {
+                return l.toUpperCase();
+            });
             dropDownCitySelection.append(
                 $('<option></option>').val(cityKey).html(cityLabel)
             );
