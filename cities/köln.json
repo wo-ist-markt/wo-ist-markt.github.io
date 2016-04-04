@@ -11,7 +11,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": " Tu 07:00-14:00 ; Fr 07:00-14:00 ;",
                 "location": "Apostelnkloster",
                 "title": "Wochenmarkt Altstadt-Nord"
             }
@@ -191,7 +191,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Mo 07:00-13:00 ; Tu 07:00-13:00 ; We 07:00-13:00 ; Th 07:00-13:00 ; Fr 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": " Mo 07:00-13:00 ; Tu 07:00-13:00 ; We 07:00-13:00 ; Th 07:00-13:00 ; Fr 07:00-13:00 ; Sa 07:00-14:30 ;",
                 "location": "Wilhelmplatz",
                 "title": "Wochenmarkt Nippes"
             }
@@ -476,7 +476,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": " Tu 07:00-13:00 ; Sa 07:00-14:00 ;",
                 "location": "An der Sparkasse / Friedrich-Ebert-Platz",
                 "title": "Wochenmarkt Porz-Mitte "
             }
@@ -551,7 +551,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Sa 07:00-13:00 ;",
+                "opening_hours": " Sa 08:00-15:00 ;",
                 "location": "An der Kalker Post",
                 "title": "Wochenmarkt Kalk"
             }
@@ -563,7 +563,7 @@
             "title": "Offene Daten Köln"
         },
         "map_initialization": {
-            "zoom_level": 11,
+            "zoom_level": 12,
             "coordinates": [
                 6.952778,
                 50.936389
