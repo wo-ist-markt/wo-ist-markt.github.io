@@ -125,8 +125,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.9602786,
-                    50.937531
+                    6.893491,
+                    50.93676
                 ]
             },
             "type": "Feature",
@@ -563,7 +563,7 @@
             "title": "Offene Daten Köln"
         },
         "map_initialization": {
-            "zoom_level": 12,
+            "zoom_level": 11,
             "coordinates": [
                 6.952778,
                 50.936389
