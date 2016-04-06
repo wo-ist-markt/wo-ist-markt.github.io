@@ -1,0 +1,573 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9441852,
+                    50.9360215
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-14:00 ; Fr 07:00-14:00 ;",
+                "location": "Apostelnkloster",
+                "title": "Wochenmarkt Altstadt-Nord"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.955001500000001,
+                    50.9512188
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Sudermanplatz",
+                "title": "Wochenmarkt Neustadt-Nord"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.974436499999999,
+                    50.9367806
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Fr 07:00-13:00 ;",
+                "location": "Deutzer Freiheit",
+                "title": "Wochenmarkt Deutz"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.942679399999999,
+                    50.9128518
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Höninger Weg/Herthastraße",
+                "title": "Wochenmarkt Zollstock"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9283215,
+                    50.90993650000001
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Klettenberggürtel/Siebengebirgsallee",
+                "title": "Wochenmarkt Klettenberg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9191582,
+                    50.9186978
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Auerbachplatz",
+                "title": "Wochenmarkt Sülz"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9068267,
+                    50.9163167
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Hermeskeiler Platz",
+                "title": "Wochenmarkt Sülz"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.911920,
+                    50.923985
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Fr 07:00-13:00 ;",
+                "location": "Lindenthalgürtel/Gleueler Staße.",
+                "title": "Wochenmarkt Lindenthal"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.893491,
+                    50.93676
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Aachener Str./Peter-von-Fliesteden-Straße (am Bahnübergang)",
+                "title": "Wochenmarkt Braunsfeld"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9190242,
+                    50.9473587
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Neptunplatz",
+                "title": "Wochenmarkt Ehrenfeld"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.901700,
+                    50.956943
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Venloer Straße, früheres Hallenbad",
+                "title": "Wochenmarkt Bickendorf"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.867476799999999,
+                    50.9801365
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Görlinger Zentrum",
+                "title": "Wochenmarkt Bocklemünd/Mengenich"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9523664,
+                    50.9631139
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Mo 07:00-13:00 ; Tu 07:00-13:00 ; We 07:00-13:00 ; Th 07:00-13:00 ; Fr 07:00-13:00 ; Sa 07:00-14:30 ;",
+                "location": "Wilhelmplatz",
+                "title": "Wochenmarkt Nippes"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.973220899999999,
+                    50.9657136
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Riehler Gürtel",
+                "title": "Wochenmarkt Riehl"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9172747,
+                    50.9957487
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Gartenstadt Nord, Schlackstraße / Johannes-Rings-Straße",
+                "title": "Wochenmarkt Longerich"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.906374899999999,
+                    51.0114409
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Haselnußhof",
+                "title": "Wochenmarkt Heimersdorf"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8976771,
+                    51.0209207
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Liverpooler Platz",
+                "title": "Wochenmarkt Chorweiler"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0289096,
+                    50.9318383
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Ostheimer Straße",
+                "title": "Wochenmarkt Vingst"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.059371499999999,
+                    50.94461339999999
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Olpener Straße",
+                "title": "Wochenmarkt Alt-Brück"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.061085899999999,
+                    50.9344988
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "An St. Adelheid",
+                "title": "Wochenmarkt Neu-Brück"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.012351,
+                    50.9750211
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "location": "Schützenplatz, Berliner Straße",
+                "title": "Wochenmarkt Mülheim"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.005672199999999,
+                    50.9495864
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Waldecker Straße",
+                "title": "Wochenmarkt Buchforst"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.008268500000001,
+                    50.8617256
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Fr 07:00-13:00 ;",
+                "location": "Sürther Hauptstraße/Fronhofstraße",
+                "title": "Wochenmarkt Sürth"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0751651,
+                    50.9762831
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "An der Kemperwiese",
+                "title": "Wochenmarkt Dellbrück"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.034029899999999,
+                    50.9898433
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Wupperplatz",
+                "title": "Wochenmarkt Höhenhaus"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9917975,
+                    50.9863596
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Ricarda-Huch-Straße/Bonhoeffer-Straße",
+                "title": "Wochenmarkt Stammheim"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9821443,
+                    50.9991546
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Einstein-Straße/Eduard-Heis-Straße",
+                "title": "Wochenmarkt Flittard"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0503917,
+                    50.9714117
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Sa 07:00-13:00 ;",
+                "location": "Bergisch Gladbacher Straße",
+                "title": "Wochenmarkt Holweide"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9939806,
+                    50.8923346
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Maternusplatz",
+                "title": "Wochenmarkt Rodenkirchen"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.004082400000001,
+                    50.96190619999999
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Th 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Wiener Platz",
+                "title": "Wochenmarkt Mülheim"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8338618,
+                    50.9405856
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "location": "Emil Schreiterer Platz",
+                "title": "Wochenmarkt Weiden"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0565862,
+                    50.8848402
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Tu 07:00-13:00 ; Sa 07:00-14:00 ;",
+                "location": "An der Sparkasse / Friedrich-Ebert-Platz",
+                "title": "Wochenmarkt Porz-Mitte "
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0810128,
+                    50.8819696
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Am Schwanebitzer Hof",
+                "title": "Wochenmarkt Porz-Urbach"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9991797,
+                    50.9264336
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Fr 07:00-13:00 ;",
+                "location": "Siegburger Straße/Rolshover Straße",
+                "title": "Wochenmarkt Poll"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9635462,
+                    50.9798208
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Waldfriedstraße",
+                "title": "Wochenmarkt Niehl"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.002267499999999,
+                    50.9282165
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Th 07:00-13:00 ;",
+                "location": "Gremberger Straße",
+                "title": "Wochenmarkt Humboldt-Gremberg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9989278,
+                    50.9372057
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "opening_hours": " Sa 08:00-15:00 ;",
+                "location": "An der Kalker Post",
+                "title": "Wochenmarkt Kalk"
+            }
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "url": "http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln",
+            "title": "Offene Daten Köln"
+        },
+        "map_initialization": {
+            "zoom_level": 11,
+            "coordinates": [
+                6.952778,
+                50.936389
+            ]
+        }
+    }
+}
