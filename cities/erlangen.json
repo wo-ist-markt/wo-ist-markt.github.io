@@ -1,0 +1,108 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    11.003812,
+                    49.597750 
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Erlanger Wochenmarkt",
+                "location": "Marktplatz",
+                "opening_hours": "Mo-Sa 08:00-15:00"
+            },
+            "type": "Feature"
+        },
+         {
+            "geometry": {
+                "coordinates": [
+                    11.006914,
+                    49.591031
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Rathausplatz",
+                "location": "Rathausplatz",
+                "opening_hours": "Fr 09:00-14:00"
+            },
+            "type": "Feature"
+        },
+       {
+            "geometry": {
+                "coordinates": [
+                    10.949764,
+                    49.594764 
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Rudeltplatz",
+                "location": "Rudeltplatz",
+                "opening_hours": "Fr 09:00-17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.977945,
+                    49.597020
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Marktstand Naturlandhof Pilsberger",
+                "location": "Schallershoferstraße 24",
+                "opening_hours": "Tu 09:00-18:00, Th 09:00-17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    11.031588,
+                    49.656801
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Baiersdorf",
+                "location": "Rathausplatz",
+                "opening_hours": "We,Sa 08:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.880580,
+                    49.569178 
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Herzogenaurach",
+                "location": "Hauptstraße",
+                "opening_hours": "We,Sa 07:00-12:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von Stadt Erlangen",
+            "url": "http://www.erlangen.de/Portaldata/1/Resources/030_leben_in_er/dokumente/amt31/070621_Umwelttip.pdf"
+        },
+     "map_initialization": {
+            "coordinates": [
+                11.003812,
+                49.597750
+            ],
+            "zoom_level": 10
+        }
+    },
+    "type": "FeatureCollection"
+}
