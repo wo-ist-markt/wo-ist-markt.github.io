@@ -24,7 +24,7 @@
       },
       "type": "Feature",
       "properties": {
-        "opening_hours": " We 07:30-13:00;",
+        "opening_hours": " Sa 07:30-13:00;",
         "location": "Hermann-Thelen-Platz an der Bahnhofstraße",
         "title": "Markt Moers-Kapellen"
       }
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "opening_hours": "We 07:30-13:00 ; Sa 07:30-13:00 ;",
-        "location": "Hermann-Thelen-Platz an der Bahnhofstraße",
+        "location": "Marktplatz an der Lindenstraße",
         "title": "Markt Moers-Meerbeck"
       }
     },
@@ -84,7 +84,7 @@
       },
       "type": "Feature",
       "properties": {
-        "opening_hours": "Tu 07:30-14:00 ; Fr 07:30-13:00 ;",
+        "opening_hours": "Tu 07:30-14:00 ; Fr 07:30-14:00 ;",
         "location": "Neumarkt und Teilbereich der Steinstraße Haus-Nr. 1 bis 21",
         "title": "Markt Moers-Innenstadt"
       }
