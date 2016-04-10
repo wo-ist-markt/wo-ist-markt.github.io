@@ -9,6 +9,8 @@ var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreet
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
 var DEFAULT_CITY = "karlsruhe";
+var CITY_LIST_API_URL = 'https://api.github.com/repos/wo-ist-markt/' +
+                        'wo-ist-markt.github.io/contents/cities';
 
 var map;
 var nowGroup = L.layerGroup();
@@ -77,14 +79,6 @@ function getTableRowForDay(openingRange, dayIsToday) {
 }
 
 /*
- * Initialize map.
- */
-function initMap() {
-    var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles);
-}
-
-/*
  * Moves the map to its initial position.
  */
 function positionMap(mapInitialization) {
@@ -92,6 +86,7 @@ function positionMap(mapInitialization) {
     var zoomLevel = mapInitialization.zoom_level;
     map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
 }
+
 
 /*
  * Initialize layer controls.
@@ -189,6 +184,10 @@ function getOpeningRangeForDate(openingRanges, date) {
  * Create map markers from JSON market data.
  */
 function initMarkers(featureCollection) {
+    nowGroup.clearLayers();
+    todayGroup.clearLayers();
+    otherGroup.clearLayers();
+    unclassifiedGroup.clearLayers();
     L.geoJson(featureCollection, {
         onEachFeature: initMarker
     });
@@ -255,48 +254,6 @@ function initMarker(feature) {
     }
 }
 
-/*
- * Initialize legend.
- */
-function initLegend() {
-    var legend = L.control({position: 'bottomright'}),
-        currentCity = getCityName(),
-        apiUrl = "https://api.github.com/repos/wo-ist-markt/wo-ist-markt.github.io/contents/cities",
-        dropDownCitySelection = $('#dropDownCitySelection');
-
-    legend.onAdd = function () {
-        return L.DomUtil.get('legend');
-    };
-
-    // populate select box
-    $.get(apiUrl, function(result) {
-        $.each(result, function(idx, value) {
-            var cityKey = value.name.replace(".json", "");
-            var cityLabel = cityKey.replace(/(^|\s|\-)([a-zA-ZäöüÄÖÜß])/g, function(l) {
-                return l.toUpperCase();
-            });
-            dropDownCitySelection.append(
-                $('<option></option>').val(cityKey).html(cityLabel)
-            );
-            dropDownCitySelection.val(currentCity);
-        });
-        dropDownCitySelection.select2({
-            minimumResultsForSearch: 10
-        }).change(function() {
-            updateUrlHash(dropDownCitySelection.select2().val());
-            window.location.reload(true);
-        });
-        // Force select2 update to fix dropdown position
-        dropDownCitySelection.select2('open');
-        dropDownCitySelection.select2('close');
-    });
-
-    // Stop map movement by mouse events in legend.
-    // See https://gis.stackexchange.com/a/106777/48264.
-    L.DomEvent.disableClickPropagation(L.DomUtil.get('legend'));
-
-    legend.addTo(map);
-}
 
 /*
  * Returns the city name when present in the hash of the current URI;
@@ -312,6 +269,7 @@ function getCityName() {
     }
 }
 
+
 /*
  * Updates the URL hash in the browser.
  */
@@ -326,15 +284,6 @@ function updateUrlHash(cityName) {
     }
 }
 
-/*
- * Constructs a file path for the market data from the given city name.
- */
-function getMarketDataFilePath(cityName) {
-    if (cityName === undefined) {
-        throw "City name is undefined.";
-    }
-    return "cities/" + cityName + ".json";
-}
 
 /*
  * Returns the given string in camel case.
@@ -346,17 +295,6 @@ function toCamelCase(str) {
 }
 
 /*
- * Updates the document title.
- */
-function updateDocumentTitle(cityName) {
-    if (cityName === undefined) {
-        throw "City name is undefined.";
-    }
-    var formattedCityName = toCamelCase(cityName);
-    document.title = "Wo ist Markt in " + formattedCityName +"?";
-}
-
-/*
  * Updates the legend data source.
  */
 function updateLegendDataSource(dataSource) {
@@ -365,43 +303,116 @@ function updateLegendDataSource(dataSource) {
     $("#legend #dataSource").html('<a href="' + url + '">' + title + '</a>');
 }
 
+
 /*
- * Initialize application when market data is loaded.
+ * Convert a city ID to a UI label.
  */
-function init(json, cityName) {
-    positionMap(json.metadata.map_initialization);
-    updateLegendDataSource(json.metadata.data_source);
-    initMarkers(json);
-    initControls();
-    map.addLayer(unclassifiedGroup);
-    map.addLayer(nowGroup);
-    updateLayers();
-    updateDocumentTitle(cityName);
-    updateUrlHash(cityName);
+function cityIdToLabel(s) {
+    return s.replace(/(^|\s|\-)([a-zA-ZäöüÄÖÜß])/g, function (x) {
+        return x.toUpperCase();
+    });
 }
 
+
 /*
- * Forces reloading when URI hash changed.
+ * Set the current city.
+ *
+ * `city` is the city ID.
  */
+function setCity(city) {
+    var filename = 'cities/' + city + '.json';
+    $.getJSON(filename, function(json) {
+        positionMap(json.metadata.map_initialization);
+        updateLegendDataSource(json.metadata.data_source);
+        initMarkers(json);
+        initControls();
+        map.addLayer(unclassifiedGroup);
+        map.addLayer(nowGroup);
+        updateLayers();
+        updateUrlHash(city);
+        document.title = 'Wo ist Markt in ' + cityIdToLabel(city) + '?';
+        // Update drop down but avoid recursion
+        $('#dropDownCitySelection').val(city).trigger('change', true);
+    }).fail(function() {
+        console.log('Failure loading "' + filename + '".');
+        if (city !== DEFAULT_CITY) {
+            console.log('Loading default city "' + DEFAULT_CITY +
+                        '" instead.');
+            setCity(DEFAULT_CITY);
+        }
+    });
+}
+
+
+/*
+ * Load the IDs of the available cities.
+ *
+ * Returns a jQuery `Deferred` object that resolves to an array of city IDs.
+ */
+function loadCityIDs() {
+    var d = $.Deferred();
+    $.get(CITY_LIST_API_URL, function(result) {
+        var ids = [];
+        $.each(result, function(_, file) {
+            if (file.name.indexOf('.json', file.name.length - 5) !== -1) {
+                ids.push(file.name.slice(0, -5));
+            }
+        });
+        d.resolve(ids);
+    }).fail(function() {
+        d.fail();
+    });
+    return d;
+}
+
+
 $(window).on('hashchange',function() {
-    window.location.reload(true);
+    setCity(getCityName());
 });
 
+
 $(document).ready(function() {
-    initMap();
-    initLegend();
-    var cityName = getCityName();
-    var marketDataFileName = getMarketDataFilePath(cityName);
-    $.getJSON(marketDataFileName, function(json) {
-        init(json, cityName);
-    }).fail(function() {
-        console.log("Failure loading '" + marketDataFileName + "'. Loading market file for default city (" + DEFAULT_CITY + ") instead.");
-        cityName = DEFAULT_CITY;
-        marketDataFileName = getMarketDataFilePath(cityName);
-        $.getJSON(marketDataFileName, function(json) {
-            init(json, cityName);
-        }).fail(function() {
-           console.log("Failure loading default market file.");
+    var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
+    map = new L.Map('map').addLayer(tiles);
+    var legend = L.control({position: 'bottomright'});
+    var dropDownCitySelection = $('#dropDownCitySelection');
+    legend.onAdd = function () { return L.DomUtil.get('legend'); };
+
+    // Populate dropdown
+    loadCityIDs().done(function(cityIDs) {
+        for (var i = 0; i < cityIDs.length; i++) {
+            var id = cityIDs[i];
+            dropDownCitySelection.append(
+                $('<option></option>').val(id)
+                                      .html(cityIdToLabel(id))
+            );
+        }
+        dropDownCitySelection.select2({
+            minimumResultsForSearch: 10
+        }).change(function(e, keepCity) {
+            // If we programmatically change the select2 value then we also
+            // need to trigger 'change'. However that would cause an infinite
+            // recursion in our case since we're doing that from inside
+            // setCity. Therefore we add a custom "keepCity" parameter that is
+            // set when the change event is triggered from within setCity so
+            // that we can avoid a recursion in that case.
+            if (!keepCity) {
+                setCity(dropDownCitySelection.val());
+            }
+        }).on('select2:close', function() {
+            $(':focus').blur();
         });
+        // Force select2 update to fix dropdown position
+        dropDownCitySelection.select2('open');
+        dropDownCitySelection.select2('close');
+
+        setCity(getCityName());
     });
+
+    // Stop map movement by mouse events in legend.
+    // See https://gis.stackexchange.com/a/106777/48264.
+    L.DomEvent.disableClickPropagation(L.DomUtil.get('legend'));
+
+    legend.addTo(map);
 });
+
