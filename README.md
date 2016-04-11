@@ -36,6 +36,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |City name|Data source|
 |:---|:---|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Berlin][bonn-wikipedia]|[City of Bonn][bonn-markets]|
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
