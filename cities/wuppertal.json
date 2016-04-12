@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Barmen",
+        "title": "Wochenmarkt Barmen",
+        "opening_hours": "Tu 07:00-14:30;Fr 07:00-18:00;Sa 07:00-13:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.200524,
+          51.272453 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Langerfeld",
+        "title": "Wochenmarkt Langerfeld",
+        "opening_hours": "Fr 07:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.243756,
+          51.274074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Ölberg",
+        "title": "Nordstadt / Ölbergmarkt, jeden 2. Freitag",
+        "opening_hours": "Fr 14:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.136357,
+          51.259355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Laurentiusplatz",
+        "title": "Markt am Laurentiusplatz",
+        "opening_hours": "Tu 07:00-16:00; Th 07:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.139737,
+          51.256233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Wichlinghausen",
+        "title": "Wichlinghausen, Wichlinghauser Markt",
+        "opening_hours": "Th 07:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.214783,
+          51.283103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Wichlinghausen",
+        "title": "Wichlinghauser Markt",
+        "opening_hours": "Tu, Fr 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.214803,
+          51.283102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Oberbarmen",
+        "title": "Oberbarmen Berliner Platz",
+        "opening_hours": "We 07:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.222169,
+          51.275098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Cronenberg",
+        "title": "Cronenberg Herichhauser Straße",
+        "opening_hours": "Fr 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.133616,
+          51.207677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Ronsdorf",
+        "title": "Ronsdorfer Markt",
+        "opening_hours": "Tu 07:00-13:00;Fr 07:00-18:00;Sa 07:00-13:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.197604,
+          51.227176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Vohwinkel",
+        "title": "Vohwinkel Lienhardplatz",
+        "opening_hours": "Tu, Sa 13:30-18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.070696,
+          51.232131 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Elberfeld",
+        "title": "Elberfeld Neumarkt",
+        "opening_hours": "Mo-Fr 07:00-18:00;Sa 07:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.146479,
+          51.258691
+        ]
+      }
+    }   
+  ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten von der Stadt Wuppertal",
+            "url": "https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                7.14,
+                51.25
+            ],
+            "zoom_level": 11
+        }
+    }
+}
