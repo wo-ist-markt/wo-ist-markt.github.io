@@ -2,12 +2,13 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "devDependencies": {
+    "colors": "~1.1.2",
     "jshint": "~2.9.1",
     "moment": "~2.11.0",
     "opening_hours": "~3.4.0"
   },
   "scripts": {
-      "lint": "jshint js preprocessing",
+      "lint": "jshint js preprocessing validation",
       "test": "npm run lint"
   }
 }
