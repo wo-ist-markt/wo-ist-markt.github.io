@@ -23,6 +23,7 @@ var TIME_NOW = [now.getHours(), now.getMinutes()];
 var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
 var DAY_NAMES = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
 var DEFAULT_MARKET_TITLE = 'Markt';
+var firstTimeLoad = true; // indicates if the map was loaded for the first time
 
 L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
 var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
@@ -331,8 +332,19 @@ function setCity(city) {
         updateLayers();
         updateUrlHash(city);
         document.title = 'Wo ist Markt in ' + cityIdToLabel(city) + '?';
+
         // Update drop down but avoid recursion
         $('#dropDownCitySelection').val(city).trigger('change', true);
+
+        if (firstTimeLoad) {
+            // now show the map and hide the indicator
+            $("#loading-indicator").hide();
+            $("#map").show();
+            $("#legend").show();
+            // trigger a resize so that the tiles are redrawn
+            map._onResize(); 
+            firstTimeLoad = false;
+        }
     }).fail(function() {
         console.log('Failure loading "' + filename + '".');
         if (city !== DEFAULT_CITY) {
