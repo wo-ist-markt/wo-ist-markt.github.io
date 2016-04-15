@@ -36,6 +36,8 @@ A small visualization of the weekly markets in different cities. Available at: h
 |City name|Data source|
 |:---|:---|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
+|[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
@@ -44,6 +46,8 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
+|[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
+
 
 
 ## Contributing
@@ -66,6 +70,10 @@ Tests can be run using [npm][npm]:
 
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
+[erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
+[erlangen-markets]: http://www.erlangen.de
+[essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
+[essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
@@ -82,3 +90,5 @@ Tests can be run using [npm][npm]:
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
+[wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
+[wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php

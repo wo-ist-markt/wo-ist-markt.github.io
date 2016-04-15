@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "location": "Markt- und Domplatz",
-        "title": "Der Wochenmarkt auf dem Markt- und Domplatz",
+        "title": "Wochenmarkt",
         "opening_hours": "We, Sa 07:00-13:30"
       },
       "geometry": {
@@ -20,7 +20,7 @@
       "type": "Feature",
       "properties": {
         "location": "Marktplatz rund um den Neptunbrunnen",
-        "title": "Paderborner Palavermarkt (ökologische Wochenmarkt)",
+        "title": "Palavermarkt (ökologischer Wochenmarkt)",
         "opening_hours": "Fr 14:00-18:00"
       },
       "geometry": {
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "location": "Geschäftszentrum \"Auf der Lieth\", Paderborn",
-        "title": "14tägiger Wochenmarkt \"Lichthofmarkt\"",
+        "title": "Lichthofmarkt: 14tägiger Wochenmarkt",
         "opening_hours": "Th 14:00-18:00"
       },
       "geometry": {
