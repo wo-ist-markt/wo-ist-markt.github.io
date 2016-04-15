@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_source": {
+      "title": "Offene Daten Moers, aktualisiert am 09.04.2016",
+      "url": "https://www.moers.de/de/opendataxml/maerkte/"
+    },
+    "map_initialization": {
+      "coordinates": [
+        6.642952,
+        51.455816
+      ],
+      "zoom_level": 11
+    }
+  },
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.594744,
+          51.416668
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "opening_hours": "Sa 07:30-13:00;",
+        "location": "Hermann-Thelen-Platz an der Bahnhofstraße",
+        "title": "Markt Moers-Kapellen"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.602056,
+          51.489543
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "opening_hours": "Tu 07:30-13:00;Fr 07:30-13:00;",
+        "location": "Marktplatz an der Lintforter Straße Ecke Stormstraße",
+        "title": "Markt Moers-Repelen"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.655718,
+          51.440057
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "opening_hours": "Fr 08:00-13:00;",
+        "location": "Parkplatz des Sportparks Asberg an der Asberger Straße 172",
+        "title": "Markt Moers-Asberg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.644224,
+          51.462570
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "opening_hours": "We 07:30-13:00;Sa 07:30-13:00;",
+        "location": "Marktplatz an der Lindenstraße",
+        "title": "Markt Moers-Meerbeck"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625405,
+          51.452377
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "opening_hours": "Tu 07:30-14:00;Fr 07:30-14:00;",
+        "location": "Neumarkt und Teilbereich der Steinstraße Haus-Nr. 1 bis 21",
+        "title": "Markt Moers-Innenstadt"
+      }
+    }
+  ]
+}
