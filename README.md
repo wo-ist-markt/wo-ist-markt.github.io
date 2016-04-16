@@ -36,6 +36,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |City name|Data source|
 |:---|:---|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
@@ -71,6 +72,8 @@ Tests can be run using [npm][npm]:
 
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
+[chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
+[chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
