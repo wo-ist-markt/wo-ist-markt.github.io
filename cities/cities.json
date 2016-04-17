@@ -1,0 +1,74 @@
+{
+    "berlin": {
+        "id": "berlin",
+        "label": "Berlin"
+    },
+    "chemnitz": {
+        "id": "chemnitz",
+        "label": "Chemnitz"
+    },
+    "dresden": {
+        "id": "dresden",
+        "label": "Dresden"
+    },
+    "erlangen": {
+        "id": "erlangen",
+        "label": "Erlangen"
+    },
+    "essen": {
+        "id": "essen",
+        "label": "Essen"
+    },
+    "karlsruhe": {
+        "id": "karlsruhe",
+        "label": "Karlsruhe"
+    },
+    "köln": {
+        "id": "köln",
+        "label": "Köln"
+    },
+    "leipzig": {
+        "id": "leipzig",
+        "label": "Leipzig"
+    },
+    "moers": {
+        "id": "moers",
+        "label": "Moers"
+    },
+    "mülheim-an-der-ruhr": {
+        "id": "mülheim-an-der-ruhr",
+        "label": "Mülheim an der Ruhr"
+   },
+    "münchen": {
+        "id": "münchen",
+        "label": "München"
+    },
+    "münster": {
+        "id": "münster",
+        "label": "Münster"
+    },
+    "neu-ulm": {
+        "id": "neu-ulm",
+        "label": "Neu-Ulm"
+    },
+    "paderborn": {
+        "id": "paderborn",
+        "label": "Paderborn"
+    },
+    "rostock": {
+        "id": "rostock",
+        "label": "Rostock"
+    },
+    "ulm": {
+        "id": "ulm",
+        "label": "Ulm"
+    },
+    "witten": {
+        "id": "witten",
+        "label": "Witten"
+    },
+    "wuppertal": {
+        "id": "wuppertal",
+        "label": "Wuppertal"
+    }
+}

@@ -8,9 +8,10 @@ var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreet
                   'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
                   'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
+
 var DEFAULT_CITY_ID = "karlsruhe";
-var CITY_LIST_API_URL = 'https://api.github.com/repos/wo-ist-markt/' +
-                        'wo-ist-markt.github.io/contents/cities';
+var CITY_LIST_API_URL = 'cities/cities.json';
+var cityDirectory = {}; // the city directory (i.e. a list of all cities indexed by id)
 
 var map;
 var nowGroup = L.layerGroup();
@@ -87,6 +88,12 @@ function positionMap(mapInitialization) {
     map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
 }
 
+/*
+ * Gets a city object by ID
+ */
+function getCity(cityId) {
+    return cityDirectory[cityId];
+}
 
 /*
  * Update layer controls.
@@ -333,16 +340,16 @@ function updateLegendDataSource(dataSource) {
     $("#legend #dataSource").html('<a href="' + url + '">' + title + '</a>');
 }
 
-
 /*
- * Convert a city ID to a UI label.
+ * Loads the default city.
+ * 
+ * If `createNewHistoryEntry` is true then a new
+ * entry in the browser's history is created for the change. Otherwise the
+ * current history entry is replaced.
  */
-function cityIdToLabel(s) {
-    return s.replace(/(^|\s|\-)([a-zA-ZäöüÄÖÜß])/g, function (x) {
-        return x.toUpperCase();
-    });
+function loadDefaultCity(createNewHistoryEntry) {
+    setCity(DEFAULT_CITY, createNewHistoryEntry);
 }
-
 
 /*
  * Set the current city.
@@ -354,6 +361,9 @@ function cityIdToLabel(s) {
 function setCity(cityID, createNewHistoryEntry) {
     cityID = cityID || DEFAULT_CITY_ID;
     var filename = 'cities/' + cityID + '.json';
+    if (filename === CITY_LIST_API_URL) {
+        return loadDefaultCity(false);
+    }
     $.getJSON(filename, function(json) {
         positionMap(json.metadata.map_initialization);
         updateLegendDataSource(json.metadata.data_source);
@@ -361,7 +371,8 @@ function setCity(cityID, createNewHistoryEntry) {
         updateControls();
         updateLayers();
         updateUrlHash(cityID, createNewHistoryEntry);
-        document.title = 'Wo ist Markt in ' + cityIdToLabel(cityID) + '?';
+        document.title = 'Wo ist Markt in ' + getCity(cityID).label+ '?';
+
         // Update drop down but avoid recursion
         $('#dropDownCitySelection').val(cityID).trigger('change', true);
     }).fail(function() {
@@ -369,7 +380,7 @@ function setCity(cityID, createNewHistoryEntry) {
         if (cityID !== DEFAULT_CITY_ID) {
             console.log('Loading default city "' + DEFAULT_CITY_ID +
                         '" instead.');
-            setCity(DEFAULT_CITY_ID, createNewHistoryEntry);
+            loadDefaultCity(createNewHistoryEntry);
         }
     });
 }
@@ -378,20 +389,27 @@ function setCity(cityID, createNewHistoryEntry) {
 /*
  * Load the IDs of the available cities.
  *
- * Returns a jQuery `Deferred` object that resolves to an array of city IDs.
+ * Returns a jQuery `Deferred` object that resolves to an array of city objects.
  */
-function loadCityIDs() {
+function loadCities() {
+    "use strict";
     var d = $.Deferred();
     $.get(CITY_LIST_API_URL, function(result) {
-        var ids = [];
-        $.each(result, function(_, file) {
-            if (file.name.indexOf('.json', file.name.length - 5) !== -1) {
-                ids.push(file.name.slice(0, -5));
+        var resultLength = result.length,
+            resultMalformed = false;
+        $.each(result, function(key, value) {
+            if (value.id === undefined || value.label === undefined) {
+                resultMalformed = true;
             }
         });
-        d.resolve(ids);
-    }).fail(function() {
-        d.fail();
+        if (resultMalformed) {
+            d.reject();
+        } else {
+            d.resolve(result);
+        }
+    }).fail(function(e) {
+        console.log("Loading " + CITY_LIST_API_URL + " failed.");
+        d.reject(e);
     });
     return d;
 }
@@ -415,14 +433,18 @@ $(document).ready(function() {
     L.control.locate({keepCurrentZoomLevel: true}).addTo(map);
 
     // Populate dropdown
-    loadCityIDs().done(function(cityIDs) {
-        for (var i = 0; i < cityIDs.length; i++) {
-            var id = cityIDs[i];
+    loadCities().fail(function(e) {
+        console.log("Loadcity(); failed: ", e);
+    }).done(function(cities) {
+        // cache the results
+        cityDirectory = cities;
+        $.each(cityDirectory, function(key, value) {
+            var city = value;
             dropDownCitySelection.append(
-                $('<option></option>').val(id)
-                                      .html(cityIdToLabel(id))
+                $('<option></option>').val(city.id)
+                                      .html(city.label)
             );
-        }
+        });
         dropDownCitySelection.select2({
             minimumResultsForSearch: 10
         }).change(function(e, keepCity) {
