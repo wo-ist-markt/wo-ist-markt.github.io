@@ -122,7 +122,7 @@ html, body {
     font-style: italic;
 }
 
-table.times {
+table.times, p.times {
     margin-top: 0.75em;
 }
 
