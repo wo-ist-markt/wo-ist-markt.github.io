@@ -203,7 +203,7 @@ function initMarker(feature) {
     var timeTableHtml;
     var openingHoursUnclassified;
     if (openingHoursStrings === null || openingHoursStrings.length === 0) {
-        openingHoursUnclassified = properties.openingHoursUnclassified;
+        openingHoursUnclassified = properties.opening_hours_unclassified;
     } else {
         var openingRanges = getOpeningRanges(openingHoursStrings);
         todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
