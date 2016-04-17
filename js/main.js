@@ -373,9 +373,9 @@ function loadCityIDs() {
 * Show the default loading indicator and hide the map
 */
 function showLoadingIndicator() {
-    $("#loading-indicator").show();
-    $("#map").hide();
-    $("#legend").hide();
+    $("#loading-indicator").fadeIn();
+    $("#map").fadeOut();
+    $("#legend").fadeOut();
 }
 
 /*
@@ -383,9 +383,9 @@ function showLoadingIndicator() {
 */
 function hideLoadingIndicator() {
     // now show the map and hide the indicator
-    $("#loading-indicator").hide();
-    $("#map").show();
-    $("#legend").show();
+    $("#loading-indicator").fadeOut();
+    $("#map").fadeIn();
+    $("#legend").fadeIn();
 
     // trigger a resize so that the tiles are redrawn
     map._onResize(); 
