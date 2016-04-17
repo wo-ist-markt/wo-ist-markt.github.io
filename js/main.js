@@ -2,6 +2,7 @@
  * © Code for Karlsruhe and contributors.
  * See the file LICENSE for details.
  */
+'use strict';
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
 var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
