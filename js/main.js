@@ -378,7 +378,7 @@ $(document).ready(function() {
     $("input[name=display]").change(updateLayers);
 
     // add locator
-    L.control.locate().addTo(map);
+    L.control.locate({keepCurrentZoomLevel: true}).addTo(map);
 
     // Populate dropdown
     loadCityIDs().done(function(cityIDs) {
