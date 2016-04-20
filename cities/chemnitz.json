@@ -1,0 +1,108 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [
+					12.920308113098145,
+					50.83276256703147
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Neumarkt / Markt",
+				"opening_hours": "Jan 12-Feb 27,Nov 01-11 Tu-Fr 09:00-16:00 2016; Jan 12-Feb 27,Mar 01-Jul 01,Jul 03-Aug 22,Aug 27-Sep 21,Sep 25-Oct 29,Nov 01-11 Sa 08:00-13:00 2016; Mar 01-Jul 01,Jul 03-Aug 22,Aug 27-Sep 21,Sep 25-Oct 29 Tu-Fr 09:00-17:00 2016; Nov 12 08:00-12:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					12.921488285064695,
+					50.834236363663706
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Am Roten Turm / Am Wall",
+				"opening_hours": "Sep 22-24 Tu-Fr 09:00-17:00 2016; Sep 22-24 Sa 08:00-13:00 2016; Nov 15 09:00-16:00 2016; Nov 17-18,Nov 20-Dec 16 Tu-Fr 09:00-16:00 2016; Nov 19 08:00-13:00 2016; Dec 23 09:00-15:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					12.917357683181763,
+					50.831542838072934
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Rosenhof",
+				"opening_hours": "Aug 23-26 Tu-Fr 09:00-17:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					12.923301458358765,
+					50.840740841067756
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Georgstraße",
+				"opening_hours": "Jan 05-Dec 31 Tu,Th,Fr 09:00-17:00 2016; Jan 05-Dec 31 Sa 08:00-12:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					12.958846092224121,
+					50.822366744117446
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Ernst-Enge-Straße",
+				"opening_hours": "Jan 04-Dec 31 Mo-Fr 09:00-17:00 2016; Jan 04-Dec 31 Sa 08:00-12:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					12.88770318031311,
+					50.80545333878353
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Dr. Salvador-Allende-Straße",
+				"opening_hours": "Jan 04-Dec 30 Mo-Fr 09:00-16:00 2016; Dec 31 08:00-12:00 2016",
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		}
+	],
+	"metadata": {
+		"data_source": {
+			"title": "Daten von der Stadt Chemnitz",
+			"url": "http://www.chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html"
+		},
+		"map_initialization": {
+			"coordinates": [
+				12.9417,
+				50.8246
+			],
+			"zoom_level": 13
+		}
+	},
+	"type": "FeatureCollection"
+}
