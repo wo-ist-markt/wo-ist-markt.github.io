@@ -2329,9 +2329,9 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
-                "location": "Wochenmarkt Wittenbergplatz (Nordseite)",
-                "opening_hours": "Tu 08:00-14:00;Fr 08:00-16:00",
+                "title": "Wochenmarkt Wittenbergplatz",
+                "location": "Wittenbergplatz (Nordseite)",
+                "opening_hours": "Tu 08:00-14:00;Th 10:00-18:00;Fr 08:00-16:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
