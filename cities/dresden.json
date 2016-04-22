@@ -1,0 +1,160 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    13.7564374,
+                    51.0706049
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Alaunplatz",
+                "opening_hours": "Th 09:00-17:00; Su 08:00-12.00",
+                "title": "Markt am Alaunplatz"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.7403693,
+                  51.0614998
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "13.7403693, 51.0614998",
+                "opening_hours": "Sa 09:00-13:00",
+                "title": "Dresdner Bauernmarkt Königstraße"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.7596107,
+                  51.1092368
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Markt in Dresden Hellerau",
+                "opening_hours": "Fr 09:00-16:00",
+                "title": "Markt in Dresden Hellerau"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.70983,
+                  51.09195
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Kopernikusstraße",
+                "opening_hours": "Tu 08:00-17:00",
+                "title": "Kopernikusstraße"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.7971464,
+                  51.0053773
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Jacob-Winter-Platz",
+                "opening_hours": "Mo 09:00-17:00;We 09:00-17:00; Fr 09:00-17:00",
+                "title": "Jacob-Winter-Platz"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.7694365,
+                  51.0465393
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Reißigerstraße",
+                "opening_hours": "Tu 07:00-016:00",
+                "title": "Reißigerstraße"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.77594,
+                  51.11455
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stralsunder Straße",
+                "opening_hours": "Th 08:00-16:00",
+                "title": "Stralsunder Straße"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.72187,
+                  51.02979
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Münchner Platz",
+                "opening_hours": "We 08:00-13:00, 15:00-19:00",
+                "title": "Münchner Platz"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.75137,
+                  51.04305
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lingnerallee",
+                "opening_hours": "Fr 08:00-16:30",
+                "title": "Sachsenmarkt"
+            },
+            "type": "Feature"
+        },{
+            "geometry": {
+                "coordinates": [
+                  13.80738,
+                  51.05216
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Schillerplatz",
+                "opening_hours": "Tu 09:00-18:00; Th 09:00-18:00; Sa 09:00-12:00",
+                "title": "Schillerplatz"
+            },
+            "type": "Feature"
+        }
+
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Daten der Stadt Dresden",
+            "url": "https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                13.7304409,
+                51.0520987
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
