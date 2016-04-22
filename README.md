@@ -75,6 +75,8 @@ Tests can be run using [npm][npm]:
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
+[dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
+[dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
