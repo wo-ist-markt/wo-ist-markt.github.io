@@ -1,0 +1,99 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.335587",
+          "51.4395685"
+        ]
+      },
+      "properties": {
+        "title": "Rathausplatz",
+        "location": "Rathausplatz",
+        "opening_hours": "Tu, Th, Sa 08:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.37634",
+          "51.44866"
+        ]
+      },
+      "properties": {
+        "title": "Marktplatz an der Stockumer Straße",
+        "location": "Marktplatz an der Stockumer Straße",
+        "opening_hours": "Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.2814519",
+          "51.4230696"
+        ]
+      },
+      "properties": {
+        "title": "Platz an der Schmiede",
+        "location": "Platz an der Schmiede",
+        "opening_hours": "Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.29056",
+          "51.41648"
+        ]
+      },
+      "properties": {
+        "title": "Karl-Legien-Straße",
+        "location": "Karl-Legien-Straße",
+        "opening_hours": "Mi 09:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.41427",
+          "51.42904"
+        ]
+      },
+      "properties": {
+        "title": "Auf dem Schnee 1",
+        "location": "Auf dem Schnee 1",
+        "opening_hours": "Mi 09:00-14:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von Stadtmarketing Witten GmbH",
+      "url": "http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.35258,
+        51.44362
+      ],
+      "zoom_level": 13
+    }
+  }
+}
