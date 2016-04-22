@@ -49,6 +49,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
+|[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
