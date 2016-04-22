@@ -44,6 +44,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
+|[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
@@ -90,6 +91,8 @@ Tests can be run using [npm][npm]:
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
+[muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
+[muelheim-ad-ruhr-markets]: https://www.muelheim-ruhr.de/cms/muelheimer_wochenmaerkte1.html
 [muenchen-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnchen
 [muenchen-markets]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
