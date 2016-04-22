@@ -49,6 +49,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
+|[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
 
 
@@ -99,5 +100,7 @@ Tests can be run using [npm][npm]:
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
+[witten-wikipedia]:https://en.wikipedia.org/wiki/Witten
+[witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
