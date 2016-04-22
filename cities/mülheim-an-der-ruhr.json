@@ -1,0 +1,99 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.8813973",
+          "51.42812"
+        ]
+      },
+      "properties": {
+        "title": "Schloßstraße",
+        "location": "Schloßstraße",
+        "opening_hours": "Tu, Th, Fr, Sa 08:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.840058",
+          "51.428868"
+        ]
+      },
+      "properties": {
+        "title": "Speldorf",
+        "location": "Speldorfer Depot, Duisburger Straße 283",
+        "opening_hours": "Tu, Th, Fr 07:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.859398",
+          "51.450333"
+        ]
+      },
+      "properties": {
+        "title": "Styrum",
+        "location": "Am Sültenfuß",
+        "opening_hours": "Fr 07:00-13:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.924297",
+          "51.433629"
+        ]
+      },
+      "properties": {
+        "title": "Heißen",
+        "location": "Heißener Marktplatz",
+        "opening_hours": "Th 07:00-13:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.873836",
+          "51.406117"
+        ]
+      },
+      "properties": {
+        "title": "Saarn",
+        "location": "Pastor-Luhr-Platz",
+        "opening_hours": "We 07:00-13:30; Sa 09:00-15:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von der Stadt Mülheim an der Ruhr",
+      "url": "https://www.muelheim-ruhr.de/cms/muelheimer_wochenmaerkte1.html"
+    },
+    "map_initialization": {
+      "coordinates": [
+        6.884523,
+        51.418568
+      ],
+      "zoom_level": 13
+    }
+  }
+}
