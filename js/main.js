@@ -2,6 +2,8 @@
  * © Code for Karlsruhe and contributors.
  * See the file LICENSE for details.
  */
+/*jslint browser: true*/
+/*global console,document,history,L,moment,opening_hours,window*/
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
 var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
@@ -321,6 +323,7 @@ function cityIdToLabel(s) {
  */
 function setCity(city) {
     var filename = 'cities/' + city + '.json';
+    showLoadingIndicator();
     $.getJSON(filename, function(json) {
         positionMap(json.metadata.map_initialization);
         updateLegendDataSource(json.metadata.data_source);
@@ -331,6 +334,7 @@ function setCity(city) {
         updateLayers();
         updateUrlHash(city);
         document.title = 'Wo ist Markt in ' + cityIdToLabel(city) + '?';
+
         // Update drop down but avoid recursion
         $('#dropDownCitySelection').val(city).trigger('change', true);
     }).fail(function() {
@@ -340,6 +344,8 @@ function setCity(city) {
                         '" instead.');
             setCity(DEFAULT_CITY);
         }
+    }).always(function() {
+        hideLoadingIndicator();
     });
 }
 
@@ -365,6 +371,27 @@ function loadCityIDs() {
     return d;
 }
 
+/*
+* Show the default loading indicator and hide the map
+*/
+function showLoadingIndicator() {
+    $("#loading-indicator").fadeIn();
+    $("#map").fadeOut();
+    $("#legend").fadeOut();
+}
+
+/*
+* Hide the default loading indicator and show the map
+*/
+function hideLoadingIndicator() {
+    // now show the map and hide the indicator
+    $("#loading-indicator").fadeOut();
+    $("#map").fadeIn();
+    $("#legend").fadeIn();
+
+    // trigger a resize so that the tiles are redrawn
+    map._onResize(); 
+}
 
 $(window).on('hashchange',function() {
     setCity(getCityName());

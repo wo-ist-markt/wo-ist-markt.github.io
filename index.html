@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1,width=device-width">
-        <title>Wo ist Markt?</title>
-        <link rel="stylesheet" href="lib/normalize/normalize.css"/>
-        <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
-        <link rel="stylesheet" href="lib/leaflet.awesome-markers/leaflet.awesome-markers.css"/>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-        <link href="lib/select2/select2.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/main.css"/>
-        <script src="lib/jquery/jquery.min.js"></script>
-        <script src="lib/select2/select2.min.js"></script>
-        <script src="lib/leaflet/leaflet.js"></script>
-        <script src="lib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
-        <script src="lib/suncalc/suncalc.js"></script>
-        <script src="lib/opening_hours/opening_hours.js"></script>
-        <script src="lib/moment/moment.min.js"></script>
-        <script src="lib/moment-range/moment-range.min.js"></script>
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <div id="map"></div>
-        <div id="legend">
-            <h1>Wo ist Markt in <select id="dropDownCitySelection"></select>?</h1>
-            <form>
-                <label><input type="radio" name="display" id="now" value="now"/><span>jetzt</span></label>
-                <label><input type="radio" name="display" id="today" value="today"/><span>heute</span></label>
-                <label><input type="radio" name="display" id="other" value="other"/><span>alle</span></label>
-            </form>
-            <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a> und
-            des <a href="http://codefor.de/berlin">Open Knowledge Lab Berlin</a>.
-            <span id="dataSource">Datenquelle</span>. <a href="https://github.com/wo-ist-markt/wo-ist-markt.github.io">Code</a> auf GitHub.</p>
-        </div>
-    </body>
-</html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width">
+    <title>Wo ist Markt?</title>
+    <link rel="stylesheet" href="lib/normalize/normalize.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet.awesome-markers/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" >
+    <link href="lib/select2/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="loading-indicator" class="spinner"></div>
+    <div id="map" style="display:none"></div>
+    <div id="legend" style="display:none">
+        <h1>Wo ist Markt in <select id="dropDownCitySelection"></select>?</h1>
+        <form>
+            <label>
+                <input type="radio" name="display" id="now" value="now"><span>jetzt</span></label>
+            <label>
+                <input type="radio" name="display" id="today" value="today"><span>heute</span></label>
+            <label>
+                <input type="radio" name="display" id="other" value="other"><span>alle</span></label>
+        </form>
+        <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a> und des <a href="http://codefor.de/berlin">Open Knowledge Lab Berlin</a>.
+            <span id="dataSource">Datenquelle</span>. <a href="https://github.com/wo-ist-markt/wo-ist-markt.github.io">Code</a> auf GitHub.</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="lib/select2/select2.min.js"></script>
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
+    <script src="lib/suncalc/suncalc.js"></script>
+    <script src="lib/opening_hours/opening_hours.js"></script>
+    <script src="lib/moment/moment.min.js"></script>
+    <script src="lib/moment-range/moment-range.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
