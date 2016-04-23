@@ -51,7 +51,7 @@
       "properties": {
         "location": "Geiststr./Sentmaringer Weg",
         "title": "Geiststr./Sentmaringer Weg",
-        "opening_hours": "We, Sa 07:00-12:30"
+        "opening_hours": "Nov-Mar We,Sa 08:00-12:30; Apr-Oct We,Sa 07:00-12:30"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +66,7 @@
       "properties": {
         "location": "Hubertiplatz",
         "title": "Hubertiplatz",
-        "opening_hours": "We, Sa 07:00-13:30"
+        "opening_hours": "Nov-Mar We,Sa 08:00-13:30; Apr-Oct We,Sa 07:00-13:30"
       },
       "geometry": {
         "type": "Point",
