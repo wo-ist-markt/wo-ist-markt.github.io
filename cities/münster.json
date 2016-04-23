@@ -216,7 +216,7 @@
       "properties": {
         "location": "Kinderhaus: Idenbrockplatz",
         "title": "Kinderhaus: Idenbrockplatz",
-        "opening_hours": "Th 07:30-12.30 "
+        "opening_hours": "Th 07:30-12:30"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +261,7 @@
       "properties": {
         "location": "Wolbeck: Hiltruper Straße",
         "title": "Wolbeck: Hiltruper Straße",
-        "opening_hours": "We 15:00-18.00"
+        "opening_hours": "We 15:00-18:00"
       },
       "geometry": {
         "type": "Point",
