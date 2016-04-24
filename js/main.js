@@ -377,6 +377,9 @@ $(document).ready(function() {
     legend.onAdd = function () { return L.DomUtil.get('legend'); };
     $("input[name=display]").change(updateLayers);
 
+    // add locator
+    L.control.locate({keepCurrentZoomLevel: true}).addTo(map);
+
     // Populate dropdown
     loadCityIDs().done(function(cityIDs) {
         for (var i = 0; i < cityIDs.length; i++) {
