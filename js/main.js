@@ -114,7 +114,9 @@ function updateLayers() {
     map.removeLayer(nowGroup);
     map.removeLayer(todayGroup);
     map.removeLayer(otherGroup);
+    map.removeLayer(unclassifiedGroup);
     map.addLayer(nowGroup);
+    map.addLayer(unclassifiedGroup);
     switch (value) {
         case "today":
             map.addLayer(todayGroup);
