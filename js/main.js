@@ -157,8 +157,15 @@ function openingRangeContainsTime(openingRange, date) {
  * Returns opening ranges compiled via opening_hours.js.
  */
 function getOpeningRanges(openingHoursStrings) {
-    var monday = moment().startOf("week").add(1, 'days').toDate();
-    var sunday = moment().endOf("week").add(1, 'days').toDate();
+    var sundayIndex = 0;
+    var shiftBy;
+    if (moment().weekday() === sundayIndex) {
+        shiftBy = -1;
+    } else {
+        shiftBy = 1;
+    }
+    var monday = moment().startOf("week").add(shiftBy, 'days').toDate();
+    var sunday = moment().endOf("week").add(shiftBy, 'days').toDate();
     var oh = new opening_hours(openingHoursStrings);
     return oh.getOpenIntervals(monday, sunday);
 }
