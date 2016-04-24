@@ -89,44 +89,35 @@ function positionMap(mapInitialization) {
 
 
 /*
- * Initialize layer controls.
+ * Update layer controls.
  *
  * Controls which serve no purpose are disabled. For example, if
  * currently no markets are open then the corresponding radio
- * button is disabled.
+ * button is disabled. The most specific, active choice is selected.
  */
-function initControls() {
-    var todayCount = todayGroup.getLayers().length;
-    if (todayCount === 0) {
-        // No markets today or all of today's markets currently open
-        $('#today').attr('disabled', true);
-    }
-    if (nowGroup.getLayers().length > 0) {
-        $('#now').attr('checked', true);
-    } else {
-        $('#now').attr('disabled', true);
-        if (todayCount > 0) {
-            $('#today').attr('checked', true);
-        } else {
-            $('#other').attr('checked', true);
-        }
-    }
-    $("input[name=display]").change(updateLayers);
+function updateControls() {
+    var gotNow = nowGroup.getLayers().length > 0;
+    var gotToday = todayGroup.getLayers().length > 0;
+    $('#now').prop('disabled', !gotNow);
+    $('#now').prop('checked', gotNow);
+    $('#today').prop('disabled', !gotToday);
+    $('#today').prop('checked', !gotNow && gotToday);
+    $('#other').prop('checked', !gotNow && !gotToday);
 }
+
 
 /*
  * Update layer visibility according to layer control settings.
  */
 function updateLayers() {
     var value = document.querySelector('[name="display"]:checked').value;
+    map.removeLayer(nowGroup);
+    map.removeLayer(todayGroup);
+    map.removeLayer(otherGroup);
+    map.addLayer(nowGroup);
     switch (value) {
-        case "now":
-            map.removeLayer(todayGroup);
-            map.removeLayer(otherGroup);
-            break;
         case "today":
             map.addLayer(todayGroup);
-            map.removeLayer(otherGroup);
             break;
         case "other":
             map.addLayer(todayGroup);
@@ -188,9 +179,9 @@ function getOpeningRangeForDate(openingRanges, date) {
 }
 
 /*
- * Create map markers from JSON market data.
+ * Update map markers from JSON market data.
  */
-function initMarkers(featureCollection) {
+function updateMarkers(featureCollection) {
     nowGroup.clearLayers();
     todayGroup.clearLayers();
     otherGroup.clearLayers();
@@ -331,10 +322,8 @@ function setCity(city) {
     $.getJSON(filename, function(json) {
         positionMap(json.metadata.map_initialization);
         updateLegendDataSource(json.metadata.data_source);
-        initMarkers(json);
-        initControls();
-        map.addLayer(unclassifiedGroup);
-        map.addLayer(nowGroup);
+        updateMarkers(json);
+        updateControls();
         updateLayers();
         updateUrlHash(city);
         document.title = 'Wo ist Markt in ' + cityIdToLabel(city) + '?';
@@ -384,6 +373,7 @@ $(document).ready(function() {
     var legend = L.control({position: 'bottomright'});
     var dropDownCitySelection = $('#dropDownCitySelection');
     legend.onAdd = function () { return L.DomUtil.get('legend'); };
+    $("input[name=display]").change(updateLayers);
 
     // Populate dropdown
     loadCityIDs().done(function(cityIDs) {
