@@ -11,7 +11,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-14:00 ; Fr 07:00-14:00 ;",
+                "opening_hours": "Tu 07:00-14:00; Fr 07:00-14:00",
                 "location": "Apostelnkloster",
                 "title": "Wochenmarkt Altstadt-Nord"
             }
@@ -26,7 +26,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Sudermanplatz",
                 "title": "Wochenmarkt Neustadt-Nord"
             }
@@ -41,7 +41,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Fr 07:00-13:00 ;",
+                "opening_hours": "Fr 07:00-13:00",
                 "location": "Deutzer Freiheit",
                 "title": "Wochenmarkt Deutz"
             }
@@ -56,7 +56,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Höninger Weg/Herthastraße",
                 "title": "Wochenmarkt Zollstock"
             }
@@ -71,7 +71,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Klettenberggürtel/Siebengebirgsallee",
                 "title": "Wochenmarkt Klettenberg"
             }
@@ -86,7 +86,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Auerbachplatz",
                 "title": "Wochenmarkt Sülz"
             }
@@ -101,7 +101,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Hermeskeiler Platz",
                 "title": "Wochenmarkt Sülz"
             }
@@ -116,7 +116,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Fr 07:00-13:00 ;",
+                "opening_hours": "Fr 07:00-13:00",
                 "location": "Lindenthalgürtel/Gleueler Staße.",
                 "title": "Wochenmarkt Lindenthal"
             }
@@ -131,7 +131,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Aachener Str./Peter-von-Fliesteden-Straße (am Bahnübergang)",
                 "title": "Wochenmarkt Braunsfeld"
             }
@@ -146,7 +146,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Neptunplatz",
                 "title": "Wochenmarkt Ehrenfeld"
             }
@@ -161,7 +161,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Venloer Straße, früheres Hallenbad",
                 "title": "Wochenmarkt Bickendorf"
             }
@@ -176,7 +176,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Görlinger Zentrum",
                 "title": "Wochenmarkt Bocklemünd/Mengenich"
             }
@@ -191,7 +191,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Mo 07:00-13:00 ; Tu 07:00-13:00 ; We 07:00-13:00 ; Th 07:00-13:00 ; Fr 07:00-13:00 ; Sa 07:00-14:30 ;",
+                "opening_hours": "Mo 07:00-13:00; Tu 07:00-13:00; We 07:00-13:00; Th 07:00-13:00; Fr 07:00-13:00; Sa 07:00-14:30",
                 "location": "Wilhelmplatz",
                 "title": "Wochenmarkt Nippes"
             }
@@ -206,7 +206,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Riehler Gürtel",
                 "title": "Wochenmarkt Riehl"
             }
@@ -221,7 +221,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Gartenstadt Nord, Schlackstraße / Johannes-Rings-Straße",
                 "title": "Wochenmarkt Longerich"
             }
@@ -236,7 +236,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Haselnußhof",
                 "title": "Wochenmarkt Heimersdorf"
             }
@@ -251,7 +251,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00; Sa 07:00-13:00",
                 "location": "Liverpooler Platz",
                 "title": "Wochenmarkt Chorweiler"
             }
@@ -266,7 +266,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Ostheimer Straße",
                 "title": "Wochenmarkt Vingst"
             }
@@ -281,7 +281,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Olpener Straße",
                 "title": "Wochenmarkt Alt-Brück"
             }
@@ -296,7 +296,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "An St. Adelheid",
                 "title": "Wochenmarkt Neu-Brück"
             }
@@ -311,7 +311,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Fr 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
                 "location": "Schützenplatz, Berliner Straße",
                 "title": "Wochenmarkt Mülheim"
             }
@@ -326,7 +326,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Waldecker Straße",
                 "title": "Wochenmarkt Buchforst"
             }
@@ -341,7 +341,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Fr 07:00-13:00 ;",
+                "opening_hours": "Fr 07:00-13:00",
                 "location": "Sürther Hauptstraße/Fronhofstraße",
                 "title": "Wochenmarkt Sürth"
             }
@@ -356,7 +356,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "An der Kemperwiese",
                 "title": "Wochenmarkt Dellbrück"
             }
@@ -371,7 +371,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Wupperplatz",
                 "title": "Wochenmarkt Höhenhaus"
             }
@@ -386,7 +386,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Ricarda-Huch-Straße/Bonhoeffer-Straße",
                 "title": "Wochenmarkt Stammheim"
             }
@@ -401,7 +401,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Einstein-Straße/Eduard-Heis-Straße",
                 "title": "Wochenmarkt Flittard"
             }
@@ -416,7 +416,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Sa 07:00-13:00 ;",
+                "opening_hours": "Sa 07:00-13:00",
                 "location": "Bergisch Gladbacher Straße",
                 "title": "Wochenmarkt Holweide"
             }
@@ -431,7 +431,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Maternusplatz",
                 "title": "Wochenmarkt Rodenkirchen"
             }
@@ -446,7 +446,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Th 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Th 07:00-13:00; Sa 07:00-13:00",
                 "location": "Wiener Platz",
                 "title": "Wochenmarkt Mülheim"
             }
@@ -461,7 +461,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " We 07:00-13:00 ; Sa 07:00-13:00 ;",
+                "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
                 "location": "Emil Schreiterer Platz",
                 "title": "Wochenmarkt Weiden"
             }
@@ -476,7 +476,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Tu 07:00-13:00 ; Sa 07:00-14:00 ;",
+                "opening_hours": "Tu 07:00-13:00; Sa 07:00-14:00",
                 "location": "An der Sparkasse / Friedrich-Ebert-Platz",
                 "title": "Wochenmarkt Porz-Mitte "
             }
@@ -491,7 +491,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Am Schwanebitzer Hof",
                 "title": "Wochenmarkt Porz-Urbach"
             }
@@ -506,7 +506,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Fr 07:00-13:00 ;",
+                "opening_hours": "Fr 07:00-13:00",
                 "location": "Siegburger Straße/Rolshover Straße",
                 "title": "Wochenmarkt Poll"
             }
@@ -521,7 +521,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Waldfriedstraße",
                 "title": "Wochenmarkt Niehl"
             }
@@ -536,7 +536,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Th 07:00-13:00 ;",
+                "opening_hours": "Th 07:00-13:00",
                 "location": "Gremberger Straße",
                 "title": "Wochenmarkt Humboldt-Gremberg"
             }
@@ -551,7 +551,7 @@
             },
             "type": "Feature",
             "properties": {
-                "opening_hours": " Sa 08:00-15:00 ;",
+                "opening_hours": "Sa 08:00-15:00",
                 "location": "An der Kalker Post",
                 "title": "Wochenmarkt Kalk"
             }
