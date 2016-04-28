@@ -1,0 +1,408 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7867065,
+			  51.3316576
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Fr 07:00-14:00",
+		   "location": "Angermunder Straße / Im Großen Winkel",
+		   "title": "Wochenmarkt Angermunder Straße / Im Großen Winkel"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8740580,
+			  51.1637040
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Mo 08:00-18:00;Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Hauptstraße",
+		   "title": "Wochenmarkt Hauptstraße"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7850850,
+			  51.2131500
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "We 07:00-13:00; Sa 07:00-13:00",
+		   "location": "Fürstenplatz",
+		   "title": "Wochenmarkt Fürstenplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7591170,
+			  51.2130610
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 07:00-13:00; Fr 07:00-13:00",
+		   "location": "Siegstraße",
+		   "title": "Wochenmarkt Siegstraße"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7867020,
+			  51.2438710
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Fr 08:00-14:00",
+		   "location": "Münsterplatz",
+		   "title": "Wochenmarkt Münsterplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7976080,
+			  51.2403970
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Th 08:00-13:00; Sa 08:00-13:00",
+		   "location": "Ahnfeldplatz",
+		   "title": "Wochenmarkt Ahnfeldplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8396020,
+			  51.2001870
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Gertrudisplatz",
+		   "title": "Wochenmarkt Gertrudisplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8079240,
+			  51.2280880
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Sa 07:00-13:00",
+		   "location": "Hermannplatz",
+		   "title": "Wochenmarkt Hermannplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8984011,
+			  51.1450870
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 08:00-13:00; Fr 08:00-13:00",
+		   "location": "Nikolaus-Groß-Platz",
+		   "title": "Wochenmarkt Nikolaus-Groß-Platz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8607250,
+			  51.2369270
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 08:00-18:00; Th 08:00-18:00; Sa 08:00-13:00",
+		   "location": "Neusser Tor",
+		   "title": "Wochenmarkt Neusser Tor"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8650740,
+			  51.2288220
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Fr 07:00-13:00",
+		   "location": "Quadenhofstraße",
+		   "title": "Wochenmarkt Quadenhofstraße"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7398980,
+			  51.2079730
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Fr 07:00-14:00",
+		   "location": "De Blääk",
+		   "title": "Wochenmarkt De Blääk"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8341352,
+			  51.1744366
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "We 08:00-18:00; Fr 08:00-18:00",
+		   "location": "Kamper Acker / Bonner Straße",
+		   "title": "Wochenmarkt Kamper Acker / Bonner Straße"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7951660,
+			  51.2240210
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Worringer Platz",
+		   "title": "Wochenmarkt Worringer Platz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7362740,
+			  51.3014150
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "We 08:00-14:00",
+		   "location": "Kaiserswerther Marktplatz",
+		   "title": "Wochenmarkt Kaiserswerther Marktplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7941090,
+			  51.2820960
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Sa 07:00-13:00",
+		   "location": "Dickhausweg",
+		   "title": "Wochenmarkt Dickhausweg"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7466050,
+			  51.2738680
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "We 07:00-13:00",
+		   "location": "Alte Flughafenstraße",
+		   "title": "Wochenmarkt Alte Flughafenstraße"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7329260,
+			  51.2409100
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "We 07:00-18:00; Sa 07:00-14:00",
+		   "location": "Niederkassler Lohweg",
+		   "title": "Wochenmarkt Niederkassler Lohweg"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8029520,
+			  51.2162210
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Oberbilker Markt",
+		   "title": "Wochenmarkt Oberbilker Markt"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7519270,
+			  51.2319550
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 07:00-18:00; Fr 07:00-18:00",
+		   "location": "Barbarossaplatz",
+		   "title": "Wochenmarkt Barbarossaplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8266786,
+			  51.2663507
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Sa 07:00-13:00",
+		   "location": "Oberrather Straße / Dachsbergweg",
+		   "title": "Wochenmarkt Oberrather Straße / Dachsbergweg"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7889890,
+			  51.2341840
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Rochusmarkt",
+		   "title": "Wochenmarkt Rochusmarkt"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8107500,
+			  51.2623120
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Tu 07:00-18:00; Sa 07:00-13:00",
+		   "location": "Hülsmeyerplatz",
+		   "title": "Wochenmarkt Hülsmeyerplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.8952990,
+			  51.2046200
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Th 07:00-13:00",
+		   "location": "Breidenplatz",
+		   "title": "Wochenmarkt Breidenplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7765450,
+			  51.2132870
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "location": "Kirchplatz",
+		   "title": "Wochenmarkt Kirchplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7811980,
+			  51.2735550
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening hours": "Sa 07:00-13:00",
+		   "location": "Unterrather Straße",
+		   "title": "Wochenmarkt Unterrather Straße"
+		}
+	  }
+	],
+    "metadata": {
+        "data_source": {
+            "url": "https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml",
+            "title": "Amt für Verbraucherschutz - Landeshauptstadt Düsseldorf"
+        },
+        "map_initialization": {
+            "zoom_level": 11,
+            "coordinates": [
+                6.7127809,
+                51.2482005
+            ]
+        }
+    }
+}
