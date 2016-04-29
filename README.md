@@ -102,6 +102,8 @@ Tests can be run using [npm][npm]:
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
+[rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [witten-wikipedia]:https://en.wikipedia.org/wiki/Witten
