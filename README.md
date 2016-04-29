@@ -49,6 +49,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
+|[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
@@ -101,6 +102,8 @@ Tests can be run using [npm][npm]:
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
+[rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [witten-wikipedia]:https://en.wikipedia.org/wiki/Witten

@@ -1,0 +1,210 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          12.123132806590418,
+          54.08821378105807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Mo,Th 08:00-18:00",
+        "location": "Doberaner Str.",
+        "title": "Wochenmarkt Doberaner Platz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.16821914561739,
+          54.1041751714354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "We 08:00-14:00",
+        "location": "Hannes-Meyer-Platz",
+        "title": "Wochenmarkt Dierkow"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.067373310756086,
+          54.15070248521829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Sa 08:00-13:00",
+        "location": "Flensburger Str.",
+        "title": "Wochenmarkt Lichtenhagen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.114701082482648,
+          54.10399727127324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Th 13:00-19:00",
+        "location": "Klaus-Groth-Str.",
+        "title": "Wochenmarkt Gehlsdorf"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.115549054692336,
+          54.087722259811144
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "We 13:00-18:00",
+        "location": "Margaretenstr.",
+        "title": "Wochenmarkt Margaretenplatz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.084327188679525,
+          54.17681479627859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Sa 08:00-13:00",
+        "location": "Kirchenplatz",
+        "title": "Wochenmarkt Warnemünde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.089051030964667,
+          54.17730316761259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Sa,Su 08:00-18:00",
+        "location": "Am Bahnhof",
+        "title": "Warnemünder Fischmarkt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.031935470880738,
+          54.12455262138389
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "location": "Theodor-Körner-Str.",
+        "title": "Rostocker Obst Markthalle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.05025380573521,
+          54.138890251244995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu,Fr 08:00-16:00",
+        "location": "Warnowallee",
+        "title": "Wochenmarkt Lütten Klein"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.13990508252792,
+          54.08842453655525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-13:00",
+        "location": "Neuer Markt",
+        "title": "Wochenmarkt Neuer Markt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.072341633955048,
+          54.09947349422101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00",
+        "location": "Conrad-Blenkle-Str.",
+        "title": "Wochenmarkt Reutershagen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.144073892853074,
+          54.11535405760539
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Th 09:00-17:00",
+        "location": "Salvador-Allende-Str.",
+        "title": "Wochenmarkt Toitenwinkel"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.112552596140237,
+          54.085759659329476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu,Fr 08:00-16:00; Sa 08:00-12:00",
+        "location": "Ulmenmarkt",
+        "title": "Wochenmarkt Ulmenmarkt"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_source": {
+      "title": "Daten von der Hansestadt Rostock",
+      "url": "http://www.rostocker-wochenmaerkte.de/standorte-angebote/"
+      },
+    "map_initialization": {
+        "coordinates": [12.1255,54.1260],
+        "zoom_level": 12
+    }
+  }
+}
