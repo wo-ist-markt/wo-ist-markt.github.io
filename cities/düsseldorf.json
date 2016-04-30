@@ -11,7 +11,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Fr 07:00-14:00",
+		   "opening_hours": "Fr 07:00-14:00",
 		   "location": "Angermunder Straße / Im Großen Winkel",
 		   "title": "Wochenmarkt Angermunder Straße / Im Großen Winkel"
 		}
@@ -26,7 +26,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Mo 08:00-18:00;Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Mo 08:00-18:00;Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Hauptstraße",
 		   "title": "Wochenmarkt Hauptstraße"
 		}
@@ -41,7 +41,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "We 07:00-13:00; Sa 07:00-13:00",
+		   "opening_hours": "We 07:00-13:00; Sa 07:00-13:00",
 		   "location": "Fürstenplatz",
 		   "title": "Wochenmarkt Fürstenplatz"
 		}
@@ -56,7 +56,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 07:00-13:00; Fr 07:00-13:00",
+		   "opening_hours": "Tu 07:00-13:00; Fr 07:00-13:00",
 		   "location": "Siegstraße",
 		   "title": "Wochenmarkt Siegstraße"
 		}
@@ -71,7 +71,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Fr 08:00-14:00",
+		   "opening_hours": "Fr 08:00-14:00",
 		   "location": "Münsterplatz",
 		   "title": "Wochenmarkt Münsterplatz"
 		}
@@ -86,7 +86,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Th 08:00-13:00; Sa 08:00-13:00",
+		   "opening_hours": "Th 08:00-13:00; Sa 08:00-13:00",
 		   "location": "Ahnfeldplatz",
 		   "title": "Wochenmarkt Ahnfeldplatz"
 		}
@@ -101,7 +101,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Gertrudisplatz",
 		   "title": "Wochenmarkt Gertrudisplatz"
 		}
@@ -116,7 +116,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Sa 07:00-13:00",
+		   "opening_hours": "Sa 07:00-13:00",
 		   "location": "Hermannplatz",
 		   "title": "Wochenmarkt Hermannplatz"
 		}
@@ -131,7 +131,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 08:00-13:00; Fr 08:00-13:00",
+		   "opening_hours": "Tu 08:00-13:00; Fr 08:00-13:00",
 		   "location": "Nikolaus-Groß-Platz",
 		   "title": "Wochenmarkt Nikolaus-Groß-Platz"
 		}
@@ -146,7 +146,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 08:00-18:00; Th 08:00-18:00; Sa 08:00-13:00",
+		   "opening_hours": "Tu 08:00-18:00; Th 08:00-18:00; Sa 08:00-13:00",
 		   "location": "Neusser Tor",
 		   "title": "Wochenmarkt Neusser Tor"
 		}
@@ -161,7 +161,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Fr 07:00-13:00",
+		   "opening_hours": "Fr 07:00-13:00",
 		   "location": "Quadenhofstraße",
 		   "title": "Wochenmarkt Quadenhofstraße"
 		}
@@ -176,7 +176,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Fr 07:00-14:00",
+		   "opening_hours": "Fr 07:00-14:00",
 		   "location": "De Blääk",
 		   "title": "Wochenmarkt De Blääk"
 		}
@@ -191,7 +191,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "We 08:00-18:00; Fr 08:00-18:00",
+		   "opening_hours": "We 08:00-18:00; Fr 08:00-18:00",
 		   "location": "Kamper Acker / Bonner Straße",
 		   "title": "Wochenmarkt Kamper Acker / Bonner Straße"
 		}
@@ -206,7 +206,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Worringer Platz",
 		   "title": "Wochenmarkt Worringer Platz"
 		}
@@ -221,7 +221,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "We 08:00-14:00",
+		   "opening_hours": "We 08:00-14:00",
 		   "location": "Kaiserswerther Marktplatz",
 		   "title": "Wochenmarkt Kaiserswerther Marktplatz"
 		}
@@ -236,7 +236,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Sa 07:00-13:00",
+		   "opening_hours": "Sa 07:00-13:00",
 		   "location": "Dickhausweg",
 		   "title": "Wochenmarkt Dickhausweg"
 		}
@@ -251,7 +251,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "We 07:00-13:00",
+		   "opening_hours": "We 07:00-13:00",
 		   "location": "Alte Flughafenstraße",
 		   "title": "Wochenmarkt Alte Flughafenstraße"
 		}
@@ -266,7 +266,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "We 07:00-18:00; Sa 07:00-14:00",
+		   "opening_hours": "We 07:00-18:00; Sa 07:00-14:00",
 		   "location": "Niederkassler Lohweg",
 		   "title": "Wochenmarkt Niederkassler Lohweg"
 		}
@@ -281,7 +281,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Oberbilker Markt",
 		   "title": "Wochenmarkt Oberbilker Markt"
 		}
@@ -296,7 +296,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 07:00-18:00; Fr 07:00-18:00",
+		   "opening_hours": "Tu 07:00-18:00; Fr 07:00-18:00",
 		   "location": "Barbarossaplatz",
 		   "title": "Wochenmarkt Barbarossaplatz"
 		}
@@ -311,7 +311,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Sa 07:00-13:00",
+		   "opening_hours": "Sa 07:00-13:00",
 		   "location": "Oberrather Straße / Dachsbergweg",
 		   "title": "Wochenmarkt Oberrather Straße / Dachsbergweg"
 		}
@@ -326,7 +326,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Rochusmarkt",
 		   "title": "Wochenmarkt Rochusmarkt"
 		}
@@ -341,7 +341,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Tu 07:00-18:00; Sa 07:00-13:00",
+		   "opening_hours": "Tu 07:00-18:00; Sa 07:00-13:00",
 		   "location": "Hülsmeyerplatz",
 		   "title": "Wochenmarkt Hülsmeyerplatz"
 		}
@@ -356,7 +356,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Th 07:00-13:00",
+		   "opening_hours": "Th 07:00-13:00",
 		   "location": "Breidenplatz",
 		   "title": "Wochenmarkt Breidenplatz"
 		}
@@ -371,7 +371,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
+		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
 		   "location": "Kirchplatz",
 		   "title": "Wochenmarkt Kirchplatz"
 		}
@@ -386,7 +386,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening hours": "Sa 07:00-13:00",
+		   "opening_hours": "Sa 07:00-13:00",
 		   "location": "Unterrather Straße",
 		   "title": "Wochenmarkt Unterrather Straße"
 		}
