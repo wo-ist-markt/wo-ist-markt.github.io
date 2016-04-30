@@ -342,7 +342,7 @@ function updateLegendDataSource(dataSource) {
 
 /*
  * Loads the default city.
- * 
+ *
  * If `createNewHistoryEntry` is true then a new
  * entry in the browser's history is created for the change. Otherwise the
  * current history entry is replaced.
@@ -371,7 +371,7 @@ function setCity(cityID, createNewHistoryEntry) {
         updateControls();
         updateLayers();
         updateUrlHash(cityID, createNewHistoryEntry);
-        document.title = 'Wo ist Markt in ' + getCity(cityID).label+ '?';
+        document.title = 'Wo ist Markt in ' + getCity(cityID).label + '?';
 
         // Update drop down but avoid recursion
         $('#dropDownCitySelection').val(cityID).trigger('change', true);
@@ -434,7 +434,7 @@ $(document).ready(function() {
 
     // Populate dropdown
     loadCities().fail(function(e) {
-        console.log("Loadcity(); failed: ", e);
+        console.log("loadCities(); failed: ", e);
     }).done(function(cities) {
         // cache the results
         cityDirectory = cities;
