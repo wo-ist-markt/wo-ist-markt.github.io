@@ -274,7 +274,7 @@
   ],
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Münster",
+            "title": "Stadt Münster",
             "url": "http://www.muenster.de/stadt/maerkte/markt.html"
         },
         "map_initialization": {

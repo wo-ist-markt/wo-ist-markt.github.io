@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box;
+  color: #555;
 }
 
 *, *:before, *:after {
@@ -11,52 +12,89 @@ html {
 
 /*** GLOBAL ***/
 
-html, body, #map {
+html, body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
-#legend {
-    margin: 3em;
-    border: 1px solid #555;
-    background-color: #fafafa;
-    padding: 1em;
-    border-radius: 6px;
-    -o-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    color: #555;
-    width: 22em;
-    cursor: text;
-}
-
-#legend p {
+#map {
+    width: 100%;
+    /* Map height is adjusted dynamically via JS */
+    padding: 0;
     margin: 0;
 }
 
-#legend h1 {
-    margin-top: 0;
-    font-size: 120%;
+.nowrap {
+    display: inline-block;
 }
 
-#legend form {
-    margin-bottom: 0.5em;
+/*** HEADER ***/
+
+#header {
+    /* Required so that full height is reported for calculation of the
+     * map height. See http://stackoverflow.com/a/19235907/857390.
+     */
+    overflow: auto;
+
+    margin: 0;
+    padding: 0.5em;
+    position: relative;
+
+    border-bottom: 1px solid #aaa;
 }
 
-#legend input {
-    margin: 0 5px 0 0;
+#header h1 {
+    font-size: 110%;
+    margin: 0 1em 0 0;
+    display: inline;
+}
+
+#header label > * {
     vertical-align: middle;
 }
 
-#legend label {
-    margin-right:1em;
-    font-weight: bold;
+#header label input {
+    margin: 0 2px 0 0;
 }
 
-:disabled + span {
+#header label span {
+    margin: 0 10px 0 0;
+}
+
+#header :disabled + span {
     color: #999;
+}
+
+#header form {
+    margin: 0.25em 0 0 0;
+    display: inline-block;
+}
+
+#btnToggleHeader {
+    float: right;
+    position: relative;
+    top: -0.1em;
+    outline: none;
+    margin: 0 0 0 0.5em;
+
+    /* The styling matches that of the select2 dropdown box */
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.2em 0.5em;
+}
+
+#details {
+    clear: both;
+    display: none;
+    overflow: auto;
+    margin: 0;
+}
+
+#details p {
+    margin: 1em 0 0 0;
 }
 
 /*** MAP POPUPS ***/
@@ -108,6 +146,10 @@ table.times tr.today * {
 .select2 {
     top: -2px;
     margin: 0 4px 0 2px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #555;
 }
 
 .select2-dropdown {

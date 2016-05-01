@@ -228,7 +228,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Daten der Stadt Leipzig",
+            "title": "Stadt Leipzig",
             "url": "https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/"
         },
         "map_initialization": {

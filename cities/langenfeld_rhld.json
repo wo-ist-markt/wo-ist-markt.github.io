@@ -25,7 +25,7 @@
   ],
   "metadata": {
     "data_source": {
-      "title": "Daten der Stadt Langenfeld (Rhld.)",
+      "title": "Stadt Langenfeld (Rhld.)",
       "url": "http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1"
     },
     "map_initialization": {
