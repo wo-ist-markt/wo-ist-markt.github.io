@@ -249,7 +249,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Karlsruhe",
+            "title": "Stadt Karlsruhe",
             "url": "http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
         },
         "map_initialization": {

@@ -2,7 +2,7 @@
    "type": "FeatureCollection",
    "metadata": {
       "data_source": {
-         "title": "Daten von der Stadt München, CC BY 2.0 DE, aktualisiert am 27.02.2015",
+         "title": "Stadt München, CC BY 2.0 DE, aktualisiert am 27.02.2015",
          "url": "https://www.opengov-muenchen.de/dataset/maerkte"
       },
       "map_initialization": {

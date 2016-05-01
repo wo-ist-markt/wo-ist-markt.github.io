@@ -395,7 +395,7 @@
     "metadata": {
         "data_source": {
             "url": "https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml",
-            "title": "Amt für Verbraucherschutz - Landeshauptstadt Düsseldorf"
+            "title": "Amt für Verbraucherschutz Düsseldorf"
         },
         "map_initialization": {
             "zoom_level": 11,

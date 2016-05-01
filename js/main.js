@@ -334,10 +334,10 @@ function toCamelCase(str) {
 /*
  * Updates the legend data source.
  */
-function updateLegendDataSource(dataSource) {
+function updateDataSource(dataSource) {
     var title = dataSource.title;
     var url = dataSource.url;
-    $("#legend #dataSource").html('<a href="' + url + '">' + title + '</a>');
+    $("#dataSource").html('<a href="' + url + '">' + title + '</a>');
 }
 
 /*
@@ -366,7 +366,7 @@ function setCity(cityID, createNewHistoryEntry) {
     }
     $.getJSON(filename, function(json) {
         positionMap(json.metadata.map_initialization);
-        updateLegendDataSource(json.metadata.data_source);
+        updateDataSource(json.metadata.data_source);
         updateMarkers(json);
         updateControls();
         updateLayers();
@@ -415,6 +415,44 @@ function loadCities() {
 }
 
 
+/*
+ * Collapse the header so that it only shows the most important information.
+ */
+function collapseHeader() {
+    $('#details').slideUp({progress: fixMapHeight});
+}
+
+/*
+ * Expand the header so that it shows all information.
+ */
+function expandHeader() {
+    $('#details').slideDown({progress: fixMapHeight});
+}
+
+
+/*
+ * Toggle collapsed/expanded header state.
+ */
+function toggleHeader() {
+    if ($('#details').is(':visible')) {
+        collapseHeader();
+    } else {
+        expandHeader();
+    }
+}
+
+
+/*
+ * Fix the height of #map so that it covers the whole viewport minus the
+ * header.
+ */
+function fixMapHeight() {
+    $('#map').outerHeight($(window).height() - $('#header').outerHeight(true));
+}
+
+$(window).on('resize', fixMapHeight);
+
+
 $(window).on('hashchange',function() {
     // Don't create a new history state, because the hash change already did
     setCity(getHashCity(), false);
@@ -424,9 +462,7 @@ $(window).on('hashchange',function() {
 $(document).ready(function() {
     var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
     map = new L.Map('map').addLayer(tiles);
-    var legend = L.control({position: 'bottomright'});
     var dropDownCitySelection = $('#dropDownCitySelection');
-    legend.onAdd = function () { return L.DomUtil.get('legend'); };
     $("input[name=display]").change(updateLayers);
 
     // add locator
@@ -467,10 +503,7 @@ $(document).ready(function() {
         setCity(getHashCity(), false);
     });
 
-    // Stop map movement by mouse events in legend.
-    // See https://gis.stackexchange.com/a/106777/48264.
-    L.DomEvent.disableClickPropagation(L.DomUtil.get('legend'));
-
-    legend.addTo(map);
+    $('#btnToggleHeader').click(toggleHeader);
+    fixMapHeight();
 });
 
