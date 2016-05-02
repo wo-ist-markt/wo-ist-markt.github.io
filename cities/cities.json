@@ -59,6 +59,10 @@
         "id": "rostock",
         "label": "Rostock"
     },
+    "schwerin": {
+        "id": "schwerin",
+        "label": "Schwerin"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"
