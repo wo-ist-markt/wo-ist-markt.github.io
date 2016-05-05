@@ -1,0 +1,135 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          11.45002,
+          53.59739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Th,Fr 09:00-17:00; Sa 08:00-13:00",
+        "location": "Berliner Platz",
+        "title": "Wochenmarkt Dreesch"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.41591,
+          53.62861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "We,Fr 09:00-17:00",
+        "location": "Hinter dem Rathaus",
+        "title": "Schlachtermarkt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.41492,
+          53.62889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "We 09:00-17:00",
+        "location": "Vor dem Rathaus",
+        "title": "Altstädtischer Markt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.39322,
+          53.63413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu,Th 09:00-17:00; Sa 08:00-13:00",
+        "location": "Lessingstraße",
+        "title": "Wochenmarkt Weststadt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.36509,
+          53.65188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu,Fr 09:00-17:00",
+        "location": "Edgar-Bennert-Straße ",
+        "title": "Wochenmarkt Lankow"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.40292,
+          53.63386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu,Fr 09:00-17:00",
+        "location": "Platz der Freiheit",
+        "title": "Wochenmarkt am Platz der Freiheit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.40889,
+          53.63403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Th 09:00-17:00",
+        "location": "Grunthalplatz",
+        "title": "Wochenmarkt vor dem Bahnhof"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.40987,
+          53.62934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Fr 09:00-17:00",
+        "location": "beim Marienplatz",
+        "title": "Wochenmarkt in den Schwerinen Höfen"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_source": {
+      "title": "Webseite der Stadtmarketing Gesellschaft Schwerin mbH",
+      "url": "http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html"
+      },
+    "map_initialization": {
+        "coordinates": [11.4228,53.6246],
+        "zoom_level": 13
+    }
+  }
+}
