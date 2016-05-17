@@ -39,6 +39,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Dresden][dresden-wikipedia]|[City of Dresden][dresden-markets]|
+|[Duisburg][duisburg-wikipedia]|[Duisburg Kontor GmbH][duisburg-markets]|
 |[Düsseldorf][duesseldorf-wikipedia]|[City of Düsseldorf][duesseldorf-markets]|
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
@@ -83,6 +84,8 @@ Tests can be run using [npm][npm]:
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
+[duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
+[duisburg-markets]: https://www.duisburg.de/leben/maerkte_in_duisburg/index.php
 [duesseldorf-wikipedia]: https://de.wikipedia.org/wiki/D%C3%BCsseldorf
 [duesseldorf-markets]: https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen

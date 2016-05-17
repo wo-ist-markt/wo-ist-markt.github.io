@@ -1,0 +1,459 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.722104",
+          "51.539254"
+        ]
+      },
+      "properties": {
+        "title": "Vierlinden",
+        "location": "Franz-Lenze-Platz, 47178 Duisburg",
+        "opening_hours": "We, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.743406",
+          "51.527139"
+        ]
+      },
+      "properties": {
+        "title": "Aldenrade",
+        "location": "Kometenplatz, 47179 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.759292",
+          "51.501846"
+        ]
+      },
+      "properties": {
+        "title": "Marxloh",
+        "location": "August-Bebel-Platz, 47169 Duisburg",
+        "opening_hours": "Mo, We, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.799567",
+          "51.496854"
+        ]
+      },
+      "properties": {
+        "title": "Neumühl",
+        "location": "Hohenzollernplatz, 47167 Duisburg",
+        "opening_hours": "Mo, We, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.772321",
+          "51.490952"
+        ]
+      },
+      "properties": {
+        "title": "Hamborn",
+        "location": "Hamborner Altmarkt, 47166 Duisburg",
+        "opening_hours": "Tu, Th, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.739683",
+          "51.487229"
+        ]
+      },
+      "properties": {
+        "title": "Bruckhausen",
+        "location": "Heinrichplatz, 47166 Duisburg",
+        "opening_hours": "Fr 08:00 - 16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.734253",
+          "51.478642"
+        ]
+      },
+      "properties": {
+        "title": "Beeck",
+        "location": "Marktplatz, 47139 Duisburg",
+        "opening_hours": "Tu, Th, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.701556",
+          "51.47482"
+        ]
+      },
+      "properties": {
+        "title": "Beeckerwerth",
+        "location": "Schwalbenplatz, 47139 Duisburg",
+        "opening_hours": "We, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.727092",
+          "51.466611"
+        ]
+      },
+      "properties": {
+        "title": "Laar",
+        "location": "Werth-/Schillstraße, 47119 Duisburg",
+        "opening_hours": "Tu, Th, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.754479",
+          "51.470185"
+        ]
+      },
+      "properties": {
+        "title": "Untermeiderich",
+        "location": "Spichernplatz, 47137 Duisburg",
+        "opening_hours": "Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.780145",
+          "51.46763"
+        ]
+      },
+      "properties": {
+        "title": "Mittelmeiderich",
+        "location": "Bahnhofsvorplatz, Von-der-Mark-Straße, 47137 Duisburg",
+        "opening_hours": "We 08:00 - 13:00; Sa 08:00 - 14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.78825",
+          "51.475012"
+        ]
+      },
+      "properties": {
+        "title": "Obermeiderich",
+        "location": "Wasgaustraße, 47137 Duisburg",
+        "opening_hours": "Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.732468",
+          "51.45358"
+        ]
+      },
+      "properties": {
+        "title": "Ruhrort",
+        "location": "Neumarkt, 47119 Duisburg",
+        "opening_hours": "We, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.707749",
+          "51.450445"
+        ]
+      },
+      "properties": {
+        "title": "Homberg",
+        "location": "Bismarckplatz, 47198 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.686496",
+          "51.449909"
+        ]
+      },
+      "properties": {
+        "title": "Hochheide",
+        "location": "Bürgermeister-Bongartz-Platz, 47198 Duisburg",
+        "opening_hours": "We, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.660244",
+          "51.402588"
+        ]
+      },
+      "properties": {
+        "title": "Rumeln",
+        "location": "Dorf-/Verbindungsstraße, 47239 Duisburg",
+        "opening_hours": "Th 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.707073",
+          "51.389139"
+        ]
+      },
+      "properties": {
+        "title": "Friemersheim",
+        "location": "Kaiser-/Kronprinzenstraße, 47229 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.685739",
+          "51.411314"
+        ]
+      },
+      "properties": {
+        "title": "Bergheim",
+        "location": "Alfred-Hitz-Platz, 47228 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.720421",
+          "51.410921"
+        ]
+      },
+      "properties": {
+        "title": "Hochemmerich",
+        "location": "Atroper Straße/Duisburger Straße, 47226 Duisburg",
+        "opening_hours": "We, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.789928",
+          "51.438036"
+        ]
+      },
+      "properties": {
+        "title": "Duissern",
+        "location": "Königsberger Allee, 47058 Duisburg",
+        "opening_hours": "Tu, Fr 14:00 - 18:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.781664",
+          "51.430234"
+        ]
+      },
+      "properties": {
+        "title": "Neudorf",
+        "location": "Ludgeriplatz, 47057 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.76827",
+          "51.433177"
+        ]
+      },
+      "properties": {
+        "title": "Bauernmarkt",
+        "location": "Königstraße, 47051 Duisburg",
+        "opening_hours": "Tu, Th, Sa 10:00 - 18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.757027",
+          "51.417072"
+        ]
+      },
+      "properties": {
+        "title": "Hochfeld",
+        "location": "Saarbrücker Straße/Fröbelstraße, 47053 Duisburg",
+        "opening_hours": "We, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.759129",
+          "51.402663"
+        ]
+      },
+      "properties": {
+        "title": "Wanheimerort",
+        "location": "Michaelplatz, 47055 Duisburg",
+        "opening_hours": "Tu, Th 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.811701",
+          "51.392388"
+        ]
+      },
+      "properties": {
+        "title": "Bissingheim",
+        "location": "Dorfplatz, 47279 Duisburg",
+        "opening_hours": "Th 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.797078",
+          "51.392112"
+        ]
+      },
+      "properties": {
+        "title": "Wedau",
+        "location": "Wedauer Markt, 47279 Duisburg",
+        "opening_hours": "We, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.765347",
+          "51.384069"
+        ]
+      },
+      "properties": {
+        "title": "Buchholz",
+        "location": "Münchener Straße, 47249 Duisburg",
+        "opening_hours": "Tu, Fr 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.743183",
+          "51.381362"
+        ]
+      },
+      "properties": {
+        "title": "Wanheim",
+        "location": "Am Tollberg/Molbergstraße, 47249 Duisburg",
+        "opening_hours": "We, Sa 08:00 - 13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.749864",
+          "51.37057"
+        ]
+      },
+      "properties": {
+        "title": "Huckingen",
+        "location": "Mündelheimer Straße/Im Wittfeld, 47259 Duisburg",
+        "opening_hours": "Th 08:00 - 13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von Duisburg Kontor GmbH",
+      "url": "https://www.duisburg.de/leben/maerkte_in_duisburg/index.php"
+    },
+    "map_initialization": {
+      "coordinates": [
+        6.760197,
+        51.45173
+      ],
+      "zoom_level": 12
+    }
+  }
+}

@@ -11,7 +11,11 @@
         "id": "dresden",
         "label": "Dresden"
     },
-	"düsseldorf": {
+    "duisburg": {
+        "id": "duisburg",
+        "label": "Duisburg"
+    },
+	  "düsseldorf": {
         "id": "düsseldorf",
         "label": "Düsseldorf"
     },
