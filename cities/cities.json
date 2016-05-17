@@ -15,7 +15,7 @@
         "id": "duisburg",
         "label": "Duisburg"
     },
-	  "düsseldorf": {
+    "düsseldorf": {
         "id": "düsseldorf",
         "label": "Düsseldorf"
     },
@@ -46,7 +46,7 @@
     "mülheim-an-der-ruhr": {
         "id": "mülheim-an-der-ruhr",
         "label": "Mülheim an der Ruhr"
-   },
+    },
     "münchen": {
         "id": "münchen",
         "label": "München"
