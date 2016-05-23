@@ -3,6 +3,10 @@
         "id": "berlin",
         "label": "Berlin"
     },
+    "bochum": {
+        "id": "bochum",
+        "label": "Bochum"
+    },
     "chemnitz": {
         "id": "chemnitz",
         "label": "Chemnitz"

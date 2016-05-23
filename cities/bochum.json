@@ -1,0 +1,204 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.215317",
+          "51.481981"
+        ]
+      },
+      "properties": {
+        "title": "Rathausmarkt",
+        "location": "Rathaus, Willy-Brandt-Platz 1",
+        "opening_hours": "Tu, Fr 07:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.211658",
+          "51.510049"
+        ]
+      },
+      "properties": {
+        "title": "Riemke Markt",
+        "location": "Marktscheide, Herner Straße",
+        "opening_hours": "We, Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.190603",
+          "51.45361"
+        ]
+      },
+      "properties": {
+        "title": "Weitmarer Straßenbasar",
+        "location": "Matthäusstraße",
+        "opening_hours": "Th 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.306596",
+          "51.4875"
+        ]
+      },
+      "properties": {
+        "title": "Werne",
+        "location": "Zur Werner Heide 43",
+        "opening_hours": "We, Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.245201",
+          "51.472915"
+        ]
+      },
+      "properties": {
+        "title": "Altenbochum",
+        "location": "Friemannplatz",
+        "opening_hours": "Tu, Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.132987",
+          "51.481523"
+        ]
+      },
+      "properties": {
+        "title": "Alter Markt",
+        "location": "Platz zwischen Alten Markt und Weststraße",
+        "opening_hours": "Tu, Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.150194",
+          "51.480731"
+        ]
+      },
+      "properties": {
+        "title": "Bismarckplatz",
+        "location": "Bismarckplatz 1A",
+        "opening_hours": "Th 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.224295",
+          "51.477613"
+        ]
+      },
+      "properties": {
+        "title": "Markt am Bahnhof",
+        "location": "Buddenbergplatz",
+        "opening_hours": "We, Sa 07:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.143949",
+          "51.496102"
+        ]
+      },
+      "properties": {
+        "title": "Günnigfeld",
+        "location": "Max-König-Platz",
+        "opening_hours": "Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.324944",
+          "51.473452"
+        ]
+      },
+      "properties": {
+        "title": "Langendreer",
+        "location": "Marktplatz Langendreer",
+        "opening_hours": "Tu, Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.160064",
+          "51.42522"
+        ]
+      },
+      "properties": {
+        "title": "Linden",
+        "location": "Wilhelm-Hopmann-Platz, Marktplatz Hattingerstraße/Dr.-C.-Otto-Straße",
+        "opening_hours": "We, Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.211088",
+          "51.440998"
+        ]
+      },
+      "properties": {
+        "title": "Weitmar-Mark",
+        "location": "Pfarrer-Halbe-Straße",
+        "opening_hours": "Fr 07:00-13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von der Stadt Bochum",
+      "url": "https://www.bochum.de/amt32/wochenmaerkte"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.218487,
+        51.478045
+      ],
+      "zoom_level": 12
+    }
+  }
+}
