@@ -37,6 +37,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |City name|Data source|
 |:---|:---|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Dresden][dresden-wikipedia]|[City of Dresden][dresden-markets]|
 |[Duisburg][duisburg-wikipedia]|[Duisburg Kontor GmbH][duisburg-markets]|
@@ -80,6 +81,8 @@ Tests can be run using [npm][npm]:
 
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
+[bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
+[bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
