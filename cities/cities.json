@@ -11,6 +11,10 @@
         "id": "chemnitz",
         "label": "Chemnitz"
     },
+    "dortmund": {
+        "id": "dortmund",
+        "label": "Dortmund"
+    },
     "dresden": {
         "id": "dresden",
         "label": "Dresden"
