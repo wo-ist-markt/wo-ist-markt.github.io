@@ -233,7 +233,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Fehrbelliner Platz",
                 "location": "Wochenmarkt Fehrbelliner Platz",
                 "opening_hours": "Tu,Th 11:00-16:00",
                 "opening_hours_unclassified": null
@@ -297,10 +297,26 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Trödelmarkt an der Mecklenburgischen Straße, Parkplatz Reichelt, Wiesbadener Str. 53 Ecke Mecklenburgische Straße",
-                "location": "Trödelmarkt an der Mecklenburgischen Straße, Parkplatz Reichelt, Wiesbadener Str. 53 Ecke Mecklenburgische Straße",
+                "title": "Trödelmarkt an der Mecklenburgischen Straße",
+                "location": "Trödelmarkt an der Mecklenburgischen Straße",
                 "opening_hours": "Su 08:00-16:00",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.294945,
+                    52.506662
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "15. ANTIKMEILE Suarezstraße",
+                "location": "15. ANTIKMEILE Suarezstraße",
+                "opening_hours": null,
+                "opening_hours_unclassified": "vorauss. 04.09.2016 12:00 - 20:00"
             },
             "type": "Feature"
         },
@@ -313,8 +329,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Antik- und Kunstmarkt an der Villa Oppenheim, Schloßstr. 55 (Otto-Grüneberg-Weg), 14059 Berlin",
-                "location": "Antik- und Kunstmarkt an der Villa Oppenheim, Schloßstr. 55 (Otto-Grüneberg-Weg), 14059 Berlin",
+                "title": "Antik- und Kunstmarkt an der Villa Oppenheim",
+                "location": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "opening_hours": null,
                 "opening_hours_unclassified": "16.04.2016 17.04.2016 08.10.2016 19.10.2016 11:00 - 18:00 10:00 - 18:00 11:00 - 17:00 10:00 - 17:00"
             },
@@ -345,7 +361,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Boxhagener Platz",
                 "location": "Wochenmarkt Boxhagener Platz",
                 "opening_hours": "Sa 09:00-15:30",
                 "opening_hours_unclassified": null
@@ -409,8 +425,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Ökomarkt - Chamissoplatz Berlin - Kreuzberg - Chamissoplatz",
-                "location": "Ökomarkt - Chamissoplatz Berlin - Kreuzberg - Chamissoplatz",
+                "title": "Ökomarkt - Chamissoplatz",
+                "location": "Ökomarkt - Chamissoplatz",
                 "opening_hours": "Sa 09:00-15:00",
                 "opening_hours_unclassified": null
             },
@@ -473,7 +489,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt am Südstern",
                 "location": "Wochenmarkt am Südstern",
                 "opening_hours": "Sa 10:00-16:00",
                 "opening_hours_unclassified": null
@@ -489,7 +505,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Antikmarkt am Ostbahnhof",
                 "location": "Antikmarkt am Ostbahnhof",
                 "opening_hours": "Su 09:00-16:00",
                 "opening_hours_unclassified": null
@@ -579,6 +595,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.431351,
+                    52.498615
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Sperrgutmarkt am Spreewaldplatz",
+                "location": "Sperrgutmarkt am Spreewaldplatz",
+                "opening_hours": null,
+                "opening_hours_unclassified": "nur 28.05.2016 12:00 - 17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.454248,
                     52.507708
                 ],
@@ -589,6 +621,38 @@
                 "location": "raw-flohmarkt, Revaler Str. 99",
                 "opening_hours": "Su 09:00-19:00",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.41053,
+                    52.503824
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kreuzboerg Flowmarkt Prinzessinnengärten/Moritzplatz",
+                "location": "Kreuzboerg Flowmarkt Prinzessinnengärten/Moritzplatz",
+                "opening_hours": null,
+                "opening_hours_unclassified": "03.04., 17.04., 01.05., 29.05., 12.06., 26.06., 10.07., 24.07., 07.08., 21.08., 04.09., 18.09., 02.10., 16.10., 31.10.2016 10:00 - 17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.852106,
+                    52.289368
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Großer Familien-Flohmarkt in Klaistow",
+                "location": "Großer Familien-Flohmarkt in Klaistow",
+                "opening_hours": null,
+                "opening_hours_unclassified": "20.03.2016 03.07.2016 28.08.2016 06.11.2016 10:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -713,7 +777,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Am Storchenhof HauptStraße",
                 "location": "Wochenmarkt Am Storchenhof HauptStraße",
                 "opening_hours": "Tu,Th,Fr,Sa 09:00-17:00",
                 "opening_hours_unclassified": null
@@ -780,6 +844,22 @@
                 "title": "Wochenmarkt Egon-Erwin-Kisch-Straße / am S-Bahnhof Wartenberg",
                 "location": "Wochenmarkt Egon-Erwin-Kisch-Straße / am S-Bahnhof Wartenberg",
                 "opening_hours": "Mo 09:00-17:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.513783,
+                    52.531417
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Trödelmarkt Selgros, Rhinstr. 141, 10315 Berlin",
+                "location": "Trödelmarkt Selgros, Rhinstr. 141, 10315 Berlin",
+                "opening_hours": "Su 07:00-14:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -889,7 +969,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
                 "location": "Wochenmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
                 "opening_hours": "Tu,Th 09:00-17:00",
                 "opening_hours_unclassified": null
@@ -921,7 +1001,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt am Arkonaplatz",
                 "location": "Wochenmarkt am Arkonaplatz",
                 "opening_hours": "Fr 12:00-19:00",
                 "opening_hours_unclassified": null
@@ -969,7 +1049,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Leopoldplatz",
                 "location": "Wochenmarkt Leopoldplatz",
                 "opening_hours": "Th 11:00-17:00",
                 "opening_hours_unclassified": null
@@ -1049,7 +1129,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt am Hackeschen Markt",
                 "location": "Wochenmarkt am Hackeschen Markt",
                 "opening_hours": "Th 09:00-18:00",
                 "opening_hours_unclassified": null
@@ -1273,7 +1353,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Maybachufer (ehemals: Maybachufer/BiOriental)",
                 "location": "Wochenmarkt Maybachufer (ehemals: Maybachufer/BiOriental)",
                 "opening_hours": "Tu,Fr 11:00-18:30",
                 "opening_hours_unclassified": null
@@ -1347,8 +1427,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.435455,
-                    52.468081
+                    13.437485,
+                    52.466417
                 ],
                 "type": "Point"
             },
@@ -1356,7 +1436,7 @@
                 "title": "Landmarkt DIE DICKE LINDA, Kranoldplatz",
                 "location": "Landmarkt DIE DICKE LINDA, Kranoldplatz",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Sa ganzjährig Marktbeginn: 02.04.2016 10:00 - 15:30"
+                "opening_hours_unclassified": "Sa ganzjährig Marktbeginn: 02.04.2016 10:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -1939,13 +2019,29 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.218256,
+                    52.537191
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Nachtmarkt auf der Zitadelle im Rahmen des Citadel Music Festivals, Am Juliusturm",
+                "location": "Nachtmarkt auf der Zitadelle im Rahmen des Citadel Music Festivals, Am Juliusturm",
+                "opening_hours": null,
+                "opening_hours_unclassified": "11.06.2016 18:00 - 24:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.321983,
                     52.456807
                 ],
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Hermann-Ehlers-Platz am Rathaus Steglitz",
                 "location": "Wochenmarkt Hermann-Ehlers-Platz am Rathaus Steglitz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Di, Sa Do 08:00 - 14:00 08:00 - 18:00"
@@ -2083,22 +2179,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.21652,
-                    52.43875
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Kunst- und Handwerkermarkt, Matterhornstr. 52/54, 14129 Berlin",
-                "location": "Kunst- und Handwerkermarkt, Matterhornstr. 52/54, 14129 Berlin",
-                "opening_hours": null,
-                "opening_hours_unclassified": "jeden 1. So im Monat 10:00 - 17:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.260836,
                     52.436317
                 ],
@@ -2137,7 +2217,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Mexikoplatz",
                 "location": "Wochenmarkt Mexikoplatz",
                 "opening_hours": "Sa 09:00-16:00",
                 "opening_hours_unclassified": null
@@ -2185,7 +2265,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
                 "location": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
                 "opening_hours": null,
                 "opening_hours_unclassified": "23.06.2016 24.06.2016 25.06.2016 26.06.2016 16:00-22:00 14:00-24:00 12:00-24:00 12:00-20:00"
@@ -2221,6 +2301,22 @@
                 "location": "Wochenmarkt Onkel-Toms-Hütte, U-Bahnhof Onkel-Toms-Hütte",
                 "opening_hours": "Th 12:00-18:30",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.309084,
+                    52.466767
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "< 164 Markt (Verkauf von Baby- und Kindersachen), Breitenbachplatz, 14195 Berlin",
+                "location": "< 164 Markt (Verkauf von Baby- und Kindersachen), Breitenbachplatz, 14195 Berlin",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.04., 01.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2016 10:00 - 14:00"
             },
             "type": "Feature"
         },
@@ -2281,7 +2377,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt John - F. - Kennedy - Platz",
                 "location": "Wochenmarkt John - F. - Kennedy - Platz",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
@@ -2329,7 +2425,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "location": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "opening_hours": "Tu 08:00-14:00;Fr 08:00-16:00",
                 "opening_hours_unclassified": null
@@ -2393,7 +2489,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Mehrerer Einträge...",
+                "title": "Wochenmarkt Bölschestraße",
                 "location": "Wochenmarkt Bölschestraße",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Mo,Mi,Fr Sa 10:00 - 17:00 09:00 - 13:00"
@@ -2515,7 +2611,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 02.02.2016",
+            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 06.05.2016",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         },
         "map_initialization": {
