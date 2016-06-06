@@ -63,6 +63,21 @@
     {
       "geometry": {
         "coordinates": [
+          12.117154262741545,
+          54.07121271558587
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Tu 09:00-16:00; Fr 09:00-17:00",
+        "location": "Nobelstr.",
+        "title": "Wochenmarkt Südstadtcenter"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           12.115549054692336,
           54.087722259811144
         ],
@@ -78,8 +93,38 @@
     {
       "geometry": {
         "coordinates": [
-          12.084327188679525,
-          54.17681479627859
+          12.166919216329369,
+          54.118994843015365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "\"nach Vereinbarung\"",
+        "location": "Neu Hinrichsdorf",
+        "title": "Biogarten Rostock"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.067411379752611,
+          54.07308054962748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Th,Fr 10:00-16:00; Sa 10:00-13:00; \"nach Vereinbarung\"",
+        "location": "Tannenweg",
+        "title": "Bio- und Erlebnisgärtnerei Rohde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.085635025420544,
+          54.17689533754957
         ],
         "type": "Point"
       },
@@ -93,15 +138,15 @@
     {
       "geometry": {
         "coordinates": [
-          12.089051030964667,
-          54.17730316761259
+          12.097321555870542,
+          54.065089409190435
         ],
         "type": "Point"
       },
       "properties": {
-        "opening_hours": "Sa,Su 08:00-18:00",
-        "location": "Am Bahnhof",
-        "title": "Warnemünder Fischmarkt"
+        "opening_hours": "\"nach Vereinbarung\"",
+        "location": "Klein Schwaßer Weg",
+        "title": "Biestower Biobirne"
       },
       "type": "Feature"
     },
@@ -194,12 +239,27 @@
         "title": "Wochenmarkt Ulmenmarkt"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.089051030964667,
+          54.17730316761259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "opening_hours": "Sa-Su 08:00-18:00; Oct-Mar: 08:00-17:00",
+        "location": "Am Bahnhof",
+        "title": "Warnemünder Fischmarkt"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection",
   "metadata": {
     "data_source": {
-      "title": "Daten von der Hansestadt Rostock",
+      "title": "Daten von der Hansestadt Rostock, aktualisiert am 04.06.2016",
       "url": "http://www.rostocker-wochenmaerkte.de/standorte-angebote/"
       },
     "map_initialization": {
