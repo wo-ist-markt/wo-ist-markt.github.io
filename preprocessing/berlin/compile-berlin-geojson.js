@@ -59,8 +59,8 @@ function getWellFormedCoordinates(feature) {
 function prepareFeatureProperties(feature) {
 	var outputProperties = {};
 	var inputProperties = feature.properties.data;
-	var title = feature.properties.title;
 	var location = inputProperties.location;
+	var title = getDescriptiveTitle(feature.properties.title, location);
 	var sanitizedTitle = getSanitizeString(title);
 	var sanitizedLocation = getSanitizeString(location);
 	outputProperties.title = sanitizedTitle;
@@ -86,6 +86,17 @@ function prepareFeatureProperties(feature) {
 		outputProperties.opening_hours_unclassified = daysHours;
 	}
 	return outputProperties;
+}
+
+/*
+ * Returns a descriptive title.
+ */
+function getDescriptiveTitle(title, alternativeTitle) {
+	var tempTitle = title;
+	if (tempTitle === "Mehrerer Einträge...") {
+		tempTitle = alternativeTitle;
+	}
+	return tempTitle;
 }
 
 /*
