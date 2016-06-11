@@ -45,6 +45,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Düsseldorf][duesseldorf-wikipedia]|[City of Düsseldorf][duesseldorf-markets]|
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
+|[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
@@ -98,6 +99,8 @@ Tests can be run using [npm][npm]:
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
+[hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
+[hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
