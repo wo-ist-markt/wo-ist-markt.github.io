@@ -35,6 +35,10 @@
         "id": "essen",
         "label": "Essen"
     },
+    "hilden": {
+        "id": "hilden",
+        "label": "Hilden"
+    },
     "karlsruhe": {
         "id": "karlsruhe",
         "label": "Karlsruhe"
