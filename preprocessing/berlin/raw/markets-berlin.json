@@ -718,10 +718,10 @@
                     "www": "",
                     "zeiten": "10:00 - 19:00\n09:00 - 16:00"
                 },
-                "description": "Mo - Fr\nSa<br />10:00 - 19:00\n09:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45\">Mehr...</a>",
+                "description": "<strong>Wochenmarkt Am Kaufhof Ostbahnhof\n(Erich-Steinfurth-Straße)</strong><br />Mo - Fr\nSa<br />10:00 - 19:00\n09:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45\">Mehr...</a><br /><br /><strong>design.Börse_Berlin in Galeria Kaufhof am Ostbahnhof, Erich-Steinfurth-Straße</strong><br />22. - 24.01.2016<br />Fr 16:00-20:00\nSa 12:00-20:00\nSo 13:00-18:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45",
-                "title": "Wochenmarkt Am Kaufhof Ostbahnhof\n(Erich-Steinfurth-Straße)"
+                "title": "Mehrerer Einträge..."
             },
             "type": "Feature"
         },
@@ -925,35 +925,6 @@
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/59",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/59",
                 "title": "Mehrerer Einträge..."
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.7160249,
-                    52.8487873
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "bemerkungen": "Möbel & Produktdesign der letzten 120 Jahre",
-                    "betreiber": "Oldthing Marktveranstaltung\nTel.: 29 00 20 10",
-                    "bezirk": "Friedrichshain-Kreuzberg",
-                    "email": "mailto:info@oldthing.de",
-                    "id": "61",
-                    "latitude": "52,8487873",
-                    "location": "design.Börse_Berlin in Galeria Kaufhof am Ostbahnhof, Erich-Steinfurth-Straße",
-                    "longitude": "13,7160249",
-                    "tage": "22. - 24.01.2016",
-                    "www": "http://www.design-boerse-berlin.de",
-                    "zeiten": "Preview Fr 16:00-20:00\nSa 12:00-20:00\nSo 13:00-18:00"
-                },
-                "description": "22. - 24.01.2016<br />Preview Fr 16:00-20:00\nSa 12:00-20:00\nSo 13:00-18:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61\">Mehr...</a>",
-                "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61",
-                "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61",
-                "title": "design.Börse_Berlin in Galeria Kaufhof am Ostbahnhof, Erich-Steinfurth-Straße"
             },
             "type": "Feature"
         },
