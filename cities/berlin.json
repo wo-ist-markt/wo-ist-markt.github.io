@@ -515,22 +515,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.7160249,
-                    52.8487873
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "design.Börse_Berlin in Galeria Kaufhof am Ostbahnhof, Erich-Steinfurth-Straße",
-                "location": "design.Börse_Berlin in Galeria Kaufhof am Ostbahnhof, Erich-Steinfurth-Straße",
-                "opening_hours": null,
-                "opening_hours_unclassified": "22. - 24.01.2016 Preview Fr 16:00-20:00 Sa 12:00-20:00 So 13:00-18:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.395882,
                     52.489384
                 ],
@@ -2611,7 +2595,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 06.05.2016",
+            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 10.06.2016",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         },
         "map_initialization": {
