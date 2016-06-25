@@ -47,6 +47,10 @@
         "id": "köln",
         "label": "Köln"
     },
+    "langenfeld_rhld": {
+        "id": "langenfeld_rhld",
+        "label": "Langenfeld (Rhld.)"
+    },
     "leipzig": {
         "id": "leipzig",
         "label": "Leipzig"
