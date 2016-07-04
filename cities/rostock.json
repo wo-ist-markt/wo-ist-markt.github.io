@@ -259,7 +259,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "data_source": {
-      "title": "Daten von der Hansestadt Rostock, aktualisiert am 04.06.2016",
+      "title": "Hansestadt Rostock, aktualisiert am 04.06.2016",
       "url": "http://www.rostocker-wochenmaerkte.de/standorte-angebote/"
       },
     "map_initialization": {

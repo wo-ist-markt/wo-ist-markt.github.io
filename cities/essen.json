@@ -400,7 +400,7 @@
   ],
   "metadata": {
     "data_source": {
-      "title": "Daten von der EVB",
+      "title": "EVB",
       "url": "https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html"
     },
     "map_initialization": {

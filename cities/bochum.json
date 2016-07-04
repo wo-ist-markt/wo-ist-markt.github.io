@@ -190,7 +190,7 @@
   ],
   "metadata": {
     "data_source": {
-      "title": "Daten von der Stadt Bochum",
+      "title": "Stadt Bochum",
       "url": "https://www.bochum.de/amt32/wochenmaerkte"
     },
     "map_initialization": {

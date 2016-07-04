@@ -23,18 +23,17 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <div id="map"></div>
-        <div id="legend">
-            <h1>Wo ist Markt in <select id="dropDownCitySelection"></select>?</h1>
+        <header id="header">
+            <button id="btnToggleHeader"><i class="fa fa-bars"></i></button>
+            <h1>Wo ist Markt in <span class="nowrap"><select id="dropDownCitySelection"></select>?</span></h1>
             <form>
                 <label><input type="radio" name="display" id="now" value="now"><span>jetzt</span></label>
                 <label><input type="radio" name="display" id="today" value="today"><span>heute</span></label>
                 <label><input type="radio" name="display" id="other" value="other"><span>alle</span></label>
             </form>
-            <p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a> und
-            des <a href="http://codefor.de/berlin">Open Knowledge Lab Berlin</a>.
-            <span id="dataSource">Datenquelle</span>. <a href="https://github.com/wo-ist-markt/wo-ist-markt.github.io">Code</a> auf GitHub.</p>
-        </div>
+            <div id="details"><p>Ein Projekt des <a href="http://codefor.de/karlsruhe">Open Knowledge Lab Karlsruhe</a> und des <a href="http://codefor.de/berlin">Open Knowledge Lab Berlin</a>.</p><p>Daten: <span id="dataSource">Datenquelle</span>.</p><p><a href="https://github.com/wo-ist-markt/wo-ist-markt.github.io">Code</a> auf GitHub.</p></div>
+        </header>
+        <div id="map"></div>
         <!-- Piwik -->
         <script type="text/javascript">
             var _paq = _paq || [];

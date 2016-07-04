@@ -79,7 +79,7 @@
   ],
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Paderborn",
+            "title": "Stadt Paderborn",
             "url": "http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1"
         },
         "map_initialization": {
