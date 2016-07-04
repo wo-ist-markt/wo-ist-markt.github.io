@@ -1,0 +1,88 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.24233,
+                    50.08143
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wiesbadener Wochenmarkt",
+                "location": "Marktplatz, 65183 Wiesbaden",
+                "opening_hours": "Sa 07:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.24079,
+                    50.03959
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Wiesbaden-Biebrich",
+                "location": "Marienplatz, 65203 Wiesbaden",
+                "opening_hours": "Fr 12:00-18:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.28618,
+                    50.08356
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Wiesbaden-Bierstadt",
+                "location": "Venatorstraße, 65191 Wiesbaden",
+                "opening_hours": "Fr 12:00-18:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.30619,
+                    50.00165
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Mainz-Kostheim",
+                "location": "Winterstraße, 55246 Mainz-Kostheim",
+                "opening_hours": "Th 09:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Wiesbaden Marketing GmbH",
+            "url": "http://www.wiesbaden.de/wiesbadener-wochenmarkt/index.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                8.28842,
+                50.03985
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection",
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    }
+}

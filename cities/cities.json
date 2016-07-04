@@ -91,6 +91,10 @@
         "id": "ulm",
         "label": "Ulm"
     },
+    "wiesbaden": {
+        "id": "wiesbaden",
+        "label": "Wiesbaden"
+    },
     "witten": {
         "id": "witten",
         "label": "Witten"
