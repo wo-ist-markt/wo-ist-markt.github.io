@@ -19,6 +19,8 @@ A small visualization of the weekly markets in different cities. Available at: h
   These information are being used to set the initial position of the map. They must be part of
   the city-specific GeoJSON file. Please adapt the format as being used in *cities/karlsruhe.json*.
 * Further, the **data source** must be specified so it can be shown in the legend overlay.
+* A validation script will automatically be executed to ensure required attributes are present in
+  the GeoJSON file.
 * Finally add your city to the *cities/cities.json* file.
 
 
