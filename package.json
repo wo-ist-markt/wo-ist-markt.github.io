@@ -2,14 +2,16 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "devDependencies": {
+    "colors": "~1.1.2",
     "jasmine": "^2.4.1",
     "jshint": "~2.9.1",
     "moment": "~2.11.0",
     "opening_hours": "~3.4.0"
   },
   "scripts": {
-    "lint": "jshint js preprocessing",
+    "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
-    "test": "npm run lint & npm run jasmine-tests"
+    "test": "npm run lint & npm run jasmine-tests & npm run validate",
+    "validate": "node validation/markets-validator.js"
   }
 }
