@@ -48,7 +48,7 @@ function pad(num, totalDigits) {
  * `openingRanges` is a list of ranges compiled via opening_hours.js.
  * The first and second element of each range item are the starting and closing dates.
  */
-function getTimeTable(openingRanges) {
+function getTimeTableHtml(openingRanges) {
     var html = '<table class="times">';
     if (openingRanges !== undefined) {
         for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
@@ -247,7 +247,7 @@ function initMarker(feature) {
         /* Are there opening hours in the current week? */
         else if (openingTimes.hasOwnProperty('intervals')) {
             todayOpeningRange = getOpeningRangeForDate(openingTimes.intervals, now);
-            timeTableHtml = getTimeTable(openingTimes.intervals);
+            timeTableHtml = getTimeTableHtml(openingTimes.intervals);
         }
         /* Is there a next market date? */
         else if (openingTimes.hasOwnProperty('nextChange')) {
