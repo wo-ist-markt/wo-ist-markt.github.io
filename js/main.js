@@ -80,6 +80,16 @@ function getTableRowForDay(openingRange, dayIsToday) {
 }
 
 /*
+ * Format HTML for next market date
+ */
+function getNextMarketDateHtml(nextChange) {
+    var html = '<p class="times">Nächster Termin: ' +
+        moment(nextChange).format('DD. MMM') + ' ab ' +
+        moment(nextChange).format('HH:mm') + ' Uhr.</p>';
+    return html;
+}
+
+/*
  * Moves the map to its initial position.
  */
 function positionMap(mapInitialization) {
@@ -154,9 +164,11 @@ function openingRangeContainsTime(openingRange, date) {
 }
 
 /*
- * Returns opening ranges compiled via opening_hours.js.
+ * Returns opening times compiled via opening_hours.js.
+ * Returns a object with the next opening date or opening ranges if available.
+ * Returns null if no next opening date or ranges are available.
  */
-function getOpeningRanges(openingHoursStrings) {
+function getOpeningTimes(openingHoursStrings) {
     var sundayIndex = 0;
     var shiftBy;
     if (moment().weekday() === sundayIndex) {
@@ -167,7 +179,22 @@ function getOpeningRanges(openingHoursStrings) {
     var monday = moment().startOf("week").add(shiftBy, 'days').toDate();
     var sunday = moment().endOf("week").add(shiftBy, 'days').toDate();
     var oh = new opening_hours(openingHoursStrings);
-    return oh.getOpenIntervals(monday, sunday);
+    var intervals = oh.getOpenIntervals(monday, sunday);
+    var nextChange = oh.getNextChange();
+
+    if (intervals.length > 0) {
+        /* Return opening ranges */
+        return {
+            intervals: intervals
+        };
+    } else if (typeof nextChange !== 'undefined') {
+        /* Return next opening date */
+        return {
+            nextChange: nextChange
+        };
+    } else {
+        return null;
+    }
 }
 
 /*
@@ -212,9 +239,20 @@ function initMarker(feature) {
     if (openingHoursStrings === null || openingHoursStrings.length === 0) {
         openingHoursUnclassified = properties.opening_hours_unclassified;
     } else {
-        var openingRanges = getOpeningRanges(openingHoursStrings);
-        todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
-        timeTableHtml = getTimeTable(openingRanges);
+        var openingTimes = getOpeningTimes(openingHoursStrings);
+        /* If no opening hours or a next date, don't show a marker. */
+        if (openingTimes === null) {
+            return;
+        }
+        /* Are there opening hours in the current week? */
+        else if (openingTimes.hasOwnProperty('intervals')) {
+            todayOpeningRange = getOpeningRangeForDate(openingTimes.intervals, now);
+            timeTableHtml = getTimeTable(openingTimes.intervals);
+        }
+        /* Is there a next market date? */
+        else if (openingTimes.hasOwnProperty('nextChange')) {
+            timeTableHtml = getNextMarketDateHtml(openingTimes.nextChange);
+        }
     }
 
     var coordinates = feature.geometry.coordinates;
