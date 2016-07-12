@@ -1,0 +1,177 @@
+{
+	"features": [{
+			"geometry": {
+				"coordinates": [
+					7.10224,
+					50.73538
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Lebensmittelmarkt",
+				"location": "Bonn Markt",
+				"opening_hours": "Mo 08:00-18:30 ; Tu 08:00-18:30 ; We 08:00-18:30 ; Th 08:00-18:30 ; Fr 08:00-18:30 ; Sa 08:00-16:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.1013879,
+					50.7348839
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Blumenmarkt",
+				"location": "Remigiusplatz",
+				"opening_hours": "Mo 08:00-18:30 ; Tu 08:00-18:30 ; We 08:00-18:30 ; Th 08:00-18:30 ; Fr 08:00-18:30 ; Sa 08:00-16:00"
+			},
+			"type": "Feature"
+		},
+
+		{
+			"geometry": {
+				"coordinates": [
+					7.10008,
+					50.73330
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Ökomarkt",
+				"location": "Bonn Martinplatz",
+				"opening_hours": "We 08:00-14:00 ; Sa 08:00-14:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.15583,
+					50.68550
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Bad Godesberg Moltkeplatz",
+				"opening_hours": "Tu 08:00-13:00 ; Th 08:00-13:00 ; Sa 08:00-14:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.15546,
+					50.68566
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Ökomarkt",
+				"location": "Bad Godesberg Moltkeplatz ",
+				"opening_hours": "Fr 08:00-13:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.19186,
+					50.66094
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Mehlem Mainzer Straße ",
+				"opening_hours": "We 08:00-18:30 ; Fr 08:00-18:30 ; Sa 08:00-18:30"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.11808,
+					50.73570
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Beuel Hermannstraße ",
+				"opening_hours": "We 08:00-14:00 ; Fr 08:00-14:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.11978,
+					50.73943
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Beuel Friedrich-Breuer-Str. ",
+				"opening_hours": "Sa 08:00-14:00"
+			},
+			"type": "Feature"
+
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.04569,
+					50.71402
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Duisdorf Am Schickshof",
+				"opening_hours": "Tu 08:00-13:00 ; Fr 08:00-13:00 ; Sa 08:00-13:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.05726,
+					50.69815
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Wochenmarkt",
+				"location": "Brüser Berg Borsigallee",
+				"opening_hours": "We 08:00-13:00 ; Sa 08:00-13:00"
+			},
+			"type": "Feature"
+		}, {
+			"geometry": {
+				"coordinates": [
+					7.04550,
+					50.75021
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"title": "Flohmarkt",
+				"location": "Einkaufszentrum Tannenbusch",
+				"opening_hours": "Su 11:00-18:00"
+			},
+			"type": "Feature"
+		}
+
+	],
+
+	"metadata": {
+		"data_source": {
+			"title": "Stadt Bonn",
+			"url": "http://www.bonn.de/rat_verwaltung_buergerdienste/buergerdienste_online/buergerservice_a_z/00283/index.html?lang=de&download=M3wBUQCu%2F8ulmKDu36WenojQ1NTTjaXZnqWfVpzLhmfhnapmmc7Zi6rZnqCkkIN1fn17bKbXrZ2lhtTN34al3p6YrY7P1oah162apo3X1cjYh2%2BhoJRn6w%3D%3D"
+		},
+		"map_initialization": {
+			"coordinates": [
+				7.1009,
+				50.7350
+			],
+			"zoom_level": 12
+		}
+	},
+	"type": "FeatureCollection"
+}
