@@ -7,6 +7,10 @@
         "id": "bochum",
         "label": "Bochum"
     },
+"bonn": {
+        "id": "bonn",
+        "label": "Bonn"
+    },
     "chemnitz": {
         "id": "chemnitz",
         "label": "Chemnitz"
