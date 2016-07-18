@@ -57,21 +57,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "7.29056",
-          "51.41648"
-        ]
-      },
-      "properties": {
-        "title": "Karl-Legien-Straße",
-        "location": "Karl-Legien-Straße",
-        "opening_hours": "We 09:00-14:00"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           "7.41427",
           "51.42904"
         ]
