@@ -79,6 +79,10 @@
         "id": "neu-ulm",
         "label": "Neu-Ulm"
     },
+    "nersingen": {
+        "id": "nersingen",
+        "label": "Nersingen"
+    },
     "paderborn": {
         "id": "paderborn",
         "label": "Paderborn"
