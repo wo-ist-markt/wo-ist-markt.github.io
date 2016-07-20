@@ -57,6 +57,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
+|[Nersingen][nersingen-wikipedia]|[City of Nersingen][nersingen-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
@@ -124,6 +125,8 @@ Tests can be run using [npm][npm]:
 [muenchen-markets]: https://www.opengov-muenchen.de/dataset/maerkte
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-markets]: http://www.muenster.de/stadt/maerkte/markt.html
+[nersingen-wikipedia]: https://de.wikipedia.org/wiki/Nersingen
+[nersingen-markets]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
