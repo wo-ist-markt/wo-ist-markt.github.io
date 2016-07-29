@@ -2457,10 +2457,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Kinder- und BabyTrödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
-                "location": "Kinder- und BabyTrödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
+                "title": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
+                "location": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
                 "opening_hours": null,
-                "opening_hours_unclassified": "nur 28.05. und 25.06.2016 14:00 - 17:00"
+                "opening_hours_unclassified": "nur 17.09. und 08.10.2016 14:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -2595,7 +2595,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 10.05.2016",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 18.07.2016",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         },
         "map_initialization": {
