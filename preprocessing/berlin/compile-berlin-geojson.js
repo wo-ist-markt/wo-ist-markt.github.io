@@ -93,7 +93,7 @@ function prepareFeatureProperties(feature) {
  */
 function getDescriptiveTitle(title, alternativeTitle) {
 	var tempTitle = title;
-	if (tempTitle === "Mehrerer Einträge...") {
+	if (tempTitle === "Mehrerer Einträge..." || tempTitle === "Mehrere Einträge...") {
 		tempTitle = alternativeTitle;
 	}
 	return tempTitle;
