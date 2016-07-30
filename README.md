@@ -50,6 +50,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
+|[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
@@ -113,6 +114,8 @@ Tests can be run using [npm][npm]:
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
+[kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig

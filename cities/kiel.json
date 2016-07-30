@@ -1,0 +1,198 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.137403143373904,
+                    54.342105231848826
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Blücherplatz",
+                "opening_hours": "Mo,Th 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.127655531829935,
+                    54.321370908546598
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Exerzierplatz",
+                "opening_hours": "We,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.146606193266434,
+                    54.311444132871436
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Vinetaplatz (Gaarden)",
+                "opening_hours": "Tu,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.18275426461498,
+                    54.298346048005435
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Andreas-Hofer-Platz (Elmschenhagen)",
+                "opening_hours": "Tu,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.054510244235436,
+                    54.322418904373741
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Ende Bergenring (Mettenhof)",
+                "opening_hours": "Tu,Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.130485331832869,
+                    54.355053844087216
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Holtenauer Straße / Elendsredder (Wik)",
+                "opening_hours": "Tu,Fr 8:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.173503700840158,
+                    54.39536034450316
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Leuchtturmplatz (Friedrichsort)",
+                "opening_hours": "We,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.190938200423661,
+                    54.336000311564014
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Helmut-Hänsler-Platz (Dietrichsdorf)",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.136995722221286,
+                    54.373015294826601
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Am Eckenerplatz (Holtenau)",
+                "opening_hours": "Fr 14:00-17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.170225154691604,
+                    54.41756549800111
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Langenfelde (Schilksee)",
+                "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.074089916800142,
+                    54.360708050092754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Rungholtplatz (Suchsdorf)",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.134555725276261,
+                    54.321351121816413
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Öko-Markt",
+                "location": "Asmus-Bremer-Platz",
+                "opening_hours": "Fr 12:00-18:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Kiel",
+            "url": "https://www.kiel.de/touristik/maerkte/wochenmarkt.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                10.0799652,
+                54.3384432
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}
