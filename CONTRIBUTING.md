@@ -15,7 +15,7 @@ This repository and your GitHub clone will be linked to your local clone to bein
    The following command will clone the repository to your computer:
 
     ``` bash
-    $ git git@github.com:{GITHUB_USER}/wo-ist-markt.github.io.git
+    $ git clone git@github.com:{GITHUB_USER}/wo-ist-markt.github.io.git
     ```
 3. Add this repository as a 2nd `remote` so you can always pull the latest changes.
    Here is the command to add this repository with the "wo-ist-markt" alias:
