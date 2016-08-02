@@ -11,6 +11,10 @@
         "id": "bonn",
         "label": "Bonn"
     },
+    "bruchköbel": {
+        "id": "bruchköbel",
+        "label": "Bruchköbel"
+    },
     "chemnitz": {
         "id": "chemnitz",
         "label": "Chemnitz"

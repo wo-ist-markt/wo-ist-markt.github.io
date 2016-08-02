@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    50.17857,
+                    8.92096
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Freier Platz",
+                "opening_hours": "Fr 7:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadtmarketing Bruchköbel GmbH",
+            "url": "http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                50.1847,
+                8.9324
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
