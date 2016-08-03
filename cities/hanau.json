@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    50.13275,
+                    8.91677
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Neustädter Marktplatz",
+                "opening_hours": "We,Sa 6:00-14:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Hanau",
+            "url": "http://www.hanau.de/lih/sport/maerkte/woma/010241/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                50.1238,
+                8.9391
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
