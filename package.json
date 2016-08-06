@@ -11,7 +11,15 @@
   "scripts": {
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
+    "aggregate": "node dev/aggregate.js",
+    "build": "npm run aggregate",
+    "jasmine-tests": "jasmine",
+    "lint": "jshint js preprocessing dev validation",
     "test": "npm run lint & npm run jasmine-tests & npm run validate",
     "validate": "node validation/markets-validator.js"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "loopfunc": true
   }
 }
