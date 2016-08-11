@@ -10,8 +10,11 @@ var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreet
                   'CartoDB</a>';
 
 var DEFAULT_CITY_ID = "karlsruhe";
-var CITY_LIST_API_URL = 'cities/cities.json';
-var cityDirectory = {}; // the city directory (i.e. a list of all cities indexed by id)
+var CITIES_URL = 'build/cities.json';
+var MARKETS_URL = 'build/markets.json';
+
+var cities = {}; // City metadata (initialized in ready())
+var markets = {}; // Markets data (initialized in ready())
 
 var map;
 var nowGroup = L.layerGroup();
@@ -98,28 +101,114 @@ function positionMap(mapInitialization) {
     map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
 }
 
+
 /*
- * Gets a city object by ID
+ * Flash `element` `flashes` times for `duration` milliseconds.
  */
-function getCity(cityId) {
-    return cityDirectory[cityId];
+function flash(element, flashes, duration) {
+    if (flashes === 0) {
+        return;
+    }
+    flashes = flashes || 5;
+    duration = duration || 300;
+    element = $(element);
+    element.fadeToggle(duration, function() {
+        element.fadeToggle(duration, function() {
+            flash(element, flashes - 1, duration);
+        });
+    });
 }
+
 
 /*
  * Update layer controls.
  *
- * Controls which serve no purpose are disabled. For example, if
- * currently no markets are open then the corresponding radio
- * button is disabled. The most specific, active choice is selected.
+ * Enables those controls for which markers exist within the current map
+ * bounds. For example, if there are no currently open markets within the
+ * map bounds then the "now" radio button is disabled. If a more restrictive
+ * control gets enabled then the most restrictive enabled control is flashed
+ * to let the user know about it.
+ *
+ * If it turns out that the currently active setting is too restrictive for
+ * the new map bounds (i.e. if no markets for the active setting are available
+ * but markets for a lower setting are available) then the next lower setting
+ * for which markets are available is activated instead. If no markets are
+ * available within the bounds at all then the "all" setting is activated. If
+ * the setting is changed during that process then the newly activated control
+ * is flashed to let the user know about it.
  */
 function updateControls() {
-    var gotNow = nowGroup.getLayers().length > 0;
-    var gotToday = todayGroup.getLayers().length > 0;
-    $('#now').prop('disabled', !gotNow);
-    $('#now').prop('checked', gotNow);
-    $('#today').prop('disabled', !gotToday);
-    $('#today').prop('checked', !gotNow && gotToday);
-    $('#other').prop('checked', !gotNow && !gotToday);
+    var nowElement = $('#now');
+    var todayElement = $('#today');
+    var nowCount = countPotentiallyVisibleMarkers(nowGroup);
+    var hadNow = !nowElement.prop('disabled');
+    var gotNow = nowCount > 0;
+    var gotToday = true;
+    nowElement.prop('disabled', !gotNow);
+    if (gotNow && !hadNow) {
+        flash(nowElement.parent());
+    }
+    if (!gotNow) {
+        var todayCount = countPotentiallyVisibleMarkers(todayGroup);
+        gotToday = todayCount > 0;
+        var hadToday = !todayElement.prop('disabled');
+        todayElement.prop('disabled', !gotToday);
+        if (gotToday && !hadToday) {
+            flash(todayElement.parent());
+        }
+    }
+
+    var input = document.querySelector('[name="display"]:checked');
+    if (input) {
+        // Check if current setting still makes sense
+        var currentSetting = input.value;
+        var newSetting = currentSetting;
+        if (currentSetting === 'now' && !gotNow) {
+            if (gotToday) {
+                newSetting = 'today';
+            } else {
+                newSetting = 'other';
+            }
+        } else if (currentSetting === 'today' && !gotToday) {
+            newSetting = 'other';
+        }
+        if (newSetting !== currentSetting) {
+            var element = $('#' + newSetting);
+            element.prop('checked', true);
+            flash(element.parent());
+        } else {
+        }
+    } else {
+        // No previous setting, select the most specific enabled option
+        if (gotNow) {
+            nowElement.prop('checked', true);
+        } else if (gotToday) {
+            todayElement.prop('checked', true);
+        } else {
+            $('#other').prop('checked', true);
+        }
+    }
+
+    updateLayers();
+}
+
+
+/*
+ * Count markers within the current map bounds.
+ *
+ * Count the number of market markers in a layer group that are within the
+ * current map bounds, regardless of whether they are currently displayed
+ * or not.
+ */
+function countPotentiallyVisibleMarkers(group) {
+    var bounds = map.getBounds();
+    var count = 0;
+    group.eachLayer(function(layer) {
+        if (bounds.contains(layer.getLatLng())) {
+            count++;
+        }
+    });
+    return count;
 }
 
 
@@ -214,91 +303,6 @@ function getOpeningRangeForDate(openingRanges, date) {
     return undefined;
 }
 
-/*
- * Update map markers from JSON market data.
- */
-function updateMarkers(featureCollection) {
-    nowGroup.clearLayers();
-    todayGroup.clearLayers();
-    otherGroup.clearLayers();
-    unclassifiedGroup.clearLayers();
-    L.geoJson(featureCollection, {
-        onEachFeature: initMarker
-    });
-}
-
-function initMarker(feature) {
-    var properties = feature.properties;
-    var openingHoursStrings = properties.opening_hours;
-    if (openingHoursStrings === undefined) {
-        throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
-    }
-    var todayOpeningRange;
-    var timeTableHtml;
-    var openingHoursUnclassified;
-    if (openingHoursStrings === null || openingHoursStrings.length === 0) {
-        openingHoursUnclassified = properties.opening_hours_unclassified;
-    } else {
-        var openingTimes = getOpeningTimes(openingHoursStrings);
-        /* If no opening hours or a next date, don't show a marker. */
-        if (openingTimes === null) {
-            return;
-        }
-        /* Are there opening hours in the current week? */
-        else if (openingTimes.hasOwnProperty('intervals')) {
-            todayOpeningRange = getOpeningRangeForDate(openingTimes.intervals, now);
-            timeTableHtml = getTimeTableHtml(openingTimes.intervals);
-        }
-        /* Is there a next market date? */
-        else if (openingTimes.hasOwnProperty('nextChange')) {
-            timeTableHtml = getNextMarketDateHtml(openingTimes.nextChange);
-        }
-    }
-
-    var coordinates = feature.geometry.coordinates;
-    var marker = L.marker(L.latLng(coordinates[1], coordinates[0]));
-    var where = properties.location;
-    if (where === undefined) {
-        throw "Missing property 'location' for " + properties.title + ".";
-    }
-    if (where !== null) {
-        where = '<p>' + where + '</p>';
-    } else {
-        where = '';
-    }
-    var title = properties.title;
-    if (title === undefined) {
-        throw "Missing property 'title'.";
-    }
-    if (title === null || title.length === 0) {
-        title = DEFAULT_MARKET_TITLE;
-    }
-    var popupHtml = '<h1>' + title + '</h1>' + where;
-    if (openingHoursUnclassified !== undefined) {
-        popupHtml += '<p class="unclassified">' + openingHoursUnclassified + '</p>';
-    } else {
-        popupHtml += timeTableHtml;
-    }
-    marker.bindPopup(popupHtml);
-    if (todayOpeningRange !== undefined) {
-        if (openingRangeContainsTime(todayOpeningRange, now)) {
-            marker.setIcon(nowIcon);
-            nowGroup.addLayer(marker);
-        } else {
-            marker.setIcon(todayIcon);
-            todayGroup.addLayer(marker);
-        }
-    } else {
-        if (openingHoursUnclassified !== undefined) {
-            marker.setIcon(unclassifiedIcon);
-            unclassifiedGroup.addLayer(marker);
-        } else {
-            marker.setIcon(otherIcon);
-            otherGroup.addLayer(marker);
-        }
-    }
-}
-
 
 /*
  * Returns the city ID from the hash of the current URI.
@@ -378,16 +382,6 @@ function updateDataSource(dataSource) {
     $("#dataSource").html('<a href="' + url + '">' + title + '</a>');
 }
 
-/*
- * Loads the default city.
- *
- * If `createNewHistoryEntry` is true then a new
- * entry in the browser's history is created for the change. Otherwise the
- * current history entry is replaced.
- */
-function loadDefaultCity(createNewHistoryEntry) {
-    setCity(DEFAULT_CITY, createNewHistoryEntry);
-}
 
 /*
  * Set the current city.
@@ -398,58 +392,18 @@ function loadDefaultCity(createNewHistoryEntry) {
  */
 function setCity(cityID, createNewHistoryEntry) {
     cityID = cityID || DEFAULT_CITY_ID;
-    var filename = 'cities/' + cityID + '.json';
-    if (filename === CITY_LIST_API_URL) {
-        return loadDefaultCity(false);
+    if (!(cityID in cities)) {
+        cityID = DEFAULT_CITY_ID;
     }
-    $.getJSON(filename, function(json) {
-        positionMap(json.metadata.map_initialization);
-        updateDataSource(json.metadata.data_source);
-        updateMarkers(json);
-        updateControls();
-        updateLayers();
-        updateUrlHash(cityID, createNewHistoryEntry);
-        document.title = 'Wo ist Markt in ' + getCity(cityID).label + '?';
+    cityData = cities[cityID];
+    positionMap(cityData.map_initialization);
+    updateDataSource(cityData.data_source);
+    updateLayers();
+    updateUrlHash(cityID, createNewHistoryEntry);
+    document.title = 'Wo ist Markt in ' + cityData.label + '?';
 
-        // Update drop down but avoid recursion
-        $('#dropDownCitySelection').val(cityID).trigger('change', true);
-    }).fail(function() {
-        console.log('Failure loading "' + filename + '".');
-        if (cityID !== DEFAULT_CITY_ID) {
-            console.log('Loading default city "' + DEFAULT_CITY_ID +
-                        '" instead.');
-            loadDefaultCity(createNewHistoryEntry);
-        }
-    });
-}
-
-
-/*
- * Load the IDs of the available cities.
- *
- * Returns a jQuery `Deferred` object that resolves to an array of city objects.
- */
-function loadCities() {
-    "use strict";
-    var d = $.Deferred();
-    $.get(CITY_LIST_API_URL, function(result) {
-        var resultLength = result.length,
-            resultMalformed = false;
-        $.each(result, function(key, value) {
-            if (value.id === undefined || value.label === undefined) {
-                resultMalformed = true;
-            }
-        });
-        if (resultMalformed) {
-            d.reject();
-        } else {
-            d.resolve(result);
-        }
-    }).fail(function(e) {
-        console.log("Loading " + CITY_LIST_API_URL + " failed.");
-        d.reject(e);
-    });
-    return d;
+    // Update drop down but avoid recursion
+    $('#dropDownCitySelection').val(cityID).trigger('change', true);
 }
 
 
@@ -497,49 +451,158 @@ $(window).on('hashchange',function() {
 });
 
 
+/*
+ * Initialize the cities dropdown.
+ *
+ * Assumes that `cities` has been initialized.
+ */
+function initDropDown() {
+    var dropDownCitySelection = $('#dropDownCitySelection');
+    $.each(cities, function(id, city) {
+        dropDownCitySelection.append(
+            $('<option></option>').val(city.id)
+                                  .html(city.label)
+        );
+    });
+    dropDownCitySelection.select2({
+        minimumResultsForSearch: 10
+    }).change(function(e, keepCity) {
+        // If we programmatically change the select2 value then we also
+        // need to trigger 'change'. However that would cause an infinite
+        // recursion in our case since we're doing that from inside
+        // setCity. Therefore we add a custom "keepCity" parameter that is
+        // set when the change event is triggered from within setCity so
+        // that we can avoid a recursion in that case.
+        if (!keepCity) {
+            setCity(dropDownCitySelection.val(), true);
+        }
+    }).on('select2:close', function() {
+        $(':focus').blur();
+    });
+    // Force select2 update to fix dropdown position
+    dropDownCitySelection.select2('open');
+    dropDownCitySelection.select2('close');
+}
+
+
+/*
+ * Initialize markers based on markets data.
+ *
+ * Assumes that `markets` has been initialized.
+ */
+function initMarkers() {
+    L.geoJson(markets, {
+        onEachFeature: initMarker
+    });
+}
+
+
+/*
+ * Initialize a single marker from a market's GeoJSON data.
+ */
+function initMarker(feature) {
+    var properties = feature.properties;
+    var openingHoursStrings = properties.opening_hours;
+    if (openingHoursStrings === undefined) {
+        throw "Missing property 'opening_hours' for " + properties.title + " (" + properties.location + ").";
+    }
+    var todayOpeningRange;
+    var timeTableHtml;
+    var openingHoursUnclassified;
+    if (openingHoursStrings === null || openingHoursStrings.length === 0) {
+        openingHoursUnclassified = properties.opening_hours_unclassified;
+    } else {
+        var openingTimes = getOpeningTimes(openingHoursStrings);
+        /* If no opening hours or a next date, don't show a marker. */
+        if (openingTimes === null) {
+            return;
+        }
+        /* Are there opening hours in the current week? */
+        else if (openingTimes.hasOwnProperty('intervals')) {
+            todayOpeningRange = getOpeningRangeForDate(openingTimes.intervals, now);
+            timeTableHtml = getTimeTableHtml(openingTimes.intervals);
+        }
+        /* Is there a next market date? */
+        else if (openingTimes.hasOwnProperty('nextChange')) {
+            timeTableHtml = getNextMarketDateHtml(openingTimes.nextChange);
+        }
+    }
+
+    var coordinates = feature.geometry.coordinates;
+    var marker = L.marker(L.latLng(coordinates[1], coordinates[0]));
+    var where = properties.location;
+    if (where === undefined) {
+        throw "Missing property 'location' for " + properties.title + ".";
+    }
+    if (where !== null) {
+        where = '<p>' + where + '</p>';
+    } else {
+        where = '';
+    }
+    var title = properties.title;
+    if (title === undefined) {
+        throw "Missing property 'title'.";
+    }
+    if (title === null || title.length === 0) {
+        title = DEFAULT_MARKET_TITLE;
+    }
+    var popupHtml = '<h1>' + title + '</h1>' + where;
+    if (openingHoursUnclassified !== undefined) {
+        popupHtml += '<p class="unclassified">' + openingHoursUnclassified + '</p>';
+    } else {
+        popupHtml += timeTableHtml;
+    }
+    marker.bindPopup(popupHtml);
+    if (todayOpeningRange !== undefined) {
+        if (openingRangeContainsTime(todayOpeningRange, now)) {
+            marker.setIcon(nowIcon);
+            nowGroup.addLayer(marker);
+        } else {
+            marker.setIcon(todayIcon);
+            todayGroup.addLayer(marker);
+        }
+    } else {
+        if (openingHoursUnclassified !== undefined) {
+            marker.setIcon(unclassifiedIcon);
+            unclassifiedGroup.addLayer(marker);
+        } else {
+            marker.setIcon(otherIcon);
+            otherGroup.addLayer(marker);
+        }
+    }
+}
+
+
 $(document).ready(function() {
     var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
     map = new L.Map('map').addLayer(tiles);
-    var dropDownCitySelection = $('#dropDownCitySelection');
+    map.on('moveend', updateControls);
     $("input[name=display]").change(updateLayers);
 
     // add locator
     L.control.locate({keepCurrentZoomLevel: true}).addTo(map);
 
-    // Populate dropdown
-    loadCities().fail(function(e) {
-        console.log("loadCities(); failed: ", e);
-    }).done(function(cities) {
-        // cache the results
-        cityDirectory = cities;
-        $.each(cityDirectory, function(key, value) {
-            var city = value;
-            dropDownCitySelection.append(
-                $('<option></option>').val(city.id)
-                                      .html(city.label)
-            );
+    // Initialize markers
+    var marketsDeferred = $.get(MARKETS_URL)
+        .done(function(json) {
+            markets = json; // global
+            initMarkers();
         });
-        dropDownCitySelection.select2({
-            minimumResultsForSearch: 10
-        }).change(function(e, keepCity) {
-            // If we programmatically change the select2 value then we also
-            // need to trigger 'change'. However that would cause an infinite
-            // recursion in our case since we're doing that from inside
-            // setCity. Therefore we add a custom "keepCity" parameter that is
-            // set when the change event is triggered from within setCity so
-            // that we can avoid a recursion in that case.
-            if (!keepCity) {
-                setCity(dropDownCitySelection.val(), true);
-            }
-        }).on('select2:close', function() {
-            $(':focus').blur();
-        });
-        // Force select2 update to fix dropdown position
-        dropDownCitySelection.select2('open');
-        dropDownCitySelection.select2('close');
 
-        setCity(getHashCity(), false);
-    });
+    // Populate dropdown
+    var citiesDeferred = $.get(CITIES_URL)
+        .done(function(json) {
+            cities = json; // global
+            initDropDown();
+        });
+
+    $.when(marketsDeferred, citiesDeferred)
+        .fail(function(e) {
+            console.log('Loading the data failed: ', e);
+        })
+        .done(function() {
+            setCity(getHashCity(), false);
+        });
 
     $('#btnToggleHeader').click(toggleHeader);
     fixMapHeight();
