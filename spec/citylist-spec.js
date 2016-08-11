@@ -22,9 +22,9 @@ describe('CityList', function() {
                 cityId,
                 regexp = /json$/;
             var matchedCities = dirContent
-                .filter((fileName) => regexp.test(fileName) && fileName !== 'cities.json')
-                .map((fileName) => path.basename(fileName, '.json'))
-                .filter((f) => !(f in cities));
+                .filter(function(fileName){regexp.test(fileName) && fileName !== 'cities.json'})
+                .map(function(fileName){path.basename(fileName, '.json')})
+                .filter(function(f){!(f in cities)});
             expect(matchedCities.length).toEqual(0);
         });
         it('should have a city specific json file for each city in the list', function() {
