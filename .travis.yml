@@ -1,4 +1,20 @@
-language: node_js
-node_js:
-    - stable
+language: python
 
+python:
+    - '2.7'
+
+before_install:
+    # decrypt the ssh key that is used for deployment
+    - openssl aes-256-cbc -K $encrypted_02f86fe65d47_key -iv $encrypted_02f86fe65d47_iv
+      -in markt_deploy_id_rsa.enc -out markt_deploy_id_rsa -d
+
+install:
+  - pip install -r requirements.txt
+  - npm install
+
+script:
+  - npm test
+
+after_success:
+  # Run fabric for deployment but only if we are on the master branch and not on a pull request
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && fab deploy -i markt_deploy_id_rsa -H deploy@kiesinger.okfn.de:2207
