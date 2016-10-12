@@ -583,8 +583,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.324626,
-                    52.460928
+                    13.29812,
+                    52.516099
                 ],
                 "type": "Point"
             },
@@ -595,17 +595,46 @@
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "email": "mailto:info@markt-rix.de",
                     "id": "37",
-                    "latitude": "52,460928",
+                    "latitude": "52,516099",
                     "location": "Antik- und Kunstmarkt an der Villa Oppenheim",
-                    "longitude": "13,324626",
-                    "tage": "16.04.2016\n17.04.2016\n08.10.2016\n19.10.2016",
+                    "longitude": "13,29812",
+                    "tage": "16.04.2016\n17.04.2016\n08.10.2016\n09.10.2016",
                     "www": "http://www.markt-rix.de",
                     "zeiten": "11:00 - 18:00\n10:00 - 18:00\n11:00 - 17:00\n10:00 - 17:00"
                 },
-                "description": "16.04.2016\n17.04.2016\n08.10.2016\n19.10.2016<br />11:00 - 18:00\n10:00 - 18:00\n11:00 - 17:00\n10:00 - 17:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37\">Mehr...</a>",
+                "description": "16.04.2016\n17.04.2016\n08.10.2016\n09.10.2016<br />11:00 - 18:00\n10:00 - 18:00\n11:00 - 17:00\n10:00 - 17:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37",
                 "title": "Antik- und Kunstmarkt an der Villa Oppenheim"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.31769,
+                    52.472658
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "",
+                    "betreiber": "Rüdi-Net e. V., Das Netzwerk am Rüdesheimer Platz, Tel.: 0152/33 79 85 14",
+                    "bezirk": "Charlottenburg-Wilmersdorf",
+                    "email": "mail@ruedi-net.de",
+                    "id": "377",
+                    "latitude": "52,472658",
+                    "location": "Marktmeile im Rahmen des 11. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
+                    "longitude": "13,31769",
+                    "tage": "02./03.07.2016",
+                    "www": "www.ruedi-net.net",
+                    "zeiten": "Sa 12:00 - 19:00\nSo 11:00 - 19:00"
+                },
+                "description": "02./03.07.2016<br />Sa 12:00 - 19:00\nSo 11:00 - 19:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/377\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/377",
+                "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/377",
+                "title": "Marktmeile im Rahmen des 11. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz"
             },
             "type": "Feature"
         },
@@ -4173,6 +4202,35 @@
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/371",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/371",
                 "title": "Mehrere Einträge..."
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.256836,
+                    52.431192
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "",
+                    "betreiber": "ZFM Marktbetriebsgesellschaft, Farshad Goja, Ortler Weg 39a, 12207 Berlin, Tel.: 0160/185 54 05",
+                    "bezirk": "Steglitz-Zehlendorf",
+                    "email": "markt-zehlendorf@gmx.de",
+                    "id": "379",
+                    "latitude": "52,431192",
+                    "location": "Zehlendorfer Wochenmarkt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin",
+                    "longitude": "13,256836",
+                    "tage": "vorerst bis zum 31.03.2017",
+                    "www": "",
+                    "zeiten": "Sa 09:00 - 16:00"
+                },
+                "description": "vorerst bis zum 31.03.2017<br />Sa 09:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/379\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/379",
+                "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/379",
+                "title": "Zehlendorfer Wochenmarkt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin"
             },
             "type": "Feature"
         },
