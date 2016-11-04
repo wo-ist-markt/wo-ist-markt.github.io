@@ -25,7 +25,7 @@ var unclassifiedGroup = L.featureGroup();
 var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
 var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
-var DAY_NAMES = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+var DAY_NAMES_GERMAN = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
 var DEFAULT_MARKET_TITLE = 'Markt';
 
 L.AwesomeMarkers.Icon.prototype.options.prefix = 'icon';
@@ -33,6 +33,8 @@ var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'basket'});
 var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'basket'});
 var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'basket'});
 var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'basket'});
+
+
 
 /*
  * Return 0-padded string of a number.
@@ -45,48 +47,9 @@ function pad(num, totalDigits) {
     return s;
 }
 
-/**
- * Returns the HTML for time-table row(s).
- * Each time this reduce function is invoked the former rows HTML is passed in.
- */
-function getTimeTableRowsHtml(rowsHtml, openingRange) {
-    var dayIsToday = openingRangeMatchesDay(openingRange, now);
-    return rowsHtml += getTableRowForDay(openingRange, dayIsToday);
-}
 
 /*
- * Creates time-table HTML code.
- *
- * `openingRanges` is a list of ranges compiled via opening_hours.js.
- * The first and second element of each range item are the starting and closing dates.
- */
-function getTimeTableHtml(openingRanges) {
-    var html = '<table class="times">';
-    if (openingRanges !== undefined) {
-        html += openingRanges.reduce(getTimeTableRowsHtml, "");
-    }
-    html += '</table>';
-    return html;
-}
-
-/*
- * Returns table row for a day with opening hours.
- * If the day matches today the row is styled.
- */
-function getTableRowForDay(openingRange, dayIsToday) {
-    var openFromDate = openingRange[0];
-    var openTillDate = openingRange[1];
-    var dayNameIndex = openFromDate.getDay();
-    var dayName = DAY_NAMES[dayNameIndex];
-    var cls = dayIsToday ? ' class="today"' : '';
-    var formattedOpenFrom = moment(openFromDate).format('HH:mm');
-    var formattedOpenTill = moment(openTillDate).format('HH:mm');
-    return '<tr' + cls + '><th>' + dayName + '</th>' +
-           '<td>' + formattedOpenFrom + ' - ' + formattedOpenTill + ' Uhr</td></tr>';
-}
-
-/*
- * Format HTML for next market date
+ * Returns HTML for the next market date.
  */
 function getNextMarketDateHtml(nextChange) {
     var html = '<p class="times">Nächster Termin: ' +
@@ -94,6 +57,15 @@ function getNextMarketDateHtml(nextChange) {
         moment(nextChange).format('HH:mm') + ' Uhr.</p>';
     return html;
 }
+
+
+/*
+ * Returns HTML for an undefined market date.
+ */
+function getUndefinedMarketDateHtml() {
+    return '<p class="times">Nächster Termin: unbekannt</p>';
+}
+
 
 /*
  * Moves the map to its initial position.
@@ -168,39 +140,6 @@ function openingRangeContainsTime(openingRange, date) {
     return range.contains(date);
 }
 
-/*
- * Returns opening times compiled via opening_hours.js.
- * Returns a object with the next opening date or opening ranges if available.
- * Returns null if no next opening date or ranges are available.
- */
-function getOpeningTimes(openingHoursStrings) {
-    var sundayIndex = 0;
-    var shiftBy;
-    if (moment().weekday() === sundayIndex) {
-        shiftBy = -1;
-    } else {
-        shiftBy = 1;
-    }
-    var monday = moment().startOf("week").add(shiftBy, 'days').toDate();
-    var sunday = moment().endOf("week").add(shiftBy, 'days').toDate();
-    var oh = new opening_hours(openingHoursStrings);
-    var intervals = oh.getOpenIntervals(monday, sunday);
-    var nextChange = oh.getNextChange();
-
-    if (intervals.length > 0) {
-        /* Return opening ranges */
-        return {
-            intervals: intervals
-        };
-    } else if (typeof nextChange !== 'undefined') {
-        /* Return next opening date */
-        return {
-            nextChange: nextChange
-        };
-    } else {
-        return null;
-    }
-}
 
 /*
  * Returns opening range for date or undefined.
@@ -239,20 +178,33 @@ function initMarker(feature) {
     if (openingHoursStrings === null || openingHoursStrings.length === 0) {
         openingHoursUnclassified = properties.opening_hours_unclassified;
     } else {
-        var openingTimes = getOpeningTimes(openingHoursStrings);
+
+        var openingTimes = new window.ohhf.OpeningTimes(openingHoursStrings);
         /* If no opening hours or a next date, don't show a marker. */
-        if (openingTimes === null) {
+        if (openingTimes === undefined) {
             return;
         }
+
+        var openingRanges = openingTimes.getOpeningRanges();
+        var nextOpeningDate = openingTimes.getNextOpeningDate();
+
         /* Are there opening hours in the current week? */
-        else if (openingTimes.hasOwnProperty('intervals')) {
-            todayOpeningRange = getOpeningRangeForDate(openingTimes.intervals, now);
-            timeTableHtml = getTimeTableHtml(openingTimes.intervals);
+        if (openingRanges !== undefined) {
+            todayOpeningRange = getOpeningRangeForDate(openingRanges, now);
+            var weekGenerator = new window.ohhf.WeekGenerator();
+            var openingRangeFormatter = new window.ohhf.OpeningRangeFormatter();
+            var week = weekGenerator.getWeek(openingRanges, openingRangeFormatter);
+            var generator = new window.ohhf.WeekTableHtmlGenerator(week, now, DAY_NAMES_GERMAN);
+            timeTableHtml = generator.getHtml();
         }
         /* Is there a next market date? */
-        else if (openingTimes.hasOwnProperty('nextChange')) {
-            timeTableHtml = getNextMarketDateHtml(openingTimes.nextChange);
+        else if (nextOpeningDate !== undefined) {
+            timeTableHtml = getNextMarketDateHtml(nextOpeningDate);
+        } else {
+            // Date might be in the past
+            timeTableHtml = getUndefinedMarketDateHtml();
         }
+
     }
 
     var coordinates = feature.geometry.coordinates;
