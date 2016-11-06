@@ -1,0 +1,62 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.082048",
+          "51.170615"
+        ]
+      },
+      "properties": {
+        "title": "Solingen-Mitte",
+        "location": "Neumarkt",
+        "opening_hours": "Tu,Th,Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.998576",
+          "51.162735"
+        ]
+      },
+      "properties": {
+        "title": "Ohligs",
+        "location": "Ohligser Markt",
+        "opening_hours": "Tu,Sa 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.040854",
+          "51.185362"
+        ]
+      },
+      "properties": {
+        "title": "Wald",
+        "location": "Walder Marktplatz",
+        "opening_hours": "We,Fr 08:00-13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Solinger Wochenmärkte",
+      "url": "https://www.solingerwochenmarkt.de"
+    }
+  }
+}

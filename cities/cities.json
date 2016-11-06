@@ -203,6 +203,10 @@
         "id": "siegen",
         "label": "Siegen"
     },
+    "solingen": {
+        "id": "solingen",
+        "label": "Solingen"
+    },
     "stralsund": {
         "id": "stralsund",
         "label": "Stralsund"
