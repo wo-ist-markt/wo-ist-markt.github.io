@@ -47,6 +47,10 @@
         "id": "essen",
         "label": "Essen"
     },
+    "gelsenkirchen": {
+        "id": "gelsenkirchen",
+        "label": "Gelsenkirchen"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"
