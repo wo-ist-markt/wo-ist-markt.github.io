@@ -1,0 +1,174 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.096486",
+          "51.512404"
+        ]
+      },
+      "properties": {
+        "title": "Altstadt",
+        "location": "Margarethe-Zingler-Platz",
+        "opening_hours": "Tu, Fr, Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.054933",
+          "51.578847"
+        ]
+      },
+      "properties": {
+        "title": "Buer",
+        "location": "De-la-Chevallerie-Straße",
+        "opening_hours": "Tu, Th, Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.091292",
+          "51.557589"
+        ]
+      },
+      "properties": {
+        "title": "Erle",
+        "location": "Marktstraße",
+        "opening_hours": "We, Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.052425",
+          "51.603921"
+        ]
+      },
+      "properties": {
+        "title": "Hassel",
+        "location": "August-Schmidt-Platz/Oberfeldinger Straße",
+        "opening_hours": "We, Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.057505",
+          "51.529823"
+        ]
+      },
+      "properties": {
+        "title": "Heßler",
+        "location": "Melanchthonstraße",
+        "opening_hours": "Th 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.024559",
+          "51.537282"
+        ]
+      },
+      "properties": {
+        "title": "Horst-Nord",
+        "location": "Josef-Büscher-Platz",
+        "opening_hours": "We 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.022058",
+          "51.531188"
+        ]
+      },
+      "properties": {
+        "title": "Horst-Süd",
+        "location": "Harthorststraße",
+        "opening_hours": "Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.108842",
+          "51.56367"
+        ]
+      },
+      "properties": {
+        "title": "Resser-Mark",
+        "location": "Im Emscherbruch",
+        "opening_hours": "Th, Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.084738",
+          "51.490044"
+        ]
+      },
+      "properties": {
+        "title": "Rotthausen",
+        "location": "Karl-Meyer-Straße",
+        "opening_hours": "Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.132675",
+          "51.498016"
+        ]
+      },
+      "properties": {
+        "title": "Ückendorf",
+        "location": "Schulte-im-Hofe-Platz",
+        "opening_hours": "We 08:00-13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Gelsenkirchen",
+      "url": "https://www.gelsendienste.de/Wochenmaerkte/Unsere_Leistungen/Wochenmaerkte_im_Stadtgebiet.asp"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.087083,
+        51.516014
+      ],
+      "zoom_level": 13
+    }
+  }
+}
