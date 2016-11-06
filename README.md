@@ -41,6 +41,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
 |[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
+|[Bottrop][bottrop-wikipedia]|[City of Bottrop][bottrop-markets]|
 |[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Dortmund][dortmund-wikipedia]|[City of Dortmund][dortmund-markets]|
@@ -96,6 +97,8 @@ Tests can be run using [npm][npm]:
 [bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
 [bonn-markets]: http://opendata.bonn.de/dataset/veranstaltungskalender-komplett%C3%BCbersicht
+[bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
+[bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php
 [bruchköbel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
 [bruchköbel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz

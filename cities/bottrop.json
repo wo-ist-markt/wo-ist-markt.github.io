@@ -1,0 +1,99 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.925834",
+          "51.520634"
+        ]
+      },
+      "properties": {
+        "title": "Stadtmitte",
+        "location": "Fußgängerzone/Kirchplatz",
+        "opening_hours": "We 08:00-13:00, Sa 08:00-13:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.890996",
+          "51.531844"
+        ]
+      },
+      "properties": {
+        "title": "Fuhlenbrock",
+        "location": "Platz an der Straße Im Fuhlenbrock/Goethestraße",
+        "opening_hours": "Th 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.972466",
+          "51.537211"
+        ]
+      },
+      "properties": {
+        "title": "Boy",
+        "location": "Platz an der Horster Straße/Kraneburgstraße",
+        "opening_hours": "Tu,Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.936933",
+          "51.547679"
+        ]
+      },
+      "properties": {
+        "title": "Eigen",
+        "location": "Platz an der Gladbecker Straße/Bügel-, Vienkenstraße",
+        "opening_hours": "Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.921329",
+          "51.603332"
+        ]
+      },
+      "properties": {
+        "title": "Kirchhellen-Mitte",
+        "location": "Johann-Breuker-Platz",
+        "opening_hours": "Th 08:00-13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Bottrop",
+      "url": "https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php"
+    },
+    "map_initialization": {
+      "coordinates": [
+        6.926789,
+        51.527457
+      ],
+      "zoom_level": 13
+    }
+  }
+}
