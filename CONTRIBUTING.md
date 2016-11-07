@@ -4,6 +4,34 @@ This contribution guide aims to help you with the optimal way to get involved wi
 
 Please contact us if you need help or have ideas to improve this guide.
 
+## Content contributions (market data)
+
+* Add your city to the list of cities in the [*cities/cities.json*](cities/cities.json). Stick to the formatting.
+* Add a GeoJSON file for your city containing the market data and a `metadata` block.
+* Please apply **automatic formatting** for the GeoJSON file using the editor of your choice.
+* You might wanna use **German spelling** with Umlauts for city names which is supported.
+* Add your city to the list of **supported cities** in the [*README.md*](README.md).
+
+### Market data validation
+
+* The GeoJSON file will automatically be checked by a validation script when you push your
+  branch to the server. Please resolve any issues detected by the validator.
+* The validation script can be executed locally with the following command:
+
+  ``` bash
+  $ npm test
+  ```
+
+
+## Code contributions
+
+* Always try to answer the question **"Why?"** in your commit message.
+* State a **brief summary** in the first line, feel free to explain details
+  under a blank line in the description part. See [Git Commit Messages][git-commit-messages].
+* Check for **lint** errors.
+* Create and run **tests**.
+
+
 ## Basic setup
 
 The following steps describe how to clone aka. fork the repository to your computer.
@@ -164,32 +192,6 @@ $ git push --force origin feature
   on *master*. It is your job to sort out any conflicts before your branch is merged.
 
 
-## Content contributions (market data)
-
-* Add your city to the list of cities in the [*cities/cities.json*](cities/cities.json). Stick to the formatting.
-* Add a GeoJSON file for your city containing the market data and a `metadata` block.
-* Please apply **automatic formatting** for the GeoJSON file using the editor of your choice.
-* You might wanna use **German spelling** with Umlauts for city names which is supported.
-* Add your city to the list of **supported cities** in the [*README.md*](README.md).
-
-### Market data validation
-
-* The GeoJSON file will automatically be checked by a validation script when you push your
-  branch to the server. Please resolve any issues detected by the validator.
-* The validation script can be executed locally with the following command:
-
-  ``` bash
-  $ npm test
-  ```
-
-
-## Code contributions
-
-* Always try to answer the question **"Why?"** in your commit message.
-* State a **brief summary** in the first line, feel free to explain details
-  under a blank line in the description part. See [Git Commit Messages][git-commit-messages].
-* Check for **lint** errors.
-* Create and run **tests**.
 
 
 
