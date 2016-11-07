@@ -7,7 +7,7 @@
         "id": "bochum",
         "label": "Bochum"
     },
-"bonn": {
+    "bonn": {
         "id": "bonn",
         "label": "Bonn"
     },
@@ -87,13 +87,13 @@
         "id": "münster",
         "label": "Münster"
     },
-    "neu-ulm": {
-        "id": "neu-ulm",
-        "label": "Neu-Ulm"
-    },
     "nersingen": {
         "id": "nersingen",
         "label": "Nersingen"
+    },
+    "neu-ulm": {
+        "id": "neu-ulm",
+        "label": "Neu-Ulm"
     },
     "paderborn": {
         "id": "paderborn",
