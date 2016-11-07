@@ -11,4 +11,4 @@ script:
   - npm test
 
 after_success:
-  - deploy.sh
+  - bash deploy.sh
