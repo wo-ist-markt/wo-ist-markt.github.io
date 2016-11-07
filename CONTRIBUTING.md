@@ -166,10 +166,11 @@ $ git push --force origin feature
 
 ## Content contributions (market data)
 
+* Add your city to the list of cities in the [*cities/cities.json*](cities/cities.json). Stick to the formatting.
 * Add a GeoJSON file for your city containing the market data and a `metadata` block.
 * Please apply **automatic formatting** for the GeoJSON file using the editor of your choice.
 * You might wanna use **German spelling** with Umlauts for city names which is supported.
-* Add your city to the list of **supported cities** in the *README.md*.
+* Add your city to the list of **supported cities** in the [*README.md*](README.md).
 
 ### Market data validation
 
