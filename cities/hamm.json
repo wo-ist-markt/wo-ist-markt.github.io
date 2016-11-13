@@ -72,21 +72,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "7.885308",
-          "51.688099"
-        ]
-      },
-      "properties": {
-        "title": "Hamm-Werries",
-        "location": "Maxi-Center",
-        "opening_hours": " "
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           "7.782824",
           "51.640679"
         ]
