@@ -51,6 +51,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Hamm][hamm-wikipedia]|[City of Hamm][hamm-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
+|[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
@@ -117,6 +118,8 @@ Tests can be run using [npm][npm]:
 [hamm-markets]: https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
+[herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
+[herne-markets]: http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Wochenmaerkte
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
