@@ -1,0 +1,159 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.481626",
+          "51.393625"
+        ]
+      },
+      "properties": {
+        "title": "Helfe",
+        "location": "Helfer Straße / Ecke Pappelstraße",
+        "opening_hours": "Tu 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.468974",
+          "51.395696"
+        ]
+      },
+      "properties": {
+        "title": "Boele",
+        "location": "Schwerter Straße / Dortmunder Straße",
+        "opening_hours": "We 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.465005",
+          "51.371014"
+        ]
+      },
+      "properties": {
+        "title": "Altenhagen",
+        "location": "Friedensstraße",
+        "opening_hours": "We 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.423755",
+          "51.34715"
+        ]
+      },
+      "properties": {
+        "title": "Haspe",
+        "location": "Voerder Straße / Fußgängerzone",
+        "opening_hours": "Th 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.507518",
+          "51.356108"
+        ]
+      },
+      "properties": {
+        "title": "Emst",
+        "location": "Karl-Ernst-Osthaus-Straße",
+        "opening_hours": "Th 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.459229",
+          "51.355216"
+        ]
+      },
+      "properties": {
+        "title": "Wehringhausen",
+        "location": "Wilhelmsplatz / Bismarckstraße",
+        "opening_hours": "Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.568861",
+          "51.349959"
+        ]
+      },
+      "properties": {
+        "title": "Hohenlimburg",
+        "location": "Gaußstraße",
+        "opening_hours": "Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.42927",
+          "51.382795"
+        ]
+      },
+      "properties": {
+        "title": "Vorhalle",
+        "location": "Vorhallerstraße / Europaplatz",
+        "opening_hours": "Fr 07:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.477246",
+          "51.35905"
+        ]
+      },
+      "properties": {
+        "title": "Springe",
+        "location": "Johanniskirchplatz",
+        "opening_hours": "Sa 06:00-14:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Hagen",
+      "url": "https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.494752,
+        51.359128
+      ],
+      "zoom_level": 13
+    }
+  }
+}

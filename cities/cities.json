@@ -47,6 +47,10 @@
         "id": "essen",
         "label": "Essen"
     },
+    "hagen": {
+        "id": "hagen",
+        "label": "Hagen"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"
