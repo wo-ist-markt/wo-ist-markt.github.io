@@ -1,0 +1,144 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.220797",
+          "51.538423"
+        ]
+      },
+      "properties": {
+        "title": "Herne-Mitte (großer Markt)",
+        "location": "Friedrich-Ebert-Platz, Behrensstraße",
+        "opening_hours": "Apr-Oct: Tu, Fr 07:30-13:00 || Nov-Mar:  Tu, Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.255052",
+          "51.542051"
+        ]
+      },
+      "properties": {
+        "title": "Herne-Sodingen",
+        "location": "Mont-Cenis-Platz (vor der Akademie Mont-Cenis)",
+        "opening_hours": "Apr-Oct: We, Sa 07:30-13:00 || Nov-Mar:  We, Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.237378",
+          "51.556102"
+        ]
+      },
+      "properties": {
+        "title": "Herne-Horsthausen (Elpeshof)",
+        "location": "Langforthstraße",
+        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar:  Th 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.179227",
+          "51.512783"
+        ]
+      },
+      "properties": {
+        "title": "Wanne-Eickel",
+        "location": "St.-Jörgen-Platz, Rainerstraße",
+        "opening_hours": "Apr-Oct: Tu, Fr 07:30-13:00 || Nov-Mar:  Tu, Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.156539",
+          "51.538378"
+        ]
+      },
+      "properties": {
+        "title": "Wanne-Nord (großer Markt)",
+        "location": "Wanner Markt, Hauptstraße",
+        "opening_hours": "Apr-Oct: Fr 07:30-13:00 || Nov-Mar:  Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.16606",
+          "51.525138"
+        ]
+      },
+      "properties": {
+        "title": "Wanne-Süd",
+        "location": "Steinplatz, Landgrafenstraße",
+        "opening_hours": "Apr-Oct: Sa 07:30-13:00 || Nov-Mar:  Sa 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.155199",
+          "51.513407"
+        ]
+      },
+      "properties": {
+        "title": "Wanne-Röhlinghausen",
+        "location": "Edmund-Weber-Straße, Marktstraße",
+        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar:  Th 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.159927",
+          "51.529967"
+        ]
+      },
+      "properties": {
+        "title": "Wanne-Mitte",
+        "location": "Am Buschmannshof, Hauptstraße",
+        "opening_hours": "Apr-Oct: We 07:30-13:00 || Nov-Mar:  We 08:00-13:00"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Herne",
+      "url": "http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Wochenmaerkte"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.206496,
+        51.539589
+      ],
+      "zoom_level": 13
+    }
+  }
+}
