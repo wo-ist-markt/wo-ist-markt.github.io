@@ -51,6 +51,10 @@
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"
     },
+    "hagen": {
+        "id": "hagen",
+        "label": "Hagen"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"

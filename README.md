@@ -51,6 +51,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Gelsenkirchen][gelsenkirchen-wikipedia]|[Gelsendienste][gelsenkirchen-markets]|
+|[Hagen][hagen-wikipedia]|[City of Hagen][hagen-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
@@ -118,6 +119,8 @@ Tests can be run using [npm][npm]:
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
 [Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
+[hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
+[hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
