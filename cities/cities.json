@@ -47,9 +47,17 @@
         "id": "essen",
         "label": "Essen"
     },
+    "hamm": {
+        "id": "hamm",
+        "label": "Hamm"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"
+    },
+    "herne": {
+        "id": "herne",
+        "label": "Herne"
     },
     "hilden": {
         "id": "hilden",
