@@ -14,6 +14,21 @@
                 "opening_hours": "Fr 7:00-13:00"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.90562,
+                    50.19843
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Hofmarkt Köhler",
+                "location": "Hof Köhler",
+                "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
