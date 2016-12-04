@@ -2219,7 +2219,7 @@
             "properties": {
                 "title": "Wochenmarkt Mexikoplatz",
                 "location": "Wochenmarkt Mexikoplatz",
-                "opening_hours": "Sa 09:00-16:00",
+                "opening_hours": "Sa 09:00-15:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -2627,7 +2627,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 07.10.2016",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 10.11.2016",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         },
         "map_initialization": {
