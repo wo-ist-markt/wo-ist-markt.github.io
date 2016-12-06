@@ -67,6 +67,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Nersingen][nersingen-wikipedia]|[City of Nersingen][nersingen-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
+|[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
@@ -152,6 +153,8 @@ Tests can be run using [npm][npm]:
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
+[potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
