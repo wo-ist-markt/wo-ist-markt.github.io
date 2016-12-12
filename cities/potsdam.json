@@ -1,0 +1,99 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    13.0951452255249,
+                    52.3936368247261
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Weberplatz",
+                "opening_hours": "Sa 07:00-13:00",
+                "title": "Floh- und Bauernmarkt auf dem Weberplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.0573689937592,
+                    52.4033041829948
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Nauener Tor und entlang der Hegelallee",
+                "opening_hours": "Sa 09:00-16:00",
+                "title": "Markt am Nauener Tor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.0596274137497,
+                    52.4015662767744
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bassinplatz",
+                "opening_hours": "Mo-Fr 07:00-16:00; Apr-Oct Sa 07:00-13:00; Nov-Mar Sa 07:00-12:00",
+                "title": "Potsdamer Wochenmarkt am Bassinplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.052036762237547,
+                    52.400651475660936
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lindenstraße 53/56",
+                "opening_hours": "Sa 10:00-17:00; Su 12:00-17:00",
+                "title": "Potsdamer Kunstmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.036096394062042,
+                    52.39615247290802
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Dr.-Rudolf-Tschäpe-Platz",
+                "opening_hours": "Fr 14:00-20:00",
+                "title": "Wochenmarkt BRB-Vorstadt-Kiez"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Potsdam",
+            "url": "https://www.potsdam.de/kategorie/maerkte"
+        },
+        "map_initialization": {
+            "coordinates": [
+                13.0669,
+                52.3916
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}

@@ -115,6 +115,10 @@
         "id": "paderborn",
         "label": "Paderborn"
     },
+    "potsdam": {
+        "id": "potsdam",
+        "label": "Potsdam"
+    },
     "rostock": {
         "id": "rostock",
         "label": "Rostock"
