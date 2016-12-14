@@ -5,25 +5,6 @@
 A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
 
 
-## Data format
-
-* The market data is stored in [GeoJSON format][geojson].
-* The opening hours use the [OpenStreetMap opening hours format][osm-openinghours].
-* Opening hours that cannot be expressed in that format can use the `opening_hours_unclassified`
-  property (in that case, set the `opening_hours` property to `null`).
-
-
-### Mandatory information
-
-* Besides the actual market information map **coordinates** and **zoom level** must be provided.
-  These information are being used to set the initial position of the map. They must be part of
-  the city-specific GeoJSON file. Please adapt the format as being used in *cities/karlsruhe.json*.
-* Further, the **data source** must be specified so it can be shown in the legend overlay.
-* A validation script will automatically be executed to ensure required attributes are present in
-  the GeoJSON file.
-* Finally add your city to the *cities/cities.json* file.
-
-
 ## Navigation
 
 * The individual market data for supported cities is displayed when the city name is given in the
@@ -32,6 +13,13 @@ A small visualization of the weekly markets in different cities. Available at: h
   Example: http://wo-ist-markt.de/#karlsruhe.
 
   By default or on error *Karlsruhe* is rendered.
+
+
+## Contributing
+
+* You are very welcome to **get involved** in the project. Therefore, we prepared a
+  [contribution guide](CONTRIBUTING.md) which explains how to **add market data** and how
+  to **start coding** on the project.
 
 
 ## Supported cities
@@ -77,11 +65,6 @@ A small visualization of the weekly markets in different cities. Available at: h
 
 
 
-## Contributing
-
-* Please make sure to read the [contributing guide](CONTRIBUTING.md).
-
-
 ## Development
 
 Tests can be run using [npm][npm]:
@@ -91,8 +74,23 @@ Tests can be run using [npm][npm]:
     $ npm test     # Whenever you want to run the tests
 
 
-[geojson]: http://geojson.org
-[osm-openinghours]: https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification
+## Deployment
+
+When new code is pushed to master Travis CI runs a test suite against it. If those test
+pass [fabric][fabric] is used to deploy the new version to the server running
+under https://wo-ist-markt.de.
+
+The command that Travis CI executes is `fab deploy -i markt_deploy_id_rsa -H deploy@kiesinger.okfn.de:2207`
+where `markt_deploy_id_rsa` is an ssh key to log into the server. It is commited to this repository in
+a encrypted format that Travis CI decrypts in the `before_install` section.
+
+You can run the deployment locally if your ssh key is added to the `deploy` user on the server. Since
+Travis CI does it automatically there should be no need to do this though.
+The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`.
+
+
+
+[fabric]: https://fabfile.org
 [npm]: https://www.npmjs.com
 
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
@@ -169,15 +167,3 @@ Tests can be run using [npm][npm]:
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
 
 
-## Deployment
-When new code is pushed to master Travis CI runs a test suite against it. If those test
-pass [fabric](fabfile.org) is used to deploy the new version to the server running
-under https://wo-ist-markt.de.
-
-The command that Travis CI executes is `fab deploy -i markt_deploy_id_rsa -H deploy@kiesinger.okfn.de:2207`
-where `markt_deploy_id_rsa` is an ssh key to log into the server. It is commited to this repository in
-a encrypted format that Travis CI decrypts in the `before_install` section.
-
-You can run the deployment locally if your ssh key is added to the `deploy` user on the server. Since
-Travis CI does it automatically there should be no need to do this though.
-The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`.
