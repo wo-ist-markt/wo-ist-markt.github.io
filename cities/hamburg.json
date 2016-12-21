@@ -44,7 +44,7 @@
                 "title": "Fischmarkt Altona, 14482 Potsdam",
                 "location": "Fischmarkt Altona Altstadt",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Su Summer 05:00-09:30;Su Winter 07:00-09:30",
+                "opening_hours_unclassified": "Su Summer 05:00-09:30;Su Winter 07:00-09:30"
             },
             "type": "Feature"
         },
@@ -404,7 +404,7 @@
             "geometry": {
                 "coordinates": [
                     9.941311,
-                    53.634173,
+                    53.634173
                 ],
                 "type": "Point"
             },
@@ -468,7 +468,7 @@
             "geometry": {
                 "coordinates": [
                     9.917117,
-                    53.631869,
+                    53.631869
                 ],
                 "type": "Point"
             },
@@ -479,7 +479,7 @@
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
-        },
+        }
 
           ],
     "metadata": {
