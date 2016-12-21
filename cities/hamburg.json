@@ -11,7 +11,7 @@
             "properties": {
                 "title": "Wochenmarkt Blankenese an der Blankeneser Bahnhofstraße",
                 "location": "Wochenmarkt Blankeneser Bahnhofstraße",
-                "opening_hours": "Tu 08:00-14:00;Wed 09:00-13:00;Fr 08:00-18:00;Sa 08:00-13:00",
+                "opening_hours": "Tu 08:00-14:00;We 09:00-13:00;Fr 08:00-18:00;Sa 08:00-13:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -44,7 +44,7 @@
                 "title": "Fischmarkt Altona, 14482 Potsdam",
                 "location": "Fischmarkt Altona Altstadt",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Su Summer 05:00-09:30;Su Winter 07:00-09:30"
+                "opening_hours_unclassified": "Sunday Summer 05:00-09:30;Sunday Winter 07:00-09:30"
             },
             "type": "Feature"
         },
@@ -459,7 +459,7 @@
             "properties": {
                 "title": "Wochenmarkt am Turmweg",
                 "location": "Turmweg, Rotherbaum",
-                "opening_hours": "Tu,Fri 08:30-14:00",
+                "opening_hours": "Tu,Fr 08:30-14:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
