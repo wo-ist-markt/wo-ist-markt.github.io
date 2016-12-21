@@ -267,7 +267,7 @@
             "properties": {
                 "title": "Alte Elbgaustraße",
                 "location": "Alte Elbgaustraße, Eidelstedt",
-                "opening_hours": "Mi,Sa 08:30-13:00;Fr 08:30-18:00",
+                "opening_hours": "We,Sa 08:30-13:00;Fr 08:30-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
