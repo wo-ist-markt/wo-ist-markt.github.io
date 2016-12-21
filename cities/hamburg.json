@@ -1,0 +1,499 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.811268,
+                    53.560908
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Blankenese an der Blankeneser Bahnhofstraße",
+                "location": "Wochenmarkt Blankeneser Bahnhofstraße",
+                "opening_hours": "Tu 08:00-14:00;Wed 09:00-13:00;Fr 08:00-18:00;Sa 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.873597,
+                    53.590899
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Eckhofplatz",
+                "location": "Wochenmarkt am Eckhofplatz Lurup",
+                "opening_hours": "Th 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.953300,
+                    53.545125
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Fischmarkt Altona, 14482 Potsdam",
+                "location": "Fischmarkt Altona Altstadt",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Su Summer 05:00-09:30;Su Winter 07:00-09:30",
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.938312,
+                    53.551658
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Neue Große Bergstraße",
+                "location": "Wochenmarkt Neue Große Bergstraße",
+                "opening_hours": "We,Sa 08:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.929138,
+                    53.556537
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Marktzeit in der Farbrik Ottensen",
+                "location": "Fabrik Ottensen",
+                "opening_hours": "Tu,Fr 09:30-15:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.844638,
+                    53.553293
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Nienstedter Martplatz",
+                "location": "Nienstedter Marktplatz",
+                "opening_hours": "Fr 09:00-12:30",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.851159,
+                    53.572724
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Olsdorfer Landstraße",
+                "location": "Olsdorfer Landstraße, Groß Flottbek",
+                "opening_hours": "We,Sa 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.961641,
+                    53.562304
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Schulterblatt Piazza",
+                "location": "Schulterblatt Piazza Schanzenviertel",
+                "opening_hours": "Th 13:30-18:30",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.930647,
+                    53.551337
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Spritzenplatz",
+                "location": "Wochenmarkt Spritzenplatz Ottensen",
+                "opening_hours": "Tu 08:00-14:00;We 12:00-18:30;Fr 08:00-18:30;Sa 09:30-15:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.758071,
+                    53.582040
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Wedeler Landstraße 30",
+                "location": "Wedeler Landstraße 30 Rissen",
+                "opening_hours": "Mo,Th 07:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.207673,
+                    53.491462
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Alte Holstenstraße",
+                "location": "Alte Holstenstraße, Bergedorf",
+                "opening_hours": "Th 12:00-19:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.215372,
+                    53.488479
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Chrysanderstraße",
+                "location": "Chrysanderstraße Ecke Vinhagenweg am Schlosspark ",
+                "opening_hours": "Tu 08:00-13:00;Fr 08:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.180270,
+                    53.487078
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Edith-Stein-Platz",
+                "location": "Edith-Stein-Platz",
+                "opening_hours": "Fr 12:00-18:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.158325,
+                    53.489459
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Fleetplatz",
+                "location": "Fleetplatz",
+                "opening_hours": "Sa 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.207157,
+                    53.495224
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Lohbrügger Markt",
+                "location": "Lohbrügger Markt",
+                "opening_hours": "We,Sa 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.182404,
+                    53.489687
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Werner-Neben-Platz",
+                "location": "Wochenmarkt Kolberger Platz",
+                "opening_hours": "Th 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.903980,
+                    53.607287
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Alte Elbgaustraße",
+                "location": "Alte Elbgaustraße, Eidelstedt",
+                "opening_hours": "Mi,Sa 08:30-13:00;Fr 08:30-18:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.945718,
+                    53.575183
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bei der Apostelkirche",
+                "location": "Bei der Apostelkirche, Eimsbüttel",
+                "opening_hours": "We 08:30-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.956682,
+                    53.600645
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Grelckstraße",
+                "location": "Grelckstraße, Lockstedt",
+                "opening_hours": "We 08:30-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.942766,
+                    53.576774
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Grundstraße",
+                "location": "Grundstraße, Eimsbüttel",
+                "opening_hours": "Sa 08:30-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.973284,
+                    53.572629
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Gustav-Falke-Straße",
+                "location": "Gustav-Falke-Straße",
+                "opening_hours": "Mo,Th 08:30-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.985672,
+                    53.571859
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Hallerplatz",
+                "location": "Hallerplatz, Rotherbaum",
+                "opening_hours": "Fr 13:00-18:30",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.982108,
+                    53.581408
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Isemarkt",
+                "location": "Isemarkt, Eimsbüttel",
+                "opening_hours": "Tu,Fr 08:30-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.988377,
+                    53.567922
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Museum für Völkerkunde",
+                "location": "Museum für Völkerkunde, Rotherbaum",
+                "opening_hours": "Sa 08:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.952869,
+                    53.643941
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Niendorf-Nord",
+                "location": "Eimsbüttel, Nordalbingerweg Ecke Ernst-Mittelbach-Ring",
+                "opening_hours": "Tu 14:30-19:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.941311,
+                    53.634173,
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Quedlingburger Weg",
+                "location": "Quedlingburger Weg, Eimsbüttel",
+                "opening_hours": "Fr 08:00-12:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.908617,
+                    53.647244
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Roman-Zeller-Platz",
+                "location": "Roman-Zeller-Platz, Eimsbüttel",
+                "opening_hours": "Tu 12:00-18:00;Sa 10:00-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.952140,
+                    53.622744
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Tibarg",
+                "location": "Tibarg, Eimsbüttel",
+                "opening_hours": "Fr 09:00-12:30",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.991769,
+                    53.570978
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Turmweg",
+                "location": "Turmweg, Rotherbaum",
+                "opening_hours": "Tu,Fri 08:30-14:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.917117,
+                    53.631869,
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Wählingsallee",
+                "location": "Wählingsallee vor dem Freizeitzentrum",
+                "opening_hours": "Tu,Fr 08:30-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+
+          ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Hamburg",
+            "url": "http://www.hamburg.de/wochenmarkt-hamburg/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                13.383333,
+                52.516667
+            ],
+            "zoom_level": 11
+        }
+    },
+    "type": "FeatureCollection"
+}
