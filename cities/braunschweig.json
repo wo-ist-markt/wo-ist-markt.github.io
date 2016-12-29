@@ -1,0 +1,204 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.535717,
+                    52.229799
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Erfurtplatz",
+                "opening_hours": "Tu, Fr 08:00-13:00",
+                "title": "Wochenmarkt Erfurtplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.527229,
+                    52.286756
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Nibelungenplatz",
+                "opening_hours": "Tu, Fr 08:00-13:00",
+                "title": "Wochenmarkt Nibelungenplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.555848,
+                    52.290480
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Westfalenplatz",
+                "opening_hours": "Tu, Fr 08:00-13:00",
+                "title": "Wochenmarkt Westfalenplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.517996,
+                    52.262607
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Altstadtmarkt",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Wochenmarkt Altstadtmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.558876,
+                    52.233751
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Welfenplatz",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Wochenmarkt Welfenplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.479379,
+                    52.273477
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lehndorf (Sulzbacher Straße)",
+                "opening_hours": "Th 08:00-13:00",
+                "title": "Wochenmarkt Lehndorf (Sulzbacher Straße)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.478524,
+                    52.248372
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Weststadt (Einkaufszentrum Elbestraße)",
+                "opening_hours": "Th 08:00-13:00",
+                "title": "Wochenmarkt Weststadt (Einkaufszentrum Elbestraße)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.530535,
+                    52.262153
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Magnikirchplatz",
+                "opening_hours": "Th 14:00-18:00",
+                "title": "Wochenmarkt Magnikirchplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.547307,
+                    52.270656
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stadtpark (Herzogin-Elisabeth-Straße)",
+                "opening_hours": "Th 14:00-18:00",
+                "title": "Wochenmarkt Stadtpark (Herzogin-Elisabeth-Straße)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.512270,
+                    52.321620
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Wenden (Lindenstraße)",
+                "opening_hours": "Fr 08:00-13:00",
+                "title": "Wochenmarkt Wenden (Lindenstraße)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.502595,
+                    52.222346
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Rüningen (Grund- und Hauptschule)",
+                "opening_hours": "Sa 08:00-13:00",
+                "title": "Wochenmarkt Rüningen (Grund- und Hauptschule)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.522729,
+                    52.213621
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stöckheim (Stöckheimer Markt)",
+                "opening_hours": "Sa 08:00-13:00",
+                "title": "Wochenmarkt Stöckheim (Stöckheimer Markt)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Braunschweig",
+            "url": "http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                10.52527,
+                52.26400
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
