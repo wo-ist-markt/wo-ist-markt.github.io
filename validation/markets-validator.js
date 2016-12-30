@@ -54,7 +54,7 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
     }).filter(function(file) {
         return fs.statSync(file).isFile();
     }).forEach(function(file) {
-        if (file === MARKETS_INDEX_FILE_PATH) {
+        if (file === MARKETS_INDEX_FILE_PATH || file.substr(-5) !== ".json") {
             return;
         }
         console.log("\n===> Validating %s ...".section, file);
