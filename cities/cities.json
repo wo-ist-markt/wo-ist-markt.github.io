@@ -75,6 +75,10 @@
         "id": "karlsruhe",
         "label": "Karlsruhe"
     },
+    "kassel": {
+        "id": "kassel",
+        "label": "Kassel"
+    },
     "kiel": {
         "id": "kiel",
         "label": "Kiel"
