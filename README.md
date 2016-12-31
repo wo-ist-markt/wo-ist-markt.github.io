@@ -45,6 +45,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
+|[Kassel][kassel-wikipedia]|[City of Kassel][kassel-markets]|
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
@@ -134,6 +135,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
+[kassel-wikipedia]: https://en.wikipedia.org/wiki/Kassel
+[kassel-markets]: http://www.serviceportal-kassel.de/cms05/dienstleistungen/029907/index.html
 [kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)

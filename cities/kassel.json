@@ -1,0 +1,69 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.4657199,
+                    51.3119969
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Wehlheider Platz",
+                "opening_hours": "Fr 07:00-13:00",
+                "title": "Wehlheider Markt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.5032495,
+                    51.3156027
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Wildemannsgasse",
+                "opening_hours": "Th,Fr 07:00-18:00; Sa 07:00-14:00",
+                "title": "Markthalle"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.502578,
+                    51.3156252
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Graben",
+                "opening_hours": "Th 07:00-13:00; Sa 07:00-14:00",
+                "title": "Markthalle (Freifläche)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Kassel",
+            "url": "http://www.serviceportal-kassel.de/cms05/dienstleistungen/029907/index.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                9.4762981,
+                51.3090209
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
