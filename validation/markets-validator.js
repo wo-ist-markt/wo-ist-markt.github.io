@@ -49,19 +49,22 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
         throw err;
     }
 
+    var marketCount = 0;
     files.map(function(file) {
         return path.join(MARKETS_DIR_PATH, file);
     }).filter(function(file) {
         return fs.statSync(file).isFile();
     }).forEach(function(file) {
-        if (file === MARKETS_INDEX_FILE_PATH) {
+        if (file === MARKETS_INDEX_FILE_PATH || file.substr(-5) !== ".json") {
             return;
         }
         console.log("\n===> Validating %s ...".section, file);
         var marketValidator = new MarketValidator(file);
         marketValidator.validate();
+        marketCount++;
         console.log("\n");
     });
+    console.log(marketCount + " markets validated!");
 
     process.exit(exitCode);
 });
