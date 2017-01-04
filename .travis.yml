@@ -19,7 +19,7 @@ notifications:
     rooms:
       - secure: "tL/2Zq47CK4YPvNEee/BVHvst4idXPjhsM1jFylEaD3f5S4mNjlxnEZmC75c1uNPhQ56ZRkpSSA6qVdHVWs9qECeDQUK0z1sWcpFhT09+MvrIxREy9dtX+a2iKBYgyWwZiBOv2WOKYB2I3lu+qZ7uhxxj4a5aLN3ijgcFfKR4sehRFf793Y2U+x2coMLoUwyThMUMYZGXqYhG41dbkGHvIecFa69RjHD89v/b5Q1nlpLlqLbC6xWVQt8ADfu8Y7mDbaFJ9/U2pV1E24OrI7f84Htt2TQknVQQfhWc8Q+LI30o4wftlwwbLMmP/m3yPiKEkThxmEpoX0PvlQN7HbCAOFm7W4VqO96B7Gn9YhAc8fksJs08sV0BVVNEDkKZs5amCZvTaD0QqwkIJ/Ky1c1Slezj2jpF/814L1Hj2PAN7TQ4BUHAzs/JZpRK/Qa4fUSxTk7AG2xnLDZVYQ1OJkyqZCjgfjJXS0ZWjZRmdnup+iPRPI7njK2d3/rIGWXNksZliqcBMSL9fVjaNb33ftiIIGOVsgmbdY8+0eEVxTWFxrE2GPv8bItWVcB1HSWi5WMI2D9Z5SOCp+YnORVZVy8dupZeMGyYPoW/FxuWGX4Nm05DDR1etzo08k3afjJTYwTZghxhVlxJ7L2MpanyE73cbHXbN0E3iK4tBf4UqSxY0g="
     template:
-      - "%{repository} (%{commit}) : %{message}"
-      -  "Build details: %{build_url}"
-      -  "%{commit_subject}"
-      -  "%{commit_message}"
+      - 'Build <%{build_url}|#%{build_number}> of <https://github.com/%{repository_slug}|%{repository_slug}>'
+      - 'Branch: <https://github.com/%{repository_slug}/tree/%{branch}|%{branch}>, Commit: <https://github.com/%{repository_slug}/commit/%{commit}|%{commit}>'
+      - '%{result} in %{duration}'
+      - '%{commit_subject} (%{author})'
