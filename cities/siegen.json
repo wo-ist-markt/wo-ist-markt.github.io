@@ -1,0 +1,72 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "8.025300",
+          "50.874700"
+        ]
+      },
+      "properties": {
+        "title": "Siegen-Mitte",
+        "location": "Siegen-Mitte, Markt/Rathaus/Nikolaikirche",
+        "opening_hours": null,
+        "opening_hours_unclassified": "Jeden Mittwoch und Samstag vormittag (außer an Feiertagen)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "8.025200",
+          "50.896466"
+        ]
+      },
+      "properties": {
+        "title": "Siegen-Weidenau",
+        "location": "Siegen-Weidenau, Zentralparkplatz Einkaufszentrum",
+        "opening_hours": null,
+        "opening_hours_unclassified": "Jeden Mittwoch und Samstag vormittag (außer an Feiertagen)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "8.011245",
+          "50.914069"
+        ]
+      },
+      "properties": {
+        "title": "Siegen-Geisweid",
+        "location": "Siegen-Geisweid, Rijnsburger Straße",
+        "opening_hours": null,
+        "opening_hours_unclassified": "Jeden Samstag vormittag (außer an Feiertagen)"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Siegen",
+      "url": "http://www.siegen.de/ols/dienstleistungen-a-bis-z/?tx_ricools_showtasks%5Baufgabe%5D=597&tx_ricools_showtasks%5Baction%5D=show&tx_ricools_showtasks%5Bcontroller%5D=Aufgabe&cHash=45090d0fafa93fbd51bc3839bfefabe5"
+    },
+    "map_initialization": {
+      "coordinates": [
+        8.025300,
+        50.874700
+      ],
+      "zoom_level": 12
+    }
+  }
+}
