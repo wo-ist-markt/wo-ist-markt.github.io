@@ -9,8 +9,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Neumarkt / Markt",
-				"opening_hours": "2016 Jan 12- 2016 Feb 27, 2016 Nov 01-11 Tu-Fr 09:00-16:00; 2016 Jan 12- 2016 Feb 27,2016 Mar 01-2016 Jul 01, 2016 Jul 03-2016 Aug 22,2016 Aug 27-2016 Sep 21,2016 Sep 25-2016 Oct 29,2016 Nov 01-11 Sa 08:00-13:00; 2016 Mar 01-2016 Jul 01,2016 Jul 03-2016 Aug 22,2016 Aug 27-2016 Sep 21, 2016 Sep 25-2016 Oct 29 Tu-Fr 09:00-17:00; 2016 Nov 12 08:00-12:00",
+				"location": "Markt/Neumarkt",
+				"opening_hours": "Jan 10-Mar 04,Nov 01-17 Tu-Fr 09:00-16:00; Jan 10-Mar 04,Mar 07-Aug 19,Aug 29-Oct 28,Nov 01-17 Sa 08:00-13:00; Mar 07-Aug 19,Aug 29-Oct 28 Tu-Fr 09:00-17:00; Nov 18 08:00-12:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
@@ -24,8 +25,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Am Roten Turm / Am Wall",
-				"opening_hours": "2016 Sep 22-24 Tu-Fr 09:00-17:00; 2016 Sep 22-24 Sa 08:00-13:00; 2016 Nov 15 09:00-16:00; 2016 Nov 17-18,2016 Nov 20-2016 Dec 16 Tu-Fr 09:00-16:00; 2016 Nov 19 08:00-13:00; 2016 Dec 23 09:00-15:00",
+				"location": "Am Roten Turm",
+				"opening_hours": "Nov 21,Nov 23-Dec 22 Tu-Fr 09:00-16:00; Nov 25 Sa 08:00-13:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
@@ -40,7 +42,8 @@
 			},
 			"properties": {
 				"location": "Rosenhof",
-				"opening_hours": "2016 Aug 23-26 Tu-Fr 09:00-17:00",
+				"opening_hours": "Aug 22-25 Tu-Fr 09:00-17:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
@@ -55,7 +58,8 @@
 			},
 			"properties": {
 				"location": "Georgstraße",
-				"opening_hours": "2016 Jan 05-2016 Dec 31 Tu,Th,Fr 09:00-17:00; 2016 Jan 05-2016 Dec 31 Sa 08:00-12:00",
+				"opening_hours": "Tu,Th-Fr 09:00-17:00; Sa 08:00-12:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
@@ -70,7 +74,8 @@
 			},
 			"properties": {
 				"location": "Ernst-Enge-Straße",
-				"opening_hours": "2016 Jan 04-2016 Dec 31 Mo-Fr 09:00-17:00; 2016 Jan 04-2016 Dec 31 Sa 08:00-12:00",
+				"opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-12:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
@@ -84,8 +89,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Dr. Salvador-Allende-Straße",
-				"opening_hours": "2016 Jan 04-2016 Dec 30 Mo-Fr 09:00-16:00; 2016 Dec 31 08:00-12:00",
+				"location": "Dr.-Salvador-Allende-Straße",
+				"opening_hours": "Mo-Fr 09:00-16:00; Sa 08:00-12:00",
+				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
 			"type": "Feature"
