@@ -135,6 +135,10 @@
         "id": "schwerin",
         "label": "Schwerin"
     },
+    "siegen": {
+        "id": "siegen",
+        "label": "Siegen"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"

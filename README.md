@@ -60,6 +60,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
+|[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
@@ -163,6 +164,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
 [schwerin-markets]: http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html
+[siegen-wikipedia]: https://en.wikipedia.org/wiki/Siegen
+[siegen-markets]: http://www.siegen.de/ols/dienstleistungen-a-bis-z/?tx_ricools_showtasks%5Baufgabe%5D=597&tx_ricools_showtasks%5Baction%5D=show&tx_ricools_showtasks%5Bcontroller%5D=Aufgabe&cHash=45090d0fafa93fbd51bc3839bfefabe5
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [wiesbaden-wikipedia]:https://en.wikipedia.org/wiki/Wiesbaden
