@@ -1,0 +1,279 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    7.85251,
+                    47.99574
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Münsterplatz",
+                "opening_hours": "Mo, Tu, We, Th, Fr 07:30-13:30; Sa 07:30-14:00",
+                "title": "Münstermarkt Freiburg"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.81079,
+                    48.01083
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Sundgau-Passage",
+                "opening_hours": "Tu, Fr 08:00-13:00",
+                "title": "Betzenhauser Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.84716,
+                    48.00596
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Tennenbacherplatz",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Beurbarung Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.85538,
+                    48.01084
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Fabrik",
+                "opening_hours": "Sa 09:00-13:00",
+                "title": "Wochenmarkt in der Fabrik"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.86367,
+                    48.00693
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Kirchplatz Herdern",
+                "opening_hours": "Tu 15:00-18:00; Fr 14:00-18:00",
+                "title": "Herdermer Bauernmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.80883,
+                    48.02380
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Platz der Begegnung",
+                "opening_hours": "We, Sa 07:30-13:00",
+                "title": "Landwasser Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.89644,
+                    47.97935
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Vor dem Bürgersaal",
+                "opening_hours": "Sa 08:00-13:00",
+                "title": "Bauernmarkt Littenweiler"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.82328,
+                    48.01554
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Elsässer Straße",
+                "opening_hours": "We 07:30-13:00; Sa 07:30-13:00",
+                "title": "Mooswälder Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.86971,
+                    47.98796
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Neben dem Zentrum Oberwiehre ZO",
+                "opening_hours": "Sa 08:00-14:00",
+                "title": "Oberwiehremer Bauernmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.79145,
+                    47.99948
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Maria-von-Rudloff-Platz",
+                "opening_hours": "We 14:00-17:00; Sa 07:30-13:00",
+                "title": "Wochenmarkt Rieselfeld"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.81406,
+                    47.97923
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Gemeinde St. Peter und Paul",
+                "opening_hours": "Sa 08:00-13:00",
+                "title": "St. Georgener Bauernmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.83862,
+                    47.99707
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stühlinger Kirchplatz",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Stühlinger Bauernmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.82533,
+                    47.97494
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Alfred-Döblin-Platz",
+                "opening_hours": "We 14:30-18:30",
+                "title": "Wochenmarkt Vauban"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.81019,
+                    47.99444
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Fritz-Schieler-Platz",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Wochenmarkt Weingarten"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.85344,
+                    47.98480
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Alter Wiehrebahnhof",
+                "opening_hours": "We 14:00-18:30; Sa 08:00-13:00",
+                "title": "Wiehremer Bauernmarkt"
+            },
+            "type": "Feature"
+        },
+
+        {
+            "geometry": {
+                "coordinates": [
+                    7.85833,
+                    48.02322
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Platz der Zähringer",
+                "opening_hours": "We, Sa 08:00-13:00",
+                "title": "Zähringer Bauernmarkt"
+            },
+            "type": "Feature"
+
+        }
+
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Freiburg",
+            "url": "http://www.freiburg.de/pb/,Lde/226390.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                7.8499,
+                48.0012
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
