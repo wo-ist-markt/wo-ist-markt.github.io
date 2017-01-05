@@ -51,6 +51,10 @@
         "id": "essen",
         "label": "Essen"
     },
+    "freiburg": {
+        "id": "freiburg",
+        "label": "Freiburg"
+    },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"
