@@ -260,15 +260,15 @@
 		"geometry": {
 		   "type": "Point",
 		   "coordinates": [
-			  6.7329260,
-			  51.2409100
+			  6.7285300,
+			  51.2405700
 		   ]
 		},
 		"type": "Feature",
 		"properties": {
 		   "opening_hours": "We 07:00-18:00; Sa 07:00-14:00",
 		   "location": "Niederkassler Lohweg",
-		   "title": "Wochenmarkt Niederkassler Lohweg"
+		   "title": "Wochenmarkt Niederkasseler Lohweg"
 		}
 	  },
 	  {
