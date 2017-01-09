@@ -42,6 +42,7 @@ A small visualization of the weekly markets in different cities. Available at: h
 |[Freiburg][freiburg-wikipedia]|[City of Freiburg][freiburg-markets]|
 |[Gelsenkirchen][gelsenkirchen-wikipedia]|[Gelsendienste][gelsenkirchen-markets]|
 |[Hagen][hagen-wikipedia]|[City of Hagen][hagen-markets]|
+|[Hamburg][hamburg-wikipedia]|[City of Hamburg][hamburg-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
@@ -129,6 +130,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
 [hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
+[hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
+[hamburg-markets]: http://www.hamburg.de/wochenmarkt-hamburg/
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
