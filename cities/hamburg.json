@@ -1,0 +1,1173 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "opening_hours" : "Tu 08:00-14:00; We 09:00-13:00; Fr 08:00-18:00; Sa 08:00-13:00",
+                "title" : "Wochenmarkt Blankeneser Bahnhofstraße",
+                "location" : "Blankeneser Marktplatz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.81190035612976,
+                    53.5617945086133
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.87356700737948,
+                    53.5920824174544
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Eckhoffplatz",
+                "title" : "Eckhoffplatz",
+                "opening_hours" : "Tu 08:00-13:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.95335444929856,
+                    53.5451525894585
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Altonaer Fischmarkt",
+                "opening_hours" : "Su 05:00-09:30; Nov 16 - Mar 14 07:00-09:30",
+                "title" : "Wochenmarkt Fischmarkt"
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Große Elbstraße",
+                "title" : "Wochenmarkt Fischmarkt / Große Elbstraße",
+                "opening_hours" : "Th 09:00-15:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    9.95268758389116,
+                    53.5454297792547
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Fabrik Ottensen",
+                "title" : "Marktzeit in der Fabrik",
+                "opening_hours" : "Oct 01 - Apr 02 09:30-15:00"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.92897170987127,
+                    53.5564290254115
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Öko-Wochenmarkt Nienstedten",
+                "opening_hours" : "Fr 09:00-12:30",
+                "location" : "Nienstedter Marktplatz"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.84405047977177,
+                    53.5524748640427
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.87638181571913,
+                    53.5700327419281
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "We, Sa 08:00-13:00",
+                "title" : "Wochenmarkt Osdorfer Landstraße",
+                "location" : "Ecke Notkestr."
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.96169932921851,
+                    53.5624012423762
+                ]
+            },
+            "properties" : {
+                "opening_hours" : "Th 13:30-18:30",
+                "title" : "Öko-Wochenmarkt Sternschanze",
+                "location" : "Schulterblatt-Piazza"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Spritzenplatz Ottensen",
+                "title" : "Wochenmarkt am Spritzenplatz",
+                "opening_hours" : "Tu 08:00-14:00; We 12:00-18:30; Fr 08:00-18:30; Sa 09:30-15:00"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.93046356157849,
+                    53.5516829011709
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Tu, Sa 07:00-14:00",
+                "title" : "Wochenmarkt Wedeler Landstraße",
+                "location" : "Wedeler Landstraße 30"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    9.75797733973228,
+                    53.5817078712952
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Johann-Adolf-Hesse-Platz",
+                "opening_hours" : "Th 12:00-19:00",
+                "title" : "Wochenmarkt Alte Holstenstraße"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.2110004057383,
+                    53.4888642724095
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Chrysanderstraße",
+                "opening_hours" : "Tu 08:00-13:00; Fr 08:00-14:00",
+                "location" : "Am Schlosspark"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.2151589198183,
+                    53.4917753950109
+                ]
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Fr 12:00-18:00",
+                "title" : "Wochenmarkt Edith-Stein-Platz",
+                "location" : "Edith-Stein-Platz"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.1807853211918,
+                    53.4870050570204
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1589211337794,
+                    53.4897092509018
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Fleetplatz",
+                "title" : "Wochenmarkt Fleetplatz",
+                "opening_hours" : "Sa 08:00-13:00"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "We, Sa 08:00-13:00",
+                "title" : "Wochenmarkt Lohbrügger Markt",
+                "location" : "Lohbrügger Markt"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.2097322579772,
+                    53.4968299519293
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Werner-Neben-Platz",
+                "opening_hours" : "Th 08:00-13:00",
+                "title" : "Werner-Neben-Platz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    10.1819127053112,
+                    53.4897013940238
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Alte Elbgaustraße",
+                "title" : "Wochenmarkt Alte Elbgaustraße",
+                "opening_hours" : "We, Sa 08:30-13:00; Fr 08:30-18:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    9.90331864174327,
+                    53.6071479950282
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Apostelkirche",
+                "opening_hours" : "We 08:30-13:00",
+                "location" : "Vor Apostelkirche"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.94457121990888,
+                    53.5761857559261
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Grelckstraße",
+                "opening_hours" : "We 08:30-13:00",
+                "title" : "Wochenmarkt Grelckstraße"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    9.95645851181604,
+                    53.6008150815877
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.9434872257997,
+                    53.5771916049581
+                ]
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Grundstraße",
+                "title" : "Wochenmarkt Grundstraße",
+                "opening_hours" : "Sa 08:30-13:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.97058586573141,
+                    53.5705279933827
+                ]
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Gustav-Falke-Straße",
+                "opening_hours" : "Mo, Th 08:30-14:00",
+                "title" : "Wochenmarkt Gustav-Falke-Straße"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.98567875526491,
+                    53.5715670487361
+                ]
+            },
+            "properties" : {
+                "opening_hours" : "Fr 13:00-18:30",
+                "title" : "Wochenmarkt Hallerplatz",
+                "location" : "Wochenmarkt Hallerplatz"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Tu, Fr 08:30-14:00",
+                "title" : "Isemarkt",
+                "location" : "Isemarkt"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.9774375007383,
+                    53.5784059681037
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Sa 08:00-14:00",
+                "title" : "Wochenmarkt am Museum für Völkerkunde",
+                "location" : "Wochenmarkt am Museum für Völkerkunde"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.98888131282837,
+                    53.5685184256083
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.94976691703632,
+                    53.6407089618047
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "title" : "Wochenmarkt Niendorf-Nord",
+                "opening_hours" : "Tu 14:30-19:00",
+                "location" : "Wochenmarkt Niendorf-Nord"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.94119220683965,
+                    53.6340375301455
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "title" : "Wochenmarkt Quedlinburger Weg",
+                "opening_hours" : "Fr 08:00-12:00",
+                "location" : "Wochenmarkt Quedlinburger Weg"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Roman-Zeller-Platz",
+                "title" : "Wochenmarkt Roman-Zeller-Platz",
+                "opening_hours" : "Th 12:00-18:00"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.90984465979661,
+                    53.6468542671951
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Tibarg Niendorf",
+                "opening_hours" : "Tu, Sa 08:30-13:30; Fr 09:00-12:30",
+                "title" : "Wochenmarkt Tibarg"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.95196545450417,
+                    53.6209221906833
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.99118769512538,
+                    53.5709745927563
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt am Turmweg",
+                "opening_hours" : "Th 08:30-14:00",
+                "location" : "Wochenmarkt am Turmweg"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.91848122246376,
+                    53.6318968481609
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Wählingsallee",
+                "opening_hours" : "Tu, Fr 08:30-13:00",
+                "title" : "Wochenmarkt Wählingsallee"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt Neugrabener Markt",
+                "opening_hours" : "Tu, Th, Sa 07:00-13:00",
+                "location" : "Ecke Marktpassage"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.85271725067136,
+                    53.4697849824322
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Mo-Sa 08:00-13:30; We 08:00-13:30,15:00-18:30",
+                "title" : "Wochenmarkt Sand / Schloßmühlendamm",
+                "location" : "Ecke Schloßmühlendamm"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.98348628098816,
+                    53.4606637710373
+                ]
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Bei der Vogelstange",
+                "title" : "Wochenmarkt Bei der Vogelstange",
+                "opening_hours" : "Tu 09:00-13:00; Fr 12:30-18:00"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0547031952666,
+                    53.5579649429568
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0105875055426,
+                    53.4979365636565
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt Berta-Kröger-Platz",
+                "opening_hours" : "Tu 08:00-13:00; Fr 08:30-17:30",
+                "location" : "Berta-Kröger-Platz"
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Carl-von-Ossietzky Platz",
+                "opening_hours" : "Th 09:00-13:30; Fr 14:00-18:30",
+                "title" : "Carl-von-Ossietzky Platz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    10.0106204876445,
+                    53.5565847104121
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.87417550541219,
+                    53.5358401568846
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Ecke Külpersweg",
+                "opening_hours" : "Tu,Sa 07:00-12:00; Oct 01-Mar 30 Tu,Sa 08:00-12:00",
+                "title" : "Wochenmarkt Finksweg"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Marktplatz am Überseeboulevard",
+                "opening_hours" : "Tu 11:30-15:00",
+                "title" : "Food Lovers Market"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.99811347625704,
+                    53.542486279758
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.97965620876772,
+                    53.5503223200214
+                ]
+            },
+            "properties" : {
+                "location" : "Großneumarkt",
+                "title" : "Wochenmarkt Großneumarkt",
+                "opening_hours" : "We, Sa 08:30-13:30"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Hansaplatz",
+                "opening_hours" : "We 11:00-18:00",
+                "title" : "Wochenmarkt Hansaplatz"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.0121655692836,
+                    53.5546630578006
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Sa 08:00-13:00",
+                "title" : "Wochenmarkt Kandinskyallee",
+                "location" : "Kandinskyallee Kreisverkehr"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1493488011571,
+                    53.5242356003335
+                ]
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt Karl-Arnold-Ring",
+                "opening_hours" : "Th 12:00-18:00",
+                "location" : "Ecke Kirchdorfer Damm"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.0208174742919,
+                    53.4844197136352
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Vor St. Katharinen",
+                "title" : "Wochenmarkt Katharinenkirchhof",
+                "opening_hours" : "Tu 10:00-14:00"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.99374683998036,
+                    53.5460531429236
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Marktzeit vor der Rindermarkthalle",
+                "opening_hours" : "Oct 01 - Apr 02 Sa 09:30-15:00",
+                "title" : "Vor der Rindermarkthalle"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.96681427201171,
+                    53.55683883333
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Th 09:00-13:00",
+                "title" : "Wochenmarkt Meurerweg",
+                "location" : "U-Bahn Horner Rennbahn"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0873124394965,
+                    53.5535797405502
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.1289219795003,
+                    53.5389565002545
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Ecke Steinbeker Landstr.",
+                "title" : "Wochenmarkt Möllner Landstraße",
+                "opening_hours" : "Tu 09:00-13:00; Fr 09:00-18:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0396887128866,
+                    53.5334156672427
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "We, Sa 08:00-13:00",
+                "title" : "Wochenmarkt Rothenburgsorter Marktplatz",
+                "location" : "Rothenburgsorter Marktplatz"
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Sachsenfeld",
+                "opening_hours" : "Mo, We 10:00-14:30",
+                "location" : "Schwabenplatz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0240792468395,
+                    53.5453764554967
+                ]
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Spielbudenplatz",
+                "title" : "Nachtmarkt St. Pauli",
+                "opening_hours" : "Apr - Sep We 16:00-23:00;Oct - Mar We 16:00-22:00"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.96550603370423,
+                    53.5493646938649
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Stübenplatz",
+                "opening_hours" : "We, Sa 07:00-13:00",
+                "title" : "Stübenplatz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.98654976628706,
+                    53.5171520052357
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0242110497436,
+                    53.612467168938
+                ]
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Alsterdorfer Markt",
+                "title" : "Wochenmarkt Alsterdorfer Markt",
+                "opening_hours" : "Fr 10:00-18:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.97936107523236,
+                    53.6070183359071
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Th 11:00-19:00",
+                "title" : "Wochenmarkt Borsteler Chaussee",
+                "location" : "Wochenmarkt Borsteler Chaussee"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0265726489897,
+                    53.6025968773916
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt Dakarweg",
+                "opening_hours" : "We 10:00-14:30",
+                "location" : "Wochenmarkt Dakarweg"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0114186443453,
+                    53.584963200382
+                ]
+            },
+            "properties" : {
+                "location" : "Wochenmarkt am Goldbekufer",
+                "opening_hours" : "Tu, Th, Sa 08:30-13:00",
+                "title" : "Wochenmarkt am Goldbekufer"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0397455993459,
+                    53.6013514789275
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Hartzloh",
+                "title" : "Wochenmarkt Hartzloh",
+                "opening_hours" : "Tu, Th, Sa 08:30-13:00"
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0271165050869,
+                    53.5669751028344
+                ]
+            },
+            "properties" : {
+                "opening_hours" : "Tu 14:00-18:00; Fr 08:30-13:00",
+                "title" : "Wochenmarkt Immenhof",
+                "location" : "Wochenmarkt Immenhof"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Langenhorner Markt",
+                "opening_hours" : "Tu 11:30-18:00; Sa 08:30-13:00",
+                "title" : "Wochenmarkt Langenhorner Markt"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.0152477091547,
+                    53.6497153295208
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Marie-Jonas-Platz",
+                "opening_hours" : "Tu, Th 11:00-18:30; Sa 10:00-15:00",
+                "title" : "Öko-Wochenmarkt Eppendorf"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    9.98652094085103,
+                    53.5904892832113
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0223358853463,
+                    53.6265057468966
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Ratsmühlendamm",
+                "title" : "Wochenmarkt Ratsmühlendamm",
+                "opening_hours" : "We, Fr 08:30-13:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.99962296732642,
+                    53.681094664438
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "title" : "Wochenmarkt Schmuggelstieg",
+                "opening_hours" : "Th 08:30-13:00",
+                "location" : "Fußgängerzone Schmuggelstieg"
+            },
+            "type" : "Feature"
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Straßburger Platz",
+                "opening_hours" : "We 08:30-13:00; Fr 14:00-18:00",
+                "location" : "Wochenmarkt Straßburger Platz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0625717202426,
+                    53.5815178119244
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0411510003856,
+                    53.5765496598279
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Vogelweide",
+                "title" : "Wochenmarkt Vogelweide",
+                "opening_hours" : "Fr 12:00-18:00"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Wiesendamm",
+                "opening_hours" : "Tu 08:30-13:00; Fr 14:00-18:00",
+                "title" : "Wochenmarkt Wiesendamm"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.0451296958723,
+                    53.5863956680802
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    9.99933492906569,
+                    53.5945930397077
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "opening_hours" : "We 11:00-18:00; Fr 14:30-19:30; Sa 08:00-13:00",
+                "title" : "Wochenmarkt Winterhuder Marktplatz",
+                "location" : "Wochenmarkt Winterhuder Marktplatz"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1336862419924,
+                    53.5724637544728
+                ]
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Bei den Höfen",
+                "title" : "Wochenmarkt Bei den Höfen",
+                "opening_hours" : "We 14:00-18:00; Fr 14:00-18:30"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.1186162180061,
+                    53.6044157219789
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "title" : "Wochenmarkt Berner Heerweg",
+                "opening_hours" : "Tu, Th 14:00-18:00",
+                "location" : "Gegenüber Eissporthalle"
+            },
+            "type" : "Feature"
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Tu, Fr 08:00-13:00",
+                "title" : "Wochenmarkt Brunskrogweg",
+                "location" : "Höhe U-Bahnhof Ohlstedt"
+            },
+            "geometry" : {
+                "coordinates" : [
+                    10.1387095970979,
+                    53.6943297164581
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.1057204805349,
+                    53.7088221821703
+                ],
+                "type" : "Point"
+            },
+            "type" : "Feature",
+            "properties" : {
+                "title" : "Wochenmarkt Duvenstedter Damm / Lohe",
+                "opening_hours" : "Sa 08:00-13:00",
+                "location" : "Ecke Lohe"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Ecke Alte Berner Str.",
+                "opening_hours" : "Tu 08:30-13:00; Fr 08:30-18:00",
+                "title" : "Wochenmarkt Hermann-Balk-Straße"
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1397204765062,
+                    53.6256718021595
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.075236396631,
+                    53.6119866527302
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "location" : "Wochenmarkt Herthastraße",
+                "title" : "Wochenmarkt Herthastraße",
+                "opening_hours" : "Tu,Fr 08:30-13:00; Oct 01-Mar 30 Tu,Fr 09:00-13:00"
+            }
+        },
+        {
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Fr 13:00-18:30",
+                "title" : "Wochenmarkt Moorhof",
+                "location" : "Ecke Harksheider Str."
+            },
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0852012200808,
+                    53.6604347167899
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0610959222746,
+                    53.6541023406136
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "title" : "Wochenmarkt Norbert-Schmid-Platz",
+                "opening_hours" : "Th 09:00-14:00",
+                "location" : "Norbert-Schmid-Platz"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0654556028885,
+                    53.5733714316141
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Quarree",
+                "title" : "Wochenmarkt Quarree",
+                "opening_hours" : "Mo-Sa 08:00-13:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Rahlstedter Bahnhofsstraße",
+                "opening_hours" : "We, Sa 08:00-13:00; Th 09:00-13:00",
+                "location" : "Zwischen Amtsstr. und Schweriner Str."
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "coordinates" : [
+                    10.1524421393297,
+                    53.6005731378272
+                ],
+                "type" : "Point"
+            }
+        },
+        {
+            "properties" : {
+                "location" : "Wochenmarkt Rauschener Ring",
+                "title" : "Wochenmarkt Rauschener Ring",
+                "opening_hours" : "Sa 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.0852544703352,
+                    53.5956066701853
+                ]
+            }
+        },
+        {
+            "geometry" : {
+                "coordinates" : [
+                    10.0810534719362,
+                    53.6410516207172
+                ],
+                "type" : "Point"
+            },
+            "properties" : {
+                "location" : "Wochenmarkt Rolfinckstraße",
+                "title" : "Wochenmarkt Rolfinckstraße",
+                "opening_hours" : "Tu, Fr 08:00-13:00"
+            },
+            "type" : "Feature"
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1113012782871,
+                    53.6534969106526
+                ]
+            },
+            "type" : "Feature",
+            "properties" : {
+                "opening_hours" : "Th, Sa 08:00-13:00",
+                "title" : "Wochenmarkt Saseler Markt",
+                "location" : "Saseler Markt"
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "We, Sa 08:00-13:00",
+                "title" : "Volksdorfer Wochenmarkt",
+                "location" : "Ecke Halenreie / Kattjahren"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.1616000710878,
+                    53.651989771265
+                ]
+            }
+        }
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "http://www.hamburg.de/wochenmarkt-hamburg",
+            "title" : "Stadt Hamburg"
+        },
+        "map_initialization" : {
+            "zoom_level" : 11,
+            "coordinates" : [
+                10.0085,
+                53.5735
+            ]
+        }
+    }
+}

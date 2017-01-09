@@ -63,6 +63,10 @@
         "id": "hagen",
         "label": "Hagen"
     },
+    "hamburg": {
+        "id": "hamburg",
+        "label": "Hamburg"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"
