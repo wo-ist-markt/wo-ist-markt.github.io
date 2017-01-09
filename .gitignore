@@ -3,3 +3,6 @@
 .*.swp
 *.pyc
 
+# VIM
+*.un~
+
