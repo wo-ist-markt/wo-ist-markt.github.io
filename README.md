@@ -1,8 +1,52 @@
 [![Build Status](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io.svg?branch=master)](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io)
 
-# A map of farmer markets
+# Wo ist Markt?
 
 A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
+
+- [Five minutes talk about the project at 33C3 (12/2016)][wo-ist-markt-33c3-talk]
+
+
+## Project description
+
+_Wo ist Markt?_ aims at providing an easy to use website for market information. Visitors of the website
+should be able to intuitively get answers to the following questions:
+
+- Where does a market take place?
+- When does a market take place?
+
+Therefore, the website shows the position of markets as markers on a map. Each marker can be clicked or
+tapped to reveal the detail information associated with this market - most important, the opening hours.
+This can been seen on the following screenshot.
+
+![Screenshot of the website (Showing Karlsruhe)][website-karlsruhe-screenshot]
+
+
+### Kinds of markets
+
+The project is not limited to specific kinds of markets. Typical markets in cities are:
+
+- Farmer markets (selling vegetable, fruits, fish, plants, ...)
+- Flea markets (selling used stuff, antique goods, ...)
+
+
+### Market data
+
+The actual information (title, location, opening hours, ...) about the markets can be provided by anyone.
+In the optimal case it is provided by a city as _open data_. If not, any volunteer can collect such data
+and contribute it to the project. Market data must be maintained individually. There is no central project
+team to take care of updating data of multiple cities. This is a distributed project. This is also the
+reason why cities are missing. It needs someone to retrieve and add the data. It is of your choice if
+you collect the data manually or if you automate it with a script. If you need inspiration on how to
+automate this have a look at the [preprocessing](preprocessing) folder.
+
+
+### Project history
+
+The project has been started by [@torfsen][torfsen-github] as part of the
+[Open Knowledge Lab Karlsruhe][oklab-karlsruhe] in February 2015. To support more cities the code has
+been refactored by [@johnjohndoe][johnjohndoe-github] as part of the [Open Knowledge Lab Berlin][oklab-berlin]
+in February 2016.
 
 
 ## Navigation
@@ -96,7 +140,13 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 
 
 [fabric]: https://fabfile.org
+[johnjohndoe-github]: https://github.com/johnjohndoe
 [npm]: https://www.npmjs.com
+[oklab-berlin]: http://codefor.de/berlin
+[oklab-karlsruhe]: http://codefor.de/karlsruhe
+[torfsen-github]: https://github.com/torfsen
+[website-karlsruhe-screenshot]: gfx/website-karlsruhe-screenshot.jpg
+[wo-ist-markt-33c3-talk]: https://www.youtube.com/watch?v=IurOWCek7V4
 
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
