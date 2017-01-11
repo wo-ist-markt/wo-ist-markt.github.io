@@ -1,4 +1,6 @@
+# NPM
 /node_modules/
+npm-debug.log
 
 .*.swp
 *.pyc
