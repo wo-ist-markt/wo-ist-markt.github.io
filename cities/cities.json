@@ -1,4 +1,8 @@
 {
+    "bad-homburg": {
+        "id": "bad-homburg",
+        "label": "Bad Homburg"
+    },
     "berlin": {
         "id": "berlin",
         "label": "Berlin"
