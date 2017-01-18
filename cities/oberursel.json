@@ -1,0 +1,63 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.57689,
+                  50.20253
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Altstadt",
+                "location": "Marktplatz (Altstadt), Oberursel",
+                "opening_hours": "Sa 07:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                  8.58206,
+                  50.20240
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Epinay Platz",
+                "location": "Epinay Platz, Oberursel",
+                "opening_hours": "Mi 07:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                  8.59681,
+                  50.18260
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Weißkirchen",
+                "location": "Parkplatz 'An der Bleiche' Ecke 'Lia-Wöhr-Weg', Oberursel",
+                "opening_hours": "Sa 09:00-14:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Bad Homburg ver der Höhe",
+            "url": "http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                8.615324,
+	      	    50.227428
+            ],
+            "zoom_level": 12
+        }
+    },
+    "type": "FeatureCollection"
+}

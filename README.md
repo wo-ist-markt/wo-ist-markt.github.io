@@ -102,6 +102,7 @@ in February 2016.
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Nersingen][nersingen-wikipedia]|[City of Nersingen][nersingen-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
+|[Oberursel][oberursel-wikipedia]|[City of Oberursel][oberursel-markets]
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
@@ -212,6 +213,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [nersingen-markets]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
+[oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
+[oberursel-markets]: http://www.oberursel.de/tourismus/bildung-kultur/veranstaltungen/maerkte/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
@@ -230,5 +233,3 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
-
-
