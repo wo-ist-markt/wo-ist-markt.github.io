@@ -14,6 +14,21 @@
                 "opening_hours": "Tu,Fr 07:30-14:00"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.61524,
+            	    50.22730
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bad Homburger Blumenmarkt",
+                "location": "Waisenhausplatz, Bad Homburg",
+                "opening_hours": "Sa 09:00-16:00"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
