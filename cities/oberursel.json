@@ -48,13 +48,13 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Bad Homburg ver der Höhe",
-            "url": "http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php"
+            "title": "Stadt Oberursel",
+            "url": "http://www.oberursel.de/tourismus/bildung-kultur/veranstaltungen/maerkte/"
         },
         "map_initialization": {
             "coordinates": [
-                8.615324,
-	      	    50.227428
+                8.5819,
+	      	    50.1920
             ],
             "zoom_level": 12
         }
