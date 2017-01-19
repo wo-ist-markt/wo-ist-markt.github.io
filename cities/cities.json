@@ -87,6 +87,10 @@
         "id": "hilden",
         "label": "Hilden"
     },
+    "kaiserslautern": {
+        "id": "kaiserslautern",
+        "label": "Kaiserslautern"
+    },
     "karlsruhe": {
         "id": "karlsruhe",
         "label": "Karlsruhe"
