@@ -17,7 +17,7 @@ notifications:
     on_success: always
     on_failure: always
     rooms:
-      - secure: "tL/2Zq47CK4YPvNEee/BVHvst4idXPjhsM1jFylEaD3f5S4mNjlxnEZmC75c1uNPhQ56ZRkpSSA6qVdHVWs9qECeDQUK0z1sWcpFhT09+MvrIxREy9dtX+a2iKBYgyWwZiBOv2WOKYB2I3lu+qZ7uhxxj4a5aLN3ijgcFfKR4sehRFf793Y2U+x2coMLoUwyThMUMYZGXqYhG41dbkGHvIecFa69RjHD89v/b5Q1nlpLlqLbC6xWVQt8ADfu8Y7mDbaFJ9/U2pV1E24OrI7f84Htt2TQknVQQfhWc8Q+LI30o4wftlwwbLMmP/m3yPiKEkThxmEpoX0PvlQN7HbCAOFm7W4VqO96B7Gn9YhAc8fksJs08sV0BVVNEDkKZs5amCZvTaD0QqwkIJ/Ky1c1Slezj2jpF/814L1Hj2PAN7TQ4BUHAzs/JZpRK/Qa4fUSxTk7AG2xnLDZVYQ1OJkyqZCjgfjJXS0ZWjZRmdnup+iPRPI7njK2d3/rIGWXNksZliqcBMSL9fVjaNb33ftiIIGOVsgmbdY8+0eEVxTWFxrE2GPv8bItWVcB1HSWi5WMI2D9Z5SOCp+YnORVZVy8dupZeMGyYPoW/FxuWGX4Nm05DDR1etzo08k3afjJTYwTZghxhVlxJ7L2MpanyE73cbHXbN0E3iK4tBf4UqSxY0g="
+      - secure: "Tm9wd5AsPI+pP4ManjRE4FzJq+3lT3Tn9tOI4G/58hllWc6zffVbuKDOKFa4g/JSoCJjRcwf6PmLw7hiydHYuvtVEZilc+4bM9lZVWIgbzCVrTIvjLXY7prhRw9uSoh3ppGApLWzXwq8P9uLqUp4jAxSRslNTnPTp5f6qyeELjmUsrBIRGCgLWk6188h3mYyUzkyb34/RVIX/NOYUAawyRJ1g2u1SWdSTr3C4aO7Sut786nV0sdXlvDmLY/mSmUqrppgdpB5uLuDwyMCsNcmwGYGRy9/0jlzGF40HBPDsloftfvw3Zdowb7eJNcAsRTEYMeomvyHd0AKyh5iN3pcQrnVu0VyOnDoFpZLw0ttShFwyIO3ZqKqKA6c7Bk3iBm01+4JXEBC0MkMtRCd10t5fjk67NiBpJs0ydReDVBwLKOO9oiGk3wZ4kExzDgOXyC/r/tD1/KRJ9Mx/qXu2OoQVtqNNzHsy9fAxTctFJ7MiS+UUOf+FiAiaegyNHJNpZkk0uAEZs0HAHhdQk+iS2jQuYySHpGXp86pl35nmsrCgrKXI2oSQ/YEFhD/YJiK8HIi1KF4bPD5VlCJ1jfZjPs/PsadlHdkuYCw31nda+1GLOWGNZdWYZkmsaJ0AjDih9lhYdJE6a0O6JS92eegLDhQ06pszt3Sr8hayI4VR8rM7GE="
     template:
       - 'Build <%{build_url}|#%{build_number}> of <https://github.com/%{repository_slug}|%{repository_slug}>'
       - 'Branch: <https://github.com/%{repository_slug}/tree/%{branch}|%{branch}>, Commit: <https://github.com/%{repository_slug}/commit/%{commit}|%{commit}>'
