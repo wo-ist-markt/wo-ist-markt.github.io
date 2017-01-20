@@ -70,6 +70,7 @@ in February 2016.
 
 |City name|Data source|
 |:---|:---|
+|[Bad Homburg][bad-homburg-wikipedia]|[Stadt Bad Homburg][bad-homburg-markets]|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
 |[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
@@ -148,6 +149,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [website-karlsruhe-screenshot]: gfx/website-karlsruhe-screenshot.jpg
 [wo-ist-markt-33c3-talk]: https://www.youtube.com/watch?v=IurOWCek7V4
 
+[bad-homburg-wikipedia]: https://en.wikipedia.org/wiki/Bad_Homburg_vor_der_Höhe
+[bad-homburg-markets]: http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
@@ -230,5 +233,3 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
-
-
