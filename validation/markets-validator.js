@@ -66,9 +66,12 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
     });
     console.log(marketCount + " markets validated!");
 
-    process.exit(exitCode);
+    console.log('Waiting for asynchronous tasks to finish ...\n');
 });
 
+process.on('beforeExit', function () {
+    process.exitCode = exitCode;
+});
 
 /**
  * Validator for a market file.
