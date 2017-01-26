@@ -30,6 +30,8 @@ var MIN_LONGITUDE = -180.0;
 
 var exitCode = 0;
 
+var asyncWarnings = [];
+var asyncErrors = [];
 
 colors.setTheme({
     section: 'blue',
@@ -70,6 +72,14 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
 });
 
 process.on('beforeExit', function () {
+    asyncWarnings.forEach(function (warning) {
+        console.log('Warning: %s', warning.toString());
+    });
+
+    asyncErrors.forEach(function (error) {
+        console.log('Error: %s', error.toString());
+    });
+
     process.exitCode = exitCode;
 });
 
