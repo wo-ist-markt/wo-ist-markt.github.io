@@ -21,7 +21,7 @@ var opening_hours = require('opening_hours');
 
 
 var MARKETS_DIR_PATH = "cities";
-var MARKETS_INDEX_FILE_PATH = "cities/cities.json";
+var MARKETS_INDEX_FILE_PATH = path.join('cities', 'cities.json');
 
 var MAX_LATITUDE = 90.0;
 var MIN_LATITUDE = -90.0;
