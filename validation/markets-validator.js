@@ -108,7 +108,7 @@ function MarketValidator(filePath) {
         this.errorsCount += featuresValidator.getErrorsCount();
         this.warningsCount += featuresValidator.getWarningsCount();
 
-        var metadataValidator = new MetadataValidator(json.metadata);
+        var metadataValidator = new MetadataValidator(json.metadata, cityName);
         metadataValidator.validate();
         metadataValidator.printWarnings();
         metadataValidator.printErrors();
@@ -418,9 +418,10 @@ function FeatureValidator(feature, cityName) {
  *
  * - metadata: The "metadata" attribute
  */
-function MetadataValidator(metadata) {
+function MetadataValidator(metadata, cityName) {
 
     this.metadata = metadata;
+    this.cityName = cityName;
     this.errors = [];
     this.warnings = [];
 
