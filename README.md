@@ -92,6 +92,7 @@ in February 2016.
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
+|[Kaiserslautern][kaiserslautern-wikipedia]|[City of Kaiserslautern][kaiserslautern-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Kassel][kassel-wikipedia]|[City of Kassel][kassel-markets]|
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
@@ -196,6 +197,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
+[Kaiserslautern-wikipedia]: https://en.wikipedia.org/wiki/Kaiserslautern
+[Kaiserslautern-markets]: http://www.wochenmarkt-kaiserslautern.de
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
 [kassel-wikipedia]: https://en.wikipedia.org/wiki/Kassel
