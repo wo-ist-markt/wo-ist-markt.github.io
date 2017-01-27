@@ -114,7 +114,7 @@ in February 2016.
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
-
+|[Zwickau][zwickau-wikipedia]|[Kultour Z.][zwickau-markets]|
 
 
 ## Development
@@ -239,3 +239,5 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
+[zwickau-wikipedia]:https://en.wikipedia.org/wiki/Zwickau
+[zwickau-markets]:https://www.zwickautourist.de/de/wochenmaerkte.php
