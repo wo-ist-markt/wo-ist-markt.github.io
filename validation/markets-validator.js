@@ -18,6 +18,9 @@ var path = require("path");
 var colors = require('colors');
 var moment = require('moment');
 var opening_hours = require('opening_hours');
+var urlparse = require('url').parse;
+var http = require('http');
+var https = require('https');
 
 
 var MARKETS_DIR_PATH = "cities";
@@ -478,7 +481,40 @@ function MetadataValidator(metadata, cityName) {
             this.errors.push(new NullAttributeIssue("url"));
         } else if (url.length === 0) {
             this.errors.push(new EmptyAttributeIssue("url"));
+        } else {
+            this.validateUrlStatus(url);
         }
+    };
+
+    this.validateUrlStatus = function(url) {
+        url = urlparse(url);
+        url.method = 'HEAD';
+        url.timeout = 10000; // 10 seconds
+
+        var request;
+        switch(url.protocol) {
+            case 'http:': request = http; break;
+            case 'https:': request = https; break;
+            default:
+                this.warnings.push(new UnknownProtocolIssue(url.protocol));
+                return;
+        }
+
+        request = request.request(url, function(response) {
+            if (response.statusCode !== 200) {
+                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
+            }
+
+            // Cleaning up http request and response
+            // "However, if you add a 'response' event handler, then you
+            //  must consume the data from the response object" NodeJS docs
+            response.on('data', function() {});
+            response.on('end', function() {});
+        });
+        request.on('error', function(error) {
+            asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+        });
+        request.end();
     };
 
     this.validateMapInitialization = function(mapInitialization) {
@@ -621,5 +657,34 @@ function RangeExceedanceIssue(attributeName, min, max, actual) {
     this.toString = function() {
         return "Attribute '" + this.attributeName + "' exceeds valid range of [" +
         this.min + ":" + this.max + "]. Actual value is " + this.actual + ".";
+    };
+}
+
+function UnknownProtocolIssue(protocol) {
+
+    this.protocol = protocol;
+
+    this.toString = function() {
+        return "Unknown protocol '" + this.protocol + "' in data source url.";
+    };
+}
+
+function HttpResponseStatusIssue(cityName, statusCode) {
+
+    this.cityName = cityName;
+    this.statusCode = statusCode;
+
+    this.toString = function() {
+        return this.cityName + ": HTTP response status of data source url was: " + statusCode;
+    };
+}
+
+function HttpRequestErrorIssue(cityName, error) {
+
+    this.cityName = cityName;
+    this.error = error;
+
+    this.toString = function() {
+        return this.cityName + ": Error while accessing data source url: " + error;
     };
 }
