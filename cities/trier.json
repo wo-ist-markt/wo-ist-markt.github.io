@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Viehmarktplatz",
+        "title": "Wochenmarkt Trier",
+        "opening_hours": "Jan-Mar Tu, Fr 08:00-14:00; Apr-Sep Tu, Fr 07:00-14:00; Okt-Dez Tu, Fr 08:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63713,
+          49.75264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Hauptmarkt",
+        "title": "Ständiger Markt",
+        "opening_hours": "Jan-Mar Mo,Tu,We,Th,Fr,Sa 08:00-19:00; Apr-Sep Mo,Tu,We,Th,Fr,Sa 07:00-19:00; Okt-Dez Mo,Tu,We,Th,Fr,Sa 08:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.64128,
+          49.75673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Domfreihof",
+        "title": "Sommerhalbjahr",
+        "opening_hours": "Mar-Okt Sa 09:30-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.64295,
+          49.75651
+        ]
+      }
+    },
+
+
+
+
+  ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Trier",
+            "url": "https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/"
+        },
+        "map_initialization": {
+            "coordinates": [
+              6.6441878,
+              49.7596208
+            ],
+            "zoom_level": 12
+        }
+    }
+}
+
+
