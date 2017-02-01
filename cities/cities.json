@@ -199,6 +199,10 @@
         "id": "suhl",
         "label": "Suhl"
     },
+    "trier": {
+        "id": "trier",
+        "label": "Trier"
+    },
     "tübingen": {
         "id": "tübingen",
         "label": "Tübingen"
