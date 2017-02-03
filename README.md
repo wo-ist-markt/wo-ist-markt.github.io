@@ -92,6 +92,7 @@ in February 2016.
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
+|[Kaiserslautern][kaiserslautern-wikipedia]|[City of Kaiserslautern][kaiserslautern-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Kassel][kassel-wikipedia]|[City of Kassel][kassel-markets]|
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
@@ -114,6 +115,7 @@ in February 2016.
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
+|[Zwickau][zwickau-wikipedia]|[City of Zwickau][zwickau-markets]|
 
 
 

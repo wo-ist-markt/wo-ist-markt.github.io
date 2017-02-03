@@ -155,6 +155,10 @@
         "id": "siegen",
         "label": "Siegen"
     },
+    "trier": {
+        "id": "trier",
+        "label": "Trier"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"
