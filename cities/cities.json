@@ -75,6 +75,10 @@
         "id": "hamburg",
         "label": "Hamburg"
     },
+    "hamm": {
+        "id": "hamm",
+        "label": "Hamm"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"

@@ -1,0 +1,114 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.834044",
+          "51.705252"
+        ]
+      },
+      "properties": {
+        "title": "Hamm-Heessen",
+        "location": "Amtsstraße",
+        "opening_hours": "We,Sa 08:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.742065",
+          "51.659945"
+        ]
+      },
+      "properties": {
+        "title": "Hamm-Herringen",
+        "location": "Herringer Markt",
+        "opening_hours": "We 08:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.761091",
+          "51.695484"
+        ]
+      },
+      "properties": {
+        "title": "Hamm-Bockum-Hövel",
+        "location": "Teichweg",
+        "opening_hours": "We,Fr 08:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.826179",
+          "51.672423"
+        ]
+      },
+      "properties": {
+        "title": "Hamm-Süden",
+        "location": "Liebfrauenkirche",
+        "opening_hours": "Fr 08:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.782824",
+          "51.640679"
+        ]
+      },
+      "properties": {
+        "title": "Hamm-Wiescherhöfen",
+        "location": "Friedhofsweg (vor dem Gemeindehaus)",
+        "opening_hours": "Th 8:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.819257",
+          "51.681074"
+        ]
+      },
+      "properties": {
+        "title": "Innenstadt",
+        "location": "Marktplatz an der Pauluskirche",
+        "opening_hours": "Tu,Th 08:00-14:00; Sa 08:00-14:30"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Hamm",
+      "url": "https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html"
+    },
+    "map_initialization": {
+      "coordinates": [
+        7.799189,
+        51.678443
+      ],
+      "zoom_level": 12
+    }
+  }
+}

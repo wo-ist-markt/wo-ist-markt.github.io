@@ -89,6 +89,7 @@ in February 2016.
 |[Gelsenkirchen][gelsenkirchen-wikipedia]|[Gelsendienste][gelsenkirchen-markets]|
 |[Hagen][hagen-wikipedia]|[City of Hagen][hagen-markets]|
 |[Hamburg][hamburg-wikipedia]|[City of Hamburg][hamburg-markets]|
+|[Hamm][hamm-wikipedia]|[City of Hamm][hamm-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
@@ -189,6 +190,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
 [hamburg-markets]: http://www.hamburg.de/wochenmarkt-hamburg/
+[hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
+[hamm-markets]: https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
