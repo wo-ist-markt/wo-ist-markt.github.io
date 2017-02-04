@@ -6,7 +6,7 @@
       "properties": {
         "location": "Viehmarktplatz",
         "title": "Wochenmarkt Trier",
-        "opening_hours": "Jan-Mar Tu, Fr 08:00-14:00; Apr-Sep Tu, Fr 07:00-14:00; Okt-Dez Tu, Fr 08:00-14:00"
+        "opening_hours": "Jan-Mar Tu, Fr 08:00-14:00; Apr-Sep Tu, Fr 07:00-14:00; Oct-Dec Tu, Fr 08:00-14:00"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +21,7 @@
       "properties": {
         "location": "Hauptmarkt",
         "title": "Ständiger Markt",
-        "opening_hours": "Jan-Mar Mo,Tu,We,Th,Fr,Sa 08:00-19:00; Apr-Sep Mo,Tu,We,Th,Fr,Sa 07:00-19:00; Okt-Dez Mo,Tu,We,Th,Fr,Sa 08:00-19:00"
+        "opening_hours": "Jan-Mar Mo,Tu,We,Th,Fr,Sa 08:00-19:00; Apr-Sep Mo,Tu,We,Th,Fr,Sa 07:00-19:00; Oct-Dec Mo,Tu,We,Th,Fr,Sa 08:00-19:00"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +36,7 @@
       "properties": {
         "location": "Domfreihof",
         "title": "Sommerhalbjahr",
-        "opening_hours": "Mar-Okt Sa 09:30-16:00"
+        "opening_hours": "Mar-Oct Sa 09:30-16:00"
       },
       "geometry": {
         "type": "Point",
