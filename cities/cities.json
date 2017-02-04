@@ -87,6 +87,10 @@
         "id": "hilden",
         "label": "Hilden"
     },
+    "kaiserslautern": {
+        "id": "kaiserslautern",
+        "label": "Kaiserslautern"
+    },
     "karlsruhe": {
         "id": "karlsruhe",
         "label": "Karlsruhe"
@@ -174,5 +178,9 @@
     "wuppertal": {
         "id": "wuppertal",
         "label": "Wuppertal"
+    },
+    "zwickau": {
+        "id": "zwickau",
+        "label": "Zwickau"
     }
 }

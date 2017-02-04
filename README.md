@@ -115,8 +115,7 @@ in February 2016.
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
-|[Zwickau][zwickau-wikipedia]|[City of Zwickau][zwickau-markets]|
-
+|[Zwickau][zwickau-wikipedia]|[Kultour Z.][zwickau-markets]|
 
 
 ## Development
@@ -199,6 +198,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
+[Kaiserslautern-wikipedia]: https://en.wikipedia.org/wiki/Kaiserslautern
+[Kaiserslautern-markets]: http://www.wochenmarkt-kaiserslautern.de
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
 [kassel-wikipedia]: https://en.wikipedia.org/wiki/Kassel
@@ -231,6 +232,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [schwerin-markets]: http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html
 [siegen-wikipedia]: https://en.wikipedia.org/wiki/Siegen
 [siegen-markets]: http://www.siegen.de/ols/dienstleistungen-a-bis-z/?tx_ricools_showtasks%5Baufgabe%5D=597&tx_ricools_showtasks%5Baction%5D=show&tx_ricools_showtasks%5Bcontroller%5D=Aufgabe&cHash=45090d0fafa93fbd51bc3839bfefabe5
+[trier-wikipedia]: https://de.wikipedia.org/wiki/Trier
 [trier-markets]: https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
@@ -240,3 +242,5 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
+[zwickau-wikipedia]:https://en.wikipedia.org/wiki/Zwickau
+[zwickau-markets]:https://www.zwickautourist.de/de/wochenmaerkte.php
