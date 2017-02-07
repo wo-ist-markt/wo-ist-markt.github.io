@@ -112,6 +112,7 @@ in February 2016.
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
 |[Stralsund][stralsund-wikipedia]|[City of Stralsund][stralsund-markets]|
+|[Suhl][suhl-wikipedia]|[City of Suhl][suhl-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
@@ -237,6 +238,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [siegen-markets]: http://www.siegen.de/ols/dienstleistungen-a-bis-z/?tx_ricools_showtasks%5Baufgabe%5D=597&tx_ricools_showtasks%5Baction%5D=show&tx_ricools_showtasks%5Bcontroller%5D=Aufgabe&cHash=45090d0fafa93fbd51bc3839bfefabe5
 [stralsund-wikipedia]: https://en.wikipedia.org/wiki/Stralsund
 [stralsund-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
+[suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
+[suhl-markets]: http://suhltrifft.de/content/view/5059/2190/
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [wiesbaden-wikipedia]:https://en.wikipedia.org/wiki/Wiesbaden
