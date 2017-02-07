@@ -163,6 +163,10 @@
         "id": "siegen",
         "label": "Siegen"
     },
+    "suhl": {
+        "id": "suhl",
+        "label": "Suhl"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"

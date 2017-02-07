@@ -1,0 +1,39 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.69328,
+                    50.61072
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Marktplatz",
+                "opening_hours": "Tu, Th, Fr 07:30-16:00",
+                "title": "Suhler Frische- und Wochenmarkt"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Suhl",
+            "url": "http://suhltrifft.de/content/view/5059/2190/"
+        },
+        "map_initialization": {
+            "coordinates": [
+                10.6926437,
+                50.6086518
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
