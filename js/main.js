@@ -386,7 +386,7 @@ function updateDataSource(dataSource) {
  * current history entry is replaced.
  */
 function loadDefaultCity(createNewHistoryEntry) {
-    setCity(DEFAULT_CITY, createNewHistoryEntry);
+    setCity(DEFAULT_CITY_ID, createNewHistoryEntry);
 }
 
 /*
