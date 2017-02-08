@@ -163,6 +163,10 @@
         "id": "siegen",
         "label": "Siegen"
     },
+    "stralsund": {
+        "id": "stralsund",
+        "label": "Stralsund"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"
