@@ -167,6 +167,10 @@
         "id": "stralsund",
         "label": "Stralsund"
     },
+    "suhl": {
+        "id": "suhl",
+        "label": "Suhl"
+    },
     "ulm": {
         "id": "ulm",
         "label": "Ulm"
