@@ -5,6 +5,7 @@
 A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
 
 - [Five minutes talk about the project at 33C3 (12/2016)][wo-ist-markt-33c3-talk]
+- [Short project summary in a Konrad Adenauer Stiftung publication (02/2017)][wo-ist-markt-kas-publication] (last page, in German)
 
 
 ## Project description
@@ -154,6 +155,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [torfsen-github]: https://github.com/torfsen
 [website-karlsruhe-screenshot]: gfx/website-karlsruhe-screenshot.jpg
 [wo-ist-markt-33c3-talk]: https://www.youtube.com/watch?v=IurOWCek7V4
+[wo-ist-markt-kas-publication]: http://www.kas.de/wf/doc/kas_47864-544-1-30.pdf
 
 [bad-homburg-wikipedia]: https://en.wikipedia.org/wiki/Bad_Homburg_vor_der_Höhe
 [bad-homburg-markets]: http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php
