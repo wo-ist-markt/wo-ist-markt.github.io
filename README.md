@@ -76,6 +76,7 @@ in February 2016.
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
 |[Bottrop][bottrop-wikipedia]|[City of Bottrop][bottrop-markets]|
 |[Braunschweig][braunschweig-wikipedia]|[City of Braunschweig][braunschweig-markets]|
+|[Bremerhaven][bremerhaven-wikipedia]|[City of Bremerhaven][bremerhaven-markets]|
 |[Bretten][bretten-wikipedia]|[City of Bretten][bretten-markets]|
 |[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
