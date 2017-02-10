@@ -100,6 +100,7 @@ in February 2016.
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
+|[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
 |[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
@@ -214,6 +215,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
+[loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
+[loxstedt-markets]: http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim

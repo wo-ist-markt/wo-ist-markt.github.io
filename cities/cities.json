@@ -119,6 +119,10 @@
         "id": "leipzig",
         "label": "Leipzig"
     },
+    "loxstedt": {
+        "id": "loxstedt",
+        "label": "Loxstedt"
+    },
     "moers": {
         "id": "moers",
         "label": "Moers"
