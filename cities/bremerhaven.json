@@ -78,7 +78,7 @@
         },
         {
             "properties" : {
-                "opening_hours" : "Mo 14:00-18:00; Tu 14:00-18:00; We 14:00-18:00; Th 14:00-18:00; Fr 14:00-18:00; Sa 14:00-18:00;",
+                "opening_hours" : "Mo-Sa 14:00-18:00",
                 "title" : "Markt vor der Großen Kirche",
                 "location" : "Große Kirche"
             },
