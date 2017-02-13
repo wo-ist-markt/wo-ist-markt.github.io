@@ -36,7 +36,7 @@ describe('CityList', function() {
                 .filter(function(f) {
                     return !(f in cities)
                 });
-            expect(missingCities.length).toEqual(0);
+            expect(missingCities).toEqual([], "Missing cities in cities.json: " + missingCities.join(", "));
         });
 
         it('should have a city specific json file for each city in the list', function() {
