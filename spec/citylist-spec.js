@@ -28,13 +28,13 @@ describe('CityList', function() {
                 regexp = /json$/;
             var missingCities = dirContent
                 .filter(function(fileName) {
-                    regexp.test(fileName) && fileName !== 'cities.json'
+                    return regexp.test(fileName) && fileName !== 'cities.json'
                 })
                 .map(function(fileName) {
-                    path.basename(fileName, '.json')
+                    return path.basename(fileName, '.json')
                 })
                 .filter(function(f) {
-                    !(f in cities)
+                    return !(f in cities)
                 });
             expect(missingCities.length).toEqual(0);
         });
