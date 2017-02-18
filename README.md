@@ -67,6 +67,13 @@ in February 2016.
   to **start coding** on the project.
 
 
+## Communication
+
+* Please use the [GitHub issue tracker][github-issue-tracker] to discuss new and existing ideas.
+* Come join the converation about this project in our [Slack channel][slack-wo-ist-markt].
+  Write to _tobias DOT preuss AT googlemail DOT com_ if you need an invitation for the Slack group.
+
+
 ## Supported cities
 
 |City name|Data source|
@@ -149,10 +156,12 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 
 
 [fabric]: https://fabfile.org
+[github-issue-tracker]: https://github.com/wo-ist-markt/wo-ist-markt.github.io/issues
 [johnjohndoe-github]: https://github.com/johnjohndoe
 [npm]: https://www.npmjs.com
 [oklab-berlin]: http://codefor.de/berlin
 [oklab-karlsruhe]: http://codefor.de/karlsruhe
+[slack-wo-ist-markt]: https://openknowledgegermany.slack.com/messages/wo-ist-markt/
 [torfsen-github]: https://github.com/torfsen
 [website-karlsruhe-screenshot]: gfx/website-karlsruhe-screenshot.jpg
 [wo-ist-markt-33c3-talk]: https://www.youtube.com/watch?v=IurOWCek7V4
