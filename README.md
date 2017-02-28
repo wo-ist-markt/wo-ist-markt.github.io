@@ -108,6 +108,7 @@ in February 2016.
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
+|[Laupheim][laupheim-wikipedia]|[Laupheim][laupheim-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
@@ -227,6 +228,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
+[laupheim-wikipedia]: https://de.wikipedia.org/wiki/Laupheim
+[laupheim-markets]: https://www.laupheim.de/fileadmin/Dateien/Dateien/Freizeit_und_Kultur/Marktkalender_2017.pdf
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
