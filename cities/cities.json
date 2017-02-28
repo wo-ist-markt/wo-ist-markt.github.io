@@ -119,6 +119,10 @@
         "id": "langenfeld_rhld",
         "label": "Langenfeld (Rhld.)"
     },
+    "laupheim": {
+        "id": "laupheim",
+        "label": "Laupheim"
+    },
     "leipzig": {
         "id": "leipzig",
         "label": "Leipzig"
