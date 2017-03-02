@@ -2611,8 +2611,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.2755,
-                    52.51523
+                    13.454239,
+                    52.496062
                 ],
                 "type": "Point"
             },
@@ -2627,7 +2627,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 10.11.2016",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 11.02.2017",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         },
         "map_initialization": {
