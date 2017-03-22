@@ -94,6 +94,7 @@ in February 2016.
 |[Düsseldorf][duesseldorf-wikipedia]|[City of Düsseldorf][duesseldorf-markets]|
 |[Erlangen][erlangen-wikipedia]|[City of Erlangen][erlangen-markets]|
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
+|[Frankfurt am Main][frankfurtmain-wikipedia]|[City of Frankfurt am Main][frankfurtmain-markets]|
 |[Freiburg][freiburg-wikipedia]|[City of Freiburg][freiburg-markets]|
 |[Gelsenkirchen][gelsenkirchen-wikipedia]|[Gelsendienste][gelsenkirchen-markets]|
 |[Hagen][hagen-wikipedia]|[City of Hagen][hagen-markets]|
@@ -200,6 +201,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
+[frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
+[frankfurtmain-markets]: http://www.frankfurt.de/sixcms/detail.php?id=4623 
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
