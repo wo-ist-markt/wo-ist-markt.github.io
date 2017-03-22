@@ -63,9 +63,13 @@
         "id": "essen",
         "label": "Essen"
     },
-    "freiburg": {
+    "frankfurtmain": {
         "id": "freiburg",
         "label": "Freiburg"
+    },
+    "freiburg": {
+        "id": "frankfurtmain",
+        "label": "Frankfurt am Main"
     },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
