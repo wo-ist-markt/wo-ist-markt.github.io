@@ -9,14 +9,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.686389,
+                    8.66,
                     50.114722
                 ],
                 "type": "Point"
             },
             "properties": {
                 "location": "Konstablerwache",
-                "opening_hours": "Th 10:00 - 20:00 Uhr, Sa 8:00-17:00",
+                "opening_hours": "Th 10:00 - 20:00, Sa 8:00-17:00",
                 "title": "Bauernmarkt Konstablerwache"
             },
             "type": "Feature"

@@ -63,11 +63,11 @@
         "id": "essen",
         "label": "Essen"
     },
-    "frankfurtmain": {
+    "freiburg": {
         "id": "freiburg",
         "label": "Freiburg"
     },
-    "freiburg": {
+    "frankfurtmain": {
         "id": "frankfurtmain",
         "label": "Frankfurt am Main"
     },
