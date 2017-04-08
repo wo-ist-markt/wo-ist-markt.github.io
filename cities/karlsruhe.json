@@ -245,6 +245,21 @@
                 "title": "Werderplatz"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.40384,
+                    49.00916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Auf dem Marktplatz",
+                "opening_hours": "We 16:00-20:00",
+                "title": "Abendmarkt"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
