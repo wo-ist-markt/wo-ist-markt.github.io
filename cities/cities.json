@@ -67,6 +67,10 @@
         "id": "freiburg",
         "label": "Freiburg"
     },
+    "frankfurtmain": {
+        "id": "frankfurtmain",
+        "label": "Frankfurt am Main"
+    },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"

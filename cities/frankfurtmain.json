@@ -1,0 +1,325 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.66,
+                    50.114722
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Konstablerwache",
+                "opening_hours": "Th 10:00 - 20:00, Sa 8:00-17:00",
+                "title": "Bauernmarkt Konstablerwache"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.681577,
+                    50.112886
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Liebfrauenberg",
+                "opening_hours": "Fr 09:00-18:00",
+                "title": "Blumenmarkt am Liebfrauenberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6322897,
+                    50.103676
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Gallus",
+                "opening_hours": "Fr 8:00 - 18:30",
+                "title": "Gallusmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6615995,
+                    50.1071159
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Kaiserstraße 81",
+                "opening_hours": "Tu, Th 9:00 - 19:00",
+                "title": "Kaisermarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6765066,
+                    50.1143328
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Schillerstraße 2",
+                "opening_hours": "Fr 9:00 - 18:30",
+                "title": "Wochenmarkt Schillermarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.651944,
+                    50.12
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bockenheimer Warte",
+                "opening_hours": "Th 8:00 - 18:00",
+                "title": "Wochenmarkt Bockenheim"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6638942,
+                    50.1838845
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Am Wendelsgarten",
+                "opening_hours": "Th 13:00 - 20:00",
+                "title": "Wochenmarkt Bonames"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.7052541,
+                    50.1256889
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Berger Straße 194",
+                "opening_hours": "We 8:00 - 18:30, Sa 8:00 - 16:00",
+                "title": "Wochenmarkt Bornheim"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6686046,
+                    50.1267152
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Gisèle-Freund-Platz 1",
+                "opening_hours": "Th 09:00 - 17:00",
+                "title": "Wochenmarkt Campus Westend"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6309833,
+                    50.1173839
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Celsiusplatz ",
+                "opening_hours": "We 10:00-20:00",
+                "title": "Wochenmarkt Celsiusplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6696126,
+                    50.1401946
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carl-Goerdeler-Straße 5 ",
+                "opening_hours": "Tu 08:00-18:00",
+                "title": "Wochenmarkt Dornbusch"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6449799,
+                    50.1599616
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Karl-Perott-Platz ",
+                "opening_hours": "Fr 09:00-18:00",
+                "title": "Wochenmarkt Heddernheim"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6424113,
+                    50.08659
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bruchfeldstraße 51",
+                "opening_hours": "Sa 08:00-16:00",
+                "title": "Wochenmarkt Niederrad"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6894345,
+                    50.1231061
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Friedberger Platz ",
+                "opening_hours": "Fr 10:00-20:00",
+                "title": "Wochenmarkt Nordend"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6300325,
+                    50.1578427
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Walter-Möller-Platz 3",
+                "opening_hours": "We 09:00-18:00",
+                "title": "Wochenmarkt Nordwestzentrum"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6970994,
+                    50.1107928
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Paul-Arnsberg-Platz ",
+                "opening_hours": "Fr 09:00-18:00",
+                "title": "Wochenmarkt Nordend"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6963383,
+                    50.155387
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Gravensteiner-Platz",
+                "opening_hours": "Fr 11:00-19:00",
+                "title": "Wochenmarkt Preungesheim"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6278133,
+                    50.177138
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Riedbergplatz",
+                "opening_hours": "Sa 09:00-16:00",
+                "title": "Wochenmarkt Riedberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6835913,
+                    50.10054
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Diesterwegplatz 50",
+                "opening_hours": "Tu, Fr 08:00-18:00",
+                "title": "Wochenmarkt Sachsenhausen"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.5437426,
+                    50.0993068
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Höchster Markt 6",
+                "opening_hours": "Tu, Fr, Sa 7:00 - 13:00",
+                "title": "Wochenmarkt und Markthalle Höchst"
+            },
+            "type": "Feature"
+        }
+
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Frankfurt am Main",
+            "url": "http://frankfurt.de/sixcms/detail.php?id=4623&_ffmpar[_id_eltern]=4622"
+        },
+        "map_initialization": {
+            "coordinates": [
+                8.66,
+                50.114722
+            ],
+            "zoom_level": 11
+        }
+    },
+    "type": "FeatureCollection"
+}
