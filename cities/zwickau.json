@@ -48,14 +48,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    12.495889,
-                    50.716485
+                    12.497970,
+                    50.717901
                 ],
                 "type": "Point"
             },
             "properties": {
                 "title": "Wochenmarkt",
-                "location": "Kornmarkt",
+                "location": "Hauptmarkt Ostspiegel (Schumann-Denkmal)",
                 "opening_hours": "Th 09:00-18:00; Fr 09:00-15:00"
             },
             "type": "Feature"
