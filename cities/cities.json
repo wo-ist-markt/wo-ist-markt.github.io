@@ -171,6 +171,10 @@
         "id": "potsdam",
         "label": "Potsdam"
     },
+    "oldenburg": {
+        "id": "oldenburg",
+        "label": "Oldenburg (Oldb)"
+    },
     "rostock": {
         "id": "rostock",
         "label": "Rostock"

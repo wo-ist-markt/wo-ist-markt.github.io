@@ -1,0 +1,129 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.21304,
+                    53.14686
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pferdemarkt",
+                "opening_hours": "Tu, Th 07:00-13:30; Sa 07:00-14:00",
+                "title": "Pferdemarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.21463,
+                    53.13897
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Rathausmarkt an der Lamberti-Kirche",
+                "opening_hours": "Tu, Th 07:00-14:30; Sa 07:00-15:00",
+                "title": "Rathausmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.16380,
+                    53.14124
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bloherfelder Marktplatz",
+                "opening_hours": "We, Fr 07:00-13:00",
+                "title": "Bloherfelde"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                 8.20984,
+                 53.10882
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Klingenbergplatz",
+                "opening_hours": "We, Fr 07:00-13:30",
+                "title": "Kreyenbrück"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.21463,
+                    53.13897
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Rathausmarkt an der Lamberti-Kirche",
+                "opening_hours": "Fr 11:00-18:00",
+                "title": "Bauernmarkt in Oldenburg e.V."
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.20905,
+                    53.14108
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Julius-Mosen-Platz",
+                "opening_hours": "We 11:00-18:00",
+                "title": "Öko-Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.19947,
+                    53.13407
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Marktplatz Eversten",
+                "opening_hours": "We 08:00-14:00; Fr 08:00-15:00",
+                "title": "Wochenmarkt Eversten"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Oldenburg",
+            "url": "http://www.oldenburg.de/microsites/wochenmaerkte.html"
+        },
+        "map_initialization": {
+            "coordinates": [
+                8.2123,
+                53.1394
+            ],
+            "zoom_level": 13
+        }
+    },
+    "type": "FeatureCollection"
+}
