@@ -87,6 +87,7 @@ in February 2016.
 |[Bremerhaven][bremerhaven-wikipedia]|[City of Bremerhaven][bremerhaven-markets]|
 |[Bretten][bretten-wikipedia]|[City of Bretten][bretten-markets]|
 |[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
+|[Brühl][brühl-wikipedia]|[Stadt Brühl][brühl-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Dortmund][dortmund-wikipedia]|[City of Dortmund][dortmund-markets]|
 |[Dresden][dresden-wikipedia]|[City of Dresden][dresden-markets]|
@@ -187,6 +188,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [bretten-markets]: http://www.bretten.de/tourismus-kultur-freizeit/wochenmarkt
 [bruchköbel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
 [bruchköbel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
+[brühl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
+[brühl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
