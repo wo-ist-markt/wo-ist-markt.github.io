@@ -190,7 +190,6 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [bruchköbel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
 [brühl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
 [brühl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
-
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
