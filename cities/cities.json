@@ -35,6 +35,10 @@
         "id": "bruchköbel",
         "label": "Bruchköbel"
     },
+    "brühl": {
+        "id": "brühl",
+        "label": "Brühl"
+    },
     "chemnitz": {
         "id": "chemnitz",
         "label": "Chemnitz"
