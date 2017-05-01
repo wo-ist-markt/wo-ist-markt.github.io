@@ -94,7 +94,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Erlangen",
-            "url": "http://www.erlangen.de/desktopdefault.aspx"
+            "url": "https://www.erlangen.de/desktopdefault.aspx"
         },
      "map_initialization": {
             "coordinates": [
