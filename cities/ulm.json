@@ -50,13 +50,6 @@
         "data_source": {
             "title": "Stadt Ulm",
             "url": "http://www.ulm.de/marktwesen.97940.21332,97940.htm"
-        },
-        "map_initialization": {
-            "coordinates": [
-                9.9932755,
-                48.3973944
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

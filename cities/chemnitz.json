@@ -101,13 +101,6 @@
 		"data_source": {
 			"title": "Stadt Chemnitz",
 			"url": "http://www.chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html"
-		},
-		"map_initialization": {
-			"coordinates": [
-				12.9417,
-				50.8246
-			],
-			"zoom_level": 13
 		}
 	},
 	"type": "FeatureCollection"

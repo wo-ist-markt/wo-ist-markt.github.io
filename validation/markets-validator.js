@@ -436,6 +436,7 @@ function MetadataValidator(metadata, cityName) {
             this.errors.push(new NullAttributeIssue("metadata"));
         } else {
             this.validateDataSource(metadata.data_source);
+            this.validateMapInitialization(metadata.map_initialization);
         }
     };
 
@@ -518,43 +519,8 @@ function MetadataValidator(metadata, cityName) {
     };
 
     this.validateMapInitialization = function(mapInitialization) {
-        if (mapInitialization === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("map_initialization"));
-        } else if (mapInitialization === null) {
-            this.errors.push(new NullAttributeIssue("map_initialization"));
-        } else {
-            this.validateCoordinates(mapInitialization.coordinates);
-            this.validateZoomLevel(mapInitialization.zoom_level);
-        }
-    };
-
-    this.validateCoordinates = function(coordinates) {
-        if (coordinates === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("coordinates"));
-        } else if (coordinates === null) {
-            this.errors.push(new NullAttributeIssue("coordinates"));
-        } else if (coordinates.length === 2) {
-            this.errors.push(
-                "Attribute 'coordinates' must contain two values not " + coordinates.length + ".");
-        } else {
-            var lon = coordinates[0];
-            if (!longitudeInValidRange(lon)) {
-                this.errors.push(new LongitudeRangeExceedanceIssue("coordinates[0]", lon));
-            }
-            var lat = coordinates[1];
-            if (!latitudeInValidRange(lat)) {
-                this.errors.push(new LatitudeRangeExceedanceIssue("coordinates[1]", lat));
-            }
-        }
-    };
-
-    this.validateZoomLevel = function(zoomLevel) {
-        if (zoomLevel === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("zoom_level"));
-        } else if (zoomLevel === null) {
-            this.errors.push(new NullAttributeIssue("zoom_level"));
-        } else if (zoomLevel < 1 || zoomLevel > 18) {
-            this.errors.push(new RangeExceedanceIssue("zoom_level", 1, 18, zoomLevel));
+        if (mapInitialization !== undefined) {
+            this.errors.push(new ObsoleteIssue("map_initialization"));
         }
     };
 
@@ -599,6 +565,15 @@ function CustomIssue(message) {
 
     this.toString = function() {
         return this.message;
+    };
+}
+
+function ObsoleteIssue(attributeName) {
+
+    this.attributeName = attributeName;
+
+    this.toString = function() {
+        return "Attribute '" + this.attributeName + "' is no longer used and can be removed.";
     };
 }
 

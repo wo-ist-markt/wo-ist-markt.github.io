@@ -4,13 +4,6 @@
     "data_source": {
       "title": "Offene Daten Moers, aktualisiert am 09.04.2016",
       "url": "https://www.moers.de/de/opendataxml/maerkte/"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.642952,
-        51.455816
-      ],
-      "zoom_level": 11
     }
   },
   "features": [

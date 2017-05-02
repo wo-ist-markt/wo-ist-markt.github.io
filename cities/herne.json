@@ -132,13 +132,6 @@
     "data_source": {
       "title": "Stadt Herne",
       "url": "http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Wochenmaerkte"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.206496,
-        51.539589
-      ],
-      "zoom_level": 13
     }
   }
 }

@@ -20,13 +20,6 @@
         "data_source": {
             "title": "Gemeinde Nersingen",
             "url": "http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                10.12289,
-                48.42741
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

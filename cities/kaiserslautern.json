@@ -51,13 +51,6 @@
         "data_source": {
             "title": "Kaiserslauterer Wochenmarktverein",
             "url": "http://www.wochenmarkt-kaiserslautern.de/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                7.773078,
-                49.444754
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

@@ -50,13 +50,6 @@
         "data_source": {
             "title": "Stadt Brühl - Wochenmärkte",
             "url": "http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                6.9,
-                50.835
-            ],
-            "zoom_level": 14
         }
     },
     "type": "FeatureCollection"

@@ -185,13 +185,6 @@
         "data_source": {
             "title": "Stadt Laupheim",
             "url": "https://www.laupheim.de/fileadmin/Dateien/Dateien/Freizeit_und_Kultur/Marktkalender_2017.pdf"
-        },
-        "map_initialization": {
-            "coordinates": [
-                9.88615,
-                48.22932
-            ],
-            "zoom_level": 16
         }
     },
     "type": "FeatureCollection"

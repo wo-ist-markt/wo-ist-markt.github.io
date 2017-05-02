@@ -191,13 +191,6 @@
         "data_source": {
             "title": "Stadt Braunschweig",
             "url": "http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                10.52527,
-                52.26400
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

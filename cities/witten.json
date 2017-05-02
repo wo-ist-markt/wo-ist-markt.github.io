@@ -72,13 +72,6 @@
     "data_source": {
       "title": "Stadtmarketing Witten GmbH",
       "url": "http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.35258,
-        51.44362
-      ],
-      "zoom_level": 13
     }
   }
 }

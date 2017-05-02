@@ -20,13 +20,6 @@
         "data_source": {
             "title": "Stadt Hanau",
             "url": "http://www.hanau.de/lih/sport/maerkte/woma/010241/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.9391,
-                50.1238
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

@@ -20,13 +20,6 @@
         "data_source": {
             "title": "Stadt Neu-Ulm",
             "url": "http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                9.99875,
-                48.39394
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

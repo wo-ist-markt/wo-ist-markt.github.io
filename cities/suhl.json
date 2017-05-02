@@ -26,13 +26,6 @@
         "data_source": {
             "title": "Stadt Suhl",
             "url": "http://suhltrifft.de/content/view/5059/2190/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                10.6926437,
-                50.6086518
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

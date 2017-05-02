@@ -95,13 +95,6 @@
         "data_source": {
             "title": "Stadt Osnabrück",
             "url": "https://www.osnabrueck.de/tourismus/aktivitaeten/hoehepunkte/wochenmaerkte.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.0617332,
-                52.276928 
-            ],
-            "zoom_level": 14
         }
     },
     "type": "FeatureCollection"

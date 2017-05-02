@@ -171,13 +171,6 @@
         "data_source": {
             "title": "Stadt Wuppertal",
             "url": "https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                7.14,
-                51.25
-            ],
-            "zoom_level": 11
         }
     }
 }

@@ -116,13 +116,6 @@
         "data_source": {
             "title": "Stadt Oldenburg",
             "url": "http://www.oldenburg.de/microsites/wochenmaerkte.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.2123,
-                53.1394
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

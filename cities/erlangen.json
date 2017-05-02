@@ -95,13 +95,6 @@
         "data_source": {
             "title": "Stadt Erlangen",
             "url": "https://www.erlangen.de/desktopdefault.aspx"
-        },
-     "map_initialization": {
-            "coordinates": [
-                11.003812,
-                49.597750
-            ],
-            "zoom_level": 10
         }
     },
     "type": "FeatureCollection"

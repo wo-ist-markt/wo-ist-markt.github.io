@@ -266,13 +266,6 @@
         "data_source": {
             "title": "Stadt Freiburg",
             "url": "http://www.freiburg.de/pb/,Lde/226390.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                7.8499,
-                48.0012
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

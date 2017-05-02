@@ -27,13 +27,6 @@
     "data_source": {
       "title": "Stadt Langenfeld (Rhld.)",
       "url": "http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.948866,
-        51.10995
-      ],
-      "zoom_level": 13
     }
   }
 }

@@ -230,13 +230,6 @@
         "data_source": {
             "title": "Stadt Leipzig",
             "url": "https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                12.3810549,
-                51.3391827
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

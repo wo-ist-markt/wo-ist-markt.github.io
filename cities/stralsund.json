@@ -42,13 +42,6 @@
     "data_source": {
       "title": "Stadt Stralsund",
       "url": "http://www.rostocker-wochenmaerkte.de/standorte-angebote/"
-    },
-    "map_initialization": {
-      "coordinates": [
-        13.0904622,
-        54.3159851
-      ],
-      "zoom_level": 13
     }
   }
 }

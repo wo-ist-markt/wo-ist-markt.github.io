@@ -561,13 +561,6 @@
         "data_source": {
             "url": "https://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln",
             "title": "Offene Daten Köln"
-        },
-        "map_initialization": {
-            "zoom_level": 11,
-            "coordinates": [
-                6.952778,
-                50.936389
-            ]
         }
     }
 }

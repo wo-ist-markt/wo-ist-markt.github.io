@@ -65,13 +65,6 @@
         "data_source": {
             "title": "Kultour Z.",
             "url": "https://www.zwickautourist.de/de/wochenmaerkte.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                12.481838,
-                50.709778
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

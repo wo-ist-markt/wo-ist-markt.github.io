@@ -26,13 +26,6 @@
         "data_source": {
             "title": "Stadt Bretten",
             "url": "http://www.bretten.de/tourismus-kultur-freizeit/wochenmarkt"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.7071415,
-                49.0367591
-            ],
-            "zoom_level": 16
         }
     },
     "type": "FeatureCollection"
