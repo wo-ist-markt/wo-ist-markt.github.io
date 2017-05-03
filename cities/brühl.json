@@ -1,0 +1,63 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    6.89742,
+                    50.82805
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Brühler Wochenmarkt",
+                "location": "Balthasar-Neumann-Platz",
+                "opening_hours": "Tu, Th, Sa 07:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.90468,
+                    50.82831
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Frischemarkt Innenstadt",
+                "location": "Uhlstraße",
+                "opening_hours": "We 08:00-19:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.89573,
+                    50.84026
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Brühl-Vochem",
+                "location": "Thüringer Platz",
+                "opening_hours": "Fr 06:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Brühl - Wochenmärkte",
+            "url": "http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php"
+        },
+        "map_initialization": {
+            "coordinates": [
+                6.9,
+                50.835
+            ],
+            "zoom_level": 14
+        }
+    },
+    "type": "FeatureCollection"
+}
