@@ -127,6 +127,7 @@ in February 2016.
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
 |[Stralsund][stralsund-wikipedia]|[City of Stralsund][stralsund-markets]|
 |[Suhl][suhl-wikipedia]|[City of Suhl][suhl-markets]|
+|[Tübingen][tübingen-wikipedia]|[City of Tübingen][tübingen-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
