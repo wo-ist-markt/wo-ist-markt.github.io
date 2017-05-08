@@ -305,6 +305,51 @@
                 "title": "Wochenmarkt und Markthalle Höchst"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.7224664,
+                    50.0972815
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Buchrainstraße",
+                "opening_hours": "Sa 09:00 - 16:00",
+                "title": "Wochenmarkt Oberrad Buchrainplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.7311201,
+                    50.1299471
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Schäfflestraße 12",
+                "opening_hours": "Sa 08:00 - 12:00",
+                "title": "Wochenmarkt Riederwald"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.6807097,
+                    50.0949514
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Mörfelder Landstraße 129-131",
+                "opening_hours": "Sa 8:30 - 14:00",
+                "title": "Wochenmarkt Sachsenhausen Ziegelhüttenplatz"
+            },
+            "type": "Feature"
         }
 
     ],
