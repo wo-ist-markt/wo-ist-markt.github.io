@@ -175,6 +175,10 @@
         "id": "oldenburg",
         "label": "Oldenburg (Oldb)"
     },
+    "osnabrück": {
+        "id": "osnabrück",
+        "label": "Osnabrück"
+    },
     "rostock": {
         "id": "rostock",
         "label": "Rostock"
