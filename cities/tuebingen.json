@@ -16,7 +16,7 @@
       },
       "properties": {
         "location": "Am Markt",
-        "opening_hours": "Mo 07:00-13:00, Mi 07:00 - 13:00, Fr 07:00-13:00",
+        "opening_hours": "Mo 07:00-13:00, We 07:00 - 13:00, Fr 07:00-13:00",
         "title": "Auf dem Marktplatz"
       },
       "type": "Feature"
@@ -39,7 +39,7 @@
   ],
   "metadata": {
     "data_source": {
-      "title": "Wochenmarkt Universitätsstadt Tübingen",
+      "title": "Wochenmarkt - Universitätsstadt Tübingen",
       "url": "https://www.tuebingen.de/wochenmarkt"
     },
     "map_initialization": {
