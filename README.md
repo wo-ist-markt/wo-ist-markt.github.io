@@ -128,6 +128,7 @@ in February 2016.
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
 |[Stralsund][stralsund-wikipedia]|[City of Stralsund][stralsund-markets]|
 |[Suhl][suhl-wikipedia]|[City of Suhl][suhl-markets]|
+|[Tübingen][tübingen-wikipedia]|[Wochenmarkt - Universitätsstadt Tübingen][tübingen-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
@@ -272,6 +273,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [stralsund-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
 [suhl-markets]: http://suhltrifft.de/content/view/5059/2190/
+[tübingen-wikipedia]: https://en.wikipedia.org/wiki/T%C3%BCbingen
+[tübingen-markets]: https://www.tuebingen.de/wochenmarkt
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [wiesbaden-wikipedia]:https://en.wikipedia.org/wiki/Wiesbaden
