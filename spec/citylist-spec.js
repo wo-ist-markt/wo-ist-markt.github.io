@@ -1,6 +1,11 @@
 var fs = require('fs'),
     path = require('path');
 
+
+function normalizeString(string){
+    return string.normalize();
+}
+
 describe('CityList', function() {
 
     describe('cities.json', function() {
@@ -26,15 +31,19 @@ describe('CityList', function() {
                 fileName,
                 cityId,
                 regexp = /json$/;
+
+            var cityNames = Object.keys(cities).map(normalizeString);
+
             var missingCities = dirContent
                 .filter(function(fileName) {
                     return regexp.test(fileName) && fileName !== 'cities.json'
                 })
                 .map(function(fileName) {
-                    return path.basename(fileName, '.json')
+                    var cityName = path.basename(fileName, '.json');
+                    return normalizeString(cityName);
                 })
-                .filter(function(f) {
-                    return !(f in cities)
+                .filter(function(cityName) {
+                    return !(cityNames.includes(cityName))
                 });
             expect(missingCities).toEqual([], "Missing cities in cities.json: " + missingCities.join(", "));
         });
