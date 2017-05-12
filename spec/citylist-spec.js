@@ -28,8 +28,6 @@ describe('CityList', function() {
         it('should have an entry for each city.json file', function() {
             var dirContent = fs.readdirSync('cities'),
                 cities = JSON.parse(fs.readFileSync('cities/cities.json')),
-                fileName,
-                cityId,
                 regexp = /json$/;
 
             var cityNames = Object.keys(cities).map(normalizeString);
