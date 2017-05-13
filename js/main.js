@@ -14,10 +14,10 @@ var CITY_LIST_API_URL = 'cities/cities.json';
 var cityDirectory = {}; // the city directory (i.e. a list of all cities indexed by id)
 
 var map;
-var nowGroup = L.layerGroup();
-var todayGroup = L.layerGroup();
-var otherGroup = L.layerGroup();
-var unclassifiedGroup = L.layerGroup();
+var nowGroup = L.featureGroup();
+var todayGroup = L.featureGroup();
+var otherGroup = L.featureGroup();
+var unclassifiedGroup = L.featureGroup();
 
 var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
@@ -92,10 +92,9 @@ function getNextMarketDateHtml(nextChange) {
 /*
  * Moves the map to its initial position.
  */
-function positionMap(mapInitialization) {
-    var coordinates = mapInitialization.coordinates;
-    var zoomLevel = mapInitialization.zoom_level;
-    map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
+function positionMap() {
+    var bounds = L.featureGroup([nowGroup, todayGroup, otherGroup, unclassifiedGroup]).getBounds();
+    map.fitBounds(bounds);
 }
 
 /*
@@ -403,9 +402,9 @@ function setCity(cityID, createNewHistoryEntry) {
         return loadDefaultCity(false);
     }
     $.getJSON(filename, function(json) {
-        positionMap(json.metadata.map_initialization);
         updateDataSource(json.metadata.data_source);
         updateMarkers(json);
+        positionMap();
         updateControls();
         updateLayers();
         updateUrlHash(cityID, createNewHistoryEntry);

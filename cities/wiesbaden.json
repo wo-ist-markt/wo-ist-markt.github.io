@@ -69,13 +69,6 @@
         "data_source": {
             "title": "Wiesbaden Marketing GmbH",
             "url": "http://www.wiesbaden.de/microsite/wochenmarkt/index.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.28842,
-                50.03985
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection",

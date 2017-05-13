@@ -81,13 +81,6 @@
         "data_source": {
             "title": "Stadt Paderborn",
             "url": "https://www.paderborn.de/microsite/wochenmarkt/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.753662,
-                51.719016
-            ],
-            "zoom_level": 13
         }
     }
 }

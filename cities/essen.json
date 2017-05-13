@@ -402,13 +402,6 @@
     "data_source": {
       "title": "EVB",
       "url": "https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.011837,
-        51.456474
-      ],
-      "zoom_level": 12
     }
   }
 }

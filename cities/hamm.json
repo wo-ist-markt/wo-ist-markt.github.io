@@ -102,13 +102,6 @@
     "data_source": {
       "title": "Stadt Hamm",
       "url": "https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.799189,
-        51.678443
-      ],
-      "zoom_level": 12
     }
   }
 }

@@ -86,13 +86,6 @@
         "data_source": {
             "title": "Stadt Potsdam",
             "url": "https://www.potsdam.de/kategorie/maerkte"
-        },
-        "map_initialization": {
-            "coordinates": [
-                13.0669,
-                52.3916
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

@@ -207,13 +207,6 @@
     "data_source": {
       "title": "Stadt Dortmund",
       "url": "https://www.dortmund.de/de/leben_in_dortmund/stadtportraet/einkaufen/wochenmaerkte/"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.465853,
-        51.515401
-      ],
-      "zoom_level": 12
     }
   }
 }

@@ -396,13 +396,6 @@
         "data_source": {
             "url": "https://www.duesseldorf.de/verbraucherschutz/marktmanagement/wochenmaerkte/termine.html",
             "title": "Amt für Verbraucherschutz Düsseldorf"
-        },
-        "map_initialization": {
-            "zoom_level": 11,
-            "coordinates": [
-                6.7127809,
-                51.2482005
-            ]
         }
     }
 }

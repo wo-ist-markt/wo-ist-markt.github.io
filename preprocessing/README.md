@@ -24,13 +24,6 @@ the project root folder:
         "data_source": {
             "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 02.02.2016",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
-        },
-        "map_initialization": {
-            "coordinates": [
-                13.383333,
-                52.516667
-            ],
-            "zoom_level": 11
         }
     },
     ```

@@ -41,13 +41,6 @@
     "data_source": {
       "title": "Wochenmarkt - Universitätsstadt Tübingen",
       "url": "https://www.tuebingen.de/wochenmarkt"
-    },
-    "map_initialization": {
-      "coordinates": [
-        9.0533834,
-        48.5203296
-      ],
-      "zoom_level": 15
     }
   },
   "type": "FeatureCollection"

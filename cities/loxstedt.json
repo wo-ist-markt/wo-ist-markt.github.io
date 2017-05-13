@@ -21,13 +21,6 @@
         "data_source" : {
             "url" : "http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html",
             "title" : "Gemeinde Loxstedt"
-        },
-        "map_initialization" : {
-            "zoom_level" : 11,
-            "coordinates" : [
-		8.647308,
-		53.472464
-            ]
         }
     }
 }

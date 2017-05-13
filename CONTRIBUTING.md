@@ -68,20 +68,11 @@ This section describes the file format which is used to store the market data fo
       "data_source": {
           "title": "Stadt Karlsruhe",
           "url": "http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
-      },
-      "map_initialization": {
-          "coordinates": [
-              8.4044366,
-              49.0140679
-          ],
-          "zoom_level": 13
       }
   },
   ```
 
-* You need to provide the map `coordinates` (the center of all markets) and `zoom_level`
-  which are used to set the initial position of the map.
-* Further, the `data_source` must be specified so it can be shown in the legend overlay.
+* You need to provide the `data_source` so it can be shown in the legend overlay.
 
 
 ### Market data validation

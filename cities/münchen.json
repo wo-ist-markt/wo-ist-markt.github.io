@@ -4,13 +4,6 @@
       "data_source": {
          "title": "Stadt München, CC BY 2.0 DE, aktualisiert am 27.02.2015",
          "url": "https://www.opengov-muenchen.de/dataset/maerkte"
-      },
-      "map_initialization": {
-         "coordinates": [
-            11.541836,
-            48.15491
-         ],
-         "zoom_level": 11
       }
    },
    "features": [

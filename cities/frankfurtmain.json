@@ -357,13 +357,6 @@
         "data_source": {
             "title": "Stadt Frankfurt am Main",
             "url": "http://frankfurt.de/sixcms/detail.php?id=4623&_ffmpar[_id_eltern]=4622"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.66,
-                50.114722
-            ],
-            "zoom_level": 11
         }
     },
     "type": "FeatureCollection"

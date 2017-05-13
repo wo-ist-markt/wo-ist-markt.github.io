@@ -56,13 +56,6 @@
         "data_source": {
             "title": "Stadt Kassel",
             "url": "http://www.serviceportal-kassel.de/cms05/dienstleistungen/029907/index.html"
-        },
-        "map_initialization": {
-            "coordinates": [
-                9.4762981,
-                51.3090209
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

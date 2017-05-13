@@ -51,13 +51,6 @@
         "data_source": {
             "title": "Stadt Trier",
             "url": "https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/"
-        },
-        "map_initialization": {
-            "coordinates": [
-              6.6441878,
-              49.7596208
-            ],
-            "zoom_level": 15
         }
     }
 }

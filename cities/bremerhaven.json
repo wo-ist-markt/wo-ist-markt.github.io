@@ -96,13 +96,6 @@
         "data_source" : {
             "url" : "https://www.bremerhaven.de/de/tourismus/shopping-gastronomie/wochenmaerkte-in-bremerhaven.22120.html",
             "title" : "Stadt Bremerhaven"
-        },
-        "map_initialization" : {
-            "zoom_level" : 11,
-            "coordinates" : [
-		8.578039,
-		53.541939
-            ]
         }
     }
 }

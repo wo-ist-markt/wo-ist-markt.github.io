@@ -447,13 +447,6 @@
     "data_source": {
       "title": "Duisburg Kontor GmbH",
       "url": "https://www.duisburg.de/leben/maerkte_in_duisburg/index.php"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.760197,
-        51.45173
-      ],
-      "zoom_level": 12
     }
   }
 }

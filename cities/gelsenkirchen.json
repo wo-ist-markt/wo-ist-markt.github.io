@@ -162,13 +162,6 @@
     "data_source": {
       "title": "Gelsendienste",
       "url": "https://www.gelsendienste.de/Wochenmaerkte/Unsere_Leistungen/Wochenmaerkte_im_Stadtgebiet.asp"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.087083,
-        51.516014
-      ],
-      "zoom_level": 13
     }
   }
 }

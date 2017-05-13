@@ -147,13 +147,6 @@
     "data_source": {
       "title": "Stadt Hagen",
       "url": "https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.494752,
-        51.359128
-      ],
-      "zoom_level": 13
     }
   }
 }

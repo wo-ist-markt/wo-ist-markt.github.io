@@ -185,13 +185,6 @@
         "data_source": {
             "title": "Stadt Kiel",
             "url": "https://www.kiel.de/touristik/maerkte/wochenmarkt.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                10.0799652,
-                54.3384432
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"
