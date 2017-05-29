@@ -133,6 +133,7 @@ in February 2016.
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
+|[Wolfenbüttel][wolfenbuettel-wikipedia]|[Stadt Wolfenbüttel][wolfenbuettel-markets]|
 |[Wuppertal][wuppertal-wikipedia]|[City of Wuppertal][wuppertal-markets]|
 |[Zwickau][zwickau-wikipedia]|[Kultour Z.][zwickau-markets]|
 
@@ -284,6 +285,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [wiesbaden-markets]:http://www.wiesbaden.de/wiesbadener-wochenmarkt/
 [witten-wikipedia]:https://en.wikipedia.org/wiki/Witten
 [witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
+[wolfenbuettel-wikipedia]: https://de.wikipedia.org/wiki/Wolfenb%C3%BCttel
+[wolfenbuettel-markets]: https://www.wolfenbuettel.de/index.php?NavID=2672.372
 [wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
 [zwickau-wikipedia]:https://en.wikipedia.org/wiki/Zwickau
