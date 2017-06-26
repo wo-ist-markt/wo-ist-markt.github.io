@@ -4,9 +4,9 @@
  */
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
-var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
-                  'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
-                  'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
+var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> | ' +
+                  'contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
+                  'CC-BY-SA</a> | Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
 
 var DEFAULT_CITY_ID = "karlsruhe";
