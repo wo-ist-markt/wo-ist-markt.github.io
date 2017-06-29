@@ -497,8 +497,9 @@ $(window).on('hashchange',function() {
 
 
 $(document).ready(function() {
-    var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles);
+    map = new L.map('map');
+    L.tileLayer(TILES_URL, { attribution: ATTRIBUTION }).addTo(map);
+
     var dropDownCitySelection = $('#dropDownCitySelection');
     $("input[name=display]").change(updateLayers);
 
