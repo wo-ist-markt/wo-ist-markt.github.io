@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "devDependencies": {
     "colors": "~1.1.2",
+    "country-language": "^0.1.7",
+    "i18next-client": "^1.11.5",
     "jasmine": "^2.4.1",
     "jshint": "~2.9.5",
     "moment": "~2.18.1",
-    "opening_hours": "~3.4.0"
+    "opening_hours": "~3.5.0"
   },
   "repository": {
     "type": "git",
