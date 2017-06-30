@@ -4,9 +4,12 @@
  */
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
-var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
-                  'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
-                  'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
+var ATTRIBUTION = '<a id="daten" href="info.html">Über Wo ist Markt?</a> | ' +
+                  '<a id="impressum" href="impressum.html">Impressum</a> | ' +
+                  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | ' +
+                  'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> | ' +
+                  'contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
+                  'CC-BY-SA</a> | Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
 
 var DEFAULT_CITY_ID = "karlsruhe";
@@ -497,8 +500,10 @@ $(window).on('hashchange',function() {
 
 
 $(document).ready(function() {
-    var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles);
+    map = new L.map('map', { attributionControl: false });
+    L.control.attribution( { prefix: '' } ).addTo(map);
+    L.tileLayer(TILES_URL, { attribution: ATTRIBUTION }).addTo(map);
+
     var dropDownCitySelection = $('#dropDownCitySelection');
     $("input[name=display]").change(updateLayers);
 
