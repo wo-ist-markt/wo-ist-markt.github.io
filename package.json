@@ -4,7 +4,7 @@
   "devDependencies": {
     "colors": "~1.1.2",
     "jasmine": "^2.4.1",
-    "jshint": "~2.9.1",
+    "jshint": "~2.9.5",
     "moment": "~2.11.0",
     "opening_hours": "~3.4.0"
   },
