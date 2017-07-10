@@ -119,6 +119,7 @@ in February 2016.
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Nersingen][nersingen-wikipedia]|[City of Nersingen][nersingen-markets]|
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
+|[Oberursel][oberursel-wikipedia]|[City of Oberursel][oberursel-markets]
 |[Oldenburg][oldenburg-wikipedia]|[City of Oldenburg (Oldb)][oldenburg-markets]|
 |[Osnabrueck][osnabrueck-wikipedia]|[City of Osnabrueck][osnabrueck-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
@@ -257,6 +258,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [nersingen-markets]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
+[oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
+[oberursel-markets]: http://www.oberursel.de/tourismus/bildung-kultur/veranstaltungen/maerkte/
 [oldenburg-wikipedia]: https://en.wikipedia.org/wiki/Oldenburg
 [oldenburg-markets]: http://www.oldenburg.de/microsites/wochenmaerkte.html
 [osnabrueck-wikipedia]: https://en.wikipedia.org/wiki/Osnabrueck
