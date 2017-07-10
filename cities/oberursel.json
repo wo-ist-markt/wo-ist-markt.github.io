@@ -44,7 +44,53 @@
                 "opening_hours": "Sa 09:00-14:00"
             },
             "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.57714,
+                  50.20296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kleiner Bücherflohmarkt / Romanflohmarkt",
+                "location": "Stadtbücherei am Marktplatz",
+                "opening_hours": "Sa[1]  09:00-14:00"
+            },
+            "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.5849,
+                  50.19947
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt in der Allee",
+                "location": "Adenauerallee und Nassauer Straße, ab Bahnhof",
+                "opening_hours": "Sa[3]  07:00-13:00"
+            },
+            "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.5849,
+                  50.19947
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt in der Allee",
+                "location": "Adenauerallee und Nassauer Straße, ab Bahnhof",
+                "opening_hours": "Sa[3]  07:00-13:00"
+            },
+            "type": "Feature"
         }
+
     ],
     "metadata": {
         "data_source": {
