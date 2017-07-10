@@ -1,0 +1,102 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.57689,
+                  50.20253
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Altstadt",
+                "location": "Marktplatz (Altstadt), Oberursel",
+                "opening_hours": "Sa 07:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                  8.58206,
+                  50.20240
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Epinay Platz",
+                "location": "Epinay Platz, Oberursel",
+                "opening_hours": "We 07:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                  8.59681,
+                  50.18260
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Weißkirchen",
+                "location": "Parkplatz 'An der Bleiche' Ecke 'Lia-Wöhr-Weg', Oberursel",
+                "opening_hours": "Sa 09:00-14:00"
+            },
+            "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.57714,
+                  50.20296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kleiner Bücherflohmarkt / Romanflohmarkt",
+                "location": "Stadtbücherei am Marktplatz",
+                "opening_hours": "Sa[1]  09:00-14:00"
+            },
+            "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.5849,
+                  50.19947
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt in der Allee",
+                "location": "Adenauerallee und Nassauer Straße, ab Bahnhof",
+                "opening_hours": "Sa[3]  07:00-13:00"
+            },
+            "type": "Feature"
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                  8.5849,
+                  50.19947
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt in der Allee",
+                "location": "Adenauerallee und Nassauer Straße, ab Bahnhof",
+                "opening_hours": "Sa[3]  07:00-13:00"
+            },
+            "type": "Feature"
+        }
+
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Oberursel",
+            "url": "http://www.oberursel.de/tourismus/bildung-kultur/veranstaltungen/maerkte/"
+        }
+    },
+    "type": "FeatureCollection"
+}
