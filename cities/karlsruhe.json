@@ -245,19 +245,27 @@
                 "title": "Werderplatz"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.40384,
+                    49.00916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Auf dem Marktplatz",
+                "opening_hours": "We 16:00-20:00",
+                "title": "Abendmarkt"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
         "data_source": {
             "title": "Stadt Karlsruhe",
-            "url": "http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.4044366,
-                49.0140679
-            ],
-            "zoom_level": 13
+            "url": "https://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
         }
     },
     "type": "FeatureCollection"

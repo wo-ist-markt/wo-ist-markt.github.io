@@ -1,0 +1,47 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          9.0533834,
+          48.5203296
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Am Markt",
+        "opening_hours": "Mo 07:00-13:00, We 07:00 - 13:00, Fr 07:00-13:00",
+        "title": "Auf dem Marktplatz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.0509441,
+          48.521533
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Jakobsgasse 12",
+        "opening_hours": "Sa 08:00-13:00",
+        "title": "Rund um die Jakobuskirche"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Wochenmarkt - Universitätsstadt Tübingen",
+      "url": "https://www.tuebingen.de/wochenmarkt"
+    }
+  },
+  "type": "FeatureCollection"
+}

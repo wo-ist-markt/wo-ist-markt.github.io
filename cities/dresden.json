@@ -147,13 +147,6 @@
         "data_source": {
             "title": "Stadt Dresden",
             "url": "https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php"
-        },
-        "map_initialization": {
-            "coordinates": [
-                13.7304409,
-                51.0520987
-            ],
-            "zoom_level": 12
         }
     },
     "type": "FeatureCollection"

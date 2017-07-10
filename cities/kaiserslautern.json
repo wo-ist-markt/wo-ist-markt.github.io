@@ -1,0 +1,57 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    7.773078,
+                    49.444754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Kaiserslautern",
+                "location": "Auf dem Stiftsplatz",
+                "opening_hours": "Tu,Sa 07:00-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.758095,
+                    49.439494
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Königstraße Wochenmarkt Kaiserslautern",
+                "location": "In der Königstraße",
+                "opening_hours": "Th 07:00-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.769965400000046,
+                    49.445716
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kulturmarkt Kaiserslautern",
+                "location": "In der Fruchthalle",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Alljährlich findet in der Fruchthalle Kaiserslautern der Kulturmarkt vor Weihnachten statt."
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Kaiserslauterer Wochenmarktverein",
+            "url": "http://www.wochenmarkt-kaiserslautern.de/"
+        }
+    },
+    "type": "FeatureCollection"
+}

@@ -94,14 +94,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Erlangen",
-            "url": "http://www.erlangen.de/Portaldata/1/Resources/030_leben_in_er/dokumente/amt31/070621_Umwelttip.pdf"
-        },
-     "map_initialization": {
-            "coordinates": [
-                11.003812,
-                49.597750
-            ],
-            "zoom_level": 10
+            "url": "https://www.erlangen.de/desktopdefault.aspx"
         }
     },
     "type": "FeatureCollection"

@@ -1,0 +1,101 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "opening_hours" : "We 07:00-13:00; Sa 07:00-13:00",
+                "title" : "Wochenmarkt Geestemünde",
+                "location" : "Konrad-Adenauer-Platz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.5915937,
+		    53.5308222
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "We 07:00-13:00; Sa 07:00-13:00",
+                "title" : "Wochenmarkt Bogenstraße",
+                "location" : "Bogenstraße"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.5741418,
+                    53.5508365
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "We 07:00-13:00; Sa 07:00-13:00",
+                "title" : "Wochenmarkt Lehe",
+                "location" : "Ernst-Reuter-Platz"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.586179,
+ 		    53.557772
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "We 07:00-13:00; Sa 07:00-13:00",
+                "title" : "Wochenmarkt Leherheide",
+                "location" : "Hans-Böckler-Straße"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.6171624,
+		    53.5892006
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Fr 10:00-17:00",
+                "title" : "Wochenmarkt Wulsdorf",
+                "location" : "Heinrich-Kappelmann-Straße"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.597187,
+		    53.5056619
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Mo-Sa 14:00-18:00",
+                "title" : "Markt vor der Großen Kirche",
+                "location" : "Große Kirche"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+		    8.578986,
+		    53.544242
+                ]
+            }
+        }
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "https://www.bremerhaven.de/de/tourismus/shopping-gastronomie/wochenmaerkte-in-bremerhaven.22120.html",
+            "title" : "Stadt Bremerhaven"
+        }
+    }
+}

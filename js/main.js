@@ -4,9 +4,12 @@
  */
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
-var ATTRIBUTION = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> ' +
-                  'contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
-                  'CC-BY-SA</a>. Tiles &copy; <a href="http://cartodb.com/attributions">' +
+var ATTRIBUTION = '<a id="daten" href="info.html">Über Wo ist Markt?</a> | ' +
+                  '<a id="impressum" href="impressum.html">Impressum</a> | ' +
+                  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | ' +
+                  'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> | ' +
+                  'contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
+                  'CC-BY-SA</a> | Tiles &copy; <a href="http://cartodb.com/attributions">' +
                   'CartoDB</a>';
 
 var DEFAULT_CITY_ID = "karlsruhe";
@@ -14,10 +17,10 @@ var CITY_LIST_API_URL = 'cities/cities.json';
 var cityDirectory = {}; // the city directory (i.e. a list of all cities indexed by id)
 
 var map;
-var nowGroup = L.layerGroup();
-var todayGroup = L.layerGroup();
-var otherGroup = L.layerGroup();
-var unclassifiedGroup = L.layerGroup();
+var nowGroup = L.featureGroup();
+var todayGroup = L.featureGroup();
+var otherGroup = L.featureGroup();
+var unclassifiedGroup = L.featureGroup();
 
 var now = new Date();
 var TIME_NOW = [now.getHours(), now.getMinutes()];
@@ -92,10 +95,9 @@ function getNextMarketDateHtml(nextChange) {
 /*
  * Moves the map to its initial position.
  */
-function positionMap(mapInitialization) {
-    var coordinates = mapInitialization.coordinates;
-    var zoomLevel = mapInitialization.zoom_level;
-    map.setView(L.latLng(coordinates[1], coordinates[0]), zoomLevel);
+function positionMap() {
+    var bounds = L.featureGroup([nowGroup, todayGroup, otherGroup, unclassifiedGroup]).getBounds();
+    map.fitBounds(bounds);
 }
 
 /*
@@ -386,7 +388,7 @@ function updateDataSource(dataSource) {
  * current history entry is replaced.
  */
 function loadDefaultCity(createNewHistoryEntry) {
-    setCity(DEFAULT_CITY, createNewHistoryEntry);
+    setCity(DEFAULT_CITY_ID, createNewHistoryEntry);
 }
 
 /*
@@ -403,9 +405,9 @@ function setCity(cityID, createNewHistoryEntry) {
         return loadDefaultCity(false);
     }
     $.getJSON(filename, function(json) {
-        positionMap(json.metadata.map_initialization);
         updateDataSource(json.metadata.data_source);
         updateMarkers(json);
+        positionMap();
         updateControls();
         updateLayers();
         updateUrlHash(cityID, createNewHistoryEntry);
@@ -498,8 +500,10 @@ $(window).on('hashchange',function() {
 
 
 $(document).ready(function() {
-    var tiles = new L.TileLayer(TILES_URL, {attribution: ATTRIBUTION});
-    map = new L.Map('map').addLayer(tiles);
+    map = new L.map('map', { attributionControl: false });
+    L.control.attribution( { prefix: '' } ).addTo(map);
+    L.tileLayer(TILES_URL, { attribution: ATTRIBUTION }).addTo(map);
+
     var dropDownCitySelection = $('#dropDownCitySelection');
     $("input[name=display]").change(updateLayers);
 

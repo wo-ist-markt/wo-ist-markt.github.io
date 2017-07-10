@@ -1,0 +1,33 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.534907,
+                    52.162585
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Stadtmarkt Wolfenbüttel",
+                "opening_hours": "We, Sa 07:00-14:00",
+                "opening_hours_unclassified": null,
+                "title": "Wolfenbütteler Wochenmarkt"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Wolfenbüttel",
+            "url": "https://www.wolfenbuettel.de/index.php?NavID=2672.372"
+        }
+    },
+    "type": "FeatureCollection"
+}

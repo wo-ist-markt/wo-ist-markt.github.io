@@ -192,13 +192,6 @@
     "data_source": {
       "title": "Stadt Bochum",
       "url": "https://www.bochum.de/amt32/wochenmaerkte"
-    },
-    "map_initialization": {
-      "coordinates": [
-        7.218487,
-        51.478045
-      ],
-      "zoom_level": 12
     }
   }
 }

@@ -56,14 +56,7 @@
   "metadata": {
     "data_source": {
       "title": "Stadt Hilden",
-      "url": "http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.933045,
-        51.169855
-      ],
-      "zoom_level": 14
+      "url": "https://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf"
     }
   }
 }

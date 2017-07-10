@@ -87,13 +87,6 @@
     "data_source": {
       "title": "Stadt Bottrop",
       "url": "https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.926789,
-        51.527457
-      ],
-      "zoom_level": 13
     }
   }
 }

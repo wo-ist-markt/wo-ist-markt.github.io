@@ -35,13 +35,6 @@
         "data_source": {
             "title": "Stadtmarketing Bruchköbel GmbH",
             "url": "http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/"
-        },
-        "map_initialization": {
-            "coordinates": [
-                8.9324,
-                50.1847
-            ],
-            "zoom_level": 13
         }
     },
     "type": "FeatureCollection"

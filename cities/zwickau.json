@@ -1,0 +1,71 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.462974,
+                    50.696828
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Neuplanitz",
+                "location": "Parkplatz Marchlewskistraße",
+                "opening_hours": "Mo, Fr 08:00-15:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.475557,
+                    50.681056
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Oberplanitz",
+                "location": "Planitzer Markt",
+                "opening_hours": "We 09:00-15:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.459773,
+                    50.720120
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Marienthal",
+                "location": "Parkplatz Julius-Seifert-Straße",
+                "opening_hours": "Th 09:00-15:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.497970,
+                    50.717901
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Hauptmarkt Ostspiegel (Schumann-Denkmal)",
+                "opening_hours": "Th 09:00-18:00; Fr 09:00-15:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Kultour Z.",
+            "url": "https://www.zwickautourist.de/de/wochenmaerkte.php"
+        }
+    },
+    "type": "FeatureCollection"
+}

@@ -1,0 +1,101 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.044416904449463,
+                    52.27830020454292
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Domhof",
+                "opening_hours": "Sa 08:00-14:00",
+                "title": "Domhof"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.060542345046997,
+                    52.2601202406544
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Riedenbach",
+                "opening_hours": "Fr 08:00-13:00",
+                "title": "Riedenbach"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.043252825737,
+                    52.27317327725369
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Ledenhof",
+                "opening_hours": "Th 08:00-13:00",
+                "title": "Ledenhof"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.07855874300003,
+                    52.28029731371705
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Ebertallee",
+                "opening_hours": "We 08:00-13:00",
+                "title": "Ebertallee"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.051752746105192,
+                    52.27033548796185
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Johanniskirche",
+                "opening_hours": "Tu 12:00-15:00",
+                "title": "Johanniskirche"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.05248498916626,
+                    52.29565908078211
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Lerchenstrasse",
+                "opening_hours": "Tu 08:00-13:00",
+                "title": "Lerchenstrasse"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Osnabrück",
+            "url": "https://www.osnabrueck.de/tourismus/aktivitaeten/hoehepunkte/wochenmaerkte.html"
+        }
+    },
+    "type": "FeatureCollection"
+}

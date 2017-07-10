@@ -1,0 +1,26 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "opening_hours" : "Th 08:00-12:00",
+                "title" : "Loxstedter Wochenmarkt",
+                "location" : "Einkaufszentrum Loxstedt"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    8.653178,
+		    53.474198
+                ]
+            }
+        }
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html",
+            "title" : "Gemeinde Loxstedt"
+        }
+    }
+}

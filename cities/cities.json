@@ -1,4 +1,8 @@
 {
+    "bad-homburg": {
+        "id": "bad-homburg",
+        "label": "Bad Homburg"
+    },
     "berlin": {
         "id": "berlin",
         "label": "Berlin"
@@ -19,9 +23,21 @@
         "id": "braunschweig",
         "label": "Braunschweig"
     },
+    "bremerhaven": {
+        "id": "bremerhaven",
+        "label": "Bremerhaven"
+    },
+    "bretten": {
+        "id": "bretten",
+        "label": "Bretten"
+    },
     "bruchköbel": {
         "id": "bruchköbel",
         "label": "Bruchköbel"
+    },
+    "brühl": {
+        "id": "brühl",
+        "label": "Brühl"
     },
     "chemnitz": {
         "id": "chemnitz",
@@ -55,6 +71,10 @@
         "id": "freiburg",
         "label": "Freiburg"
     },
+    "frankfurtmain": {
+        "id": "frankfurtmain",
+        "label": "Frankfurt am Main"
+    },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"
@@ -67,6 +87,10 @@
         "id": "hamburg",
         "label": "Hamburg"
     },
+    "hamm": {
+        "id": "hamm",
+        "label": "Hamm"
+    },
     "hanau": {
         "id": "hanau",
         "label": "Hanau"
@@ -78,6 +102,10 @@
     "hilden": {
         "id": "hilden",
         "label": "Hilden"
+    },
+    "kaiserslautern": {
+        "id": "kaiserslautern",
+        "label": "Kaiserslautern"
     },
     "karlsruhe": {
         "id": "karlsruhe",
@@ -99,9 +127,17 @@
         "id": "langenfeld_rhld",
         "label": "Langenfeld (Rhld.)"
     },
+    "laupheim": {
+        "id": "laupheim",
+        "label": "Laupheim"
+    },
     "leipzig": {
         "id": "leipzig",
         "label": "Leipzig"
+    },
+    "loxstedt": {
+        "id": "loxstedt",
+        "label": "Loxstedt"
     },
     "moers": {
         "id": "moers",
@@ -139,6 +175,14 @@
         "id": "potsdam",
         "label": "Potsdam"
     },
+    "oldenburg": {
+        "id": "oldenburg",
+        "label": "Oldenburg (Oldb)"
+    },
+    "osnabrück": {
+        "id": "osnabrück",
+        "label": "Osnabrück"
+    },
     "rostock": {
         "id": "rostock",
         "label": "Rostock"
@@ -150,6 +194,22 @@
     "siegen": {
         "id": "siegen",
         "label": "Siegen"
+    },
+    "stralsund": {
+        "id": "stralsund",
+        "label": "Stralsund"
+    },
+    "suhl": {
+        "id": "suhl",
+        "label": "Suhl"
+    },
+    "trier": {
+        "id": "trier",
+        "label": "Trier"
+    },
+    "tübingen": {
+        "id": "tübingen",
+        "label": "Tübingen"
     },
     "ulm": {
         "id": "ulm",
@@ -163,8 +223,16 @@
         "id": "witten",
         "label": "Witten"
     },
+    "wolfenbüttel": {
+        "id": "wolfenbüttel",
+        "label": "Wolfenbüttel"
+    },
     "wuppertal": {
         "id": "wuppertal",
         "label": "Wuppertal"
+    },
+    "zwickau": {
+        "id": "zwickau",
+        "label": "Zwickau"
     }
 }

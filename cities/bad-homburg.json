@@ -1,0 +1,41 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.61695,
+                  50.22670
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bad Homburger Wochenmarkt",
+                "location": "Zwischen Markt- und Kurhausvorplatz, Bad Homburg",
+                "opening_hours": "Tu,Fr 07:30-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.61524,
+            	    50.22730
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bad Homburger Blumenmarkt",
+                "location": "Waisenhausplatz, Bad Homburg",
+                "opening_hours": "Sa 09:00-16:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Bad Homburg ver der Höhe",
+            "url": "http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php"
+        }
+    },
+    "type": "FeatureCollection"
+}

@@ -87,13 +87,6 @@
     "data_source": {
       "title": "Stadt Mülheim an der Ruhr",
       "url": "https://www.muelheim-ruhr.de/cms/muelheimer_wochenmaerkte1.html"
-    },
-    "map_initialization": {
-      "coordinates": [
-        6.884523,
-        51.418568
-      ],
-      "zoom_level": 13
     }
   }
 }

@@ -126,10 +126,6 @@
     "data_source": {
       "title": "Stadtmarketing Gesellschaft Schwerin mbH",
       "url": "http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html"
-      },
-    "map_initialization": {
-        "coordinates": [11.4228,53.6246],
-        "zoom_level": 13
     }
   }
 }

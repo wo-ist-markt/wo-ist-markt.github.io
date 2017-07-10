@@ -1161,13 +1161,6 @@
         "data_source" : {
             "url" : "http://www.hamburg.de/wochenmarkt-hamburg",
             "title" : "Stadt Hamburg"
-        },
-        "map_initialization" : {
-            "zoom_level" : 11,
-            "coordinates" : [
-                10.0085,
-                53.5735
-            ]
         }
     }
 }

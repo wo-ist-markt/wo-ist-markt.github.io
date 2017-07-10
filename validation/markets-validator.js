@@ -18,10 +18,13 @@ var path = require("path");
 var colors = require('colors');
 var moment = require('moment');
 var opening_hours = require('opening_hours');
+var urlparse = require('url').parse;
+var http = require('http');
+var https = require('https');
 
 
 var MARKETS_DIR_PATH = "cities";
-var MARKETS_INDEX_FILE_PATH = "cities/cities.json";
+var MARKETS_INDEX_FILE_PATH = path.join('cities', 'cities.json');
 
 var MAX_LATITUDE = 90.0;
 var MIN_LATITUDE = -90.0;
@@ -30,6 +33,8 @@ var MIN_LONGITUDE = -180.0;
 
 var exitCode = 0;
 
+var asyncWarnings = [];
+var asyncErrors = [];
 
 colors.setTheme({
     section: 'blue',
@@ -66,9 +71,20 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
     });
     console.log(marketCount + " markets validated!");
 
-    process.exit(exitCode);
+    console.log('Waiting for asynchronous tasks to finish ...\n');
 });
 
+process.on('beforeExit', function () {
+    asyncWarnings.forEach(function (warning) {
+        console.log('Warning: %s', warning.toString());
+    });
+
+    asyncErrors.forEach(function (error) {
+        console.log('Error: %s', error.toString());
+    });
+
+    process.exitCode = exitCode;
+});
 
 /**
  * Validator for a market file.
@@ -95,7 +111,7 @@ function MarketValidator(filePath) {
         this.errorsCount += featuresValidator.getErrorsCount();
         this.warningsCount += featuresValidator.getWarningsCount();
 
-        var metadataValidator = new MetadataValidator(json.metadata);
+        var metadataValidator = new MetadataValidator(json.metadata, cityName);
         metadataValidator.validate();
         metadataValidator.printWarnings();
         metadataValidator.printErrors();
@@ -405,9 +421,10 @@ function FeatureValidator(feature, cityName) {
  *
  * - metadata: The "metadata" attribute
  */
-function MetadataValidator(metadata) {
+function MetadataValidator(metadata, cityName) {
 
     this.metadata = metadata;
+    this.cityName = cityName;
     this.errors = [];
     this.warnings = [];
 
@@ -419,6 +436,7 @@ function MetadataValidator(metadata) {
             this.errors.push(new NullAttributeIssue("metadata"));
         } else {
             this.validateDataSource(metadata.data_source);
+            this.validateMapInitialization(metadata.map_initialization);
         }
     };
 
@@ -464,47 +482,45 @@ function MetadataValidator(metadata) {
             this.errors.push(new NullAttributeIssue("url"));
         } else if (url.length === 0) {
             this.errors.push(new EmptyAttributeIssue("url"));
+        } else {
+            this.validateUrlStatus(url);
         }
+    };
+
+    this.validateUrlStatus = function(url) {
+        url = urlparse(url);
+        url.method = 'HEAD';
+        url.timeout = 10000; // 10 seconds
+
+        var request;
+        switch(url.protocol) {
+            case 'http:': request = http; break;
+            case 'https:': request = https; break;
+            default:
+                this.warnings.push(new UnknownProtocolIssue(url.protocol));
+                return;
+        }
+
+        request = request.request(url, function(response) {
+            if (response.statusCode !== 200) {
+                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
+            }
+
+            // Cleaning up http request and response
+            // "However, if you add a 'response' event handler, then you
+            //  must consume the data from the response object" NodeJS docs
+            response.on('data', function() {});
+            response.on('end', function() {});
+        });
+        request.on('error', function(error) {
+            asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+        });
+        request.end();
     };
 
     this.validateMapInitialization = function(mapInitialization) {
-        if (mapInitialization === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("map_initialization"));
-        } else if (mapInitialization === null) {
-            this.errors.push(new NullAttributeIssue("map_initialization"));
-        } else {
-            this.validateCoordinates(mapInitialization.coordinates);
-            this.validateZoomLevel(mapInitialization.zoom_level);
-        }
-    };
-
-    this.validateCoordinates = function(coordinates) {
-        if (coordinates === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("coordinates"));
-        } else if (coordinates === null) {
-            this.errors.push(new NullAttributeIssue("coordinates"));
-        } else if (coordinates.length === 2) {
-            this.errors.push(
-                "Attribute 'coordinates' must contain two values not " + coordinates.length + ".");
-        } else {
-            var lon = coordinates[0];
-            if (!longitudeInValidRange(lon)) {
-                this.errors.push(new LongitudeRangeExceedanceIssue("coordinates[0]", lon));
-            }
-            var lat = coordinates[1];
-            if (!latitudeInValidRange(lat)) {
-                this.errors.push(new LatitudeRangeExceedanceIssue("coordinates[1]", lat));
-            }
-        }
-    };
-
-    this.validateZoomLevel = function(zoomLevel) {
-        if (zoomLevel === undefined) {
-            this.errors.push(new UndefinedAttributeIssue("zoom_level"));
-        } else if (zoomLevel === null) {
-            this.errors.push(new NullAttributeIssue("zoom_level"));
-        } else if (zoomLevel < 1 || zoomLevel > 18) {
-            this.errors.push(new RangeExceedanceIssue("zoom_level", 1, 18, zoomLevel));
+        if (mapInitialization !== undefined) {
+            this.errors.push(new ObsoleteIssue("map_initialization"));
         }
     };
 
@@ -549,6 +565,15 @@ function CustomIssue(message) {
 
     this.toString = function() {
         return this.message;
+    };
+}
+
+function ObsoleteIssue(attributeName) {
+
+    this.attributeName = attributeName;
+
+    this.toString = function() {
+        return "Attribute '" + this.attributeName + "' is no longer used and can be removed.";
     };
 }
 
@@ -607,5 +632,34 @@ function RangeExceedanceIssue(attributeName, min, max, actual) {
     this.toString = function() {
         return "Attribute '" + this.attributeName + "' exceeds valid range of [" +
         this.min + ":" + this.max + "]. Actual value is " + this.actual + ".";
+    };
+}
+
+function UnknownProtocolIssue(protocol) {
+
+    this.protocol = protocol;
+
+    this.toString = function() {
+        return "Unknown protocol '" + this.protocol + "' in data source url.";
+    };
+}
+
+function HttpResponseStatusIssue(cityName, statusCode) {
+
+    this.cityName = cityName;
+    this.statusCode = statusCode;
+
+    this.toString = function() {
+        return this.cityName + ": HTTP response status of data source url was: " + statusCode;
+    };
+}
+
+function HttpRequestErrorIssue(cityName, error) {
+
+    this.cityName = cityName;
+    this.error = error;
+
+    this.toString = function() {
+        return this.cityName + ": Error while accessing data source url: " + error;
     };
 }
