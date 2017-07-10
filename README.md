@@ -97,6 +97,7 @@ in February 2016.
 |[Essen][essen-wikipedia]|[EVB][essen-markets]|
 |[Frankfurt am Main][frankfurtmain-wikipedia]|[City of Frankfurt am Main][frankfurtmain-markets]|
 |[Freiburg][freiburg-wikipedia]|[City of Freiburg][freiburg-markets]|
+|[Friedrichsdorf][friedrichsdorf-wikipedia]|[City of Friedrichsdorf][friedrichsdorf-markets]|
 |[Gelsenkirchen][gelsenkirchen-wikipedia]|[Gelsendienste][gelsenkirchen-markets]|
 |[Hagen][hagen-wikipedia]|[City of Hagen][hagen-markets]|
 |[Hamburg][hamburg-wikipedia]|[City of Hamburg][hamburg-markets]|
@@ -215,6 +216,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [frankfurtmain-markets]: http://www.frankfurt.de/sixcms/detail.php?id=4623 
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
+[friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
+[friedrichsdorf-markets]: http://www.friedrichsdorf.de/lebeninfriedrichsdorf/einkaufenunddienstleistung/wochenmarkt.php
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
 [Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen

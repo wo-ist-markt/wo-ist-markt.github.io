@@ -1,0 +1,26 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.64023,
+                  50.25596
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Friedrichsdorfer Wochenmarkt",
+                "location": "Landgrafenplatz, Friedrichsdorf",
+                "opening_hours": "We 08:00-13:30; Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Friedrichsdorf",
+            "url": "http://www.friedrichsdorf.de/lebeninfriedrichsdorf/einkaufenunddienstleistung/wochenmarkt.php"
+        }
+    },
+    "type": "FeatureCollection"
+}

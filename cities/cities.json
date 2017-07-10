@@ -75,6 +75,10 @@
         "id": "frankfurtmain",
         "label": "Frankfurt am Main"
     },
+    "friedrichsdorf": {
+	"id": "friedrichsdorf",
+	"label": "Friedrichsdorf"
+    },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"
