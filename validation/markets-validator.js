@@ -503,7 +503,7 @@ function MetadataValidator(metadata, cityName) {
 
         request = request.request(url, function(response) {
             if (response.statusCode !== 200) {
-                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
+                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode, response.headers.location));
             }
 
             // Cleaning up http request and response
@@ -644,13 +644,14 @@ function UnknownProtocolIssue(protocol) {
     };
 }
 
-function HttpResponseStatusIssue(cityName, statusCode) {
+function HttpResponseStatusIssue(cityName, statusCode, location) {
 
     this.cityName = cityName;
     this.statusCode = statusCode;
+    this.location = location;
 
     this.toString = function() {
-        return this.cityName + ": HTTP response status of data source url was: " + statusCode;
+        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n New location: " + this.location;
     };
 }
 
