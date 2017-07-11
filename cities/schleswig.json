@@ -1,0 +1,56 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.5621346,
+                    54.522442
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Schlei-Markt (Hauptwochenmarkt)",
+                "location": "Stadtfeld",
+                "opening_hours": "Sa 7:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.5648088,
+                    54.516507
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Capitolplatz",
+                "opening_hours": "Tu,Fr 7:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.5427471,
+                    54.5022874
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt",
+                "location": "Friedrichstraße",
+                "opening_hours": "Th 7:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Schleswig",
+            "url": "http://schleswig.de/start.php?op=adressen&Abteilung=422"
+        }
+    },
+    "type": "FeatureCollection"
+}

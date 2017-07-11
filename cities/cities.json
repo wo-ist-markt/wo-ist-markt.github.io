@@ -187,6 +187,10 @@
         "id": "rostock",
         "label": "Rostock"
     },
+    "schleswig": {
+        "id": "schleswig",
+        "label": "Schleswig"
+    },
     "schwerin": {
         "id": "schwerin",
         "label": "Schwerin"
