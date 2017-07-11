@@ -95,6 +95,10 @@
         "id": "hanau",
         "label": "Hanau"
     },
+    "heilbronn": {
+        "id": "heilbronn",
+        "label": "Heilbronn"
+    },
     "herne": {
         "id": "herne",
         "label": "Herne"
