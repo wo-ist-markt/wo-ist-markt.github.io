@@ -305,13 +305,13 @@ function initMarker(feature) {
 /*
  * Returns the city ID from the hash of the current URI.
  */
-function getHashCity() {
-    var hash = decodeURIComponent(window.location.hash);
-    if (hash === undefined || hash === "") {
+function getPathCity() {
+    var pathName = decodeURIComponent(window.location.pathname);
+    if (pathName === undefined || pathName === "") {
         return '';
     } else {
-        hash = hash.toLowerCase();
-        return hash.substring(1, hash.length);
+        pathName = pathName.toLowerCase();
+        return pathName.substring(1, pathName.length);
     }
 }
 
@@ -325,42 +325,11 @@ function getHashCity() {
  */
 function updateUrlHash(cityID, createNewHistoryEntry) {
     if (createNewHistoryEntry) {
-        createHistoryEntryWithHash(cityID);
+        history.pushState(null, null, cityID);
     } else {
-        replaceHistoryEntryWithHash(cityID);
+        history.replaceState(null, null, cityID);
     }
 }
-
-
-/*
- * Create a new history entry by changing the URL fragment.
- *
- * `hash` is the new fragment (without `#`).
- */
-function createHistoryEntryWithHash(hash) {
-    if (history.pushState) {
-        history.pushState(null, null, "#" + hash);
-    } else {
-        window.location.hash = hash;
-    }
-}
-
-
-/*
- * Replace the current history entry by changing the URL fragment.
- *
- * `hash` is the new fragment (without `#`).
- */
-function replaceHistoryEntryWithHash(hash) {
-    hash = '#' + hash;
-    if (history.replaceState) {
-        history.replaceState(null, null, hash);
-    } else {
-        // http://stackoverflow.com/a/6945614/857390
-        window.location.replace(('' + window.location).split('#')[0] + hash);
-    }
-}
-
 
 /*
  * Returns the given string in camel case.
@@ -495,7 +464,7 @@ $(window).on('resize', fixMapHeight);
 
 $(window).on('hashchange',function() {
     // Don't create a new history state, because the hash change already did
-    setCity(getHashCity(), false);
+    setCity(getPathCity(), false);
 });
 
 
@@ -542,7 +511,7 @@ $(document).ready(function() {
         dropDownCitySelection.select2('open');
         dropDownCitySelection.select2('close');
 
-        setCity(getHashCity(), false);
+        setCity(getPathCity(), false);
     });
 
     $('#btnToggleHeader').click(toggleHeader);
