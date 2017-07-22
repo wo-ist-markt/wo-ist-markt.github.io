@@ -6,6 +6,7 @@ This contribution guide aims to help you with the optimal way to get involved wi
 
 * [Market data contributions](#market-data-contributions)
 * [Code contributions](#code-contributions)
+* [Deployment and deploy previews](#deployment)
 * [How to use Git](#how-to-use-git)
 * [General advices](#general-advices)
 
@@ -96,6 +97,21 @@ This section describes the file format which is used to store the market data fo
   under a blank line in the description part. See [Git Commit Messages][git-commit-messages].
 * Check for **lint** errors.
 * Create and run **tests**.
+
+## Deployment
+
+The website is hosted on [Netlify](https://netlify.com).
+
+When you create a new pull request Netlify will automatically create a preview branch for you.
+
+After you created your pull request and GitHub has run all the test you can click `Show all checks`
+on the pull request page and than choose `details` in the Netlify section. This can be seen in the
+following screenshot.
+
+![All checks have passed][all-checks-have-passed-section]
+
+This will lead you to a deployed version that includes your changes so that you interact with
+the actual (preview) website to see if everything works as expected.
 
 ## How to use Git
 
@@ -264,6 +280,7 @@ $ git push --force origin feature
 
 
 
+[all-checks-have-passed-section]: gfx/pull-request-all-checks-have-passed-section.png
 [geojson-org]: http://geojson.org
 [git-commit-messages]: http://cl.ly/text/18400R3c3v1W
 [icon-cities-json]: gfx/icon-cities-json.png
