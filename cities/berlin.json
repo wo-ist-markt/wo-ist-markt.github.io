@@ -1955,6 +1955,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.26734179,
+                    52.5378069
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Siemensstadt, Jugendweg",
+                "location": "Wochenmarkt Siemensstadt, Jugendweg",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Di (ab 01.08.2017) 12:00 - 18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.321983,
                     52.456807
                 ],
@@ -2396,7 +2412,7 @@
                 "title": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
                 "location": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
                 "opening_hours": null,
-                "opening_hours_unclassified": "17.06.2017 08.07.2017 14:00 - 17:00"
+                "opening_hours_unclassified": "17.06.2017 08.07.2017 16.09.2017 07.10.2017 14:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -2563,7 +2579,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 20.06.2017",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 13.07.2017",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     },
