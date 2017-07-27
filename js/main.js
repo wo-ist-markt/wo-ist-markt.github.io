@@ -462,13 +462,18 @@ function fixMapHeight() {
 $(window).on('resize', fixMapHeight);
 
 
-$(window).on('hashchange',function() {
-    // Don't create a new history state, because the hash change already did
-    setCity(getPathCity(), false);
-});
-
+// we used to pass the city after the `#` in the url.
+// now we simply put it after the `/`
+// so /#berlin becomes /berlin
+function removeHashPrefixInUrl() {
+    var hash = window.location.hash;
+    if (hash) {
+        setCity(hash.slice(1, hash.length));
+    }
+}
 
 $(document).ready(function() {
+    removeHashPrefixInUrl();
     map = new L.map('map', { attributionControl: false });
     L.control.attribution( { prefix: '' } ).addTo(map);
     L.tileLayer(TILES_URL, { attribution: ATTRIBUTION }).addTo(map);
