@@ -55,7 +55,7 @@ in February 2016.
 * The individual market data for supported cities is displayed when the city name is given in the
   address bar of the browser.
 
-  Example: http://wo-ist-markt.de/#karlsruhe.
+  Example: http://wo-ist-markt.de/karlsruhe.
 
   By default or on error *Karlsruhe* is rendered.
 
