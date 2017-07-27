@@ -4,6 +4,7 @@
   "devDependencies": {
     "colors": "~1.1.2",
     "country-language": "^0.1.7",
+    "http-server": "^0.10.0",
     "i18next-client": "^1.11.5",
     "jasmine": "^2.4.1",
     "jshint": "~2.9.5",
@@ -18,6 +19,7 @@
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
-    "validate": "node validation/markets-validator.js"
+    "validate": "node validation/markets-validator.js",
+    "start": "http-server -f index.html"
   }
 }

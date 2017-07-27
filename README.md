@@ -147,6 +147,8 @@ Tests can be run using [npm][npm]:
 
     $ npm install  # Just once after you've cloned the repo
 
+    $ npm start    # This will start a local server on http://localhost:8080
+
     $ npm test     # Whenever you want to run the tests
 
 
