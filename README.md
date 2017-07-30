@@ -205,7 +205,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
-[duisburg-markets]: https://www.duisburg.de/leben/maerkte_in_duisburg/index.php
+[duisburg-markets]: https://www.duisburgkontor.de/frischemaerkte/wochenmaerkte/
 [duesseldorf-wikipedia]: https://de.wikipedia.org/wiki/D%C3%BCsseldorf
 [duesseldorf-markets]: https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
