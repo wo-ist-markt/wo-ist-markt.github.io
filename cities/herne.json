@@ -19,7 +19,7 @@
       "properties": {
         "title": "Herne-Mitte (großer Markt)",
         "location": "Friedrich-Ebert-Platz, Behrensstraße",
-        "opening_hours": "Apr-Oct: Tu, Fr 07:30-13:00 || Nov-Mar:  Tu, Fr 08:00-13:00"
+        "opening_hours": "Apr-Oct: Tu, Th 07:30-13:00 || Nov-Mar: Tu, Th 08:00-13:00"
       }
     },
     {
@@ -34,7 +34,7 @@
       "properties": {
         "title": "Herne-Sodingen",
         "location": "Mont-Cenis-Platz (vor der Akademie Mont-Cenis)",
-        "opening_hours": "Apr-Oct: We, Sa 07:30-13:00 || Nov-Mar:  We, Sa 08:00-13:00"
+        "opening_hours": "Apr-Oct: We, Sa 07:30-13:00 || Nov-Mar: We, Sa 08:00-13:00"
       }
     },
     {
@@ -49,7 +49,7 @@
       "properties": {
         "title": "Herne-Horsthausen (Elpeshof)",
         "location": "Langforthstraße",
-        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar:  Th 08:00-13:00"
+        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar: Th 08:00-13:00"
       }
     },
     {
@@ -64,7 +64,7 @@
       "properties": {
         "title": "Wanne-Eickel",
         "location": "St.-Jörgen-Platz, Rainerstraße",
-        "opening_hours": "Apr-Oct: Tu, Fr 07:30-13:00 || Nov-Mar:  Tu, Fr 08:00-13:00"
+        "opening_hours": "Apr-Oct: Tu, Fr 07:30-13:00 || Nov-Mar: Tu, Fr 08:00-13:00"
       }
     },
     {
@@ -79,7 +79,7 @@
       "properties": {
         "title": "Wanne-Nord (großer Markt)",
         "location": "Wanner Markt, Hauptstraße",
-        "opening_hours": "Apr-Oct: Fr 07:30-13:00 || Nov-Mar:  Fr 08:00-13:00"
+        "opening_hours": "Apr-Oct: Fr 07:30-13:00 || Nov-Mar: Fr 08:00-13:00"
       }
     },
     {
@@ -94,7 +94,7 @@
       "properties": {
         "title": "Wanne-Süd",
         "location": "Steinplatz, Landgrafenstraße",
-        "opening_hours": "Apr-Oct: Sa 07:30-13:00 || Nov-Mar:  Sa 08:00-13:00"
+        "opening_hours": "Apr-Oct: Sa 07:30-13:00 || Nov-Mar: Sa 08:00-13:00"
       }
     },
     {
@@ -109,7 +109,7 @@
       "properties": {
         "title": "Wanne-Röhlinghausen",
         "location": "Edmund-Weber-Straße, Marktstraße",
-        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar:  Th 08:00-13:00"
+        "opening_hours": "Apr-Oct: Th 07:30-13:00 || Nov-Mar: Th 08:00-13:00"
       }
     },
     {
@@ -124,14 +124,14 @@
       "properties": {
         "title": "Wanne-Mitte",
         "location": "Am Buschmannshof, Hauptstraße",
-        "opening_hours": "Apr-Oct: We 07:30-13:00 || Nov-Mar:  We 08:00-13:00"
+        "opening_hours": "Apr-Oct: We 07:30-13:00 || Nov-Mar: We 08:00-13:00"
       }
     }
   ],
   "metadata": {
     "data_source": {
       "title": "Stadt Herne",
-      "url": "http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Wochenmaerkte"
+      "url": "http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html"
     }
   }
 }

@@ -229,7 +229,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
-[herne-markets]: http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Wochenmaerkte
+[herne-markets]: http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
