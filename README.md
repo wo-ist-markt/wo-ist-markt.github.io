@@ -214,7 +214,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
-[frankfurtmain-markets]: http://www.frankfurt.de/sixcms/detail.php?id=4623 
+[frankfurtmain-markets]: http://www.frankfurt.de/sixcms/detail.php?id=4623
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
