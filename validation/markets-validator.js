@@ -502,8 +502,10 @@ function MetadataValidator(metadata, cityName) {
         }
 
         request = request.request(url, function(response) {
-            if (response.statusCode !== 200) {
-                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode, response.headers.location));
+            if (response.statusCode >= 300 && response.statusCode < 400) {
+                asyncWarnings.push(new HttpRedirectStatusIssue(cityName, response.statusCode, response.headers.location));
+            } else if (response.statusCode !== 200) {
+                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
             }
 
             // Cleaning up http request and response
@@ -644,7 +646,17 @@ function UnknownProtocolIssue(protocol) {
     };
 }
 
-function HttpResponseStatusIssue(cityName, statusCode, location) {
+function HttpResponseStatusIssue(cityName, statusCode) {
+
+    this.cityName = cityName;
+    this.statusCode = statusCode;
+
+    this.toString = function() {
+        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode;
+    };
+}
+
+function HttpRedirectStatusIssue(cityName, statusCode, location) {
 
     this.cityName = cityName;
     this.statusCode = statusCode;
