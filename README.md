@@ -2,6 +2,8 @@
 
 # Wo ist Markt?
 
+
+
 A small visualization of the weekly markets in different cities. Available at: http://wo-ist-markt.de
 
 - [Five minutes talk about the project at 33C3 (12/2016)][wo-ist-markt-33c3-talk]
