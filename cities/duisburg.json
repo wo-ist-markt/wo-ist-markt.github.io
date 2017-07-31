@@ -304,7 +304,7 @@
       "properties": {
         "title": "Duissern",
         "location": "Königsberger Allee, 47058 Duisburg",
-        "opening_hours": "Tu, Fr 14:00 - 18:30"
+        "opening_hours": "Tu, Fr 14:00 - 17:30"
       }
     },
     {
@@ -446,7 +446,7 @@
   "metadata": {
     "data_source": {
       "title": "Duisburg Kontor GmbH",
-      "url": "https://www.duisburg.de/leben/maerkte_in_duisburg/index.php"
+      "url": "https://www.duisburgkontor.de/frischemaerkte/wochenmaerkte/"
     }
   }
 }
