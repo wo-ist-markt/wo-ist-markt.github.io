@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="wo-ist-markt" horiz-adv-x="1000" >
+<font-face font-family="wo-ist-markt" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="basket-transparent___-1" unicode="&#xe803;" d="M388 850c0 0-1 0-1 0-3 0-5-1-8-2l-74-36c-10-4-14-16-9-26l145-304-388 0c-72-1-50-127-50-127 3-74 75-58 75-58l55-331c11-63 52-116 116-116l614 0c64 0 116 52 116 116l52 331c0 0 56-18 76 42 0 0 28 143-59 142l-473 1-170 357c-3 7-10 11-17 11z m168-412a70 69 90 0 0 69-69 70 69 90 0 0-69-70 70 69 90 0 0-69 70 70 69 90 0 0 69 69z m-283-173c9-1 17-7 19-16l44-285c4-22 0-34-15-34l-71 0c-5 0-19 0-22 17l-44 285c-2 10 5 20 16 21l70 12c1 0 2 0 3 0z m581 0c1 0 2 0 4 0l70-12c10-1 17-11 16-21l-45-285c-3-17-17-17-22-17l-71 0c-15 0-19 12-15 34l45 285c1 9 9 15 18 16z m-365-23c9 0 16-7 17-16l22-264c2-24-10-32-17-32l-74 1c-10 0-17 8-18 24l-22 263c-1 10 7 18 16 19l74 5c1 0 1 0 2 0z m149 0c1 0 1 0 2 0l74-5c10-1 17-9 16-19l-22-263c-1-16-8-24-18-24l-74-1c-7 0-19 8-17 32l22 264c1 9 8 16 17 16z" horiz-adv-x="1111" />
+</font>
+</defs>
+</svg>
