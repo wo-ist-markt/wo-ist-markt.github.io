@@ -217,8 +217,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Mainzer Straße",
-                "location": "Wochenmarkt Mainzer Straße",
+                "title": "Wochenmarkt Mainzer Straße (bis 04.09.2017)",
+                "location": "Wochenmarkt Mainzer Straße (bis 04.09.2017)",
                 "opening_hours": "Mo,Th 08:00-13:00",
                 "opening_hours_unclassified": null
             },
@@ -349,6 +349,22 @@
                 "location": "Hoftrödelmarkt, Niebuhrstr. 60, 10629 Berlin",
                 "opening_hours": null,
                 "opening_hours_unclassified": "01.04., 06.05., 03.06., 01.07., 05.08., 02.09., 07.10.2017 10:00 - 16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.3289171,
+                    52.4790084
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Bundesplatz (ab 07.09.2017)",
+                "location": "Wochenmarkt Bundesplatz (ab 07.09.2017)",
+                "opening_hours": "Mo,Th 08:00-13:00",
+                "opening_hours_unclassified": null
             },
             "type": "Feature"
         },
@@ -1385,8 +1401,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Ökomarkt am Kollwitzplatz Am Kollwitzplatz auf der Wörther Straße",
-                "location": "Ökomarkt am Kollwitzplatz Am Kollwitzplatz auf der Wörther Straße",
+                "title": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V. Am Kollwitzplatz auf der Wörther Straße",
+                "location": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V. Am Kollwitzplatz auf der Wörther Straße",
                 "opening_hours": "Th 12:00-19:00",
                 "opening_hours_unclassified": null
             },
@@ -1613,6 +1629,22 @@
                 "location": "Hof- und Garagenflohmarkt im historischen Hof, Wollankstr. 134, 13187 Berlin",
                 "opening_hours": null,
                 "opening_hours_unclassified": "nur 01.07.2017 09:00 - 16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.44075789,
+                    52.5433146
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
+                "location": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Di,Do Sa 08:00 - 18:00 08:00 - 14:00"
             },
             "type": "Feature"
         },
@@ -2579,7 +2611,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 13.07.2017",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 18.08.2017",
             "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     },
