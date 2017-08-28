@@ -128,6 +128,12 @@ html, body {
     font-style: italic;
 }
 
+.awesome-marker i {
+    font-size: 16px;
+    margin-top: 6px;
+	margin-left: -1px;
+}
+
 table.times, p.times {
     margin-top: 0.75em;
 }

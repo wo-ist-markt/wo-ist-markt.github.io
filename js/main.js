@@ -28,11 +28,11 @@ var DAY_INDEX = (now.getDay() + 6) % 7;  // In our data, first day is Monday
 var DAY_NAMES = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
 var DEFAULT_MARKET_TITLE = 'Markt';
 
-L.AwesomeMarkers.Icon.prototype.options.prefix = 'fa';
-var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'shopping-cart'});
-var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'shopping-cart'});
-var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'shopping-cart'});
-var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'shopping-cart'});
+L.AwesomeMarkers.Icon.prototype.options.prefix = 'icon';
+var nowIcon = L.AwesomeMarkers.icon({markerColor: 'green', icon: 'basket'});
+var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'basket'});
+var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'basket'});
+var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'basket'});
 
 /*
  * Return 0-padded string of a number.
