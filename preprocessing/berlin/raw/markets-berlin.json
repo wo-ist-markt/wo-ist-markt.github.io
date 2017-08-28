@@ -393,7 +393,7 @@
                     "email": "",
                     "id": "21",
                     "latitude": "52,481239",
-                    "location": "Wochenmarkt Mainzer Straße",
+                    "location": "Wochenmarkt Mainzer Straße (bis 04.09.2017)",
                     "longitude": "13,427676",
                     "tage": "Mo, Do",
                     "www": "",
@@ -402,7 +402,7 @@
                 "description": "Mo, Do<br />08:00 - 13:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21",
-                "title": "Wochenmarkt Mainzer Straße"
+                "title": "Wochenmarkt Mainzer Straße (bis 04.09.2017)"
             },
             "type": "Feature"
         },
@@ -635,6 +635,35 @@
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/347",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/347",
                 "title": "Hoftrödelmarkt, Niebuhrstr. 60, 10629 Berlin"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.3289171,
+                    52.4790084
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "",
+                    "betreiber": "Bezirksamt Charlottenburg-Wilmersdorf, Marktverwaltung, Hohenzollerndamm 174-177, 10713 Berlin\nTel.: 9029 - 290 72/3",
+                    "bezirk": "Charlottenburg-Wilmersdorf",
+                    "email": "",
+                    "id": "371",
+                    "latitude": "52,4790084",
+                    "location": "Wochenmarkt Bundesplatz (ab 07.09.2017)",
+                    "longitude": "13,3289171",
+                    "tage": "Mo, Do",
+                    "www": "",
+                    "zeiten": "08:00 - 13:00"
+                },
+                "description": "Mo, Do<br />08:00 - 13:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/371\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/371",
+                "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/371",
+                "title": "Wochenmarkt Bundesplatz (ab 07.09.2017)"
             },
             "type": "Feature"
         },
@@ -2487,10 +2516,10 @@
                     "www": "www.dicke-linda-markt.de",
                     "zeiten": "10:00 - 16:00"
                 },
-                "description": "Sa ganzjährig&#10;Marktbeginn: 02.04.2016<br />10:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319\">Mehr...</a>",
+                "description": "<strong>Landmarkt DIE DICKE LINDA, Kranoldplatz</strong><br />Sa ganzjährig&#10;Marktbeginn: 02.04.2016<br />10:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319\">Mehr...</a><br /><br /><strong>Design-Markt Fesche Lotte</strong><br />27.08.2017&#10;10.09.2017&#10;08.10.2017<br />11:00 - 18:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/367\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319",
-                "title": "Landmarkt DIE DICKE LINDA, Kranoldplatz"
+                "title": "Mehrere Einträge..."
             },
             "type": "Feature"
         },
@@ -2504,13 +2533,13 @@
             },
             "properties": {
                 "data": {
-                    "bemerkungen": "Januar - März bis 18:00",
-                    "betreiber": "Veranstalter/Marktleitung: \nGrüne Liga Berlin e.V.\nTel.: 44 33 91 - 0, Fax: 44 33 91 48",
+                    "bemerkungen": "Januar - März bis 18:00, www.facebook.com/%C3%96komarkt-am-Kollwitzplatz-203915213066250/",
+                    "betreiber": "Veranstalter/Marktleitung: \nGRÜNE LIGA Berlin e.V., C. Kapfer\nTel.: 44 33 91 48, Fax: 44 33 91 33",
                     "bezirk": "Pankow",
                     "email": "mailto:oekomarkt.kollwitzplatz@grueneliga.de",
                     "id": "161",
                     "latitude": "52,53674",
-                    "location": "Ökomarkt am Kollwitzplatz\nAm Kollwitzplatz auf der Wörther Straße",
+                    "location": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V.\nAm Kollwitzplatz auf der Wörther Straße",
                     "longitude": "13,417284",
                     "tage": "Do",
                     "www": "www.grueneliga-berlin.de",
@@ -2519,7 +2548,7 @@
                 "description": "Do<br />12:00 - 19:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/161\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/161",
                 "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/161",
-                "title": "Ökomarkt am Kollwitzplatz\nAm Kollwitzplatz auf der Wörther Straße"
+                "title": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V.\nAm Kollwitzplatz auf der Wörther Straße"
             },
             "type": "Feature"
         },
@@ -2932,6 +2961,35 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.44075789,
+                    52.5433146
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "",
+                    "betreiber": "Marktbetreiber: Thomas Borchert, Tel.: 0178/147 73 01",
+                    "bezirk": "Pankow",
+                    "email": "t-borchert@web.de",
+                    "id": "369",
+                    "latitude": "52,5433146",
+                    "location": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
+                    "longitude": "13,44075789",
+                    "tage": "Di,Do\nSa",
+                    "www": "",
+                    "zeiten": "08:00 - 18:00\n08:00 - 14:00"
+                },
+                "description": "Di,Do&#10;Sa<br />08:00 - 18:00&#10;08:00 - 14:00<br /> <a href=\"http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/369\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/369",
+                "id": "http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/369",
+                "title": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.302359,
                     52.626595
                 ],
@@ -3171,8 +3229,8 @@
             },
             "properties": {
                 "data": {
-                    "bemerkungen": "nicht während des Altstadtfestes und Weihnachtsmarktes\nEs werden noch immer freie Flächen angeboten",
-                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Kretschmann), 01520/919 00 05\nFax 90279-30 96\nMarktleiter Herr Hegert, Tel.: 01520/919 00 08",
+                    "bemerkungen": "Es werden noch immer freie Flächen angeboten",
+                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Hegert), 01520/919 00 08,\nFax 90279-30 96\nMarktmeisterHerr Klimek, Tel.: 01520/919 00 05",
                     "bezirk": "Spandau",
                     "email": "",
                     "id": "207",
@@ -3200,8 +3258,8 @@
             },
             "properties": {
                 "data": {
-                    "bemerkungen": "",
-                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Kretschmann), 01520/919 00 05\nFax 90279-30 96\nMarktleiter Herr Hegert, Tel.: 01520/919 00 08",
+                    "bemerkungen": "Es werden noch immer freie Flächen angeboten",
+                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Hegert), 01520/919 00 08,\nFax 90279-30 96\nMarktmeisterHerr Klimek, Tel.: 01520/919 00 05",
                     "bezirk": "Spandau",
                     "email": "",
                     "id": "209",
@@ -3229,8 +3287,8 @@
             },
             "properties": {
                 "data": {
-                    "bemerkungen": "",
-                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Kretschmann), 01520/919 00 05\nFax 90279-30 96\nMarktleiter Herr Hegert, Tel.: 01520/919 00 08",
+                    "bemerkungen": "Es werden noch immer freie Flächen angeboten",
+                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Hegert), 01520/919 00 08,\nFax 90279-30 96\nMarktmeisterHerr Klimek, Tel.: 01520/919 00 05",
                     "bezirk": "Spandau",
                     "email": "",
                     "id": "211",
@@ -3548,8 +3606,8 @@
             },
             "properties": {
                 "data": {
-                    "bemerkungen": "",
-                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Kretschmann), 01520/919 00 05\nFax 90279-30 96\nMarktleiter Herr Hegert, Tel.: 01520/919 00 08",
+                    "bemerkungen": "Es werden noch immer freie Flächen angeboten",
+                    "betreiber": "Bezirksamt Spandau von Berlin\nOrdnungsamt, \nTel.: 90279-22 78 (H. Hegert), 01520/919 00 08,\nFax 90279-30 96\nMarktmeister  Herr Klimek, Tel.: 01520/919 00 05",
                     "bezirk": "Spandau",
                     "email": "",
                     "id": "365",
