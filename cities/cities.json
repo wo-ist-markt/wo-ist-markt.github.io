@@ -99,6 +99,10 @@
         "id": "hanau",
         "label": "Hanau"
     },
+    "hannover": {
+        "id": "hannover",
+        "label": "Hannover"
+    },
     "herne": {
         "id": "herne",
         "label": "Herne"

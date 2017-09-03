@@ -1,0 +1,371 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.6627468,
+                    52.3844095
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ahlem",
+                "location": "Rathausplatz / Wunstorfer Landstraße 59, 30453 Hannover",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.6703969,
+                    52.3546581
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Badenstedt",
+                "location": "Badenstedter Straße 223, 30455 Hannover",
+                "opening_hours": "We 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.6750230,
+                    52.3640396
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Davenstedt",
+                "location": "Davenstedter Markt, 30455 Hannover",
+                "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.76375,
+                    52.33974
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Döhren",
+                "location": "Fiedelerplatz, 30519 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7943280,
+                    52.4023809
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Groß-Buchholz",
+                "location": "Bussestraße / Guerickestraße, 30655 Hannover",
+                "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.6852944,
+                    52.3937723
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Herrenhausen",
+                "location": "Herrenhäuser Markt, 30419 Hannover",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.77468,
+                    52.40029
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Klopstockstraße",
+                "location": "Klopstockstraße, 30177 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.71423,
+                    52.36752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Linden",
+                "location": "Lindener Marktplatz, 30449 Hannover",
+                "opening_hours": "Tu,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.8569029,
+                    52.3913150
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Misburg",
+                "location": " Kardinal-Galen-Schule / Hinter der Alten Burg / Storchendamm, 30629 Hannover",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.72860,
+                    52.38019
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Mitte (Klagesmarkt)",
+                "location": "Am Klagesmarkt, 30159 Hannover",
+                "opening_hours": "Tu,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7464003,
+                    52.3926648
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Moltkeplatz (List)",
+                "location": "Moltkeplatz, 30163 Hannover",
+                "opening_hours": "We 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.6932697,
+                    52.3413634
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Mühlenberg",
+                "location": "Mühlenberger Markt, 30457 Hannover",
+                "opening_hours": "We 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.71343,
+                    52.34278
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Oberricklingen",
+                "location": "Wallensteinstraße 32A, 30459 Hannover",
+                "opening_hours": "Th 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7464846,
+                    52.3841281
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Oststadt (Lister Meile)",
+                "location": "Lister Meile 49, 30161 Hannover",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.70729,
+                    52.37568
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Pfarrlandplatz",
+                "location": "Pfarrlandplatz, 30451 Hannover",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7230414,
+                    52.3503611
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ricklingen",
+                "location": "August-Holweg-Platz, 30459 Hannover",
+                "opening_hours": "Th 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.81337,
+                    52.38893
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Roderbruch",
+                "location": "Roderbruchmarkt, 30627 Hannover",
+                "opening_hours": "Tu,Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.78963,
+                    52.33349
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Rübezahlplatz",
+                "location": "Rübezahlplatz, 30519 Hannover",
+                "opening_hours": "We 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.77774,
+                    52.41447
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Sahlkamp",
+                "location": "Sahlkampmarkt, 30657 Hannover",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7956807,
+                    52.3756766
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Schaperplatz (Kleefeld)",
+                "location": "Schaperplatz, 30625 Hannover",
+                "opening_hours": "We 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7548768,
+                    52.3611716
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Stephansplatz",
+                "location": "Stephansplatz, 30171 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.66405,
+                    52.41003
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Stöcken",
+                "location": "Hogrefestraße 22, 30419 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.72846,
+                    52.39459
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Vahrenwald",
+                "location": "Jahnplatz, 30165 Hannover",
+                "opening_hours": "We 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7652067,
+                    52.3753129
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Zooviertel",
+                "location": "Schackstraße 3-5, 30175 Hannover",
+                "opening_hours": "Tu 8:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Hannover",
+            "url": "https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20"
+        }
+    },
+    "type": "FeatureCollection"
+}

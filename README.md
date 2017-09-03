@@ -103,6 +103,7 @@ in February 2016.
 |[Hamburg][hamburg-wikipedia]|[City of Hamburg][hamburg-markets]|
 |[Hamm][hamm-wikipedia]|[City of Hamm][hamm-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
+|[Hannover][hannover-wikipedia]|[City of Hannover][hannover-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Kaiserslautern][kaiserslautern-wikipedia]|[City of Kaiserslautern][kaiserslautern-markets]|
@@ -227,6 +228,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hamburg-markets]: http://www.hamburg.de/wochenmarkt-hamburg/
 [hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
 [hamm-markets]: https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html
+[hannover-wikipedia]: https://de.wikipedia.org/wiki/Hannover
+[hannover-markets]: https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
