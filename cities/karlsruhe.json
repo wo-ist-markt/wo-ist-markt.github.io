@@ -159,14 +159,29 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.3700837,
-                    49.0291955
+                    8.3714946,
+                    49.0312032
                 ],
                 "type": "Point"
             },
             "properties": {
-                "location": "Auf dem Walther-Rathenau-Platz",
-                "opening_hours": "Tu, Sa 07:30-14:00",
+                "location": "Schulhof der Werner-von-Siemens-Schule",
+                "opening_hours": "Sa 07:30-14:00",
+                "title": "Nordweststadt"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.37004,
+                    49.03014
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Parkplatz der ehemaligen Neuapostolischen Kirche",
+                "opening_hours": "Tu 07:30-14:00",
                 "title": "Nordweststadt"
             },
             "type": "Feature"
