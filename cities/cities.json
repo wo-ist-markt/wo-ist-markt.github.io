@@ -43,6 +43,10 @@
         "id": "chemnitz",
         "label": "Chemnitz"
     },
+    "cottbus": {
+        "id": "cottbus",
+        "label": "Cottbus"
+    },
     "dortmund": {
         "id": "dortmund",
         "label": "Dortmund"

@@ -89,6 +89,7 @@ in February 2016.
 |[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
 |[Brühl][brühl-wikipedia]|[Stadt Brühl][brühl-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
+|[Cottbus][cottbus-wikipedia]|[City of Cottbus][cottbus-markets]|
 |[Dortmund][dortmund-wikipedia]|[City of Dortmund][dortmund-markets]|
 |[Dresden][dresden-wikipedia]|[City of Dresden][dresden-markets]|
 |[Duisburg][duisburg-wikipedia]|[Duisburg Kontor GmbH][duisburg-markets]|
@@ -202,6 +203,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [brühl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
+[cottbus-wikipedia]: https://de.wikipedia.org/wiki/Cottbus
+[cottbus-markets]: http://www.cottbuser-wochenmarkt.de/
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
 [dortmund-markets]: https://www.dortmund.de/de/leben_in_dortmund/stadtportraet/einkaufen/wochenmaerkte/
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
