@@ -1,0 +1,123 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [
+					14.336409,
+					51.761419
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Oberkirchplatz",
+				"opening_hours": "Tu 08:00-16:00; Sa 06:00-13:00; Mar,Apr,May,Sep,Oct,Nov Th 06:00-13:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.3327415,
+					51.7600055
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Spremberger Strasse",
+				"opening_hours": "Mar,Apr,May,Jun,Jul,Aug,Sep,Oct Tu 08:00-18:00; Nov,Dec,Jan,Feb Tu 08:00-17:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.330155,
+					51.76148
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Stadthallenvorplatz",
+				"opening_hours": "Mar,Apr,May,Jun,Jul,Aug,Sep,Oct We 08:00-18:00; Nov,Dec,Jan,Feb We 08:00-17:00; Fr 08:00-15:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.3052,
+					51.754992
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Ortsteil Ströbitz",
+				"opening_hours": "Fr 08:00-14:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.347658,
+					51.762595
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Ortsteil Sandow",
+				"opening_hours": "Mo, Tu, We, Fr 08:00-17:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.327011,
+					51.728036
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Ortsteil Sachsendorf",
+				"opening_hours": "Mo, We, Fr 08:00-16:00; Sa 08:00-13:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.32654,
+					51.744255
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"location": "Markt Leipziger Strasse",
+				"opening_hours": "Mo, Fr 07:00-17:00; Sa 09:00-16:00",
+				"opening_hours_unclassified": null,
+				"title": "Wochenmarkt"
+			},
+			"type": "Feature"
+		}
+	],
+	"metadata": {
+		"data_source": {
+			"title": "Stadt Cottbus",
+			"url": "http://www.cottbuser-wochenmarkt.de/wochenm%C3%A4rkte/"
+		}
+	},
+	"type": "FeatureCollection"
+}
