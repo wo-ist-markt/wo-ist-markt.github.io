@@ -111,6 +111,7 @@ in February 2016.
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Kassel][kassel-wikipedia]|[City of Kassel][kassel-markets]|
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
+|[Kleve][kleve-wikipedia]|[City of Kleve][kleve-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
 |[Laupheim][laupheim-wikipedia]|[Laupheim][laupheim-markets]|
@@ -249,6 +250,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [kassel-markets]: http://www.serviceportal-kassel.de/cms05/dienstleistungen/029907/index.html
 [kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
+[kleve-wikipedia]: https://en.wikipedia.org/wiki/Kleve
+[kleve-markets]: https://www.kleve.de/de/inhalt/wochenmaerkte/
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [laupheim-wikipedia]: https://de.wikipedia.org/wiki/Laupheim
