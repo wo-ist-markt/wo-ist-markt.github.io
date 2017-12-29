@@ -390,6 +390,66 @@
 		   "location": "Unterrather Straße",
 		   "title": "Wochenmarkt Unterrather Straße"
 		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.79358,
+			  51.21329
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "Th 08:00-13:30",
+		   "location": "Lessingplatz",
+		   "title": "Rheinscher Bauernmarkt Oberbilk"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.76829,
+			  51.21266
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "Tu 08:00-13:00; Fr 10:00-18:00",
+		   "location": "Friedensplätzchen",
+		   "title": "Rheinscher Bauernmarkt Unterbilk"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.77891,
+			  51.24079
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "We 09:00-13:00; Sa 08:30-13:30",
+		   "location": "Kolpingplatz",
+		   "title": "Rheinscher Bauernmarkt Pempelfort"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.77891,
+			  51.24079
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "Fr 09:00-13:00",
+		   "location": "Hanns-Heuer-Platz",
+		   "title": "Rheinscher Bauernmarkt Heerdt"
+		}
 	  }
 	],
     "metadata": {
