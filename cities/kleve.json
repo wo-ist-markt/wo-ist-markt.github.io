@@ -1,0 +1,71 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    6.13110602,
+                    51.78292239
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Marktplatz an der Linde",
+                "opening_hours": "Apr-Sep Tu, Th, Sa 07:00-13:00; Oct-Mar Tu, Th, Sa 08:00-13:00",
+                "title": "Wochenmarkt an der Linde"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.13793224,
+                    51.79025602
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Fußgängerzone Koekkoeksplatz",
+                "opening_hours": "Apr-Sep We 07:00-13:00; Apr-Sep Fr 08:00-15:00; Oct-Mar We 08:00-13:00; Oct-Mar Fr 09:00-15:00",
+                "title": "Wochenmarkt Koekkoeksplatz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.13831848,
+                    51.78960235
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Fußgängerzone Kavarinerstraße",
+                "opening_hours": "Apr-Sep We 07:00-13:00; Oct-Mar We 08:00-13:00",
+                "title": "Wochenmarkt Kavarinerstraße"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.17037892,
+                    51.78682496
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Riswicker Bauernmarkt mit Bauernmarktcafé",
+                "opening_hours": "Th 12:00-17:00",
+                "title": "Haus Riswick"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Kleve",
+            "url": "https://www.kleve.de/de/inhalt/wochenmaerkte/"
+        }
+    },
+    "type": "FeatureCollection"
+}
