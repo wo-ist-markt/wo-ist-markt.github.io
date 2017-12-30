@@ -60,6 +60,17 @@ describe('CityList', function() {
             }
         });
 
+        it('should only have entries where the key and the id match', function() {
+            var cities = JSON.parse(fs.readFileSync('cities/cities.json')),
+                keys = Object.keys(cities),
+                key;
+            for (var i = 0, n = keys.length; i < n; i++) {
+                key = keys[i];
+                city = cities[key];
+                expect(key).toBe(city.id, "Key and id do not match");
+            }
+        });
+
     });
 
 });
