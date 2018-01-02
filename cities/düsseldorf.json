@@ -65,21 +65,6 @@
 		"geometry": {
 		   "type": "Point",
 		   "coordinates": [
-			  6.7867020,
-			  51.2438710
-		   ]
-		},
-		"type": "Feature",
-		"properties": {
-		   "opening_hours": "Fr 08:00-14:00",
-		   "location": "Münsterplatz",
-		   "title": "Wochenmarkt Münsterplatz"
-		}
-	  },
-	  {
-		"geometry": {
-		   "type": "Point",
-		   "coordinates": [
 			  6.7976080,
 			  51.2403970
 		   ]
@@ -146,7 +131,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening_hours": "Tu 08:00-18:00; Th 08:00-18:00; Sa 08:00-13:00",
+		   "opening_hours": "Tu 08:00-17:00; Th 08:00-17:00; Sa 08:00-14:00",
 		   "location": "Neusser Tor",
 		   "title": "Wochenmarkt Neusser Tor"
 		}
@@ -194,21 +179,6 @@
 		   "opening_hours": "We 08:00-18:00; Fr 08:00-18:00",
 		   "location": "Kamper Acker / Bonner Straße",
 		   "title": "Wochenmarkt Kamper Acker / Bonner Straße"
-		}
-	  },
-	  {
-		"geometry": {
-		   "type": "Point",
-		   "coordinates": [
-			  6.7951660,
-			  51.2240210
-		   ]
-		},
-		"type": "Feature",
-		"properties": {
-		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-14:00",
-		   "location": "Worringer Platz",
-		   "title": "Wochenmarkt Worringer Platz"
 		}
 	  },
 	  {
@@ -356,7 +326,7 @@
 		},
 		"type": "Feature",
 		"properties": {
-		   "opening_hours": "Th 07:00-13:00",
+		   "opening_hours": "Th 07:00-13:00; Sa 07:00-13:00",
 		   "location": "Breidenplatz",
 		   "title": "Wochenmarkt Breidenplatz"
 		}
@@ -440,8 +410,8 @@
 		"geometry": {
 		   "type": "Point",
 		   "coordinates": [
-			  6.77891,
-			  51.24079
+			  6.71997,
+			  51.2329
 		   ]
 		},
 		"type": "Feature",
@@ -449,6 +419,36 @@
 		   "opening_hours": "Fr 09:00-13:00",
 		   "location": "Hanns-Heuer-Platz",
 		   "title": "Rheinscher Bauernmarkt Heerdt"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.77359,
+			  51.22343
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-18:00; Sa 08:00-16:00",
+		   "location": "Carlsplatz",
+		   "title": "Markt am Karlsplatz"
+		}
+	  },
+	  {
+		"geometry": {
+		   "type": "Point",
+		   "coordinates": [
+			  6.7792,
+			  51.25983
+		   ]
+		},
+		"type": "Feature",
+		"properties": {
+		   "opening_hours": "2018 Jan 14 11:00-17:00; 2018 Feb 18 11:00-17:00; 2018 Mar 11 11:00-17:00; 2018 Apr 08 11:00-17:00; 2018 May 06 11:00-17:00; 2018 Jun 10 11:00-17:00",
+		   "location": "Großmarkt, Ulmenstraße",
+		   "title": "Flohmarkt Radschlägermarkt"
 		}
 	  }
 	],
