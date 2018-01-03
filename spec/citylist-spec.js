@@ -17,11 +17,15 @@ describe('CityList', function() {
 
         it('should contain only city objects', function() {
             var cities = JSON.parse(fs.readFileSync('cities/cities.json')),
-                city;
-            for (var i = 0, n = cities.length; i < n; i++) {
-                city = cities[i];
-                expect(city.id).toBeDefined();
-                expect(city.label).toBeDefined();
+                keys = Object.keys(cities),
+                city,
+                key;
+            for (var i = 0, n = keys.length; i < n; i++) {
+                key = keys[i];
+                city = cities[key];
+                expect(city.id).toBeDefined('City "' + key + '" requires property "id".');
+                expect(city.label).toBeDefined('City "' + key + '" requires property "label".');
+                expect(Object.keys(city).length <= 2).toBe(true, 'Cities should only have the properties id and label.');
             }
         });
 
@@ -57,6 +61,17 @@ describe('CityList', function() {
                 cityPath = 'cities/' + city.id + '.json';
                 cityGeoJson = fs.readFileSync(cityPath);
                 expect(JSON.parse(cityGeoJson).type).toBeDefined();
+            }
+        });
+
+        it('should only have entries where the key and the id match', function() {
+            var cities = JSON.parse(fs.readFileSync('cities/cities.json')),
+                keys = Object.keys(cities),
+                key;
+            for (var i = 0, n = keys.length; i < n; i++) {
+                key = keys[i];
+                city = cities[key];
+                expect(key).toBe(city.id, "Key and id do not match");
             }
         });
 
