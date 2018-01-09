@@ -9,8 +9,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.66,
-                    50.114722
+                    8.6869,
+                    50.11449
                 ],
                 "type": "Point"
             },
@@ -54,8 +54,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.6615995,
-                    50.1071159
+                    8.66684,
+                    50.10798
                 ],
                 "type": "Point"
             },
@@ -69,8 +69,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.6765066,
-                    50.1143328
+                    8.67841,
+                    50.11409
                 ],
                 "type": "Point"
             },
@@ -204,8 +204,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.6894345,
-                    50.1231061
+                    8.69233,
+                    50.12347
                 ],
                 "type": "Point"
             },
@@ -234,15 +234,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.6970994,
-                    50.1107928
+                    8.69940,
+                    50.11092
                 ],
                 "type": "Point"
             },
             "properties": {
                 "location": "Paul-Arnsberg-Platz ",
                 "opening_hours": "Fr 09:00-18:00",
-                "title": "Wochenmarkt Nordend"
+                "title": "Wochenmarkt Ostend"
             },
             "type": "Feature"
         },
@@ -279,8 +279,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    8.6835913,
-                    50.10054
+                    8.68561, 
+                    50.1
                 ],
                 "type": "Point"
             },
