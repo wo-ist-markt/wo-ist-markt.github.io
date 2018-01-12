@@ -22,8 +22,8 @@ the project root folder:
 	``` json
     "metadata": {
         "data_source": {
-            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 02.02.2016",
-            "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
+            "title": "Daten von der Stadt Berlin, CC BY 3.0 DE, aktualisiert am 12.01.2018",
+            "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
     ```

@@ -217,8 +217,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Mainzer Straße (bis 04.09.2017)",
-                "location": "Wochenmarkt Mainzer Straße (bis 04.09.2017)",
+                "title": "Wochenmarkt Bundesplatz",
+                "location": "Wochenmarkt Bundesplatz",
                 "opening_hours": "Mo,Th 08:00-13:00",
                 "opening_hours_unclassified": null
             },
@@ -297,10 +297,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "16. ANTIKMEILE Suarezstraße",
-                "location": "16. ANTIKMEILE Suarezstraße",
+                "title": "17. ANTIKMEILE Suarezstraße",
+                "location": "17. ANTIKMEILE Suarezstraße",
                 "opening_hours": null,
-                "opening_hours_unclassified": "02.09.2017 12:00 - 20:00"
+                "opening_hours_unclassified": "01.09.2018 12:00 - 20:00"
             },
             "type": "Feature"
         },
@@ -316,7 +316,7 @@
                 "title": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "location": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "opening_hours": null,
-                "opening_hours_unclassified": "08.04.2017 09.04.2017 07.10.2017 08.10.2017 11:00 - 18:00 10:00 - 18:00 11:00 - 17:00 10:00 - 17:00"
+                "opening_hours_unclassified": "05.05.2018 06.05.2018 08.09.2018 09.09.2018 11:00 - 18:00 10:00 - 18:00 11:00 - 18:00 10:00 - 18:00"
             },
             "type": "Feature"
         },
@@ -329,10 +329,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Marktmeile im Rahmen des 13. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
-                "location": "Marktmeile im Rahmen des 13. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
+                "title": "Marktmeile im Rahmen des 14. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
+                "location": "Marktmeile im Rahmen des 14. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
                 "opening_hours": null,
-                "opening_hours_unclassified": "08./09.07.2017 Sa 12:00 - 19:00 So 11:00 - 19:00"
+                "opening_hours_unclassified": "25./26.08.2018 Sa 12:00 - 19:00 So 11:00 - 19:00"
             },
             "type": "Feature"
         },
@@ -348,7 +348,7 @@
                 "title": "Hoftrödelmarkt, Niebuhrstr. 60, 10629 Berlin",
                 "location": "Hoftrödelmarkt, Niebuhrstr. 60, 10629 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "01.04., 06.05., 03.06., 01.07., 05.08., 02.09., 07.10.2017 10:00 - 16:00"
+                "opening_hours_unclassified": "07.04., 05.05., 02.06., 07.07., 04.08., 01.09.2018 10:00 - 15:00"
             },
             "type": "Feature"
         },
@@ -365,6 +365,22 @@
                 "location": "Wochenmarkt Bundesplatz (ab 07.09.2017)",
                 "opening_hours": "Mo,Th 08:00-13:00",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.29169419,
+                    52.5178458
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Straßenflohmarkt Karée Nehringstraße - Klausenerplatz - Danckelmannstraße und Knobelsdorffstraße",
+                "location": "Straßenflohmarkt Karée Nehringstraße - Klausenerplatz - Danckelmannstraße und Knobelsdorffstraße",
+                "opening_hours": null,
+                "opening_hours_unclassified": "05.05.2018 15.09.2018 09:00 - 18:00"
             },
             "type": "Feature"
         },
@@ -443,7 +459,7 @@
             "properties": {
                 "title": "Wochenmarkt Schönleinstraße am Hohenstaufenplatz",
                 "location": "Wochenmarkt Schönleinstraße am Hohenstaufenplatz",
-                "opening_hours": "Tu 12:00-18:00;Sa 10:00-14:00",
+                "opening_hours": "Tu 12:00-18:00;Sa 09:00-15:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -507,8 +523,8 @@
             "properties": {
                 "title": "Markthalle Neun, Eisenbahnstraße 42/43, 10997 Berlin",
                 "location": "Markthalle Neun, Eisenbahnstraße 42/43, 10997 Berlin",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Wochenmarkt: Fr Sa 12:00 - 18:00 10:00 - 18:00"
+                "opening_hours": "Fr 12:00-18:00;Sa 10:00-18:00",
+                "opening_hours_unclassified": null
             },
             "type": "Feature"
         },
@@ -521,9 +537,9 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt am Südstern",
-                "location": "Wochenmarkt am Südstern",
-                "opening_hours": "Fr,Sa 10:00-16:00",
+                "title": "Neuer Markt am Südstern",
+                "location": "Neuer Markt am Südstern",
+                "opening_hours": "Sa 10:00-16:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -563,38 +579,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.421927,
-                    52.491378
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Familien-Flohmarkt am Zickenplatz (Hohenstaufenplatz)",
-                "location": "Familien-Flohmarkt am Zickenplatz (Hohenstaufenplatz)",
-                "opening_hours": null,
-                "opening_hours_unclassified": "21.05.2017 12:00 - 16:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.431351,
-                    52.498615
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Sperrgutmarkt am Lausitzer Platz",
-                "location": "Sperrgutmarkt am Lausitzer Platz",
-                "opening_hours": null,
-                "opening_hours_unclassified": "nur 20.05.2017 12:00 - 17:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.454248,
                     52.507708
                 ],
@@ -603,7 +587,7 @@
             "properties": {
                 "title": "raw-flohmarkt, Revaler Str. 99",
                 "location": "raw-flohmarkt, Revaler Str. 99",
-                "opening_hours": "Su 09:00-19:00",
+                "opening_hours": "Su 09:00-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -620,7 +604,7 @@
                 "title": "Kreuzboerg Flowmarkt Prinzessinnengärten/Moritzplatz",
                 "location": "Kreuzboerg Flowmarkt Prinzessinnengärten/Moritzplatz",
                 "opening_hours": null,
-                "opening_hours_unclassified": "09.04., 23.04., 07.05., 21.05., 18.06., 02.07., 16.07., 30.07., 13.08., 27.08., 10.09., 24.09., 08.10., 22.10.2017 10:00 - 17:00"
+                "opening_hours_unclassified": "09.04., 22.04., 06.05., 17.06., 01.07., 15.07., 29.07., 12.08., 26.08., 09.09., 23.09., 07.10., 21.10.2018 10:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -636,7 +620,7 @@
                 "title": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "location": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "30.04.2017 22.10.2017 26.11.2017 09:00 - 17:00"
+                "opening_hours_unclassified": "01.04.2018 09:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -652,7 +636,7 @@
                 "title": "Großer Familien-Flohmarkt in Klaistow",
                 "location": "Großer Familien-Flohmarkt in Klaistow",
                 "opening_hours": null,
-                "opening_hours_unclassified": "26.03.2017 02.07.2017 27.08.2017 05.11.2017 10:00 - 16:00"
+                "opening_hours_unclassified": "25.03.2018 10:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -667,7 +651,7 @@
             "properties": {
                 "title": "Wochenmarkt Anton-Saefkow-Platz",
                 "location": "Wochenmarkt Anton-Saefkow-Platz",
-                "opening_hours": "Tu-Th 10:00-18:00",
+                "opening_hours": "Tu,Th 09:00-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -787,22 +771,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.454314,
-                    52.530194
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Antik-, Trödel-, Sammler-, Kunsthandwerkmarkt, Landsberger Allee Nähe IKEA, 10365 Berlin",
-                "location": "Antik-, Trödel-, Sammler-, Kunsthandwerkmarkt, Landsberger Allee Nähe IKEA, 10365 Berlin",
-                "opening_hours": "Sa,Su 09:00-15:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.50567,
                     52.565468
                 ],
@@ -845,6 +813,22 @@
                 "location": "Trödelmarkt Selgros, Rhinstr. 141, 10315 Berlin",
                 "opening_hours": "Su 07:00-14:00",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.5246451,
+                    52.4781929
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Riesenflohmarkt Trabrennbahn Karlshorst, Treskowallee 129",
+                "location": "Riesenflohmarkt Trabrennbahn Karlshorst, Treskowallee 129",
+                "opening_hours": null,
+                "opening_hours_unclassified": "03.10.2018 09:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -921,9 +905,9 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt  Cecilienplatz   Ernst-Bloch-Straße",
-                "location": "Wochenmarkt  Cecilienplatz   Ernst-Bloch-Straße",
-                "opening_hours": "We,Fr 09:00-18:00",
+                "title": "Wochenmarkt  Cecilienplatz  Ernst-Bloch-Straße",
+                "location": "Wochenmarkt  Cecilienplatz  Ernst-Bloch-Straße",
+                "opening_hours": "Mo,We,Fr 09:00-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -969,10 +953,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "12. Kunst- und Keramikmarkt Alt Marzahn",
-                "location": "12. Kunst- und Keramikmarkt Alt Marzahn",
+                "title": "13. Kunst- und Keramikmarkt Alt Marzahn",
+                "location": "13. Kunst- und Keramikmarkt Alt Marzahn",
                 "opening_hours": null,
-                "opening_hours_unclassified": "11./12.11.2017 10:00 - 18:00"
+                "opening_hours_unclassified": "10./11.11.2018 10:00 - 18:00"
             },
             "type": "Feature"
         },
@@ -1179,7 +1163,7 @@
             "properties": {
                 "title": "Flohmarkt im Mauerpark Bernauer Straße 63-64",
                 "location": "Flohmarkt im Mauerpark Bernauer Straße 63-64",
-                "opening_hours": "Su 09:00-18:00",
+                "opening_hours": "Su 10:00-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -1251,14 +1235,46 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.37594409,
+                    52.5096488
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "BETTER USED Markt am Potsdamer Platz",
+                "location": "BETTER USED Markt am Potsdamer Platz",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.-13.05.2018 Do & So Fr & Sa 10:00 - 18:00 11:00 - 19:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.31893999,
+                    52.52798
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
+                "location": "design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
+                "opening_hours": null,
+                "opening_hours_unclassified": "16. - 18.11.2018"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.442131,
                     52.473879
                 ],
                 "type": "Point"
             },
             "properties": {
-                "title": "Rixdorfer Wochenmarkt, Karl-Marx-Platz",
-                "location": "Rixdorfer Wochenmarkt, Karl-Marx-Platz",
+                "title": "Neuköllner Wochenmärkte Rixdorf, Karl-Marx-Platz",
+                "location": "Neuköllner Wochenmärkte Rixdorf, Karl-Marx-Platz",
                 "opening_hours": "We 11:00-18:00;Sa 08:00-15:00",
                 "opening_hours_unclassified": null
             },
@@ -1273,8 +1289,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Rudower Wochenmarkt, Prierosser Straße",
-                "location": "Rudower Wochenmarkt, Prierosser Straße",
+                "title": "Neuköllner Wochenmärkte Rudow, Prierosser Straße",
+                "location": "Neuköllner Wochenmärkte Rudow, Prierosser Straße",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
             },
@@ -1289,10 +1305,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
-                "location": "Wochenmarkt Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
-                "opening_hours": "Mo,Th,Sa 08:00-13:00",
-                "opening_hours_unclassified": null
+                "title": "Neuköllner Wochenmärkte Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
+                "location": "Neuköllner Wochenmärkte Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Mo,Do Sa 08:00 - 13:00 08:00 - 14:00"
             },
             "type": "Feature"
         },
@@ -1305,8 +1321,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Hermannplatz",
-                "location": "Wochenmarkt Hermannplatz",
+                "title": "Neuköllner Wochenmärkte Hermannplatz",
+                "location": "Neuköllner Wochenmärkte Hermannplatz",
                 "opening_hours": "Mo-Fr 10:00-18:00",
                 "opening_hours_unclassified": null
             },
@@ -1321,8 +1337,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Maybachufer (ehemals: Maybachufer/BiOriental)",
-                "location": "Wochenmarkt Maybachufer (ehemals: Maybachufer/BiOriental)",
+                "title": "Neuköllner Wochenmärkte Maybachufer",
+                "location": "Neuköllner Wochenmärkte Maybachufer",
                 "opening_hours": "Tu,Fr 11:00-18:30",
                 "opening_hours_unclassified": null
             },
@@ -1337,8 +1353,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
-                "location": "Wochenmarkt Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
+                "title": "Neuköllner Wochenmärkte Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
+                "location": "Neuköllner Wochenmärkte Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
                 "opening_hours": "Fr 10:00-18:00",
                 "opening_hours_unclassified": null
             },
@@ -1353,8 +1369,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Wutzkyallee, Rotraut-Richter-Platz",
-                "location": "Wochenmarkt Wutzkyallee, Rotraut-Richter-Platz",
+                "title": "Neuköllner Wochenmärkte Wutzkyallee, Rotraut-Richter-Platz",
+                "location": "Neuköllner Wochenmärkte Wutzkyallee, Rotraut-Richter-Platz",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
             },
@@ -1507,22 +1523,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.452206,
-                    52.539388
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage",
-                "location": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage",
-                "opening_hours": "Tu-Sa 14:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.487325,
                     52.618118
                 ],
@@ -1547,8 +1547,8 @@
             "properties": {
                 "title": "Wochenmarkt Antonplatz",
                 "location": "Wochenmarkt Antonplatz",
-                "opening_hours": "Tu,Fr 09:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours": null,
+                "opening_hours_unclassified": "Di,Fr Do* 09:00 - 18:00 11:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -1611,24 +1611,8 @@
             "properties": {
                 "title": "Trödelmarkt Kopenhagener Str. 82",
                 "location": "Trödelmarkt Kopenhagener Str. 82",
-                "opening_hours": "We 12:00-16:00;Th 06:00-10:00",
+                "opening_hours": "We 12:00-16:00;Th 05:00-10:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.40083,
-                    52.56896
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Hof- und Garagenflohmarkt im historischen Hof, Wollankstr. 134, 13187 Berlin",
-                "location": "Hof- und Garagenflohmarkt im historischen Hof, Wollankstr. 134, 13187 Berlin",
-                "opening_hours": null,
-                "opening_hours_unclassified": "nur 01.07.2017 09:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -1699,22 +1683,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.35463,
-                    52.59735
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Trödelmarkt Wilhelmsruher Damm 231-245",
-                "location": "Trödelmarkt Wilhelmsruher Damm 231-245",
-                "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.36583,
                     52.560786
                 ],
@@ -1763,16 +1731,16 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.290459,
-                    52.633502
+                    13.33519909,
+                    52.5953262
                 ],
                 "type": "Point"
             },
             "properties": {
-                "title": "KinderTrödelmarkt Zeltinger Platz, 13465 Berlin-Frohnau",
-                "location": "KinderTrödelmarkt Zeltinger Platz, 13465 Berlin-Frohnau",
-                "opening_hours": null,
-                "opening_hours_unclassified": "nur 02.07.2017 09:00 - 14:00"
+                "title": "Trödelmarkt Wilhelmsruher Damm 231 - 245",
+                "location": "Trödelmarkt Wilhelmsruher Damm 231 - 245",
+                "opening_hours": "Su 08:00-16:00",
+                "opening_hours_unclassified": null
             },
             "type": "Feature"
         },
@@ -1785,8 +1753,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Rathausvorplatz",
-                "location": "Wochenmarkt Rathausvorplatz",
+                "title": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
+                "location": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
                 "opening_hours": "We 08:00-18:00;Sa 08:00-16:00",
                 "opening_hours_unclassified": null
             },
@@ -1849,8 +1817,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Brunsbütteler Damm 26",
-                "location": "Wochenmarkt Brunsbütteler Damm 26",
+                "title": "Wochenmarkt Brunsbütteler Damm 265",
+                "location": "Wochenmarkt Brunsbütteler Damm 265",
                 "opening_hours": "Fr 08:00-15:00",
                 "opening_hours_unclassified": null
             },
@@ -1948,7 +1916,7 @@
                 "title": "Kinderflohmarkt in der Landstadt Gatow Am Flugplatz Gatow, Ansprechpartner: Joachim Weiß, Tel.: 36 80 20 45",
                 "location": "Kinderflohmarkt in der Landstadt Gatow Am Flugplatz Gatow, Ansprechpartner: Joachim Weiß, Tel.: 36 80 20 45",
                 "opening_hours": null,
-                "opening_hours_unclassified": "nur 29.04.2017 11:00 - 14:00"
+                "opening_hours_unclassified": "nur 05.05.2018 11:00 - 14:00"
             },
             "type": "Feature"
         },
@@ -1964,23 +1932,7 @@
                 "title": "Spezialmarkt WeinSommer\" Rheinland-Pfalz in Kooperation mit dem Spandauer Altstadtfest, Marktplatz und Altstadt Spandau",
                 "location": "Spezialmarkt WeinSommer\" Rheinland-Pfalz in Kooperation mit dem Spandauer Altstadtfest, Marktplatz und Altstadt Spandau",
                 "opening_hours": null,
-                "opening_hours_unclassified": "31.08.2017 01.09.2017 02.09.2017 03.09.2017 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.218256,
-                    52.537191
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Nachtmarkt auf der Zitadelle im Rahmen des Citadel Music Festivals, Am Juliusturm 64",
-                "location": "Nachtmarkt auf der Zitadelle im Rahmen des Citadel Music Festivals, Am Juliusturm 64",
-                "opening_hours": null,
-                "opening_hours_unclassified": "05.08.2017 18:00 - 24:00"
+                "opening_hours_unclassified": "30.08.2018 31.08.2018 01.09.2018 02.09.2018 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00"
             },
             "type": "Feature"
         },
@@ -2204,23 +2156,7 @@
                 "title": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
                 "location": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
                 "opening_hours": null,
-                "opening_hours_unclassified": "22.06.2017 23.06.2017 24.06.2017 25.06.2017 16:00-22:00 14:00-24:00 12:00-24:00 12:00-20:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.286666,
-                    52.422426
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Trödelmarkt am Platz des 4. Juli, Osteweg Ecke Platz des 4. Juli, 14167 Berlin-Lichterfelde",
-                "location": "Trödelmarkt am Platz des 4. Juli, Osteweg Ecke Platz des 4. Juli, 14167 Berlin-Lichterfelde",
-                "opening_hours": null,
-                "opening_hours_unclassified": "12.03., 26.03., 02.04., 23.04., 07.05., 28.05., 11.06., 25.06., 02.07., 16.07., 23.07., 03.09., 17.09., 01.10.2017 10:00 - 15:00"
+                "opening_hours_unclassified": "21.06.2018 22.06.2018 23.06.2018 24.06.2018 16:00-22:00 14:00-24:00 12:00-24:00 12:00-20:00"
             },
             "type": "Feature"
         },
@@ -2243,22 +2179,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.309084,
-                    52.466767
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "< 164 Markt (Verkauf von Baby- und Kindersachen), Breitenbachplatz, 14195 Berlin",
-                "location": "< 164 Markt (Verkauf von Baby- und Kindersachen), Breitenbachplatz, 14195 Berlin",
-                "opening_hours": null,
-                "opening_hours_unclassified": "02.04., 14.05., 11.06., 09.07., 13.08., 10.09., 08.10., 05.11.2017 10:00 - 14:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.256836,
                     52.431192
                 ],
@@ -2269,22 +2189,6 @@
                 "location": "Zehlendorfer Wochenmarkt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin",
                 "opening_hours": null,
                 "opening_hours_unclassified": "vorerst bis zum 31.03.2017 Sa 09:00 - 16:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.25558,
-                    52.4359505
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Familienbasar Nord-Grundschule, Potsdamer Str. 7, 14163 Berlin, Tel.: 0151/26 83 94 95",
-                "location": "Familienbasar Nord-Grundschule, Potsdamer Str. 7, 14163 Berlin, Tel.: 0151/26 83 94 95",
-                "opening_hours": null,
-                "opening_hours_unclassified": "13.05.2017 10:00 - 13:00"
             },
             "type": "Feature"
         },
@@ -2395,7 +2299,7 @@
             "properties": {
                 "title": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "location": "Wochenmarkt Wittenbergplatz (Nordseite)",
-                "opening_hours": "Tu 08:00-14:00;Fr 08:00-16:00",
+                "opening_hours": "Tu 09:00-15:00;Fr 08:00-15:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -2435,22 +2339,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.35207,
-                    52.49125
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
-                "location": "Kinder-Baby-Trödel Kiezoase Schöneberg,  K.-Schrader-Str. 7-8",
-                "opening_hours": null,
-                "opening_hours_unclassified": "17.06.2017 08.07.2017 16.09.2017 07.10.2017 14:00 - 17:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.3980586,
                     52.3864294
                 ],
@@ -2460,6 +2348,22 @@
                 "title": "Ökomarkt Lichtenrade",
                 "location": "Ökomarkt Lichtenrade",
                 "opening_hours": "Sa 08:00-13:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.3544458,
+                    52.4877909
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Ökomarkt an der Akazienstraße",
+                "location": "Ökomarkt an der Akazienstraße",
+                "opening_hours": "Th 12:00-18:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -2579,22 +2483,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.454239,
-                    52.496062
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Treptower HallenTrödelmarkt,  Eichenstr. 4",
-                "location": "Treptower HallenTrödelmarkt,  Eichenstr. 4",
-                "opening_hours": "Sa,Su 10:00-16:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.5266724,
                     52.4586392
                 ],
@@ -2611,8 +2499,8 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 18.08.2017",
-            "url": "http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 12.01.2018",
+            "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
     "type": "FeatureCollection"
