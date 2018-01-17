@@ -185,7 +185,7 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [bad-homburg-wikipedia]: https://en.wikipedia.org/wiki/Bad_Homburg_vor_der_Höhe
 [bad-homburg-markets]: http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
-[berlin-markets]: http://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte
+[berlin-markets]: https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
 [bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
