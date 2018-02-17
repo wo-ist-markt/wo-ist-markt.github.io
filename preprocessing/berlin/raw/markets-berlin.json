@@ -380,8 +380,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.427676,
-                    52.481239
+                    13.33113961,
+                    52.48740509
                 ],
                 "type": "Point"
             },
@@ -392,9 +392,9 @@
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "email": "",
                     "id": "22",
-                    "latitude": "52,481239",
+                    "latitude": "52,48740509",
                     "location": "Wochenmarkt Bundesplatz",
-                    "longitude": "13,427676",
+                    "longitude": "13,33113961",
                     "tage": "Mo, Do",
                     "www": "",
                     "zeiten": "08:00 - 13:00"
@@ -693,6 +693,35 @@
                 "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/352",
                 "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/352",
                 "title": "Straßenflohmarkt Karée Nehringstraße - Klausenerplatz - Danckelmannstraße  und Knobelsdorffstraße"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.3047459,
+                    52.5256982
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "",
+                    "betreiber": "DorfwerkStadt e. V., Tel.: 344 58 74, Fax: 34 09 63 48",
+                    "bezirk": "Charlottenburg-Wilmersdorf",
+                    "email": "team@dorfwerkstadt.de",
+                    "id": "354",
+                    "latitude": "52,5256982",
+                    "location": "Kiezflohmarkt Mierendorffplatz",
+                    "longitude": "13,3047459",
+                    "tage": "23.06.2018",
+                    "www": "www.dorfwerkstadt.de",
+                    "zeiten": "10:00 - 16:00"
+                },
+                "description": "23.06.2018<br />10:00 - 16:00<br /> <a href=\"http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/354\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/354",
+                "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/354",
+                "title": "Kiezflohmarkt Mierendorffplatz"
             },
             "type": "Feature"
         },
@@ -1120,14 +1149,43 @@
                     "latitude": "52,5103843",
                     "location": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                     "longitude": "13,4340144",
-                    "tage": "01.04.2018",
+                    "tage": "01.05.2018\n25.11.2018",
                     "www": "www.oldthing.de",
                     "zeiten": "09:00 - 17:00"
                 },
-                "description": "01.04.2018<br />09:00 - 17:00<br /> <a href=\"http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322\">Mehr...</a>",
+                "description": "01.05.2018&#10;25.11.2018<br />09:00 - 17:00<br /> <a href=\"http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322\">Mehr...</a>",
                 "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
                 "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
                 "title": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.4595931,
+                    52.5107888
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "außer Volkstrauertag und Totensonntag",
+                    "betreiber": "Marktleitung: Herr Walk, Tel.: 0162/292 30 66",
+                    "bezirk": "Friedrichshain-Kreuzberg",
+                    "email": "",
+                    "id": "356",
+                    "latitude": "52,5107888",
+                    "location": "Trödelmarkt Boxhagener Platz",
+                    "longitude": "13,4595931",
+                    "tage": "So",
+                    "www": "",
+                    "zeiten": "10:00 - 18:00"
+                },
+                "description": "So<br />10:00 - 18:00<br /> <a href=\"http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/356\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/356",
+                "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/356",
+                "title": "Trödelmarkt Boxhagener Platz"
             },
             "type": "Feature"
         },
@@ -2955,6 +3013,35 @@
                 "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/334",
                 "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/334",
                 "title": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.4522058,
+                    52.5393883
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "bemerkungen": "an Feiertagen geschlossen",
+                    "betreiber": "KDW-Berlin.com, Tel.: 25 04 68 00, 0178/170 38 40",
+                    "bezirk": "Pankow",
+                    "email": "mail@kdw-berlin.com",
+                    "id": "358",
+                    "latitude": "52,5393883",
+                    "location": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage",
+                    "longitude": "13,4522058",
+                    "tage": "Di bis Sa",
+                    "www": "www.kdw-berlin.com",
+                    "zeiten": "14:00 - 18:00"
+                },
+                "description": "Di bis Sa<br />14:00 - 18:00<br /> <a href=\"http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358\">Mehr...</a>",
+                "href": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358",
+                "id": "http://www.berlin.de/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358",
+                "title": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage"
             },
             "type": "Feature"
         },
