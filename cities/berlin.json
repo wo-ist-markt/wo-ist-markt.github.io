@@ -211,8 +211,8 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.427676,
-                    52.481239
+                    13.33113961,
+                    52.48740509
                 ],
                 "type": "Point"
             },
@@ -381,6 +381,22 @@
                 "location": "Straßenflohmarkt Karée Nehringstraße - Klausenerplatz - Danckelmannstraße und Knobelsdorffstraße",
                 "opening_hours": null,
                 "opening_hours_unclassified": "05.05.2018 15.09.2018 09:00 - 18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.3047459,
+                    52.5256982
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kiezflohmarkt Mierendorffplatz",
+                "location": "Kiezflohmarkt Mierendorffplatz",
+                "opening_hours": null,
+                "opening_hours_unclassified": "23.06.2018 10:00 - 16:00"
             },
             "type": "Feature"
         },
@@ -620,7 +636,23 @@
                 "title": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "location": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "01.04.2018 09:00 - 17:00"
+                "opening_hours_unclassified": "01.05.2018 25.11.2018 09:00 - 17:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.4595931,
+                    52.5107888
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Trödelmarkt Boxhagener Platz",
+                "location": "Trödelmarkt Boxhagener Platz",
+                "opening_hours": "Su 10:00-18:00",
+                "opening_hours_unclassified": null
             },
             "type": "Feature"
         },
@@ -1635,6 +1667,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.4522058,
+                    52.5393883
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage",
+                "location": "Flohmarkt Hanns-Eisler-Str. 93 / Kniprodestraße Kaufhalle der Wohnanlage",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Di bis Sa 14:00 - 18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.302359,
                     52.626595
                 ],
@@ -2499,7 +2547,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 12.01.2018",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 30.01.2018",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
