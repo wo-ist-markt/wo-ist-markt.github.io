@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io.svg?branch=master)](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io) [![Dependency Status](https://gemnasium.com/badges/github.com/wo-ist-markt/wo-ist-markt.github.io.svg)](https://gemnasium.com/github.com/wo-ist-markt/wo-ist-markt.github.io)
+[![Build Status](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io.svg?branch=master)](https://travis-ci.org/wo-ist-markt/wo-ist-markt.github.io) [![Dependency Status](https://gemnasium.com/badges/github.com/wo-ist-markt/wo-ist-markt.github.io.svg)](https://gemnasium.com/github.com/wo-ist-markt/wo-ist-markt.github.io) [![devDependencies Status](https://david-dm.org/wo-ist-markt/wo-ist-markt.github.io/dev-status.svg)](https://david-dm.org/wo-ist-markt/wo-ist-markt.github.io?type=dev)
 
 # Wo ist Markt?
 
