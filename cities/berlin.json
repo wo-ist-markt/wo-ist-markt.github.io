@@ -3,6 +3,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    12.8619132,
+                    52.2976673
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Familien-Flohmarkt",
+                "location": "Familien-Flohmarkt",
+                "opening_hours": null,
+                "opening_hours_unclassified": "25.03.2018 01.07.2018 26.08.2018 11.11.2018 10:00 - 16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.057868,
                     52.403476
                 ],
@@ -403,6 +419,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.32137,
+                    52.4753799
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Großer Trödelmarkt der Ruppin Grundschule, Offenbacher Str. 5a",
+                "location": "Großer Trödelmarkt der Ruppin Grundschule, Offenbacher Str. 5a",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.03.2018 10:00 - 13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.449666,
                     52.516919
                 ],
@@ -653,6 +685,22 @@
                 "location": "Trödelmarkt Boxhagener Platz",
                 "opening_hours": "Su 10:00-18:00",
                 "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.41784,
+                    52.48993
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "GraefeSommer Flohmarkt - Flohmarkt mit Kiezkultur",
+                "location": "GraefeSommer Flohmarkt - Flohmarkt mit Kiezkultur",
+                "opening_hours": null,
+                "opening_hours_unclassified": "17.06.2018 12:00 - 17:00"
             },
             "type": "Feature"
         },
@@ -2547,7 +2595,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 30.01.2018",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 06.03.2018",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
