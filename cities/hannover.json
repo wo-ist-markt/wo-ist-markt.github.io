@@ -359,6 +359,156 @@
                 "opening_hours": "Tu 8:00-13:00"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.74060,
+                    52.37622
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Bahnhof",
+                "location": "Ernst-August-Platz, 30159 Hannover",
+                "opening_hours": "Mo,Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.80072,
+                    52.40933
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Bothfeld",
+                "location": "Einkaufspark Klein-Buchholz, 30695 Hannover",
+                "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.76375,
+                    52.33974
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Döhren",
+                "location": "Fiedelerplatz, 30519 Hannover",
+                "opening_hours": "Tu 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.81219,
+                    52.30717
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Laatzen",
+                "location": "Leine-Center, 30880 Hannover",
+                "opening_hours": "We 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.72142,
+                    52.38704
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Nordstadt",
+                "location": "Lutherkirche, 30167 Hannover",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.73532,
+                    52.37179
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Mitte",
+                "location": "Marktkirche, 30159 Hannover",
+                "opening_hours": "Th 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.7464003,
+                    52.3926648
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt List",
+                "location": "Moltkeplatz, 30163 Hannover",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.82657,
+                    52.35859
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Kirchrode",
+                "location": "Jakobikirche, 30559 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.77078,
+                    52.36213
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Bult",
+                "location": "Rimpaustraße, 30173 Hannover",
+                "opening_hours": "Sa 8:00-12:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.76116,
+                    52.37438
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Zooviertel",
+                "location": "Friedenskirche, 30175 Hannover",
+                "opening_hours": "Sa 8:00-13:00"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
