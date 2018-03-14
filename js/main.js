@@ -400,6 +400,8 @@ function loadDefaultCity(createNewHistoryEntry) {
  */
 function setCity(cityID, createNewHistoryEntry) {
     cityID = cityID || DEFAULT_CITY_ID;
+    cityID = sanitizeCityID(cityID);
+
     var filename = 'cities/' + cityID + '.json';
     if (filename === CITY_LIST_API_URL) {
         return loadDefaultCity(false);
@@ -425,6 +427,26 @@ function setCity(cityID, createNewHistoryEntry) {
     });
 }
 
+/*
+ * Checks the cityID for unexpected characters or if it is too long.
+ *
+ * In case the cityID is invalid, it emits a console.error message.
+ *
+ * Returns the cityID if the cityID is valid, otherwise the DEFAULT_CITY_ID.
+ */
+function sanitizeCityID(cityID) {
+  // the regexp also contains German Umlaute äöü
+  // from here https://stackoverflow.com/a/22017800 by
+  // IProblemFactory (https://stackoverflow.com/users/140070/iproblemfactory)
+  var validCityRegexp = '^[\-a-z0-9_\u00e4\u00f6\u00fc]{1,40}$';
+  var regexp = new RegExp(validCityRegexp, 'i');
+  if (!regexp.test(cityID)) {
+    console.error('Invalid cityID "' + cityID + '". Loading  "' + 
+                  DEFAULT_CITY_ID + '" instead.');
+    return DEFAULT_CITY_ID;
+  }
+  return cityID;
+}
 
 /*
  * Load the IDs of the available cities.
