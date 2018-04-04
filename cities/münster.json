@@ -270,6 +270,21 @@
           51.9159
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Markt bei Blumen Dahlmann",
+        "title": "Markt bei Blumen Dahlmann",
+        "opening_hours": "Sa 08:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.68856,
+          51.9093
+        ]
+      }
     }
   ],
     "metadata": {
