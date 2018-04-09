@@ -8,7 +8,10 @@ convert it into GeoJSON format.
 
 1. Download the latest raw market data and put in into the *raw*
 folder as *markets-berlin.json*.
-2. Convert the raw market data by running the following command from
+2. In order to produce a minimum diff of the JSON file when committing it to Git
+do manually reformat the downloaded file using the [*Pretty JSON* plugin][pretty-json]
+for [Sublime Text][sublime-text]. Choose the *Pretty JSON: Format and sort JSON* option.
+3. Convert the raw market data by running the following command from
 the project root folder:
 
 	``` bash
@@ -17,7 +20,7 @@ the project root folder:
 
     This will **overwrite** an existing file in *cities/berlin.json*.
 
-3. Manually add the `metadata` block to this file afterwards!
+4. Manually add the `metadata` block to this file afterwards!
 
 	``` json
     "metadata": {
@@ -27,3 +30,7 @@ the project root folder:
         }
     },
     ```
+
+
+[pretty-json]: https://github.com/dzhibas/SublimePrettyJson
+[sublime-text]: https://www.sublimetext.com
