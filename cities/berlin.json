@@ -1843,6 +1843,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.2904512,
+                    52.6335081
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "IFG Kinderrtrödel Zeltinger Platz",
+                "location": "IFG Kinderrtrödel Zeltinger Platz",
+                "opening_hours": null,
+                "opening_hours_unclassified": "22.04.2018 02.09.2018 11:00 - 16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.379475,
                     52.44545
                 ],
@@ -2045,6 +2061,22 @@
                 "location": "Wochenmarkt Siemensstadt, Jugendweg",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Di (ab 01.08.2017) 12:00 - 18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.2122901,
+                    52.5403517
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Nachtmarkt auf der Zitadelle Spandau im Rahmen des Citadel Music Festivals",
+                "location": "Nachtmarkt auf der Zitadelle Spandau im Rahmen des Citadel Music Festivals",
+                "opening_hours": null,
+                "opening_hours_unclassified": "16.06.2018 18:00 - 24:00"
             },
             "type": "Feature"
         },
@@ -2285,6 +2317,22 @@
                 "location": "Zehlendorfer Wochenmarkt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin",
                 "opening_hours": null,
                 "opening_hours_unclassified": "vorerst bis zum 31.03.2017 Sa 09:00 - 16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.308666,
+                    52.4669384
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "<164 Markt (Verkauf von Baby- und Kindersachen)",
+                "location": "<164 Markt (Verkauf von Baby- und Kindersachen)",
+                "opening_hours": null,
+                "opening_hours_unclassified": "08.04., 13.05., 10.06., 08.07., 12.08., 09.09., 14.10., 04.11.2018 10:00 - 14:00"
             },
             "type": "Feature"
         },
@@ -2595,7 +2643,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 06.03.2018",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 09.04.2018",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
