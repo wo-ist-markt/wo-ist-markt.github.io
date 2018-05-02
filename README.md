@@ -79,6 +79,7 @@ in February 2016.
 |City name|Data source|
 |:---|:---|
 |[Bad Homburg][bad-homburg-wikipedia]|[Stadt Bad Homburg][bad-homburg-markets]|
+|[Basel][basel-wikipedia]|[Stadt Basel][basel-markets]|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
 |[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
@@ -184,6 +185,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 
 [bad-homburg-wikipedia]: https://en.wikipedia.org/wiki/Bad_Homburg_vor_der_Höhe
 [bad-homburg-markets]: http://www.bad-homburg.de/leben-in-bad-homburg/sport-freizeit-ehrenamt/Wochen-_und_Blumenmarkt.php
+[basel-wikipedia]: https://en.wikipedia.org/wiki/Basel
+[basel-markets]: http://www.bs.ch/Portrait/maerkte.html
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum

@@ -1,0 +1,86 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  7.5875581,
+                  47.5582115
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Stadtmarkt Basel",
+                "location": "Marktplatz Basel",
+                "opening_hours": "Tu-Th 08:30-14:00;Fr-Sa 08:30-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.589638, 
+                    47.55479
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Neuwarenmarkt Basel",
+                "location": "Barfüsserplatz Basel",
+                "opening_hours": "Th 09:00-20:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.5896269,
+                    47.554713
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt am Barfüsserplatz Basel",
+                "location": "Barfüsserplatz Basel",
+                "opening_hours": "We[2,4] 07:30-19:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.5828852,                    
+                    47.558675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt am Petersplatz Basel",
+                "location": "Petersplatz Basel",
+                "opening_hours": "Sa 07:30-16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.587637, 
+                    47.5582991
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Schlemmermarkt Basel",
+                "location": "Marktplatz Basel",
+                "opening_hours": "Mo 08:30-14:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Basel",
+            "url": "http://www.messenundmaerkte.bs.ch"
+        }
+    },
+    "type": "FeatureCollection"
+}
