@@ -374,10 +374,11 @@ function toCamelCase(str) {
 /*
  * Updates the legend data source.
  */
-function updateDataSource(dataSource) {
+function updateDataSource(cityName, dataSource) {
     var title = dataSource.title;
     var url = dataSource.url;
     $("#dataSource").html('<a href="' + url + '">' + title + '</a>');
+    $("#cityName").text(cityName);
 }
 
 /*
@@ -407,13 +408,14 @@ function setCity(cityID, createNewHistoryEntry) {
         return loadDefaultCity(false);
     }
     $.getJSON(filename, function(json) {
-        updateDataSource(json.metadata.data_source);
+        var cityName = getCity(cityID).label;
+        updateDataSource(cityName, json.metadata.data_source);
         updateMarkers(json);
         positionMap();
         updateControls();
         updateLayers();
         updateUrlHash(cityID, createNewHistoryEntry);
-        document.title = 'Wo ist Markt in ' + getCity(cityID).label + '?';
+        document.title = 'Wo ist Markt in ' + cityName + '?';
 
         // Update drop down but avoid recursion
         $('#dropDownCitySelection').val(cityID).trigger('change', true);
