@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,width=device-width">
+        <title>Wo ist Markt?</title>
+        <link rel="stylesheet" href="lib/normalize/normalize.css">
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="lib/leaflet.awesome-markers/leaflet.awesome-markers.css">
+        <link rel="stylesheet" href="lib/leaflet.locatecontrol/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha384-yNuQMX46Gcak2eQsUzmBYgJ3eBeWYNKhnjyiBqLd1vvtE9kuMtgw6bjwN8J0JauQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="lib/select2/select2.min.css">
+        <link rel="stylesheet" href="css/wo-ist-markt.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/select2/select2.min.js"></script>
+        <script src="lib/leaflet/leaflet.js"></script>
+        <script src="lib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
+        <script src="lib/leaflet.locatecontrol/L.Control.Locate.min.js"></script>
+        <script src="lib/suncalc/suncalc.js"></script>
+        <script src="lib/opening_hours/opening_hours.js"></script>
+        <script src="lib/moment/moment.min.js"></script>
+        <script src="lib/moment-range/moment-range.min.js"></script>
+        <script src="js/main.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header id="header">
+            <button id="btnToggleHeader"><i class="fa fa-bars"></i></button>
+            <h1>Wo ist Markt in <span class="nowrap"><select id="dropDownCitySelection"></select>?</span></h1>
+            <form>
+                <label><input type="radio" name="display" id="now" value="now"><span>jetzt</span></label>
+                <label><input type="radio" name="display" id="today" value="today"><span>heute</span></label>
+                <label><input type="radio" name="display" id="other" value="other"><span>alle</span></label>
+            </form>
+            <div id="details"><p>Daten für <span id="cityName">Stadtname</span>: <span id="dataSource">Datenquelle</span>.</p></div>
+        </header>
+        <div id="map"></div>
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var okfnPiwikIdforWoIstMarkt = 18;
+                var u="//piwik.okfn.de/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', okfnPiwikIdforWoIstMarkt]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Piwik Code -->
+    </body>
+</html>
+
