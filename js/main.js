@@ -283,12 +283,12 @@ function initMarker(feature) {
     }
     marker.bindPopup(popupHtml);
     if (todayOpeningRange !== undefined) {
+        marker.setIcon(todayIcon);
+        todayGroup.addLayer(marker);
+
         if (openingRangeContainsTime(todayOpeningRange, now)) {
             marker.setIcon(nowIcon);
             nowGroup.addLayer(marker);
-        } else {
-            marker.setIcon(todayIcon);
-            todayGroup.addLayer(marker);
         }
     } else {
         if (openingHoursUnclassified !== undefined) {
