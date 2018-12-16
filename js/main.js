@@ -5,7 +5,7 @@
 
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
 var ATTRIBUTION = '<a id="daten" href="info.html">Über Wo ist Markt?</a> | ' +
-                  '<a id="impressum" href="impressum.html">Impressum &amp; Datenschutz</a> | ' +
+                  '<a id="impressum" href="impressum-datenschutz.html">Impressum &amp; Datenschutz</a> | ' +
                   '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | ' +
                   'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> | ' +
                   'contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
