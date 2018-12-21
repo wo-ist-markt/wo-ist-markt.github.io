@@ -120,8 +120,8 @@ This repository and your GitHub clone will be linked to your local clone to bein
    Here is the command to add this repository with the "wo-ist-markt" alias:
 
    ``` bash
-   $ git remote add wo-ist-markt git@github.com:wo-ist-markt/wo-ist-markt.github.io.git
-  ```
+    $ git remote add wo-ist-markt git@github.com:wo-ist-markt/wo-ist-markt.github.io.git
+   ```
 
 ### Working on a feature branch
 
@@ -200,7 +200,7 @@ The following steps describe how to prepare a contribution using a branch.
 
 3. Now you can visit https://github.com/wo-ist-markt/wo-ist-markt.github.io in your browser once
    again. GitHub should automatically detect the new `feature` branch in your fork and offer to
-  create a new pull request. Go ahead a do so.
+  create a new pull request. Go ahead and do so.
 
 
 ### Updating your branch
