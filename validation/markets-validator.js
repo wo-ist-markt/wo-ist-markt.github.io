@@ -43,6 +43,34 @@ colors.setTheme({
     error: 'red'
 });
 
+/**
+ * Reads in the cities.json file and compares the key with the corresponding ids.
+ * If one or more does not match it exits with 1.
+ */
+
+fs.readFile(MARKETS_INDEX_FILE_PATH, function(err, data){
+    if (err){
+        throw err;
+    }
+    else
+    {
+        var errorsCount = 0;
+        var json = JSON.parse(data);
+        Object.getOwnPropertyNames(json).forEach(function(key) {
+            if (key == json[key].id){
+                console.log("Key of ".passed + key.section + " matches id.".passed);
+            }
+            else {
+                console.error("Key of ".error + key.section + " does not match id.".error);
+                errorsCount +=1;
+            }
+
+            if (errorsCount !== 0){
+                exitCode = 1;
+            }
+        });
+    }
+});
 
 /**
  * Reads in the given directory to process market files.
