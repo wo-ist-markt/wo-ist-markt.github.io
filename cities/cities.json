@@ -143,6 +143,10 @@
         "id": "köln",
         "label": "Köln"
     },
+    "konstanz": {
+        "id": "konstanz",
+        "label": "Konstanz"
+    },
     "langenfeld_rhld": {
         "id": "langenfeld_rhld",
         "label": "Langenfeld (Rhld.)"

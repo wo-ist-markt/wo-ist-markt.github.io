@@ -114,6 +114,7 @@ in February 2016.
 |[Kiel][kiel-wikipedia]|[City of Kiel][kiel-markets]|
 |[Kleve][kleve-wikipedia]|[City of Kleve][kleve-markets]|
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
+|[Konstanz][konstanz-wikipedia]|[City of Konstanz][konstanz-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
 |[Laupheim][laupheim-wikipedia]|[Laupheim][laupheim-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
@@ -245,6 +246,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
+[konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
+[konstanz-markets]: http://konstanz.de/umwelt/00706/01031/01037/index.html
 [Kaiserslautern-wikipedia]: https://en.wikipedia.org/wiki/Kaiserslautern
 [Kaiserslautern-markets]: http://www.wochenmarkt-kaiserslautern.de
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
