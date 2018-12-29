@@ -1,0 +1,47 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.17385,
+                    47.66203
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Sankt-Stephans-Platz",
+                "opening_hours": "Mar-Oct Tu,Fr 07:00-13:00; Nov-Feb Tu,Fr 07:30-13:00; ",
+                "title": "Wochenmarkt Sankt-Stephans-Platz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.18345,
+                    47.67098
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Sankt-Gebhard-Platz",
+                "opening_hours": "Mar-Oct We,Sa 07:00-13:00; Nov-Feb We,Sa 07:30-13:00; ",
+                "title": "Wochenmarkt Sankt-Gebhard-Platz"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Konstanz",
+            "url": "http://www.konstanz.de/umwelt/00706/01031/01037/index.html"
+        }
+    },
+    "type": "FeatureCollection"
+}
