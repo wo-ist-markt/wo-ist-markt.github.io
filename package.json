@@ -2,7 +2,7 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "devDependencies": {
-    "colors": "~1.2.0",
+    "colors": "~1.3.3",
     "country-language": "^0.1.7",
     "i18next-client": "^1.11.5",
     "jasmine": "^3.0.0",
