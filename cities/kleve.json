@@ -10,7 +10,7 @@
             },
             "properties": {
                 "location": "Marktplatz an der Linde",
-                "opening_hours": "Apr-Sep Tu, Th, Sa 07:00-13:00; Oct-Mar Tu, Th, Sa 08:00-13:00",
+                "opening_hours": "Apr-Sep Sa 07:00-13:00; Oct-Mar Sa 08:00-13:00",
                 "title": "Wochenmarkt an der Linde"
             },
             "type": "Feature"
@@ -18,15 +18,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    6.13793224,
-                    51.79025602
+                    6.141259,
+                    51.789931
                 ],
                 "type": "Point"
             },
             "properties": {
-                "location": "Fußgängerzone Koekkoeksplatz",
+                "location": "Eingangsbereich Fußgängerzone Herzogstraße",
                 "opening_hours": "Apr-Sep We 07:00-13:00; Apr-Sep Fr 08:00-15:00; Oct-Mar We 08:00-13:00; Oct-Mar Fr 09:00-15:00",
-                "title": "Wochenmarkt Koekkoeksplatz"
+                "title": "Wochenmarkt Herzogstraße"
             },
             "type": "Feature"
         },
@@ -39,8 +39,8 @@
                 "type": "Point"
             },
             "properties": {
-                "location": "Fußgängerzone Kavarinerstraße",
-                "opening_hours": "Apr-Sep We 07:00-13:00; Oct-Mar We 08:00-13:00",
+                "location": "Eingangsbereich Fußgängerzone Kavarinerstraße",
+                "opening_hours": "Apr-Sep We 08:00-15:00; Oct-Mar We 09:00-15:00",
                 "title": "Wochenmarkt Kavarinerstraße"
             },
             "type": "Feature"
