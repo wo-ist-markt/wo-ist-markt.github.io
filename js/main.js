@@ -45,6 +45,15 @@ function pad(num, totalDigits) {
     return s;
 }
 
+/**
+ * Returns the HTML for time-table row(s).
+ * Each time this reduce function is invoked the former rows HTML is passed in.
+ */
+function getTimeTableRowsHtml(rowsHtml, openingRange) {
+    var dayIsToday = openingRangeMatchesDay(openingRange, now);
+    return rowsHtml += getTableRowForDay(openingRange, dayIsToday);
+}
+
 /*
  * Creates time-table HTML code.
  *
@@ -54,13 +63,7 @@ function pad(num, totalDigits) {
 function getTimeTableHtml(openingRanges) {
     var html = '<table class="times">';
     if (openingRanges !== undefined) {
-        for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
-            var openingRange = openingRanges[index];
-
-            var dayIsToday = openingRangeMatchesDay(openingRange, now);
-            var tableRow = getTableRowForDay(openingRange, dayIsToday);
-            html += tableRow;
-        }
+        html += openingRanges.reduce(getTimeTableRowsHtml, "");
     }
     html += '</table>';
     return html;
@@ -204,14 +207,9 @@ function getOpeningTimes(openingHoursStrings) {
  */
 function getOpeningRangeForDate(openingRanges, date) {
     if (openingRanges !== undefined) {
-        for (var index = 0, openingRangesLength = openingRanges.length; index < openingRangesLength; ++index) {
-            var openingRange = openingRanges[index];
-
-            var dayIsToday = openingRangeMatchesDay(openingRange, date);
-            if (dayIsToday) {
-                return openingRange;
-            }
-        }
+        return openingRanges.find(function(openingRange) {
+            return openingRangeMatchesDay(openingRange, date);
+        });
     }
     return undefined;
 }
