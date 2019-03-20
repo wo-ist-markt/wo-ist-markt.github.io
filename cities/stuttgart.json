@@ -1,0 +1,431 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          9.1784254,
+          48.7752013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Schillerplatz, Stuttgart-Mitte, Stuttgart",
+        "title": "Wochenmarkt Stuttgart Mitte / Schillerplatz",
+        "opening_hours": "Tu,Th 07:00-13:00, Sa 07:00-13:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.17861,
+          48.77710
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Schillerplatz, Stuttgart-Mitte, Stuttgart",
+        "title": "Wochenmarkt Stuttgart Mitte / Schillerplatz",
+        "opening_hours": "Tu,Th 07:00-13:00, Sa 07:00-13:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.1783253,
+          48.7712849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Wilhelmsplatz, Stuttgart-Mitte, Stuttgart",
+        "title": "Wochenmarkt Stuttgart Mitte / Wilhelmsplatz",
+        "opening_hours": "Fr 12:00-18:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.2099166,
+          48.7839171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Stuttgart, Schönbühlstrasse",
+        "title": "Wochenmarkt Stuttgart Ost / Schönbühlstrasse",
+        "opening_hours": "Fr 10:00-17:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.20382,
+          48.77484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Schmalzmarkt, Gablenberg, 70186 Stuttgart",
+        "title": "Wochenmarkt Stuttgart Ost / Gablenberg, Schmalzmarkt",
+        "opening_hours": "We 07:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.16802,
+          48.76454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Marienplatz, Stuttgart-Süd, Stuttgart",
+        "title": "Wochenmarkt Stuttgart Süd / Marienplatz",
+        "opening_hours": "We 10:00-18:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.15260,
+          48.76015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Bihlplatz, Heslach, Stuttgart",
+        "title": "Wochenmarkt Stuttgart Süd / Heslach, Bihlplatz",
+        "opening_hours": "Sa 07:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.15562,
+          48.77383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Bismarckplatz, West, Stuttgart",
+        "title": "Wochenmarkt Stuttgart West / Bismarckplatz",
+        "opening_hours": "Tu, Th, Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.2146792,
+          48.8048332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Marktplatz, Bad Cannstatt, Stuttgart",
+        "title": "Wochenmarkt Bad Cannstatt / Marktplatz",
+        "opening_hours": "Tu,Th,Sa 07:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.12539,
+          48.77893       
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Griegstraße, Botnang, Stuttgart",
+        "title": "Wochenmarkt Botnang",
+        "opening_hours": "Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.17102,
+          48.74580
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Große Falterstraße 4, 70597 Stuttgart",
+        "title": "Wochenmarkt Degerloch / Rathausplatz",
+        "opening_hours": "We, Sa 07:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.15860,
+          48.80826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Feuerbach, Rudolf-Gehring-Platz",
+        "title": "Wochenmarkt Feuerbach",
+        "opening_hours": "Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.20207,
+          48.83519
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Adalbert-Stifter-Straße 103, 70437 Stuttgart",
+        "title": "Wochenmarkt Freiberg / LVA Parkplatz",
+        "opening_hours": "Sa 07:00-11:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.09169,
+          48.80296
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Ernst-Reuter-Platz, Giebel, Stuttgart",
+        "title": "Wochenmarkt Giebel / Ernst-Reuter-Platz",
+        "opening_hours": "Th 08:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.2546350,
+          48.7584795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Rohrackerstraße 9, 70329 Stuttgart",
+        "title": "Wochenmarkt Hedelfingen",
+        "opening_hours": "Th 08:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.23275,
+          48.74583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Bildäckerstraße 4 70619 Stuttgart",
+        "title": "Wochenmarkt Heumaden",
+        "opening_hours": "We 07:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.1449479,
+          48.7260500
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Oberdorfplatz, Möhringen, Stuttgart",
+        "title": "Wochenmarkt Möhringen",
+        "opening_hours": "Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.230893,
+          48.831398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Flamingoweg 22, Neugereut, Stuttgart",
+        "title": "Wochenmarkt Neugereut / Markplatz",
+        "opening_hours": "Sa 07:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.18709,
+          48.83134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Hans-Scharoun-Platz, Haldenrainstraße, Rot, Stuttgart",
+        "title": "Wochenmarkt Rot / Hans-Scharoun-Platz",
+        "opening_hours": "We 08:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.21914,
+          48.73985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Kirchheimer Straße / Schemppstraße, Sillenbuch 70619 Stuttgart",
+        "title": "Wochenmarkt Sillenbuch",
+        "opening_hours": "Fr 10:30-17:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.15956,
+          48.84835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Korntaler Straße 2, Stammheim, 70439, Stuttgart",
+        "title": "Wochenmarkt Stammheim / Kirchplatz",
+        "opening_hours": "Fr 07:00-13:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.23181,
+          48.82716
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Steinhaldenstraße 167, 70378 Stuttgart",
+        "title": "Wochenmarkt Steinhaldenfeld / Marktplatz U-Bahn-Haltestelle",
+        "opening_hours": "We 08:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.27912,
+          48.77590
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Weinbaumuseum Stuttgart, Uhlbacher Platz, Uhlbach, Stuttgart",
+        "title": "Wochenmarkt Uhlbach",
+        "opening_hours": "We 10:00-18:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.25143,
+          48.77999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Augsburger Str. 369, 70327, Stuttgart",
+        "title": "Wochenmarkt Untertürkheim / Bahnhofsplatz, Widdersteinstraße",
+        "opening_hours": "Fr 08:00-15:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.1099469,
+          48.7311525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Rathausplatz, Vaihingen, Stuttgart",
+        "title": "Wochenmarkt Vaihingen / Rathausplatz",
+        "opening_hours": "We, Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.24214,
+          48.77286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Kelter Wangen, Ulmer Straße, Wangen, Stuttgart",
+        "title": "Wochenmarkt Wangen / Kelter",
+        "opening_hours": "We 07:00-12:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.11344,
+          48.81388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Löwen-Markt, Weilimdorf, Stuttgart",
+        "title": "Wochenmarkt Weilimdorf / Löwenmarkt",
+        "opening_hours": "Tu 07:00-12:30, Fr 11:00-18:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.1778771,
+          48.8302630
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Hohenloher Straße 4/1, 70435 Stuttgart",
+        "title": "Wochenmarkt Zuffenhausen / Festplatz",
+        "opening_hours": "Sa 07:00-12:30"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stuttgarter Wochenmärkte, Koordinaten teilweise OpenStreetMap-Mitwirkende",
+      "url": "http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/"
+    }
+  },
+  "type": "FeatureCollection"
+}

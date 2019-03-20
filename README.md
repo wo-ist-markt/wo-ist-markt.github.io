@@ -136,6 +136,7 @@ in February 2016.
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
 |[Solingen][solingen-wikipedia]|[City of Solingen][solingen-markets]|
 |[Stralsund][stralsund-wikipedia]|[City of Stralsund][stralsund-markets]|
+|[Stuttgart][stuttgart-wikipedia]|[Stuttgarter Wochenmärkte][stuttgart-markets]|
 |[Suhl][suhl-wikipedia]|[City of Suhl][suhl-markets]|
 |[Trier][trier-wikipedia]|[City of Trier][trier-markets]|
 |[Tübingen][tübingen-wikipedia]|[Wochenmarkt - Universitätsstadt Tübingen][tübingen-markets]|
@@ -300,6 +301,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [solingen-markets]: https://www.solingerwochenmarkt.de
 [stralsund-wikipedia]: https://en.wikipedia.org/wiki/Stralsund
 [stralsund-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
+[stuttgart-wikipedia]: https://en.wikipedia.org/wiki/Stuttgart
+[stuttgart-markets]: http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/
 [suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
 [suhl-markets]: http://suhltrifft.de/content/view/5059/2190/
 [trier-wikipedia]: https://de.wikipedia.org/wiki/Trier
