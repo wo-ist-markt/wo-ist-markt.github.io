@@ -231,6 +231,10 @@
         "id": "stralsund",
         "label": "Stralsund"
     },
+    "stuttgart": {
+        "id": "stuttgart",
+        "label": "Stuttgart"
+    },
     "suhl": {
         "id": "suhl",
         "label": "Suhl"
