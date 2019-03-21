@@ -9,7 +9,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n4986263386",
         "location": "Schillerplatz, Stuttgart-Mitte, Stuttgart",
         "title": "Wochenmarkt Stuttgart Mitte / Schillerplatz",
         "opening_hours": "Tu,Th 07:00-13:00, Sa 07:00-13:30"
@@ -40,7 +39,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n2143176524",
         "location": "Wilhelmsplatz, Stuttgart-Mitte, Stuttgart",
         "title": "Wochenmarkt Stuttgart Mitte / Wilhelmsplatz",
         "opening_hours": "Fr 12:00-18:00"
@@ -56,7 +54,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n5246381963",
         "location": "Stuttgart, Schönbühlstrasse",
         "title": "Wochenmarkt Stuttgart Ost / Schönbühlstrasse",
         "opening_hours": "Fr 10:00-17:00"
@@ -132,7 +129,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n3779937522",
         "location": "Marktplatz, Bad Cannstatt, Stuttgart",
         "title": "Wochenmarkt Bad Cannstatt / Marktplatz",
         "opening_hours": "Tu,Th,Sa 07:00-13:00"
@@ -178,7 +174,6 @@
         "type": "Point"
       },
       "properties": {
-        "note": "Wochenmarkt-Seite bezeichnet Ort als Kelterplatz",
         "location": "Feuerbach, Rudolf-Gehring-Platz",
         "title": "Wochenmarkt Feuerbach",
         "opening_hours": "Sa 07:00-12:30"
@@ -194,7 +189,6 @@
         "type": "Point"
       },
       "properties": {
-        "note": "Genaue Lage unklar",
         "location": "Adalbert-Stifter-Straße 103, 70437 Stuttgart",
         "title": "Wochenmarkt Freiberg / LVA Parkplatz",
         "opening_hours": "Sa 07:00-11:30"
@@ -225,7 +219,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n4986263385",
         "location": "Rohrackerstraße 9, 70329 Stuttgart",
         "title": "Wochenmarkt Hedelfingen",
         "opening_hours": "Th 08:00-13:00"
@@ -256,7 +249,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n2892778434",
         "location": "Oberdorfplatz, Möhringen, Stuttgart",
         "title": "Wochenmarkt Möhringen",
         "opening_hours": "Sa 07:00-12:30"
@@ -377,7 +369,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n5744404607",
         "location": "Rathausplatz, Vaihingen, Stuttgart",
         "title": "Wochenmarkt Vaihingen / Rathausplatz",
         "opening_hours": "We, Sa 07:00-12:30"
@@ -423,7 +414,6 @@
         "type": "Point"
       },
       "properties": {
-        "osm_id": "n3614473694",
         "location": "Hohenloher Straße 4/1, 70435 Stuttgart",
         "title": "Wochenmarkt Zuffenhausen / Festplatz",
         "opening_hours": "Sa 07:00-12:30"
@@ -435,12 +425,6 @@
     "data_source": {
       "title": "Stuttgarter Wochenmärkte, Koordinaten teilweise OpenStreetMap-Mitwirkende",
       "url": "http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/"
-    },
-    "data_source_coords": {
-      "title": "OpenStreetMap",
-      "url": "http://www.openstreetmap.org/",
-      "license": "ODbL",
-      "attribution": "© OpenStreetMap-Mitwirkende"
     }
   },
   "type": "FeatureCollection"
