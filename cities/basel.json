@@ -79,7 +79,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Basel",
-            "url": "http://www.messenundmaerkte.bs.ch"
+            "url": "https://www.marketing.bs.ch/messen-maerkte"
         }
     },
     "type": "FeatureCollection"
