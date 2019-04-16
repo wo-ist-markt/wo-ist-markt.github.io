@@ -100,7 +100,7 @@
 	"metadata": {
 		"data_source": {
 			"title": "Stadt Chemnitz",
-			"url": "http://www.chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html"
+			"url": "https://www.chemnitz.de/chemnitz/de/rathaus/ausschreibungen/marktausschreibungen/index.html"
 		}
 	},
 	"type": "FeatureCollection"
