@@ -1159,7 +1159,7 @@
     ],
     "metadata" : {
         "data_source" : {
-            "url" : "http://www.hamburg.de/wochenmarkt-hamburg",
+            "url" : "https://www.hamburg.de/wochenmarkt-hamburg",
             "title" : "Stadt Hamburg"
         }
     }

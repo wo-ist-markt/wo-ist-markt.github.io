@@ -356,7 +356,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Frankfurt am Main",
-            "url": "http://frankfurt.de/sixcms/detail.php?id=4623&_ffmpar[_id_eltern]=4622"
+            "url": "https://frankfurt.de/sixcms/detail.php?id=4623&_ffmpar%5B_id_eltern%5D=4622"
         }
     },
     "type": "FeatureCollection"

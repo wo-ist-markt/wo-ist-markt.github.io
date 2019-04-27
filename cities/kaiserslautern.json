@@ -50,7 +50,7 @@
     "metadata": {
         "data_source": {
             "title": "Kaiserslauterer Wochenmarktverein",
-            "url": "http://www.wochenmarkt-kaiserslautern.de/"
+            "url": "https://www.wochenmarkt-kaiserslautern.de/"
         }
     },
     "type": "FeatureCollection"
