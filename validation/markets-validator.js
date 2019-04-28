@@ -331,7 +331,12 @@ function FeatureValidator(feature, cityName) {
         }
         var oh;
         try {
-            oh = new opening_hours(openingHours);
+            var options = {
+                "address" : {
+                    "country_code" : "de"
+                }
+            };
+            oh = new opening_hours(openingHours, options);
             var warnings = oh.getWarnings();
             if (warnings.length > 0) {
                 this.errors.push(warnings);

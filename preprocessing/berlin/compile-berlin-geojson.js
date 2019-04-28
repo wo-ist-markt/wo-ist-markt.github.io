@@ -153,6 +153,7 @@ function getSanitizeString(hours) {
  * Returns a sanitized days string.
  */
 function getSanitizeDays(days) {
+	days = days.replace(/gesetzliche Feiertage/g, "PH");
 	days = days.replace("Di", "Tu");
 	days = days.replace("Mi", "We");
 	days = days.replace("Do", "Th");
@@ -191,6 +192,11 @@ function getSanitizeHours(hours) {
 function getOpeningRanges(opening_hours_strings) {
     var monday = moment().startOf("week").add(1, 'days').toDate();
     var sunday = moment().endOf("week").add(1, 'days').toDate();
-    var oh = new opening_hours(opening_hours_strings);
+    var options = {
+    	"address" : {
+    		"country_code" : "de"
+    	}
+    };
+    var oh = new opening_hours(opening_hours_strings, options);
     return oh.getOpenIntervals(monday, sunday);
 }
