@@ -174,6 +174,7 @@ function getSanitizeDays(days) {
  * Returns a sanitized hours string.
  */
 function getSanitizeHours(hours) {
+	hours = hours.replace(/ab (\d\d:\d\d)/g, "$1+");
 	hours = hours.replace(/ - /g, "-");
 	hours = hours.replace(/\n\n\n/g, " ");
 	hours = hours.replace(/\n\n/g, " ");

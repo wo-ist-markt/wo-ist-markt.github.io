@@ -1691,8 +1691,8 @@
             "properties": {
                 "title": "Wochenmarkt Altstadt Spandau - Markt Havelländischer Land- und Bauernmarkt",
                 "location": "Wochenmarkt Altstadt Spandau - Markt Havelländischer Land- und Bauernmarkt",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mo, Di, Do, Fr ab 09:00"
+                "opening_hours": "Mo,Tu,Th,Fr 09:00+",
+                "opening_hours_unclassified": null
             },
             "type": "Feature"
         },
