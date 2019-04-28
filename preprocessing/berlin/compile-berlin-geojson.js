@@ -69,7 +69,7 @@ function prepareFeatureProperties(feature) {
 	var hours = inputProperties.zeiten;
 	var sanitizedDays = getSanitizeDays(days);
 	var sanitizedHours = getSanitizeHours(hours);
-	var days_hours = days + " " + hours;
+	var days_hours = sanitizedDays + " " + sanitizedHours;
 
 	try {
 		getOpeningRanges(days_hours);
@@ -153,6 +153,7 @@ function getSanitizeString(hours) {
  * Returns a sanitized days string.
  */
 function getSanitizeDays(days) {
+	days = days.replace(/gesetzliche Feiertage/g, "PH");
 	days = days.replace("Di", "Tu");
 	days = days.replace("Mi", "We");
 	days = days.replace("Do", "Th");
@@ -174,6 +175,7 @@ function getSanitizeDays(days) {
  * Returns a sanitized hours string.
  */
 function getSanitizeHours(hours) {
+	hours = hours.replace(/ab (\d\d:\d\d)/g, "$1+");
 	hours = hours.replace(/ - /g, "-");
 	hours = hours.replace(/\n\n\n/g, " ");
 	hours = hours.replace(/\n\n/g, " ");
@@ -190,6 +192,11 @@ function getSanitizeHours(hours) {
 function getOpeningRanges(opening_hours_strings) {
     var monday = moment().startOf("week").add(1, 'days').toDate();
     var sunday = moment().endOf("week").add(1, 'days').toDate();
-    var oh = new opening_hours(opening_hours_strings);
+    var options = {
+    	"address" : {
+    		"country_code" : "de"
+    	}
+    };
+    var oh = new opening_hours(opening_hours_strings, options);
     return oh.getOpenIntervals(monday, sunday);
 }

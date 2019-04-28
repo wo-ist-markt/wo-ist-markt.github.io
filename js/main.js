@@ -183,7 +183,12 @@ function getOpeningTimes(openingHoursStrings) {
     }
     var monday = moment().startOf("week").add(shiftBy, 'days').toDate();
     var sunday = moment().endOf("week").add(shiftBy, 'days').toDate();
-    var oh = new opening_hours(openingHoursStrings);
+    var options = {
+        "address" : {
+            "country_code" : "de"
+        }
+    };
+    var oh = new opening_hours(openingHoursStrings, options);
     var intervals = oh.getOpenIntervals(monday, sunday);
     var nextChange = oh.getNextChange();
 
