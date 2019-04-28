@@ -69,7 +69,7 @@ function prepareFeatureProperties(feature) {
 	var hours = inputProperties.zeiten;
 	var sanitizedDays = getSanitizeDays(days);
 	var sanitizedHours = getSanitizeHours(hours);
-	var days_hours = days + " " + hours;
+	var days_hours = sanitizedDays + " " + sanitizedHours;
 
 	try {
 		getOpeningRanges(days_hours);
