@@ -29,7 +29,7 @@ fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
 		outputFeature.properties = outputProperties;
 		outputFeature.geometry.coordinates = getWellFormedCoordinates(feature);
 	}
-	var outputDataString = JSON.stringify(outputData, null, 4);
+	var outputDataString = JSON.stringify(outputData.features.sort(function(a,b){return a.properties.title > b.properties.title ? 1 : -1 }), null, 4);
 	writeFile(outputDataString);
 });
 
