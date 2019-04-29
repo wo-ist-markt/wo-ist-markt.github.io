@@ -11,6 +11,7 @@ var opening_hours = require('opening_hours');
 var INPUT_FILE = "./preprocessing/berlin/raw/markets-berlin.json";
 var OUTPUT_FILE = "./cities/berlin.json";
 
+sortInputFileByTitle();
 
 fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
 	if (error) {
@@ -30,18 +31,35 @@ fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
 		outputFeature.geometry.coordinates = getWellFormedCoordinates(feature);
 	}
 	var outputDataString = JSON.stringify(outputData, null, 4);
-	writeFile(outputDataString);
+	writeFile(OUTPUT_FILE, outputDataString);
 });
+
+function sortInputFileByTitle() {
+	fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
+		if (error) {
+			throw error;
+		}
+		var featureCollection = JSON.parse(data);
+		var outputData = featureCollection;
+
+		outputData.features = outputData.features.sort(function(a, b) {
+			return a.properties.title > b.properties.title ? 1 : -1;
+		});
+
+		var outputDataString = JSON.stringify(outputData, null, 4);
+		writeFile(INPUT_FILE, outputDataString);
+	});
+}
 
 /*
  * Writes data to a file;
  */
-function writeFile(data) {
-	fs.writeFile(OUTPUT_FILE, data, function(error) {
+function writeFile(FILE, data) {
+	fs.writeFile(FILE, data, function(error) {
 		if (error) {
 			throw error;
 		}
-		console.log("File " + OUTPUT_FILE + " has been written.");
+		console.log("File " + FILE + " has been written.");
 	});
 }
 
