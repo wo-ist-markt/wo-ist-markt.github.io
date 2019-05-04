@@ -19,8 +19,7 @@
       "properties": {
         "title": "Siegen-Mitte",
         "location": "Siegen-Mitte, Markt/Rathaus/Nikolaikirche",
-        "opening_hours": null,
-        "opening_hours_unclassified": "Jeden Mittwoch und Samstag vormittag (außer an Feiertagen)"
+        "opening_hours": "We 11:00-17:00;Sa 07:00-12:30"
       }
     },
     {
@@ -35,8 +34,7 @@
       "properties": {
         "title": "Siegen-Weidenau",
         "location": "Siegen-Weidenau, Zentralparkplatz Einkaufszentrum",
-        "opening_hours": null,
-        "opening_hours_unclassified": "Jeden Mittwoch und Samstag vormittag (außer an Feiertagen)"
+        "opening_hours": "We, Sa 07:00-12:30"
       }
     },
     {
@@ -51,8 +49,7 @@
       "properties": {
         "title": "Siegen-Geisweid",
         "location": "Siegen-Geisweid, Rijnsburger Straße",
-        "opening_hours": null,
-        "opening_hours_unclassified": "Jeden Samstag vormittag (außer an Feiertagen)"
+        "opening_hours": "Sa 07:00-12:30"
       }
     }
   ],
