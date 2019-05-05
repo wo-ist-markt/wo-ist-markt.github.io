@@ -851,22 +851,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.57306,
-                    52.56725
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Barnimplatz",
-                "location": "Wochenmarkt Barnimplatz",
-                "opening_hours": "Tu 09:00-16:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.55826,
                     52.50644
                 ],
@@ -889,10 +873,10 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Antik- und Trödelmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
-                "location": "Antik- und Trödelmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
+                "title": "Antik- und Trödelmarkt Biesdorf-Center Weißenhöher Straße 88-108",
+                "location": "Antik- und Trödelmarkt Biesdorf-Center Weißenhöher Straße 88-108",
                 "opening_hours": null,
-                "opening_hours_unclassified": "sonntags nähere Infos unter: www.troedelfreunde.de 08:30 - 15:00 Aufbau ab 06:30"
+                "opening_hours_unclassified": "jeweils sonntags 08:00 - 15:00 Marktaufbau 06:00 - 08:00"
             },
             "type": "Feature"
         },
@@ -1667,22 +1651,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.20684,
-                    52.5621
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Hakenfelde, Michelstadter Weg",
-                "location": "Wochenmarkt Hakenfelde, Michelstadter Weg",
-                "opening_hours": "Th 08:00-13:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.20564,
                     52.53898
                 ],
@@ -1804,6 +1772,22 @@
                 "title": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
                 "location": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
                 "opening_hours": "We 08:00-18:00;Sa 08:00-16:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.20684,
+                    52.5621
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Hakenfelde, Michelstadter Weg",
+                "location": "Wochenmarkt Hakenfelde, Michelstadter Weg",
+                "opening_hours": "Th 08:00-13:00",
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
@@ -2403,7 +2387,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 04.04.2019",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 03.05.2019",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
