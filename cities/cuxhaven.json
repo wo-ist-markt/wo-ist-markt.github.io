@@ -1,0 +1,26 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Cuxhaven",
+                "location" : "Beethovenallee",
+                "opening_hours" : "May-Sep We,Sa 07:00-13:00; Oct-Apr We,Sa 08:00-14:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    8.6900485,
+                    53.8638389
+                ]
+            }
+        }
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "https://www.cuxhaven.de/magazin/artikel.php?artikel=2801&type=2&menuid=686&topmenu=16",
+            "title" : "Stadt Cuxhaven"
+        }
+    }
+}
