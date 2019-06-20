@@ -51,6 +51,10 @@
         "id": "cottbus",
         "label": "Cottbus"
     },
+    "cuxhaven": {
+        "id": "cuxhaven",
+        "label": "Cuxhaven"
+    },
     "dortmund": {
         "id": "dortmund",
         "label": "Dortmund"
