@@ -270,6 +270,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
 [loxstedt-markets]: http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html
+[luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
+[luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim

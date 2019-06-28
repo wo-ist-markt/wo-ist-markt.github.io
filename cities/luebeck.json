@@ -1,0 +1,162 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "title" : "Travemünde",
+                "location" : "Travemünde",
+                "opening_hours" : "May-Sep Mo,Th 08:00-14:00; Oct-Apr Mo,Th 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.8677449,
+                    53.956239
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Buntekuh",
+                "location" : "EKZ Buntekuh",
+                "opening_hours" : "Fr 14:00-17:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.6487754,
+                    53.8552623
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Markt/Rathausmarkt",
+                "location" : "Rathausmarkt",
+                "opening_hours" : "Mo, Th 10:30-19:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.6848909,
+                    53.8664844
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Meesenplatz",
+                "location" : "Meesenplatz",
+                "opening_hours" : "Mo, Th 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.71846,
+                    53.86673
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt am Brink",
+                "location" : "Am Brink",
+                "opening_hours" : "Tu, Th, Sa 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.6951357,
+                    53.8576292
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt am Broilingplatz",
+                "location" : "Brolingstraße",
+                "opening_hours" : "We 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.67126,
+                    53.87587
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt am Hasenweg",
+                "location" : "Hasenweg",
+                "opening_hours" : "We 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.69897,
+                    53.87693
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Schlutup",
+                "location" : "Am Schlutuper Markt/Mecklenburger Straße",
+                "opening_hours" : "We 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.79967,
+                    53.88753
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Moislingen",
+                "location" : "Hanseplatz",
+                "opening_hours" : "Fr 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.66256,
+                    53.85937
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "title" : "Wochenmarkt Kücknitz",
+                "location" : "Kirchplatz",
+                "opening_hours" : "Fr 08:00-13:00"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    10.805202,
+                    53.912991
+                ]
+            }
+        }
+
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html",
+            "title" : "Lübeck Tourismus. Last update: 2019-06-27"
+        }
+    }
+}
