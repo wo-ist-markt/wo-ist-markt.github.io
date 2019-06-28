@@ -120,6 +120,7 @@ in February 2016.
 |[Laupheim][laupheim-wikipedia]|[Laupheim][laupheim-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
+|[Lübeck][luebeck-wikipedia]|[City of Lübeck][luebeck-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
 |[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
