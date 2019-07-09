@@ -116,7 +116,7 @@
 	"metadata": {
 		"data_source": {
 			"title": "Stadt Cottbus",
-			"url": "http://www.cottbuser-wochenmarkt.de/wochenm%C3%A4rkte/"
+			"url": "https://www.cottbuser-wochenmarkt.de/wochenm%C3%A4rkte/"
 		}
 	},
 	"type": "FeatureCollection"
