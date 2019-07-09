@@ -68,7 +68,7 @@
     "metadata": {
         "data_source": {
             "title": "Wiesbaden Marketing GmbH",
-            "url": "http://www.wiesbaden.de/microsite/wochenmarkt/index.php"
+            "url": "https://www.wiesbaden.de/microsite/wochenmarkt/index.php"
         }
     },
     "type": "FeatureCollection",
