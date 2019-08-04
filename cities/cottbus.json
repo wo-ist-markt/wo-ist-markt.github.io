@@ -9,10 +9,9 @@
 				"type": "Point"
 			},
 			"properties": {
+				"title": "Oberkirchplatz",
 				"location": "Oberkirchplatz",
-				"opening_hours": "Tu 08:00-16:00; Sa 06:00-13:00; Mar,Apr,May,Sep,Oct,Nov Th 06:00-13:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"opening_hours": "Tu 08:00-16:00; Sa 06:00-13:00; Mar,Apr,May,Sep,Oct,Nov Th 06:00-13:00"
 			},
 			"type": "Feature"
 		},
@@ -25,10 +24,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Spremberger Strasse",
-				"opening_hours": "Mar,Apr,May,Jun,Jul,Aug,Sep,Oct Tu 08:00-18:00; Nov,Dec,Jan,Feb Tu 08:00-17:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"title": "Sprem",
+				"location": "Spremberger Strasse, vom Schlosskirchplatz bis Stadtbrunnen",
+				"opening_hours": "Tu 08:00-17:00"
 			},
 			"type": "Feature"
 		},
@@ -41,10 +39,9 @@
 				"type": "Point"
 			},
 			"properties": {
+				"title": "Stadthalle",
 				"location": "Stadthallenvorplatz",
-				"opening_hours": "Mar,Apr,May,Jun,Jul,Aug,Sep,Oct We 08:00-18:00; Nov,Dec,Jan,Feb We 08:00-17:00; Fr 08:00-15:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"opening_hours": "We 08:00-17:00; Fr 08:00-15:00"
 			},
 			"type": "Feature"
 		},
@@ -57,10 +54,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Ortsteil Ströbitz",
-				"opening_hours": "Fr 08:00-14:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"title": "Ströbitz",
+				"location": "Karl-Liebknecht-Straße, Kolkwitzer Straße",
+				"opening_hours": "Fr 08:00-14:00"
 			},
 			"type": "Feature"
 		},
@@ -73,10 +69,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Ortsteil Sandow",
-				"opening_hours": "Mo, Tu, We, Fr 08:00-17:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"title": "Sandow",
+				"location": "Hermannstraße",
+				"opening_hours": "Mo, Tu, Th, Fr 08:00-17:00"
 			},
 			"type": "Feature"
 		},
@@ -89,10 +84,9 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Ortsteil Sachsendorf",
-				"opening_hours": "Mo, We, Fr 08:00-16:00; Sa 08:00-13:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"title": "Sachsendorf",
+				"location": "Gelsenkirchener Allee",
+				"opening_hours": "Mo, We, Fr 08:00-16:00; Sa 08:00-13:00"
 			},
 			"type": "Feature"
 		},
@@ -105,17 +99,16 @@
 				"type": "Point"
 			},
 			"properties": {
-				"location": "Markt Leipziger Strasse",
-				"opening_hours": "Mo, Fr 07:00-17:00; Sa 09:00-16:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
+				"title": "Leipziger Straße",
+				"location": "Thiemstraße, Leipziger Straße",
+				"opening_hours": "Mo, Tu, We, Th, Fr 07:00-17:00; Sa 09:00-16:00"
 			},
 			"type": "Feature"
 		}
 	],
 	"metadata": {
 		"data_source": {
-			"title": "Stadt Cottbus",
+			"title": "Stadt Cottbus, aktualisiert am 03.08.2019",
 			"url": "https://www.cottbuser-wochenmarkt.de/wochenm%C3%A4rkte/"
 		}
 	},
