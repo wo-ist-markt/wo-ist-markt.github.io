@@ -174,15 +174,8 @@ function openingRangeContainsTime(openingRange, date) {
  * Returns null if no next opening date or ranges are available.
  */
 function getOpeningTimes(openingHoursStrings) {
-    var sundayIndex = 0;
-    var shiftBy;
-    if (moment().weekday() === sundayIndex) {
-        shiftBy = -1;
-    } else {
-        shiftBy = 1;
-    }
-    var monday = moment().startOf("week").add(shiftBy, 'days').toDate();
-    var sunday = moment().endOf("week").add(shiftBy, 'days').toDate();
+    var monday = moment().startOf("isoweek").toDate();
+    var sunday = moment().endOf("isoweek").toDate();
     var options = {
         "address" : {
             "country_code" : "de"
