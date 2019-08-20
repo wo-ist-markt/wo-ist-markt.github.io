@@ -1,0 +1,26 @@
+{
+    "features": [
+	{
+	    "geometry": {
+		"coordinates": [
+		    48.8085174,
+		    11.3700034
+		],
+		"type": "Point"
+	    },
+	    "properties": {
+		"title": "Wochenmarkt Gaimersheim",
+		"location": "Marktplatz",
+		"opening_hours": "Do 8:00-13:00"
+	    },
+	    "type": "Feature"
+	}
+    ],
+    "metadata": {
+	"data_source": {
+	    "title": "Markt Gaimersheim",
+	    "url": "https://www.gaimersheim.de/index.php?id=414&publish[id]=485704"
+	}
+    },
+    "type": "FeatureCollection"
+}
