@@ -171,6 +171,10 @@
         "id": "luebeck",
         "label": "Lübeck"
     },
+    "mallorca": {
+        "id": "mallorca",
+        "label": "Mallorca"
+    },
     "moers": {
         "id": "moers",
         "label": "Moers"

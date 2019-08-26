@@ -121,6 +121,7 @@ in February 2016.
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Lübeck][luebeck-wikipedia]|[City of Lübeck][luebeck-markets]|
+|[Mallorca][mallorca-wikipedia]|[Island of Mallorca][mallorca-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
 |[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
@@ -273,6 +274,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [loxstedt-markets]: http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
+[mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
+[mallorca-markets]: https://www.calaratjada.com/mallorca-maerkte
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
