@@ -1,0 +1,1391 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8701754,
+                    39.7312988
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Biniamar"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.5047796,
+                    39.5662393
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Major",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Calvi\u00e0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9732582,
+                    39.6180453
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Ajuntament",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Lloret de Vistalegre"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2099807,
+                    39.5665889
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Ramon Llull",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Manacor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8706261,
+                    39.7487554
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": " Carrer de sa Font",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Mancor del Vall"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9013552,
+                    39.7709981
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Caimari"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9795142,
+                    39.5671509
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Montu\u00efri"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.3861172,
+                    39.5434144
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Isaac Peral",
+                "opening_hours": "Mo 09:00-13:30",
+                "title": "Wochenmarkt Port d\u00b4Andratx"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.162717,
+                    39.3877448
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de Sant Josep",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Alqueria Blanca"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1224808,
+                    39.8520548
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig de la Victoria / Passeig de Pere Ventayol",
+                "opening_hours": "Tu, Su 09:00-13:30",
+                "title": "Wochenmarkt Alc\u00fadia"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.3471408,
+                    39.6934022
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a del Conqueridor",
+                "opening_hours": "Tu, Sa 09:00-13:30",
+                "title": "Wochenmarkt Art\u00e0 "
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9632143,
+                    39.7748339
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Campanet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.717721,
+                    39.5361292
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de Pius IX",
+                "opening_hours": "Tu, Th 09:00-13:30",
+                "title": "Wochenmarkt Can Pastilla"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.4962805,
+                    39.5238582
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda Puig Saragossa",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Galatz\u00f2"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0045445,
+                    39.6996257
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Carretera",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Llub\u00ed"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.4432751,
+                    39.5373275
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda Peguera",
+                "opening_hours": "Mar-Oct Tu 09:00-13:30",
+                "title": "Wochenmarkt Paguera"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9220014,
+                    39.5992411
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Pina"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0221585,
+                    39.5167132
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Vila",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Porreres"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7086476,
+                    39.5992043
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Plaza de l\u00b4esgl\u00e9sia",
+                "opening_hours": "Tu 09:00-13:30",
+                "title": "Wochenmarkt Pla de na Tesa"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2584695,
+                    39.4190686
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer de la Marina",
+                "opening_hours": "Tu, Sa 09:00-13:30",
+                "title": "Wochenmarkt Portocolom"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7515042,
+                    39.5031662
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Torrent",
+                "opening_hours": "Tu, We, Fr, Sa 09:00-13:30",
+                "title": "Wochenmarkt S\u00b4Arenal"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1007297,
+                    39.7032236
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig des Pou\u00e0s",
+                "opening_hours": "Tu, Sa 09:00-13:30",
+                "title": "Wochenmarkt Santa Margalida"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6618203,
+                    39.5746059
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Pere Garau",
+                "opening_hours": "Tu, Th, Sa 09:00-13:30",
+                "title": "Wochenmarkt Pere Garau"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6361655,
+                    39.5724551
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Soler / Mercat de Santa Catalina",
+                "opening_hours": "Tu, Th, Sa 09:00-13:30",
+                "title": "Wochenmarkt Santa Catalina"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9166969,
+                    39.3617004
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Via de son Reyn\u00e9s",
+                "opening_hours": "Jun-Sep Tu 17:00-21:00",
+                "title": "Wochenmarkt S\u00b4Estanyol"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1327154,
+                    39.8410484
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig Mar\u00edtim",
+                "opening_hours": "Jun-Sep We 18:00-23:00",
+                "title": "Wochenmarkt Alcudia"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.423147,
+                    39.5767105
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig Son Mas",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Andratx"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.431791,
+                    39.7024635
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de l\u00b4Orient",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Capdepera"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6941837,
+                    39.5507819
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de l\u00b4Esgl\u00e8sia",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Coll d\u00b4en Rabassa"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9929751,
+                    39.316815
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Major / Carrer Mar",
+                "opening_hours": "We 17:00-20:00",
+                "title": "Wochenmarkt Colonia Sant Jordi"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8397444,
+                    39.6890114
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de l\u00b4Esgl\u00e8sia",
+                "opening_hours": "We 17:00-20:00",
+                "title": "Wochenmarkt Es Pont d\u00b4Inca"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7511085,
+                    39.4730125
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Les Palmeres / Pla\u00e7a de Palmeres",
+                "opening_hours": "We 17:00-20:00",
+                "title": "Wochenmarkt Les Palmeres"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7538756,
+                    39.5008495
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Llucmajor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1114795,
+                    39.6160428
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Ample",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Petra"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0816802,
+                    39.9048184
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer de la Verge de Carme",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Port de Pollen\u00e7a"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6908259,
+                    39.600207
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Secretari Bartomeu Riera",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Sa Cabana"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.3735557,
+                    39.57708
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avenida les Palmeres / Carrer Card",
+                "opening_hours": "May-Sep We 18:00-21:00",
+                "title": "Wochenmarkt Sa Coma"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1267472,
+                    39.3543807
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "We, Sa 09:00-13:30",
+                "title": "Wochenmarkt Santany\u00ed"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.898834,
+                    39.754752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Selva"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8957459,
+                    39.6477207
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a d\u00b4Espanya",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Sencelles"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0098663,
+                    39.6433535
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a es Fossar",
+                "opening_hours": "We, Su 09:00-13:30",
+                "title": "Wochenmarkt Sineu"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9382208,
+                    39.3649825
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer del Xaloc",
+                "opening_hours": "We, Sa 09:00-13:30",
+                "title": "Wochenmarkt Sa R\u00e0pita"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0864227,
+                    39.5682883
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "We 09:00-13:30",
+                "title": "Wochenmarkt Vilafranca de Bonany"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2003941,
+                    39.3998915
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de Sant Miquel",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Calonge"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0190562,
+                    39.4332689
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de Sa Creu",
+                "opening_hours": "Th, Sa 09:00-13:30",
+                "title": "Wochenmarkt Campos"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7511788,
+                    39.5118832
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda d\u00b4America",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt S\u00b4Arenal"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8112692,
+                    39.6686925
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Consell"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9094848,
+                    39.7179331
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Gran Via de Colom",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Inca"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7718372,
+                    39.6186511
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer de sa Roca Llisa",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt P\u00f2rtol"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2838425,
+                    39.609403
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Ordines",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Sant Lloren\u00e7 de Cardassar"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0513562,
+                    39.3391494
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Es Pedregar / Pla\u00e7a Major",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Ses Salines"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0388933,
+                    39.5959979
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Ajuntament",
+                "opening_hours": "Th 09:00-13:30",
+                "title": "Wochenmarkt Sant Joan"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8925409,
+                    39.5588661
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Sa Pla\u00e7a / Ajuntament",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Algaida"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8404265,
+                    39.6888835
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de l\u00b4Esgl\u00e8sia",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Binissalem"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1647391,
+                    39.7615799
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Marina",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Can Picafort"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8872321,
+                    39.4882552
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer del Bisbe Taixequet",
+                "opening_hours": "Fr, Su 09:00-13:30",
+                "title": "Wochenmarkt Llucmajor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.07131,
+                    39.663611
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer de l\u00b4Esgl\u00e8sia",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Maria de la Salut"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6139598,
+                    39.5939522
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Tarent",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Sa Vileta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.5001049,
+                    39.4948732
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Rossinyol",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Son Ferrer"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.3592937,
+                    39.6233673
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de Sant Joan,",
+                "opening_hours": "Fr 09:00-13:30",
+                "title": "Wochenmarkt Son Servera"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7867928,
+                    39.7060048
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Vila",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Alar\u00f3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7527268,
+                    39.4271363
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Cristofor Colom",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Badia Gran"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.9811917,
+                    39.7582413
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Constituci\u00f3",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt B\u00fager"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6973413,
+                    39.696474
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Sa Pla\u00e7a",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Bunyola"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.3833585,
+                    39.6030962
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda Joan Servera Camps",
+                "opening_hours": "Sa 16:00-21:00",
+                "title": "Wochenmarkt Cala Millor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8364801,
+                    39.3644584
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig Cala Pi",
+                "opening_hours": "Jun-Sep Sa 18:00-21:00",
+                "title": "Wochenmarkt Cala P\u00ed"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.4599991,
+                    39.7115094
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Castellet / Carrer d\u00b4Elionor Servera",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Cala Ratjada"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.4978868,
+                    39.5295881
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Son Bugadelles (Pol\u00edgono Industrial)",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Calvi\u00e0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2790299,
+                    39.7367696
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Sant Pere",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Colonia de Sant Pere"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.5752032,
+                    39.6686182
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Espanya",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Esporles"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8652367,
+                    39.7187206
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Espanya",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Lloseta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2098683,
+                    39.5680664
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Constituci\u00f2",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Manacor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6550125,
+                    39.5678395
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda Gabriel Alomar i Villalonga",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Tr\u00f6delmarkt Palma de Mallorca"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7164218,
+                    39.5750693
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Prevere Bartomeu Font (Son Ferriol)",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Palma de Mallorca"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6469586,
+                    39.576191
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a del Bisbe Berenguer de Palau",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Palma de Mallorca (Bio)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.390081,
+                    39.5778587
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a del General Weyler",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt S\u00b4Arrac\u00f3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.2067439,
+                    39.4075231
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": " Pla\u00e7a Sant Isidre",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt S\u00b4Horta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7122262,
+                    39.7671171
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a des Mercat",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt S\u00f3ller"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8344266,
+                    39.6223734
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Bernat de Santa Eug\u00e8nia",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Wochenmarkt Santa Eug\u00e8nia"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6693543,
+                    39.595456
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Son Fuster (Pol\u00edgono industrial)",
+                "opening_hours": "Sa 09:00-13:30",
+                "title": "Tr\u00f6delmarkt Son Fuster"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8035782,
+                    39.6645153
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Ma-13A, Consell",
+                "opening_hours": "Su 08:00-14:00",
+                "title": "Tr\u00f6delmarkt Consell"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.5758051,
+                    39.6678292
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Passeig del Rei",
+                "opening_hours": "Su 08:00-14:00",
+                "title": "Tr\u00f6delmarkt Esporles"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1467985,
+                    39.4686962
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Major",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Felanitx"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.8889166,
+                    39.490432
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Espanya",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Llucmajor"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7216335,
+                    39.6224893
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pol\u00edgono industrial de Marratx\u00ed",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Marratx\u00ed"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.1147259,
+                    39.8074803
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda de S\u00b4Albufera",
+                "opening_hours": "Jun-Sep Mo 18:00-21:00",
+                "title": "Wochenmarkt Muro"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0513073,
+                    39.734133
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a del Convent",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Muro"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.3344704,
+                    39.5403381
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a de la Sirena / Strasse Carrer Bordils",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Porto Cristo"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0140884,
+                    39.8770264
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Major",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Pollen\u00e7a"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.7754004,
+                    39.6486313
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Pla\u00e7a Espanya",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Santa Maria del Cam\u00ed"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.6221854,
+                    39.7117771
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Avinguda Palma",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Valldemossa"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    3.0259068,
+                    39.766456
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Carrer Mol\u00ed",
+                "opening_hours": "Su 09:00-13:30",
+                "title": "Wochenmarkt Sa Pobla"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Mallorca, Last update: 2019-08-29",
+            "url": "https://www.mallorca.com/en/activities/markets-in-mallorca"
+        }
+    },
+    "type": "FeatureCollection"
+}
