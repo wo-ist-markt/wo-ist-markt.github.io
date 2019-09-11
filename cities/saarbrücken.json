@@ -1,0 +1,191 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    6.995874,
+                    49.232846
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Saarbrücker Bauernmarkt",
+                "location": "St. Johanner Markt",
+                "opening_hours": "Sa 07:00-16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.035862,
+                    49.275814
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Dudweiler",
+                "location": "Markt Dudweiler",
+                "opening_hours": "Tu, Fr 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.995874,
+                    49.232846
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt St. Johann",
+                "location": "St. Johanner Markt",
+                "opening_hours": "Nov-Mar: Mo, We, Fr 08:00-14:00; Apr-Oct: Mo, We 08:00-14:00; Apr-Oct: Fr 08:00-18:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.946474,
+                    49.241661
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt in Burbach",
+                "location": "Burbacher Markt",
+                "opening_hours": "We, Sa 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    7.004488,
+                    49.263796
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Jägersfreude",
+                "location": "Festplatz Jägersfreude",
+                "opening_hours": "We 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    7.016765,
+                    49.217066
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt St. Arnual",
+                "location": "Markt St. Arnual",
+                "opening_hours": "Th 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.994363,
+                    49.236344
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Futtermarkt",
+                "location": "Futterstraße",
+                "opening_hours": "Th 10:00-17:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.999770,
+                    49.234554
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Nachmittagsmarkt Max Ophüls Platz",
+                "location": "Max-Ophüls-Platz",
+                "opening_hours": "Th 14:00-20:00"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.968681,
+                    49.244549
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Hambacher Platz",
+                "location": "Hambacher Platz",
+                "opening_hours": "Fr 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.987110,
+                    49.232578
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ludwigsplatz",
+                "location": "Ludwigsplatz",
+                "opening_hours": "Sa 08:00-14:00; PH off"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.916184,
+                    49.261919
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Markttag Altenkessel",
+                "location": "Coucyplatz",
+                "opening_hours": "Th[1] 15:00-19:00"
+            },
+            "type": "Feature"
+        },
+				{
+            "geometry": {
+                "coordinates": [
+                    6.992306,
+                    49.231284
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt Saarbrücken",
+                "location": "Franz-Josef-Röder-Straße",
+                "opening_hours": "Mar-Nov: Sa[2] 08:00-16:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Märkte | Landeshauptstadt Saarbrücken, aktualisiert am 11.09.2019",
+            "url": "https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte"
+        }
+    },
+    "type": "FeatureCollection"
+}

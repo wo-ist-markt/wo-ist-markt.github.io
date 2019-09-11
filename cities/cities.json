@@ -223,6 +223,10 @@
         "id": "rostock",
         "label": "Rostock"
     },
+    "saarbrücken": {
+        "id": "saarbrücken",
+        "label": "Saarbrücken"
+    },
     "schleswig": {
         "id": "schleswig",
         "label": "Schleswig"
