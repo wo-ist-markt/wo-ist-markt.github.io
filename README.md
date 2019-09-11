@@ -134,6 +134,7 @@ in February 2016.
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
+|[Saarbruecken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
 |[Schleswig][schleswig-wikipedia]|[City of Schleswig][schleswig-markets]|
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
