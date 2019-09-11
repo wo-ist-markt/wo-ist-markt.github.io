@@ -134,7 +134,7 @@ in February 2016.
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
-|[Saarbruecken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
+|[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
 |[Schleswig][schleswig-wikipedia]|[City of Schleswig][schleswig-markets]|
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
@@ -301,6 +301,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
+[saarbruecken-wikipedia]: https://de.wikipedia.org/wiki/Saarbr%C3%BCcken
+[saarbruecken-markets]: https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte
 [schleswig-wikipedia]: https://en.wikipedia.org/wiki/Schleswig,_Schleswig-Holstein
 [schleswig-markets]: http://schleswig.de/start.php?op=adressen&Abteilung=422
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
