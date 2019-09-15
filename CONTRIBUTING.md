@@ -66,13 +66,16 @@ This section describes the file format which is used to store the market data fo
   ``` json
   "metadata": {
       "data_source": {
-          "title": "Stadt Karlsruhe",
-          "url": "http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de"
+          "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 03.05.2019",
+          "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
       }
   },
   ```
 
 * You need to provide the `data_source` so it can be shown in the legend overlay.
+* It would also be great if you can specify the license under which the data is published
+  as well as an update date. Both will be visible on the website so that users known how
+  up-to-date the information is.
 
 
 ### Market data validation
