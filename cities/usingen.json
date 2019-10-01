@@ -1,0 +1,26 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.53383,
+                  50.33561
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Usinger Wochenmarkt",
+                "location": "Alter Marktplatz, Usingen",
+                "opening_hours": "Fr 08:00-18:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Usingen",
+            "url": "https://www.usingen.de/pdfs/satzungen/marktordnung-der-stadt-usingen.pdf"
+        }
+    },
+    "type": "FeatureCollection"
+}
