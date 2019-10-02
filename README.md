@@ -145,6 +145,7 @@ in February 2016.
 |[Trier][trier-wikipedia]|[City of Trier][trier-markets]|
 |[Tübingen][tübingen-wikipedia]|[Wochenmarkt - Universitätsstadt Tübingen][tübingen-markets]|
 |[Ulm][ulm-wikipedia]|[City of Ulm][ulm-markets]|
+|[Usingen][usingen-wikipedia]|[City of Usingen][usingen-markets]|
 |[Wiesbaden][wiesbaden-wikipedia]|[City of Wiesbaden][wiesbaden-markets]|
 |[Witten][witten-wikipedia]|[Stadtmarketing Witten][witten-markets]|
 |[Wolfenbüttel][wolfenbuettel-wikipedia]|[Stadt Wolfenbüttel][wolfenbuettel-markets]|
@@ -323,6 +324,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [tübingen-markets]: https://www.tuebingen.de/wochenmarkt
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
+[usingen-wikipedia]: https://de.wikipedia.org/wiki/Usingen
+[usingen-markets]: https://www.usingen.de/pdfs/satzungen/marktordnung-der-stadt-usingen.pdf
 [wiesbaden-wikipedia]:https://en.wikipedia.org/wiki/Wiesbaden
 [wiesbaden-markets]:http://www.wiesbaden.de/wiesbadener-wochenmarkt/
 [witten-wikipedia]:https://en.wikipedia.org/wiki/Witten

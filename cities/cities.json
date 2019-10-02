@@ -267,6 +267,10 @@
         "id": "ulm",
         "label": "Ulm"
     },
+    "usingen": {
+          "id": "usingen",
+          "label": "Usingen"
+     },
     "wiesbaden": {
         "id": "wiesbaden",
         "label": "Wiesbaden"
