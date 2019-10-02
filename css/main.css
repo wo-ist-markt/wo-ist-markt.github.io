@@ -55,16 +55,25 @@ html, body {
     display: inline;
 }
 
+#header label {
+  position: relative;
+}
+
 #header label > * {
     vertical-align: middle;
 }
 
 #header label input {
-    margin: 0 2px 0 0;
+    margin: 0 2px 0 2.25em;
 }
 
 #header label span {
     margin: 0 10px 0 0;
+}
+
+#header label .awesome-marker {
+  display: inline-block;
+  margin-top: -0.5em; /* compensate offset */
 }
 
 #header :disabled + span {
