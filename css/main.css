@@ -57,6 +57,7 @@ html, body {
 
 #header label {
   position: relative;
+  cursor: pointer;
 }
 
 #header label > * {
@@ -74,6 +75,7 @@ html, body {
 #header label .awesome-marker {
   display: inline-block;
   margin-top: -0.5em; /* compensate offset */
+  transform: scale(0.75);
 }
 
 #header :disabled + span {
