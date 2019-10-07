@@ -1,0 +1,26 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                  8.50713,
+                  50.3000
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Neu-Anspach",
+                "location": "Gustav-Heinemann-Straße 3, Neu-Anspach",
+                "opening_hours": "Apr-Oct Sa 07:00-13:00, Nov-Mar Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Neu-Anspach",
+            "url": "https://www.neu-anspach.de/sv_neu_anspach/PDF/ortsrecht/ortsrecht_stadt/Wochenmarkt_Regelung_Teilnahme_101207.pdf"
+        }
+    },
+    "type": "FeatureCollection"
+}
