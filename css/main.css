@@ -60,6 +60,10 @@ html, body {
   cursor: pointer;
 }
 
+#header label.disabled {
+  cursor: not-allowed;
+}
+
 #header label > * {
     vertical-align: middle;
 }
