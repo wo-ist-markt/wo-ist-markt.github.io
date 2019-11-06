@@ -127,6 +127,7 @@ in February 2016.
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
 |[Münster][muenster-wikipedia]|[City of Münster][muenster-markets]|
 |[Nersingen][nersingen-wikipedia]|[City of Nersingen][nersingen-markets]|
+|[Neu-Anspach][neu-anspach-wikipedia]|[City of Neu-Anspach][neu-anspach-markets]
 |[Neu-Ulm][neu-ulm-wikipedia]|[City of Neu-Ulm][neu-ulm-markets]|
 |[Oberursel][oberursel-wikipedia]|[City of Oberursel][oberursel-markets]
 |[Oldenburg][oldenburg-wikipedia]|[City of Oldenburg (Oldb)][oldenburg-markets]|
@@ -288,6 +289,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [muenster-markets]: http://www.muenster.de/stadt/maerkte/markt.html
 [nersingen-wikipedia]: https://de.wikipedia.org/wiki/Nersingen
 [nersingen-markets]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
+[neu-anspach-wikipedia]: https://en.wikipedia.org/wiki/Neu_Anspach
+[neu-anspach-markets]:https://www.neu-anspach.de/sv_neu_anspach/PDF/ortsrecht/ortsrecht_stadt/Wochenmarkt_Regelung_Teilnahme_101207.pdf
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
