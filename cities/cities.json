@@ -91,6 +91,10 @@
 	"id": "friedrichsdorf",
 	"label": "Friedrichsdorf"
     },
+    "fürth": {
+        "id": "fürth",
+        "label": "Fürth (Bayern)"
+    },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
         "label": "Gelsenkirchen"

@@ -1,0 +1,40 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    10.98801,
+                    49.47857
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Waagplatz",
+                "opening_hours": "Sa 07:30-13:00",
+                "title": "Bauernmarkt"
+            },
+            "type": "Feature"
+        }, {
+            "geometry": {
+                "coordinates": [
+                    10.99115,
+                    49.47275
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Rudolf-Breitscheid-Straße 13-15",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00",
+                "title": "Fürther Markt"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "FürthWiki",
+            "url": "https://www.fuerthwiki.de/wiki/index.php/Kategorie:M%C3%A4rkte"
+        }
+    },
+    "type": "FeatureCollection"
+}
