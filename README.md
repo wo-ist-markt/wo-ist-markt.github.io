@@ -110,6 +110,7 @@ in February 2016.
 |[Hannover][hannover-wikipedia]|[City of Hannover][hannover-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
+|[Hofheim am Taunus][hofheimamtaunus-wikipedia]|[City of Hofheim][hofheimamtaunus-markets]|
 |[Kaiserslautern][kaiserslautern-wikipedia]|[City of Kaiserslautern][kaiserslautern-markets]|
 |[Karlsruhe][karlsruhe-wikipedia]|[City of Karlsruhe][karlsruhe-markets]|
 |[Kassel][kassel-wikipedia]|[City of Kassel][kassel-markets]|
@@ -256,6 +257,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [herne-markets]: http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
+[hofheimamtaunus-wikipedia]: https://de.wikipedia.org/wiki/Hofheim_am_Taunus
+[hofheimamtaunus-markets]: https://www.hofheim.de/leben/Maerkte/index.php#c6
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
