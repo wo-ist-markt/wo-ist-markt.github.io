@@ -14,7 +14,8 @@
                 "title": "Bauernmarkt"
             },
             "type": "Feature"
-        }, {
+        },
+        {
             "geometry": {
                 "coordinates": [
                     10.99115,
@@ -32,7 +33,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "FürthWiki",
+            "title": "FürthWiki, CC-BY-SA 3.0, aktualisiert am 04.01.2020",
             "url": "https://www.fuerthwiki.de/wiki/index.php/Kategorie:M%C3%A4rkte"
         }
     },
