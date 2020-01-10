@@ -1,0 +1,26 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "properties" : {
+                "opening_hours": "We 08:00-13:00, Sa 7:00-13:30",
+                "title" : "Hofheimer Wochenmarkt",
+                "location" : "Parkplatz \"Am Untertor\""
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    8.4448689,
+                    50.0865323
+                ]
+            }
+        }
+    ],
+    "metadata" : {
+        "data_source" : {
+            "url" : "https://www.hofheim.de/leben/Maerkte/index.php#c6",
+            "title" : "Kreisstadt Hofheim am Taunus, aktualisiert am 05.01.2010"
+       }
+    }
+}

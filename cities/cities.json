@@ -127,6 +127,10 @@
         "id": "hilden",
         "label": "Hilden"
     },
+    "hofheimamtaunus": {
+        "id": "hofheimamtaunus",
+        "label": "Hofheim am Taunus"
+    },
     "kaiserslautern": {
         "id": "kaiserslautern",
         "label": "Kaiserslautern"
