@@ -1,2393 +1,2298 @@
 {
+    "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31894,
                     52.52798
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
-                "title": "0. Design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
-                "location": "0. Design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
+                "title": "10. Design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
+                "location": "10. Design.Börse_Berlin im LOEWE-SAAL, Wiebestr. 42",
                 "opening_hours": null,
-                "opening_hours_unclassified": "15. - 17.11.2019"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "13. - 15.11.2020 Fr 16:30 - 21:00 Sa 12:00 - 20:00 So 11:00-19:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.55959,
                     52.54345
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
-                "title": "14. Kunst- und Keramikmarkt Alt Marzahn",
-                "location": "14. Kunst- und Keramikmarkt Alt Marzahn",
+                "title": "15. Kunst- und Keramikmarkt Alt Marzahn",
+                "location": "15. Kunst- und Keramikmarkt Alt Marzahn",
                 "opening_hours": null,
-                "opening_hours_unclassified": "09./10.11.2019 10:00 - 18:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "07./08.11.2020 10:00 - 18:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29495,
                     52.50666
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
-                "title": "18. ANTIKMEILE Suarezstraße",
-                "location": "18. ANTIKMEILE Suarezstraße",
+                "title": "19. ANTIKMEILE Suarezstraße",
+                "location": "19. ANTIKMEILE Suarezstraße",
                 "opening_hours": null,
-                "opening_hours_unclassified": "07.09.2019 12:00 - 20:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "05.09.2020 12:00 - 20:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39877,
                     52.51721
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Antik- und Buchmarkt am Bodemuseum Am Kupfergraben/ Museumsinsel",
                 "location": "Antik- und Buchmarkt am Bodemuseum Am Kupfergraben/ Museumsinsel",
                 "opening_hours": "Sa,Su,PH 11:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29812,
                     52.5161
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "location": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "opening_hours": null,
-                "opening_hours_unclassified": "04.05.2019 05.05.2019 31.08.2019 01.09.2019 11:00 - 18:00 10:00 - 18:00 11:00 - 18:00 10:00 - 18:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "30.05.2020 31.05.2020 19.09.2020 20.09.2020 11:00 - 18:00 10:00 - 18:00 11:00 - 18:00 10:00 - 18:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.558261,
+                    13.55826,
                     52.50644
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Antik- und Trödelmarkt Biesdorf-Center Weißenhöher Straße 88-108",
                 "location": "Antik- und Trödelmarkt Biesdorf-Center Weißenhöher Straße 88-108",
                 "opening_hours": null,
                 "opening_hours_unclassified": "jeweils sonntags 08:00 - 15:00 Marktaufbau 06:00 - 08:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.434731,
+                    13.43473,
                     52.51055
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Antikmarkt Ostbahnhof Oster-Spezial, Erich-Steinfurth-Straße",
                 "location": "Antikmarkt Ostbahnhof Oster-Spezial, Erich-Steinfurth-Straße",
                 "opening_hours": null,
-                "opening_hours_unclassified": "21./22.04.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "12./13.04.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.434733,
+                    13.43473,
                     52.51055
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Antikmarkt Ostbahnhof Pfingst-Spezial, Erich-Steinfurth-Straße, 10243 Berlin",
                 "location": "Antikmarkt Ostbahnhof Pfingst-Spezial, Erich-Steinfurth-Straße, 10243 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "09./10.06.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "31.05./01.06.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43473,
                     52.51055
-                ],
-                "type": "Point"
+                ]
+            },
+            "properties": {
+                "title": "Antikmarkt Ostbahnhof Sondertermin zum Tag der Befreiung, Erich-Steinfurth-Straße",
+                "location": "Antikmarkt Ostbahnhof Sondertermin zum Tag der Befreiung, Erich-Steinfurth-Straße",
+                "opening_hours": null,
+                "opening_hours_unclassified": "08.05.2020 09:00 - 17:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.43473,
+                    52.51055
+                ]
             },
             "properties": {
                 "title": "Antikmarkt am Berliner Ostbahnhof, Erich-Steinfurth-Straße",
                 "location": "Antikmarkt am Berliner Ostbahnhof, Erich-Steinfurth-Straße",
                 "opening_hours": null,
                 "opening_hours_unclassified": "So 09:00 - 16:00 (Winter) 09.00 - 17:00 (Sommer)"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.359231,
+                    13.35923,
                     52.54667
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Bauernmarkt Leopoldplatz",
                 "location": "Bauernmarkt Leopoldplatz",
                 "opening_hours": "Tu,Fr 10:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40775,
                     52.5166
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Berlin-Brandenburger-Bauernmarkt - Saisonmarkt auf dem Nikolaikirchplatz",
                 "location": "Berlin-Brandenburger-Bauernmarkt - Saisonmarkt auf dem Nikolaikirchplatz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "März - Oktober 10:00 - 17:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.305091,
+                    13.30509,
                     52.45835
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Berliner Staudenmarkt im Botanischen Garten/Unter den Eichen 5 sowie Königin-Luise-Str. 6 - 8 Unter den Eichen 5 sowie Königin-Luise-Str. 6-8",
                 "location": "Berliner Staudenmarkt im Botanischen Garten/Unter den Eichen 5 sowie Königin-Luise-Str. 6 - 8 Unter den Eichen 5 sowie Königin-Luise-Str. 6-8",
                 "opening_hours": null,
-                "opening_hours_unclassified": "nur 06./07.04.2019 und 07./08.09.2019 09:00 - 18:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "nur 04./05.04.2020 09:00 - 18:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.37594,
                     52.50965
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Better Used Markt Potsdamer Platz",
                 "location": "Better Used Markt Potsdamer Platz",
                 "opening_hours": null,
-                "opening_hours_unclassified": "30.05.-02.06.2019 Do, So 10:00 - 18:00 Fr, Sa 11:00 - 19:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "21. - 24.05.2020 Do, So 10:00 - 18:00 Fr, Sa 11:00 - 19:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.624880999999998,
-                    52.45192
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Bölsche-Straßenfest Großer Kunst- & Trödelmarkt, Bölschestraße, 12587 Berlin",
-                "location": "Bölsche-Straßenfest Großer Kunst- & Trödelmarkt, Bölschestraße, 12587 Berlin",
-                "opening_hours": null,
-                "opening_hours_unclassified": "11./12.05.2019 10:00 - 18:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.09513,
                     52.3942
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Floh- und Bauernmarkt in Potsdam Weberplatz, 14482 Potsdam",
                 "location": "Floh- und Bauernmarkt in Potsdam Weberplatz, 14482 Potsdam",
                 "opening_hours": "Sa 07:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.37881,
                     52.43093
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Flohmarkt Marienfelde, Hornbach-Parkplatz, Großbeerenstr. 133, 12107 Berlin",
                 "location": "Flohmarkt Marienfelde, Hornbach-Parkplatz, Großbeerenstr. 133, 12107 Berlin",
                 "opening_hours": "Su 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.54492,
                     52.39751
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Flohmarkt Schönefeld, Grünbergallee 279, Hornbach-Parkplatz",
                 "location": "Flohmarkt Schönefeld, Grünbergallee 279, Hornbach-Parkplatz",
                 "opening_hours": "Su 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.62447,
                     52.45733
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Flohmarkt am S-Bhf. Friedrichshagen, Schöneicher Straße/Dahlwitzer Landstraße am S-Bhf. Friedrichshagen, Schöneicher Straße/Dahlwitzer Landstraße, 12587 Berlin",
                 "location": "Flohmarkt am S-Bhf. Friedrichshagen, Schöneicher Straße/Dahlwitzer Landstraße am S-Bhf. Friedrichshagen, Schöneicher Straße/Dahlwitzer Landstraße, 12587 Berlin",
                 "opening_hours": "Su 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40341,
                     52.54044
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Flohmarkt im Mauerpark Bernauer Straße 63-64",
                 "location": "Flohmarkt im Mauerpark Bernauer Straße 63-64",
                 "opening_hours": "Su 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.41784,
-                    52.48993
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Graefe-Sommerflohmarkt auf dem Werner-Düttmann-Platz",
-                "location": "Graefe-Sommerflohmarkt auf dem Werner-Düttmann-Platz",
-                "opening_hours": null,
-                "opening_hours_unclassified": "14.07.2019 12:00 - 17:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     12.85211,
                     52.28937
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Großer Familien-Flohmarkt in Klaistow",
                 "location": "Großer Familien-Flohmarkt in Klaistow",
                 "opening_hours": null,
-                "opening_hours_unclassified": "24.03.2019 30.06.2019 18.08.2019 10.11.2019 10:00 - 16:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "29.03.2020 28.06.2020 23.08.2020 08.11.2020 10:00 - 16:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.401781,
+                    13.62488,
+                    52.45192
+                ]
+            },
+            "properties": {
+                "title": "Großer Kunst- & Trödelmarkt zum Bölsche-Straßenfest, Bölschestraße, 12587 Berlin",
+                "location": "Großer Kunst- & Trödelmarkt zum Bölsche-Straßenfest, Bölschestraße, 12587 Berlin",
+                "opening_hours": null,
+                "opening_hours_unclassified": "09./10.05.2020 10:00 - 18:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40178,
                     52.53751
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Großer Trödelmarkt am Arkonaplatz",
                 "location": "Großer Trödelmarkt am Arkonaplatz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "So 10:00 - 16:00 (Winter) 10:00 - 17:00 (Sommer)"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.32137,
                     52.47538
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Großer Trödelmarkt der Ruppin Grundschule, Offenbacher Str. 5a",
                 "location": "Großer Trödelmarkt der Ruppin Grundschule, Offenbacher Str. 5a",
                 "opening_hours": null,
-                "opening_hours_unclassified": "16.03.2019 10:00 - 13:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "21.03.2020 10:00 - 13:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.44184,
                     52.5171
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "KMA93?Karl–Marx–Allee vor Nr. 93",
                 "location": "KMA93?Karl–Marx–Allee vor Nr. 93",
                 "opening_hours": "Tu,Th 10:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.12948,
                     52.47267
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Kinderflohmarkt in der Landstadt Gatow Am Flugplatz Gatow, Parkplatz Landstadt Gatow, Leonardo-da-Vinci-Straße, 14089 Berlin",
                 "location": "Kinderflohmarkt in der Landstadt Gatow Am Flugplatz Gatow, Parkplatz Landstadt Gatow, Leonardo-da-Vinci-Straße, 14089 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "nur 04.05.2019 11:00 - 14:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "nur 25.04.2020 10:00 - 14:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34927,
                     52.51413
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Kunst- und Trödelmarkt  Straße des 17. Juni",
                 "location": "Kunst- und Trödelmarkt  Straße des 17. Juni",
                 "opening_hours": "Sa,Su 10:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.314231,
+                    13.31423,
                     52.49041
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Kunst- und Trödelmarkt, Fehrbelliner Platz",
                 "location": "Kunst- und Trödelmarkt, Fehrbelliner Platz",
                 "opening_hours": "Sa,Su 10:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39696,
                     52.51811
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Kunstmarkt am Zeughaus",
                 "location": "Kunstmarkt am Zeughaus",
                 "opening_hours": "Sa,Su,PH 11:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43749,
                     52.46642
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Landmarkt DIE DICKE LINDA, Kranoldplatz",
                 "location": "Landmarkt DIE DICKE LINDA, Kranoldplatz",
                 "opening_hours": "Sa 10:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.21652,
                     52.43875
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Markt Schlachtensee (Wochenmarkt), Matterhornstr. 52/54, 14129 Berlin",
                 "location": "Markt Schlachtensee (Wochenmarkt), Matterhornstr. 52/54, 14129 Berlin",
                 "opening_hours": "Tu,Fr 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43186,
                     52.50202
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Markthalle Neun, Eisenbahnstraße 42/43, 10997 Berlin",
                 "location": "Markthalle Neun, Eisenbahnstraße 42/43, 10997 Berlin",
                 "opening_hours": "Fr 12:00-18:00;Sa 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31769,
                     52.47266
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
-                "title": "Marktmeile im Rahmen des 14. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
-                "location": "Marktmeile im Rahmen des 14. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
+                "title": "Marktmeile anlässlich des 15. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
+                "location": "Marktmeile anlässlich des 15. Rüdi-Net Sommerfestes auf dem Rüdesheimer Platz",
                 "opening_hours": null,
-                "opening_hours_unclassified": "17./18.08.2019 Sa 12:00 - 19:00 So 11:00 - 19:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "15./16.08.2020 Sa 12:00 - 19:00 So 11:00 - 19:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40661,
                     52.48946
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuer Markt am Südstern",
                 "location": "Neuer Markt am Südstern",
                 "opening_hours": "Sa 10:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.430411,
+                    13.43041,
                     52.49271
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Stoff am Maybachufer",
                 "location": "Neuköllner Stoff am Maybachufer",
                 "opening_hours": "Sa 11:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.44217,
                     52.43758
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
                 "location": "Neuköllner Wochenmärkte Britz-Süd, Gutschmidtstraße/Fritz-Reuter-Allee",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Mo,Do Sa 08:00 - 13:00 08:00 - 14:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.42498,
                     52.48707
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Hermannplatz",
                 "location": "Neuköllner Wochenmärkte Hermannplatz",
                 "opening_hours": "Mo-Fr 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43041,
                     52.49271
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Maybachufer",
                 "location": "Neuköllner Wochenmärkte Maybachufer",
                 "opening_hours": "Tu,Fr 11:00-18:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.45143,
                     52.44567
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
                 "location": "Neuköllner Wochenmärkte Parchimer Allee, Parchimer Allee/Fritz-Reuter-Allee",
                 "opening_hours": "Fr 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.44213,
                     52.47388
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Rixdorf, Karl-Marx-Platz",
                 "location": "Neuköllner Wochenmärkte Rixdorf, Karl-Marx-Platz",
                 "opening_hours": "We 11:00-18:00;Sa 08:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.49561,
                     52.42064
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Rudow, Prierosser Straße",
                 "location": "Neuköllner Wochenmärkte Rudow, Prierosser Straße",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.47461,
                     52.4233
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Neuköllner Wochenmärkte Wutzkyallee, Rotraut-Richter-Platz",
                 "location": "Neuköllner Wochenmärkte Wutzkyallee, Rotraut-Richter-Platz",
                 "opening_hours": "We 08:00-14:00;Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.434732,
+                    13.43473,
                     52.51055
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Riesenflohmarkt Berlin Ostbahnhof, Erich-Steinfurth-Straße",
                 "location": "Riesenflohmarkt Berlin Ostbahnhof, Erich-Steinfurth-Straße",
                 "opening_hours": null,
-                "opening_hours_unclassified": "01.05.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "01./02.05.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.52465,
                     52.47819
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Riesenflohmarkt Trabrennbahn Karlshorst, Treskowallee 129",
                 "location": "Riesenflohmarkt Trabrennbahn Karlshorst, Treskowallee 129",
                 "opening_hours": null,
-                "opening_hours_unclassified": "03.10.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "03./04.10.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.524650999999999,
+                    13.52465,
                     52.47819
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Sammlerbörse Trabrennbahn Karlshorst, Tribünenhalle, Treskowallee 129",
                 "location": "Sammlerbörse Trabrennbahn Karlshorst, Tribünenhalle, Treskowallee 129",
                 "opening_hours": null,
-                "opening_hours_unclassified": "03.10.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "03.10.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43401,
                     52.51038
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "location": "Sammlerbörse im Ostbahnhof, Koppenstr. 3, 10243 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "01.05.2019 24.11.2019 09:00 - 17:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "01.05.2020 22.11.2020 09:00 - 17:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.30509,
-                    52.45835
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
-                "location": "Spezialmarkt 10. WeinSommer Rheinland-Pfalz im Botanischen Garten  Königin-Luise-Str. 6-8",
-                "opening_hours": null,
-                "opening_hours_unclassified": "20.06.2019 21.06.2019 22.06.2019 23.06.2019 16:00-22:00 14:00-24:00 13:00-24:00 12:00-20:00"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39588,
                     52.48938
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt Bergmannstraße Marheinekeplatz",
                 "location": "Trödelmarkt Bergmannstraße Marheinekeplatz",
                 "opening_hours": "Sa 10:00-16:00;Su 11:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.459591,
+                    13.45959,
                     52.51079
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt Boxhagener Platz",
                 "location": "Trödelmarkt Boxhagener Platz",
                 "opening_hours": "Su 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39021,
                     52.41313
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt METRO Marienfelde Buckower Chaussee 25-35 Metroparkplatz, 12277 Berlin",
                 "location": "Trödelmarkt METRO Marienfelde Buckower Chaussee 25-35 Metroparkplatz, 12277 Berlin",
                 "opening_hours": "Su 07:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.24566,
                     52.54042
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt METRO Spandau, Nonnendammallee 135, 13599 Berlin",
                 "location": "Trödelmarkt METRO Spandau, Nonnendammallee 135, 13599 Berlin",
                 "opening_hours": "Su 07:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.36399,
                     52.56026
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt Schuhcenter Siemes Wedding, Parkplatz Markstr. 17 - 18, 13409 Berlin",
                 "location": "Trödelmarkt Schuhcenter Siemes Wedding, Parkplatz Markstr. 17 - 18, 13409 Berlin",
                 "opening_hours": "Su 07:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29969,
                     52.47348
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt an der Mecklenburgischen Straße",
                 "location": "Trödelmarkt an der Mecklenburgischen Straße",
                 "opening_hours": "Su 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.321981,
+                    13.32198,
                     52.45681
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt auf dem Hermann-Ehlers-Platz",
                 "location": "Trödelmarkt auf dem Hermann-Ehlers-Platz",
                 "opening_hours": "Su 07:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.344990999999998,
+                    13.34499,
                     52.48479
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt auf dem John-F.-Kennedy-Platz",
                 "location": "Trödelmarkt auf dem John-F.-Kennedy-Platz",
                 "opening_hours": "Sa,Su 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.359232,
+                    13.35923,
                     52.54667
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Trödelmarkt auf dem Leopoldplatz",
                 "location": "Trödelmarkt auf dem Leopoldplatz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Sa 10:00 - 16:00 (Sommer) 10:00 - 15:00 (Winter)"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.20392,
                     52.53698
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "WeinSommer in Verbindung mit dem Spandauer Altstadtfest, Marktplatz und Fußgängerzone Altstadt Spandau",
                 "location": "WeinSommer in Verbindung mit dem Spandauer Altstadtfest, Marktplatz und Fußgängerzone Altstadt Spandau",
                 "opening_hours": null,
-                "opening_hours_unclassified": "29.08.2019 30.08.2019 31.08.2019 01.09.2019 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "27.08.2020 28.08.2020 29.08.2020 30.09.2020 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
-                    13.342991,
+                    13.34299,
                     52.50183
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wittenbergplatz (Nordseite) Brandenburger Bauernmarkt",
                 "location": "Wittenbergplatz (Nordseite) Brandenburger Bauernmarkt",
                 "opening_hours": "Th 09:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.39036,
-                    52.53534
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Ackerstraße",
-                "location": "Wochenmarkt Ackerstraße",
-                "opening_hours": "Th 11:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.55012,
                     52.43866
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Adlershof, Dörpfeldstraße, 12489 Berlin",
                 "location": "Wochenmarkt Adlershof, Dörpfeldstraße, 12489 Berlin",
                 "opening_hours": "We,Th 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.20564,
                     52.53898
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Altstadt Spandau - Markt Havelländischer Land- und Bauernmarkt",
                 "location": "Wochenmarkt Altstadt Spandau - Markt Havelländischer Land- und Bauernmarkt",
                 "opening_hours": "Mo,Tu,Th,Fr 09:00+",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43465,
                     52.51133
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Am Kaufhof Ostbahnhof (Erich-Steinfurth-Straße)",
                 "location": "Wochenmarkt Am Kaufhof Ostbahnhof (Erich-Steinfurth-Straße)",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Mo - Sa (Sommer) 09:00 - 18:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.05787,
                     52.40348
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Am Nauener Tor 14467 Potsdam",
                 "location": "Wochenmarkt Am Nauener Tor 14467 Potsdam",
                 "opening_hours": "We,Sa 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.58122,
                     52.45821
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Am S-Bhf. Köpenick Elcknerplatz",
                 "location": "Wochenmarkt Am S-Bhf. Köpenick Elcknerplatz",
                 "opening_hours": "Mo-Fr 09:00-18:00;Sa 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.27252,
                     52.67575
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Andrézeile (Ladiusmarkt)",
                 "location": "Wochenmarkt Andrézeile (Ladiusmarkt)",
                 "opening_hours": "Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.47056,
                     52.52965
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Anton-Saefkow-Platz",
                 "location": "Wochenmarkt Anton-Saefkow-Platz",
                 "opening_hours": "Tu,Th 09:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.45105,
                     52.54853
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Antonplatz",
                 "location": "Wochenmarkt Antonplatz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Di,Fr Do* 09:00 - 18:00 11:00 - 16:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.52667,
                     52.45864
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Berlin-Oberschöneweide, Rathenauplatz, 12459 Berlin",
                 "location": "Wochenmarkt Berlin-Oberschöneweide, Rathenauplatz, 12459 Berlin",
                 "opening_hours": "We 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.45959,
                     52.51079
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Boxhagener Platz",
                 "location": "Wochenmarkt Boxhagener Platz",
                 "opening_hours": "Sa 09:00-15:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40814,
                     52.57029
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Breite Straße Mittelpromenade",
                 "location": "Wochenmarkt Breite Straße Mittelpromenade",
                 "opening_hours": "Tu 08:00-14:00;We 09:00-17:00;Fr 08:00-16:00;Sa 08:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.33599,
                     52.47272
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Breslauer Platz",
                 "location": "Wochenmarkt Breslauer Platz",
                 "opening_hours": "We 08:00-13:00;Th 12:00-18:00;Sa 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.19418,
                     52.53368
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Brunsbütteler Damm 265",
                 "location": "Wochenmarkt Brunsbütteler Damm 265",
                 "opening_hours": "Fr 08:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.48733,
                     52.61812
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Bucher Chaussee / Achillesstraße",
                 "location": "Wochenmarkt Bucher Chaussee / Achillesstraße",
                 "opening_hours": "Th 08:00-16:30;Sa 08:00-14:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.33114,
                     52.48741
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Bundesplatz",
                 "location": "Wochenmarkt Bundesplatz",
                 "opening_hours": "Mo,Th 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.30236,
                     52.6266
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Burgfrauenstraße",
                 "location": "Wochenmarkt Burgfrauenstraße",
                 "opening_hours": "Th-Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.52348,
                     52.49694
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Bärenschaufenster / Am Tierpark (öffentl. Straßenland)",
                 "location": "Wochenmarkt Bärenschaufenster / Am Tierpark (öffentl. Straßenland)",
                 "opening_hours": "Mo,Th,Fr 08:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.62488,
                     52.45192
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Bölschestraße",
                 "location": "Wochenmarkt Bölschestraße",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Mo,Mi,Fr Sa 10:00 - 17:00 09:00 - 13:00"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "Mo,Mi,Fr Sa 10:00 - 16:00 09:00 - 13:00"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.4306,
                     52.55225
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Caligariplatz",
                 "location": "Wochenmarkt Caligariplatz",
-                "opening_hours": "We,Fr 08:00-17:00",
+                "opening_hours": "We,Fr 08:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29389,
                     52.48841
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Charlottenbrunner Straße",
                 "location": "Wochenmarkt Charlottenbrunner Straße",
                 "opening_hours": "Mo,Th 09:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.36276,
                     52.48895
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Crellestraße",
                 "location": "Wochenmarkt Crellestraße",
                 "opening_hours": "We,Sa 10:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31115,
                     52.47328
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Eberbacher Straße",
                 "location": "Wochenmarkt Eberbacher Straße",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.16587,
                     52.52135
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Einkaufscenter Staaken / Obstallee",
                 "location": "Wochenmarkt Einkaufscenter Staaken / Obstallee",
                 "opening_hours": "Tu,Fr 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31423,
                     52.49041
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Fehrbelliner Platz",
                 "location": "Wochenmarkt Fehrbelliner Platz",
                 "opening_hours": "Tu,Th 11:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.4854,
                     52.51241
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Frankfurter Allee 172",
                 "location": "Wochenmarkt Frankfurter Allee 172",
                 "opening_hours": "We 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.52137,
                     52.51334
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Friedrichsfelde Ost / Seddiner Straße",
                 "location": "Wochenmarkt Friedrichsfelde Ost / Seddiner Straße",
                 "opening_hours": "Mo-Fr 08:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.44076,
                     52.54331
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
                 "location": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Di,Do Sa 08:00 - 18:00 08:00 - 14:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.20684,
                     52.5621
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Hakenfelde, Michelstadter Weg",
                 "location": "Wochenmarkt Hakenfelde, Michelstadter Weg",
                 "opening_hours": "Th 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.36399,
                     52.58759
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Hauptstraße / Goethestraße Wilhelmsruh",
                 "location": "Wochenmarkt Hauptstraße / Goethestraße Wilhelmsruh",
                 "opening_hours": "We,Fr 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.54004,
                     52.52722
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Helene-Weigel-Platz",
                 "location": "Wochenmarkt Helene-Weigel-Platz",
                 "opening_hours": "Mo-Sa 09:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.60657,
                     52.53788
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Helle Mitte Peter-Weiss-Gasse",
                 "location": "Wochenmarkt Helle Mitte Peter-Weiss-Gasse",
                 "opening_hours": "We,Fr 08:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.32198,
                     52.45681
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Hermann-Ehlers-Platz am Rathaus Steglitz",
                 "location": "Wochenmarkt Hermann-Ehlers-Platz am Rathaus Steglitz",
                 "opening_hours": null,
                 "opening_hours_unclassified": "Di, Sa Do 08:00 - 14:00 08:00 - 18:00"
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.49427,
                     52.52648
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Herzbergstraße / Weißenseer Weg (Roedernplatz)",
                 "location": "Wochenmarkt Herzbergstraße / Weißenseer Weg (Roedernplatz)",
                 "opening_hours": "Tu,Fr 08:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.326,
                     52.49402
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Hohenzollernplatz",
                 "location": "Wochenmarkt Hohenzollernplatz",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.36656,
-                    52.55493
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Iranische -/ Reinickendorfer Straße",
-                "location": "Wochenmarkt Iranische -/ Reinickendorfer Straße",
-                "opening_hours": "Tu 08:00-13:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.33381,
                     52.5214
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Jagowstraße zw.  Levetzow- und Agricolastraße",
                 "location": "Wochenmarkt Jagowstraße zw.  Levetzow- und Agricolastraße",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34499,
                     52.48479
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt John - F. - Kennedy - Platz",
                 "location": "Wochenmarkt John - F. - Kennedy - Platz",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31036,
                     52.50848
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Karl-August-Platz",
                 "location": "Wochenmarkt Karl-August-Platz",
                 "opening_hours": "We 08:00-13:00;Sa 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.53105,
                     52.48028
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Karlshorst / Ehrenfelsstraße",
                 "location": "Wochenmarkt Karlshorst / Ehrenfelsstraße",
                 "opening_hours": "Tu,Fr 09:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29072,
                     52.51778
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Klausenerplatz",
                 "location": "Wochenmarkt Klausenerplatz",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29075,
                     52.47653
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Kolberger Platz",
                 "location": "Wochenmarkt Kolberger Platz",
                 "opening_hours": "We,Sa 06:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.35923,
                     52.54667
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Leopoldplatz",
                 "location": "Wochenmarkt Leopoldplatz",
                 "opening_hours": "Th 11:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.32726,
                     52.42786
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Lichterfelde, Kranoldplatz",
                 "location": "Wochenmarkt Lichterfelde, Kranoldplatz",
                 "opening_hours": "We,Sa 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.31202,
                     52.44286
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Ludwig-Beck-Platz",
                 "location": "Wochenmarkt Ludwig-Beck-Platz",
-                "opening_hours": "Fr,Sa 08:00-14:00",
+                "opening_hours": "Fr,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.59497,
                     52.48411
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Mahlsdorf Roedernstraße / Hultschiner Damm",
                 "location": "Wochenmarkt Mahlsdorf Roedernstraße / Hultschiner Damm",
                 "opening_hours": "Th 07:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39045,
                     52.43375
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Mariendorfer Damm / Prinzenstraße",
                 "location": "Wochenmarkt Mariendorfer Damm / Prinzenstraße",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.41888,
                     52.54299
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Markt am Helmholtzplatz",
                 "location": "Wochenmarkt Markt am Helmholtzplatz",
                 "opening_hours": "Sa 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.42005,
                     52.60702
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Markt am Hugenottenplatz Buchholz",
                 "location": "Wochenmarkt Markt am Hugenottenplatz Buchholz",
                 "opening_hours": "Sa 09:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.4022,
                     52.51173
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Markt am Spittelmarkt",
                 "location": "Wochenmarkt Markt am Spittelmarkt",
                 "opening_hours": "We,Fr 10:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.43541,
                     52.53262
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Markt am Stierbrunnen (Pasteurstraße)",
                 "location": "Wochenmarkt Markt am Stierbrunnen (Pasteurstraße)",
                 "opening_hours": "Sa 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.54881,
                     52.54421
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Marzahner Promenade Marzahner Promenade 30-33",
                 "location": "Wochenmarkt Marzahner Promenade Marzahner Promenade 30-33",
                 "opening_hours": "Mo,We,Fr 08:30-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.23297,
                     52.43689
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Mexikoplatz",
                 "location": "Wochenmarkt Mexikoplatz",
                 "opening_hours": "Sa 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.30448,
                     52.52569
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Mierendorffplatz",
                 "location": "Wochenmarkt Mierendorffplatz",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29971,
                     52.49527
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Nestorstraße",
                 "location": "Wochenmarkt Nestorstraße",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.3695,
-                    52.54493
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Nettelbeckplatz",
-                "location": "Wochenmarkt Nettelbeckplatz",
-                "opening_hours": "Tu,Fr 11:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.41708,
                     52.5364
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Neuer Markt am Kollwitzplatz",
                 "location": "Wochenmarkt Neuer Markt am Kollwitzplatz",
                 "opening_hours": "Sa 10:30-16:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.25266,
                     52.44981
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Onkel-Toms-Hütte, Onkel-Tom-Str. 99, 14169 Berlin",
                 "location": "Wochenmarkt Onkel-Toms-Hütte, Onkel-Tom-Str. 99, 14169 Berlin",
                 "opening_hours": "Th 12:00-18:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.06212,
                     52.40165
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Potsdam Bassinplatz",
                 "location": "Wochenmarkt Potsdam Bassinplatz",
                 "opening_hours": "Mo-Fr 07:00-16:00;Sa 07:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.50567,
                     52.56547
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Prerower Platz hinter dem Lindencenter, Berlin-Hohenschönhausen",
                 "location": "Wochenmarkt Prerower Platz hinter dem Lindencenter, Berlin-Hohenschönhausen",
                 "opening_hours": "We 09:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.25921,
                     52.51254
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Preußenallee",
                 "location": "Wochenmarkt Preußenallee",
                 "opening_hours": "Tu,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34244,
                     52.44089
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Rathaus Lankwitz, Leonorenstraße",
                 "location": "Wochenmarkt Rathaus Lankwitz, Leonorenstraße",
                 "opening_hours": "Mo,Fr 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.37948,
                     52.44545
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
                 "location": "Wochenmarkt Rathausvorplatz (bis 30.04.2018)",
                 "opening_hours": "We 08:00-18:00;Sa 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.30656,
                     52.51743
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Richard-Wagner-Platz",
                 "location": "Wochenmarkt Richard-Wagner-Platz",
                 "opening_hours": "Mo,Th 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.51276,
                     52.45566
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Schellerstraße Ecke Spreestraße",
                 "location": "Wochenmarkt Schellerstraße Ecke Spreestraße",
                 "opening_hours": "Th 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.42151,
                     52.47735
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Schillermarkt am Herrfurthplatz",
                 "location": "Wochenmarkt Schillermarkt am Herrfurthplatz",
                 "opening_hours": "Sa 10:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.57473,
                     52.4459
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Schlossplatz Alt-Köpenick",
                 "location": "Wochenmarkt Schlossplatz Alt-Köpenick",
                 "opening_hours": "Tu,Th 08:30-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.51111,
                     52.45618
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Schnellerstraße Ecke Spreestraße",
                 "location": "Wochenmarkt Schnellerstraße Ecke Spreestraße",
                 "opening_hours": "Th 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.41062,
                     52.55199
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Seelower Straße",
                 "location": "Wochenmarkt Seelower Straße",
                 "opening_hours": "Sa 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.26734,
-                    52.53781
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt Siemensstadt, Jugendweg",
-                "location": "Wochenmarkt Siemensstadt, Jugendweg",
-                "opening_hours": "Tu 12:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.29492,
                     52.50664
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Suarezstraße  (Amtsgericht Charlottenburg)",
                 "location": "Wochenmarkt Suarezstraße  (Amtsgericht Charlottenburg)",
                 "opening_hours": "Th 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34745,
                     52.40994
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Waldsassener Straße 47 - 49 zwischen Waldsassener und Wiesauer Straße",
                 "location": "Wochenmarkt Waldsassener Straße 47 - 49 zwischen Waldsassener und Wiesauer Straße",
                 "opening_hours": "Th 12:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.14181,
                     52.41228
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Wilhelmplatz",
                 "location": "Wochenmarkt Wilhelmplatz",
                 "opening_hours": "Fr 12:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.35437,
                     52.59663
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Wilhelmsruher Damm / Senftenberger Ring",
                 "location": "Wochenmarkt Wilhelmsruher Damm / Senftenberger Ring",
                 "opening_hours": "Th,Sa 08:00-14:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.35438,
                     52.49652
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Winterfeldtplatz",
                 "location": "Wochenmarkt Winterfeldtplatz",
                 "opening_hours": "We 08:00-14:00;Sa 08:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34299,
                     52.50183
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "location": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "opening_hours": "Tu 09:00-15:00;Fr 08:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.49869,
                     52.56855
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt Zingster Straße (zwischen Ribnitzer- und Dierhagener Straße)",
                 "location": "Wochenmarkt Zingster Straße (zwischen Ribnitzer- und Dierhagener Straße)",
                 "opening_hours": "Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40178,
                     52.53751
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt am Arkonaplatz",
                 "location": "Wochenmarkt am Arkonaplatz",
                 "opening_hours": "Fr 12:00-19:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.55826,
                     52.50644
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
                 "location": "Wochenmarkt am Biesdorf-Center Weißenhöher Straße 88-108",
                 "opening_hours": "Tu,Th 09:00-17:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.40231,
                     52.52368
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Wochenmarkt am Hackeschen Markt",
-                "location": "Wochenmarkt am Hackeschen Markt",
-                "opening_hours": "Th 09:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.402311,
-                    52.52368
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt am Hackeschen Markt",
                 "location": "Wochenmarkt am Hackeschen Markt",
                 "opening_hours": "Sa 10:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40231,
+                    52.52368
+                ]
+            },
+            "properties": {
+                "title": "Wochenmarkt am Hackeschen Markt",
+                "location": "Wochenmarkt am Hackeschen Markt",
+                "opening_hours": "Th 09:00-18:00",
+                "opening_hours_unclassified": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.35464,
                     52.54679
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt am Rathaus Wedding Genter - / Ostender Straße",
                 "location": "Wochenmarkt am Rathaus Wedding Genter - / Ostender Straße",
                 "opening_hours": "We,Sa 07:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.59029,
                     52.52106
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Wochenmarkt  Cecilienplatz  Ernst-Bloch-Straße",
                 "location": "Wochenmarkt  Cecilienplatz  Ernst-Bloch-Straße",
                 "opening_hours": "Mo,We,Fr 09:00-18:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.25684,
                     52.43119
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Zehlendorf Frische Markt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin",
                 "location": "Zehlendorf Frische Markt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf, 14163 Berlin",
                 "opening_hours": "Sa 09:00-16:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.28866,
                     52.45842
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Öko-Wochenmarkt Domäne Dahlem Königin-Luise-Str. 49",
                 "location": "Öko-Wochenmarkt Domäne Dahlem Königin-Luise-Str. 49",
                 "opening_hours": "Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.35445,
+                    52.48779
+                ]
+            },
+            "properties": {
+                "title": "Ökomarkt & mehr an der Akazienstraße",
+                "location": "Ökomarkt & mehr an der Akazienstraße",
+                "opening_hours": "Th 12:00-18:00",
+                "opening_hours_unclassified": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33986,
+                    52.52606
+                ]
+            },
+            "properties": {
+                "title": "Ökomarkt & mehr an der Thusnelda-Allee, Thusnelda-Allee 1, 10555 Berlin",
+                "location": "Ökomarkt & mehr an der Thusnelda-Allee, Thusnelda-Allee 1, 10555 Berlin",
+                "opening_hours": null,
+                "opening_hours_unclassified": "Mi 12:00 - 18:00 (Winter) 12:00 - 19:00 (Sommer)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.39084,
                     52.48857
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Ökomarkt - Chamissoplatz",
                 "location": "Ökomarkt - Chamissoplatz",
                 "opening_hours": "Sa 09:00-15:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
-                "coordinates": [
-                    13.39806,
-                    52.38643
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Ökomarkt Lichtenrade",
-                "location": "Ökomarkt Lichtenrade",
-                "opening_hours": "Sa 08:00-13:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.41728,
                     52.53674
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V., Wörther Straße/Kollwitzplatz",
                 "location": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V., Wörther Straße/Kollwitzplatz",
                 "opening_hours": "Th 12:00-19:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.38707,
                     52.53254
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Ökomarkt am Nordbahnhof, Elisabeth-Schwarzhaupt-Platz",
                 "location": "Ökomarkt am Nordbahnhof, Elisabeth-Schwarzhaupt-Platz",
-                "opening_hours": "We 11:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.35445,
-                    52.48779
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Ökomarkt an der Akazienstraße",
-                "location": "Ökomarkt an der Akazienstraße",
-                "opening_hours": "Th 12:00-18:00",
-                "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.33986,
-                    52.52606
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Ökomarkt an der Thusnelda-Allee, Thusnelda-Allee 1, 10555 Berlin",
-                "location": "Ökomarkt an der Thusnelda-Allee, Thusnelda-Allee 1, 10555 Berlin",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Mi 12:00 - 18:00 (Winter) 12:00 - 19:00 (Sommer)"
-            },
-            "type": "Feature"
+                "opening_hours_unclassified": "Mi 11:00 - 18:00 (Sommer) 11:00 - 17:00 (Winter)"
+            }
         },
         {
+            "type": "Feature",
             "geometry": {
+                "type": "Point",
                 "coordinates": [
                     13.34409,
                     52.51714
-                ],
-                "type": "Point"
+                ]
             },
             "properties": {
                 "title": "Ökomarkt im Hansaviertel, Parkplatz vor der St.-Ansgar-Kirche, Altonaer Straße",
                 "location": "Ökomarkt im Hansaviertel, Parkplatz vor der St.-Ansgar-Kirche, Altonaer Straße",
                 "opening_hours": "Fr 12:00-18:30",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
+            }
         }
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 03.05.2019",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 13.01.2020",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0"
         }
     },
