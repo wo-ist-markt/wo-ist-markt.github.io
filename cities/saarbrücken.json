@@ -168,22 +168,22 @@
 				{
             "geometry": {
                 "coordinates": [
-                    6.992306,
-                    49.231284
+                    6.995913,
+                    49.234367
                 ],
                 "type": "Point"
             },
             "properties": {
-                "title": "Flohmarkt Saarbrücken",
-                "location": "Franz-Josef-Röder-Straße",
-                "opening_hours": "Mar-Nov: Sa[2] 08:00-16:00"
+                "title": "Saarbrücker Bauernmarkt",
+                "location": "Gustav-Regler-Platz",
+                "opening_hours": "Sa 07:00-16:00"
             },
             "type": "Feature"
         }
     ],
     "metadata": {
         "data_source": {
-            "title": "Märkte | Landeshauptstadt Saarbrücken, aktualisiert am 11.09.2019",
+            "title": "Märkte | Landeshauptstadt Saarbrücken, aktualisiert am 02.02.2020",
             "url": "https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte"
         }
     },
