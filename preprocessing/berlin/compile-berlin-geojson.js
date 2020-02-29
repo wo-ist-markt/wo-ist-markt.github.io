@@ -77,10 +77,13 @@ function getWellFormedCoordinates(feature) {
 function prepareFeatureProperties(feature) {
 	var outputProperties = {};
 	var inputProperties = feature.properties.data;
-	var location = inputProperties.location;
-	var title = getDescriptiveTitle(feature.properties.title, location);
+	var zipCode = inputProperties.plz;
+	var streetNameAndNumber = inputProperties.strasse;
+	var sanitizedZipCode = getSanitizeString(zipCode);
+	var sanitizedStreetNameAndNumber = getSanitizeString(streetNameAndNumber);
+	var sanitizedLocation = getLocationText(sanitizedStreetNameAndNumber, sanitizedZipCode);
+	var title = getDescriptiveTitle(feature.properties.title, sanitizedLocation);
 	var sanitizedTitle = getSanitizeString(title);
-	var sanitizedLocation = getSanitizeString(location);
 	outputProperties.title = sanitizedTitle;
 	outputProperties.location = sanitizedLocation;
 	var days = inputProperties.tage;
@@ -104,6 +107,20 @@ function prepareFeatureProperties(feature) {
 		outputProperties.opening_hours_unclassified = daysHours;
 	}
 	return outputProperties;
+}
+
+/*
+ * Returns a location text composed from given input parameters.
+ */
+function getLocationText(streetNameAndNumber, zipCode) {
+	var location = "";
+	if (streetNameAndNumber !== undefined && streetNameAndNumber !== "") {
+		location = streetNameAndNumber;
+	}
+	if (zipCode !== undefined && zipCode !== "") {
+		location += ", " + zipCode;
+	}
+	return location;
 }
 
 /*
