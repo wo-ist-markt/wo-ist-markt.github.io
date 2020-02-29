@@ -157,14 +157,14 @@ function composeOpeningHours(days, hours) {
 /*
  * Returns a sanitized string.
  */
-function getSanitizeString(hours) {
-	hours = hours.replace(/  /g, " ");
-	hours = hours.replace(/\n/g, " ");
-	hours = hours.replace(/„/g, "");
-	hours = hours.replace(/“/g, " ");
-	hours = hours.replace(/Â/g, " ");
-	hours = hours.trim();
-	return hours;
+function getSanitizeString(text) {
+	text = text.replace(/  /g, " ");
+	text = text.replace(/\n/g, " ");
+	text = text.replace(/„/g, "");
+	text = text.replace(/“/g, " ");
+	text = text.replace(/Â/g, " ");
+	text = text.trim();
+	return text;
 }
 
 /*
