@@ -11,6 +11,10 @@
         "id": "berlin",
         "label": "Berlin"
     },
+    "bielefeld": {
+        "id": "bielefeld",
+        "label": "Bielefeld"
+    },
     "bochum": {
         "id": "bochum",
         "label": "Bochum"

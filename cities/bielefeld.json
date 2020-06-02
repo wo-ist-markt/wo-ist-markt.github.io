@@ -1,0 +1,259 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_source": {
+        "title": "Presseamt Stadt Bielefeld, aktualisiert am 03.06.2020",
+        "url": "https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Kesselbrink",
+        "opening_hours": "Sa 07:00-13:00",
+        "opening_hours_unclassified": null,
+        "title": "Hauptmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.538243770599365,
+          52.02425214960947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Siegfriedplatz",
+        "opening_hours": "We, Fr 07:00-13:00",
+        "opening_hours_unclassified": null,
+        "title": "Siegfriedmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522467017173767,
+          52.02812225917859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Jakobuskirchplatz an der Prießallee",
+        "opening_hours": "We, Fr 07:00-13:00",
+        "opening_hours_unclassified": null,
+        "title": "Ostmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.550874292850494,
+          52.01270419513036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Platz an der St. Meinolfkirche",
+        "opening_hours": "Th 07:00-13:00",
+        "opening_hours_unclassified": null,
+        "title": "Meinolfmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.571256399154663,
+          52.02946227875947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Alter Markt",
+        "opening_hours": "Jan 25-Nov 10 Tu, Fr 09:00-14:00; Jan 25-Nov 10 Sa 09:00-16:00",
+        "opening_hours_unclassified": null,
+        "title": "Altstadtmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.531962037086487,
+          52.02041471673197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Klosterplatz",
+        "opening_hours": "Apr-Oct Th 16:00-20:00",
+        "opening_hours_unclassified": null,
+        "title": "Abendmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.528558313846588,
+          52.020896683368946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Platz vor der Feuerwache am Stadtring",
+        "opening_hours": "Tu,Th,Sa 07:00-13:00",
+        "opening_hours_unclassified": null,
+        "title": "Markt Brackwede"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.509994745254517,
+          51.986778121844665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Einkaufszentrum Lohmannshof/Kreuzberger Straße",
+        "opening_hours": "Th 14:30-18:00",
+        "opening_hours_unclassified": null,
+        "title": "Markt Dornberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.485699295997618,
+          52.044145403846144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Platz vor dem Bezirksamtsgebäude/Salzufler Straße",
+        "title": "Markt Heepen",
+        "opening_hours": "Sa 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60527217388153,
+          52.03192272739541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Parkplatz Marktkauf Baumheide, Rabenhof 64",
+        "opening_hours": "Th 07:00-13:00",
+        "title": "Markt Baumheide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.597327470779419,
+          52.04984146794758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Quartiersplatz Wefelshof",
+        "opening_hours": "Th 07:00-13:00",
+        "title": "Markt Brake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.603394627571106,
+          52.0715105563677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Marktplatz an der Amtsstraße",
+        "title": "Markt Jöllenbeck",
+        "opening_hours": "Fr 14:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517805337905884,
+          52.09630990818566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Markt Schildesche",
+        "location": "Kirchplatz an der Stiftskirche",
+        "opening_hours": "Sa 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.550163507461548,
+          52.056737468122094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Neuer Marktplatz Senner Markt 1",
+        "title": "Markt Senne",
+        "opening_hours": "Fr 07:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521455824375153,
+          51.95923794112459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Reichowplatz",
+        "opening_hours": "We,Sa 07:00-13:00",
+        "title": "Markt Sennestadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.585089892148972,
+          51.945871116724916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Platz an der Schneidemühler Str./Ecke Stieghorster Str.",
+        "title": "Markt Stieghorst",
+        "opening_hours": "Fr 14:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.589602708816528,
+          52.00226621523997
+        ]
+      }
+    }
+  ]
+}
