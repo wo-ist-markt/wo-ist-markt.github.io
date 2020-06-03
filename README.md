@@ -81,6 +81,7 @@ in February 2016.
 |[Bad Homburg][bad-homburg-wikipedia]|[Stadt Bad Homburg][bad-homburg-markets]|
 |[Basel][basel-wikipedia]|[Stadt Basel][basel-markets]|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
+|[Bielefeld][bielefeld-wikipedia]|[City of Bielefeld][bielefeld-markets]|
 |[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
 |[Bottrop][bottrop-wikipedia]|[City of Bottrop][bottrop-markets]|
@@ -199,6 +200,8 @@ The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`
 [basel-markets]: http://www.bs.ch/Portrait/maerkte.html
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0
+[bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
+[bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
 [bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
