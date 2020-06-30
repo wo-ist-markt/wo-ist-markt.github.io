@@ -91,8 +91,8 @@
       "type": "Feature",
       "properties": {
         "location": "Klosterplatz",
-        "opening_hours": "Apr-Oct Th 16:00-20:00",
-        "opening_hours_unclassified": null,
+        "opening_hours": null,
+        "opening_hours_unclassified": "Momentan ausgesetzt.",
         "title": "Abendmarkt"
       },
       "geometry": {
