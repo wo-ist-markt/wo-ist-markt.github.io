@@ -3,6 +3,10 @@
         "id": "bad-homburg",
         "label": "Bad Homburg"
     },
+    "baden-baden": {
+        "id": "baden-baden",
+        "label": "Baden-Baden"
+    },
     "basel": {
         "id": "basel",
         "label": "Basel"

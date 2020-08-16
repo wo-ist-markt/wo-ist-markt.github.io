@@ -1,0 +1,53 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [8.2408568, 48.7587731],
+        "type": "Point"
+      },
+      "properties": {
+        "location": null,
+        "opening_hours": "Mo, Th 07:00-13:00",
+        "title": "Augustaplatz"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [8.2556505, 48.7464471],
+        "type": "Point"
+      },
+      "properties": {
+        "location": "Lichtental",
+        "opening_hours": "Tu, Fr 07:00-12:00",
+        "title": "Klosterplatz Lichtental"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [8.2241727, 48.7736261],
+        "type": "Point"
+      },
+      "properties": {
+        "location": null,
+        "opening_hours": "We, Su 07:00-12:00",
+        "title": "Bernhardusplatz"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Stadt Baden-Baden, aktualisiert am 16.08.2020",
+      "url": "https://www.baden-baden.de/stadtportrait/aktuelles/wochenmaerkte/"
+    }
+  },
+  "type": "FeatureCollection"
+}
