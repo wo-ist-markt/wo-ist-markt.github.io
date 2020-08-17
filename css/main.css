@@ -78,8 +78,12 @@ html, body {
 
 #header label .awesome-marker {
   display: inline-block;
-  margin-top: -0.5em; /* compensate offset */
+  margin-top: -0.8em; /* compensate offset */
   transform: scale(0.75);
+}
+
+#header label .awesome-marker i {
+    margin-top: 9px;
 }
 
 #header :disabled + span {
