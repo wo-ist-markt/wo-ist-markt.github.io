@@ -53,7 +53,8 @@ This section describes the file format which is used to store the market data fo
           "location": "Vor der Christ-König-Kirche",
           "opening_hours": "We, Sa 07:30-14:00",
           "opening_hours_unclassified": null,
-          "title": "Rüppurr"
+          "title": "Rüppurr",
+          "details_url" : "https://www.karlsruhe.de/b3/maerkte/wochenmarkte/rueppurr.de"
       },
       "type": "Feature"
   }
@@ -62,6 +63,7 @@ This section describes the file format which is used to store the market data fo
 * The opening hours use the [OpenStreetMap opening hours format][osm-openinghours].
 * Opening hours which cannot be expressed in that format can use the `opening_hours_unclassified`
   property. In that case set the `opening_hours` property to `null`.
+* `details_url` is an optional field. If it exists, it'll be shown as a link with text `weitere Informationen` in market popup.
 * Besides the actual market data the file contains a `metadata` block as shown in this example excerpt:
 
   ``` json
