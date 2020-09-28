@@ -1155,6 +1155,36 @@
                     53.651989771265
                 ]
             }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "Sa 08:00-16:00",
+                "title" : "Flohschanze",
+                "location" : "Neuer Kamp 30"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.9679017293264,
+                    53.557641729345
+                ]
+            }
+        },
+        {
+            "properties" : {
+                "opening_hours" : "We 09:00-15:00; Sa 07:00-15:00",
+                "title" : "Flea Dome Bahrenfelder Trabrennbahn",
+                "location" : "Bahrenfelder Trabrennbahn"
+            },
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                    9.8917117298750,
+                    53.576220807997
+                ]
+            }
         }
     ],
     "metadata" : {
