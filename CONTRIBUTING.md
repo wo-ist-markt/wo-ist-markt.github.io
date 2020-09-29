@@ -6,6 +6,7 @@ This contribution guide aims to help you with the optimal way to get involved wi
 
 * [Market data contributions](#market-data-contributions)
 * [Code contributions](#code-contributions)
+* [How to run this project locally](#how-to-run-this-project-locally)
 * [How to use Git](#how-to-use-git)
 * [General advices](#general-advices)
 
@@ -99,6 +100,17 @@ This section describes the file format which is used to store the market data fo
   under a blank line in the description part. See [Git Commit Messages][git-commit-messages].
 * Check for **lint** errors.
 * Create and run **tests**.
+
+## How to run this project locally
+
+To run this project locally, launch an HTTP server in the project directory  
+For example:
+
+``` bash
+$ python3 -m http.server
+```
+
+Then you can see the website on [`http://localhost:8000`](http://localhost:8000)
 
 ## How to use Git
 
