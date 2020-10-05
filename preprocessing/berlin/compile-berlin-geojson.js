@@ -110,17 +110,15 @@ function prepareFeatureProperties(feature) {
 }
 
 /*
- * Returns a location text composed from given input parameters.
+ * Returns a location text composed from given input parameters or an empty string.
+ * Examples, valid results:
+ * - "Breitenbachplatz 1, 14195"
+ * - "Breitenbachplatz 1"
+ * - "14195"
+ * - ""
  */
 function getLocationText(streetNameAndNumber, zipCode) {
-	var location = "";
-	if (streetNameAndNumber !== undefined && streetNameAndNumber !== "") {
-		location = streetNameAndNumber;
-	}
-	if (zipCode !== undefined && zipCode !== "") {
-		location += ", " + zipCode;
-	}
-	return location;
+	return [streetNameAndNumber, zipCode].filter(text => text && text.length).join(", ");
 }
 
 /*
