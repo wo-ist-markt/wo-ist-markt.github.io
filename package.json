@@ -9,7 +9,8 @@
     "jshint": "~2.11.0",
     "moment": "^2.29.1",
     "moment-range": "^4.0.2",
-    "opening_hours": "~3.5.0"
+    "opening_hours": "~3.5.0",
+    "select2": "^4.0.13"
   },
   "repository": {
     "type": "git",
