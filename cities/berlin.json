@@ -14,7 +14,8 @@
                 "title": "< 164 Markt, Breitenbachplatz",
                 "location": "Breitenbachplatz 1, 14195",
                 "opening_hours": null,
-                "opening_hours_unclassified": "14.06., 12.07.,  09.08., 13.09., 11.10., 01.11.2020 10:00 - 14:00"
+                "opening_hours_unclassified": "14.06., 12.07.,  09.08., 13.09., 11.10., 01.11.2020 10:00 - 14:00",
+                "details_url": "http://www.markttag-berlin.de"
             }
         },
         {
@@ -30,7 +31,8 @@
                 "title": "10. Design.Börse_Berlin im LOEWE-SAAL",
                 "location": "Wiebestraße 42, 10553",
                 "opening_hours": null,
-                "opening_hours_unclassified": "13. - 15.11.2020 Fr 16:30 - 21:00 Sa 12:00 - 20:00 So 11:00-19:00"
+                "opening_hours_unclassified": "13. - 15.11.2020 Fr 16:30 - 21:00 Sa 12:00 - 20:00 So 11:00-19:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -46,7 +48,8 @@
                 "title": "11. Berliner Kunstallee",
                 "location": "Schloßstr. 1, 14059",
                 "opening_hours": null,
-                "opening_hours_unclassified": "05.-06.09.2020 11:00 - 18:00"
+                "opening_hours_unclassified": "05.-06.09.2020 11:00 - 18:00",
+                "details_url": "http://www.kunsthand-berlin.de"
             }
         },
         {
@@ -62,7 +65,8 @@
                 "title": "15. Kunst- und Keramikmarkt",
                 "location": "Alt Marzahn, 12685",
                 "opening_hours": null,
-                "opening_hours_unclassified": "07./08.11.2020 10:00 - 18:00"
+                "opening_hours_unclassified": "07./08.11.2020 10:00 - 18:00",
+                "details_url": "http://www.agrar-boerse-ev.de/kulturgut.html"
             }
         },
         {
@@ -78,7 +82,8 @@
                 "title": "17. Gartenlust & Kunstgenuss Frohnau",
                 "location": "S-Bahnhof Frohnau, 13465",
                 "opening_hours": null,
-                "opening_hours_unclassified": "12.-13.09.2020 11:00 - 18:00"
+                "opening_hours_unclassified": "12.-13.09.2020 11:00 - 18:00",
+                "details_url": "http://www.kunsthand-berlin.de"
             }
         },
         {
@@ -94,7 +99,8 @@
                 "title": "19. ANTIKMEILE Suarezstraße",
                 "location": "Suarezstraße, 14057",
                 "opening_hours": null,
-                "opening_hours_unclassified": "05.09.2020 12:00 - 20:00"
+                "opening_hours_unclassified": "05.09.2020 12:00 - 20:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -126,7 +132,8 @@
                 "title": "Antik- und Kunstmarkt an der Villa Oppenheim",
                 "location": "Schloßstraße 55, 14059",
                 "opening_hours": null,
-                "opening_hours_unclassified": "19.09.2020 20.09.2020 11:00 - 18:00 10:00 - 18:00 11:00 - 18:00 10:00 - 18:00"
+                "opening_hours_unclassified": "19.09.2020 20.09.2020 11:00 - 18:00 10:00 - 18:00 11:00 - 18:00 10:00 - 18:00",
+                "details_url": "http://www.markt-rix.de"
             }
         },
         {
@@ -142,7 +149,8 @@
                 "title": "Antikmarkt Ostbahnhof Pfingst-Spezial",
                 "location": "Koppenstraße 3, 10243",
                 "opening_hours": null,
-                "opening_hours_unclassified": "31.05./01.06.2020 09:00 - 17:00"
+                "opening_hours_unclassified": "31.05./01.06.2020 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -158,7 +166,8 @@
                 "title": "Antikmarkt am Berliner Ostbahnhof",
                 "location": "Erich-Steinfurth-Straße, 10243",
                 "opening_hours": null,
-                "opening_hours_unclassified": "So 09:00 - 16:00 (Winter) 09.00 - 17:00 (Sommer)"
+                "opening_hours_unclassified": "So 09:00 - 16:00 (Winter) 09.00 - 17:00 (Sommer)",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -174,7 +183,8 @@
                 "title": "Bauernmarkt Leopoldplatz",
                 "location": "Leopoldplatz, 13353",
                 "opening_hours": "Tu,Fr 10:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -190,7 +200,8 @@
                 "title": "Berlin-Brandenburger-Bauernmarkt -  Saisonmarkt auf dem Nikolaikirchplatz",
                 "location": "Nikolaikirchplatz, 10178",
                 "opening_hours": null,
-                "opening_hours_unclassified": "März - Oktober 10:00 - 17:00"
+                "opening_hours_unclassified": "März - Oktober 10:00 - 17:00",
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -206,7 +217,8 @@
                 "title": "Floh- und Bauernmarkt in Potsdam",
                 "location": "Weberplatz, 14482",
                 "opening_hours": "Sa 07:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.koscholke.de"
             }
         },
         {
@@ -222,7 +234,8 @@
                 "title": "Flohmarkt Falkenseer Chaussee, Siegener Straße",
                 "location": "Falkenseer Chaussee 239, 13583",
                 "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.troedelmarkt.berlin"
             }
         },
         {
@@ -238,7 +251,8 @@
                 "title": "Flohmarkt Marienfelde, Hornbach-Parkplatz",
                 "location": "Großbeerenstr. 133, 12107",
                 "opening_hours": "Su 09:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.ayvaz.de"
             }
         },
         {
@@ -254,7 +268,8 @@
                 "title": "Flohmarkt Schönefeld",
                 "location": "Grünbergallee 279, 12526",
                 "opening_hours": "Su 09:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.ayvaz.de"
             }
         },
         {
@@ -270,7 +285,8 @@
                 "title": "Flohmarkt am S-Bhf. Friedrichshagen",
                 "location": "Schöneicher Str. 1, 12587",
                 "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -286,7 +302,8 @@
                 "title": "Flohmarkt im Mauerpark",
                 "location": "Bernauer Straße 63-64, 13355",
                 "opening_hours": "Su 10:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.flohmarktimmauerpark.de"
             }
         },
         {
@@ -302,7 +319,8 @@
                 "title": "Großer Familien-Flohmarkt in Klaistow",
                 "location": "Glindower Str. 28, 14547",
                 "opening_hours": null,
-                "opening_hours_unclassified": "23.08., 08.11. 10:00 - 16:00"
+                "opening_hours_unclassified": "23.08., 08.11. 10:00 - 16:00",
+                "details_url": "http://www.spargelhof-klaistow.de"
             }
         },
         {
@@ -318,7 +336,8 @@
                 "title": "Großer Trödelmarkt am Arkonaplatz",
                 "location": "Arkonaplatz, 10435",
                 "opening_hours": null,
-                "opening_hours_unclassified": "So 10:00 - 16:00 (Winter) 10:00 - 17:00 (Sommer)"
+                "opening_hours_unclassified": "So 10:00 - 16:00 (Winter) 10:00 - 17:00 (Sommer)",
+                "details_url": "http://www.troedelmarkt-arkonaplatz.de"
             }
         },
         {
@@ -350,7 +369,8 @@
                 "title": "KUNST trifft HANDWERK",
                 "location": "Mexikoplatz, 14163",
                 "opening_hours": null,
-                "opening_hours_unclassified": "20.09.2020 11:00 - 18:00"
+                "opening_hours_unclassified": "20.09.2020 11:00 - 18:00",
+                "details_url": "http://www.kunsthand-berlin.de"
             }
         },
         {
@@ -366,7 +386,8 @@
                 "title": "Kunst- und Trödelmarkt  Straße des 17. Juni",
                 "location": "Straße des 17. Juni, 10785",
                 "opening_hours": "Sa,Su 10:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berliner-troedelmarkt.de"
             }
         },
         {
@@ -382,7 +403,8 @@
                 "title": "Kunst- und Trödelmarkt Fehrbelliner Platz",
                 "location": "Fehrbelliner Platz, 10707",
                 "opening_hours": "Sa,Su 10:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.burdack-maerkte.de"
             }
         },
         {
@@ -398,7 +420,8 @@
                 "title": "Kunst-Kreativ-Markt Kiezoase Schöneberg",
                 "location": "Karl-Schrader-Straße 7-8, 10781",
                 "opening_hours": null,
-                "opening_hours_unclassified": "06.06.2020 14:00 - 18:00"
+                "opening_hours_unclassified": "06.06.2020 14:00 - 18:00",
+                "details_url": "http://www.kiezoase.de"
             }
         },
         {
@@ -430,7 +453,8 @@
                 "title": "Landmarkt DIE DICKE LINDA",
                 "location": "Kranoldplatz, 12209",
                 "opening_hours": "Sa 10:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.dicke-linda-markt.de"
             }
         },
         {
@@ -462,7 +486,8 @@
                 "title": "Markthalle Neun",
                 "location": "Eisenbahnstraße 42/43, 10997",
                 "opening_hours": "Fr 12:00-18:00;Sa 10:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markthalleneun.de"
             }
         },
         {
@@ -478,7 +503,8 @@
                 "title": "Neuer Markt am Südstern",
                 "location": "Südstern, 10961",
                 "opening_hours": "Sa 10:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -494,7 +520,8 @@
                 "title": "Neuköllner Stoff am Maybachufer",
                 "location": "Maybachufer 31, 12047",
                 "opening_hours": "Sa 11:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.mv-perske.de"
             }
         },
         {
@@ -510,7 +537,8 @@
                 "title": "Neuköllner Wochenmärkte Britz-Süd",
                 "location": "Gutschmidtstraße, 12359",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Mo, Do Sa 08:00 - 13:00 08:00 - 14:00"
+                "opening_hours_unclassified": "Mo, Do Sa 08:00 - 13:00 08:00 - 14:00",
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -526,7 +554,8 @@
                 "title": "Neuköllner Wochenmärkte Hermannplatz",
                 "location": "Hermannplatz, 10967",
                 "opening_hours": "Mo-Fr 10:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -542,7 +571,8 @@
                 "title": "Neuköllner Wochenmärkte Maybachufer",
                 "location": "Maybachufer 31, 12047",
                 "opening_hours": "Tu,Fr 11:00-18:30",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -558,7 +588,8 @@
                 "title": "Neuköllner Wochenmärkte Parchimer Allee",
                 "location": "Fritz-Reuter-Allee 73, 12359",
                 "opening_hours": "Fr 10:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -574,7 +605,8 @@
                 "title": "Neuköllner Wochenmärkte Rixdorf",
                 "location": "Karl-Marx-Platz, 12043",
                 "opening_hours": "We 11:00-18:00;Sa 08:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -590,7 +622,8 @@
                 "title": "Neuköllner Wochenmärkte Rudow",
                 "location": "Prierosser Straße, 12357",
                 "opening_hours": "We,Sa 08:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -606,7 +639,8 @@
                 "title": "Neuköllner Wochenmärkte Wutzkyallee",
                 "location": "Rotraut-Richter-Platz, 12353",
                 "opening_hours": "We 08:00-14:00;Sa 08:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -622,7 +656,8 @@
                 "title": "Nowkoelln Flowmarkt",
                 "location": "Maybachufer 31, 12047",
                 "opening_hours": null,
-                "opening_hours_unclassified": "24.05., 07.06., 21.06., 05.07.,  19.07., 02.08., 16.08., 30.08., 13.09.,  27.09., 11.10., 25.10., 08.11., 29.11.2020 10:00 - 17:00"
+                "opening_hours_unclassified": "24.05., 07.06., 21.06., 05.07.,  19.07., 02.08., 16.08., 30.08., 13.09.,  27.09., 11.10., 25.10., 08.11., 29.11.2020 10:00 - 17:00",
+                "details_url": "http://www.flowmarkt.de/nowkoelln.de"
             }
         },
         {
@@ -638,7 +673,8 @@
                 "title": "Riesenflohmarkt Trabrennbahn Karlshorst",
                 "location": "Treskowallee 129, 10318",
                 "opening_hours": null,
-                "opening_hours_unclassified": "03. - 04.10.2020 09:00 - 17:00"
+                "opening_hours_unclassified": "03. - 04.10.2020 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -654,7 +690,8 @@
                 "title": "Sammlerbörse Trabrennbahn Karlshorst, Tribünenhalle",
                 "location": "Treskowallee 129, 10318",
                 "opening_hours": null,
-                "opening_hours_unclassified": "03.10.2020 09:00 - 17:00"
+                "opening_hours_unclassified": "03.10.2020 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -702,7 +739,8 @@
                 "title": "Trödelmarkt Hornbach Neukölln",
                 "location": "Gradestraße 100, 12347",
                 "opening_hours": "Su 07:00-14:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.hoefges.de"
             }
         },
         {
@@ -718,7 +756,8 @@
                 "title": "Trödelmarkt Landsberger Allee auf dem IKEA Parkplatz",
                 "location": "Landsberger Allee 364, 10365",
                 "opening_hours": "Su 09:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -734,7 +773,8 @@
                 "title": "Trödelmarkt METRO Marienfelde",
                 "location": "Buckower Chaussee 25-35, 12277",
                 "opening_hours": "Su 07:00-14:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.hoefges.de"
             }
         },
         {
@@ -750,7 +790,8 @@
                 "title": "Trödelmarkt METRO Spandau",
                 "location": "Nonnendammallee 135, 13599",
                 "opening_hours": "Su 07:00-14:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.hoefges.de"
             }
         },
         {
@@ -766,7 +807,8 @@
                 "title": "Trödelmarkt Markstraße",
                 "location": "Markstraße 32-34, 13409",
                 "opening_hours": "Su 07:00-15:30",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.troedelmarkt.berlin"
             }
         },
         {
@@ -782,7 +824,8 @@
                 "title": "Trödelmarkt Ollenhauerstraße",
                 "location": "Ollenhauerstraße 107, 13403",
                 "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.troedelmarkt.berlin"
             }
         },
         {
@@ -798,7 +841,8 @@
                 "title": "Trödelmarkt Schuhcenter Siemes Wedding, Parkplatz",
                 "location": "Markstr. 17 - 18, 13409",
                 "opening_hours": "Su 07:00-14:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.hoefges.de"
             }
         },
         {
@@ -814,7 +858,8 @@
                 "title": "Trödelmarkt an der Mecklenburgischen Straße",
                 "location": "Mecklenburgische Straße, 14197",
                 "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.der-mecklenburger-troedelmarkt.de"
             }
         },
         {
@@ -846,7 +891,8 @@
                 "title": "Trödelmarkt auf dem John-F.-Kennedy-Platz",
                 "location": "John-F.-Kennedy-Platz 1, 10825",
                 "opening_hours": "Sa,Su 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin-flohmaerkte.de"
             }
         },
         {
@@ -862,7 +908,8 @@
                 "title": "Trödelmarkt auf dem Leopoldplatz",
                 "location": "Leopoldplatz, 13353",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Sa 10:00 - 16:00 (Sommer) 10:00 - 15:00 (Winter)"
+                "opening_hours_unclassified": "Sa 10:00 - 16:00 (Sommer) 10:00 - 15:00 (Winter)",
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -878,7 +925,8 @@
                 "title": "WeinSommer in Verbindung mit dem Spandauer Altstadtfest",
                 "location": "Markt 1, 13597",
                 "opening_hours": null,
-                "opening_hours_unclassified": "27.08.2020 28.08.2020 29.08.2020 30.09.2020 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00"
+                "opening_hours_unclassified": "27.08.2020 28.08.2020 29.08.2020 30.09.2020 15:00-23:00 11:00-24:00 11:00-24:00 11:00-20:00",
+                "details_url": "http://www.partner-fuer-spandau.de"
             }
         },
         {
@@ -894,7 +942,8 @@
                 "title": "Wittenbergplatz (Nordseite) Brandenburger Bauernmarkt",
                 "location": "Wittenbergplatz 5, 10789",
                 "opening_hours": "Th 09:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -910,7 +959,8 @@
                 "title": "Wochenmarkt Adlershof",
                 "location": "Dörpfeldstraße, 12489",
                 "opening_hours": "We,Th 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.gakenholz-gellesch.de"
             }
         },
         {
@@ -926,7 +976,8 @@
                 "title": "Wochenmarkt Altstadt Spandau - Markt Havelländischer Land- und Bauernmarkt",
                 "location": "Markt 3, 13597",
                 "opening_hours": "Mo,Tu,Th,Fr 09:00+",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.wirtschaftshof-spandau.de"
             }
         },
         {
@@ -958,7 +1009,8 @@
                 "title": "Wochenmarkt Am Nauener Tor 14467 Potsdam",
                 "location": "Hegelallee 55, 14467",
                 "opening_hours": "We,Sa 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markt-am-nauener-tor.de"
             }
         },
         {
@@ -974,7 +1026,8 @@
                 "title": "Wochenmarkt Am S-Bhf. Köpenick",
                 "location": "Elcknerplatz, 12555",
                 "opening_hours": "Mo-Fr 09:00-18:00;Sa 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.mv-perske.de"
             }
         },
         {
@@ -1022,7 +1075,8 @@
                 "title": "Wochenmarkt Antonplatz",
                 "location": "Antonplatz, 13086",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Di, Fr Do* 09:00 - 18:00 11:00 - 16:00"
+                "opening_hours_unclassified": "Di, Fr Do* 09:00 - 18:00 11:00 - 16:00",
+                "details_url": "http://www.mv-perske.de"
             }
         },
         {
@@ -1038,7 +1092,8 @@
                 "title": "Wochenmarkt Berlin-Oberschöneweide",
                 "location": "Rathenauplatz, 12459",
                 "opening_hours": "We 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -1086,7 +1141,8 @@
                 "title": "Wochenmarkt Breslauer Platz",
                 "location": "Breslauer Platz, 12159",
                 "opening_hours": "We 08:00-13:00;Th 12:00-18:00;Sa 08:00-14:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -1102,7 +1158,8 @@
                 "title": "Wochenmarkt Brunsbütteler Damm 265",
                 "location": "Brunsbütteler Damm 265, 13591",
                 "opening_hours": "Fr 08:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -1166,7 +1223,8 @@
                 "title": "Wochenmarkt Bärenschaufenster (öffentl. Straßenland)",
                 "location": "Am Tierpark, 10319",
                 "opening_hours": "Mo,Th,Fr 08:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -1246,7 +1304,8 @@
                 "title": "Wochenmarkt Crellestraße",
                 "location": "Crellestraße 24, 10827",
                 "opening_hours": "We,Sa 10:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -1326,7 +1385,8 @@
                 "title": "Wochenmarkt Frankfurter Allee 172",
                 "location": "Frankfurter Allee 172, 10365",
                 "opening_hours": "We 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -1422,7 +1482,8 @@
                 "title": "Wochenmarkt Helene-Weigel-Platz",
                 "location": "Helene-Weigel-Platz, 12681",
                 "opening_hours": "Mo-Sa 09:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markt-veranstaltungen.de"
             }
         },
         {
@@ -1518,7 +1579,8 @@
                 "title": "Wochenmarkt John-F.-Kennedy-Platz",
                 "location": "John-F.-Kennedy-Platz 1, 10825",
                 "opening_hours": "Tu,Fr 08:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -1550,7 +1612,8 @@
                 "title": "Wochenmarkt Karlshorst",
                 "location": "Ehrenfelsstraße, 10318",
                 "opening_hours": "Tu,Fr 09:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.gakenholz-gellesch.de"
             }
         },
         {
@@ -1598,7 +1661,8 @@
                 "title": "Wochenmarkt Leopoldplatz",
                 "location": "Leopoldplatz, 13353",
                 "opening_hours": "Th 11:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -1662,7 +1726,8 @@
                 "title": "Wochenmarkt Mariendorfer Damm / Prinzenstraße",
                 "location": "Prinzenstraße, 12109",
                 "opening_hours": "We,Sa 08:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -1710,7 +1775,8 @@
                 "title": "Wochenmarkt Markt am Spittelmarkt",
                 "location": "Spittelmarkt, 10179",
                 "opening_hours": "We,Fr 10:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -1742,7 +1808,8 @@
                 "title": "Wochenmarkt Marzahner Promenade",
                 "location": "Marzahner Promenade 30-33, 12679",
                 "opening_hours": "Mo,We,Fr 08:30-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markt-veranstaltungen.de"
             }
         },
         {
@@ -1822,7 +1889,8 @@
                 "title": "Wochenmarkt Onkel-Toms-Hütte",
                 "location": "Onkel-Tom-Str. 99, 14169",
                 "opening_hours": "Th 12:00-18:30",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.diemarktplaner.de"
             }
         },
         {
@@ -1854,7 +1922,8 @@
                 "title": "Wochenmarkt Prerower Platz",
                 "location": "Prerower Platz, 13051",
                 "opening_hours": "We 09:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markt-veranstaltungen.de"
             }
         },
         {
@@ -1934,7 +2003,8 @@
                 "title": "Wochenmarkt Schellerstraße Ecke Spreestraße",
                 "location": "Schnellerstraße, 12439",
                 "opening_hours": "Th 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.gakenholz-gellesch.e"
             }
         },
         {
@@ -1950,7 +2020,8 @@
                 "title": "Wochenmarkt Schillermarkt am Herrfurthplatz",
                 "location": "Herrfurthplatz, 12049",
                 "opening_hours": "Sa 10:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.mv-perske.de"
             }
         },
         {
@@ -1982,7 +2053,8 @@
                 "title": "Wochenmarkt Schnellerstraße",
                 "location": "Schnellerstraße, 12439",
                 "opening_hours": "Th 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -1998,7 +2070,8 @@
                 "title": "Wochenmarkt Seelower Straße",
                 "location": "Seelower Straße, 10439",
                 "opening_hours": "Sa 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.bbm-maerkte.de"
             }
         },
         {
@@ -2030,7 +2103,8 @@
                 "title": "Wochenmarkt Waldsassener Straße",
                 "location": "Waldsassener Straße 47 - 49, 12279",
                 "opening_hours": "Th 12:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -2078,7 +2152,8 @@
                 "title": "Wochenmarkt Winterfeldtplatz",
                 "location": "Winterfeldtplatz, 10781",
                 "opening_hours": "We 08:00-14:00;Sa 08:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -2094,7 +2169,8 @@
                 "title": "Wochenmarkt Wittenbergplatz (Nordseite)",
                 "location": "Wittenbergplatz 5, 10789",
                 "opening_hours": "Tu 09:00-15:00;Fr 08:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
             }
         },
         {
@@ -2126,7 +2202,8 @@
                 "title": "Wochenmarkt am Arkonaplatz",
                 "location": "Arkonaplatz, 10435",
                 "opening_hours": "Fr 12:00-19:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.mv-perske.de"
             }
         },
         {
@@ -2142,7 +2219,8 @@
                 "title": "Wochenmarkt am Biesdorf-Center",
                 "location": "Weißenhöher Straße 88-108, 12683",
                 "opening_hours": "Tu,Th 09:00-17:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.markt-veranstaltungen.de"
             }
         },
         {
@@ -2190,7 +2268,8 @@
                 "title": "Wochenmarkt am Rathaus Wedding",
                 "location": "Ostender Straße, 13353",
                 "opening_hours": "We,Sa 07:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
         {
@@ -2206,7 +2285,8 @@
                 "title": "Zehlendorf Frische Markt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf",
                 "location": "S-Bahnhof Zehlendorf, 14163",
                 "opening_hours": "Sa 09:00-16:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.zehlendorfer-wochenmarkt.de"
             }
         },
         {
@@ -2222,7 +2302,8 @@
                 "title": "anZiehmarkt, Breitenbachplatz",
                 "location": "Breitenbachplatz 2, 14195",
                 "opening_hours": null,
-                "opening_hours_unclassified": "21.06., 19.07.,  16.08., 20.09., 18.10., 08.11.2020 10:30 - 15:00"
+                "opening_hours_unclassified": "21.06., 19.07.,  16.08., 20.09., 18.10., 08.11.2020 10:30 - 15:00",
+                "details_url": "http://www.markttag-berlin.de"
             }
         },
         {
@@ -2238,7 +2319,8 @@
                 "title": "Öko-Wochenmarkt Domäne Dahlem",
                 "location": "Königin-Luise-Str. 49, 14195",
                 "opening_hours": "Sa 08:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.domaene-dahlem.de"
             }
         },
         {
@@ -2254,7 +2336,8 @@
                 "title": "Ökomarkt & mehr an der Akazienstraße",
                 "location": "Akazienstraße 15, 10823",
                 "opening_hours": "Th 12:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.marktzeit.berlin/"
             }
         },
         {
@@ -2270,7 +2353,8 @@
                 "title": "Ökomarkt & mehr an der Thusnelda-Allee",
                 "location": "Thusnelda-Allee 1, 10555",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Mi 12:00 - 18:00 (Winter) 12:00 - 19:00 (Sommer)"
+                "opening_hours_unclassified": "Mi 12:00 - 18:00 (Winter) 12:00 - 19:00 (Sommer)",
+                "details_url": "http://www.marktzeit.berlin/"
             }
         },
         {
@@ -2286,7 +2370,8 @@
                 "title": "Ökomarkt - Chamissoplatz",
                 "location": "Chamissoplatz, 10965",
                 "opening_hours": "Sa 09:00-15:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.oekomarkt-chamissoplatz.de"
             }
         },
         {
@@ -2302,7 +2387,8 @@
                 "title": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V.",
                 "location": "Kollwitzplatz, 10435",
                 "opening_hours": "Th 12:00-19:00",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.grueneliga-berlin.de"
             }
         },
         {
@@ -2318,7 +2404,8 @@
                 "title": "Ökomarkt am Nordbahnhof",
                 "location": "Elisabeth-Schwarzhaupt-Platz, 10115",
                 "opening_hours": null,
-                "opening_hours_unclassified": "Mi 11:00 - 18:00 (Sommer) 11:00 - 17:00 (Winter)"
+                "opening_hours_unclassified": "Mi 11:00 - 18:00 (Sommer) 11:00 - 17:00 (Winter)",
+                "details_url": "http://www.marktzeit.berlin"
             }
         },
         {
@@ -2334,7 +2421,8 @@
                 "title": "Ökomarkt im Hansaviertel",
                 "location": "Altonaer Straße, 10557",
                 "opening_hours": "Fr 12:00-18:30",
-                "opening_hours_unclassified": null
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.marktzeit.berlin"
             }
         }
     ],
