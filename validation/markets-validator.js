@@ -16,7 +16,6 @@
 var fs = require('fs');
 var path = require("path");
 var colors = require('colors');
-var dayjs = require('dayjs');
 var opening_hours = require('opening_hours');
 var urlparse = require('url').parse;
 var http = require('http');
