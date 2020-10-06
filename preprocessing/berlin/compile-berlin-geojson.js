@@ -79,9 +79,11 @@ function prepareFeatureProperties(feature) {
 	var inputProperties = feature.properties.data;
 	var zipCode = inputProperties.plz;
 	var streetNameAndNumber = inputProperties.strasse;
+	var detailsUrl = inputProperties.www;
 	var sanitizedZipCode = getSanitizeString(zipCode);
 	var sanitizedStreetNameAndNumber = getSanitizeString(streetNameAndNumber);
 	var sanitizedLocation = getLocationText(sanitizedStreetNameAndNumber, sanitizedZipCode);
+	var sanitizedDetailsUrl = getSanitizedUrl(detailsUrl);
 	var title = getDescriptiveTitle(feature.properties.title, sanitizedLocation);
 	var sanitizedTitle = getSanitizeString(title);
 	outputProperties.title = sanitizedTitle;
@@ -105,6 +107,10 @@ function prepareFeatureProperties(feature) {
 			daysHours = inputProperties.bemerkungen;
 		}
 		outputProperties.opening_hours_unclassified = daysHours;
+	}
+
+	if (sanitizedDetailsUrl) {
+		outputProperties.details_url = sanitizedDetailsUrl;
 	}
 	return outputProperties;
 }
@@ -167,6 +173,21 @@ function composeOpeningHours(days, hours) {
 		return days + " " + hours;
 	}
 	throw "Day can most likely not be processed automatically.";
+}
+
+/*
+ * Returns a sanitized HTTP(S) URL or an empty string.
+ * HTTP is used here because not all websites serve via HTTPS.
+ */
+function getSanitizedUrl(url) {
+	url = getSanitizeString(url);
+	if (!url) {
+		return url;
+	}
+	if (!url.startsWith("http://") && !url.startsWith("https://")) {
+		url = "http://" + url;
+	}
+	return url;
 }
 
 /*
