@@ -7,7 +7,7 @@
     "i18next-client": "^1.11.5",
     "jasmine": "^3.0.0",
     "jshint": "~2.11.0",
-    "moment": "^2.20.1",
+    "moment": "^2.29.1",
     "opening_hours": "~3.5.0"
   },
   "repository": {
