@@ -7,7 +7,6 @@
     "i18next-client": "^1.11.5",
     "jasmine": "^3.0.0",
     "jshint": "~2.11.0",
-    "moment": "^2.20.1",
     "opening_hours": "~3.5.0"
   },
   "repository": {
@@ -19,5 +18,8 @@
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
     "validate": "node validation/markets-validator.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.9.1"
   }
 }
