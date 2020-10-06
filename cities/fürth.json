@@ -11,7 +11,8 @@
             "properties": {
                 "location": "Waagplatz",
                 "opening_hours": "Sa 07:30-13:00",
-                "title": "Bauernmarkt"
+                "title": "Bauernmarkt",
+                "details_url": "https://www.fuerth.de/Home/wirtschaft/Einkaufen-in-Fuerth/Bauernmarkt-auf-dem-Waagplatz.aspx"
             },
             "type": "Feature"
         },
@@ -26,7 +27,8 @@
             "properties": {
                 "location": "Rudolf-Breitscheid-Straße 13-15",
                 "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00",
-                "title": "Fürther Markt"
+                "title": "Fürther Markt",
+                "details_url": "https://fuerther-markt.de/"
             },
             "type": "Feature"
         }
