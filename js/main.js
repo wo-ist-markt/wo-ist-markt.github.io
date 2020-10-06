@@ -34,6 +34,9 @@ var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'basket'}
 var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'basket'});
 var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'basket'});
 
+dayjs.extend(dayjs_plugin_isBetween);
+dayjs.extend(dayjs_plugin_isoWeek);
+
 /*
  * Return 0-padded string of a number.
  */
@@ -79,8 +82,8 @@ function getTableRowForDay(openingRange, dayIsToday) {
     var dayNameIndex = openFromDate.getDay();
     var dayName = DAY_NAMES[dayNameIndex];
     var cls = dayIsToday ? ' class="today"' : '';
-    var formattedOpenFrom = moment(openFromDate).format('HH:mm');
-    var formattedOpenTill = moment(openTillDate).format('HH:mm');
+    var formattedOpenFrom = dayjs(openFromDate).format('HH:mm');
+    var formattedOpenTill = dayjs(openTillDate).format('HH:mm');
     return '<tr' + cls + '><th>' + dayName + '</th>' +
            '<td>' + formattedOpenFrom + ' - ' + formattedOpenTill + ' Uhr</td></tr>';
 }
@@ -90,8 +93,8 @@ function getTableRowForDay(openingRange, dayIsToday) {
  */
 function getNextMarketDateHtml(nextChange) {
     var html = '<p class="times">Nächster Termin: ' +
-        moment(nextChange).format('DD. MMM') + ' ab ' +
-        moment(nextChange).format('HH:mm') + ' Uhr.</p>';
+        dayjs(nextChange).format('DD. MMM') + ' ab ' +
+        dayjs(nextChange).format('HH:mm') + ' Uhr.</p>';
     return html;
 }
 
@@ -164,8 +167,7 @@ function openingRangeMatchesDay(openingRange, date) {
  * Returns true if opening range contains the time of the given date; otherwise false.
  */
 function openingRangeContainsTime(openingRange, date) {
-    var range = moment.range(openingRange[0], openingRange[1]);
-    return range.contains(date);
+    return dayjs(date).isBetween(openingRange[0], openingRange[1]);
 }
 
 /*
@@ -174,8 +176,8 @@ function openingRangeContainsTime(openingRange, date) {
  * Returns null if no next opening date or ranges are available.
  */
 function getOpeningTimes(openingHoursStrings) {
-    var monday = moment().startOf("isoweek").toDate();
-    var sunday = moment().endOf("isoweek").toDate();
+    var monday = dayjs().startOf("isoweek").toDate();
+    var sunday = dayjs().endOf("isoweek").toDate();
     var options = {
         "address" : {
             "country_code" : "de"
@@ -443,7 +445,7 @@ function sanitizeCityID(cityID) {
   var validCityRegexp = '^[\-a-z0-9_\u00e4\u00f6\u00fc]{1,40}$';
   var regexp = new RegExp(validCityRegexp, 'i');
   if (!regexp.test(cityID)) {
-    console.error('Invalid cityID "' + cityID + '". Loading  "' + 
+    console.error('Invalid cityID "' + cityID + '". Loading  "' +
                   DEFAULT_CITY_ID + '" instead.');
     return DEFAULT_CITY_ID;
   }
