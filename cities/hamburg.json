@@ -1160,7 +1160,8 @@
             "properties" : {
                 "opening_hours" : "Sa 08:00-16:00",
                 "title" : "Flohschanze",
-                "location" : "Neuer Kamp 30"
+                "location" : "Neuer Kamp 30",
+                "details_url" : "https://www.hamburg.de/flohmarkt/4245446/flohschanze/"
             },
             "type" : "Feature",
             "geometry" : {
@@ -1175,7 +1176,8 @@
             "properties" : {
                 "opening_hours" : "We 09:00-15:00; Sa 07:00-15:00",
                 "title" : "Flea Dome Bahrenfelder Trabrennbahn",
-                "location" : "Bahrenfelder Trabrennbahn"
+                "location" : "Bahrenfelder Trabrennbahn",
+                "details_url" : "https://www.hamburg.de/flohmarkt/4245510/flohdom-bahrenfelder-trabrennbahn/"
             },
             "type" : "Feature",
             "geometry" : {

@@ -146,6 +146,13 @@ html, body {
     margin: 0;
 }
 
+.leaflet-popup-content a {
+    /* display: block along with line-height is use to make the 
+    clickable/touchable area bigger. This provides a better experience on touch interfaces */
+    display: block;
+    line-height: 2em;
+}
+
 .leaflet-popup-content p.unclassified {
     margin-top: 0.5em;
     font-style: italic;

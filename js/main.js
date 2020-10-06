@@ -264,6 +264,10 @@ function initMarker(feature) {
     } else {
         where = '';
     }
+
+    var additionalInformationLink = properties.details_url ?
+        '<span><a href='+properties.details_url+'> weitere Informationen </a></span>' : '';
+
     var title = properties.title;
     if (title === undefined) {
         throw "Missing property 'title'.";
@@ -271,7 +275,7 @@ function initMarker(feature) {
     if (title === null || title.length === 0) {
         title = DEFAULT_MARKET_TITLE;
     }
-    var popupHtml = '<h1>' + title + '</h1>' + where;
+    var popupHtml = '<h1>' + title + '</h1>' + where + additionalInformationLink;
     if (openingHoursUnclassified !== undefined) {
         popupHtml += '<p class="unclassified">' + openingHoursUnclassified + '</p>';
     } else {
