@@ -3,6 +3,23 @@
  * See the file LICENSE for details.
  */
 
+// import for bundle.css
+require('../css/main.css');
+
+const $ = require('jquery');
+require('select2')($);
+
+const dayjs = require('dayjs');
+const isBetween = require('dayjs/plugin/isBetween');
+const isoWeek = require('dayjs/plugin/isoWeek');
+
+require('leaflet');
+require('leaflet.locatecontrol');
+require('leaflet.awesome-markers');
+
+const opening_hours = require('opening_hours');
+require('i18next-client');
+
 var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
 var ATTRIBUTION = '<a id="daten" href="info.html">Über Wo ist Markt?</a> | ' +
                   '<a id="impressum" href="impressum-datenschutz.html">Impressum &amp; Datenschutz</a> | ' +
@@ -34,8 +51,8 @@ var todayIcon = L.AwesomeMarkers.icon({markerColor: 'darkgreen', icon: 'basket'}
 var otherIcon = L.AwesomeMarkers.icon({markerColor: 'cadetblue', icon: 'basket'});
 var unclassifiedIcon = L.AwesomeMarkers.icon({markerColor: 'darkpurple', icon: 'basket'});
 
-dayjs.extend(dayjs_plugin_isBetween);
-dayjs.extend(dayjs_plugin_isoWeek);
+dayjs.extend(isBetween);
+dayjs.extend(isoWeek);
 
 /*
  * Return 0-padded string of a number.

@@ -8,3 +8,5 @@ npm-debug.log
 # VIM
 *.un~
 
+public
+fonts

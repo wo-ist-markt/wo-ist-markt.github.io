@@ -16,6 +16,7 @@ script:
   - shellcheck *.sh
   - npm test
   - pylint *.py
+  - npm build
 
 after_success:
   - bash deploy.sh

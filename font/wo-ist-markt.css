@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'wo-ist-markt';
-  src: url('../font/wo-ist-markt.eot?25033009');
-  src: url('../font/wo-ist-markt.eot?25033009#iefix') format('embedded-opentype'),
-       url('../font/wo-ist-markt.woff2?25033009') format('woff2'),
-       url('../font/wo-ist-markt.woff?25033009') format('woff'),
-       url('../font/wo-ist-markt.ttf?25033009') format('truetype'),
-       url('../font/wo-ist-markt.svg?25033009#wo-ist-markt') format('svg');
+  src: url('./wo-ist-markt.eot?25033009');
+  src: url('./wo-ist-markt.eot?25033009#iefix') format('embedded-opentype'),
+       url('./wo-ist-markt.woff2?25033009') format('woff2'),
+       url('./wo-ist-markt.woff?25033009') format('woff'),
+       url('./wo-ist-markt.ttf?25033009') format('truetype'),
+       url('./wo-ist-markt.svg?25033009#wo-ist-markt') format('svg');
   font-weight: normal;
   font-style: normal;
 }
