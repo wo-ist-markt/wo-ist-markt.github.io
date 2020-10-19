@@ -1,20 +1,39 @@
 {
   "name": "wo-ist-markt",
   "version": "0.0.1",
+  "dependencies": {
+    "dayjs": "^1.9.3",
+    "font-awesome": "^4.3.0",
+    "i18next-client": "^1.11.4",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.7.1",
+    "leaflet.awesome-markers": "^2.0.5",
+    "leaflet.locatecontrol": "^0.72.0",
+    "moment": "^2.29.1",
+    "normalize.css": "^8.0.1",
+    "opening_hours": "^3.5.0",
+    "select2": "^4.0.13"
+  },
   "devDependencies": {
-    "colors": "~1.3.3",
-    "country-language": "^0.1.7",
-    "dayjs": "^1.9.1",
-    "i18next-client": "^1.11.5",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "colors": "^1.4.0",
     "jasmine": "^3.0.0",
     "jshint": "~2.11.0",
-    "opening_hours": "~3.5.0"
+    "rollup": "^2.30.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-css-bundle": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wo-ist-markt/wo-ist-markt.github.io"
   },
- "scripts": {
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
