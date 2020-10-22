@@ -8,13 +8,13 @@
     "i18next-client": "^1.11.5",
     "jasmine": "^3.0.0",
     "jshint": "~2.11.0",
-    "opening_hours": "~3.5.0"
+    "simple-opening-hours": "^0.1.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wo-ist-markt/wo-ist-markt.github.io"
   },
- "scripts": {
+  "scripts": {
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
