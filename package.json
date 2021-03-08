@@ -8,7 +8,7 @@
     "i18next-client": "^1.11.5",
     "jasmine": "^3.0.0",
     "jshint": "~2.11.0",
-    "opening_hours": "~3.5.0"
+    "opening_hours": "^3.5.0"
   },
   "repository": {
     "type": "git",
