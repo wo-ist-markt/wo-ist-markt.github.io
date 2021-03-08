@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/wo-ist-markt/wo-ist-markt.github.io"
   },
- "scripts": {
+  "scripts": {
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
