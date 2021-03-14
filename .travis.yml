@@ -4,7 +4,7 @@ env:
   - TRAVIS_NODE_VERSION="14"
 
 python:
-    - '2.7'
+    - '3.9'
 
 install:
   - pip install -r requirements.txt
