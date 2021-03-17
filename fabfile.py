@@ -10,12 +10,12 @@
  """
 from fabric import task
 
-BASE_PATH = '/home/deploy/versions'
+BASE_PATH = "/home/deploy/versions"
 
 
 @task
 def deploy(c):
-    current_revision = c.local('git rev-parse HEAD', warn=True).stdout.strip()
+    current_revision = c.local("git rev-parse HEAD", warn=True).stdout.strip()
     create_artifact(c, current_revision)
     upload_artifact(c, current_revision)
     make_active(c, current_revision)
@@ -23,36 +23,34 @@ def deploy(c):
 
 def create_artifact(c, current_revision):
     """ compress all files into a .tar.gz archive for uploading """
-    archive_path = '/tmp/{revision}.tar.gz'.format(revision=current_revision)
-    c.local('tar -czf {archive_path} --exclude=.git *'.format(archive_path=archive_path))
+    archive_path = f"/tmp/{current_revision}.tar.gz"
+    c.local(f"tar -czf {archive_path} --exclude=.git *")
 
 
 def upload_artifact(c, revision):
     """ upload the archive to the server and extract it """
     # we upload the file from the local /tmp to the remote /tmp dir
-    tmp_path = '/tmp/{revision}.tar.gz'.format(revision=revision)
+    tmp_path = f"/tmp/{revision}.tar.gz"
     c.put(tmp_path, tmp_path)
 
-    destination_path = '{base}/{revision}'.format(base=BASE_PATH,
-                                                  revision=revision)
+    destination_path = f"{BASE_PATH}/{revision}"
     untar(c, tmp_path, destination_path)
 
     # remove both local and remote archives
-    c.run('rm {}'.format(tmp_path))
-    c.local('rm {}'.format(tmp_path))
+    c.run(f"rm {tmp_path}")
+    c.local(f"rm {tmp_path}")
 
 
 def untar(c, source_path, destination_path):
-    c.run('mkdir -p %s' % destination_path)
-    c.run('tar xfz %s -C %s' % (source_path, destination_path))
+    c.run(f"mkdir -p {destination_path}")
+    c.run(f"tar xfz {source_path} -C {destination_path}")
 
 
 def make_active(c, revision):
     """ change the `newest` symlink to point to this revision """
-    c.run('ln -sfn {base}/{revision}/ {base}/newest'.format(base=BASE_PATH,
-                                                            revision=revision))
+    c.run(f"ln -sfn {BASE_PATH}/{revision}/ {BASE_PATH}/newest")
 
 
 @task
 def list_versions(c):
-    c.run('ls -l {base}'.format(base=BASE_PATH))
+    c.run(f"ls -l {BASE_PATH}")
