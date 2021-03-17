@@ -695,7 +695,7 @@ function HttpRedirectStatusIssue(cityName, statusCode, location) {
     this.location = location;
 
     this.toString = function() {
-        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n New location: " + this.location;
+        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n     --> New location: " + this.location;
     };
 }
 
