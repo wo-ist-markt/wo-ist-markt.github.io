@@ -1,3 +1,5 @@
+# pylint: disable=invalid-name
+
 """ [fabric](fabfile.org) script for deploying the app to a server
 
     This script can be used to deploy the app.
@@ -15,6 +17,7 @@ BASE_PATH = "/home/deploy/versions"
 
 @task
 def deploy(c):
+    """ runs all steps of the deployment """
     current_revision = c.local("git rev-parse HEAD", warn=True).stdout.strip()
     create_artifact(c, current_revision)
     upload_artifact(c, current_revision)
@@ -42,6 +45,7 @@ def upload_artifact(c, revision):
 
 
 def untar(c, source_path, destination_path):
+    """ unpacks the archive from the source path into the destination dir """
     c.run(f"mkdir -p {destination_path}")
     c.run(f"tar xfz {source_path} -C {destination_path}")
 
@@ -53,4 +57,5 @@ def make_active(c, revision):
 
 @task
 def list_versions(c):
+    """ outputs a list of published versions found in the base path """
     c.run(f"ls -l {BASE_PATH}")
