@@ -14,6 +14,7 @@ install:
 
 script:
   - npm test
+  - pylint *.py
 
 after_success:
   - bash deploy.sh
