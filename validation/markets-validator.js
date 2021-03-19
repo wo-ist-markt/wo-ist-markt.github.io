@@ -41,7 +41,8 @@ colors.setTheme({
     market: 'brightBlue',
     passed: 'green',
     error: 'red',
-    info: 'grey'
+    info: 'grey',
+    warning: 'yellow'
 });
 
 /**
@@ -106,21 +107,53 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
 process.on('beforeExit', function () {
     console.log("\n");
     asyncWarnings.forEach(function (warning) {
-        console.log('Warning: %s', warning.toString());
+        console.log("Warning: ".warning + getFormattedText(warning.toString()));
     });
 
     console.log("\n");
     asyncExpiredCertificateIssues.forEach(function (issue) {
-        console.log("Info: ".info + issue.toString());
+        console.log("Info: ".info + getFormattedText(issue.toString()));
     });
 
     console.log("\n");
     asyncErrors.forEach(function (error) {
-        console.log('Error: %s', error.toString());
+        console.log("Error: ".error + error.toString());
     });
 
     process.exitCode = exitCode;
 });
+
+/**
+  * Returns the given issue or warning text formatted with colors.
+  * Text parts such as the market name, the status code and the new location URL are emphasized.
+  *
+  * - text Issue or warning text delimited by colons and line breaks.
+  */
+function getFormattedText(text) {
+    var formattedText = "";
+    var parts = text.split(":");
+    if (parts.length < 2) {
+        return text;
+    }
+    formattedText += parts[0].market + ":";
+    formattedText += parts[1];
+    if (parts.length == 3) {
+        formattedText += ":" + parts[2].error;
+    }
+    if (parts.length > 3 && parts[2].includes("\n")) {
+        var linebreakPart = parts[2].split("\n");
+        formattedText += ":" + linebreakPart[0].error + "\n";
+        formattedText += linebreakPart[1];
+        for (var i = 3; i < parts.length; i++) {
+            formattedText += ":" + parts[i].warning;
+        }
+    } else if (parts.length > 3) {
+        for (var j = 3; j < parts.length; j++) {
+            formattedText += ":" + parts[j].warning;
+        }
+    }
+    return formattedText;
+}
 
 /**
  * Validator for a market file.
