@@ -30,6 +30,14 @@ var MIN_LATITUDE = -90.0;
 var MAX_LONGITUDE = 180.0;
 var MIN_LONGITUDE = -180.0;
 
+/**
+ * In an optimal world there should be zero warnings.
+ * Some websites however simply behave strange and it
+ * is impossible for us to resolve the issue.
+ * The aim is to keep this count as low as possible.
+ */
+var ACCEPTABLE_WARNINGS_COUNT = 4;
+
 var exitCode = 0;
 
 var asyncWarnings = [];
@@ -120,6 +128,12 @@ process.on('beforeExit', function () {
         console.log("Error: ".error + error.toString());
     });
 
+    var warningsCount = asyncWarnings.length;
+    if (warningsCount > ACCEPTABLE_WARNINGS_COUNT) {
+        printSupportRequest(warningsCount);
+        exitCode = 1;
+    }
+
     process.exitCode = exitCode;
 });
 
@@ -153,6 +167,20 @@ function getFormattedText(text) {
         }
     }
     return formattedText;
+}
+
+/**
+ * Outputs a message to the console in order to engage the developer to fix issues.
+ *
+ * - warningsCount Number of warnings detected
+ */
+function printSupportRequest(warningsCount) {
+    console.log("--------------------------------------------------------------------------------------------------");
+    console.log("YOUR HELP IS NEEDED. PLEASE SUPPORT THIS PROJECT.\n".warning);
+    console.log(warningsCount + " warnings have been detected. These exceed the acceptable number of " + ACCEPTABLE_WARNINGS_COUNT + ".");
+    console.log("Please take the time to fix some of the issues even if they are not related to your pull request.");
+    console.log("Please add the fix in a separate commit.");
+    console.log("--------------------------------------------------------------------------------------------------\n");
 }
 
 /**
