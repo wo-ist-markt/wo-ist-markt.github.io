@@ -38,7 +38,7 @@ var asyncErrors = [];
 
 colors.setTheme({
     section: 'blue',
-    market: 'yellow',
+    market: 'brightBlue',
     passed: 'green',
     error: 'red',
     info: 'grey'
@@ -59,10 +59,10 @@ fs.readFile(MARKETS_INDEX_FILE_PATH, function(err, data){
         var json = JSON.parse(data);
         Object.getOwnPropertyNames(json).forEach(function(key) {
             if (key == json[key].id){
-                console.log("Key of ".passed + key.section + " matches id.".passed);
+                console.log("Key of ".passed + key.market + " matches id.".passed);
             }
             else {
-                console.error("Key of ".error + key.section + " does not match id.".error);
+                console.error("Key of ".error + key.market + " does not match id.".error);
                 errorsCount +=1;
             }
 
