@@ -33,13 +33,15 @@ var MIN_LONGITUDE = -180.0;
 var exitCode = 0;
 
 var asyncWarnings = [];
+var asyncExpiredCertificateIssues = [];
 var asyncErrors = [];
 
 colors.setTheme({
     section: 'blue',
     market: 'yellow',
     passed: 'green',
-    error: 'red'
+    error: 'red',
+    info: 'grey'
 });
 
 /**
@@ -102,10 +104,17 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
 });
 
 process.on('beforeExit', function () {
+    console.log("\n");
     asyncWarnings.forEach(function (warning) {
         console.log('Warning: %s', warning.toString());
     });
 
+    console.log("\n");
+    asyncExpiredCertificateIssues.forEach(function (issue) {
+        console.log("Info: ".info + issue.toString());
+    });
+
+    console.log("\n");
     asyncErrors.forEach(function (error) {
         console.log('Error: %s', error.toString());
     });
@@ -547,7 +556,11 @@ function MetadataValidator(metadata, cityName) {
             response.on('end', function() {});
         });
         request.on('error', function(error) {
-            asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+            if (error == "Error: certificate has expired") {
+                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
+            } else {
+                asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+            }
         });
         request.end();
     };
@@ -696,6 +709,15 @@ function HttpRedirectStatusIssue(cityName, statusCode, location) {
 
     this.toString = function() {
         return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n     --> New location: " + this.location;
+    };
+}
+
+function ExpiredCertificateIssue(cityName, error) {
+
+    this.cityName = cityName;
+
+    this.toString = function() {
+        return this.cityName + ": Cerficate has expired for data source url.";
     };
 }
 
