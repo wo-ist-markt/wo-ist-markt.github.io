@@ -13,14 +13,17 @@
  */
 
 
+var assert = require('assert');
 var fs = require('fs');
 var path = require("path");
 var colors = require('colors');
 var opening_hours = require('opening_hours');
-var urlparse = require('url').parse;
 var http = require('http');
 var https = require('https');
+var pkg = require('../package.json');
 
+var REPO_URL = pkg.repository.url;
+assert.ok(REPO_URL, 'missing/invalid repo URL in package.json');
 
 var MARKETS_DIR_PATH = "cities";
 var MARKETS_INDEX_FILE_PATH = path.join('cities', 'cities.json');
@@ -520,9 +523,7 @@ function MetadataValidator(metadata, cityName) {
     };
 
     this.validateUrlStatus = function(url) {
-        url = urlparse(url);
-        url.method = 'HEAD';
-        url.timeout = 10000; // 10 seconds
+        url = new URL(url);
 
         var request;
         switch(url.protocol) {
@@ -533,7 +534,10 @@ function MetadataValidator(metadata, cityName) {
                 return;
         }
 
-        request = request.request(url, function(response) {
+        request = request.request(url, {
+            method: 'HEAD',
+            timeout: 10000, // 10 seconds
+        }, function(response) {
             if (response.statusCode >= 300 && response.statusCode < 400) {
                 asyncWarnings.push(new HttpRedirectStatusIssue(cityName, response.statusCode, response.headers.location));
             } else if (response.statusCode !== 200) {
