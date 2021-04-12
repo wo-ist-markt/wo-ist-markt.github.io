@@ -25,7 +25,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Bretten",
-            "url": "http://www.bretten.de/tourismus-kultur-freizeit/wochenmarkt"
+            "url": "https://www.bretten.de/tourismus-kultur-freizeit/wochenmarkt"
         }
     },
     "type": "FeatureCollection"

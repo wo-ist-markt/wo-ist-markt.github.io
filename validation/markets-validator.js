@@ -13,14 +13,21 @@
  */
 
 
+var assert = require('assert');
 var fs = require('fs');
 var path = require("path");
 var colors = require('colors');
 var opening_hours = require('opening_hours');
-var urlparse = require('url').parse;
 var http = require('http');
 var https = require('https');
+var pkg = require('../package.json');
 
+/** 
+ * The repository URL is used in the user-agent header in the url
+ * status validation (see: MetadataValidator#validateUrlStatus).
+ */
+var REPO_URL = pkg.repository.url;
+assert.ok(REPO_URL, 'missing/invalid repo URL in package.json');
 
 var MARKETS_DIR_PATH = "cities";
 var MARKETS_INDEX_FILE_PATH = path.join('cities', 'cities.json');
@@ -30,16 +37,27 @@ var MIN_LATITUDE = -90.0;
 var MAX_LONGITUDE = 180.0;
 var MIN_LONGITUDE = -180.0;
 
+/**
+ * In an optimal world there should be zero warnings.
+ * Some websites however simply behave strange and it
+ * is impossible for us to resolve the issue.
+ * The aim is to keep this count as low as possible.
+ */
+var ACCEPTABLE_WARNINGS_COUNT = 2;
+
 var exitCode = 0;
 
 var asyncWarnings = [];
+var asyncExpiredCertificateIssues = [];
 var asyncErrors = [];
 
 colors.setTheme({
     section: 'blue',
-    market: 'yellow',
+    market: 'brightBlue',
     passed: 'green',
-    error: 'red'
+    error: 'red',
+    info: 'grey',
+    warning: 'yellow'
 });
 
 /**
@@ -57,10 +75,10 @@ fs.readFile(MARKETS_INDEX_FILE_PATH, function(err, data){
         var json = JSON.parse(data);
         Object.getOwnPropertyNames(json).forEach(function(key) {
             if (key == json[key].id){
-                console.log("Key of ".passed + key.section + " matches id.".passed);
+                console.log("Key of ".passed + key.market + " matches id.".passed);
             }
             else {
-                console.error("Key of ".error + key.section + " does not match id.".error);
+                console.error("Key of ".error + key.market + " does not match id.".error);
                 errorsCount +=1;
             }
 
@@ -102,16 +120,75 @@ fs.readdir(MARKETS_DIR_PATH, function (err, files) {
 });
 
 process.on('beforeExit', function () {
+    console.log("\n");
     asyncWarnings.forEach(function (warning) {
-        console.log('Warning: %s', warning.toString());
+        console.log("Warning: ".warning + getFormattedText(warning.toString()));
     });
 
-    asyncErrors.forEach(function (error) {
-        console.log('Error: %s', error.toString());
+    console.log("\n");
+    asyncExpiredCertificateIssues.forEach(function (issue) {
+        console.log("Info: ".info + getFormattedText(issue.toString()));
     });
+
+    console.log("\n");
+    asyncErrors.forEach(function (error) {
+        console.log("Error: ".error + error.toString());
+    });
+
+    var warningsCount = asyncWarnings.length;
+    if (warningsCount > ACCEPTABLE_WARNINGS_COUNT) {
+        printSupportRequest(warningsCount);
+        exitCode = 1;
+    }
 
     process.exitCode = exitCode;
 });
+
+/**
+  * Returns the given issue or warning text formatted with colors.
+  * Text parts such as the market name, the status code and the new location URL are emphasized.
+  *
+  * - text Issue or warning text delimited by colons and line breaks.
+  */
+function getFormattedText(text) {
+    var formattedText = "";
+    var parts = text.split(":");
+    if (parts.length < 2) {
+        return text;
+    }
+    formattedText += parts[0].market + ":";
+    formattedText += parts[1];
+    if (parts.length == 3) {
+        formattedText += ":" + parts[2].error;
+    }
+    if (parts.length > 3 && parts[2].includes("\n")) {
+        var linebreakPart = parts[2].split("\n");
+        formattedText += ":" + linebreakPart[0].error + "\n";
+        formattedText += linebreakPart[1];
+        for (var i = 3; i < parts.length; i++) {
+            formattedText += ":" + parts[i].warning;
+        }
+    } else if (parts.length > 3) {
+        for (var j = 3; j < parts.length; j++) {
+            formattedText += ":" + parts[j].warning;
+        }
+    }
+    return formattedText;
+}
+
+/**
+ * Outputs a message to the console in order to engage the developer to fix issues.
+ *
+ * - warningsCount Number of warnings detected
+ */
+function printSupportRequest(warningsCount) {
+    console.log("--------------------------------------------------------------------------------------------------");
+    console.log("YOUR HELP IS NEEDED. PLEASE SUPPORT THIS PROJECT.\n".warning);
+    console.log(warningsCount + " warnings have been detected. These exceed the acceptable number of " + ACCEPTABLE_WARNINGS_COUNT + ".");
+    console.log("Please take the time to fix some of the issues even if they are not related to your pull request.");
+    console.log("Please add the fix in a separate commit.");
+    console.log("--------------------------------------------------------------------------------------------------\n");
+}
 
 /**
  * Validator for a market file.
@@ -520,9 +597,7 @@ function MetadataValidator(metadata, cityName) {
     };
 
     this.validateUrlStatus = function(url) {
-        url = urlparse(url);
-        url.method = 'HEAD';
-        url.timeout = 10000; // 10 seconds
+        url = new URL(url);
 
         var request;
         switch(url.protocol) {
@@ -533,7 +608,14 @@ function MetadataValidator(metadata, cityName) {
                 return;
         }
 
-        request = request.request(url, function(response) {
+        request = request.request(url, {
+            method: 'HEAD',
+            timeout: 10000, // 10 seconds
+            headers: {
+                'User-Agent': REPO_URL,
+                'Accept': '*/*',
+            },
+        }, function(response) {
             if (response.statusCode >= 300 && response.statusCode < 400) {
                 asyncWarnings.push(new HttpRedirectStatusIssue(cityName, response.statusCode, response.headers.location));
             } else if (response.statusCode !== 200) {
@@ -541,13 +623,14 @@ function MetadataValidator(metadata, cityName) {
             }
 
             // Cleaning up http request and response
-            // "However, if you add a 'response' event handler, then you
-            //  must consume the data from the response object" NodeJS docs
-            response.on('data', function() {});
-            response.on('end', function() {});
+            response.destroy();
         });
         request.on('error', function(error) {
-            asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+            if (error == "Error: certificate has expired") {
+                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
+            } else {
+                asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+            }
         });
         request.end();
     };
@@ -695,7 +778,16 @@ function HttpRedirectStatusIssue(cityName, statusCode, location) {
     this.location = location;
 
     this.toString = function() {
-        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n New location: " + this.location;
+        return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n     --> New location: " + this.location;
+    };
+}
+
+function ExpiredCertificateIssue(cityName, error) {
+
+    this.cityName = cityName;
+
+    this.toString = function() {
+        return this.cityName + ": Cerficate has expired for data source url.";
     };
 }
 

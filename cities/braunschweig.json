@@ -190,7 +190,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Braunschweig",
-            "url": "http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html"
+            "url": "https://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.php"
         }
     },
     "type": "FeatureCollection"

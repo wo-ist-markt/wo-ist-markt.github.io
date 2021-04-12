@@ -19,7 +19,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Friedrichsdorf",
-            "url": "http://www.friedrichsdorf.de/lebeninfriedrichsdorf/einkaufenunddienstleistung/wochenmarkt.php"
+            "url": "https://www.friedrichsdorf.de/lebeninfriedrichsdorf/einkaufenunddienstleistung/wochenmarkt.php"
         }
     },
     "type": "FeatureCollection"

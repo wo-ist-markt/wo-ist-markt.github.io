@@ -424,7 +424,7 @@
   "metadata": {
     "data_source": {
       "title": "Stuttgarter Wochenmärkte, Koordinaten teilweise OpenStreetMap-Mitwirkende",
-      "url": "http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/"
+      "url": "https://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/"
     }
   },
   "type": "FeatureCollection"
