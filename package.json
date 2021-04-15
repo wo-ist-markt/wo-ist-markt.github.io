@@ -20,7 +20,8 @@
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
     "validate": "node validation/markets-validator.js"
   },
-  "dependencies": {
-    "node": ">=12"
+  "engines": {
+    "node": ">=12",
+    "npm": ">=7"
   }
 }
