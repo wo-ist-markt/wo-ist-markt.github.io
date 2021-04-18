@@ -35,11 +35,7 @@ export default {
       targets: [{
         src: 'node_modules/leaflet.awesome-markers/dist/images/**/*',
         dest: 'public/images/'
-      }, 
-      {
-        src: 'node_modules/font-awesome/**/*.{woff,woff2,ttf}',
-        dest: 'fonts'
-      }, 
+      },
       {
         src: 'font/**/*.{woff,woff2,ttf}',
         dest: 'public'

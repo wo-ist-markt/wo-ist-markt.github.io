@@ -1,6 +1,5 @@
 @import '../node_modules/normalize.css/normalize.css';
 @import '../node_modules/select2/dist/css/select2.min.css';
-@import '../node_modules/font-awesome/css/font-awesome.css';
 @import '../node_modules/leaflet/dist/leaflet.css';
 @import '../node_modules/leaflet.locatecontrol/dist/L.Control.Locate.css';
 @import '../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
@@ -112,12 +111,28 @@ html, body {
     top: -0.1em;
     outline: none;
     margin: 0 0 0 0.5em;
+    cursor: pointer;
 
     /* The styling matches that of the select2 dropdown box */
     background: none;
-    border: 1px solid #aaa;
+    border: 2px solid #aaa;
     border-radius: 4px;
     padding: 0.2em 0.5em;
+}
+
+#btnToggleHeader:hover {
+    background-color: #f4f4f4;
+}
+
+#btnToggleHeader::before {
+    display: inline-block;
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' focusable='false' width='1em' height='1em' style='-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);' preserveAspectRatio='xMidYMid meet' viewBox='0 0 15 15'%3E%3Cg fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.5 3a.5.5 0 0 0 0 1h12a.5.5 0 0 0 0-1h-12zM1 7.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5z' fill='%23626262'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 1px;
 }
 
 #details {
@@ -130,6 +145,19 @@ html, body {
 #details p {
     margin: 1em 0 0 0;
 }
+
+/*** MAP LOCATE ***/
+
+.icon.locate::before {
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' focusable='false' width='0.67em' height='1em' style='-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);' preserveAspectRatio='xMidYMid meet' viewBox='0 0 1024 1536'%3E%3Cpath d='M768 512q0-106-75-181t-181-75t-181 75t-75 181t75 181t181 75t181-75t75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19t-67.5-19t-46.5-52L33 691Q0 621 0 512q0-212 150-362T512 0t362 150t150 362z' fill='%23626262'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*** MAP ATTRIBUTION ***/
 
@@ -172,7 +200,7 @@ html, body {
 .awesome-marker i {
     font-size: 16px;
     margin-top: 6px;
-	margin-left: -1px;
+    margin-left: -1px;
 }
 
 table.times, p.times {
