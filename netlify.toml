@@ -1,0 +1,7 @@
+[build]
+publish = "/"
+command = "npm run build"
+
+[build.environment]
+  PYTHON_VERSION = "3.7"
+  NODE_VERSION = "14"
