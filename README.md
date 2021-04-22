@@ -166,6 +166,7 @@ Tests can be run using [npm][npm]:
 
     $ npm test     # Whenever you want to run the tests
 
+Please see also [CONTRIBUTING.md](./CONTRIBUTING.md#how-to-run-this-project-locally) on how to start development.
 
 ## Deployment
 
