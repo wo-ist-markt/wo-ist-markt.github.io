@@ -105,11 +105,22 @@ This section describes the file format which is used to store the market data fo
 
 ## How to run this project locally
 
-To run this project locally, launch an HTTP server in the project directory  
-For example:
+To run the website locally during development we first need to build the dependencies:
 
-``` bash
-$ python3 -m http.server
+```sh
+npm run build
+```
+
+or start a continuous build (useful during development):
+
+```sh
+npm run watch
+```
+
+and at the same time start a static webserver e.g.
+
+```sh
+python3 -m http.server
 ```
 
 Then you can see the website on [`http://localhost:8000`](http://localhost:8000)

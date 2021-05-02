@@ -1,6 +1,16 @@
+@import '../node_modules/normalize.css/normalize.css';
+@import '../node_modules/select2/dist/css/select2.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.css';
+@import '../node_modules/leaflet/dist/leaflet.css';
+@import '../node_modules/leaflet.locatecontrol/dist/L.Control.Locate.css';
+@import '../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
+
+@import '../font/wo-ist-markt.css';
+
 /*** BORDER BOX SIZING ***/
 
 html {
+  font-family: sans-serif;
   box-sizing: border-box;
   color: #555;
 }
