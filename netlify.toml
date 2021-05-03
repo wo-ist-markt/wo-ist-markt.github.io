@@ -4,5 +4,3 @@ command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "14"
-  # Only needed for Netlify to successfully build because it's automatically picking up the requirements.txt file.
-  PYTHON_VERSION = "3.7"

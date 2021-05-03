@@ -168,19 +168,13 @@ Tests can be run using [npm][npm]:
 
 Please see also [CONTRIBUTING.md](./CONTRIBUTING.md#how-to-run-this-project-locally) on how to start development.
 
+
 ## Deployment
 
-When new code is pushed to master Travis CI runs a test suite against it. If those test
-pass [fabric][fabric] is used to deploy the new version to the server running
-under https://wo-ist-markt.de.
+This website is hosted on [Netlify](https://netlify.com).
 
-The command that Travis CI executes is `fab deploy -i markt_deploy_id_rsa -H deploy@kiesinger.okfn.de:2207`
-where `markt_deploy_id_rsa` is an ssh key to log into the server. It is commited to this repository in
-a encrypted format that Travis CI decrypts in the `before_install` section.
-
-You can run the deployment locally if your ssh key is added to the `deploy` user on the server. Since
-Travis CI does it automatically there should be no need to do this though.
-The command to deploy manually is: `fab deploy -H deploy@kiesinger.okfn.de:2207`.
+When a commit is added to the `master` branch then Netlify automatically publishes this
+state as the new version of the website available under [https://wo-ist-markt.de](https://wo-ist-markt.de).
 
 
 
