@@ -43,7 +43,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 2;
+var ACCEPTABLE_WARNINGS_COUNT = 1;
 
 var exitCode = 0;
 
@@ -612,6 +612,7 @@ function MetadataValidator(metadata, cityName) {
             method: 'HEAD',
             timeout: 10000, // 10 seconds
             headers: {
+                'Cookie': 'mobile=0', // for Zwickau
                 'User-Agent': REPO_URL,
                 'Accept': '*/*',
             },
