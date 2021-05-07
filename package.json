@@ -2,7 +2,7 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "dependencies": {
-    "dayjs": "^1.9.3",
+    "dayjs": "^1.10.4",
     "font-awesome": "^4.7.0",
     "i18next-client": "^1.11.4",
     "jquery": "^3.6.0",
