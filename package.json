@@ -11,7 +11,7 @@
     "leaflet.locatecontrol": "^0.73.0",
     "moment": "^2.29.1",
     "normalize.css": "^8.0.1",
-    "opening_hours": "^3.5.0",
+    "opening_hours": "^3.6.0",
     "select2": "^4.0.13"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "i18next-client": "^1.11.5",
     "jasmine": "^3.7.0",
     "jshint": "^2.12.0",
-    "opening_hours": "^3.5.0",
+    "opening_hours": "^3.6.0",
     "postcss": "^8.2.10",
     "postcss-import": "^14.0.1",
     "rollup": "^2.45.2",
