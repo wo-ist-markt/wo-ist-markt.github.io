@@ -2,7 +2,7 @@
   "name": "wo-ist-markt",
   "version": "0.0.1",
   "dependencies": {
-    "dayjs": "^1.10.4",
+    "dayjs": "^1.10.5",
     "font-awesome": "^4.7.0",
     "i18next-client": "^1.11.4",
     "jquery": "^3.6.0",
@@ -19,7 +19,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "colors": "^1.4.0",
-    "dayjs": "^1.10.4",
+    "dayjs": "^1.10.5",
     "i18next-client": "^1.11.5",
     "jasmine": "^3.7.0",
     "jshint": "^2.12.0",
