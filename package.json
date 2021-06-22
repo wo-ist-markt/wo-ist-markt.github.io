@@ -4,7 +4,7 @@
   "dependencies": {
     "dayjs": "^1.10.5",
     "font-awesome": "^4.7.0",
-    "i18next-client": "^1.11.4",
+    "i18next-client": "^1.11.5",
     "jquery": "^3.6.0",
     "leaflet": "^1.7.1",
     "leaflet.awesome-markers": "^2.0.5",
