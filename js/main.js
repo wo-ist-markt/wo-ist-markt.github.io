@@ -543,7 +543,11 @@ $(window).on('hashchange',function() {
 
 
 $(document).ready(function() {
-    map = new L.map('map', { attributionControl: false });
+    // Set `tap` to `false` to work around an issue in leaflet 1.7.1
+    // that prevents marker popups from opening in Safari.
+    // See this Github issue for details:
+    // https://github.com/Leaflet/Leaflet/issues/7255
+    map = new L.map('map', { attributionControl: false, tap: false });
     L.control.attribution( { prefix: '' } ).addTo(map);
     L.tileLayer(TILES_URL, { attribution: ATTRIBUTION }).addTo(map);
 
