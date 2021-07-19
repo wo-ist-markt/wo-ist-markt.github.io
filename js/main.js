@@ -555,7 +555,10 @@ $(document).ready(function() {
     $("input[name=display]").change(updateLayers);
 
     // add locator
-    L.control.locate({keepCurrentZoomLevel: true}).addTo(map);
+    L.control.locate({
+        keepCurrentZoomLevel: true,
+        icon: 'icon locate'
+    }).addTo(map);
 
     // Populate dropdown
     loadCities().fail(function(e) {
