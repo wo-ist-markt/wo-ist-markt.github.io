@@ -99,8 +99,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.14119,
-                    52.41207
+                    13.14129,
+                    52.41211
                 ]
             },
             "properties": {
@@ -120,8 +120,8 @@
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4120708",
-                    "_wgs84_lon": "13.1411862"
+                    "_wgs84_lat": "52.4121067",
+                    "_wgs84_lon": "13.1412936"
                 }
             }
         },
@@ -130,7 +130,565 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.26428,
+                    13.24465,
+                    53.13631
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Fürstenberg an der Havel",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/349",
+                "description": "01.-03.10.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/349\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/349",
+                "data": {
+                    "id": "349",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Fürstenberg an der Havel",
+                    "strasse": "Markt",
+                    "plz": "16798",
+                    "tage": "01.-03.10.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "53.1363131",
+                    "_wgs84_lon": "13.2446475"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.24465,
+                    53.13631
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Fürstenberg an der Havel",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/334",
+                "description": "06.-08.08.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/334\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/334",
+                "data": {
+                    "id": "334",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Fürstenberg an der Havel",
+                    "strasse": "Markt",
+                    "plz": "16798",
+                    "tage": "06.-08.08.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "53.1363131",
+                    "_wgs84_lon": "13.2446475"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/364",
+                "description": "16.-18.07.2021<br /><br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/364\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/364",
+                "data": {
+                    "id": "364",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                    "strasse": "Ernst-Thälmann-Str. 30",
+                    "plz": "15370",
+                    "tage": "16.-18.07.2021",
+                    "zeiten": "",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.51666",
+                    "_wgs84_lon": "13.74937"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/346",
+                "description": "24.-26.09.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/346\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/346",
+                "data": {
+                    "id": "346",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                    "strasse": "Ernst-Thälmann-Str. 30",
+                    "plz": "15370",
+                    "tage": "24.-26.09.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.51666",
+                    "_wgs84_lon": "13.74937"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.20521,
+                    52.63774
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Hennigsdorf",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/355",
+                "description": "15.-17.10.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/355\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/355",
+                "data": {
+                    "id": "355",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Hennigsdorf",
+                    "strasse": "Am Bahnhof Hennigsdorf",
+                    "plz": "16761",
+                    "tage": "15.-17.10.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.6377356",
+                    "_wgs84_lon": "13.205213"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.03361,
+                    52.75595
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
+                "description": "29.-31.10.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
+                "data": {
+                    "id": "361",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                    "strasse": "Groß-Ziethener Weg 2",
+                    "plz": "16766",
+                    "tage": "29.-31.10.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.7559489",
+                    "_wgs84_lon": "13.0336135"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.03361,
+                    52.75595
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/337",
+                "description": "13.-15.08.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/337\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/337",
+                "data": {
+                    "id": "337",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                    "strasse": "Groß-Ziethener Weg 2",
+                    "plz": "16766",
+                    "tage": "13.-15.08.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.7559489",
+                    "_wgs84_lon": "13.0336135"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40776,
+                    52.35791
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Mahlow",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/343",
+                "description": "03.-05.09.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/343\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/343",
+                "data": {
+                    "id": "343",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Mahlow",
+                    "strasse": "Festwiese Blankenfelde-Mahlow",
+                    "plz": "15831",
+                    "tage": "03.-05.09.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.357911",
+                    "_wgs84_lon": "13.4077645"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40776,
+                    52.35791
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Mahlower Straße",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/373",
+                "description": "03.-05.09.2021<br /><br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/373\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/373",
+                "data": {
+                    "id": "373",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Mahlower Straße",
+                    "strasse": "Festwiese",
+                    "plz": "15831",
+                    "tage": "03.-05.09.2021",
+                    "zeiten": "",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": "Street Food Festival, Eintritt 1 € ab 12:00",
+                    "_wgs84_lat": "52.357911",
+                    "_wgs84_lon": "13.4077645"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.65631,
+                    52.41545
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Müggelheim",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/340",
+                "description": "20.-22.08.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/340\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/340",
+                "data": {
+                    "id": "340",
+                    "bezirk": "Treptow-Köpenick",
+                    "bezeichnung": "Esskulturmarkt Müggelheim",
+                    "strasse": "Festwiese Müggelheim, Müggelheimer Damm Ecke Ludwigshöheweg",
+                    "plz": "12559",
+                    "tage": "20.-22.08.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.415453",
+                    "_wgs84_lon": "13.656311"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.63777,
+                    52.54686
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Neuenhagen",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/352",
+                "description": "08.-10.10.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00&#10;<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/352\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/352",
+                "data": {
+                    "id": "352",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Neuenhagen",
+                    "strasse": "Rund um den alten Dorfkern",
+                    "plz": "15366",
+                    "tage": "08.-10.10.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00\n",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.5468595",
+                    "_wgs84_lon": "13.6377661"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.23667,
+                    52.75486
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Oranienburg",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/331",
+                "description": "30.07.-01.08.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/331\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/331",
+                "data": {
+                    "id": "331",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Oranienburg",
+                    "strasse": "Schlossplatz 1",
+                    "plz": "16515",
+                    "tage": "30.07.-01.08.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.7548637",
+                    "_wgs84_lon": "13.2366736"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40495,
+                    52.52001
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Prenzlau",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/325",
+                "description": "09.-11.07.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/325\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/325",
+                "data": {
+                    "id": "325",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Prenzlau",
+                    "strasse": "Seeweg",
+                    "plz": "17291",
+                    "tage": "09.-11.07.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.5200066",
+                    "_wgs84_lon": "13.404954"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.41392,
+                    52.29058
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Rangsdorf am See",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
+                "description": "02.-04.07.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
+                "data": {
+                    "id": "322",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Rangsdorf am See",
+                    "strasse": "Am Strand 2",
+                    "plz": "15834",
+                    "tage": "02.-04.07.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.29058",
+                    "_wgs84_lon": "13.41392"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.88133,
+                    52.58326
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Strausberg",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/376",
+                "description": "10.-12.09.2021<br /><br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/376\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/376",
+                "data": {
+                    "id": "376",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Strausberg",
+                    "strasse": "Kulturpark, Wriezener Straße",
+                    "plz": "15344",
+                    "tage": "10.-12.09.2021",
+                    "zeiten": "",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.5832557",
+                    "_wgs84_lon": "13.8813302"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.38455,
+                    52.45467
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Tempelhofer Hafen",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/328",
+                "description": "23.-25.07.2021<br />Fr 12:00 - 22:00&#10;Sa 11:00 - 22:00&#10;So 12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/328\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/328",
+                "data": {
+                    "id": "328",
+                    "bezirk": "Tempelhof-Schöneberg",
+                    "bezeichnung": "Esskulturmarkt Tempelhofer Hafen",
+                    "strasse": "Tempelhofer Damm 227",
+                    "plz": "12099",
+                    "tage": "23.-25.07.2021",
+                    "zeiten": "Fr 12:00 - 22:00\nSa 11:00 - 22:00\nSo 12:00 - 20:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt frei",
+                    "_wgs84_lat": "52.45467",
+                    "_wgs84_lon": "13.38455"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33287,
+                    52.98422
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Zehdenick",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358",
+                "description": "22.-24.10.2021<br />Fr 14:00 - 21:00&#10;Sa 12:00 - 21:00&#10;So 12:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/358",
+                "data": {
+                    "id": "358",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt Zehdenick",
+                    "strasse": "Havelschloss, Schleusenstr. 15B",
+                    "plz": "16792",
+                    "tage": "22.-24.10.2021",
+                    "zeiten": "Fr 14:00 - 21:00\nSa 12:00 - 21:00\nSo 12:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.9842201",
+                    "_wgs84_lon": "13.3328686"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.39215,
+                    52.51366
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt auf dem Marktplatz Beeskow",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319",
+                "description": "25.-27.06.2021<br />Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00 <br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/319",
+                "data": {
+                    "id": "319",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Esskulturmarkt auf dem Marktplatz Beeskow",
+                    "strasse": "Auf dem Marktplatz/Markt 1",
+                    "plz": "15848",
+                    "tage": "25.-27.06.2021",
+                    "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00 ",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": " Street Food Festival, Eintritt 1 €",
+                    "_wgs84_lat": "52.51366",
+                    "_wgs84_lon": "13.39215"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.2643,
                     52.41171
                 ]
             },
@@ -151,8 +709,8 @@
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
                     "bemerkungen": "Ecke Andréezeile",
-                    "_wgs84_lat": "52.41171",
-                    "_wgs84_lon": "13.26428"
+                    "_wgs84_lat": "52.4117129",
+                    "_wgs84_lon": "13.2643044"
                 }
             }
         },
@@ -192,6 +750,37 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.35892,
+                    52.62025
+                ]
+            },
+            "properties": {
+                "title": "Lübarser Landmarkt",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/367",
+                "description": "So<br />11:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/367\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/367",
+                "data": {
+                    "id": "367",
+                    "bezirk": "Reinickendorf",
+                    "bezeichnung": "Lübarser Landmarkt",
+                    "strasse": "Alt-Lübars",
+                    "plz": "13469",
+                    "tage": "So",
+                    "zeiten": "11:00 - 18:00",
+                    "betreiber": "Lübarser Landmarketing- und Dienstleistungsunternehmer UG (haftungsbeschränkt), Zehntwerderweg 90, 13469 Berlin",
+                    "email": "",
+                    "www": "",
+                    "bemerkungen": "Lübarser Platz vor der Dorfkirche/Feuerwehr",
+                    "_wgs84_lat": "52.6202466",
+                    "_wgs84_lon": "13.3589239"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.21667,
                     52.43872
                 ]
@@ -223,8 +812,70 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.43202,
-                    52.50199
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/316",
+                "description": "12.06.2021<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/316\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/316",
+                "data": {
+                    "id": "316",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                    "strasse": "Ernst-Thälmann-Str. 30",
+                    "plz": "15370",
+                    "tage": "12.06.2021",
+                    "zeiten": "10:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": "Eintritt frei, ohne Test-oder Impfnachweis, kleines Rock'n Roll Konzert 12:00-18:00)",
+                    "_wgs84_lat": "52.51666",
+                    "_wgs84_lon": "13.74937"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
+                "description": "05.06.2021<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
+                "data": {
+                    "id": "313",
+                    "bezirk": "Brandenburg",
+                    "bezeichnung": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                    "strasse": "Ernst-Thälmann-Str. 30",
+                    "plz": "15370",
+                    "tage": "05.06.2021",
+                    "zeiten": "10:00 - 18:00",
+                    "betreiber": "Jüttner Entertainment Büro 1 Tel.: 030/66 70 30 01 (Mo - Mi 09:00-16:00), Büro 2 Tel.: 030/66 70 30 02 (Mo-Mi 09:00-16:00), Fax: 030/66 70 30 03, Tel. mobil: 0152/33 90 83 98 (täglich ab 16:00 sowie Fr-So)",
+                    "email": "info@juettner-entertainment.de",
+                    "www": "www.juettner-entertainment.de",
+                    "bemerkungen": "Eintritt frei, ohne Test-oder Impfnachweis, kleines Rock'n Roll Konzert 12:00-18:00)",
+                    "_wgs84_lat": "52.51666",
+                    "_wgs84_lon": "13.74937"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.43194,
+                    52.50202
                 ]
             },
             "properties": {
@@ -244,8 +895,8 @@
                     "email": "mailto:info@markthalleneun.de",
                     "www": "http://www.markthalleneun.de",
                     "bemerkungen": "Street Food Thursday: Do 17:00 - 22:00, Basisangebot Lebensmittel: Di, - Do 12:00 - 18:00, Themenmärkte (Cheese Berlin, Naschmarkt, Berlin Coffee Festival, Brotzeit, Raw Wine, Merry Markthalle, Prosit - der Weinmarkt)",
-                    "_wgs84_lat": "52.5019874",
-                    "_wgs84_lon": "13.432024"
+                    "_wgs84_lat": "52.5020234",
+                    "_wgs84_lon": "13.4319352"
                 }
             }
         },
@@ -525,6 +1176,37 @@
                     "bemerkungen": "Gropiusstadt",
                     "_wgs84_lat": "52.423324",
                     "_wgs84_lon": "13.4753291"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30228,
+                    52.47344
+                ]
+            },
+            "properties": {
+                "title": "Trödelmarkt an der Mecklenburgischen Straße",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/370",
+                "description": "So<br />08:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/370\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/370",
+                "data": {
+                    "id": "370",
+                    "bezirk": "Charlottenburg-Wilmersdorf",
+                    "bezeichnung": "Trödelmarkt an der Mecklenburgischen Straße",
+                    "strasse": "Wiesbadener Str. 53",
+                    "plz": "14197",
+                    "tage": "So",
+                    "zeiten": "08:00 - 16:00",
+                    "betreiber": "Betreiber: Jörg Rau, Tel.: 01573/797 39 26",
+                    "email": "",
+                    "www": "www.der-mecklenburger-troedelmarkt.de",
+                    "bemerkungen": "Ecke Mecklenburgische Straße, Parkplatz Edeka, ab 08.08.2021, außer Volkstrauertag, Totensonntag sowie an verkaufsoffenen Sonntagen",
+                    "_wgs84_lat": "52.4734443",
+                    "_wgs84_lon": "13.3022778"
                 }
             }
         },
@@ -1029,8 +1711,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.526,
-                    52.49554
+                    13.51854,
+                    52.508
                 ]
             },
             "properties": {
@@ -1050,8 +1732,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "http://www.brandenburger-wochenmaerkte.de",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.49554",
-                    "_wgs84_lon": "13.526"
+                    "_wgs84_lat": "52.508",
+                    "_wgs84_lon": "13.51854"
                 }
             }
         },
@@ -1308,8 +1990,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31343,
-                    52.49083
+                    13.3149,
+                    52.49115
                 ]
             },
             "properties": {
@@ -1329,8 +2011,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4908309",
-                    "_wgs84_lon": "13.3134333"
+                    "_wgs84_lat": "52.4911519",
+                    "_wgs84_lon": "13.3148962"
                 }
             }
         },
@@ -1370,8 +2052,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52228,
-                    52.51325
+                    13.52185,
+                    52.51328
                 ]
             },
             "properties": {
@@ -1391,8 +2073,8 @@
                     "email": "mailto:gebrueder.kuehl.gmbh@arcor.de",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5132505",
-                    "_wgs84_lon": "13.522283"
+                    "_wgs84_lat": "52.5132825",
+                    "_wgs84_lon": "13.5218536"
                 }
             }
         },
@@ -1618,8 +2300,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.48408,
-                    52.52633
+                    13.48405,
+                    52.52634
                 ]
             },
             "properties": {
@@ -1639,8 +2321,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5263329",
-                    "_wgs84_lon": "13.4840802"
+                    "_wgs84_lat": "52.5263385",
+                    "_wgs84_lon": "13.4840548"
                 }
             }
         },
@@ -1773,7 +2455,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52866,
+                    13.52867,
                     52.48119
                 ]
             },
@@ -1794,8 +2476,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "http://www.gakenholz-gellesch.de",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4811891",
-                    "_wgs84_lon": "13.528659"
+                    "_wgs84_lat": "52.4811932",
+                    "_wgs84_lon": "13.5286686"
                 }
             }
         },
@@ -1835,8 +2517,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.29048,
-                    52.47695
+                    13.29058,
+                    52.47681
                 ]
             },
             "properties": {
@@ -1856,8 +2538,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4769532",
-                    "_wgs84_lon": "13.2904827"
+                    "_wgs84_lat": "52.4768082",
+                    "_wgs84_lon": "13.2905837"
                 }
             }
         },
@@ -1928,8 +2610,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31202,
-                    52.44286
+                    13.31201,
+                    52.44258
                 ]
             },
             "properties": {
@@ -1949,8 +2631,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4428589",
-                    "_wgs84_lon": "13.3120165"
+                    "_wgs84_lat": "52.4425789",
+                    "_wgs84_lon": "13.3120149"
                 }
             }
         },
@@ -1959,8 +2641,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.59143,
-                    52.48475
+                    13.59142,
+                    52.48478
                 ]
             },
             "properties": {
@@ -1980,8 +2662,8 @@
                     "email": "mailto:lme_berlin@gmx.de",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.484753",
-                    "_wgs84_lon": "13.591428"
+                    "_wgs84_lat": "52.484782",
+                    "_wgs84_lon": "13.5914236"
                 }
             }
         },
@@ -1990,7 +2672,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.38109,
+                    13.38106,
                     52.4436
                 ]
             },
@@ -2011,8 +2693,8 @@
                     "email": "mailto:marktverwaltung@ba-ts.berlin.de",
                     "www": "http://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte",
                     "bemerkungen": "Es werden für den Markt Mariendorfer Damm noch freie Plätze angeboten",
-                    "_wgs84_lat": "52.4436",
-                    "_wgs84_lon": "13.38109"
+                    "_wgs84_lat": "52.4435963",
+                    "_wgs84_lon": "13.3810634"
                 }
             }
         },
@@ -2021,8 +2703,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.41961,
-                    52.54314
+                    13.41965,
+                    52.54313
                 ]
             },
             "properties": {
@@ -2042,8 +2724,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.543144",
-                    "_wgs84_lon": "13.419613"
+                    "_wgs84_lat": "52.5431296",
+                    "_wgs84_lon": "13.4196463"
                 }
             }
         },
@@ -2053,7 +2735,7 @@
                 "type": "Point",
                 "coordinates": [
                     13.42012,
-                    52.60731
+                    52.60728
                 ]
             },
             "properties": {
@@ -2073,8 +2755,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "Buchholz",
-                    "_wgs84_lat": "52.6073116",
-                    "_wgs84_lon": "13.4201239"
+                    "_wgs84_lat": "52.6072823",
+                    "_wgs84_lon": "13.4201151"
                 }
             }
         },
@@ -2197,8 +2879,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.437559",
-                    "_wgs84_lon": "13.2327904"
+                    "_wgs84_lat": "52.4375592",
+                    "_wgs84_lon": "13.232789"
                 }
             }
         },
@@ -2238,8 +2920,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.29989,
-                    52.49695
+                    13.29979,
+                    52.49668
                 ]
             },
             "properties": {
@@ -2259,8 +2941,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "Wegen des Karfreitags wird dieser Markt auf Gründonnerstag vorverlegt",
-                    "_wgs84_lat": "52.4969536",
-                    "_wgs84_lon": "13.299893"
+                    "_wgs84_lat": "52.4966762",
+                    "_wgs84_lon": "13.2997882"
                 }
             }
         },
@@ -2517,8 +3199,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50249,
-                    52.46139
+                    13.50246,
+                    52.46137
                 ]
             },
             "properties": {
@@ -2538,8 +3220,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "http://www.gakenholz-gellesch.e",
                     "bemerkungen": " Ecke Spreestraße",
-                    "_wgs84_lat": "52.46139",
-                    "_wgs84_lon": "13.50249"
+                    "_wgs84_lat": "52.4613703",
+                    "_wgs84_lon": "13.502456"
                 }
             }
         },
@@ -2610,8 +3292,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50249,
-                    52.46139
+                    13.50246,
+                    52.46137
                 ]
             },
             "properties": {
@@ -2631,8 +3313,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "http://www.brandenburger-wochenmaerkte.de",
                     "bemerkungen": " Ecke Spreestraße",
-                    "_wgs84_lat": "52.46139",
-                    "_wgs84_lon": "13.50249"
+                    "_wgs84_lat": "52.4613703",
+                    "_wgs84_lon": "13.502456"
                 }
             }
         },
@@ -2858,8 +3540,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.55901,
-                    52.50632
+                    13.55849,
+                    52.5071
                 ]
             },
             "properties": {
@@ -2879,8 +3561,8 @@
                     "email": "mailto:markt-veranstaltungen@web.de",
                     "www": "http://www.markt-veranstaltungen.de",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5063189",
-                    "_wgs84_lon": "13.5590061"
+                    "_wgs84_lat": "52.5071047",
+                    "_wgs84_lon": "13.5584892"
                 }
             }
         },
@@ -2910,8 +3592,8 @@
                     "email": "mailto:hackescherwochenmarktsamstag@hotmail.de",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5236717",
-                    "_wgs84_lon": "13.4019318"
+                    "_wgs84_lat": "52.5236701",
+                    "_wgs84_lon": "13.4019309"
                 }
             }
         },
@@ -2941,8 +3623,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5236717",
-                    "_wgs84_lon": "13.4019318"
+                    "_wgs84_lat": "52.5236701",
+                    "_wgs84_lon": "13.4019309"
                 }
             }
         },
@@ -3106,8 +3788,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.39078,
-                    52.48846
+                    13.39088,
+                    52.48845
                 ]
             },
             "properties": {
@@ -3127,8 +3809,8 @@
                     "email": "mailto:info@oekomarkt-chamissoplatz.de",
                     "www": "http://www.oekomarkt-chamissoplatz.de",
                     "bemerkungen": "Berlin-Kreuzberg, Nähe Bergmannstraße",
-                    "_wgs84_lat": "52.48846",
-                    "_wgs84_lon": "13.3907799"
+                    "_wgs84_lat": "52.48845",
+                    "_wgs84_lon": "13.3908799"
                 }
             }
         },
