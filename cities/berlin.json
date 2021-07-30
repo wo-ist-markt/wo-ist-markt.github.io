@@ -71,6 +71,312 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                "location": "Ernst-Thälmann-Str. 30, 15370",
+                "opening_hours": null,
+                "opening_hours_unclassified": "05.06.2021 10:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Markt auf dem Gutshof Fredersdorf-Vogelsdorf",
+                "location": "Ernst-Thälmann-Str. 30, 15370",
+                "opening_hours": null,
+                "opening_hours_unclassified": "12.06.2021 10:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                "location": "Ernst-Thälmann-Str. 30, 15370",
+                "opening_hours": null,
+                "opening_hours_unclassified": "24.-26.09.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74937,
+                    52.51666
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Gutshof Fredersdorf-Vogelsdorf",
+                "location": "Ernst-Thälmann-Str. 30, 15370",
+                "opening_hours": null,
+                "opening_hours_unclassified": "16.-18.07.2021",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.39215,
+                    52.51366
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt auf dem Marktplatz Beeskow",
+                "location": "Auf dem Marktplatz/Markt 1, 15848",
+                "opening_hours": null,
+                "opening_hours_unclassified": "25.-27.06.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.41392,
+                    52.29058
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Rangsdorf am See",
+                "location": "Am Strand 2, 15834",
+                "opening_hours": null,
+                "opening_hours_unclassified": "02.-04.07.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40495,
+                    52.52001
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Prenzlau",
+                "location": "Seeweg, 17291",
+                "opening_hours": null,
+                "opening_hours_unclassified": "09.-11.07.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.23667,
+                    52.75486
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Oranienburg",
+                "location": "Schlossplatz 1, 16515",
+                "opening_hours": null,
+                "opening_hours_unclassified": "30.07.-01.08.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.24465,
+                    53.13631
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Fürstenberg an der Havel",
+                "location": "Markt, 16798",
+                "opening_hours": null,
+                "opening_hours_unclassified": "06.-08.08.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.24465,
+                    53.13631
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Fürstenberg an der Havel",
+                "location": "Markt, 16798",
+                "opening_hours": null,
+                "opening_hours_unclassified": "01.-03.10.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.03361,
+                    52.75595
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                "location": "Groß-Ziethener Weg 2, 16766",
+                "opening_hours": null,
+                "opening_hours_unclassified": "13.-15.08.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.03361,
+                    52.75595
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Kremmen auf dem Spargelhof",
+                "location": "Groß-Ziethener Weg 2, 16766",
+                "opening_hours": null,
+                "opening_hours_unclassified": "29.-31.10.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40776,
+                    52.35791
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Mahlow",
+                "location": "Festwiese Blankenfelde-Mahlow, 15831",
+                "opening_hours": null,
+                "opening_hours_unclassified": "03.-05.09.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.40776,
+                    52.35791
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Mahlower Straße",
+                "location": "Festwiese, 15831",
+                "opening_hours": null,
+                "opening_hours_unclassified": "03.-05.09.2021",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.63777,
+                    52.54686
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Neuenhagen",
+                "location": "Rund um den alten Dorfkern, 15366",
+                "opening_hours": null,
+                "opening_hours_unclassified": "08.-10.10.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.20521,
+                    52.63774
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Hennigsdorf",
+                "location": "Am Bahnhof Hennigsdorf, 16761",
+                "opening_hours": null,
+                "opening_hours_unclassified": "15.-17.10.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33287,
+                    52.98422
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Zehdenick",
+                "location": "Havelschloss, Schleusenstr. 15B, 16792",
+                "opening_hours": null,
+                "opening_hours_unclassified": "22.-24.10.2021 Fr 14:00 - 21:00 Sa 12:00 - 21:00 So 12:00 - 18:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.88133,
+                    52.58326
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Strausberg",
+                "location": "Kulturpark, Wriezener Straße, 15344",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.-12.09.2021",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.30586,
                     52.51732
                 ]
@@ -183,8 +489,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.29989,
-                    52.49695
+                    13.29979,
+                    52.49668
                 ]
             },
             "properties": {
@@ -231,8 +537,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31343,
-                    52.49083
+                    13.3149,
+                    52.49115
                 ]
             },
             "properties": {
@@ -247,8 +553,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.29048,
-                    52.47695
+                    13.29058,
+                    52.47681
                 ]
             },
             "properties": {
@@ -256,6 +562,23 @@
                 "location": "Kolberger Platz, 14199",
                 "opening_hours": "We,Sa 06:00-15:00",
                 "opening_hours_unclassified": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30228,
+                    52.47344
+                ]
+            },
+            "properties": {
+                "title": "Trödelmarkt an der Mecklenburgischen Straße",
+                "location": "Wiesbadener Str. 53, 14197",
+                "opening_hours": "Su 08:00-16:00",
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.der-mecklenburger-troedelmarkt.de"
             }
         },
         {
@@ -311,8 +634,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.39078,
-                    52.48846
+                    13.39088,
+                    52.48845
                 ]
             },
             "properties": {
@@ -328,8 +651,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.43202,
-                    52.50199
+                    13.43194,
+                    52.50202
                 ]
             },
             "properties": {
@@ -378,8 +701,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.526,
-                    52.49554
+                    13.51854,
+                    52.508
                 ]
             },
             "properties": {
@@ -395,8 +718,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.48408,
-                    52.52633
+                    13.48405,
+                    52.52634
                 ]
             },
             "properties": {
@@ -428,7 +751,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52866,
+                    13.52867,
                     52.48119
                 ]
             },
@@ -445,8 +768,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52228,
-                    52.51325
+                    13.52185,
+                    52.51328
                 ]
             },
             "properties": {
@@ -510,8 +833,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.59143,
-                    52.48475
+                    13.59142,
+                    52.48478
                 ]
             },
             "properties": {
@@ -576,8 +899,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.55901,
-                    52.50632
+                    13.55849,
+                    52.5071
                 ]
             },
             "properties": {
@@ -1030,7 +1353,7 @@
                 "type": "Point",
                 "coordinates": [
                     13.42012,
-                    52.60731
+                    52.60728
                 ]
             },
             "properties": {
@@ -1094,8 +1417,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.41961,
-                    52.54314
+                    13.41965,
+                    52.54313
                 ]
             },
             "properties": {
@@ -1151,6 +1474,22 @@
                 "title": "Wochenmarkt Caligariplatz",
                 "location": "Caligariplatz, 10119",
                 "opening_hours": "We,Fr 08:00-18:00",
+                "opening_hours_unclassified": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.35892,
+                    52.62025
+                ]
+            },
+            "properties": {
+                "title": "Lübarser Landmarkt",
+                "location": "Alt-Lübars, 13469",
+                "opening_hours": "Su 11:00-18:00",
                 "opening_hours_unclassified": null
             }
         },
@@ -1307,7 +1646,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.26428,
+                    13.2643,
                     52.41171
                 ]
             },
@@ -1324,8 +1663,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.14119,
-                    52.41207
+                    13.14129,
+                    52.41211
                 ]
             },
             "properties": {
@@ -1389,8 +1728,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31202,
-                    52.44286
+                    13.31201,
+                    52.44258
                 ]
             },
             "properties": {
@@ -1471,7 +1810,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.38109,
+                    13.38455,
+                    52.45467
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Tempelhofer Hafen",
+                "location": "Tempelhofer Damm 227, 12099",
+                "opening_hours": null,
+                "opening_hours_unclassified": "23.-25.07.2021 Fr 12:00 - 22:00 Sa 11:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.38106,
                     52.4436
                 ]
             },
@@ -1623,8 +1979,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50249,
-                    52.46139
+                    13.50246,
+                    52.46137
                 ]
             },
             "properties": {
@@ -1640,8 +1996,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50249,
-                    52.46139
+                    13.50246,
+                    52.46137
                 ]
             },
             "properties": {
@@ -1691,6 +2047,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.65631,
+                    52.41545
+                ]
+            },
+            "properties": {
+                "title": "Esskulturmarkt Müggelheim",
+                "location": "Festwiese Müggelheim, Müggelheimer Damm Ecke Ludwigshöheweg, 12559",
+                "opening_hours": null,
+                "opening_hours_unclassified": "20.-22.08.2021 Fr 14:00 - 22:00 Sa 12:00 - 22:00 So 12:00 - 20:00",
+                "details_url": "http://www.juettner-entertainment.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.62481,
                     52.44831
                 ]
@@ -1722,7 +2095,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 17.03.2021",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 29.07.2021",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     }
