@@ -23,7 +23,7 @@
     "opening_hours": "^3.7.0",
     "postcss": "^8.2.10",
     "postcss-import": "^14.0.1",
-    "rollup": "^2.45.2",
+    "rollup": "^2.57.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-bundle": "^1.0.4",
     "rollup-plugin-terser": "^7.0.2"
