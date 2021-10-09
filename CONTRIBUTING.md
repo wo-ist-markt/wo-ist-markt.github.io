@@ -22,7 +22,7 @@ and to **modify two existing** ones (_cities.json_, _README.md_). Here is how yo
 
 1. Add the market data for your _city.json_ as a [GeoJSON][geojson-org] file.
    You might want to use **German spelling** with Umlauts for city names which is supported.
-2. Edit [*cities/cities.json*](cities/cities.json) to add your city to the list of cities.
+2. Edit [*cities/cities.json*](cities/cities.json) to add your city to the list of cities. (If you do not know the position of your city run `npm run positions` after adding your city without `coordinates`.)
 3. Edit the [*README.md*](README.md) to add your city to the list of **supported cities**.
 
 

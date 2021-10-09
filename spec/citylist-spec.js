@@ -25,7 +25,21 @@ describe('CityList', function() {
                 city = cities[key];
                 expect(city.id).toBeDefined('City "' + key + '" requires property "id".');
                 expect(city.label).toBeDefined('City "' + key + '" requires property "label".');
-                expect(Object.keys(city).length <= 2).toBe(true, 'Cities should only have the properties id and label.');
+                expect(Object.keys(city).length <= 3).toBe(true, 'Cities should only have the properties id, label and an optional position.');
+            }
+        });
+
+        it('should contain valid positions', function() {
+            var cities = JSON.parse(fs.readFileSync('cities/cities.json'));
+            for (var city in Object.values(cities)) {
+                if (city.position) {
+                    expect(position).toBeInstanceOf(Array);
+                    expect(position.length).toBe(2);
+                    expect(position[0]).toBeInstanceOf(Number);
+                    expect(position[0]).toBeBetween(-180, 180);
+                    expect(position[1]).toBeInstanceOf(Number);
+                    expect(position[1]).toBeBetween(-180, 180);
+                }
             }
         });
 

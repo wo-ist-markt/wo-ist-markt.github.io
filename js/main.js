@@ -533,6 +533,83 @@ function fixMapHeight() {
     $('#map').outerHeight($(window).height() - $('#header').outerHeight(true));
 }
 
+/* Calculate the distance between two points in km
+ * CC-BY by https://stackoverflow.com/users/635195/derek
+ * https://stackoverflow.com/a/18883819/722162
+ */
+function calcDistance(lat1, lon1, lat2, lon2) {
+    // Converts numeric degrees to radians
+    const toRad = (v) => v * Math.PI / 180;
+    var R = 6371; // km
+    var dLat = toRad(lat2-lat1);
+    var dLon = toRad(lon2-lon1);
+    var rlat1 = toRad(lat1);
+    var rlat2 = toRad(lat2);
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(rlat1) * Math.cos(rlat2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    var d = R * c;
+    return d;
+}
+
+/* Ask the user for it's position;
+ * If no position is available show the default city;
+ * If a position is available search for the nearest city and show it;
+ * If the nearest city is out of rand (maxDistanceInKm) show the default city as a fallback;
+ */
+function showNearestCity(cities, fallBackToDefault = true, maxDistanceInKm = 50) {
+    try {
+        if (!navigator.geolocation) {
+            throw new Error("Geolocation is not supported by this browser.");
+        }
+        navigator.geolocation.getCurrentPosition(
+            (userPosition) => {
+                const cityDistances = Object.values(cities)
+                    .map((city) => {
+                        const cityPosition = city.coordinates;
+                        // add a new distance-field to the city object
+                        city.distanceToUser = cityPosition ? calcDistance(
+                            userPosition.coords.latitude, userPosition.coords.longitude,
+                            cityPosition[0], cityPosition[1]
+                        ) : null;
+                        return city;
+                    })
+                    .filter(city => city.distanceToUser)
+                    .sort((a, b) => {
+                        return a.distanceToUser && b.distanceToUser ? a.distanceToUser - b.distanceToUser : null;
+                    });
+                const nearestCity = cityDistances[0];
+                if (nearestCity && nearestCity.distanceToUser && nearestCity.distanceToUser <= maxDistanceInKm) {
+                    setCity(nearestCity.id, true);
+                } else {
+                    console.warn("No city found within " + maxDistanceInKm + "km.");
+                    if (fallBackToDefault) loadDefaultCity();
+                }
+            },
+            (error) => {
+                try {
+                    switch (error.code) {
+                        case error.PERMISSION_DENIED:
+                            throw new Error("Benutzer lehnte Standortabfrage ab.");
+                        case error.POSITION_UNAVAILABLE:
+                            throw new Error("Standortdaten sind nicht verfügbar.");
+                        case error.TIMEOUT:
+                            throw new Error("Die Standortabfrage dauerte zu lange (Time-out).");
+                        case error.UNKNOWN_ERROR:
+                        default:
+                            throw error;
+                    }
+                } catch (err) {
+                    console.error(`[showNearestCity] ${err}`);
+                    if (fallBackToDefault) loadDefaultCity();
+                }
+            }
+        );
+    } catch (err) {
+        console.error(`[showNearestCity] ${err}`);
+        if (fallBackToDefault) loadDefaultCity();
+    }
+}
+
 $(window).on('resize', fixMapHeight);
 
 
@@ -557,8 +634,17 @@ $(document).ready(function() {
     // add locator
     L.control.locate({
         keepCurrentZoomLevel: true,
-        icon: 'icon locate'
+        icon: 'icon locate',
+        drawCircle: false,
+        drawMarker: false,
     }).addTo(map);
+    // load nearest city if the locator is clicked
+    $('.icon.locate')
+        .closest('a')
+        .click(function(e) {
+            e.preventDefault();
+            showNearestCity(cityDirectory, false);
+        });
 
     // Populate dropdown
     loadCities().fail(function(e) {

@@ -15,11 +15,13 @@
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
+    "axios": "^0.22.0",
     "colors": "^1.4.0",
     "jasmine": "^3.7.0",
     "jshint": "^2.12.0",
     "opening_hours": "^3.7.0",
     "postcss": "^8.3.9",
+    "ora": "^5.4.1",
     "postcss-import": "^14.0.1",
     "rollup": "^2.58.0",
     "rollup-plugin-copy": "^3.4.0",
@@ -36,6 +38,7 @@
     "lint": "jshint js preprocessing validation",
     "jasmine-tests": "jasmine",
     "test": "npm run lint && npm run jasmine-tests && npm run validate",
+    "positions": "node ./preprocessing/addPositionsToCities.js",
     "validate": "node validation/markets-validator.js"
   },
   "engines": {
