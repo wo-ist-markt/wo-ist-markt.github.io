@@ -43,7 +43,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 2;
+var ACCEPTABLE_WARNINGS_COUNT = 1;
 
 var exitCode = 0;
 
@@ -599,16 +599,32 @@ function MetadataValidator(metadata, cityName) {
     this.validateUrlStatus = function(url) {
         url = new URL(url);
 
-        var request;
+        var client;
         switch(url.protocol) {
-            case 'http:': request = http; break;
-            case 'https:': request = https; break;
+            case 'http:': client = http; break;
+            case 'https:': client = https; break;
             default:
                 this.warnings.push(new UnknownProtocolIssue(url.protocol));
                 return;
         }
 
-        request = request.request(url, {
+        function handleResponse(response) {
+            if (response.statusCode >= 300 && response.statusCode < 400) {
+                asyncWarnings.push(new HttpRedirectStatusIssue(cityName, response.statusCode, response.headers.location));
+            } else if (response.statusCode !== 200) {
+                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
+            }
+        }
+
+        function handleError(error) {
+            if (error == "Error: certificate has expired") {
+                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
+            } else {
+                asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
+            }
+        }
+
+        var requestParameters = {
             method: 'HEAD',
             timeout: 10000, // 10 seconds
             headers: {
@@ -616,24 +632,31 @@ function MetadataValidator(metadata, cityName) {
                 'User-Agent': REPO_URL,
                 'Accept': '*/*',
             },
-        }, function(response) {
-            if (response.statusCode >= 300 && response.statusCode < 400) {
-                asyncWarnings.push(new HttpRedirectStatusIssue(cityName, response.statusCode, response.headers.location));
-            } else if (response.statusCode !== 200) {
-                asyncWarnings.push(new HttpResponseStatusIssue(cityName, response.statusCode));
-            }
+        };
 
-            // Cleaning up http request and response
-            response.destroy();
+        function executeRequest(url, requestParameters, fallbackRequest) {
+            var request = client.request(url, requestParameters, function(response) {
+                // Cleaning up HTTP request and response
+                response.destroy();
+        
+                if (response.statusCode !== 200) {
+                    if (fallbackRequest) {
+                        fallbackRequest(url, requestParameters);
+                    } else {
+                        handleResponse(response);
+                    }
+                }
+            });
+            request.on('error', handleError);
+            request.end();
+        }
+
+        executeRequest(url, requestParameters, function() {
+            /* It looks like some server (yes I'm looking at you "Basel") do not allow HEAD request.
+            * So in that case we try a GET instead. See issue#388 for details*/
+            requestParameters.method = 'GET';
+            executeRequest(url, requestParameters);
         });
-        request.on('error', function(error) {
-            if (error == "Error: certificate has expired") {
-                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
-            } else {
-                asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
-            }
-        });
-        request.end();
     };
 
     this.validateMapInitialization = function(mapInitialization) {
