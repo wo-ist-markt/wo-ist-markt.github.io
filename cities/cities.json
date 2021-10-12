@@ -1,314 +1,626 @@
 {
     "bad-homburg": {
         "id": "bad-homburg",
-        "label": "Bad Homburg"
+        "label": "Bad Homburg",
+        "coordinates": [
+            50.229236,
+            8.610486
+        ]
     },
     "baden-baden": {
         "id": "baden-baden",
-        "label": "Baden-Baden"
+        "label": "Baden-Baden",
+        "coordinates": [
+            48.761944,
+            8.240833
+        ]
     },
     "basel": {
         "id": "basel",
-        "label": "Basel"
+        "label": "Basel",
+        "coordinates": [
+            47.55814,
+            7.58769
+        ]
     },
     "berlin": {
         "id": "berlin",
-        "label": "Berlin"
+        "label": "Berlin",
+        "coordinates": [
+            52.518611,
+            13.408333
+        ]
     },
     "bielefeld": {
         "id": "bielefeld",
-        "label": "Bielefeld"
+        "label": "Bielefeld",
+        "coordinates": [
+            52.02182,
+            8.53509
+        ]
     },
     "bochum": {
         "id": "bochum",
-        "label": "Bochum"
+        "label": "Bochum",
+        "coordinates": [
+            51.48012,
+            7.21662
+        ]
     },
     "bonn": {
         "id": "bonn",
-        "label": "Bonn"
+        "label": "Bonn",
+        "coordinates": [
+            50.733992,
+            7.099814
+        ]
     },
     "bottrop": {
         "id": "bottrop",
-        "label": "Bottrop"
+        "label": "Bottrop",
+        "coordinates": [
+            51.524722,
+            6.922778
+        ]
     },
     "braunschweig": {
         "id": "braunschweig",
-        "label": "Braunschweig"
+        "label": "Braunschweig",
+        "coordinates": [
+            52.26666667,
+            10.51666667
+        ]
     },
     "bremerhaven": {
         "id": "bremerhaven",
-        "label": "Bremerhaven"
+        "label": "Bremerhaven",
+        "coordinates": [
+            53.55,
+            8.58333333
+        ]
     },
     "bretten": {
         "id": "bretten",
-        "label": "Bretten"
+        "label": "Bretten",
+        "coordinates": [
+            49.03638889,
+            8.70611111
+        ]
     },
     "bruchköbel": {
         "id": "bruchköbel",
-        "label": "Bruchköbel"
+        "label": "Bruchköbel",
+        "coordinates": [
+            50.18333333,
+            8.91666667
+        ]
     },
     "brühl": {
         "id": "brühl",
-        "label": "Brühl"
+        "label": "Brühl (Rheinland)",
+        "coordinates": [
+            50.833333,
+            6.9
+        ]
     },
     "chemnitz": {
         "id": "chemnitz",
-        "label": "Chemnitz"
+        "label": "Chemnitz",
+        "coordinates": [
+            50.83333333,
+            12.91666667
+        ]
     },
     "cottbus": {
         "id": "cottbus",
-        "label": "Cottbus"
+        "label": "Cottbus",
+        "coordinates": [
+            51.76055556,
+            14.33416667
+        ]
     },
     "cuxhaven": {
         "id": "cuxhaven",
-        "label": "Cuxhaven"
+        "label": "Cuxhaven",
+        "coordinates": [
+            53.86111111,
+            8.69444444
+        ]
     },
     "dortmund": {
         "id": "dortmund",
-        "label": "Dortmund"
+        "label": "Dortmund",
+        "coordinates": [
+            51.51666667,
+            7.46666667
+        ]
     },
     "dresden": {
         "id": "dresden",
-        "label": "Dresden"
+        "label": "Dresden",
+        "coordinates": [
+            51.05,
+            13.74
+        ]
     },
     "duisburg": {
         "id": "duisburg",
-        "label": "Duisburg"
+        "label": "Duisburg",
+        "coordinates": [
+            51.43472222,
+            6.7625
+        ]
     },
     "düsseldorf": {
         "id": "düsseldorf",
-        "label": "Düsseldorf"
+        "label": "Düsseldorf",
+        "coordinates": [
+            51.23333333,
+            6.78333333
+        ]
     },
     "erlangen": {
         "id": "erlangen",
-        "label": "Erlangen"
+        "label": "Erlangen",
+        "coordinates": [
+            49.58333333,
+            11.01666667
+        ]
     },
     "essen": {
         "id": "essen",
-        "label": "Essen"
+        "label": "Essen",
+        "coordinates": [
+            51.45083333,
+            7.01305556
+        ]
     },
     "freiburg": {
         "id": "freiburg",
-        "label": "Freiburg"
+        "label": "Freiburg im Breisgau",
+        "coordinates": [
+            47.995,
+            7.85
+        ]
     },
     "frankfurtmain": {
         "id": "frankfurtmain",
-        "label": "Frankfurt am Main"
+        "label": "Frankfurt am Main",
+        "coordinates": [
+            50.110556,
+            8.682222
+        ]
     },
     "friedrichsdorf": {
-	"id": "friedrichsdorf",
-	"label": "Friedrichsdorf"
+        "id": "friedrichsdorf",
+        "label": "Friedrichsdorf",
+        "coordinates": [
+            50.25555556,
+            8.63972222
+        ]
     },
     "fürth": {
         "id": "fürth",
-        "label": "Fürth (Bayern)"
+        "label": "Fürth (Bayern)",
+        "coordinates": [
+            49.478333,
+            10.990278
+        ]
     },
     "gelsenkirchen": {
         "id": "gelsenkirchen",
-        "label": "Gelsenkirchen"
+        "label": "Gelsenkirchen",
+        "coordinates": [
+            51.51666667,
+            7.1
+        ]
     },
     "hagen": {
         "id": "hagen",
-        "label": "Hagen"
+        "label": "Hagen",
+        "coordinates": [
+            51.36666667,
+            7.48333333
+        ]
     },
     "hamburg": {
         "id": "hamburg",
-        "label": "Hamburg"
+        "label": "Hamburg",
+        "coordinates": [
+            53.56527778,
+            10.00138889
+        ]
     },
     "hamm": {
         "id": "hamm",
-        "label": "Hamm"
+        "label": "Hamm",
+        "coordinates": [
+            51.68333333,
+            7.81666667
+        ]
     },
     "hanau": {
         "id": "hanau",
-        "label": "Hanau"
+        "label": "Hanau",
+        "coordinates": [
+            50.13277778,
+            8.91694444
+        ]
     },
     "hannover": {
         "id": "hannover",
-        "label": "Hannover"
+        "label": "Hannover",
+        "coordinates": [
+            52.374444,
+            9.738611
+        ]
     },
     "herne": {
         "id": "herne",
-        "label": "Herne"
+        "label": "Herne",
+        "coordinates": [
+            51.541944,
+            7.223889
+        ]
     },
     "hilden": {
         "id": "hilden",
-        "label": "Hilden"
+        "label": "Hilden",
+        "coordinates": [
+            51.17138889,
+            6.93944444
+        ]
     },
     "hofheimamtaunus": {
         "id": "hofheimamtaunus",
-        "label": "Hofheim am Taunus"
+        "label": "Hofheim am Taunus",
+        "coordinates": [
+            50.087569,
+            8.444722
+        ]
     },
     "kaiserslautern": {
         "id": "kaiserslautern",
-        "label": "Kaiserslautern"
+        "label": "Kaiserslautern",
+        "coordinates": [
+            49.44472222,
+            7.76888889
+        ]
     },
     "karlsruhe": {
         "id": "karlsruhe",
-        "label": "Karlsruhe"
+        "label": "Karlsruhe",
+        "coordinates": [
+            49.0092097,
+            8.4039514
+        ]
     },
     "kassel": {
         "id": "kassel",
-        "label": "Kassel"
+        "label": "Kassel",
+        "coordinates": [
+            51.3158,
+            9.4979
+        ]
     },
     "kiel": {
         "id": "kiel",
-        "label": "Kiel"
+        "label": "Kiel",
+        "coordinates": [
+            54.32333333,
+            10.13944444
+        ]
     },
     "kleve": {
         "id": "kleve",
-        "label": "Kleve"
+        "label": "Kleve",
+        "coordinates": [
+            51.79,
+            6.14
+        ]
     },
     "köln": {
         "id": "köln",
-        "label": "Köln"
+        "label": "Köln",
+        "coordinates": [
+            50.938056,
+            6.956944
+        ]
     },
     "konstanz": {
         "id": "konstanz",
-        "label": "Konstanz"
+        "label": "Konstanz",
+        "coordinates": [
+            47.66666667,
+            9.18333333
+        ]
     },
     "langenfeld_rhld": {
         "id": "langenfeld_rhld",
-        "label": "Langenfeld (Rhld.)"
+        "label": "Langenfeld (Rheinland)",
+        "coordinates": [
+            51.113056,
+            6.952222
+        ]
     },
     "laupheim": {
         "id": "laupheim",
-        "label": "Laupheim"
+        "label": "Laupheim",
+        "coordinates": [
+            48.22888889,
+            9.87972222
+        ]
     },
     "leipzig": {
         "id": "leipzig",
-        "label": "Leipzig"
+        "label": "Leipzig",
+        "coordinates": [
+            51.33333333,
+            12.38333333
+        ]
     },
     "loxstedt": {
         "id": "loxstedt",
-        "label": "Loxstedt"
+        "label": "Loxstedt",
+        "coordinates": [
+            53.46666667,
+            8.65
+        ]
     },
     "luebeck": {
         "id": "luebeck",
-        "label": "Lübeck"
+        "label": "Lübeck",
+        "coordinates": [
+            53.86972222,
+            10.68638889
+        ]
     },
     "mallorca": {
         "id": "mallorca",
-        "label": "Mallorca"
+        "label": "Mallorca",
+        "coordinates": [
+            39.61666667,
+            2.98333333
+        ]
     },
     "moers": {
         "id": "moers",
-        "label": "Moers"
+        "label": "Moers",
+        "coordinates": [
+            51.45916667,
+            6.61972222
+        ]
     },
     "mülheim-an-der-ruhr": {
         "id": "mülheim-an-der-ruhr",
-        "label": "Mülheim an der Ruhr"
+        "label": "Mülheim an der Ruhr",
+        "coordinates": [
+            51.433056,
+            6.883056
+        ]
     },
     "münchen": {
         "id": "münchen",
-        "label": "München"
+        "label": "München",
+        "coordinates": [
+            48.137222,
+            11.575556
+        ]
     },
     "münster": {
         "id": "münster",
-        "label": "Münster"
+        "label": "Münster",
+        "coordinates": [
+            51.9625,
+            7.62555556
+        ]
     },
     "nersingen": {
         "id": "nersingen",
-        "label": "Nersingen"
+        "label": "Nersingen",
+        "coordinates": [
+            48.42888889,
+            10.12194444
+        ]
     },
     "neu-anspach": {
-      "id": "neu-anspach",
-      "label": "Neu-Anspach"
+        "id": "neu-anspach",
+        "label": "Neu-Anspach",
+        "coordinates": [
+            50.29305556,
+            8.50888889
+        ]
     },
     "neu-ulm": {
         "id": "neu-ulm",
-        "label": "Neu-Ulm"
+        "label": "Neu-Ulm",
+        "coordinates": [
+            48.38333333,
+            10
+        ]
     },
     "oberursel": {
         "id": "oberursel",
-        "label": "Oberursel"
+        "label": "Oberursel (Taunus)",
+        "coordinates": [
+            50.202778,
+            8.576944
+        ]
     },
     "paderborn": {
         "id": "paderborn",
-        "label": "Paderborn"
+        "label": "Paderborn",
+        "coordinates": [
+            51.71805556,
+            8.75416667
+        ]
     },
     "potsdam": {
         "id": "potsdam",
-        "label": "Potsdam"
+        "label": "Potsdam",
+        "coordinates": [
+            52.4,
+            13.06666667
+        ]
     },
     "oldenburg": {
         "id": "oldenburg",
-        "label": "Oldenburg (Oldb)"
+        "label": "Oldenburg (Oldb)",
+        "coordinates": [
+            53.143889,
+            8.213889
+        ]
     },
     "osnabrück": {
         "id": "osnabrück",
-        "label": "Osnabrück"
+        "label": "Osnabrück",
+        "coordinates": [
+            52.28333333,
+            8.05
+        ]
     },
     "rostock": {
         "id": "rostock",
-        "label": "Rostock"
+        "label": "Rostock",
+        "coordinates": [
+            54.08333333,
+            12.13333333
+        ]
     },
     "saarbrücken": {
         "id": "saarbrücken",
-        "label": "Saarbrücken"
+        "label": "Saarbrücken",
+        "coordinates": [
+            49.23333333,
+            7
+        ]
     },
     "schleswig": {
         "id": "schleswig",
-        "label": "Schleswig"
+        "label": "Schleswig",
+        "coordinates": [
+            54.51494,
+            9.56679
+        ]
     },
     "schwerin": {
         "id": "schwerin",
-        "label": "Schwerin"
+        "label": "Schwerin",
+        "coordinates": [
+            53.63333333,
+            11.41666667
+        ]
     },
     "siegen": {
         "id": "siegen",
-        "label": "Siegen"
+        "label": "Siegen",
+        "coordinates": [
+            50.88333333,
+            8.01666667
+        ]
     },
     "solingen": {
         "id": "solingen",
-        "label": "Solingen"
+        "label": "Solingen",
+        "coordinates": [
+            51.16666667,
+            7.08333333
+        ]
     },
     "stralsund": {
         "id": "stralsund",
-        "label": "Stralsund"
+        "label": "Stralsund",
+        "coordinates": [
+            54.30916667,
+            13.08194444
+        ]
     },
     "stuttgart": {
         "id": "stuttgart",
-        "label": "Stuttgart"
+        "label": "Stuttgart",
+        "coordinates": [
+            48.782,
+            9.184
+        ]
     },
     "suhl": {
         "id": "suhl",
-        "label": "Suhl"
+        "label": "Suhl",
+        "coordinates": [
+            50.61055556,
+            10.69305556
+        ]
     },
     "trier": {
         "id": "trier",
-        "label": "Trier"
+        "label": "Trier",
+        "coordinates": [
+            49.75666667,
+            6.64138889
+        ]
     },
     "tübingen": {
         "id": "tübingen",
-        "label": "Tübingen"
+        "label": "Tübingen",
+        "coordinates": [
+            48.52,
+            9.05555556
+        ]
     },
     "ulm": {
         "id": "ulm",
-        "label": "Ulm"
+        "label": "Ulm",
+        "coordinates": [
+            48.4,
+            9.98333333
+        ]
     },
     "usingen": {
-          "id": "usingen",
-          "label": "Usingen"
-     },
+        "id": "usingen",
+        "label": "Usingen",
+        "coordinates": [
+            50.33444444,
+            8.5375
+        ]
+    },
     "wiesbaden": {
         "id": "wiesbaden",
-        "label": "Wiesbaden"
+        "label": "Wiesbaden",
+        "coordinates": [
+            50.0825,
+            8.24
+        ]
     },
     "witten": {
         "id": "witten",
-        "label": "Witten"
+        "label": "Witten",
+        "coordinates": [
+            51.43333333,
+            7.33333333
+        ]
     },
     "wolfenbüttel": {
         "id": "wolfenbüttel",
-        "label": "Wolfenbüttel"
+        "label": "Wolfenbüttel",
+        "coordinates": [
+            52.16222222,
+            10.53694444
+        ]
     },
     "wuppertal": {
         "id": "wuppertal",
-        "label": "Wuppertal"
+        "label": "Wuppertal",
+        "coordinates": [
+            51.26666667,
+            7.18333333
+        ]
     },
     "zwickau": {
         "id": "zwickau",
-        "label": "Zwickau"
+        "label": "Zwickau",
+        "coordinates": [
+            50.71666667,
+            12.5
+        ]
     }
 }
