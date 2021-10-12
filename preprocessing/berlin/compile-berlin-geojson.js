@@ -4,7 +4,7 @@
 
 
 var fs = require('fs');
-var moment = require('moment');
+var dayjs = require('dayjs');
 var opening_hours = require('opening_hours');
 
 
@@ -244,8 +244,8 @@ function getSanitizeHours(hours) {
  * Returns opening ranges compiled via opening_hours.js.
  */
 function getOpeningRanges(opening_hours_strings) {
-    var monday = moment().startOf("week").add(1, 'days').toDate();
-    var sunday = moment().endOf("week").add(1, 'days').toDate();
+    var monday = dayjs().startOf("week").add(1, 'day').toDate();
+    var sunday = dayjs().endOf("week").add(1, 'day').toDate();
     var options = {
     	"address" : {
     		"country_code" : "de"
