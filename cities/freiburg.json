@@ -48,12 +48,44 @@
             },
             "properties": {
                 "location": "Tennenbacherplatz",
-                "opening_hours": "We, Sa 08:00-13:00",
+                "opening_hours": "Sa 07:00-13:00",
                 "title": "Beurbarung Wochenmarkt"
             },
             "type": "Feature"
         },
-
+        
+        {
+            "geometry": {
+                "coordinates": [
+                    7.82116,
+                    47.99042
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "St Michaelskirche",
+                "opening_hours": "Fr 08:00-13:00",
+                "title": "Haslacher Freitagsmarkt"
+            },
+            "type": "Feature"
+        },
+        
+        {
+            "geometry": {
+                "coordinates": [
+                    7.80142,
+                    48.04709
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Platz vor der Mooswaldhalle",
+                "opening_hours": "Fr 14:00-18:00",
+                "title": "Hochdorfer Wochenmarkt"
+            },
+            "type": "Feature"
+        },
+        
         {
             "geometry": {
                 "coordinates": [
@@ -101,6 +133,7 @@
             },
             "type": "Feature"
         },
+      
         {
             "geometry": {
                 "coordinates": [
@@ -116,6 +149,7 @@
             },
             "type": "Feature"
         },
+        
         {
             "geometry": {
                 "coordinates": [
@@ -259,12 +293,28 @@
             },
             "type": "Feature"
 
-        }
+        },
+         {
+            "geometry": {
+                "coordinates": [
+                    7.84828,
+                    48.01064
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Zollhallenplatz",
+                "opening_hours": "Th 14:30-18:30",
+                "title": "Bauernmarkt Zollhallenplatz"
+            },
+            "type": "Feature"
+
+        }       
 
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Freiburg",
+            "title": "Stadt Freiburg, aktualisiert am 10.10.2021",
             "url": "https://visit.freiburg.de/freiburg-fuehlen/kulinarisches-in-freiburg"
         }
     },
