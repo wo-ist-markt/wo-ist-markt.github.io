@@ -13,14 +13,23 @@
  */
 
 
-var assert = require('assert');
-var fs = require('fs');
-var path = require("path");
-var colors = require('colors');
-var opening_hours = require('opening_hours');
-var http = require('http');
-var https = require('https');
-var pkg = require('../package.json');
+import assert from 'assert';
+import fs from 'fs';
+import path from "path";
+import colors from 'colors';
+import opening_hours from 'opening_hours';
+import http from 'http';
+import https from 'https';
+
+function loadPackageJson() {
+  const rootPath = fs.realpathSync('.');
+  const packageJsonPath = path.join(rootPath, 'package.json');
+  const pkgFile = fs.readFileSync(packageJsonPath, 'utf8');
+  const packageJson = JSON.parse(pkgFile);
+  return packageJson;
+}
+
+const pkg = loadPackageJson();
 
 /** 
  * The repository URL is used in the user-agent header in the url
