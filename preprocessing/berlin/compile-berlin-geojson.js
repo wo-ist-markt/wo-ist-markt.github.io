@@ -2,10 +2,9 @@
 "use strict";
 
 
-
-var fs = require('fs');
-var dayjs = require('dayjs');
-var opening_hours = require('opening_hours');
+import fs from 'fs';
+import dayjs from 'dayjs';
+import opening_hours from 'opening_hours';
 
 
 var INPUT_FILE = "./preprocessing/berlin/raw/markets-berlin.json";

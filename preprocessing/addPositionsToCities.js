@@ -5,9 +5,10 @@
  * If the city or the coordinates are not found, an error is shown.
  * If that happens please add the coordinates manually to the cities.json file.
  */
-var fs = require('fs');
-var axios = require('axios').default;
-var ora = require('ora');
+
+import fs from 'fs';
+import axios from 'axios';
+import ora from 'ora';
 
 var CITY_FILE = 'cities/cities.json';
 var WIKIPEDIA_API_URL = "https://en.wikipedia.org/w/api.php"; 

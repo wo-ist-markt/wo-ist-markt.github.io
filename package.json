@@ -1,6 +1,7 @@
 {
   "name": "wo-ist-markt",
   "version": "0.0.1",
+  "type": "module",
   "dependencies": {
     "dayjs": "^1.10.7",
     "jquery": "^3.6.0",
