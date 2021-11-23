@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/wo-ist-markt/wo-ist-markt.github.io.svg?branch=master)](https://travis-ci.com/wo-ist-markt/wo-ist-markt.github.io) [![devDependencies Status](https://david-dm.org/wo-ist-markt/wo-ist-markt.github.io/dev-status.svg)](https://david-dm.org/wo-ist-markt/wo-ist-markt.github.io?type=dev)
+[![Build Status](https://travis-ci.com/wo-ist-markt/wo-ist-markt.github.io.svg?branch=master)](https://travis-ci.com/wo-ist-markt/wo-ist-markt.github.io) [![Netlify Status](https://api.netlify.com/api/v1/badges/41da0c15-3862-4cb8-8467-3226aba2cd87/deploy-status)](https://app.netlify.com/sites/wo-ist-markt/deploys)
 
 # Wo ist Markt?
 
