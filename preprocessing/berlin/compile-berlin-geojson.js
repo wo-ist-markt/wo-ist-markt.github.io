@@ -241,6 +241,7 @@ function getSanitizeHours(hours) {
 	hours = hours.replace(/\n/g, " ");
 	hours = hours.replace(/ /g, ",");
 	hours = hours.replace(/^,/g, "");
+	hours = hours.replace(/,$/g, "");
 	hours = hours.trim();
 	return hours;
 }
