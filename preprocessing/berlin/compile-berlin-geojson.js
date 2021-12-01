@@ -208,10 +208,27 @@ function getSanitizeString(text) {
 	return text;
 }
 
+const ENGLISH_MONTH_ABBREVATION_BY_GERMAN_MONTHS_NAME = {
+	"Januar": "Jan",
+	"Februar": "Feb",
+	"März": "Mar",
+	"April": "Apr",
+	"Mai": "May",
+	"Juni": "Jun",
+	"Juli": "Jul",
+	"August": "Aug",
+	"September": "Sep",
+	"Oktober": "Oct",
+	"November": "Nov",
+	"Dezember": "Dec"
+};
+
 /*
  * Returns a sanitized days string.
  */
 function getSanitizeDays(days) {
+	Object.entries(ENGLISH_MONTH_ABBREVATION_BY_GERMAN_MONTHS_NAME)
+	      .forEach(([key, value]) => { days = days.replaceAll(key, value); });
 	days = days.replace(/gesetzliche Feiertage/g, "PH");
 	days = days.replace("Di", "Tu");
 	days = days.replace("Mi", "We");
