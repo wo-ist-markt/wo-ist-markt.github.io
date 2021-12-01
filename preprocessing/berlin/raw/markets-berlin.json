@@ -12,11 +12,11 @@
             },
             "properties": {
                 "title": "Antik- und Buchmarkt am Bode Museum",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
-                "description": "Sa, So, gesetzliche Feiertage<br />11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
+                "description": "Sa, So, gesetzliche Feiertage<br />11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
                 "data": {
-                    "id": "322",
+                    "id": "313",
                     "bezirk": "Mitte",
                     "bezeichnung": "Antik- und Buchmarkt am Bode Museum",
                     "strasse": "Am Kupfergraben",
@@ -43,11 +43,11 @@
             },
             "properties": {
                 "title": "Antik- und Buchmarkt am Bode Museum",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
-                "description": "Sa, So, gesetzliche Feiertage<br />11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/313",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
+                "description": "Sa, So, gesetzliche Feiertage<br />11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/322",
                 "data": {
-                    "id": "313",
+                    "id": "322",
                     "bezirk": "Mitte",
                     "bezeichnung": "Antik- und Buchmarkt am Bode Museum",
                     "strasse": "Am Kupfergraben",
@@ -60,37 +60,6 @@
                     "bemerkungen": "Am Kupfergraben/ Museumsinsel, \naußer Karfreitag, Volkstrauertag, Totensonntag, 24. und 31.12.2019",
                     "_wgs84_lat": "52.5203",
                     "_wgs84_lon": "13.39519"
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.43439,
-                    52.51157
-                ]
-            },
-            "properties": {
-                "title": "Antikmarkt am Berliner Ostbahnhof",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
-                "description": "So<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
-                "data": {
-                    "id": "361",
-                    "bezirk": "Friedrichshain-Kreuzberg",
-                    "bezeichnung": "Antikmarkt am Berliner Ostbahnhof",
-                    "strasse": "Erich-Steinfurth-Straße",
-                    "plz": "10243",
-                    "tage": "So",
-                    "zeiten": "09:00 - 17:00",
-                    "betreiber": "Oldthing Marktveranstaltung, Tel.: 29 00 20 10",
-                    "email": "mailto:info@oldthing.de",
-                    "www": "http://www.oldthing.de",
-                    "bemerkungen": "Ecke Hermann-Stöhr-Park, 05.09. und 03.10. geschlossen, außer Volkstrauertag und Totensonntag",
-                    "_wgs84_lat": "52.5115665",
-                    "_wgs84_lon": "13.4343881"
                 }
             }
         },
@@ -120,6 +89,37 @@
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de",
                     "bemerkungen": "außer Volkstrauertag und Totensonntag; im Sommer bis 17:00 geöffnet",
+                    "_wgs84_lat": "52.5115665",
+                    "_wgs84_lon": "13.4343881"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.43439,
+                    52.51157
+                ]
+            },
+            "properties": {
+                "title": "Antikmarkt am Berliner Ostbahnhof",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
+                "description": "So<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/361",
+                "data": {
+                    "id": "361",
+                    "bezirk": "Friedrichshain-Kreuzberg",
+                    "bezeichnung": "Antikmarkt am Berliner Ostbahnhof",
+                    "strasse": "Erich-Steinfurth-Straße",
+                    "plz": "10243",
+                    "tage": "So",
+                    "zeiten": "09:00 - 17:00",
+                    "betreiber": "Oldthing Marktveranstaltung, Tel.: 29 00 20 10",
+                    "email": "mailto:info@oldthing.de",
+                    "www": "http://www.oldthing.de",
+                    "bemerkungen": "Ecke Hermann-Stöhr-Park, 05.09. und 03.10. geschlossen, außer Volkstrauertag und Totensonntag",
                     "_wgs84_lat": "52.5115665",
                     "_wgs84_lon": "13.4343881"
                 }
@@ -3577,19 +3577,19 @@
             },
             "properties": {
                 "title": "Wochenmarkt am Hackeschen Markt",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
-                "description": "Sa<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
+                "description": "Do<br />09:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
                 "data": {
-                    "id": "112",
+                    "id": "109",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Hackeschen Markt",
                     "strasse": "Hackescher Markt",
                     "plz": "10178",
-                    "tage": "Sa",
-                    "zeiten": "10:00 - 18:00",
-                    "betreiber": "Marktleitung: \nGKS Marktbetriebsgesellschaft mbH & Co. KG, Frau Sarah Kolbe, Tel.: 0163/545 07 03",
-                    "email": "mailto:hackescherwochenmarktsamstag@hotmail.de",
+                    "tage": "Do",
+                    "zeiten": "09:00 - 18:00",
+                    "betreiber": "Marktleitung: Fa. Neue Markt GmbH",
+                    "email": "",
                     "www": "",
                     "bemerkungen": "",
                     "_wgs84_lat": "52.5236701",
@@ -3608,19 +3608,19 @@
             },
             "properties": {
                 "title": "Wochenmarkt am Hackeschen Markt",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
-                "description": "Do<br />09:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
+                "description": "Sa<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
                 "data": {
-                    "id": "109",
+                    "id": "112",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Hackeschen Markt",
                     "strasse": "Hackescher Markt",
                     "plz": "10178",
-                    "tage": "Do",
-                    "zeiten": "09:00 - 18:00",
-                    "betreiber": "Marktleitung: Fa. Neue Markt GmbH",
-                    "email": "",
+                    "tage": "Sa",
+                    "zeiten": "10:00 - 18:00",
+                    "betreiber": "Marktleitung: \nGKS Marktbetriebsgesellschaft mbH & Co. KG, Frau Sarah Kolbe, Tel.: 0163/545 07 03",
+                    "email": "mailto:hackescherwochenmarktsamstag@hotmail.de",
                     "www": "",
                     "bemerkungen": "",
                     "_wgs84_lat": "52.5236701",

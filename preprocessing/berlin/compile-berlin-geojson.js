@@ -42,7 +42,13 @@ function sortInputFileByTitle() {
 		var outputData = featureCollection;
 
 		outputData.features = outputData.features.sort(function(a, b) {
-			return a.properties.title > b.properties.title ? 1 : -1;
+			if (a.properties.title > b.properties.title) {
+				return 1;
+			}
+			if (a.properties.title < b.properties.title) {
+				return -1;
+			}
+			return a.properties.id > b.properties.id ? 1 : -1;
 		});
 
 		var outputDataString = JSON.stringify(outputData, null, 4);
