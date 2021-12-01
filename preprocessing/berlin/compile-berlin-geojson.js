@@ -100,7 +100,7 @@ function prepareFeatureProperties(feature) {
 	var days_hours = sanitizedDays + " " + sanitizedHours;
 
 	try {
-		getOpeningRanges(days_hours);
+		parseWithOpeningHoursJs(days_hours);
 		var opening_hours = composeOpeningHours(sanitizedDays, sanitizedHours);
 		outputProperties.opening_hours = opening_hours;
 		outputProperties.opening_hours_unclassified = null;
@@ -246,9 +246,10 @@ function getSanitizeHours(hours) {
 }
 
 /*
- * Returns opening ranges compiled via opening_hours.js.
+ * Parses the given string with the opening_hours.js library.
+ * An error is thrown if the parsing fails.
  */
-function getOpeningRanges(opening_hours_strings) {
+function parseWithOpeningHoursJs(opening_hours_strings) {
     var monday = dayjs().startOf("week").add(1, 'day').toDate();
     var sunday = dayjs().endOf("week").add(1, 'day').toDate();
     var options = {
@@ -257,5 +258,5 @@ function getOpeningRanges(opening_hours_strings) {
     	}
     };
     var oh = new opening_hours(opening_hours_strings, options);
-    return oh.getOpenIntervals(monday, sunday);
+    oh.getOpenIntervals(monday, sunday);
 }
