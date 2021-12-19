@@ -42,7 +42,13 @@ function sortInputFileByTitle() {
 		var outputData = featureCollection;
 
 		outputData.features = outputData.features.sort(function(a, b) {
-			return a.properties.title > b.properties.title ? 1 : -1;
+			if (a.properties.title > b.properties.title) {
+				return 1;
+			}
+			if (a.properties.title < b.properties.title) {
+				return -1;
+			}
+			return a.properties.id > b.properties.id ? 1 : -1;
 		});
 
 		var outputDataString = JSON.stringify(outputData, null, 4);
@@ -94,7 +100,7 @@ function prepareFeatureProperties(feature) {
 	var days_hours = sanitizedDays + " " + sanitizedHours;
 
 	try {
-		getOpeningRanges(days_hours);
+		parseWithOpeningHoursJs(days_hours);
 		var opening_hours = composeOpeningHours(sanitizedDays, sanitizedHours);
 		outputProperties.opening_hours = opening_hours;
 		outputProperties.opening_hours_unclassified = null;
@@ -202,10 +208,27 @@ function getSanitizeString(text) {
 	return text;
 }
 
+const ENGLISH_MONTH_ABBREVATION_BY_GERMAN_MONTHS_NAME = {
+	"Januar": "Jan",
+	"Februar": "Feb",
+	"März": "Mar",
+	"April": "Apr",
+	"Mai": "May",
+	"Juni": "Jun",
+	"Juli": "Jul",
+	"August": "Aug",
+	"September": "Sep",
+	"Oktober": "Oct",
+	"November": "Nov",
+	"Dezember": "Dec"
+};
+
 /*
  * Returns a sanitized days string.
  */
 function getSanitizeDays(days) {
+	Object.entries(ENGLISH_MONTH_ABBREVATION_BY_GERMAN_MONTHS_NAME)
+	      .forEach(([key, value]) => { days = days.replaceAll(key, value); });
 	days = days.replace(/gesetzliche Feiertage/g, "PH");
 	days = days.replace("Di", "Tu");
 	days = days.replace("Mi", "We");
@@ -235,14 +258,16 @@ function getSanitizeHours(hours) {
 	hours = hours.replace(/\n/g, " ");
 	hours = hours.replace(/ /g, ",");
 	hours = hours.replace(/^,/g, "");
+	hours = hours.replace(/,$/g, "");
 	hours = hours.trim();
 	return hours;
 }
 
 /*
- * Returns opening ranges compiled via opening_hours.js.
+ * Parses the given string with the opening_hours.js library.
+ * An error is thrown if the parsing fails.
  */
-function getOpeningRanges(opening_hours_strings) {
+function parseWithOpeningHoursJs(opening_hours_strings) {
     var monday = dayjs().startOf("week").add(1, 'day').toDate();
     var sunday = dayjs().endOf("week").add(1, 'day').toDate();
     var options = {
@@ -251,5 +276,5 @@ function getOpeningRanges(opening_hours_strings) {
     	}
     };
     var oh = new opening_hours(opening_hours_strings, options);
-    return oh.getOpenIntervals(monday, sunday);
+    oh.getOpenIntervals(monday, sunday);
 }

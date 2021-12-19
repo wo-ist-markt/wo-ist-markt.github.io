@@ -1818,8 +1818,8 @@
             "properties": {
                 "title": "Wochenmarkt Wilhelmsruher Damm",
                 "location": "Wilhelmsruher Damm 159, 13439",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Di Do Sa 09:00 - 17:00 09:00 - 17:00 07:00 - 17:00",
+                "opening_hours": "Tu 09:00-17:00;Th 09:00-17:00;Sa 07:00-17:00",
+                "opening_hours_unclassified": null,
                 "details_url": "http://www.brandenburger-wochenmaerkte.de"
             }
         },
