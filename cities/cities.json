@@ -495,6 +495,14 @@
             7
         ]
     },
+    "salzkotten": {
+        "id": "salzkotten",
+        "label": "Salzkotten",
+        "coordinates": [
+            51.67083333,
+            8.60472222
+        ]
+    },
     "schleswig": {
         "id": "schleswig",
         "label": "Schleswig",

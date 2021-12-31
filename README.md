@@ -140,6 +140,7 @@ in February 2016.
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
+|[Salzkotten][salzkotten-wikipedia]|[City of Salzkotten][salzkotten-markets]|
 |[Schleswig][schleswig-wikipedia]|[City of Schleswig][schleswig-markets]|
 |[Schwerin][schwerin-wikipedia]|[City of Schwerin][schwerin-markets]|
 |[Siegen][siegen-wikipedia]|[City of Siegen][siegen-markets]|
@@ -314,6 +315,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [saarbruecken-wikipedia]: https://de.wikipedia.org/wiki/Saarbr%C3%BCcken
 [saarbruecken-markets]: https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte
+[salzkotten-wikipedia]: https://de.wikipedia.org/wiki/Salzkotten
+[salzkotten-markets]: https://vv.salzkotten.de/vv/produkte/174030100000004816.php
 [schleswig-wikipedia]: https://en.wikipedia.org/wiki/Schleswig,_Schleswig-Holstein
 [schleswig-markets]: http://schleswig.de/start.php?op=adressen&Abteilung=422
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin

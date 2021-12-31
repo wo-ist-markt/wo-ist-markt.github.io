@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Marktplatz vor dem Rathaus",
+        "title": "Wochenmarkt in Salzkotten",
+        "opening_hours": "Fr 14:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6046,
+          51.6711
+        ]
+      }
+    }
+  ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Salzkotten",
+            "url": "https://vv.salzkotten.de/vv/produkte/174030100000004816.php"
+        }
+    }
+}
