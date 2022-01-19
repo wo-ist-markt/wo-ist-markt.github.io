@@ -299,7 +299,7 @@
                 ]
             },
             "properties": {
-                "title": "KMA93?Karl-Marx-Allee vor Nr. 93",
+                "title": "Karl-Marx-Allee vor Nr. 93",
                 "location": "Karl-Marx-Allee 93, 10243",
                 "opening_hours": "Tu,Th 10:00-16:00",
                 "opening_hours_unclassified": null
@@ -434,8 +434,8 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Britz-Süd \"Frisches vom Markt\"",
                 "location": "Gutschmidtstraße, 12359",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mo, Do Sa 08:00 - 13:00 08:00 - 14:00",
+                "opening_hours": "Mo 08:00-13:00;Th 08:00-13:00;Sa 08:00-14:00",
+                "opening_hours_unclassified": null,
                 "details_url": "http://www.diemarktplaner.de"
             }
         },
@@ -788,8 +788,8 @@
             "properties": {
                 "title": "Trödelmarkt auf dem Leopoldplatz",
                 "location": "Leopoldplatz, 13353",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Sa 10:00 - 16:00 (Sommer) 10:00 - 15:00 (Winter)",
+                "opening_hours": "Sa 10:00-16:00",
+                "opening_hours_unclassified": null,
                 "details_url": "http://www.bbm-maerkte.de"
             }
         },
@@ -856,8 +856,8 @@
             "properties": {
                 "title": "Wochenmarkt Am Kaufhof Ostbahnhof (Erich-Steinfurth-Straße)",
                 "location": "Ostbahnhof, 10243",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mo - Sa (Sommer) 09:00 - 18:00"
+                "opening_hours": "Mo-Sa 09:00-18:00",
+                "opening_hours_unclassified": null
             }
         },
         {
@@ -1087,8 +1087,8 @@
             "properties": {
                 "title": "Wochenmarkt Bölschestraße",
                 "location": "Bölschestraße, 12587",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mo, Mi, Fr Sa 10:00 - 16:00 09:00 - 13:00"
+                "opening_hours": "Mo 10:00-16:00;We 10:00-16:00;Fr 10:00-16:00;Sa 09:00-13:00",
+                "opening_hours_unclassified": null
             }
         },
         {
@@ -1298,8 +1298,8 @@
             "properties": {
                 "title": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
                 "location": "Greifswalder Straße 157, 10409",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Di, Do Sa 08:00 - 18:00 08:00 - 14:00"
+                "opening_hours": "Tu 08:00-18:00;Th 08:00-18:00;Sa 08:00-14:00",
+                "opening_hours_unclassified": null
             }
         },
         {
@@ -1396,8 +1396,8 @@
             "properties": {
                 "title": "Wochenmarkt Hermann-Ehlers-Platz",
                 "location": "Hermann-Ehlers-Platz, 12165",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Di, Sa Do 08:00 - 14:00 08:00 - 18:00"
+                "opening_hours": "Tu 08:00-14:00;Sa 08:00-14:00;Th 08:00-18:00",
+                "opening_hours_unclassified": null
             }
         },
         {
@@ -2185,8 +2185,8 @@
             "properties": {
                 "title": "Ökomarkt & mehr an der Thusnelda-Allee",
                 "location": "Thusnelda-Allee 1, 10555",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mi 12:00 - 18:00 (Winter) 12:00 - 19:00 (Sommer)",
+                "opening_hours": "We 12:00-19:00",
+                "opening_hours_unclassified": null,
                 "details_url": "http://www.marktzeit.berlin/"
             }
         },
@@ -2236,8 +2236,8 @@
             "properties": {
                 "title": "Ökomarkt am Nordbahnhof",
                 "location": "Elisabeth-Schwarzhaupt-Platz, 10115",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Mi 11:00 - 18:00 (Sommer) 11:00 - 17:00 (Winter)",
+                "opening_hours": "We 11:00-18:00",
+                "opening_hours_unclassified": null,
                 "details_url": "http://www.marktzeit.berlin"
             }
         },
@@ -2261,7 +2261,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 14.01.2022",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 18.01.2022",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     }
