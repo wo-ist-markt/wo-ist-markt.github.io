@@ -19,7 +19,7 @@
     "axios": "^0.25.0",
     "colors": "1.4.0",
     "jasmine": "^4.0.2",
-    "jshint": "^2.13.3",
+    "jshint": "^2.13.4",
     "opening_hours": "^3.7.0",
     "postcss": "^8.4.6",
     "ora": "^6.0.1",
