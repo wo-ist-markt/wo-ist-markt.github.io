@@ -52,7 +52,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 2; // Cuxhaven, Schleswig
+var ACCEPTABLE_WARNINGS_COUNT = 1; // Loxstedt
 
 var exitCode = 0;
 
@@ -648,7 +648,7 @@ function MetadataValidator(metadata, cityName) {
                 // Cleaning up HTTP request and response
                 response.destroy();
         
-                if (response.statusCode !== 200) {
+                if (response.statusCode !== 200 && response.statusCode !== 307) {
                     if (fallbackRequest) {
                         fallbackRequest(url, requestParameters);
                     } else {
