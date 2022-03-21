@@ -52,7 +52,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 1; // Loxstedt
+var ACCEPTABLE_WARNINGS_COUNT = 2; // Loxstedt, Schwerin
 
 var exitCode = 0;
 
