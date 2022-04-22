@@ -6,6 +6,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.30754,
+                    52.46693
+                ]
+            },
+            "properties": {
+                "title": "< 164",
+                "location": "Breitenbachplatz, 14195",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022 10:00 - 14:00",
+                "details_url": "http://www.markttag-berlin.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.39519,
                     52.5203
                 ]
@@ -22,8 +39,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.55791,
-                    52.50655
+                    13.55813,
+                    52.50713
                 ]
             },
             "properties": {
@@ -32,6 +49,23 @@
                 "opening_hours": null,
                 "opening_hours_unclassified": "16.01., 30.01., 06.02., 20.02., 06.03., 20.03.2022 08:00 - 15:00",
                 "details_url": "http://www.troedelfreunde.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.52289,
+                    52.47521
+                ]
+            },
+            "properties": {
+                "title": "Antikflohmarkt Trabrennbahn Karlshorst",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "02./03.04., 07./08.05.,02./03.07., 06./07.08., 10./11.09., 05./06.11., 03./04.12.2022 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
             }
         },
         {
@@ -56,8 +90,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.43407,
-                    52.51204
+                    13.52289,
+                    52.47521
+                ]
+            },
+            "properties": {
+                "title": "Antikgroßflohmarkt Trabrennbahn Karlshorst",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": "Sa,Su 09:00-16:00",
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.43464,
+                    52.51131
+                ]
+            },
+            "properties": {
+                "title": "Antikmarkt am Berliner Ostbahnhof",
+                "location": "Erich-Steinfurth-Str./Hermann-Stöhr-Park, 10243",
+                "opening_hours": "Su 09:00-17:00",
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.43464,
+                    52.51131
                 ]
             },
             "properties": {
@@ -65,6 +133,40 @@
                 "location": "Erich-Steinfurth-Straße/Hermann-Stöhr-Park, 10243",
                 "opening_hours": "Su 09:00-17:00",
                 "opening_hours_unclassified": null,
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.29527,
+                    52.50782
+                ]
+            },
+            "properties": {
+                "title": "Antikmeile Suarezstraße",
+                "location": "Suarezstraße, 14057",
+                "opening_hours": null,
+                "opening_hours_unclassified": "03.09.2022 12:00 - 20:00",
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3771,
+                    52.5083
+                ]
+            },
+            "properties": {
+                "title": "BETTER USED Markt am Potsdamer Platz",
+                "location": "Potsdamer Platz, 10178",
+                "opening_hours": null,
+                "opening_hours_unclassified": "26.-29.05.2022 Do, So 10:-18:00 Fr, Sa 11:00-19:00",
                 "details_url": "http://www.oldthing.de"
             }
         },
@@ -243,8 +345,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.6297,
+                    52.46986
+                ]
+            },
+            "properties": {
+                "title": "Flohmarkt am S-Bhf. Friedrichshagen",
+                "location": "Schöneicherstr./Dahlwitzer Landstraße, 12587",
+                "opening_hours": "Su 08:00-16:00",
+                "opening_hours_unclassified": null,
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.40317,
-                    52.5406
+                    52.54053
                 ]
             },
             "properties": {
@@ -310,6 +429,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.62481,
+                    52.44831
+                ]
+            },
+            "properties": {
+                "title": "Kunst & Trödelmarkt zum Bölschestraßenfest",
+                "location": "Bölschestraße, 12587",
+                "opening_hours": null,
+                "opening_hours_unclassified": "07./08.05.2022",
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.36855,
                     52.51564
                 ]
@@ -360,8 +496,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.21658,
-                    52.43872
+                    13.21694,
+                    52.43855
                 ]
             },
             "properties": {
@@ -376,8 +512,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.43194,
-                    52.50202
+                    13.43202,
+                    52.502
                 ]
             },
             "properties": {
@@ -428,7 +564,7 @@
                 "type": "Point",
                 "coordinates": [
                     13.44918,
-                    52.43757
+                    52.43758
                 ]
             },
             "properties": {
@@ -461,8 +597,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.42442,
-                    52.49449
+                    13.42738,
+                    52.49355
                 ]
             },
             "properties": {
@@ -563,6 +699,40 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.52289,
+                    52.47521
+                ]
+            },
+            "properties": {
+                "title": "Riesenflohmarkt Trabrennbahn Karlshorst",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "04.-06.06.2022 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.52289,
+                    52.47521
+                ]
+            },
+            "properties": {
+                "title": "Riesenflohmarkt Trabrennbahn Karlshorst",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "01.-03.10.2022 09:00 - 17:00",
+                "details_url": "http://www.oldthing.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.36423,
                     52.49019
                 ]
@@ -646,8 +816,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.39021,
-                    52.41313
+                    13.39007,
+                    52.41248
                 ]
             },
             "properties": {
@@ -715,7 +885,7 @@
                 "type": "Point",
                 "coordinates": [
                     13.36355,
-                    52.56023
+                    52.56024
                 ]
             },
             "properties": {
@@ -748,8 +918,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.32237,
-                    52.45692
+                    13.32198,
+                    52.45681
                 ]
             },
             "properties": {
@@ -949,8 +1119,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.45871,
-                    52.51119
+                    13.4597,
+                    52.51095
                 ]
             },
             "properties": {
@@ -1048,7 +1218,7 @@
                 "type": "Point",
                 "coordinates": [
                     13.29297,
-                    52.63127
+                    52.63133
                 ]
             },
             "properties": {
@@ -1373,8 +1543,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.6072,
-                    52.5383
+                    13.60735,
+                    52.53841
                 ]
             },
             "properties": {
@@ -1389,8 +1559,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.32237,
-                    52.45692
+                    13.32198,
+                    52.45681
                 ]
             },
             "properties": {
@@ -1421,8 +1591,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.19362,
-                    52.43063
+                    13.19463,
+                    52.43114
                 ]
             },
             "properties": {
@@ -1519,8 +1689,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.29058,
-                    52.47681
+                    13.29064,
+                    52.47673
                 ]
             },
             "properties": {
@@ -1584,8 +1754,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.59143,
-                    52.48478
+                    13.59137,
+                    52.48472
                 ]
             },
             "properties": {
@@ -1829,8 +1999,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.33838,
-                    52.44451
+                    13.33829,
+                    52.44455
                 ]
             },
             "properties": {
@@ -1861,8 +2031,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.30602,
-                    52.51726
+                    13.30586,
+                    52.51732
                 ]
             },
             "properties": {
@@ -1911,8 +2081,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.5743,
-                    52.44478
+                    13.57402,
+                    52.44502
                 ]
             },
             "properties": {
@@ -1978,8 +2148,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.35501,
-                    52.59736
+                    13.35585,
+                    52.59762
                 ]
             },
             "properties": {
@@ -2061,8 +2231,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.55791,
-                    52.50655
+                    13.55813,
+                    52.50713
                 ]
             },
             "properties": {
@@ -2137,6 +2307,23 @@
                 "opening_hours": "Sa 09:00-16:00",
                 "opening_hours_unclassified": null,
                 "details_url": "http://www.zehlendorfer-wochenmarkt.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30754,
+                    52.46693
+                ]
+            },
+            "properties": {
+                "title": "anZiehmarkt",
+                "location": "Breitenbachplatz, 14195",
+                "opening_hours": null,
+                "opening_hours_unclassified": "17.04., 15.05., 19.06., 17.07., 21.08., 18.09., 16.10., 13.11.2022 10:30 - 15:00",
+                "details_url": "http://www.markttag-berlin.de"
             }
         },
         {
@@ -2261,7 +2448,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 18.01.2022",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 02.03.2022",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     }
