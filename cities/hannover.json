@@ -56,7 +56,7 @@
             "properties": {
                 "title": "Wochenmarkt Döhren",
                 "location": "Fiedelerplatz, 30519 Hannover",
-                "opening_hours": "Fr 8:00-13:00"
+                "opening_hours": "Tu 14:00-18:00"
             },
             "type": "Feature"
         },
@@ -161,7 +161,7 @@
             "properties": {
                 "title": "Wochenmarkt Moltkeplatz (List)",
                 "location": "Moltkeplatz, 30163 Hannover",
-                "opening_hours": "We 8:00-13:00"
+                "opening_hours": "We,Sa 8:00-13:00"
             },
             "type": "Feature"
         },
@@ -296,7 +296,7 @@
             "properties": {
                 "title": "Wochenmarkt Schaperplatz (Kleefeld)",
                 "location": "Schaperplatz, 30625 Hannover",
-                "opening_hours": "We 8:00-13:00"
+                "opening_hours": "Th 8:00-13:00"
             },
             "type": "Feature"
         },
@@ -327,6 +327,21 @@
                 "title": "Wochenmarkt Stöcken",
                 "location": "Hogrefestraße 22, 30419 Hannover",
                 "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.70591,
+                    52.37263
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt auf dem Schmuckplatz",
+                "location": "Ahlemer Straße 3, 30451 Hannover",
+                "opening_hours": "Fr 14:00-18:00"
             },
             "type": "Feature"
         },
@@ -477,6 +492,21 @@
                 "title": "Bauernmarkt Kirchrode",
                 "location": "Jakobikirche, 30559 Hannover",
                 "opening_hours": "Fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.78524,
+                    52.37187
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt am Kantplatz",
+                "location": "Kantplatz, 30625 Hannover",
+                "opening_hours": "Tu 14:00-18:00"
             },
             "type": "Feature"
         },
