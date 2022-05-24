@@ -9,7 +9,7 @@
     "leaflet.awesome-markers": "^2.0.5",
     "leaflet.locatecontrol": "^0.76.1",
     "normalize.css": "^8.0.1",
-    "opening_hours": "^3.7.0",
+    "opening_hours": "^3.8.0",
     "select2": "^4.0.13"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "colors": "1.4.0",
     "jasmine": "^4.1.0",
     "jshint": "^2.13.4",
-    "opening_hours": "^3.7.0",
+    "opening_hours": "^3.8.0",
     "postcss": "^8.4.14",
     "ora": "^6.1.0",
     "postcss-import": "^14.1.0",
