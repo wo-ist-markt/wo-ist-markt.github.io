@@ -255,6 +255,14 @@
             9.738611
         ]
     },
+    "heidelberg": {
+        "id": "heidelberg",
+        "label": "Heidelberg",
+        "coordinates": [
+            49.4094,
+            8.6950
+        ]
+    },
     "herne": {
         "id": "herne",
         "label": "Herne",

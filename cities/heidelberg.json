@@ -1,0 +1,161 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.68750,
+                    49.40309
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Weststadt",
+                "location": "Wilhelmsplatz, 69115 Heidelberg",
+                "opening_hours": "Mo,Th 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.69049,
+                    49.41471
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Neuenheim",
+                "location": "Marktplatz Neuenheim, 69120 Heidelberg",
+                "opening_hours": "We, Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.69851,
+                    49.40874
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Altstadt",
+                "location": "Friedrich-Ebert-Platz, 69117 Heidelberg",
+                "opening_hours": "Th 14:00-20:00; Fr 08:00-13:00; Sa 07:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.64360,
+                    49.39441
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Pfaffengrund",
+                "location": "Kranichweg, 69123 Heidelberg",
+                "opening_hours": "Fr 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.663798,
+                    49.3771266
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Kirchheim",
+                "location": "Kerweplatz, 69124 Kirchheim",
+                "opening_hours": "Fr 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.66622,
+                    49.40236
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Bahnstadt",
+                "location": "Gadamerplatz, 69115 Heidelberg",
+                "opening_hours": "Fr 15:00-19:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.76050,
+                    49.41725
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Ziegelhausen",
+                "location": "Parkplatz Kuchenblech, 69118 Heidelberg",
+                "opening_hours": "Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.68622,
+                    49.42791
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Handschuhsheim",
+                "location": "Tiefburgvorplatz, 69121 Heidelberg",
+                "opening_hours": "Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.67632,
+                    49.40818
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Bergheim",
+                "location": "Alfons-Beil-Platz, 69115 Heidelberg",
+                "opening_hours": "Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.69154,
+                    49.37922
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Rohrbach",
+                "location": "Rathausplatz, 69126 Heidelberg",
+                "opening_hours": "Sa 08:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Heidelberg, aktualisiert am 25.05.2022",
+            "url": "https://www.heidelberg.de/hd/HD/Leben/Wochenmaerkte.html"
+        }
+    },
+    "type": "FeatureCollection"
+}
