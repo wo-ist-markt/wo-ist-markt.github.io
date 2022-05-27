@@ -110,6 +110,7 @@ in February 2016.
 |[Hamm][hamm-wikipedia]|[City of Hamm][hamm-markets]|
 |[Hanau][hanau-wikipedia]|[City of Hanau][hanau-markets]|
 |[Hannover][hannover-wikipedia]|[City of Hannover][hannover-markets]|
+|[Heidelberg][heidelberg-wikipedia]|[City of Heidelberg][heidelberg-markets]|
 |[Herne][herne-wikipedia]|[City of Herne][herne-markets]|
 |[Hilden][hilden-wikipedia]|[City of Hilden][hilden-markets]|
 |[Hofheim am Taunus][hofheimamtaunus-wikipedia]|[City of Hofheim][hofheimamtaunus-markets]|
@@ -255,6 +256,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hannover-markets]: https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
 [hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
+[heidelberg-wikipedia]: https://de.wikipedia.org/wiki/Heidelberg
+[heidelberg-markets]: https://www.heidelberg.de/hd/HD/Leben/Wochenmaerkte.html
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
 [herne-markets]: http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
