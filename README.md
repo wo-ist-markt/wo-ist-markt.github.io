@@ -87,6 +87,7 @@ in February 2016.
 |[Bonn][bonn-wikipedia]|[City of Bonn][bonn-markets]|
 |[Bottrop][bottrop-wikipedia]|[City of Bottrop][bottrop-markets]|
 |[Braunschweig][braunschweig-wikipedia]|[City of Braunschweig][braunschweig-markets]|
+|[Bremen][bremen-wikipedia]|[City of Bremen][bremen-markets]|
 |[Bremerhaven][bremerhaven-wikipedia]|[City of Bremerhaven][bremerhaven-markets]|
 |[Bretten][bretten-wikipedia]|[City of Bretten][bretten-markets]|
 |[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
@@ -210,6 +211,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php
 [braunschweig-wikipedia]: https://de.wikipedia.org/wiki/Braunschweig
 [braunschweig-markets]: http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html
+[bremen-wikipedia]: https://de.wikipedia.org/wiki/Bremen
+[bremen-markets]: https://www.bremen.de/leben-in-bremen/shopping/wochenmaerkte
 [bremerhaven-wikipedia]: https://de.wikipedia.org/wiki/Bremerhaven
 [bremerhaven-markets]: http://www.bremerhaven.de/meer-erleben/shopping-gastronomie/wochenmaerkte-in-bremerhaven.95222.html
 [bretten-wikipedia]: https://de.wikipedia.org/wiki/Bretten

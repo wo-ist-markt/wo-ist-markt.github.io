@@ -71,6 +71,14 @@
             10.51666667
         ]
     },
+    "bremen": {
+        "id": "bremen",
+        "label": "Bremen",
+        "coordinates": [
+            53.080,
+            8.80007
+        ]
+    },
     "bremerhaven": {
         "id": "bremerhaven",
         "label": "Bremerhaven",
