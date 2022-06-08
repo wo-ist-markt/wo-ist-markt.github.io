@@ -1,0 +1,596 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    8.717587,
+                    53.176655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt in Marßel",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.575709,
+                    53.182339
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt in Blumenthal",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.826785,
+                    53.072952
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt auf dem Ziegenmarkt",
+                "location": "Bremen",
+                "opening_hours": "mo-sa 8:00-13:00; we-fr 8:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.735783,
+                    53.131992
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt auf dem Regine-Hildebrandt-Platz",
+                "location": "Bremen",
+                "opening_hours": "we-fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.930082,
+                    53.059296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt auf dem Heinz-Hinners-Platz",
+                "location": "Bremen",
+                "opening_hours": "fr 14:30-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.809812,
+                    53.076599
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt auf dem Domshof",
+                "location": "Bremen",
+                "opening_hours": "mo-fr 8:00-14:00; sa 8:00-15:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.918839,
+                    53.040928
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt auf dem Arberger Dorfplatz",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.951046,
+                    53.065704
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Walliser Straße",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:00,th 8:00-13:00,sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.892574,
+                    53.050217
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Schlengstraße",
+                "location": "Bremen",
+                "opening_hours": "we 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.886673,
+                    53.100983
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Robert-Bunsen-Straße",
+                "location": "Bremen",
+                "opening_hours": "th 8:00-13:00;sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.691081,
+                    53.168285
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Hindenburgstraße",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.851697,
+                    53.070629
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Hermine-Berthold-Straße",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.800328,
+                    53.060329
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Gottfried-Menken-Straße",
+                "location": "Bremen",
+                "opening_hours": "we 8:00-13:00; fr 8:00-13:00; sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.772604,
+                    53.081188
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Dötlinger Straße",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.791037,
+                    53.06778
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Delmestraße",
+                "location": "Bremen",
+                "opening_hours": "mo-fr 8:00-13:30; sa 8:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.852921,
+                    53.107616
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Bibliothekstraße",
+                "location": "Bremen",
+                "opening_hours": "tu 9:00-16:00,th 9:00-16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.827005,
+                    53.036041
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Anna-Stiegler-Straße",
+                "location": "Bremen",
+                "opening_hours": "we 8:00-13:00; fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.849874,
+                    53.045185
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt an der Anna-Seghers-Straße",
+                "location": "Bremen",
+                "opening_hours": "th 15:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.789191,
+                    53.093971
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Wartburgplatz",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:00; th 8:00-13:00; sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.718123,
+                    53.046436
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Sodenmatt",
+                "location": "Bremen",
+                "opening_hours": "we 8:00-13:00; sa 8:00-13:00; fr 7:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.617251,
+                    53.173954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Sedanplatz",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:00; th 8:00-13:00; sa 8:00-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.903067,
+                    53.126213
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Platz zur Linde",
+                "location": "Bremen",
+                "opening_hours": "we 8:00-13:00; sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.760459,
+                    53.113567
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Pastorenweg",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:00; th 8:00-13:00; sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.869604,
+                    53.078888
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Großen Kurf}rst",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.740494,
+                    53.048171
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Center Point",
+                "location": "Bremen",
+                "opening_hours": "th 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.833035,
+                    53.08643
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Benqueplatz",
+                "location": "Bremen",
+                "opening_hours": "we 7:30-13:00; sa 7:30-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.846612,
+                    53.092979
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt am Baumschulenweg",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.893368,
+                    53.081112
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Vahrer Markt an der Berliner Freiheit",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:30; th 8:00-13:30; sa 8:00-13:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.826821,
+                    53.072940
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "ÖkoMarkt auf dem Ziegenmarkt",
+                "location": "Bremen",
+                "opening_hours": "we 14:30-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.819859,
+                    53.072734
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Ökomarkt auf dem Ulrichsplatz",
+                "location": "Bremen",
+                "opening_hours": "tu 12:00-18:30; fr 12:00-18:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.791160,
+                    53.067639
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Ökomarkt auf dem Delmeplatz",
+                "location": "Bremen",
+                "opening_hours": "fr 14:30-18:30"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.829147,
+                    53.071267
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "ÖkoMarkt an der Mecklenburger Straße",
+                "location": "Bremen",
+                "opening_hours": "sa 9:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.80389,
+                    53.07785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Marktpavillon Papenstraße",
+                "location": "Bremen",
+                "opening_hours": "mo-fr 10:00-19:00; sa 10:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.810542,
+                    53.093369
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Findorffmarkt",
+                "location": "Bremen",
+                "opening_hours": "tu 8:00-13:00; th 8:00-13:00; sa 8:00-14:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.807366,
+                    53.076653
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Blumenmarkt auf dem Unser-Lieben-Frauen-Kirchhof",
+                "location": "Bremen",
+                "opening_hours": "mo-fr 8:00-14:00; sa 8:00-15:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.820262,
+                    53.083225
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Slevogtstraße",
+                "location": "Bremen",
+                "opening_hours": "th 10:00-16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.797796,
+                    53.079395
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt am Fangturm",
+                "location": "Bremen",
+                "opening_hours": "fr 10:00-16:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.761890,
+                    53.099746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Überseestadt",
+                "location": "Bremen",
+                "opening_hours": "fr 15:00-19:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.925111,
+                    53.073842
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Max-Säume-Straße",
+                "location": "Bremen",
+                "opening_hours": "fr 8:00-13:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Bremen, aktualisiert 01.06.2022",
+            "url": "https://www.bremen.de/leben-in-bremen/shopping/wochenmaerkte"
+        }
+    },
+    "type": "FeatureCollection"
+}
