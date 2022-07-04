@@ -6,29 +6,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.30754,
-                    52.46693
+                    13.55791,
+                    52.54459
                 ]
             },
             "properties": {
-                "title": "< 164",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411",
-                "description": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022<br />10:00 - 14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411",
+                "title": "16. Kunst- und Keramikmarkt 2022",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441",
+                "description": "<img src=\"/imgscaler/GdiHD7KHlff2x9S_hRexOHAxEO9s11loCrrohdu5tz0/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9ra20yMi02MDAuanBn.jpg\" alt=\"\" />12.-13.11.2022<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441",
                 "data": {
-                    "id": "411",
-                    "bezirk": "Steglitz-Zehlendorf",
-                    "bezeichnung": "< 164",
-                    "strasse": "Breitenbachplatz",
-                    "plz": "14195",
-                    "tage": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022",
-                    "zeiten": "10:00 - 14:00",
-                    "betreiber": "Fa. MARKTTAG, Tel.: 29 77 99 44",
-                    "email": "markttag@web.de",
-                    "www": "www.markttag-berlin.de",
-                    "bemerkungen": "Verkauf von Baby- und Kindersachen",
-                    "_wgs84_lat": "52.46693",
-                    "_wgs84_lon": "13.30754"
+                    "id": "441",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/kkm22-600.jpg",
+                    "copyright": "Werner Petrich",
+                    "bezirk": "Marzahn-Hellersdorf",
+                    "bezeichnung": "16. Kunst- und Keramikmarkt 2022",
+                    "strasse": "Alt-Marzahn 19/23",
+                    "plz": "12685",
+                    "tage": "12.-13.11.2022",
+                    "zeiten": "10:00 - 18:00",
+                    "betreiber": "KulturGut und \"Schamottchen\", Alt-Marzahn 19/23, 12685 Berlin, Tel.: 56 29 42 83/86",
+                    "email": "petrich@agrar-boerse-ev.de",
+                    "www": "",
+                    "bemerkungen": "Live Vorführungen, Musik und kulinarische Angebote",
+                    "_wgs84_lat": "52.54459",
+                    "_wgs84_lon": "13.55791"
                 }
             }
         },
@@ -48,6 +50,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/144",
                 "data": {
                     "id": "144",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Antik- und Buchmarkt am Bode Museum",
                     "strasse": "Am Kupfergraben",
@@ -57,7 +61,7 @@
                     "betreiber": "M.S.P.-Marktservice GmbH, Tel. 0176/66 66 67 15",
                     "email": "",
                     "www": "",
-                    "bemerkungen": "Am Kupfergraben/ Museumsinsel, \naußer Karfreitag, Volkstrauertag, Totensonntag, 24. und 31.12.2019",
+                    "bemerkungen": "Am Kupfergraben/ Museumsinsel, \naußer Karfreitag, Volkstrauertag, Totensonntag",
                     "_wgs84_lat": "52.5203",
                     "_wgs84_lon": "13.39519"
                 }
@@ -79,6 +83,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/396",
                 "data": {
                     "id": "396",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Antik- und Trödelmarkt Biesdorf-Center",
                     "strasse": "Weißenhöher Str. 88 - 108",
@@ -105,16 +111,18 @@
             },
             "properties": {
                 "title": "Antikflohmarkt Trabrennbahn Karlshorst",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429",
-                "description": "02./03.04., 07./08.05.,02./03.07., 06./07.08., 10./11.09., 05./06.11., 03./04.12.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426",
+                "description": "02.-03.04., 07.-08.05.,02.-03.07., 06.-07.08., 10.-11.09., 05.-06.11., 03.-04.12.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426",
                 "data": {
-                    "id": "429",
+                    "id": "426",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Antikflohmarkt Trabrennbahn Karlshorst",
                     "strasse": "Treskowallee 159",
                     "plz": "10318",
-                    "tage": "02./03.04., 07./08.05.,02./03.07., 06./07.08., 10./11.09., 05./06.11., 03./04.12.2022",
+                    "tage": "02.-03.04., 07.-08.05.,02.-03.07., 06.-07.08., 10.-11.09., 05.-06.11., 03.-04.12.2022",
                     "zeiten": "09:00 - 17:00",
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "email": "mailto:info@oldthing.de",
@@ -137,20 +145,22 @@
             "properties": {
                 "title": "Antikgroßflohmarkt Trabrennbahn Karlshorst",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/351",
-                "description": "05./06.03., 02./03.04., 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022<br />09:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/351\">Mehr...</a>",
+                "description": "05.-06.03., 02.- 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022<br />09:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/351\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/351",
                 "data": {
                     "id": "351",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Antikgroßflohmarkt Trabrennbahn Karlshorst",
                     "strasse": "Treskowallee 159",
                     "plz": "10318",
-                    "tage": "05./06.03., 02./03.04., 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022",
+                    "tage": "05.-06.03., 02.- 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022",
                     "zeiten": "09:00 - 16:00",
                     "betreiber": "Beste Sammelfreunde UG Tel.: 0176/58 88 93 85",
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de/riesenflohmarkt",
-                    "bemerkungen": "Im Freien und in der Tribünenhalle. Riesenflohmarkt Evetns 04.-06.06., 01.-03.10.2022",
+                    "bemerkungen": "Im Freien und in der Tribünenhalle. Riesenflohmarkt Events 04.-06.06., 01.-03.10.2022",
                     "_wgs84_lat": "52.47521",
                     "_wgs84_lon": "13.52289"
                 }
@@ -172,6 +182,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/417",
                 "data": {
                     "id": "417",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Antikgroßflohmarkt Trabrennbahn Karlshorst",
                     "strasse": "Treskowallee 159",
@@ -203,6 +215,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/423",
                 "data": {
                     "id": "423",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichsahin-Kreuzberg",
                     "bezeichnung": "Antikmarkt am Berliner Ostbahnhof",
                     "strasse": "Erich-Steinfurth-Str./Hermann-Stöhr-Park",
@@ -234,6 +248,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/66",
                 "data": {
                     "id": "66",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Antikmarkt am Berliner Ostbahnhof",
                     "strasse": "Erich-Steinfurth-Straße/Hermann-Stöhr-Park",
@@ -260,11 +276,13 @@
             },
             "properties": {
                 "title": "Antikmeile Suarezstraße",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438",
-                "description": "03.09.2022<br />12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435",
+                "description": "03.09.2022<br />12:00 - 20:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435",
                 "data": {
-                    "id": "438",
+                    "id": "435",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Antikmeile Suarezstraße",
                     "strasse": "Suarezstraße",
@@ -285,37 +303,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.3771,
-                    52.5083
-                ]
-            },
-            "properties": {
-                "title": "BETTER USED Markt am Potsdamer Platz",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426",
-                "description": "26.-29.05.2022<br />Do, So 10:-18:00&#10;Fr, Sa 11:00-19:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/426",
-                "data": {
-                    "id": "426",
-                    "bezirk": "Mitte",
-                    "bezeichnung": "BETTER USED Markt am Potsdamer Platz",
-                    "strasse": "Potsdamer Platz",
-                    "plz": "10178",
-                    "tage": "26.-29.05.2022",
-                    "zeiten": "Do, So 10:-18:00\nFr, Sa 11:00-19:00",
-                    "betreiber": "Beste Sammelfreunde UG Tel.: 0176/58 88 93 85",
-                    "email": "mailto:info@oldthing.de",
-                    "www": "http://www.oldthing.de",
-                    "bemerkungen": "",
-                    "_wgs84_lat": "52.5083",
-                    "_wgs84_lon": "13.3771"
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     13.35989,
                     52.54752
                 ]
@@ -327,13 +314,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/336",
                 "data": {
                     "id": "336",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Bauernmarkt Leopoldplatz",
                     "strasse": "Leopoldplatz",
                     "plz": "13353",
                     "tage": "Di, Fr",
                     "zeiten": "10:00 - 17:00",
-                    "betreiber": "Marktleitung: B-B-M Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57 (Di-Sa 06:00-18:00), Fax: 23 63 63 61",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "",
@@ -358,13 +347,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/327",
                 "data": {
                     "id": "327",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Berlin-Brandenburger-Bauernmarkt - \nSaisonmarkt auf dem Nikolaikirchplatz",
                     "strasse": "Nikolaikirchplatz",
                     "plz": "10178",
                     "tage": "März - Oktober",
                     "zeiten": "10:00 - 17:00",
-                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 (Di-Fr 10:00-16:00, Mo, So Ruhetag) und 0172/188 31 57 (Di-Sa 06:00-18:00, Mo, So Ruhetag), Fax: 23 63 63 61 (24h täglich)",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "",
@@ -385,20 +376,22 @@
             "properties": {
                 "title": "Better Used Markt",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/408",
-                "description": "26.-29.05.2022<br />Do, So 10:00 - 18:00&#10;Fr, Sa 11:00 - 19:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/408\">Mehr...</a>",
+                "description": "Do, So&#10;Fr, Sa<br />10:00 - 18:00&#10;11:00 - 19:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/408\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/408",
                 "data": {
                     "id": "408",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Better Used Markt",
                     "strasse": "Potsdamer Platz",
                     "plz": "10178",
-                    "tage": "26.-29.05.2022",
-                    "zeiten": "Do, So 10:00 - 18:00\nFr, Sa 11:00 - 19:00",
+                    "tage": "Do, So\nFr, Sa",
+                    "zeiten": "10:00 - 18:00\n11:00 - 19:00",
                     "betreiber": "Beste Sammelfreunde UG Tel.: 0176/58 88 93 85",
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de",
-                    "bemerkungen": "",
+                    "bemerkungen": "26.-29.05.2022",
                     "_wgs84_lat": "52.5083",
                     "_wgs84_lon": "13.3771"
                 }
@@ -416,10 +409,12 @@
             "properties": {
                 "title": "Die Dicke Linda",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/324",
-                "description": "Sa<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/324\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/MmBRRAQz_2nnmbRXOVeUapUsTX2NWodT4roUURB_nZ0/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9kaWNrZS1saW5kYS1rcmFub2xkcGxhdHotNjAwLmpwZw.jpg\" alt=\"\" />Sa<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/324\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/324",
                 "data": {
                     "id": "324",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/dicke-linda-kranoldplatz-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Die Dicke Linda",
                     "strasse": "Kranoldplatz",
@@ -451,6 +446,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/390",
                 "data": {
                     "id": "390",
+                    "bild": "",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Dorfmarkt Wannsee",
                     "strasse": "Wilhelmplatz",
@@ -460,7 +457,7 @@
                     "betreiber": "diemarktplaner, Dipl.-Ing. Nikolaus Fink, Sanderstr. 4, 12047 Berlin, Tel.: 29 30 96 01, Fax: 29 00 96 23",
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
-                    "bemerkungen": "",
+                    "bemerkungen": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/wannsee-dorfmarkt-600.jpg",
                     "_wgs84_lat": "52.4121067",
                     "_wgs84_lon": "13.1412936"
                 }
@@ -482,6 +479,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/321",
                 "data": {
                     "id": "321",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Brandenburg",
                     "bezeichnung": "Floh- und Bauernmarkt in Potsdam",
                     "strasse": "Weberplatz",
@@ -513,6 +512,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/384",
                 "data": {
                     "id": "384",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Flohmarkt Falkenseer Chaussee, Siegener Straße",
                     "strasse": "Falkenseer Chaussee 239",
@@ -544,6 +545,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/294",
                 "data": {
                     "id": "294",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Flohmarkt Marienfelde, Hornbach-Parkplatz",
                     "strasse": "Großbeerenstr. 133",
@@ -575,6 +578,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/312",
                 "data": {
                     "id": "312",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Flohmarkt Schönefeld",
                     "strasse": "Grünbergallee 279",
@@ -606,6 +611,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/309",
                 "data": {
                     "id": "309",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Flohmarkt am S-Bhf. Friedrichshagen",
                     "strasse": "Schöneicher Str./Dahlwitzer Landstr.",
@@ -615,7 +622,7 @@
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de",
-                    "bemerkungen": "außer Volkstrauertag und Totensonntag und den Karlshorstwochenenden",
+                    "bemerkungen": "außer Volkstrauertag und Totensonntag",
                     "_wgs84_lat": "52.4698575",
                     "_wgs84_lon": "13.6296989"
                 }
@@ -637,6 +644,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/420",
                 "data": {
                     "id": "420",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Flohmarkt am S-Bhf. Friedrichshagen",
                     "strasse": "Schöneicherstr./Dahlwitzer Landstraße",
@@ -668,6 +677,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/150",
                 "data": {
                     "id": "150",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Flohmarkt im Mauerpark",
                     "strasse": "Bernauer Straße 63-64",
@@ -695,10 +706,12 @@
             "properties": {
                 "title": "Frischemarkt Andréezeile",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/387",
-                "description": "Sa<br />08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/387\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/JrNfdxXvEfuaSeQnskX81lvDi3vbhCEt99JQqYT6ejo/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9hbmRyZWV6ZWlsZS02MDAuanBn.jpg\" alt=\"\" />Sa<br />08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/387\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/387",
                 "data": {
                     "id": "387",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/andreezeile-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Frischemarkt Andréezeile",
                     "strasse": "Ladiusstraße",
@@ -730,6 +743,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/141",
                 "data": {
                     "id": "141",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Großer Trödelmarkt am Arkonaplatz",
                     "strasse": "Arkonaplatz",
@@ -761,6 +776,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/48",
                 "data": {
                     "id": "48",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Karl-Marx-Allee vor Nr. 93",
                     "strasse": "Karl-Marx-Allee 93",
@@ -781,29 +798,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.62481,
-                    52.44831
+                    13.62475,
+                    52.44832
                 ]
             },
             "properties": {
                 "title": "Kunst & Trödelmarkt zum Bölschestraßenfest",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432",
-                "description": "07./08.05.2022<br /><br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429",
+                "description": "07.-08.05.2022<br /><br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/429",
                 "data": {
-                    "id": "432",
+                    "id": "429",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Kunst & Trödelmarkt zum Bölschestraßenfest",
                     "strasse": "Bölschestraße",
                     "plz": "12587",
-                    "tage": "07./08.05.2022",
+                    "tage": "07.-08.05.2022",
                     "zeiten": "",
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de",
                     "bemerkungen": "in Planung",
-                    "_wgs84_lat": "52.4483142",
-                    "_wgs84_lon": "13.6248101"
+                    "_wgs84_lat": "52.4483209",
+                    "_wgs84_lon": "13.6247529"
                 }
             }
         },
@@ -812,8 +831,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.36855,
-                    52.51564
+                    13.36845,
+                    52.51574
                 ]
             },
             "properties": {
@@ -823,6 +842,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/39",
                 "data": {
                     "id": "39",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Kunst- und Trödelmarkt \nStraße des 17. Juni",
                     "strasse": "Straße des 17. Juni",
@@ -833,8 +854,8 @@
                     "email": "mailto:info@berliner-troedelmarkt.de",
                     "www": "http://www.berliner-troedelmarkt.de",
                     "bemerkungen": "außer Volkstrauertag, Totensonntag, Sa, So Trödelmarkt, So 10:00-17:00 Kunstmarkt",
-                    "_wgs84_lat": "52.5156437",
-                    "_wgs84_lon": "13.3685484"
+                    "_wgs84_lat": "52.5157373",
+                    "_wgs84_lon": "13.3684497"
                 }
             }
         },
@@ -850,10 +871,12 @@
             "properties": {
                 "title": "Kunst- und Trödelmarkt Fehrbelliner Platz",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42",
-                "description": "Sa, So<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/pU-CTRmJbDA0J4R_akgmVTyPVGC96K6XDL9iRNfpHh4/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9idXJkYWNrLmpwZw.jpg\" alt=\"\" />Sa, So<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42",
                 "data": {
                     "id": "42",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/burdack.jpg",
+                    "copyright": "André Burdack",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Kunst- und Trödelmarkt Fehrbelliner Platz",
                     "strasse": "Fehrbelliner Platz",
@@ -885,6 +908,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/153",
                 "data": {
                     "id": "153",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Kunstmarkt am Zeughaus",
                     "strasse": "Unter den Linden 2",
@@ -905,6 +930,39 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.30754,
+                    52.46693
+                ]
+            },
+            "properties": {
+                "title": "Markt <164",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411",
+                "description": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022<br />10:00 - 14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411",
+                "data": {
+                    "id": "411",
+                    "bild": "",
+                    "copyright": "",
+                    "bezirk": "Steglitz-Zehlendorf",
+                    "bezeichnung": "Markt <164",
+                    "strasse": "Breitenbachplatz",
+                    "plz": "14195",
+                    "tage": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022",
+                    "zeiten": "10:00 - 14:00",
+                    "betreiber": "Fa. MARKTTAG, Tel.: 29 77 99 44",
+                    "email": "markttag@web.de",
+                    "www": "www.markttag-berlin.de",
+                    "bemerkungen": "Verkauf von Baby- und Kindersachen",
+                    "_wgs84_lat": "52.46693",
+                    "_wgs84_lon": "13.30754"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.21694,
                     52.43855
                 ]
@@ -916,6 +974,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/255",
                 "data": {
                     "id": "255",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Markt Schlachtensee (Wochenmarkt)",
                     "strasse": "Matterhornstr. 52/54",
@@ -943,10 +1003,12 @@
             "properties": {
                 "title": "Markthalle Neun",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60",
-                "description": "Fr&#10;Sa<br />12:00 - 18:00&#10;10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/Tos_DcQFujeCr3XTCRpl8MOZ4RBRdaQ801kVH9FNBO8/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9tYXJrdGhhbGxlOS02MDAuanBn.jpg\" alt=\"\" />Fr&#10;Sa<br />12:00 - 18:00&#10;10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60",
                 "data": {
                     "id": "60",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/markthalle9-600.jpg",
+                    "copyright": "Bernd Maier",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Markthalle Neun",
                     "strasse": "Eisenbahnstraße 42/43",
@@ -956,7 +1018,7 @@
                     "betreiber": "Markthalle Neun, \nTel.: 61 07 34 73\nFax: 61 07 34 74",
                     "email": "mailto:info@markthalleneun.de",
                     "www": "http://www.markthalleneun.de",
-                    "bemerkungen": "Basisangebot Lebensmittel: Di, - Do 12:00 - 18:00",
+                    "bemerkungen": "Basisangebot Lebensmittel: Di - Do 12:00 - 18:00",
                     "_wgs84_lat": "52.5019987",
                     "_wgs84_lon": "13.4320238"
                 }
@@ -967,17 +1029,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.40664,
-                    52.48947
+                    13.40655,
+                    52.48949
                 ]
             },
             "properties": {
                 "title": "Neuer Markt am Südstern",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63",
-                "description": "Sa<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/rYnGmwPVZ9_YSoLDm_WkbTfUiJYn9fkw8EhR2JAj1fQ/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9zdWVkc3Rlcm4tbmV1ZXItbWFya3QtNjAwLmpwZw.jpg\" alt=\"\" />Sa<br />10:00 - 16:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63",
                 "data": {
                     "id": "63",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/suedstern-neuer-markt-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Neuer Markt am Südstern",
                     "strasse": "Südstern",
@@ -988,8 +1052,8 @@
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
                     "bemerkungen": "U-Südstern",
-                    "_wgs84_lat": "52.4894657",
-                    "_wgs84_lon": "13.4066445"
+                    "_wgs84_lat": "52.4894871",
+                    "_wgs84_lon": "13.4065511"
                 }
             }
         },
@@ -1009,6 +1073,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/180",
                 "data": {
                     "id": "180",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Stoff am Maybachufer",
                     "strasse": "Maybachufer 31",
@@ -1036,20 +1102,22 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Britz-Süd \"Frisches vom Markt\"",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162",
-                "description": "Mo&#10;Do&#10;Sa<br />08:00 - 13:00&#10;08:00 - 13:00&#10;08:00 - 14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/RcSQXOPO9CgN7DVMpStwdkUJy6jW-Yi1L3gl68ZPYIE/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9icml0ei1zdWVkLTYwMC5qcGc.jpg\" alt=\"\" />Mo, Do&#10;Sa<br />08:00 - 13:00&#10;08:00 - 14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162",
                 "data": {
                     "id": "162",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/britz-sued-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Britz-Süd \"Frisches vom Markt\"",
                     "strasse": "Gutschmidtstraße",
                     "plz": "12359",
-                    "tage": "Mo\nDo\nSa",
-                    "zeiten": "08:00 - 13:00\n08:00 - 13:00\n08:00 - 14:00",
+                    "tage": "Mo, Do\nSa",
+                    "zeiten": "08:00 - 13:00\n08:00 - 14:00",
                     "betreiber": "diemarktplaner, Dipl.-Ing. Nikolaus Fink, Sanderstr. 4, 12047 Berlin, Tel.: 29 30 96 01, Fax: 29 00 96 23",
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
-                    "bemerkungen": "Ecke Fritz-Reuter-Allee, Sa ab 03.04.2021 mit Flohmarkt 08:00 - 14:00",
+                    "bemerkungen": "Ecke Fritz-Reuter-Allee",
                     "_wgs84_lat": "52.4375819",
                     "_wgs84_lon": "13.4491778"
                 }
@@ -1067,10 +1135,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Hermannplatz \"Marktfood - vor Ort und für Zuhause\"",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165",
-                "description": "Mo - Fr<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/ePQ6lZawmSPchZEtnGsxYfHYgdZLBmFPNBRaAnUGIFk/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9oZXJtYW5ucGxhdHotNjAwLmpwZw.jpg\" alt=\"\" />Mo - Fr<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165",
                 "data": {
                     "id": "165",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/hermannplatz-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Hermannplatz \"Marktfood - vor Ort und für Zuhause\"",
                     "strasse": "Hermannplatz",
@@ -1098,10 +1168,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Maybachufer",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168",
-                "description": "Di, Fr<br />11:00 - 18:30<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/dFAL9uDfkfXTOFoxdDUJgUZOl04qlL3bnhMpNCgdEKM/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9tYXliYWNodWZlci02MDAuanBn.jpg\" alt=\"\" />Di, Fr<br />11:00 - 18:30<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168",
                 "data": {
                     "id": "168",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/maybachufer-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Maybachufer",
                     "strasse": "Maybachufer 1 - 13",
@@ -1129,10 +1201,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Parchimer Allee \"Freitagsmarkt bis abends!\"",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171",
-                "description": "Fr<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/Aq-buWllb-_uEHVm2tPra_qoh8YAL3xpNfH5exFKxbY/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9wYXJjaGltZXItYWxsZWUtNjAwLmpwZw.jpg\" alt=\"\" />Fr<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171",
                 "data": {
                     "id": "171",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/parchimer-allee-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Parchimer Allee \"Freitagsmarkt bis abends!\"",
                     "strasse": "Fritz-Reuter-Allee 73",
@@ -1160,10 +1234,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Rixdorf \"Gesunder Genuss auf dem Rixdorfer Markt\"",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156",
-                "description": "Mi&#10;Sa<br />11:00 - 18:00&#10;08:00 - 15:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/ziZMp3BJdZNjzPVpCM0aewZ_34Q46nJuqamm2-y63aI/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9yaXhkb3JmLWthcmwtbWFyeC1wbGF0ei1za2FsaWVydC5qcGc.jpg\" alt=\"\" />Mi&#10;Sa<br />11:00 - 18:00&#10;08:00 - 15:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156",
                 "data": {
                     "id": "156",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/rixdorf-karl-marx-platz-skaliert.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Rixdorf \"Gesunder Genuss auf dem Rixdorfer Markt\"",
                     "strasse": "Karl-Marx-Platz",
@@ -1191,10 +1267,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Rudow \"Regionale Qualität in Rudow\"",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159",
-                "description": "Mi, Sa<br />08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/NByN30DW1fIoaYCZ9KsM0TDkoF1_7egpzbsMSMvc7yE/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9ydWRvdy1wcmllcm9zc2VyLXN0ci02MDAuanBn.jpg\" alt=\"\" />Mi, Sa<br />08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159",
                 "data": {
                     "id": "159",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/rudow-prierosser-str-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Rudow \"Regionale Qualität in Rudow\"",
                     "strasse": "Prierosser Straße",
@@ -1222,10 +1300,12 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Wutzkyallee",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174",
-                "description": "Mi&#10;Sa<br />08:00 - 14:00&#10;08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/Vnh6AH_66R9yAY_VaLDQaGNP2qTJpOINh5LonYN8fEU/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy93dXR6a3lhbGxlZS02MDAuanBn.jpg\" alt=\"\" />Mi&#10;Sa<br />08:00 - 14:00&#10;08:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174",
                 "data": {
                     "id": "174",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/wutzkyallee-600.jpg",
+                    "copyright": "diemarktplaner",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Neuköllner Wochenmärkte Wutzkyallee",
                     "strasse": "Rotraut-Richter-Platz",
@@ -1257,6 +1337,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/369",
                 "data": {
                     "id": "369",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Nowkoelln Flowmarkt",
                     "strasse": "Maybachufer 31",
@@ -1283,11 +1365,13 @@
             },
             "properties": {
                 "title": "Riesenflohmarkt Trabrennbahn Karlshorst",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435",
-                "description": "04.-06.06.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/435",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432",
+                "description": "04.-06.06.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/432",
                 "data": {
-                    "id": "435",
+                    "id": "432",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Riesenflohmarkt Trabrennbahn Karlshorst",
                     "strasse": "Treskowallee 159",
@@ -1297,7 +1381,7 @@
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "email": "mailto:info@oldthing.de",
                     "www": "http://www.oldthing.de",
-                    "bemerkungen": "New Antik in der Tribühnenhalle",
+                    "bemerkungen": "New Antik in der Tribünenhalle",
                     "_wgs84_lat": "52.47521",
                     "_wgs84_lon": "13.52289"
                 }
@@ -1314,11 +1398,13 @@
             },
             "properties": {
                 "title": "Riesenflohmarkt Trabrennbahn Karlshorst",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441",
-                "description": "01.-03.10.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441\">Mehr...</a>",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/441",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438",
+                "description": "01.-03.10.2022<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438\">Mehr...</a>",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/438",
                 "data": {
-                    "id": "441",
+                    "id": "438",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Riesenflohmarkt Trabrennbahn Karlshorst",
                     "strasse": "Treskowallee 159",
@@ -1346,10 +1432,12 @@
             "properties": {
                 "title": "Schoeneboerg Flowmarkt",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/393",
-                "description": "10.04., 24.04., 08.05., 22.05., 05.06., 19.06., 03.07., 17.07., 31.07., 14.08., 28.08., 11.09., 25.09., 09.10., 23.10.2022<br />10:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/393\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/rc7Ae7d2xs3EeVxxVBj_8WvKCNefUaCSChaUULFCWos/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9mbS1zY2hvZW5lYmVyZzYwMC5qcGc.jpg\" alt=\"\" />10.04., 24.04., 08.05., 22.05., 05.06., 19.06., 03.07., 17.07., 31.07., 14.08., 28.08., 11.09., 25.09., 09.10., 23.10.2022<br />10:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/393\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/393",
                 "data": {
                     "id": "393",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/fm-schoeneberg600.jpg",
+                    "copyright": "Flowmarkt Schöneberg",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Schoeneboerg Flowmarkt",
                     "strasse": "Crellestr. 25",
@@ -1377,15 +1465,17 @@
             "properties": {
                 "title": "Trödelmarkt Bergmannstraße",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69",
-                "description": "Sa&#10;So<br />10:00 - 16:00&#10;11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69\">Mehr...</a>",
+                "description": "Sa, So<br />10:00 - 16:00&#10;11:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69",
                 "data": {
                     "id": "69",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Trödelmarkt Bergmannstraße",
                     "strasse": "Marheinekeplatz",
                     "plz": "10961",
-                    "tage": "Sa\nSo",
+                    "tage": "Sa, So",
                     "zeiten": "10:00 - 16:00\n11:00 - 17:00",
                     "betreiber": "Marktleitung: \nMario Krüger, Tel.: 0172/958 91 57",
                     "email": "",
@@ -1412,6 +1502,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/354",
                 "data": {
                     "id": "354",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Trödelmarkt Boxhagener Platz",
                     "strasse": "Grünberger Straße 75",
@@ -1443,6 +1535,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/375",
                 "data": {
                     "id": "375",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Trödelmarkt Hornbach Neukölln",
                     "strasse": "Gradestraße 100",
@@ -1474,6 +1568,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/372",
                 "data": {
                     "id": "372",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Trödelmarkt Landsberger Allee auf dem IKEA Parkplatz",
                     "strasse": "Landsberger Allee 364",
@@ -1505,6 +1601,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/291",
                 "data": {
                     "id": "291",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Trödelmarkt METRO Marienfelde",
                     "strasse": "Buckower Chaussee 25-35",
@@ -1536,6 +1634,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/240",
                 "data": {
                     "id": "240",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Trödelmarkt METRO Spandau",
                     "strasse": "Nonnendammallee 135",
@@ -1567,6 +1667,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/378",
                 "data": {
                     "id": "378",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Reinickendorf",
                     "bezeichnung": "Trödelmarkt Markstraße",
                     "strasse": "Markstraße 32-34",
@@ -1598,6 +1700,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/381",
                 "data": {
                     "id": "381",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Reinickendorf",
                     "bezeichnung": "Trödelmarkt Ollenhauerstraße",
                     "strasse": "Ollenhauerstraße 107",
@@ -1629,6 +1733,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/222",
                 "data": {
                     "id": "222",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Trödelmarkt Schuhcenter Siemes Wedding, Parkplatz",
                     "strasse": "Markstr. 17 - 18",
@@ -1660,6 +1766,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45",
                 "data": {
                     "id": "45",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Trödelmarkt an der Mecklenburgischen Straße",
                     "strasse": "Mecklenburgische Straße",
@@ -1691,6 +1799,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/264",
                 "data": {
                     "id": "264",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Trödelmarkt auf dem Hermann-Ehlers-Platz",
                     "strasse": "Hermann-Ehlers-Platz",
@@ -1722,6 +1832,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/288",
                 "data": {
                     "id": "288",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Trödelmarkt auf dem John-F.-Kennedy-Platz",
                     "strasse": "John-F.-Kennedy-Platz 1",
@@ -1731,7 +1843,7 @@
                     "betreiber": "Jörg Thurmann, \nTel.: 03322/21 08 68 (Mo-Fr 09:00-17:00), Fax: 03322/24 67 24",
                     "email": "mailto:j.thurmann@tts-wc.de",
                     "www": "http://www.berlin-flohmaerkte.de",
-                    "bemerkungen": "außer Wochenende 28./29.09.2019, Volkstrauertag und Totensonntag, info@berlin-flohmaerkte.de",
+                    "bemerkungen": "außer Volkstrauertag und Totensonntag, info@berlin-flohmaerkte.de",
                     "_wgs84_lat": "52.4848893",
                     "_wgs84_lon": "13.3436245"
                 }
@@ -1753,6 +1865,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/147",
                 "data": {
                     "id": "147",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Trödelmarkt auf dem Leopoldplatz",
                     "strasse": "Leopoldplatz",
@@ -1784,13 +1898,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/285",
                 "data": {
                     "id": "285",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wittenbergplatz (Nordseite)\nBrandenburger Bauernmarkt",
                     "strasse": "Wittenbergplatz 5",
                     "plz": "10789",
                     "tage": "Do",
                     "zeiten": "09:00 - 17:00",
-                    "betreiber": "Marktleitung: B-B-M Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57 (Di-Sa 06:00-18:00), Fax: 23 63 63 61",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "bbm_gmbh@hotmail.de",
@@ -1815,6 +1931,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/357",
                 "data": {
                     "id": "357",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Adlershof",
                     "strasse": "Dörpfeldstraße",
@@ -1846,6 +1964,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/231",
                 "data": {
                     "id": "231",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Wochenmarkt Altstadt Spandau - Markt\nHavelländischer Land- und Bauernmarkt",
                     "strasse": "Markt 3",
@@ -1877,6 +1997,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/54",
                 "data": {
                     "id": "54",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Wochenmarkt Am Kaufhof Ostbahnhof\n(Erich-Steinfurth-Straße)",
                     "strasse": "Ostbahnhof",
@@ -1908,8 +2030,10 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/315",
                 "data": {
                     "id": "315",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Brandenburg",
-                    "bezeichnung": "Wochenmarkt Am Nauener Tor\n14467 Potsdam",
+                    "bezeichnung": "Wochenmarkt Am Nauener Tor in Potsdam",
                     "strasse": "Hegelallee 55",
                     "plz": "14467",
                     "tage": "Mi, Sa",
@@ -1939,6 +2063,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/300",
                 "data": {
                     "id": "300",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Am S-Bhf. Köpenick",
                     "strasse": "Elcknerplatz",
@@ -1970,6 +2096,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/72",
                 "data": {
                     "id": "72",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Anton-Saefkow-Platz",
                     "strasse": "Anton-Saefkow-Platz",
@@ -2001,6 +2129,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/207",
                 "data": {
                     "id": "207",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Antonplatz",
                     "strasse": "Antonplatz",
@@ -2021,8 +2151,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52667,
-                    52.45864
+                    13.52637,
+                    52.45868
                 ]
             },
             "properties": {
@@ -2032,6 +2162,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/339",
                 "data": {
                     "id": "339",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Berlin-Oberschöneweide",
                     "strasse": "Rathenauplatz",
@@ -2042,8 +2174,8 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "www": "http://www.brandenburger-wochenmaerkte.de",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4586392",
-                    "_wgs84_lon": "13.5266724"
+                    "_wgs84_lat": "52.458681",
+                    "_wgs84_lon": "13.52637"
                 }
             }
         },
@@ -2063,6 +2195,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/51",
                 "data": {
                     "id": "51",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Wochenmarkt Boxhagener Platz",
                     "strasse": "Boxhagener Platz",
@@ -2094,6 +2228,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/186",
                 "data": {
                     "id": "186",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Breite Straße",
                     "strasse": "Breite Str. 17",
@@ -2125,6 +2261,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/276",
                 "data": {
                     "id": "276",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Breslauer Platz",
                     "strasse": "Breslauer Platz",
@@ -2156,6 +2294,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/234",
                 "data": {
                     "id": "234",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Wochenmarkt Brunsbütteler Damm 265",
                     "strasse": "Brunsbütteler Damm 265",
@@ -2187,6 +2327,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/204",
                 "data": {
                     "id": "204",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Bucher Chaussee / Achillesstraße",
                     "strasse": "Bucher Chaussee",
@@ -2196,7 +2338,7 @@
                     "betreiber": "Betreiber: Herr Schultz, Tel.: 0172/380 06 87",
                     "email": "",
                     "www": "",
-                    "bemerkungen": "Winter: Do 09:00 - 16:30, Sa 08:00 - 13:30, Mai - September: Jeden 1. Samstag im Monat mit Trödelecke",
+                    "bemerkungen": "Winter: Do 09:00 - 16:30, Sa 08:00 - 13:30",
                     "_wgs84_lat": "52.6174531",
                     "_wgs84_lon": "13.4871163"
                 }
@@ -2218,6 +2360,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/30",
                 "data": {
                     "id": "30",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Bundesplatz",
                     "strasse": "Bundesplatz",
@@ -2249,6 +2393,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/216",
                 "data": {
                     "id": "216",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Reinickendorf",
                     "bezeichnung": "Wochenmarkt Burgfrauenstraße",
                     "strasse": "Burgfrauenstraße",
@@ -2276,15 +2422,17 @@
             "properties": {
                 "title": "Wochenmarkt Bärenschaufenster\n(öffentl. Straßenland)",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75",
-                "description": "Mo, &#10;Do, &#10;Fr<br />08:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75\">Mehr...</a>",
+                "description": "Mo, Do, Fr<br />08:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75",
                 "data": {
                     "id": "75",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Bärenschaufenster\n(öffentl. Straßenland)",
                     "strasse": "Am Tierpark",
                     "plz": "10319",
-                    "tage": "Mo, \nDo, \nFr",
+                    "tage": "Mo, Do, Fr",
                     "zeiten": "08:00 - 18:00",
                     "betreiber": "Marktleitung: \nGakenholz und Gellesch GmbH\nTel.: 396 11 96, 0171/602 42 04, 0171/607 53 61",
                     "email": "mailto:berndgellesch@t-online.de",
@@ -2300,29 +2448,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.62481,
-                    52.44831
+                    13.62475,
+                    52.44832
                 ]
             },
             "properties": {
                 "title": "Wochenmarkt Bölschestraße",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/297",
-                "description": "Mo&#10;Mi&#10;Fr&#10;Sa<br />10:00 - 16:00&#10;10:00 - 16:00&#10;10:00 - 16:00&#10;09:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/297\">Mehr...</a>",
+                "description": "Mo, Mi, Fr&#10;Sa<br />10:00 - 16:00&#10;09:00 - 13:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/297\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/297",
                 "data": {
                     "id": "297",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Bölschestraße",
                     "strasse": "Bölschestraße",
                     "plz": "12587",
-                    "tage": "Mo\nMi\nFr\nSa",
-                    "zeiten": "10:00 - 16:00\n10:00 - 16:00\n10:00 - 16:00\n09:00 - 13:00",
+                    "tage": "Mo, Mi, Fr\nSa",
+                    "zeiten": "10:00 - 16:00\n09:00 - 13:00",
                     "betreiber": "Marktleitung: Herr Hirche\nTel.: 0334/397 79 79, 0172/309 49 77, \nFax: 0334/397 79 80",
                     "email": "mailto:markt-hirche@web.de",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4483142",
-                    "_wgs84_lon": "13.6248101"
+                    "_wgs84_lat": "52.4483209",
+                    "_wgs84_lon": "13.6247529"
                 }
             }
         },
@@ -2331,8 +2481,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.4305,
-                    52.55254
+                    13.43049,
+                    52.55249
                 ]
             },
             "properties": {
@@ -2342,6 +2492,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/210",
                 "data": {
                     "id": "210",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Caligariplatz",
                     "strasse": "Caligariplatz",
@@ -2352,8 +2504,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.5525424",
-                    "_wgs84_lon": "13.4305036"
+                    "_wgs84_lat": "52.5524902",
+                    "_wgs84_lon": "13.4304918"
                 }
             }
         },
@@ -2373,6 +2525,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/108",
                 "data": {
                     "id": "108",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt Cecilienplatz",
                     "strasse": "Ernst-Bloch-Straße",
@@ -2404,6 +2558,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/18",
                 "data": {
                     "id": "18",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Charlottenbrunner Straße",
                     "strasse": "Charlottenbrunner Straße",
@@ -2435,6 +2591,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/279",
                 "data": {
                     "id": "279",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Crellestraße",
                     "strasse": "Crellestraße 24",
@@ -2466,6 +2624,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/366",
                 "data": {
                     "id": "366",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Brandenburg",
                     "bezeichnung": "Wochenmarkt Dorfaue Schöneiche",
                     "strasse": "Dorfaue",
@@ -2497,6 +2657,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21",
                 "data": {
                     "id": "21",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Eberbacher Straße",
                     "strasse": "Eberbacher Straße",
@@ -2528,6 +2690,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/237",
                 "data": {
                     "id": "237",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Wochenmarkt Einkaufscenter Staaken",
                     "strasse": "Obstallee 28",
@@ -2559,6 +2723,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/33",
                 "data": {
                     "id": "33",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Fehrbelliner Platz",
                     "strasse": "Fehrbelliner Platz",
@@ -2590,6 +2756,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/402",
                 "data": {
                     "id": "402",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Reinickendorf",
                     "bezeichnung": "Wochenmarkt Fellbacher Straße",
                     "strasse": "Fellbacher Str. 30a",
@@ -2621,6 +2789,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/81",
                 "data": {
                     "id": "81",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Frankfurter Allee 172",
                     "strasse": "Frankfurter Allee 172",
@@ -2652,6 +2822,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/87",
                 "data": {
                     "id": "87",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Friedrichsfelde Ost",
                     "strasse": "Seddiner Straße",
@@ -2683,6 +2855,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/363",
                 "data": {
                     "id": "363",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Brandenburg",
                     "bezeichnung": "Wochenmarkt Friedrichstraße Erkner",
                     "strasse": "Friedrichstraße",
@@ -2714,6 +2888,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/345",
                 "data": {
                     "id": "345",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Greifswalder Straße / Thomas-Mann-Straße",
                     "strasse": "Greifswalder Straße 157",
@@ -2745,6 +2921,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/399",
                 "data": {
                     "id": "399",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Grünau",
                     "strasse": "Richterstr. 16",
@@ -2776,6 +2954,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/228",
                 "data": {
                     "id": "228",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Wochenmarkt Hakenfelde",
                     "strasse": "Michelstadter Weg",
@@ -2807,6 +2987,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/192",
                 "data": {
                     "id": "192",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Hauptstraße / Goethestraße\nWilhelmsruh",
                     "strasse": "Hauptstraße",
@@ -2838,6 +3020,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/102",
                 "data": {
                     "id": "102",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt Helene-Weigel-Platz",
                     "strasse": "Helene-Weigel-Platz",
@@ -2869,6 +3053,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/96",
                 "data": {
                     "id": "96",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt Helle Mitte",
                     "strasse": "Peter-Weiss-Gasse",
@@ -2896,16 +3082,18 @@
             "properties": {
                 "title": "Wochenmarkt Hermann-Ehlers-Platz",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/243",
-                "description": "Di&#10;Sa&#10;Do<br />08:00 - 14:00&#10;08:00 - 14:00&#10;08:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/243\">Mehr...</a>",
+                "description": "Di, Sa&#10;Do<br />08:00 - 14:00&#10;08:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/243\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/243",
                 "data": {
                     "id": "243",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Hermann-Ehlers-Platz",
                     "strasse": "Hermann-Ehlers-Platz",
                     "plz": "12165",
-                    "tage": "Di\nSa\nDo",
-                    "zeiten": "08:00 - 14:00\n08:00 - 14:00\n08:00 - 18:00",
+                    "tage": "Di, Sa\nDo",
+                    "zeiten": "08:00 - 14:00\n08:00 - 18:00",
                     "betreiber": "Bezirksamt Steglitz-Zehlendorf von Berlin, Marktverwaltung \nTel.: 90299-38 04, Fax: 90299-4602",
                     "email": "",
                     "www": "",
@@ -2931,6 +3119,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/78",
                 "data": {
                     "id": "78",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Herzbergstraße / Weißenseer Weg\n(Roedernplatz)",
                     "strasse": "Herzbergstraße",
@@ -2951,8 +3141,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.19463,
-                    52.43114
+                    13.20056,
+                    52.43072
                 ]
             },
             "properties": {
@@ -2962,6 +3152,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/27",
                 "data": {
                     "id": "27",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Hohenzollernplatz",
                     "strasse": "Hohenzollernplatz",
@@ -2972,8 +3164,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "",
-                    "_wgs84_lat": "52.4311394",
-                    "_wgs84_lon": "13.1946283"
+                    "_wgs84_lat": "52.4307217",
+                    "_wgs84_lon": "13.2005562"
                 }
             }
         },
@@ -2993,6 +3185,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/126",
                 "data": {
                     "id": "126",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt Jagowstraße",
                     "strasse": "Jagowstraße",
@@ -3024,6 +3218,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/273",
                 "data": {
                     "id": "273",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt John-F.-Kennedy-Platz",
                     "strasse": "John-F.-Kennedy-Platz 1",
@@ -3055,6 +3251,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/12",
                 "data": {
                     "id": "12",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Karl-August-Platz",
                     "strasse": "Karl-August-Platz",
@@ -3086,6 +3284,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/84",
                 "data": {
                     "id": "84",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Karlshorst",
                     "strasse": "Ehrenfelsstraße",
@@ -3117,6 +3317,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/6",
                 "data": {
                     "id": "6",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Klausenerplatz",
                     "strasse": "Klausenerplatz",
@@ -3148,6 +3350,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/36",
                 "data": {
                     "id": "36",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Kolberger Platz",
                     "strasse": "Kolberger Platz",
@@ -3179,13 +3383,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/123",
                 "data": {
                     "id": "123",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt Leopoldplatz",
                     "strasse": "Leopoldplatz",
                     "plz": "13353",
                     "tage": "Do",
                     "zeiten": "11:00 - 17:00",
-                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 (Di-Fr 10:00-16:00, Mo, So Ruhetag) und 0172/188 31 57 (Di-Sa 06:00-18:00, Mo, So Ruhetag), Fax: 23 63 63 61 (24h täglich)",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "",
@@ -3210,6 +3416,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/246",
                 "data": {
                     "id": "246",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Lichterfelde, Kranoldplatz",
                     "strasse": "Kranoldplatz",
@@ -3241,6 +3449,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/252",
                 "data": {
                     "id": "252",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Ludwig-Beck-Platz",
                     "strasse": "Ludwig-Beck-Platz",
@@ -3272,6 +3482,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/99",
                 "data": {
                     "id": "99",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt Mahlsdorf\nRoedernstraße / Hultschiner Damm",
                     "strasse": "Roedernstraße",
@@ -3303,6 +3515,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/267",
                 "data": {
                     "id": "267",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Mariendorfer Damm / Prinzenstraße",
                     "strasse": "Prinzenstraße",
@@ -3334,6 +3548,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/201",
                 "data": {
                     "id": "201",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Markt am Helmholtzplatz",
                     "strasse": "Helmholtzplatz",
@@ -3365,6 +3581,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/189",
                 "data": {
                     "id": "189",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Markt am Hugenottenplatz",
                     "strasse": "Hugenottenplatz",
@@ -3396,13 +3614,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/117",
                 "data": {
                     "id": "117",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt Markt am Spittelmarkt",
                     "strasse": "Spittelmarkt",
                     "plz": "10179",
                     "tage": "Mi, Fr",
                     "zeiten": "10:00 - 15:00",
-                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 (Di-Fr 10:00-16:00, Mo, So Ruhetag) und 0172/188 31 57 (Di-Sa 06:00-18:00, Mo, So Ruhetag), Fax: 23 63 63 61 (24h täglich)",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "",
@@ -3427,6 +3647,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/198",
                 "data": {
                     "id": "198",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Markt am Stierbrunnen",
                     "strasse": "Pasteurstraße 32",
@@ -3458,6 +3680,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/105",
                 "data": {
                     "id": "105",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt Marzahner Promenade",
                     "strasse": "Marzahner Promenade 30-33",
@@ -3489,6 +3713,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/261",
                 "data": {
                     "id": "261",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Mexikoplatz",
                     "strasse": "Mexikoplatz",
@@ -3520,6 +3746,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/15",
                 "data": {
                     "id": "15",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Mierendorffplatz",
                     "strasse": "Mierendorffplatz",
@@ -3551,6 +3779,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/24",
                 "data": {
                     "id": "24",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Nestorstraße",
                     "strasse": "Nestorstraße",
@@ -3582,6 +3812,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/213",
                 "data": {
                     "id": "213",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Neuer Markt am Kollwitzplatz",
                     "strasse": "Kollwitzplatz",
@@ -3602,8 +3834,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.25308,
-                    52.44992
+                    13.25189,
+                    52.44959
                 ]
             },
             "properties": {
@@ -3613,6 +3845,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/330",
                 "data": {
                     "id": "330",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Onkel-Toms-Hütte",
                     "strasse": "Onkel-Tom-Str. 99",
@@ -3623,8 +3857,8 @@
                     "email": "mailto:info@diemarktplaner.de",
                     "www": "http://www.diemarktplaner.de",
                     "bemerkungen": "U-Onkel-Toms-Hütte",
-                    "_wgs84_lat": "52.4499205",
-                    "_wgs84_lon": "13.2530816"
+                    "_wgs84_lat": "52.44959",
+                    "_wgs84_lon": "13.25189"
                 }
             }
         },
@@ -3644,8 +3878,10 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/318",
                 "data": {
                     "id": "318",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Brandenburg",
-                    "bezeichnung": "Wochenmarkt Potsdam Bassinplatz",
+                    "bezeichnung": "Wochenmarkt Bassinplatz in Potsdam",
                     "strasse": "Am Bassin 6",
                     "plz": "14467",
                     "tage": "Mo - Fr\nSa",
@@ -3675,6 +3911,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/93",
                 "data": {
                     "id": "93",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Prerower Platz",
                     "strasse": "Prerower Platz",
@@ -3706,6 +3944,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/9",
                 "data": {
                     "id": "9",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Preußenallee",
                     "strasse": "Preußenallee",
@@ -3737,6 +3977,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/249",
                 "data": {
                     "id": "249",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Wochenmarkt Rathaus Lankwitz",
                     "strasse": "Leonorenstraße",
@@ -3768,6 +4010,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/225",
                 "data": {
                     "id": "225",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Spandau",
                     "bezeichnung": "Wochenmarkt Rathausvorplatz",
                     "strasse": "Markt 3",
@@ -3799,6 +4043,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/3",
                 "data": {
                     "id": "3",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Richard-Wagner-Platz",
                     "strasse": "Richard-Wagner-Platz",
@@ -3830,6 +4076,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/360",
                 "data": {
                     "id": "360",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Schellerstraße Ecke Spreestraße",
                     "strasse": "Schnellerstraße",
@@ -3861,6 +4109,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/177",
                 "data": {
                     "id": "177",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Neukölln",
                     "bezeichnung": "Wochenmarkt Schillermarkt am Herrfurthplatz",
                     "strasse": "Herrfurthplatz",
@@ -3892,6 +4142,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/303",
                 "data": {
                     "id": "303",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Schlossplatz Alt-Köpenick",
                     "strasse": "Grünstraße 1",
@@ -3923,6 +4175,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/306",
                 "data": {
                     "id": "306",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Treptow-Köpenick",
                     "bezeichnung": "Wochenmarkt Schnellerstraße",
                     "strasse": "Schnellerstraße",
@@ -3954,13 +4208,15 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/195",
                 "data": {
                     "id": "195",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Wochenmarkt Seelower Straße",
                     "strasse": "Seelower Straße",
                     "plz": "10439",
                     "tage": "Sa",
                     "zeiten": "09:00 - 16:00",
-                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 (Di-Fr 10:00-16:00, Mo, So Ruhetag) und 0172/188 31 57 (Di-Sa 06:00-18:00, Mo, So Ruhetag), Fax: 23 63 63 61 (24h täglich)",
+                    "betreiber": "Marktleitung: B-B-M Berlin-Brandenburger Markt Veranstaltungs- und Service GmbH, \nFrau Hintsche, Tel.: 23 63 63 60 und 0172/188 31 57, Fax: 23 63 63 61",
                     "email": "mailto:info@bbm-maerkte.de",
                     "www": "http://www.bbm-maerkte.de",
                     "bemerkungen": "",
@@ -3985,6 +4241,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/405",
                 "data": {
                     "id": "405",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "bezeichnung": "Wochenmarkt Suarezstraße",
                     "strasse": "Suarezstraße 48",
@@ -4016,6 +4274,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/219",
                 "data": {
                     "id": "219",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Reinickendorf",
                     "bezeichnung": "Wochenmarkt Wilhelmsruher Damm / Senftenberger Ring",
                     "strasse": "Senftenberger Ring 5A",
@@ -4047,6 +4307,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/270",
                 "data": {
                     "id": "270",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Winterfeldtplatz",
                     "strasse": "Winterfeldtplatz",
@@ -4078,6 +4340,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/282",
                 "data": {
                     "id": "282",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Wittenbergplatz (Nordseite)",
                     "strasse": "Wittenbergplatz 5",
@@ -4098,8 +4362,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50234,
-                    52.56486
+                    13.49586,
+                    52.56921
                 ]
             },
             "properties": {
@@ -4109,6 +4373,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/90",
                 "data": {
                     "id": "90",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Lichtenberg",
                     "bezeichnung": "Wochenmarkt Zingster Straße",
                     "strasse": "Zingster Straße",
@@ -4119,8 +4385,8 @@
                     "email": "",
                     "www": "",
                     "bemerkungen": "(zwischen Ribnitzer- und Dierhagener Straße)",
-                    "_wgs84_lat": "52.5648648",
-                    "_wgs84_lon": "13.5023393"
+                    "_wgs84_lat": "52.5692108",
+                    "_wgs84_lon": "13.4958582"
                 }
             }
         },
@@ -4140,6 +4406,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/114",
                 "data": {
                     "id": "114",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Arkonaplatz",
                     "strasse": "Arkonaplatz",
@@ -4171,6 +4439,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/111",
                 "data": {
                     "id": "111",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Marzahn-Hellersdorf",
                     "bezeichnung": "Wochenmarkt am Biesdorf-Center",
                     "strasse": "Weißenhöher Straße 88-108",
@@ -4202,6 +4472,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/129",
                 "data": {
                     "id": "129",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Hackeschen Markt",
                     "strasse": "Hackescher Markt",
@@ -4233,6 +4505,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132",
                 "data": {
                     "id": "132",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Hackeschen Markt",
                     "strasse": "Hackescher Markt",
@@ -4264,6 +4538,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/120",
                 "data": {
                     "id": "120",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Wochenmarkt am Rathaus Wedding",
                     "strasse": "Ostender Straße",
@@ -4295,6 +4571,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/333",
                 "data": {
                     "id": "333",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Zehlendorf Frische Markt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf",
                     "strasse": "S-Bahnhof Zehlendorf",
@@ -4326,6 +4604,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/414",
                 "data": {
                     "id": "414",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "anZiehmarkt",
                     "strasse": "Breitenbachplatz",
@@ -4357,6 +4637,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/258",
                 "data": {
                     "id": "258",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Steglitz-Zehlendorf",
                     "bezeichnung": "Öko-Wochenmarkt Domäne Dahlem",
                     "strasse": "Königin-Luise-Str. 49",
@@ -4388,6 +4670,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/348",
                 "data": {
                     "id": "348",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Tempelhof-Schöneberg",
                     "bezeichnung": "Ökomarkt & mehr an der Akazienstraße",
                     "strasse": "Akazienstraße 15",
@@ -4419,6 +4703,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/342",
                 "data": {
                     "id": "342",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Ökomarkt & mehr an der Thusnelda-Allee",
                     "strasse": "Thusnelda-Allee 1",
@@ -4446,10 +4732,12 @@
             "properties": {
                 "title": "Ökomarkt - Chamissoplatz",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57",
-                "description": "Sa<br />09:00 - 15:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57\">Mehr...</a>",
+                "description": "<img src=\"/imgscaler/LTeO9ESOONuQWi66swGQs8hAgW99yW86LmWBM8mtF8M/teaserauto/L3N5czExLXByb2Qvc2VuL3dlYi9zZXJ2aWNlL21hZXJrdGUtZmVzdGUvd29jaGVuLXRyb2VkZWxtYWVya3RlL2Fzc2V0cy9jaGFtaXNzb3BsYXR6NjAwLmpwZw.jpg\" alt=\"\" />Sa<br />09:00 - 15:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57\">Mehr...</a>",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57",
                 "data": {
                     "id": "57",
+                    "bild": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/assets/chamissoplatz600.jpg",
+                    "copyright": "Grüngewusel e.V.",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "bezeichnung": "Ökomarkt - Chamissoplatz",
                     "strasse": "Chamissoplatz",
@@ -4481,6 +4769,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/183",
                 "data": {
                     "id": "183",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Pankow",
                     "bezeichnung": "Ökomarkt am Kollwitzplatz der GRÜNEN LIGA Berlin e. V.",
                     "strasse": "Kollwitzplatz",
@@ -4512,6 +4802,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/138",
                 "data": {
                     "id": "138",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Ökomarkt am Nordbahnhof",
                     "strasse": "Elisabeth-Schwarzhaupt-Platz",
@@ -4543,6 +4835,8 @@
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/135",
                 "data": {
                     "id": "135",
+                    "bild": "",
+                    "copyright": "",
                     "bezirk": "Mitte",
                     "bezeichnung": "Ökomarkt im Hansaviertel",
                     "strasse": "Altonaer Straße",
