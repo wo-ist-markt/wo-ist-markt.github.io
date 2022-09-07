@@ -29,9 +29,40 @@ fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
 		outputFeature.properties = outputProperties;
 		outputFeature.geometry.coordinates = getWellFormedCoordinates(feature);
 	}
+
+	outputData.features = distinctFeatures(outputData.features);
+
 	var outputDataString = JSON.stringify(outputData, null, 4);
 	writeFile(OUTPUT_FILE, outputDataString);
 });
+
+function distinctFeatures(features) {
+	let distinctFeatures = [];
+	for (let feature of features) {
+		fillDistinctFeatures(distinctFeatures, feature);
+	}
+	return distinctFeatures;
+}
+
+function fillDistinctFeatures(distinctFeatures, feature) {
+	let filterResult = distinctFeatures.filter(item => areFeaturesEqual(item, feature));
+	if (filterResult.length == 0) {
+		distinctFeatures.push(feature);
+	}
+}
+
+function areFeaturesEqual(feature1, feature2) {
+	return feature1.type == feature2.type &&
+	feature1.geometry.type == feature2.geometry.type &&
+	feature1.geometry.coordinates[0] == feature2.geometry.coordinates[0] &&
+	feature1.geometry.coordinates[1] == feature2.geometry.coordinates[1] &&
+	feature1.properties.title == feature2.properties.title &&
+	// Skip "location" property because spelling differs there.
+	feature1.properties.opening_hours == feature2.properties.opening_hours &&
+	feature1.properties.opening_hours_unclassified == feature2.properties.opening_hours_unclassified &&
+	feature1.properties.details_url == feature2.properties.details_url;
+}
+
 
 function sortInputFileByTitle() {
 	fs.readFile(INPUT_FILE, 'utf8', function (error, data) {
