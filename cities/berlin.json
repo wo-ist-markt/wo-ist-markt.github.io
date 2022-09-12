@@ -6,16 +6,15 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.30754,
-                    52.46693
+                    13.55791,
+                    52.54459
                 ]
             },
             "properties": {
-                "title": "< 164",
-                "location": "Breitenbachplatz, 14195",
+                "title": "16. Kunst- und Keramikmarkt 2022",
+                "location": "Alt-Marzahn 19/23, 12685",
                 "opening_hours": null,
-                "opening_hours_unclassified": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022 10:00 - 14:00",
-                "details_url": "http://www.markttag-berlin.de"
+                "opening_hours_unclassified": "12.-13.11.2022 10:00 - 18:00"
             }
         },
         {
@@ -64,7 +63,7 @@
                 "title": "Antikflohmarkt Trabrennbahn Karlshorst",
                 "location": "Treskowallee 159, 10318",
                 "opening_hours": null,
-                "opening_hours_unclassified": "02./03.04., 07./08.05.,02./03.07., 06./07.08., 10./11.09., 05./06.11., 03./04.12.2022 09:00 - 17:00",
+                "opening_hours_unclassified": "02.-03.04., 07.-08.05.,02.-03.07., 06.-07.08., 10.-11.09., 05.-06.11., 03.-04.12.2022 09:00 - 17:00",
                 "details_url": "http://www.oldthing.de"
             }
         },
@@ -81,7 +80,7 @@
                 "title": "Antikgroßflohmarkt Trabrennbahn Karlshorst",
                 "location": "Treskowallee 159, 10318",
                 "opening_hours": null,
-                "opening_hours_unclassified": "05./06.03., 02./03.04., 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022 09:00 - 16:00",
+                "opening_hours_unclassified": "05.-06.03., 02.- 07./08.05., 04.-06.06., 02./03.07., 06./07.08., 03./04.09., 01.-03.10.2022 09:00 - 16:00",
                 "details_url": "http://www.oldthing.de/riesenflohmarkt"
             }
         },
@@ -124,23 +123,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.43464,
-                    52.51131
-                ]
-            },
-            "properties": {
-                "title": "Antikmarkt am Berliner Ostbahnhof",
-                "location": "Erich-Steinfurth-Straße/Hermann-Stöhr-Park, 10243",
-                "opening_hours": "Su 09:00-17:00",
-                "opening_hours_unclassified": null,
-                "details_url": "http://www.oldthing.de"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     13.29527,
                     52.50782
                 ]
@@ -150,23 +132,6 @@
                 "location": "Suarezstraße, 14057",
                 "opening_hours": null,
                 "opening_hours_unclassified": "03.09.2022 12:00 - 20:00",
-                "details_url": "http://www.oldthing.de"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.3771,
-                    52.5083
-                ]
-            },
-            "properties": {
-                "title": "BETTER USED Markt am Potsdamer Platz",
-                "location": "Potsdamer Platz, 10178",
-                "opening_hours": null,
-                "opening_hours_unclassified": "26.-29.05.2022 Do, So 10:-18:00 Fr, Sa 11:00-19:00",
                 "details_url": "http://www.oldthing.de"
             }
         },
@@ -217,7 +182,7 @@
                 "title": "Better Used Markt",
                 "location": "Potsdamer Platz, 10178",
                 "opening_hours": null,
-                "opening_hours_unclassified": "26.-29.05.2022 Do, So 10:00 - 18:00 Fr, Sa 11:00 - 19:00",
+                "opening_hours_unclassified": "Do, So Fr, Sa 10:00 - 18:00 11:00 - 19:00",
                 "details_url": "http://www.oldthing.de"
             }
         },
@@ -345,23 +310,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.6297,
-                    52.46986
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt am S-Bhf. Friedrichshagen",
-                "location": "Schöneicherstr./Dahlwitzer Landstraße, 12587",
-                "opening_hours": "Su 08:00-16:00",
-                "opening_hours_unclassified": null,
-                "details_url": "http://www.oldthing.de"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     13.40317,
                     52.54053
                 ]
@@ -429,15 +377,15 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.62481,
-                    52.44831
+                    13.62475,
+                    52.44832
                 ]
             },
             "properties": {
                 "title": "Kunst & Trödelmarkt zum Bölschestraßenfest",
                 "location": "Bölschestraße, 12587",
                 "opening_hours": null,
-                "opening_hours_unclassified": "07./08.05.2022",
+                "opening_hours_unclassified": "07.-08.05.2022",
                 "details_url": "http://www.oldthing.de"
             }
         },
@@ -446,8 +394,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.36855,
-                    52.51564
+                    13.36845,
+                    52.51574
                 ]
             },
             "properties": {
@@ -496,6 +444,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    13.30754,
+                    52.46693
+                ]
+            },
+            "properties": {
+                "title": "Markt <164",
+                "location": "Breitenbachplatz, 14195",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10.04., 08.05., 12.06., 10.07., 14.08., 11.09., 09.10., 06.11.2022 10:00 - 14:00",
+                "details_url": "http://www.markttag-berlin.de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     13.21694,
                     52.43855
                 ]
@@ -529,8 +494,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.40664,
-                    52.48947
+                    13.40655,
+                    52.48949
                 ]
             },
             "properties": {
@@ -570,8 +535,8 @@
             "properties": {
                 "title": "Neuköllner Wochenmärkte Britz-Süd \"Frisches vom Markt\"",
                 "location": "Gutschmidtstraße, 12359",
-                "opening_hours": "Mo 08:00-13:00;Th 08:00-13:00;Sa 08:00-14:00",
-                "opening_hours_unclassified": null,
+                "opening_hours": null,
+                "opening_hours_unclassified": "Mo, Do Sa 08:00 - 13:00 08:00 - 14:00",
                 "details_url": "http://www.diemarktplaner.de"
             }
         },
@@ -1102,8 +1067,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.52667,
-                    52.45864
+                    13.52637,
+                    52.45868
                 ]
             },
             "properties": {
@@ -1250,15 +1215,15 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.62481,
-                    52.44831
+                    13.62475,
+                    52.44832
                 ]
             },
             "properties": {
                 "title": "Wochenmarkt Bölschestraße",
                 "location": "Bölschestraße, 12587",
-                "opening_hours": "Mo 10:00-16:00;We 10:00-16:00;Fr 10:00-16:00;Sa 09:00-13:00",
-                "opening_hours_unclassified": null
+                "opening_hours": null,
+                "opening_hours_unclassified": "Mo, Mi, Fr Sa 10:00 - 16:00 09:00 - 13:00"
             }
         },
         {
@@ -1266,8 +1231,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.4305,
-                    52.55254
+                    13.43049,
+                    52.55249
                 ]
             },
             "properties": {
@@ -1566,8 +1531,8 @@
             "properties": {
                 "title": "Wochenmarkt Hermann-Ehlers-Platz",
                 "location": "Hermann-Ehlers-Platz, 12165",
-                "opening_hours": "Tu 08:00-14:00;Sa 08:00-14:00;Th 08:00-18:00",
-                "opening_hours_unclassified": null
+                "opening_hours": null,
+                "opening_hours_unclassified": "Di, Sa Do 08:00 - 14:00 08:00 - 18:00"
             }
         },
         {
@@ -1591,8 +1556,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.19463,
-                    52.43114
+                    13.20056,
+                    52.43072
                 ]
             },
             "properties": {
@@ -1933,8 +1898,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.25308,
-                    52.44992
+                    13.25189,
+                    52.44959
                 ]
             },
             "properties": {
@@ -2198,8 +2163,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.50234,
-                    52.56486
+                    13.49586,
+                    52.56921
                 ]
             },
             "properties": {
@@ -2448,7 +2413,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 02.03.2022",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 30.08.2022",
             "url": "https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     }
