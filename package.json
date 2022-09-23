@@ -5,7 +5,7 @@
   "dependencies": {
     "dayjs": "^1.11.5",
     "jquery": "^3.6.1",
-    "leaflet": "^1.8.0",
+    "leaflet": "^1.9.0",
     "leaflet.awesome-markers": "^2.0.5",
     "leaflet.locatecontrol": "^0.76.1",
     "normalize.css": "^8.0.1",
