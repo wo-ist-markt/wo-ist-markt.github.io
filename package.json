@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "dependencies": {
-    "dayjs": "^1.11.5",
+    "dayjs": "^1.11.6",
     "jquery": "^3.6.1",
     "leaflet": "^1.9.1",
     "leaflet.awesome-markers": "^2.0.5",
