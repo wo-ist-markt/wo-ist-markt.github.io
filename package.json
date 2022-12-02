@@ -16,7 +16,7 @@
     "@rollup/plugin-commonjs": "^23.0.3",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "axios": "^0.27.2",
+    "axios": "^1.2.0",
     "colors": "1.4.0",
     "jasmine": "^4.5.0",
     "jshint": "^2.13.6",
