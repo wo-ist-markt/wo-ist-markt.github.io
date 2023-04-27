@@ -1,0 +1,76 @@
+{
+    "crs":
+    {
+        "properties":
+        {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features":
+    [
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    7.083224,
+                    51.659153
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "location": "Marl Brassert",
+                "opening_hours": "We, Sa 08:00-12:30",
+                "title": "Wochenmarkt Brassert"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    7.133100,
+                    51.664054
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "location": "Marl Hüls",
+                "opening_hours": "Tu, Fr 08:00-12:30",
+                "title": "Wochenmarkt Hüls"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    7.093918,
+                    51.645651
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "location": "Stettiner Straße",
+                "opening_hours": "Su[1] 11:00-18:00",
+                "title": "Trödelmarkt tedox & Straßenverkehrsamt"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata":
+    {
+        "data_source":
+        {
+            "title": "Stadt Marl, aktualisiert am 27.04.2023",
+            "url": "https://www.marl.de/leben-wohnen/einkaufen/wochenmaerkte/"
+        }
+    },
+    "type": "FeatureCollection"
+}
