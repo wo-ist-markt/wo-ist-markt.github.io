@@ -208,7 +208,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
 [bonn-markets]: http://opendata.bonn.de/dataset/veranstaltungskalender-komplett%C3%BCbersicht
 [bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
-[bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php
+[bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/Wochenmaerkte.php
 [braunschweig-wikipedia]: https://de.wikipedia.org/wiki/Braunschweig
 [braunschweig-markets]: http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html
 [bremen-wikipedia]: https://de.wikipedia.org/wiki/Bremen
