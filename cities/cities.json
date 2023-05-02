@@ -399,6 +399,14 @@
             2.98333333
         ]
     },
+    "marl": {
+        "id": "marl",
+        "label": "Marl",
+        "coordinates": [
+            51.656346,
+            7.095499
+        ]
+    },
     "moers": {
         "id": "moers",
         "label": "Moers",

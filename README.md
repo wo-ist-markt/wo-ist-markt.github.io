@@ -128,6 +128,7 @@ in February 2016.
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Lübeck][luebeck-wikipedia]|[City of Lübeck][luebeck-markets]|
 |[Mallorca][mallorca-wikipedia]|[Island of Mallorca][mallorca-markets]|
+|[Marl][marl-wikipedia]|[City of Marl][marl-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
 |[Mülheim an der Ruhr][muelheim-ad-ruhr-wikipedia]|[City of Mülheim an der Ruhr][muelheim-ad-ruhr-markets]|
 |[München][muenchen-wikipedia]|[City of München][muenchen-markets]|
@@ -293,6 +294,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
 [mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
+[marl-wikipedia]: https://de.wikipedia.org/wiki/Marl
+[marl-markets]: https://www.marl.de/leben-wohnen/einkaufen/wochenmaerkte
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
