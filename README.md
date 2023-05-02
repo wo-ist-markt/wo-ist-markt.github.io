@@ -288,7 +288,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
-[loxstedt-markets]: http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html
+[loxstedt-markets]: https://www.loxstedt.de/kultur-freizeit/maerkte/wochenmarkt/
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
