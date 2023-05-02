@@ -292,7 +292,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
-[mallorca-markets]: https://www.calaratjada.com/mallorca-maerkte
+[mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
