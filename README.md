@@ -258,7 +258,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hannover-wikipedia]: https://de.wikipedia.org/wiki/Hannover
 [hannover-markets]: https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
-[hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
+[hanau-markets]: https://www.hanau.de/freizeit/maerkte/wochenmarkt/artikel/index.html
 [heidelberg-wikipedia]: https://de.wikipedia.org/wiki/Heidelberg
 [heidelberg-markets]: https://www.heidelberg.de/hd/HD/Leben/Wochenmaerkte.html
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
