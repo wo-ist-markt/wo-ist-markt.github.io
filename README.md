@@ -208,7 +208,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
 [bonn-markets]: http://opendata.bonn.de/dataset/veranstaltungskalender-komplett%C3%BCbersicht
 [bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
-[bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/30-2/Wochenmaerkte.php
+[bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/Wochenmaerkte.php
 [braunschweig-wikipedia]: https://de.wikipedia.org/wiki/Braunschweig
 [braunschweig-markets]: http://www.braunschweig.de/leben/einkaufen_maerkte/wochenmaerkte/index.html
 [bremen-wikipedia]: https://de.wikipedia.org/wiki/Bremen
@@ -234,7 +234,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
 [duisburg-markets]: https://www.duisburgkontor.de/frischemaerkte/wochenmaerkte/
 [duesseldorf-wikipedia]: https://de.wikipedia.org/wiki/D%C3%BCsseldorf
-[duesseldorf-markets]: https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml
+[duesseldorf-markets]: https://www.duesseldorf.de/umweltamt/umwelt-und-verbraucherthemen-von-a-z/marktmanagement/wochenmaerkte/termine/
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
@@ -258,7 +258,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hannover-wikipedia]: https://de.wikipedia.org/wiki/Hannover
 [hannover-markets]: https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20
 [hanau-wikipedia]: https://de.wikipedia.org/wiki/Hanau
-[hanau-markets]: http://www.hanau.de/lih/sport/maerkte/woma/010241/
+[hanau-markets]: https://www.hanau.de/freizeit/maerkte/wochenmarkt/artikel/index.html
 [heidelberg-wikipedia]: https://de.wikipedia.org/wiki/Heidelberg
 [heidelberg-markets]: https://www.heidelberg.de/hd/HD/Leben/Wochenmaerkte.html
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
@@ -288,11 +288,11 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [leipzig-wikipedia]: https://en.wikipedia.org/wiki/Leipzig
 [leipzig-markets]: https://www.leipzig.de/freizeit-kultur-und-tourismus/einkaufen-und-ausgehen/maerkte/
 [loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
-[loxstedt-markets]: http://www.loxstedt.de/aktuelles/service/wochenmarkt.124.de.html
+[loxstedt-markets]: https://www.loxstedt.de/kultur-freizeit/maerkte/wochenmarkt/
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
-[mallorca-markets]: https://www.calaratjada.com/mallorca-maerkte
+[mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
 [moers-markets]: https://www.moers.de/de/stichwoerter/maerkte-7688193/
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
