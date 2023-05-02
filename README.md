@@ -234,7 +234,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
 [duisburg-markets]: https://www.duisburgkontor.de/frischemaerkte/wochenmaerkte/
 [duesseldorf-wikipedia]: https://de.wikipedia.org/wiki/D%C3%BCsseldorf
-[duesseldorf-markets]: https://www.duesseldorf.de/verbraucherschutz/marktverwaltung/wochen.shtml
+[duesseldorf-markets]: https://www.duesseldorf.de/umweltamt/umwelt-und-verbraucherthemen-von-a-z/marktmanagement/wochenmaerkte/termine/
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
