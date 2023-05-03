@@ -63,6 +63,22 @@
                 "opening_hours_unclassified": null
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.20011,
+                    50.04234
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Schiersteiner Wochenmarkt",
+                "location": "Hans-Römer-Platz, 65201 Mainz-Schierstein",
+                "opening_hours": "Tu 14:00-19:00",
+                "opening_hours_unclassified": null
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
