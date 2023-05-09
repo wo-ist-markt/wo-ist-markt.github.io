@@ -127,6 +127,7 @@ in February 2016.
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Lübeck][luebeck-wikipedia]|[City of Lübeck][luebeck-markets]|
+|[Ludwigsburg][ludwigsburg-wikipedia]|[City of Ludwigsburg][ludwigsburg-markets]|
 |[Mallorca][mallorca-wikipedia]|[Island of Mallorca][mallorca-markets]|
 |[Marl][marl-wikipedia]|[City of Marl][marl-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
@@ -292,6 +293,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [loxstedt-markets]: https://www.loxstedt.de/kultur-freizeit/maerkte/wochenmarkt/
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
+[ludwigsburg-wikipedia]: https://de.wikipedia.org/wiki/Ludwigsburg
+[ludwigsburg-markets]: https://visit.ludwigsburg.de/start/events/ludwigsburger+wochenmarkt.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
 [mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
 [marl-wikipedia]: https://de.wikipedia.org/wiki/Marl
