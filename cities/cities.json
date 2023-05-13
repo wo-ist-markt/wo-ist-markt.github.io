@@ -391,6 +391,14 @@
             10.68638889
         ]
     },
+    "ludwigsburg": {
+        "id": "ludwigsburg",
+        "label": "Ludwigsburg",
+        "coordinates": [
+            48.8975,
+            9.1922
+        ]
+    },
     "mallorca": {
         "id": "mallorca",
         "label": "Mallorca",

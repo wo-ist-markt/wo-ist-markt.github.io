@@ -78,9 +78,9 @@ in February 2016.
 
 |City name|Data source|
 |:---|:---|
-|[Bad Homburg][bad-homburg-wikipedia]|[Stadt Bad Homburg][bad-homburg-markets]|
-|[Baden-Baden][baden-baden-wikipedia]|[Stadt Baden-Baden][baden-baden-markets]|
-|[Basel][basel-wikipedia]|[Stadt Basel][basel-markets]|
+|[Bad Homburg][bad-homburg-wikipedia]|[City of Bad Homburg][bad-homburg-markets]|
+|[Baden-Baden][baden-baden-wikipedia]|[City of Baden-Baden][baden-baden-markets]|
+|[Basel][basel-wikipedia]|[City of Basel][basel-markets]|
 |[Berlin][berlin-wikipedia]|[City of Berlin][berlin-markets]|
 |[Bielefeld][bielefeld-wikipedia]|[City of Bielefeld][bielefeld-markets]|
 |[Bochum][bochum-wikipedia]|[City of Bochum][bochum-markets]|
@@ -90,8 +90,8 @@ in February 2016.
 |[Bremen][bremen-wikipedia]|[City of Bremen][bremen-markets]|
 |[Bremerhaven][bremerhaven-wikipedia]|[City of Bremerhaven][bremerhaven-markets]|
 |[Bretten][bretten-wikipedia]|[City of Bretten][bretten-markets]|
-|[Bruchköbel][bruchköbel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchköbel-markets]|
-|[Brühl][brühl-wikipedia]|[Stadt Brühl][brühl-markets]|
+|[Bruchköbel][bruchkoebel-wikipedia]|[Stadtmarketing Bruchköbel GmbH][bruchkoebel-markets]|
+|[Brühl][bruehl-wikipedia]|[Stadt Brühl][bruehl-markets]|
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Cottbus][cottbus-wikipedia]|[City of Cottbus][cottbus-markets]|
 |[Cuxhaven][cuxhaven-wikipedia]|[City of Cuxhaven][cuxhaven-markets]|
@@ -123,10 +123,11 @@ in February 2016.
 |[Köln][koeln-wikipedia]|[City of Köln][koeln-markets]|
 |[Konstanz][konstanz-wikipedia]|[City of Konstanz][konstanz-markets]|
 |[Langenfeld (Rhld.)][langenfeld-rhld-wikipedia]|[City of Langenfeld (Rhld.)][langenfeld-rhld-markets]|
-|[Laupheim][laupheim-wikipedia]|[Laupheim][laupheim-markets]|
+|[Laupheim][laupheim-wikipedia]|[City of Laupheim][laupheim-markets]|
 |[Leipzig][leipzig-wikipedia]|[City of Leipzig][leipzig-markets]|
 |[Loxstedt][loxstedt-wikipedia]|[City of Loxstedt][loxstedt-markets]|
 |[Lübeck][luebeck-wikipedia]|[City of Lübeck][luebeck-markets]|
+|[Ludwigsburg][ludwigsburg-wikipedia]|[City of Ludwigsburg][ludwigsburg-markets]|
 |[Mallorca][mallorca-wikipedia]|[Island of Mallorca][mallorca-markets]|
 |[Marl][marl-wikipedia]|[City of Marl][marl-markets]|
 |[Moers][moers-wikipedia]|[City of Moers][moers-markets]|
@@ -218,10 +219,10 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bremerhaven-markets]: http://www.bremerhaven.de/meer-erleben/shopping-gastronomie/wochenmaerkte-in-bremerhaven.95222.html
 [bretten-wikipedia]: https://de.wikipedia.org/wiki/Bretten
 [bretten-markets]: http://www.bretten.de/tourismus-kultur-freizeit/wochenmarkt
-[bruchköbel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
-[bruchköbel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
-[brühl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
-[brühl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
+[bruchkoebel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
+[bruchkoebel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
+[bruehl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
+[bruehl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
 [cottbus-wikipedia]: https://de.wikipedia.org/wiki/Cottbus
@@ -292,6 +293,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [loxstedt-markets]: https://www.loxstedt.de/kultur-freizeit/maerkte/wochenmarkt/
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
 [luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
+[ludwigsburg-wikipedia]: https://de.wikipedia.org/wiki/Ludwigsburg
+[ludwigsburg-markets]: https://visit.ludwigsburg.de/start/events/ludwigsburger+wochenmarkt.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
 [mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
 [marl-wikipedia]: https://de.wikipedia.org/wiki/Marl

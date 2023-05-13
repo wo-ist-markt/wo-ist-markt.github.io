@@ -1,0 +1,26 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    9.191843,
+                    48.897483
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Ludwigsburger Wochenmarkt",
+                "location": "Marktplatz Ludwigsburg",
+                "opening_hours": "Tu,Th 07:00-13:00;Sa 07:00-14:00"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Ludwigsburg, aktualisiert am 09.05.2023",
+            "url": "https://visit.ludwigsburg.de/start/events/ludwigsburger+wochenmarkt.html"
+        }
+    },
+    "type": "FeatureCollection"
+}
