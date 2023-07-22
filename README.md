@@ -143,6 +143,7 @@ in February 2016.
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
+|[Rothenburg ob der Tauber][rothenburg-wikipedia]|[City of Rothenburg ob der Tauber][rothenburg-markets]|
 |[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
 |[Salzkotten][salzkotten-wikipedia]|[City of Salzkotten][salzkotten-markets]|
 |[Schleswig][schleswig-wikipedia]|[City of Schleswig][schleswig-markets]|
@@ -325,6 +326,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
+[rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber
+[rothenburg-markets]: https://www.rothenburg.de/messen-maerkte/wochenmarkt/
 [saarbruecken-wikipedia]: https://de.wikipedia.org/wiki/Saarbr%C3%BCcken
 [saarbruecken-markets]: https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte
 [salzkotten-wikipedia]: https://de.wikipedia.org/wiki/Salzkotten

@@ -1,0 +1,33 @@
+{
+    "crs": {
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      },
+      "type": "name"
+    },
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            10.1786868,
+            49.3770351
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "location": "Marktplatz",
+          "opening_hours": "Sa 08:00-12:00",
+          "title": "Auf dem Marktplatz"
+        },
+        "type": "Feature"
+      }
+    ],
+    "metadata": {
+      "data_source": {
+        "title": "Wochenmarkt in Rothenburg",
+        "url": "https://www.rothenburg.de/messen-maerkte/wochenmarkt/"
+      }
+    },
+    "type": "FeatureCollection"
+  }
+  
