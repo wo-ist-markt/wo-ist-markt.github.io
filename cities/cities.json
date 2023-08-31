@@ -519,6 +519,14 @@
             12.13333333
         ]
     },
+    "rothenburgobdertauber": {
+        "id": "rothenburgobdertauber",
+        "label": "Rothenburg ob der Tauber",
+        "coordinates": [
+            49.365807,
+            10.1213097
+        ]
+    },
     "saarbrücken": {
         "id": "saarbrücken",
         "label": "Saarbrücken",
