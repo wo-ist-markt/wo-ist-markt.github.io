@@ -6,8 +6,8 @@ install:
   - npm install
 
 script:
-  - npm test
-  - npm build
+  - npm run test
+  - npm run build
 
 notifications:
   slack:
