@@ -4,7 +4,7 @@
   "type": "module",
   "dependencies": {
     "dayjs": "^1.11.9",
-    "jquery": "^3.7.0",
+    "jquery": "^3.7.1",
     "leaflet": "^1.9.4",
     "leaflet.awesome-markers": "^2.0.5",
     "leaflet.locatecontrol": "^0.79.0",
