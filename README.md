@@ -203,7 +203,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [basel-wikipedia]: https://en.wikipedia.org/wiki/Basel
 [basel-markets]: http://www.bs.ch/Portrait/maerkte.html
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
-[berlin-markets]: https://daten.berlin.de/datensaetze/wochen-und-tr%C3%B6delm%C3%A4rkte-0
+[berlin-markets]: https://daten.berlin.de/datensaetze/berliner-wochen-und-tr%C3%B6delm%C3%A4rkte
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
 [bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
