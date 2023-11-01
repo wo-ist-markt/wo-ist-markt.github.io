@@ -231,7 +231,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [cuxhaven-wikipedia]: https://de.wikipedia.org/wiki/Cuxhaven
 [cuxhaven-markets]: https://www.cuxhaven.de/magazin/artikel.php?artikel=2801&type=2&menuid=686&topmenu=16
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
-[dortmund-markets]: https://www.dortmund.de/de/leben_in_dortmund/stadtportraet/einkaufen/wochenmaerkte/
+[dortmund-markets]: https://www2.dortmund.de/de/leben_in_dortmund/ausunsererstadt/stadtportraet/einkaufen/wochenmaerkte/index.html
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
@@ -327,7 +327,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber
-[rothenburg-markets]: https://www.rothenburg.de/messen-maerkte/wochenmarkt/
+[rothenburg-markets]: https://www.rothenburg.de/erleben/einkaufen
 [saarbruecken-wikipedia]: https://de.wikipedia.org/wiki/Saarbr%C3%BCcken
 [saarbruecken-markets]: https://www.saarbruecken.de/leben_in_saarbruecken/einkaufen/maerkte
 [salzkotten-wikipedia]: https://de.wikipedia.org/wiki/Salzkotten
