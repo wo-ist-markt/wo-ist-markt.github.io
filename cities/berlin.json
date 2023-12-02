@@ -213,50 +213,16 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.3227741,
-                    52.4937867
+                    13.32619,
+                    52.49391
                 ],
                 "type": "Point"
             },
             "properties": {
                 "title": "Wochenmarkt Hohenzollernplatz",
-                "location": "Hohenzollernplatz, 14129",
+                "location": "Nassauische Str. 67, 10717",
                 "opening_hours": "We,Sa 08:00-13:00",
                 "opening_hours_unclassified": null
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.3488741,
-                    52.4909252
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Kinder-Baby-Trödel",
-                "location": "K.-Schrader-Str. 7 - 8, 10781",
-                "opening_hours": null,
-                "opening_hours_unclassified": "25.03.2023 13.05.2023 14:00 - 17:00",
-                "details_url": "https://www.kiezoase.de/aktuelle-angebote/"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.3488741,
-                    52.4909252
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Kunst-Kreativ-Markt",
-                "location": "K.-Schrader-Str. 7 - 8, 10781",
-                "opening_hours": null,
-                "opening_hours_unclassified": "13.06.2023 13:00 - 17:00",
-                "details_url": "https://www.kiezoase.de/aktuelle-angebote/"
             },
             "type": "Feature"
         },
@@ -526,23 +492,6 @@
                 "opening_hours": null,
                 "opening_hours_unclassified": "17.09.2023 11:00 - 19:00",
                 "details_url": "http://www.markt-rix.de"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.32139,
-                    52.47538
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Frühjahrs-Trödelmarkt in der Ruppin Grundschule",
-                "location": "Offenbacher Str. 5a, 14197",
-                "opening_hours": null,
-                "opening_hours_unclassified": "25.03.2023 10:00-14:00",
-                "details_url": "http://www.ruppinfreunde.de"
             },
             "type": "Feature"
         },
@@ -873,7 +822,7 @@
                 "title": "Antik- & Designgroßflohmarkt Trabrennbahn Karlshorst",
                 "location": "Treskowallee 159, 10318",
                 "opening_hours": null,
-                "opening_hours_unclassified": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 01.-03.10., 04./05.11., 02. - 03.12.2023 09:00 - 17:00",
+                "opening_hours_unclassified": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 07./08.10., 04./05.11., 02. - 03.12.2023 09:00 - 17:00",
                 "details_url": "http://www.oldthing.de/riesenflohmarkt"
             },
             "type": "Feature"
@@ -1011,23 +960,6 @@
                 "opening_hours": null,
                 "opening_hours_unclassified": "02.12.-03.12.2023 09:00-16:00",
                 "details_url": "http://berliner-spielzeugboerse.de"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.52317,
-                    52.4764
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Riesenflohmarkt Event",
-                "location": "Treskowallee 159, 10318",
-                "opening_hours": null,
-                "opening_hours_unclassified": "27.-29.05., 01.-03.10.2023 09:00 - 17:00",
-                "details_url": "http://www.oldthing.de/riesenflohmarkt"
             },
             "type": "Feature"
         },
@@ -2196,40 +2128,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.30762,
-                    52.46698
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Trödel<164 Markt",
-                "location": "Breitenbachplatz, 14195",
-                "opening_hours": null,
-                "opening_hours_unclassified": "02./09.04., 01./04.05., 04./11.06., 09.07., 13.08., 03./10.09., 01./08.10., 05.11.2023 10:00-14:00",
-                "details_url": "http://www.markttag-berlin.de"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.30762,
-                    52.46698
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "anZiehmarkt",
-                "location": "Breitenbachplatz, 14195",
-                "opening_hours": null,
-                "opening_hours_unclassified": "16.04., 21.05., 18.06., 16.07., 20.08., 17.09., 15.10., 12.11.2023 10:30-15:00",
-                "details_url": "http://www.markttag-berlin.de"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.38107,
                     52.4436
                 ],
@@ -2434,6 +2332,40 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.35121,
+                    52.49112
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kinder-Baby-Trödel",
+                "location": "Karl-Schrader-Str. 7 - 8, 10781",
+                "opening_hours": null,
+                "opening_hours_unclassified": "25.03.2023 13.05.2023 14:00 - 17:00",
+                "details_url": "https://www.kiezoase.de/troedel/"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.35121,
+                    52.49112
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Kunst-Kreativ-Markt",
+                "location": "Karl-Schrader-Str. 7 - 8, 10781",
+                "opening_hours": null,
+                "opening_hours_unclassified": "13.06.2023 13:00 - 17:00",
+                "details_url": "https://www.kiezoase.de/kunst-kreativ-markt/"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.35261,
                     52.49186
                 ],
@@ -2552,14 +2484,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.52667,
-                    52.45864
+                    13.52713,
+                    52.4584
                 ],
                 "type": "Point"
             },
             "properties": {
                 "title": "Wochenmarkt Berlin-Oberschöneweide",
-                "location": "Rathenaustraße 2A (Rathenauplatz), 12459",
+                "location": "Rathenaustraße 2A, 12459",
                 "opening_hours": "We 09:00-16:00",
                 "opening_hours_unclassified": null,
                 "details_url": "http://www.brandenburger-wochenmaerkte.de"
@@ -2599,28 +2531,11 @@
                 "details_url": "http://www.markt-veranstaltungen.de"
             },
             "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.62475,
-                    52.44832
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Großer Trödeölmarkt am Bölschestraßenfest",
-                "location": "Bölschestraße, 12587",
-                "opening_hours": null,
-                "opening_hours_unclassified": "13.-14.05.2023 10:00 - 18:00",
-                "details_url": "http://www.oldthing.de"
-            },
-            "type": "Feature"
         }
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 08.11.2023",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 29.11.2023",
             "url": "https://daten.berlin.de/datensaetze/berliner-wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     },
