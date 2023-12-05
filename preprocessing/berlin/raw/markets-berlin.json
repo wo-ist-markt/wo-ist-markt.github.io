@@ -144,11 +144,11 @@
                     "id": 327,
                     "plz": "10318",
                     "strasse": "Treskowallee 159",
-                    "tage": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 01.-03.10., 04./05.11., 02. - 03.12.2023",
+                    "tage": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 07./08.10., 04./05.11., 02. - 03.12.2023",
                     "www": "www.oldthing.de/riesenflohmarkt",
                     "zeiten": "09:00 - 17:00"
                 },
-                "description": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 01.-03.10., 04./05.11., 02. - 03.12.2023<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/327\">Mehr...</a>",
+                "description": "01./02.04., 06./07.05., 27. - 29.05., 01./02.07., 05./06.08., 09./10.09., 07./08.10., 04./05.11., 02. - 03.12.2023<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/327\">Mehr...</a>",
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/327",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/327",
                 "title": "Antik- & Designgroßflohmarkt Trabrennbahn Karlshorst"
@@ -539,7 +539,7 @@
                 "data": {
                     "_wgs84_lat": 52.5113144,
                     "_wgs84_lon": 13.4346449,
-                    "bemerkungen": "ab 08.01.2023, außer Volkstrauertag, Totensonntag und an den Karlshorstwochenenden; Osterspezial 09./10.04.2023",
+                    "bemerkungen": "ab 08.01.2023, außer Volkstrauertag, Totensonntag und an den Karlshorstwochenenden; Osterspezial 09./11.04.2023, Riesenflohmarkt-Event 03.10.2023",
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "bezeichnung": "Antikmarkt am Berliner Ostbahnhof",
                     "bezirk": "Friedrichshain-Kreuzberg",
@@ -911,7 +911,7 @@
                 "data": {
                     "_wgs84_lat": 52.4575444,
                     "_wgs84_lon": 13.6255528,
-                    "bemerkungen": "ab 09.04.2023, außer Volkstrauertag und Totensonntag und den Karlshorstwochenenden",
+                    "bemerkungen": "ab 09.04.2023, außer Volkstrauertag und Totensonntag und den Karlshorstwochenenden, großer Trödelmarkt am Bölschestraßenfest 06./07.05.2023",
                     "betreiber": "Oldthing Märkte\nTel.: 29 00 20 10",
                     "bezeichnung": "Flohmarkt am S-Bhf. Friedrichshagen",
                     "bezirk": "Treptow-Köpenick",
@@ -1057,37 +1057,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.32139,
-                    52.47538
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "_wgs84_lat": 52.4753773,
-                    "_wgs84_lon": 13.3213865,
-                    "bemerkungen": "Friedenau",
-                    "betreiber": "Förderverein Ruppin Freunde",
-                    "bezeichnung": "Frühjahrs-Trödelmarkt in der Ruppin Grundschule",
-                    "bezirk": "Charlottenburg-Wilmersdorf",
-                    "email": "troedelmarkt@ruppinfreunde.de",
-                    "id": 468,
-                    "plz": "14197",
-                    "strasse": "Offenbacher Str. 5a",
-                    "tage": "25.03.2023",
-                    "www": "www.ruppinfreunde.de",
-                    "zeiten": "10:00-14:00"
-                },
-                "description": "25.03.2023<br />10:00-14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/468\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/468",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/468",
-                "title": "Frühjahrs-Trödelmarkt in der Ruppin Grundschule"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.40058,
                     52.5373
                 ],
@@ -1113,37 +1082,6 @@
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132",
                 "title": "Großer Trödelmarkt am Arkonaplatz"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.62475,
-                    52.44832
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "_wgs84_lat": 52.4483209,
-                    "_wgs84_lon": 13.6247529,
-                    "bemerkungen": "",
-                    "betreiber": "Beste Sammelfreunde UG (haftungsbeschränkt), Tel.: 509 93 82",
-                    "bezeichnung": "Großer Trödeölmarkt am Bölschestraßenfest",
-                    "bezirk": "Treptow-Köpenick",
-                    "email": "info@oldthing.de",
-                    "id": 474,
-                    "plz": "12587",
-                    "strasse": "Bölschestraße",
-                    "tage": "13.-14.05.2023",
-                    "www": "www.oldthing.de",
-                    "zeiten": "10:00 - 18:00"
-                },
-                "description": "13.-14.05.2023<br />10:00 - 18:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/474\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/474",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/474",
-                "title": "Großer Trödeölmarkt am Bölschestraßenfest"
             },
             "type": "Feature"
         },
@@ -1212,15 +1150,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    10.45153,
-                    51.16569
+                    13.35121,
+                    52.49112
                 ],
                 "type": "Point"
             },
             "properties": {
                 "data": {
-                    "_wgs84_lat": 51.165691,
-                    "_wgs84_lon": 10.451526,
+                    "_wgs84_lat": 52.4911211,
+                    "_wgs84_lon": 13.3512059,
                     "bemerkungen": "für Anbieter ab 13:00",
                     "betreiber": "Kiezoase Schöneberg, K.-Schrader-Str. 7 - 8, Anmeldung Tel.: 21 73 02 02",
                     "bezeichnung": "Kinder-Baby-Trödel",
@@ -1228,9 +1166,9 @@
                     "email": "",
                     "id": 405,
                     "plz": "10781",
-                    "strasse": "K.-Schrader-Str. 7 - 8",
+                    "strasse": "Karl-Schrader-Str. 7 - 8",
                     "tage": "25.03.2023\n13.05.2023",
-                    "www": "https://www.kiezoase.de/aktuelle-angebote/",
+                    "www": "https://www.kiezoase.de/troedel/",
                     "zeiten": "14:00 - 17:00"
                 },
                 "description": "25.03.2023&#10;13.05.2023<br />14:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/405\">Mehr...</a>",
@@ -1305,15 +1243,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    10.45153,
-                    51.16569
+                    13.35121,
+                    52.49112
                 ],
                 "type": "Point"
             },
             "properties": {
                 "data": {
-                    "_wgs84_lat": 51.165691,
-                    "_wgs84_lon": 10.451526,
+                    "_wgs84_lat": 52.4911211,
+                    "_wgs84_lon": 13.3512059,
                     "bemerkungen": "für Anbieter ab 12:00",
                     "betreiber": "Kiezoase Schöneberg, K.-Schrader-Str. 7 - 8, Anmeldung Tel.: 21 73 02 02",
                     "bezeichnung": "Kunst-Kreativ-Markt",
@@ -1321,9 +1259,9 @@
                     "email": "",
                     "id": 411,
                     "plz": "10781",
-                    "strasse": "K.-Schrader-Str. 7 - 8",
+                    "strasse": "Karl-Schrader-Str. 7 - 8",
                     "tage": "13.06.2023",
-                    "www": "https://www.kiezoase.de/aktuelle-angebote/",
+                    "www": "https://www.kiezoase.de/kunst-kreativ-markt/",
                     "zeiten": "13:00 - 17:00"
                 },
                 "description": "13.06.2023<br />13:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/411\">Mehr...</a>",
@@ -1801,37 +1739,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.52317,
-                    52.4764
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "_wgs84_lat": 52.4763957,
-                    "_wgs84_lon": 13.5231695,
-                    "bemerkungen": "",
-                    "betreiber": "Beste Sammelfreunde UG (haftungsbeschränkt), Tel.: 509 93 82",
-                    "bezeichnung": "Riesenflohmarkt Event",
-                    "bezirk": "Lichtenberg",
-                    "email": "info@oldthing.de",
-                    "id": 471,
-                    "plz": "10318",
-                    "strasse": "Treskowallee 159",
-                    "tage": "27.-29.05., 01.-03.10.2023",
-                    "www": "www.oldthing.de/riesenflohmarkt",
-                    "zeiten": "09:00 - 17:00"
-                },
-                "description": "27.-29.05., 01.-03.10.2023<br />09:00 - 17:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/471\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/471",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/471",
-                "title": "Riesenflohmarkt Event"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     13.36423,
                     52.49019
                 ],
@@ -1857,37 +1764,6 @@
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/363",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/363",
                 "title": "Schoeneboerg Flowmarkt"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.30762,
-                    52.46698
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "_wgs84_lat": 52.4669815,
-                    "_wgs84_lon": 13.3076224,
-                    "bemerkungen": "Verkauf von Baby- und Kindersachen",
-                    "betreiber": "Fa. MARKTTAG, Tel.: 29 77 99 44",
-                    "bezeichnung": "Trödel<164 Markt",
-                    "bezirk": "Steglitz-Zehlendorf",
-                    "email": "markttag@web.de",
-                    "id": 462,
-                    "plz": "14195",
-                    "strasse": "Breitenbachplatz",
-                    "tage": "02./09.04., 01./04.05., 04./11.06., 09.07., 13.08., 03./10.09., 01./08.10., 05.11.2023",
-                    "www": "www.markttag-berlin.de",
-                    "zeiten": "10:00-14:00"
-                },
-                "description": "02./09.04., 01./04.05., 04./11.06., 09.07., 13.08., 03./10.09., 01./08.10., 05.11.2023<br />10:00-14:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/462\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/462",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/462",
-                "title": "Trödel<164 Markt"
             },
             "type": "Feature"
         },
@@ -2483,15 +2359,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    13.52667,
-                    52.45864
+                    13.52713,
+                    52.4584
                 ],
                 "type": "Point"
             },
             "properties": {
                 "data": {
-                    "_wgs84_lat": 52.4586392,
-                    "_wgs84_lon": 13.5266724,
+                    "_wgs84_lat": 52.4583992,
+                    "_wgs84_lon": 13.5271252,
                     "bemerkungen": "",
                     "betreiber": "Marktleitung: \nGakenholz und Gellesch GmbH\nTel.: 396 11 96, 0171/602 42 04, 0171/607 53 61",
                     "bezeichnung": "Wochenmarkt Berlin-Oberschöneweide",
@@ -2499,7 +2375,7 @@
                     "email": "mailto:berndgellesch@t-online.de",
                     "id": 315,
                     "plz": "12459",
-                    "strasse": "Rathenaustraße 2A (Rathenauplatz)",
+                    "strasse": "Rathenaustraße 2A",
                     "tage": "Mi",
                     "www": "http://www.brandenburger-wochenmaerkte.de",
                     "zeiten": "09:00 - 16:00"
@@ -3351,23 +3227,23 @@
         {
             "geometry": {
                 "coordinates": [
-                    10.45153,
-                    51.16569
+                    13.32619,
+                    52.49391
                 ],
                 "type": "Point"
             },
             "properties": {
                 "data": {
-                    "_wgs84_lat": 51.165691,
-                    "_wgs84_lon": 10.451526,
+                    "_wgs84_lat": 52.4939139,
+                    "_wgs84_lon": 13.3261861,
                     "bemerkungen": "",
                     "betreiber": "Bezirksamt Charlottenburg-Wilmersdorf, Marktverwaltung, Hohenzollerndamm 174-177, 10713 Berlin\nTel.: 9029 - 290 72/3",
                     "bezeichnung": "Wochenmarkt Hohenzollernplatz",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "email": "",
                     "id": 27,
-                    "plz": "14129",
-                    "strasse": "Hohenzollernplatz",
+                    "plz": "10717",
+                    "strasse": "Nassauische Str. 67",
                     "tage": "Mi, Sa",
                     "www": "",
                     "zeiten": "08:00 - 13:00"
@@ -4585,37 +4461,6 @@
                 "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/309",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/309",
                 "title": "Zehlendorf Frische Markt zwischen Teltower Damm und Postplatz direkt am S-Bahnhof Zehlendorf"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.30762,
-                    52.46698
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "data": {
-                    "_wgs84_lat": 52.4669815,
-                    "_wgs84_lon": 13.3076224,
-                    "bemerkungen": "Verkauf von Bekleidung, Büchern, Bildern und Medien",
-                    "betreiber": "Fa. MARKTTAG, Tel.: 29 77 99 44",
-                    "bezeichnung": "anZiehmarkt",
-                    "bezirk": "Steglitz-Zehlendorf",
-                    "email": "markttag@web.de",
-                    "id": 465,
-                    "plz": "14195",
-                    "strasse": "Breitenbachplatz",
-                    "tage": "16.04., 21.05., 18.06., 16.07., 20.08., 17.09., 15.10., 12.11.2023",
-                    "www": "www.markttag-berlin.de",
-                    "zeiten": "10:30-15:00"
-                },
-                "description": "16.04., 21.05., 18.06., 16.07., 20.08., 17.09., 15.10., 12.11.2023<br />10:30-15:00<br /> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/465\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/465",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/465",
-                "title": "anZiehmarkt"
             },
             "type": "Feature"
         },
