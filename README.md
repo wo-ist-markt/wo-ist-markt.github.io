@@ -243,7 +243,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
-[frankfurtmain-markets]: http://www.frankfurt.de/sixcms/detail.php?id=4623
+[frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/einkaufen-in-frankfurt/maerkte-und-flohmaerkte
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf

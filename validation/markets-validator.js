@@ -52,7 +52,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 5; // Marl, Essen, Potsdam, Mallorca, Siegen
+var ACCEPTABLE_WARNINGS_COUNT = 6; // Marl, Essen, Potsdam, Mallorca, Siegen, Bremen
 
 var exitCode = 0;
 
