@@ -43,7 +43,7 @@
     "validate": "node validation/markets-validator.js"
   },
   "engines": {
-    "node": ">=12",
+    "node": ">=20",
     "npm": ">=7"
   }
 }
