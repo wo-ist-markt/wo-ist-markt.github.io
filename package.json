@@ -23,7 +23,7 @@
     "opening_hours": "^3.8.0",
     "postcss": "^8.4.33",
     "ora": "^8.0.1",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^16.0.0",
     "rollup": "^2.79.1",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-css-bundle": "^1.0.4",
