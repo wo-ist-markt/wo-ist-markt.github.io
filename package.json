@@ -21,7 +21,7 @@
     "jasmine": "^5.1.0",
     "jshint": "^2.13.6",
     "opening_hours": "^3.8.0",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "ora": "^8.0.1",
     "postcss-import": "^16.0.1",
     "rollup": "^2.79.1",
