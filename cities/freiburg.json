@@ -290,11 +290,43 @@
                 "title": "Bauernmarkt Zollhallenplatz"
             },
             "type": "Feature"
-        }       
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.84129,
+                    47.98601
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Schwimmbadstraße 29, 79100 Freiburg im Breisgau",
+                "opening_hours": "Tu 16:00-18:00; Sa 08:00-12:30",
+                "title": "Demeter Lorettomarkt Wiehre",
+                "details_url": "https://lorettomarkt.de"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.81256,
+                    47.97610
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Bergiselstraße 11, 79111 Freiburg im Breisgau",
+                "opening_hours": "Sa 09:30-12:30",
+                "title": "Demeter Höfeladen St.Georgen",
+                "details_url": "https://demetermarkt.de"
+            },
+            "type": "Feature"
+        }
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Freiburg, aktualisiert am 10.10.2021",
+            "title": "Stadt Freiburg, aktualisiert am 11.03.2024",
             "url": "https://visit.freiburg.de/freiburg-fuehlen/kulinarisches-in-freiburg"
         }
     },
