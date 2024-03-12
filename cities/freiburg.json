@@ -21,7 +21,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -37,7 +36,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -53,7 +51,6 @@
             },
             "type": "Feature"
         },
-        
         {
             "geometry": {
                 "coordinates": [
@@ -69,7 +66,6 @@
             },
             "type": "Feature"
         },
-        
         {
             "geometry": {
                 "coordinates": [
@@ -85,7 +81,6 @@
             },
             "type": "Feature"
         },
-        
         {
             "geometry": {
                 "coordinates": [
@@ -101,7 +96,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -117,7 +111,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -133,7 +126,6 @@
             },
             "type": "Feature"
         },
-      
         {
             "geometry": {
                 "coordinates": [
@@ -149,7 +141,6 @@
             },
             "type": "Feature"
         },
-        
         {
             "geometry": {
                 "coordinates": [
@@ -165,7 +156,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -181,7 +171,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -197,7 +186,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -213,7 +201,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -229,7 +216,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -245,7 +231,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -261,7 +246,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -277,7 +261,6 @@
             },
             "type": "Feature"
         },
-
         {
             "geometry": {
                 "coordinates": [
@@ -292,9 +275,8 @@
                 "title": "Zähringer Bauernmarkt"
             },
             "type": "Feature"
-
         },
-         {
+        {
             "geometry": {
                 "coordinates": [
                     7.84828,
@@ -308,9 +290,7 @@
                 "title": "Bauernmarkt Zollhallenplatz"
             },
             "type": "Feature"
-
         }       
-
     ],
     "metadata": {
         "data_source": {
