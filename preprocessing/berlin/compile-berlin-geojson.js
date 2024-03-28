@@ -125,6 +125,7 @@ function prepareFeatureProperties(feature) {
 	outputProperties.title = sanitizedTitle;
 	outputProperties.location = sanitizedLocation;
 	var days = inputProperties.tage;
+	var dayRanges = inputProperties.zeitraum;
 	var hours = inputProperties.zeiten;
 	var sanitizedDays = getSanitizeDays(days);
 	var sanitizedHours = getSanitizeHours(hours);
@@ -138,7 +139,19 @@ function prepareFeatureProperties(feature) {
 	}
 	catch(error) {
 		outputProperties.opening_hours = null;
-		var daysHours = (getSanitizeString(days) + " " + getSanitizeString(hours)).trim();
+		var daysHours = "";
+		if (getSanitizeString(days).length > 0 && getSanitizeString(days) !== "/") {
+			daysHours += getSanitizeString(days);
+		}
+		if (getSanitizeString(hours).length > 0) {
+			if (daysHours.length > 0) {
+				daysHours += " ";
+			}
+			daysHours += getSanitizeString(hours);
+		}
+		if (getSanitizeString(dayRanges).length > 0 && getSanitizeString(dayRanges) !== "/") {
+			daysHours = daysHours + " / " + getSanitizeString(dayRanges);
+		}
 		if (daysHours.length === 0) {
 			daysHours = inputProperties.bemerkungen;
 		}
@@ -231,10 +244,11 @@ function getSanitizedUrl(url) {
  */
 function getSanitizeString(text) {
 	text = text.replace(/  /g, " ");
-	text = text.replace(/\n/g, " ");
+	text = text.replace(/\n+/g, " ");
 	text = text.replace(/„/g, "");
 	text = text.replace(/“/g, " ");
 	text = text.replace(/Â/g, " ");
+	text = text.replace(/\s+/g, " ");
 	text = text.trim();
 	return text;
 }
@@ -273,7 +287,9 @@ function getSanitizeDays(days) {
 	days = days.replace(/ - /g, "-");
 	days = days.replace(/, ,/g, ",");
 	days = days.replace(/, /g, ",");
+	days = days.replace("/", "");
 	days = days.replace(/ /g, "");
+	days = days.replace(/\s+/g, "");
 	days = days.trim();
 	return days;
 }
@@ -284,9 +300,9 @@ function getSanitizeDays(days) {
 function getSanitizeHours(hours) {
 	hours = hours.replace(/ab (\d\d:\d\d)/g, "$1+");
 	hours = hours.replace(/ - /g, "-");
-	hours = hours.replace(/\n\n\n/g, " ");
-	hours = hours.replace(/\n\n/g, " ");
-	hours = hours.replace(/\n/g, " ");
+	hours = hours.replace(/\n+/g, " ");
+	hours = hours.replace(/\n\s+/g, " ");
+	hours = hours.replace(/\s+/g, " ");
 	hours = hours.replace(/ /g, ",");
 	hours = hours.replace(/^,/g, "");
 	hours = hours.replace(/,$/g, "");
