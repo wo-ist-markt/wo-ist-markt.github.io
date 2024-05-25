@@ -231,7 +231,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [cuxhaven-wikipedia]: https://de.wikipedia.org/wiki/Cuxhaven
 [cuxhaven-markets]: https://www.cuxhaven.de/magazin/artikel.php?artikel=2801&type=2&menuid=686&topmenu=16
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
-[dortmund-markets]: https://www2.dortmund.de/de/leben_in_dortmund/ausunsererstadt/stadtportraet/einkaufen/wochenmaerkte/index.html
+[dortmund-markets]: https://www.dortmund.de/dortmund-erleben/einkaufen/wochenmaerkte/
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
