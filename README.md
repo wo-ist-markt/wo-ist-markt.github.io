@@ -345,7 +345,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [stuttgart-wikipedia]: https://en.wikipedia.org/wiki/Stuttgart
 [stuttgart-markets]: http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/
 [suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
-[suhl-markets]: http://suhltrifft.de/content/view/5059/2190/
+[suhl-markets]: https://www.suhl.eu/maerkte-feste
 [trier-wikipedia]: https://de.wikipedia.org/wiki/Trier
 [trier-markets]: https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/
 [tübingen-wikipedia]: https://en.wikipedia.org/wiki/T%C3%BCbingen
