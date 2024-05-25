@@ -269,7 +269,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [hofheimamtaunus-wikipedia]: https://de.wikipedia.org/wiki/Hofheim_am_Taunus
-[hofheimamtaunus-markets]: https://www.hofheim.de/leben/Maerkte/index.php#c6
+[hofheimamtaunus-markets]: https://www.hofheim.de/veranstaltung/wochenmarkt/
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
