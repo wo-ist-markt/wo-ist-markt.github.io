@@ -231,7 +231,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [cuxhaven-wikipedia]: https://de.wikipedia.org/wiki/Cuxhaven
 [cuxhaven-markets]: https://www.cuxhaven.de/magazin/artikel.php?artikel=2801&type=2&menuid=686&topmenu=16
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
-[dortmund-markets]: https://www2.dortmund.de/de/leben_in_dortmund/ausunsererstadt/stadtportraet/einkaufen/wochenmaerkte/index.html
+[dortmund-markets]: https://www.dortmund.de/dortmund-erleben/einkaufen/wochenmaerkte/
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
@@ -269,7 +269,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
 [hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
 [hofheimamtaunus-wikipedia]: https://de.wikipedia.org/wiki/Hofheim_am_Taunus
-[hofheimamtaunus-markets]: https://www.hofheim.de/leben/Maerkte/index.php#c6
+[hofheimamtaunus-markets]: https://www.hofheim.de/veranstaltung/wochenmarkt/
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
 [koeln-markets]: http://www.offenedaten-koeln.de/dataset/wochenmaerkte-koeln
 [konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
@@ -337,7 +337,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
 [schwerin-markets]: http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html
 [siegen-wikipedia]: https://en.wikipedia.org/wiki/Siegen
-[siegen-markets]: http://www.siegen.de/ols/dienstleistungen-a-bis-z/?tx_ricools_showtasks%5Baufgabe%5D=597&tx_ricools_showtasks%5Baction%5D=show&tx_ricools_showtasks%5Bcontroller%5D=Aufgabe&cHash=45090d0fafa93fbd51bc3839bfefabe5
+[siegen-markets]: https://www.siegen-stadt.de
 [solingen-wikipedia]: https://en.wikipedia.org/wiki/Solingen
 [solingen-markets]: https://www.solingerwochenmarkt.de
 [stralsund-wikipedia]: https://en.wikipedia.org/wiki/Stralsund
@@ -345,7 +345,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [stuttgart-wikipedia]: https://en.wikipedia.org/wiki/Stuttgart
 [stuttgart-markets]: http://www.stuttgarter-wochenmaerkte.de/maerkte-staende/uebersicht/
 [suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
-[suhl-markets]: http://suhltrifft.de/content/view/5059/2190/
+[suhl-markets]: https://www.suhl.eu/maerkte-feste
 [trier-wikipedia]: https://de.wikipedia.org/wiki/Trier
 [trier-markets]: https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/
 [tübingen-wikipedia]: https://en.wikipedia.org/wiki/T%C3%BCbingen
