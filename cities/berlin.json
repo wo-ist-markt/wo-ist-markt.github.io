@@ -751,6 +751,23 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.40234,
+                    52.54005
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Flohmarkt im Mauerpark",
+                "location": "Bernauer Str. 63 - 64, 13355",
+                "opening_hours": "Su 10:00-18:00",
+                "opening_hours_unclassified": null,
+                "details_url": "https://www.flohmarktimmauerpark.de"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.45068,
                     52.54875
                 ],
@@ -813,23 +830,6 @@
                 "opening_hours": null,
                 "opening_hours_unclassified": "Do Advents-sonntage 12:00 - 19:00",
                 "details_url": "https://www.grueneliga-berlin.de"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.40234,
-                    52.54005
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "title": "Flohmarkt im Mauerpark",
-                "location": "Bernauer Str. 63 - 64, 13355",
-                "opening_hours": "Su 10:00-18:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.flohmarktimmauerpark.de"
             },
             "type": "Feature"
         },
@@ -1292,7 +1292,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 23.05.2024",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 05.06.2024",
             "url": "https://daten.berlin.de/datensaetze/berliner-und-brandenburger-wochen-und-tr%C3%B6delm%C3%A4rkte"
         }
     },
