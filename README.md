@@ -255,7 +255,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
 [hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
-[hamburg-markets]: http://www.hamburg.de/wochenmarkt-hamburg/
+[hamburg-markets]: https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte
 [hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
 [hamm-markets]: https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html
 [hannover-wikipedia]: https://de.wikipedia.org/wiki/Hannover
