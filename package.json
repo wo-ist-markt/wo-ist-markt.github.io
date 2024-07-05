@@ -22,7 +22,7 @@
     "jshint": "^2.13.6",
     "opening_hours": "^3.8.0",
     "ora": "^8.0.1",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.39",
     "postcss-import": "^16.1.0",
     "rollup": "^2.79.1",
     "rollup-plugin-copy": "^3.5.0",
