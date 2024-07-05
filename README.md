@@ -209,7 +209,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
 [bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
-[bonn-markets]: http://opendata.bonn.de/dataset/veranstaltungskalender-komplett%C3%BCbersicht
+[bonn-markets]: https://www.bonn.de/vv/produkte/Wochenmarkt-Bewerbung.php
 [bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
 [bottrop-markets]: https://www.bottrop.de/vv/produkte/dezernat3/30/Wochenmaerkte.php
 [braunschweig-wikipedia]: https://de.wikipedia.org/wiki/Braunschweig
@@ -255,7 +255,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
 [hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
-[hamburg-markets]: http://www.hamburg.de/wochenmarkt-hamburg/
+[hamburg-markets]: https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte
 [hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
 [hamm-markets]: https://www.hamm.de/touristik/freizeit/einkaufen/wochenmaerkte.html
 [hannover-wikipedia]: https://de.wikipedia.org/wiki/Hannover
@@ -319,7 +319,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [oldenburg-wikipedia]: https://en.wikipedia.org/wiki/Oldenburg
 [oldenburg-markets]: http://www.oldenburg.de/microsites/wochenmaerkte.html
 [osnabrueck-wikipedia]: https://en.wikipedia.org/wiki/Osnabrueck
-[osnabrueck-markets]: https://www.osnabrueck.de/tourismus/aktivitaeten/hoehepunkte/wochenmaerkte.html
+[osnabrueck-markets]: https://erleben.osnabrueck.de/de/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
