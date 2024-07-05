@@ -319,7 +319,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [oldenburg-wikipedia]: https://en.wikipedia.org/wiki/Oldenburg
 [oldenburg-markets]: http://www.oldenburg.de/microsites/wochenmaerkte.html
 [osnabrueck-wikipedia]: https://en.wikipedia.org/wiki/Osnabrueck
-[osnabrueck-markets]: https://www.osnabrueck.de/tourismus/aktivitaeten/hoehepunkte/wochenmaerkte.html
+[osnabrueck-markets]: https://erleben.osnabrueck.de/de/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
