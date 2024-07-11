@@ -56,22 +56,37 @@
             "properties": {
                 "title": "Wochenmarkt Döhren",
                 "location": "Fiedelerplatz, 30519 Hannover",
-                "opening_hours": "Tu 14:00-18:00"
+                "opening_hours": "Fr 8:00-13:00"
             },
             "type": "Feature"
         },
         {
             "geometry": {
                 "coordinates": [
-                    9.7943280,
-                    52.4023809
+                    9.79400,
+                    52.40223
                 ],
                 "type": "Point"
             },
             "properties": {
                 "title": "Wochenmarkt Groß-Buchholz",
-                "location": "Bussestraße / Guerickestraße, 30655 Hannover",
+                "location": "Bussestraße 1, 30655 Hannover",
                 "opening_hours": "Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.81337,
+                    52.38930
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Wochenmarkt Groß-Buchholz (Roderbruch)",
+                "location": "Roderbruchmarkt, 30627 Hannover",
+                "opening_hours": "Tu,Fr 14:00-18:00"
             },
             "type": "Feature"
         },
@@ -147,6 +162,21 @@
                 "title": "Wochenmarkt Mitte (Klagesmarkt)",
                 "location": "Am Klagesmarkt, 30159 Hannover",
                 "opening_hours": "Tu,Sa 8:00-13:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.81473,
+                    52.33913
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt Mittelfeld",
+                "location": "An der Weidenkirche 10, 30539 Hannover",
+                "opening_hours": "Th 14:00-18:00"
             },
             "type": "Feature"
         },
@@ -384,9 +414,24 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Bahnhof",
+                "title": "Bauernmarkt am Hauptbahnhof",
                 "location": "Ernst-August-Platz, 30159 Hannover",
                 "opening_hours": "Mo,Fr 14:00-18:00"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.82636,
+                    52.35830
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "title": "Bauernmarkt am Kleinen Hillen ",
+                "location": "Kleiner Hillen 4, 30559 Hannover",
+                "opening_hours": "Fr 8:00-13:00"
             },
             "type": "Feature"
         },
@@ -399,8 +444,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Bothfeld",
-                "location": "Einkaufspark Klein-Buchholz, 30695 Hannover",
+                "title": "Bauernmarkt am Einkaufspark Klein-Buchholz",
+                "location": "Sutelstraße 7A, 30695 Hannover",
                 "opening_hours": "Fr 14:00-18:00"
             },
             "type": "Feature"
@@ -414,7 +459,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Döhren",
+                "title": "Bauernmarkt Fiedelerplatz (Döhren)",
                 "location": "Fiedelerplatz, 30519 Hannover",
                 "opening_hours": "Tu 14:00-18:00"
             },
@@ -444,8 +489,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Nordstadt",
-                "location": "Lutherkirche, 30167 Hannover",
+                "title": "Bauernmarkt Lutherkirche (Nordstadt)",
+                "location": "An der Lutherkirche 11, 30167 Hannover",
                 "opening_hours": "Th 14:00-18:00"
             },
             "type": "Feature"
@@ -459,8 +504,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Mitte",
-                "location": "Marktkirche, 30159 Hannover",
+                "title": "Bauernmarkt Marktkirche (Mitte)",
+                "location": "Am Markte, 30159 Hannover",
                 "opening_hours": "Th 14:00-18:00"
             },
             "type": "Feature"
@@ -504,7 +549,7 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt am Kantplatz",
+                "title": "Bauernmarkt am Kantplatz (Kleefeld)",
                 "location": "Kantplatz, 30625 Hannover",
                 "opening_hours": "Tu 14:00-18:00"
             },
@@ -534,8 +579,8 @@
                 "type": "Point"
             },
             "properties": {
-                "title": "Bauernmarkt Zooviertel",
-                "location": "Friedenskirche, 30175 Hannover",
+                "title": "Bauernmarkt an der Friedenskirche (Zoo-Viertel)",
+                "location": "Schackstraße 4, 30175 Hannover",
                 "opening_hours": "Sa 8:00-13:00"
             },
             "type": "Feature"
@@ -543,7 +588,7 @@
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Hannover",
+            "title": "Stadt Hannover, aktualisiert am 19.03.2024",
             "url": "https://www.hannover.de/Veranstaltungskalender/M%C3%A4rkte/Wochenm%C3%A4rkte-in-der-Stadt-Hannover/(offset)/20"
         }
     },
