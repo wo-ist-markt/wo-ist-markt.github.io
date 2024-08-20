@@ -203,7 +203,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [basel-wikipedia]: https://en.wikipedia.org/wiki/Basel
 [basel-markets]: http://www.bs.ch/Portrait/maerkte.html
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
-[berlin-markets]: https://daten.berlin.de/datensaetze/berliner-und-brandenburger-wochen-und-tr%C3%B6delm%C3%A4rkte
+[berlin-markets]: https://daten.berlin.de/datensaetze/simple_search_wwwberlindesenwebservicemaerktefestewochentroedelmaerkte
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
 [bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
@@ -243,7 +243,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
 [essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
-[frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/einkaufen-in-frankfurt/maerkte-und-flohmaerkte
+[frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/maerkte-und-einkaufsstrassen/maerkte-und-flohmaerkte/wochenmaerkte
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
