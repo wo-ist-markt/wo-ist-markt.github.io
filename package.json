@@ -18,7 +18,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "axios": "^1.7.2",
     "colors": "1.4.0",
-    "jasmine": "^5.1.0",
+    "jasmine": "^5.2.0",
     "jshint": "^2.13.6",
     "opening_hours": "^3.8.0",
     "ora": "^8.0.1",
