@@ -201,7 +201,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [baden-baden-wikipedia]: https://de.wikipedia.org/wiki/Baden-Baden
 [baden-baden-markets]: https://www.baden-baden.de/stadtportrait/aktuelles/wochenmaerkte/
 [basel-wikipedia]: https://en.wikipedia.org/wiki/Basel
-[basel-markets]: http://www.bs.ch/Portrait/maerkte.html
+[basel-markets]: https://www.bs.ch/pd/marketing/messenundmaerkte
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
 [berlin-markets]: https://daten.berlin.de/datensaetze/simple_search_wwwberlindesenwebservicemaerktefestewochentroedelmaerkte
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
