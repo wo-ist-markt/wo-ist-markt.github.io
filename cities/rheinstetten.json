@@ -1,26 +1,34 @@
 {
-    "features": [
-        {
-            "geometry": {
-                "coordinates": [
-                    48.974798,
-                    8.312010
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "location": "Haltestelle Forchheim Hauptstraße",
-                "opening_hours": "Thu 08:00-12:00",
-                "title": "Wochenmarkt Rheinstetten"
-            },
-            "type": "Feature"
-        },
-    ],
-    "metadata": {
-        "data_source": {
-            "title": "Stadt Rheinstetten",
-            "url": "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte"
-        }
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     },
-    "type": "FeatureCollection"
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+            48.974798,
+            8.312010
+        ],
+        "type": "Point"
+      },
+      "properties": {
+          "location": "Haltestelle Forchheim Hauptstraße",
+          "opening_hours": "Th 08:00-12:00",
+          "title": "Wochenmarkt Rheinstetten",
+          "details_url" : "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte"
+      },
+      "type": "Feature"
+    }
+    ],
+  "metadata": {
+    "data_source": {
+        "title": "Stadt Rheinstetten",
+        "url": "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte"
+    }
+  },
+  "type": "FeatureCollection"
 }
+
