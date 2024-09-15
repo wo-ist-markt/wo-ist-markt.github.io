@@ -208,7 +208,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
 [bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
-[bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
+[bochum-markets]: https://www.bochum.de/Ordnungs--und-Veterinaeramt/Dienstleistungen-und-Infos/Wochenmaerkte
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
 [bonn-markets]: https://www.bonn.de/vv/produkte/Wochenmarkt-Bewerbung.php
 [bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
@@ -268,7 +268,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
 [herne-markets]: http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
-[hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
+[hilden-markets]: https://www.hilden.de/de/wirtschaft-bauen/citymanagement/wochenmaerkte/
 [hofheimamtaunus-wikipedia]: https://de.wikipedia.org/wiki/Hofheim_am_Taunus
 [hofheimamtaunus-markets]: https://www.hofheim.de/veranstaltung/wochenmarkt/
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
@@ -276,7 +276,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
 [konstanz-markets]: http://konstanz.de/umwelt/00706/01031/01037/index.html
 [Kaiserslautern-wikipedia]: https://en.wikipedia.org/wiki/Kaiserslautern
-[Kaiserslautern-markets]: http://www.wochenmarkt-kaiserslautern.de
+[Kaiserslautern-markets]: https://www.kaiserslautern.de/tourismus_freizeit_kultur/tourismus/kaiserslautern_erleben/einkaufen/maerkte/index.html.de
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
 [kassel-wikipedia]: https://en.wikipedia.org/wiki/Kassel
@@ -324,7 +324,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
-[potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
+[potsdam-markets]: https://www.potsdam.de/de/kategorie/einkaufen-schenken
 [rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
 [rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
