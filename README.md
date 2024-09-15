@@ -185,7 +185,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 
 
 
-[rostockfabric]: https://fabfile.org
+[fabric]: https://fabfile.org
 [github-issue-tracker]: https://github.com/wo-ist-markt/wo-ist-markt.github.io/issues
 [johnjohndoe-github]: https://github.com/johnjohndoe
 [npm]: https://www.npmjs.com
