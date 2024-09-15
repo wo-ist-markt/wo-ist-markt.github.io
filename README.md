@@ -142,6 +142,7 @@ in February 2016.
 |[Osnabrueck][osnabrueck-wikipedia]|[City of Osnabrueck][osnabrueck-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
+|[Rheinstetten][rheinstetten-wikipedia]|[City of Rheinstetten][rheinstetten-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Rothenburg ob der Tauber][rothenburg-wikipedia]|[City of Rothenburg ob der Tauber][rothenburg-markets]|
 |[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
@@ -324,6 +325,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
 [potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
+[rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
+[rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber

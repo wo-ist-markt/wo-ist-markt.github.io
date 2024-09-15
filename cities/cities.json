@@ -511,6 +511,14 @@
             8.05
         ]
     },
+    "rheinstetten": {
+        "id": "rheinstetten",
+        "label": "Rheinstetten",
+        "coordinates": [
+            48.974798,
+            8.312010
+        ]
+    },
     "rostock": {
         "id": "rostock",
         "label": "Rostock",
