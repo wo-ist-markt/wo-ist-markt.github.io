@@ -34,7 +34,7 @@
       "properties": {
         "title": "Nordmarkt",
         "location": "Beethovenstr. / Nordmarkt",
-        "opening_hours": "Fr 09:00-16:30"
+        "opening_hours": "Fr 08:30-15:00"
       }
     },
     {
@@ -56,7 +56,7 @@
   "metadata": {
     "data_source": {
       "title": "Stadt Hilden",
-      "url": "https://hildener-wochenmaerkte.de"
+      "url": "https://www.hilden.de/de/wirtschaft-bauen/citymanagement/wochenmaerkte/"
     }
   }
 }

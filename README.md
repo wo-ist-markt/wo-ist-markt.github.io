@@ -142,6 +142,7 @@ in February 2016.
 |[Osnabrueck][osnabrueck-wikipedia]|[City of Osnabrueck][osnabrueck-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
+|[Rheinstetten][rheinstetten-wikipedia]|[City of Rheinstetten][rheinstetten-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Rothenburg ob der Tauber][rothenburg-wikipedia]|[City of Rothenburg ob der Tauber][rothenburg-markets]|
 |[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
@@ -207,7 +208,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
 [bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
-[bochum-markets]: https://www.bochum.de/amt32/wochenmaerkte
+[bochum-markets]: https://bochum.treffpunkt-wochenmarkt.de/
 [bonn-wikipedia]: https://en.wikipedia.org/wiki/Bonn
 [bonn-markets]: https://www.bonn.de/vv/produkte/Wochenmarkt-Bewerbung.php
 [bottrop-wikipedia]: https://en.wikipedia.org/wiki/Bottrop
@@ -267,7 +268,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [herne-wikipedia]: https://de.wikipedia.org/wiki/Herne
 [herne-markets]: http://www.herne.de/Rathaus/Buergerservice/Wochenm%C3%A4rkte/index.html
 [hilden-wikipedia]: https://de.wikipedia.org/wiki/Hilden
-[hilden-markets]: http://www.hilden.de/sv_hilden/Unsere%20Stadt/Rathaus/Ortsrecht/II-04%20Festsetzung%20Wochenm%C3%A4rkte.pdf
+[hilden-markets]: https://www.hilden.de/de/wirtschaft-bauen/citymanagement/wochenmaerkte/
 [hofheimamtaunus-wikipedia]: https://de.wikipedia.org/wiki/Hofheim_am_Taunus
 [hofheimamtaunus-markets]: https://www.hofheim.de/veranstaltung/wochenmarkt/
 [koeln-wikipedia]: https://en.wikipedia.org/wiki/Cologne
@@ -275,7 +276,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [konstanz-wikipedia]: https://en.wikipedia.org/wiki/Konstanz
 [konstanz-markets]: http://konstanz.de/umwelt/00706/01031/01037/index.html
 [Kaiserslautern-wikipedia]: https://en.wikipedia.org/wiki/Kaiserslautern
-[Kaiserslautern-markets]: http://www.wochenmarkt-kaiserslautern.de
+[Kaiserslautern-markets]: https://www.kaiserslautern.de/tourismus_freizeit_kultur/tourismus/kaiserslautern_erleben/einkaufen/maerkte/index.html.de
 [karlsruhe-wikipedia]: https://en.wikipedia.org/wiki/Karlsruhe
 [karlsruhe-markets]: http://www.karlsruhe.de/b3/maerkte/wochenmarkte.de
 [kassel-wikipedia]: https://en.wikipedia.org/wiki/Kassel
@@ -311,7 +312,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [nersingen-wikipedia]: https://de.wikipedia.org/wiki/Nersingen
 [nersingen-markets]: http://www.nersingen.de/buerger_information/maerkte/_Nersinger-Wochenmarkt_84.html
 [neu-anspach-wikipedia]: https://en.wikipedia.org/wiki/Neu_Anspach
-[neu-anspach-markets]:https://www.neu-anspach.de/sv_neu_anspach/PDF/ortsrecht/ortsrecht_stadt/Wochenmarkt_Regelung_Teilnahme_101207.pdf
+[neu-anspach-markets]: https://www.neu-anspach.de/sv_neu_anspach/PDF/ortsrecht/ortsrecht_stadt/Wochenmarkt_Regelung_Teilnahme_101207.pdf
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
@@ -323,7 +324,9 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
-[potsdam-markets]: https://www.potsdam.de/kategorie/maerkte
+[potsdam-markets]: https://www.potsdam.de/de/kategorie/einkaufen-schenken
+[rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
+[rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber
@@ -354,13 +357,13 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [usingen-wikipedia]: https://de.wikipedia.org/wiki/Usingen
 [usingen-markets]: https://www.usingen.de/pdfs/satzungen/marktordnung-der-stadt-usingen.pdf
-[wiesbaden-wikipedia]:https://en.wikipedia.org/wiki/Wiesbaden
-[wiesbaden-markets]:http://www.wiesbaden.de/wiesbadener-wochenmarkt/
-[witten-wikipedia]:https://en.wikipedia.org/wiki/Witten
-[witten-markets]:http://www.stadtmarketing-witten.de/einkaufen/wochenmaerkte.html
+[wiesbaden-wikipedia]: https://en.wikipedia.org/wiki/Wiesbaden
+[wiesbaden-markets]: http://www.wiesbaden.de/wiesbadener-wochenmarkt/
+[witten-wikipedia]: https://en.wikipedia.org/wiki/Witten
+[witten-markets]: https://stadtmarketing-witten.de/einkaufen-geniessen/wochenmaerkte
 [wolfenbuettel-wikipedia]: https://de.wikipedia.org/wiki/Wolfenb%C3%BCttel
 [wolfenbuettel-markets]: https://www.wolfenbuettel.de/index.php?NavID=2672.372
-[wuppertal-wikipedia]:https://en.wikipedia.org/wiki/Wuppertal
-[wuppertal-markets]:https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
-[zwickau-wikipedia]:https://en.wikipedia.org/wiki/Zwickau
-[zwickau-markets]:https://www.zwickautourist.de/de/wochenmaerkte.php
+[wuppertal-wikipedia]: https://en.wikipedia.org/wiki/Wuppertal
+[wuppertal-markets]: https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
+[zwickau-wikipedia]: https://en.wikipedia.org/wiki/Zwickau
+[zwickau-markets]: https://www.zwickautourist.de/de/wochenmaerkte.php
