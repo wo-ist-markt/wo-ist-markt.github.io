@@ -15,7 +15,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "axios": "^1.7.7",
     "colors": "1.4.0",
     "jasmine": "^5.2.0",
