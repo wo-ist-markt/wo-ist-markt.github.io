@@ -75,7 +75,7 @@
         "id": "bremen",
         "label": "Bremen",
         "coordinates": [
-            53.080,
+            53.08,
             8.80007
         ]
     },
@@ -268,7 +268,7 @@
         "label": "Heidelberg",
         "coordinates": [
             49.4094,
-            8.6950
+            8.695
         ]
     },
     "herne": {
@@ -515,7 +515,7 @@
         "id": "rastatt",
         "label": "Rastatt",
         "coordinates": [
-            48.857750,
+            48.85775,
             8.202447
         ]
     },
@@ -524,7 +524,7 @@
         "label": "Rheinstetten",
         "coordinates": [
             48.974798,
-            8.312010
+            8.31201
         ]
     },
     "rostock": {

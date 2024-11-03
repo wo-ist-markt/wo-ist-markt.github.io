@@ -227,7 +227,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bruehl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
 [bruehl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
-[chemnitz-markets]: http://chemnitz.de/chemnitz/de/aktuelles/ausschreibungen/marktausschreibung/index.html
+[chemnitz-markets]: https://www.chemnitz.de/de/rathaus/ausschreibungen/marktausschreibungen/wochenmaerkte
 [cottbus-wikipedia]: https://de.wikipedia.org/wiki/Cottbus
 [cottbus-markets]: http://www.cottbuser-wochenmarkt.de/
 [cuxhaven-wikipedia]: https://de.wikipedia.org/wiki/Cuxhaven
@@ -285,7 +285,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [kleve-wikipedia]: https://en.wikipedia.org/wiki/Kleve
-[kleve-markets]: https://www.kleve.de/de/inhalt/wochenmaerkte/
+[kleve-markets]: https://www.kleve.de/stadt-kleve/freizeit-und-kultur/veranstaltungen/wochenmaerkte-kleve
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [laupheim-wikipedia]: https://de.wikipedia.org/wiki/Laupheim
