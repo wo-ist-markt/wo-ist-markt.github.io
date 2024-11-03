@@ -285,7 +285,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [kleve-wikipedia]: https://en.wikipedia.org/wiki/Kleve
-[kleve-markets]: https://www.kleve.de/de/inhalt/wochenmaerkte/
+[kleve-markets]: https://www.kleve.de/de/stadt-kleve/freizeit-und-kultur/veranstaltungen/wochenmaerkte-kleve
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [laupheim-wikipedia]: https://de.wikipedia.org/wiki/Laupheim
