@@ -511,6 +511,14 @@
             8.05
         ]
     },
+    "rastatt": {
+        "id": "rastatt",
+        "label": "Rastatt",
+        "coordinates": [
+            48.857750,
+            8.202447
+        ]
+    },
     "rheinstetten": {
         "id": "rheinstetten",
         "label": "Rheinstetten",
