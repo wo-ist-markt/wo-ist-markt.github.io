@@ -7,7 +7,7 @@
     "jquery": "^3.7.1",
     "leaflet": "^1.9.4",
     "leaflet.awesome-markers": "^2.0.5",
-    "leaflet.locatecontrol": "^0.81.1",
+    "leaflet.locatecontrol": "^0.82.0",
     "normalize.css": "^8.0.1",
     "opening_hours": "^3.8.0",
     "select2": "^4.0.13"
