@@ -143,6 +143,7 @@ in February 2016.
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rheinstetten][rheinstetten-wikipedia]|[City of Rheinstetten][rheinstetten-markets]|
+|[Rastatt][rastatt-wikipedia]|[City of Rastatt][rastatt-markets]|
 |[Rostock][rostock-wikipedia]|[City of Rostock][rostock-markets]|
 |[Rothenburg ob der Tauber][rothenburg-wikipedia]|[City of Rothenburg ob der Tauber][rothenburg-markets]|
 |[Saarbrücken][saarbruecken-wikipedia]|[Landeshauptstadt Saarbrücken][saarbruecken-markets]|
@@ -284,7 +285,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [kiel-wikipedia]: https://en.wikipedia.org/wiki/Kiel
 [kiel-markets]: https://www.kiel.de/touristik/maerkte/wochenmarkt.php
 [kleve-wikipedia]: https://en.wikipedia.org/wiki/Kleve
-[kleve-markets]: https://www.kleve.de/de/inhalt/wochenmaerkte/
+[kleve-markets]: https://www.kleve.de/de/stadt-kleve/freizeit-und-kultur/veranstaltungen/wochenmaerkte-kleve
 [langenfeld-rhld-wikipedia]: https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)
 [langenfeld-rhld-markets]: http://langenfeld.active-city.net/city_info/display/dokument/show.cfm?region_id=138&id=4240&design_id=3340&type_id=0&titletext=1
 [laupheim-wikipedia]: https://de.wikipedia.org/wiki/Laupheim
@@ -325,8 +326,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
 [potsdam-markets]: https://www.potsdam.de/de/kategorie/einkaufen-schenken
-[rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
-[rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte
+[rastatt-wikipedia]: https://de.wikipedia.org/wiki/Rastatt
+[rastatt-markets]: https://www.rastatt.de/kultur-und-freizeit/freizeit-und-einkaufen/wochenmarkt
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber
