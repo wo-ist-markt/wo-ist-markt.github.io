@@ -10,55 +10,7 @@
 			},
 			"properties": {
 				"location": "Markt/Neumarkt",
-				"opening_hours": "Jan 09-Mar 03,Oct 30-Nov 16 Tu-Fr 09:00-16:00; Jan 09-Mar 03,Mar 06-Aug 18,Aug 28-Oct 27,Oct 30-Nov 16 Sa 09:00-13:00; Mar 06-Aug 18,Aug 28-Oct 27 Tu-Fr 09:00-17:00; Dec 31 08:00-12:00; Mar 24,Sep 15 09:00-15:00; Mar 26 09:00-17:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
-			},
-			"type": "Feature"
-		},
-		{
-			"geometry": {
-				"coordinates": [
-					12.921488285064695,
-					50.834236363663706
-				],
-				"type": "Point"
-			},
-			"properties": {
-				"location": "Am Roten Turm",
-				"opening_hours": "Nov 20,Nov 22-Dec 21 Tu-Fr 09:00-16:00; Nov 24,Dec 22 Sa 08:00-13:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
-			},
-			"type": "Feature"
-		},
-		{
-			"geometry": {
-				"coordinates": [
-					12.917357683181763,
-					50.831542838072934
-				],
-				"type": "Point"
-			},
-			"properties": {
-				"location": "Rosenhof",
-				"opening_hours": "Aug 21-24 Tu-Fr 09:00-17:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
-			},
-			"type": "Feature"
-		},
-		{
-			"geometry": {
-				"coordinates": [
-					12.923301458358765,
-					50.840740841067756
-				],
-				"type": "Point"
-			},
-			"properties": {
-				"location": "Georgstraße",
-				"opening_hours": "Tu,Th,Fr 09:00-17:00; Sa 08:00-12:00; Dec 24,31 08:00-12:00",
+				"opening_hours": "Jan 02-Mar 30 Tu-Fr 09:00-16:00, Sa 09:00-13:00; Apr 01-Dec 31 Tu-Fr 09:00-17:00, Sa 09:00-13:00",
 				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
@@ -74,23 +26,7 @@
 			},
 			"properties": {
 				"location": "Ernst-Enge-Straße",
-				"opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-12:00",
-				"opening_hours_unclassified": null,
-				"title": "Wochenmarkt"
-			},
-			"type": "Feature"
-		},
-		{
-			"geometry": {
-				"coordinates": [
-					12.88770318031311,
-					50.80545333878353
-				],
-				"type": "Point"
-			},
-			"properties": {
-				"location": "Dr.-Salvador-Allende-Straße",
-				"opening_hours": "Mo-Fr 09:00-16:00; Dec 22,24,29,31 08:00-12:00",
+				"opening_hours": "Jan 02-Dec 31  Mo-Fr 09:00-17:00; Sa 08:00-12:00",
 				"opening_hours_unclassified": null,
 				"title": "Wochenmarkt"
 			},
@@ -100,7 +36,7 @@
 	"metadata": {
 		"data_source": {
 			"title": "Stadt Chemnitz",
-			"url": "https://www.chemnitz.de/chemnitz/de/rathaus/ausschreibungen/marktausschreibungen/index.html"
+			"url": "https://www.chemnitz.de/de/rathaus/ausschreibungen/marktausschreibungen/wochenmaerkte"
 		}
 	},
 	"type": "FeatureCollection"
