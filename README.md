@@ -316,7 +316,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [neu-ulm-wikipedia]: https://en.wikipedia.org/wiki/Neu-Ulm
 [neu-ulm-markets]: http://nu.neu-ulm.de/de/neu-ulm-erleben/veranstaltungen/feste-maerkte/wochenmarkt/
 [oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
-[oberursel-markets]: http://www.oberursel.de/tourismus/bildung-kultur/veranstaltungen/maerkte/
+[oberursel-markets]: https://www.oberursel.de/de/erleben-entdecken/oberursel-erleben/handel-wochenmarkt/wochenmaerkte/
 [oldenburg-wikipedia]: https://en.wikipedia.org/wiki/Oldenburg
 [oldenburg-markets]: http://www.oldenburg.de/microsites/wochenmaerkte.html
 [osnabrueck-wikipedia]: https://en.wikipedia.org/wiki/Osnabrueck
@@ -340,7 +340,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
 [schwerin-markets]: http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html
 [siegen-wikipedia]: https://en.wikipedia.org/wiki/Siegen
-[siegen-markets]: https://www.siegen-stadt.de
+[siegen-markets]: https://www.siegen.de/rathaus-politik/stadtverwaltung/dienstleistungen-a-bis-z/detailseite/marktwesen-wochenmaerkte-in-siegen
 [solingen-wikipedia]: https://en.wikipedia.org/wiki/Solingen
 [solingen-markets]: https://www.solingerwochenmarkt.de
 [stralsund-wikipedia]: https://en.wikipedia.org/wiki/Stralsund
