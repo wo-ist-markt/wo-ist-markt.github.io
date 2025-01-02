@@ -340,7 +340,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [schwerin-wikipedia]: https://en.wikipedia.org/wiki/Schwerin
 [schwerin-markets]: http://marketing.schwerin.info/stadtmarketing/aufgaben/Flaeche_Maerkte.html
 [siegen-wikipedia]: https://en.wikipedia.org/wiki/Siegen
-[siegen-markets]: https://www.siegen-stadt.de
+[siegen-markets]: https://www.siegen.de/rathaus-politik/stadtverwaltung/dienstleistungen-a-bis-z/detailseite/marktwesen-wochenmaerkte-in-siegen
 [solingen-wikipedia]: https://en.wikipedia.org/wiki/Solingen
 [solingen-markets]: https://www.solingerwochenmarkt.de
 [stralsund-wikipedia]: https://en.wikipedia.org/wiki/Stralsund
