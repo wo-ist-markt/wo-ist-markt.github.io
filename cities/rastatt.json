@@ -1,0 +1,34 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+            8.202447,
+            48.857750
+        ],
+        "type": "Point"
+      },
+      "properties": {
+          "location": "Marktplatz",
+          "opening_hours": "Apr-Oct Tu, Th, Sa 07:00-13:00; Nov-Mar TU, Th, Sa 08:00-13:00",
+          "title": "Rastatter Wochenmarkt",
+          "details_url" : "https://www.rastatt.de/kultur-und-freizeit/freizeit-und-einkaufen/wochenmarkt"
+      },
+      "type": "Feature"
+    }
+    ],
+  "metadata": {
+    "data_source": {
+        "title": "Rastatt",
+        "url": "https://www.rastatt.de/kultur-und-freizeit/freizeit-und-einkaufen/wochenmarkt"
+    }
+  },
+  "type": "FeatureCollection"
+}
+
