@@ -10,12 +10,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Tribünenhalle Trabrennbahn Karlshorst\nParkplätze direkt auf der Rennbahn zu € 5,-",
                     "betreiber": "Beste Sammelfreunde UG",
                     "bezeichnung": "12. Designbörse Berlin",
                     "bezirk": "Lichtenberg",
                     "email": "info@oldthing.de",
-                    "id": 78,
+                    "id": 76,
                     "plz": "10318",
                     "strasse": "Treskowallee 159",
                     "tage": "/",
@@ -23,9 +24,9 @@
                     "zeiten": "Preview 4.10. von 17-21 Uhr\nSa, So 11:00 - 17:00",
                     "zeitraum": "04. - 06.10."
                 },
-                "description": "/<br>Preview 4.10. von 17-21 Uhr&#10;Sa, So 11:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/78\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/78",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/78",
+                "description": "/<br>Preview 4.10. von 17-21 Uhr&#10;Sa, So 11:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/76\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/76",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/76",
                 "title": "12. Designbörse Berlin"
             },
             "type": "Feature"
@@ -40,12 +41,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "AUSSER an den Wochenenden, an denen der Antikmarkt Karlshorst stattfindet > 7.4./5.5./19.5./ 7.7./4.8./15.9./6.10./3.11./22.12.29.12.2024\nVolkstrauertag und Totensonntag 17.11./24.11.2024 auch geschlossen!",
                     "betreiber": "oldthing märkte",
                     "bezeichnung": "Antik & Sammlermarkt am Berliner Ostbahnhof",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "email": "info@oldthing.de",
-                    "id": 72,
+                    "id": 70,
                     "plz": "10243",
                     "strasse": "Koppenstrasse",
                     "tage": "/",
@@ -53,9 +55,9 @@
                     "zeiten": "09:00 - 17:00",
                     "zeitraum": "07.01. - 22.12."
                 },
-                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/72\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/72",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/72",
+                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/70\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/70",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/70",
                 "title": "Antik & Sammlermarkt am Berliner Ostbahnhof"
             },
             "type": "Feature"
@@ -70,12 +72,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Besucherparkplätze zu € 5,- direkt auf der Rennbahn",
                     "betreiber": "Beste Sammelfreunde UG",
                     "bezeichnung": "Antikmarkt Trabrennbahn Karlshorst",
                     "bezirk": "Lichtenberg",
                     "email": "info@oldthing.de",
-                    "id": 75,
+                    "id": 73,
                     "plz": "10318",
                     "strasse": "Treskowallee 159",
                     "tage": "/",
@@ -83,9 +86,9 @@
                     "zeiten": "09:00 - 17:00",
                     "zeitraum": "06. + 07.04.\n04. + 05.05.\n18. - 20.05.\n06. + 07.07.\n03. + 04.08.\n14. + 15.09.\n03. - 06.10.\n02. + 03.11."
                 },
-                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/75",
+                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/73\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/73",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/73",
                 "title": "Antikmarkt Trabrennbahn Karlshorst"
             },
             "type": "Feature"
@@ -100,12 +103,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Tribünenhalle Trabrennbahn Karlshorst\nSeltene Bücher und Graphik",
                     "betreiber": "Antiquariat Christoph Neumann Berlin",
                     "bezeichnung": "Antiquariatsmesse Bücherlust",
                     "bezirk": "Lichtenberg",
                     "email": "info@antiquariat-neumann.de",
-                    "id": 84,
+                    "id": 82,
                     "plz": "10318",
                     "strasse": "Treskowallee 159",
                     "tage": "/",
@@ -113,9 +117,9 @@
                     "zeiten": "10:00 - 17:00",
                     "zeitraum": "14.-15.09."
                 },
-                "description": "/<br>10:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/84\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/84",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/84",
+                "description": "/<br>10:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/82\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/82",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/82",
                 "title": "Antiquariatsmesse Bücherlust"
             },
             "type": "Feature"
@@ -130,12 +134,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Tribünenhalle Trabrennbahn Karlshorst\nParkplätze direkt auf der Rennbahn zu € 5,-",
                     "betreiber": "Beste Sammelfreunde UG",
                     "bezeichnung": "Berliner Modellbahn & Spielzeug Börse",
                     "bezirk": "Lichtenberg",
                     "email": "info@oldthing.de",
-                    "id": 81,
+                    "id": 79,
                     "plz": "10318",
                     "strasse": "Treskowallee 159",
                     "tage": "/",
@@ -143,9 +148,9 @@
                     "zeiten": "09:00 - 17:00",
                     "zeitraum": "06.4. + 03.11."
                 },
-                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/81\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/81",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/81",
+                "description": "/<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/79\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/79",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/79",
                 "title": "Berliner Modellbahn & Spielzeug Börse"
             },
             "type": "Feature"
@@ -160,12 +165,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Die Dicke Linda",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 120,
+                    "id": 118,
                     "plz": "12051",
                     "strasse": "Kranoldsplatz",
                     "tage": "Sa",
@@ -173,9 +179,9 @@
                     "zeiten": "10:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/120\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/120",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/120",
+                "description": "Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/118\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/118",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/118",
                 "title": "Die Dicke Linda"
             },
             "type": "Feature"
@@ -190,12 +196,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Dorfmarkt Wannsee",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "info@diemarktplaner.de",
-                    "id": 132,
+                    "id": 130,
                     "plz": "14109",
                     "strasse": "Wilhelmsplatz",
                     "tage": "Fr",
@@ -203,9 +210,9 @@
                     "zeiten": "14:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Fr<br>14:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/132",
+                "description": "Fr<br>14:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/130\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/130",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/130",
                 "title": "Dorfmarkt Wannsee"
             },
             "type": "Feature"
@@ -220,12 +227,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Immer samstags,\naußer an gesetzlichen Feiertagen",
                     "betreiber": "Marktbetrieb Koscholke",
                     "bezeichnung": "Floh- und Bauernmarkt auf dem Weberplatz",
                     "bezirk": "Potsdam",
                     "email": "koscholke@arcor.de",
-                    "id": 3,
+                    "id": 1,
                     "plz": "14482",
                     "strasse": "Weberplatz (Freifläche)",
                     "tage": "Sa",
@@ -233,9 +241,9 @@
                     "zeiten": "07:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>07:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/3\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/3",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/3",
+                "description": "Sa<br>07:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/1\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/1",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/1",
                 "title": "Floh- und Bauernmarkt auf dem Weberplatz"
             },
             "type": "Feature"
@@ -250,12 +258,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Jeden Sonntag AUSSER an den Wochenenden, an denen Karlshorst stattfindet  07.04./ 5.5./19.5./ 7.7./4.8./15.9./6.10./\n3.11./17.11./24.11./22.12.29.12.2024\nVolkstrauertag und Totensonntag 17.11/24.11. auch geschlossen\nDirekt am S- Bahnhof Friedrichshagen",
                     "betreiber": "oldthing märkte",
                     "bezeichnung": "Flohmarkt Friedrichshagen",
                     "bezirk": "Treptow-Köpenick",
                     "email": "info@oldthing.de",
-                    "id": 6,
+                    "id": 4,
                     "plz": "12587",
                     "strasse": "Schöneicher Strasse 1",
                     "tage": "So",
@@ -263,9 +272,9 @@
                     "zeiten": "08:00 - 16:00",
                     "zeitraum": "14.04. - 22.12."
                 },
-                "description": "So<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/6\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/6",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/6",
+                "description": "So<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/4\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/4",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/4",
                 "title": "Flohmarkt Friedrichshagen"
             },
             "type": "Feature"
@@ -280,12 +289,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "nicht am Volkstrauertag und Totensonntag",
                     "betreiber": "Familie B. Thurmann",
                     "bezeichnung": "Flohmarkt Rathaus Schöneberg",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "j.thurmann@tts-wc.de",
-                    "id": 12,
+                    "id": 10,
                     "plz": "10825",
                     "strasse": "John-F. -Kennedy-Platz",
                     "tage": "Sa, So",
@@ -293,9 +303,9 @@
                     "zeiten": "08:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa, So<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/12\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/12",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/12",
+                "description": "Sa, So<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/10\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/10",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/10",
                 "title": "Flohmarkt Rathaus Schöneberg"
             },
             "type": "Feature"
@@ -310,12 +320,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Flohmarkt im Mauerpark",
                     "bezirk": "Pankow",
                     "email": "stand@flohmarktimmauerpark.de",
-                    "id": 24,
+                    "id": 22,
                     "plz": "13355",
                     "strasse": "Bernauer Str. 63 - 64",
                     "tage": "So",
@@ -323,9 +334,9 @@
                     "zeiten": "10:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "So<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/24\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/24",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/24",
+                "description": "So<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/22\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/22",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/22",
                 "title": "Flohmarkt im Mauerpark"
             },
             "type": "Feature"
@@ -340,12 +351,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Frischemarkt Andréezeile",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "info@diemarktplaner.de",
-                    "id": 129,
+                    "id": 127,
                     "plz": "14165",
                     "strasse": "Andréezeile 6",
                     "tage": "Sa",
@@ -353,9 +365,9 @@
                     "zeiten": "10:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>10:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/129\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/129",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/129",
+                "description": "Sa<br>10:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/127\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/127",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/127",
                 "title": "Frischemarkt Andréezeile"
             },
             "type": "Feature"
@@ -370,12 +382,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "/",
                     "bezeichnung": "Hofflohmarkt",
                     "bezirk": "Neukölln",
                     "email": "/",
-                    "id": 117,
+                    "id": 115,
                     "plz": "12355",
                     "strasse": "Leghornweg-Putenweg-Langschanweg",
                     "tage": "/",
@@ -383,9 +396,9 @@
                     "zeiten": "So, 10:00 - 16:00",
                     "zeitraum": "28.04.2024"
                 },
-                "description": "/<br>So, 10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/117\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/117",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/117",
+                "description": "/<br>So, 10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/115\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/115",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/115",
                 "title": "Hofflohmarkt"
             },
             "type": "Feature"
@@ -400,12 +413,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Edeka Frede",
                     "betreiber": "ICK TRÖDEL",
                     "bezeichnung": "ICK TRÖDEL FLOHMÄRKTE",
                     "bezirk": "Reinickendorf",
                     "email": "hallo@icktroedel.de",
-                    "id": 180,
+                    "id": 178,
                     "plz": "13403",
                     "strasse": "Ollenhauerstr. 107",
                     "tage": "So",
@@ -413,9 +427,9 @@
                     "zeiten": "07:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/180\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/180",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/180",
+                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/178\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/178",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/178",
                 "title": "ICK TRÖDEL FLOHMÄRKTE"
             },
             "type": "Feature"
@@ -430,12 +444,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Edeka Seitz",
                     "betreiber": "ICK TRÖDEL",
                     "bezeichnung": "ICK TRÖDEL FLOHMÄRKTE",
                     "bezirk": "Spandau",
                     "email": "hallo@icktroedel.de",
-                    "id": 183,
+                    "id": 181,
                     "plz": "13583",
                     "strasse": "Falkenseer Chaussee 239",
                     "tage": "So",
@@ -443,9 +458,9 @@
                     "zeiten": "07:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/183\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/183",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/183",
+                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/181\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/181",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/181",
                 "title": "ICK TRÖDEL FLOHMÄRKTE"
             },
             "type": "Feature"
@@ -460,12 +475,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Obi Markt Spandau",
                     "betreiber": "ICK TRÖDEL",
                     "bezeichnung": "ICK TRÖDEL FLOHMÄRKTE",
                     "bezirk": "Spandau",
                     "email": "hallo@icktroedel.de",
-                    "id": 186,
+                    "id": 184,
                     "plz": "13595",
                     "strasse": "Wilhelmstr. 8",
                     "tage": "So",
@@ -473,9 +489,9 @@
                     "zeiten": "07:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/186\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/186",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/186",
+                "description": "So<br>07:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/184\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/184",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/184",
                 "title": "ICK TRÖDEL FLOHMÄRKTE"
             },
             "type": "Feature"
@@ -490,12 +506,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "auf dem Parkplatz bei EDEKA\nAnmeldung ab 11.4.2024 per Mail an kifloh.kladow@gmail.com. Es werden nur Plätze bereitgestellt; Kosten pro Platz 7 €. Größe 3,5 x ca. 2,5 mtr. Voraussichtlich stellt EDEKA wieder eine Kinderhüpfburg bereit.",
                     "betreiber": "Martina & Joachim Weiß",
                     "bezeichnung": "Kinderflohmarkt in der Landstadt Gatow",
                     "bezirk": "Spandau",
                     "email": "kifloh.kladow@gmail.com",
-                    "id": 66,
+                    "id": 64,
                     "plz": "14089",
                     "strasse": "Am Flugplatz Gatow 10",
                     "tage": "Sa",
@@ -503,9 +520,9 @@
                     "zeiten": "10:00 - 14:00",
                     "zeitraum": "27.04.2024"
                 },
-                "description": "Sa<br>10:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/66\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/66",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/66",
+                "description": "Sa<br>10:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/64\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/64",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/64",
                 "title": "Kinderflohmarkt in der Landstadt Gatow"
             },
             "type": "Feature"
@@ -520,12 +537,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Burdack Märkte e.K.",
                     "bezeichnung": "Kunst- und Trödelmarkt Fehrbelliner Platz",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "email": "info@burdack-maerkte.de",
-                    "id": 147,
+                    "id": 145,
                     "plz": "10713",
                     "strasse": "Fehrbelliner Platz 8",
                     "tage": "Sa, So\nsowie 01.04. + 20.05.",
@@ -533,9 +551,9 @@
                     "zeiten": "10:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa, So&#10;sowie 01.04. + 20.05.<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/147\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/147",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/147",
+                "description": "Sa, So&#10;sowie 01.04. + 20.05.<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/145\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/145",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/145",
                 "title": "Kunst- und Trödelmarkt Fehrbelliner Platz"
             },
             "type": "Feature"
@@ -550,12 +568,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "In der Markthalle Neun lässt sich der gesamte Einkaufszettel unter einem Dach abhaken: Von der besten Auswahl an Brot und Käse, Wurst aus der hauseigenen Fleischerei, Obst und Gemüse aus der Region und darüber hinaus. Ob am Wochenende, in der Mittagspause oder nochmal schnell zum Feierabend: Lebensmittelhandwerk, kleinteilige Fachhändler*innen und gastronomisches Angebot lassen in der Markthalle Neun keine Wünsche offen.",
                     "betreiber": "Markthalle Neun",
                     "bezeichnung": "Markt in der Markthalle Neun",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "email": "info@markthalleneun.de",
-                    "id": 87,
+                    "id": 85,
                     "plz": "10997",
                     "strasse": "Eisenbahnstraße 42/43",
                     "tage": "Mo - Sa",
@@ -563,9 +582,9 @@
                     "zeiten": "Mo - Fr 12:00 - 18:00\n         Sa 10:00 - 18:00",
                     "zeitraum": "02.01. - 31.12."
                 },
-                "description": "Mo - Sa<br>Mo - Fr 12:00 - 18:00&#10; Sa 10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/87\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/87",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/87",
+                "description": "Mo - Sa<br>Mo - Fr 12:00 - 18:00&#10; Sa 10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/85\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/85",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/85",
                 "title": "Markt in der Markthalle Neun"
             },
             "type": "Feature"
@@ -580,12 +599,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Ina Hölzel",
                     "bezeichnung": "Markt-Veranstaltungen",
                     "bezirk": "Marzahn-Hellersdorf",
                     "email": "markt-veranstaltungen@web.de",
-                    "id": 150,
+                    "id": 148,
                     "plz": "12681",
                     "strasse": "Helene-Weigel-Platz",
                     "tage": "Mo - Fr\nSa",
@@ -593,9 +613,9 @@
                     "zeiten": "Mo - Fr 09:00 - 17:00\n         Sa 09:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mo - Fr&#10;Sa<br>Mo - Fr 09:00 - 17:00&#10; Sa 09:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/150\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/150",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/150",
+                "description": "Mo - Fr&#10;Sa<br>Mo - Fr 09:00 - 17:00&#10; Sa 09:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/148\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/148",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/148",
                 "title": "Markt-Veranstaltungen"
             },
             "type": "Feature"
@@ -610,12 +630,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Ina Hölzel",
                     "bezeichnung": "Markt-Veranstaltungen",
                     "bezirk": "Marzahn-Hellersdorf",
                     "email": "markt-veranstaltungen@web.de",
-                    "id": 153,
+                    "id": 151,
                     "plz": "12679",
                     "strasse": "Marzahner Promenade",
                     "tage": "Mo, Mi, Fr",
@@ -623,9 +644,9 @@
                     "zeiten": "09:00 - 17:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mo, Mi, Fr<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/153\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/153",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/153",
+                "description": "Mo, Mi, Fr<br>09:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/151\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/151",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/151",
                 "title": "Markt-Veranstaltungen"
             },
             "type": "Feature"
@@ -640,12 +661,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Ina Hölzel",
                     "bezeichnung": "Markt-Veranstaltungen",
                     "bezirk": "Lichtenberg",
                     "email": "markt-veranstaltungen@web.de",
-                    "id": 156,
+                    "id": 154,
                     "plz": "13051",
                     "strasse": "Prerower Platz",
                     "tage": "Mi",
@@ -653,9 +675,9 @@
                     "zeiten": "09:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi<br>09:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/156",
+                "description": "Mi<br>09:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/154\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/154",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/154",
                 "title": "Markt-Veranstaltungen"
             },
             "type": "Feature"
@@ -670,12 +692,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Ina Hölzel",
                     "bezeichnung": "Markt-Veranstaltungen",
                     "bezirk": "Lichtenberg",
                     "email": "markt-veranstaltungen@web.de",
-                    "id": 159,
+                    "id": 157,
                     "plz": "13051",
                     "strasse": "Zingster Straße",
                     "tage": "Sa",
@@ -683,9 +706,9 @@
                     "zeiten": "09:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>09:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/159",
+                "description": "Sa<br>09:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/157\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/157",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/157",
                 "title": "Markt-Veranstaltungen"
             },
             "type": "Feature"
@@ -700,12 +723,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Ina Hölzel",
                     "bezeichnung": "Markt-Veranstaltungen",
                     "bezirk": "Treptow-Köpenick",
                     "email": "markt-veranstaltungen@web.de",
-                    "id": 162,
+                    "id": 160,
                     "plz": "12555",
                     "strasse": "Schloßplatz Köpenick",
                     "tage": "Di, Do",
@@ -713,9 +737,9 @@
                     "zeiten": "09:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Di, Do<br>09:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/162",
+                "description": "Di, Do<br>09:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/160\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/160",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/160",
                 "title": "Markt-Veranstaltungen"
             },
             "type": "Feature"
@@ -730,12 +754,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuer Markt am Südstern",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "email": "info@diemarktplaner.de",
-                    "id": 123,
+                    "id": 121,
                     "plz": "10961",
                     "strasse": "Südstern",
                     "tage": "So",
@@ -743,9 +768,9 @@
                     "zeiten": "10:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "So<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/123\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/123",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/123",
+                "description": "So<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/121\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/121",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/121",
                 "title": "Neuer Markt am Südstern"
             },
             "type": "Feature"
@@ -760,12 +785,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Neuköllner Stoff - \nLebensmittel, Kunst, Handwerk, Stoffe und mehr....",
                     "bezirk": "Neukölln",
                     "email": "info@mv-perske.de",
-                    "id": 27,
+                    "id": 25,
                     "plz": "12047",
                     "strasse": "Maybachufer 1 -12",
                     "tage": "Sa",
@@ -773,9 +799,9 @@
                     "zeiten": "11:00 - 17:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>11:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/27\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/27",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/27",
+                "description": "Sa<br>11:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/25\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/25",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/25",
                 "title": "Neuköllner Stoff - \nLebensmittel, Kunst, Handwerk, Stoffe und mehr...."
             },
             "type": "Feature"
@@ -790,12 +816,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "- von April bis Oktober jeden Samstag Glücksrad 10.00-13.00 Uhr\n - von April bis Dezember jeden Samstag Nachbarschaftsflohmarkt, Anmeldungen bis Freitag 11.00 Uhr unter info@diemarktplaner.de oder 030-29309601\n - von April bis September jeden ersten Samstag Live Musik von 11.00-13.00 Uhr",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Britz-Süd “Frisches vom Markt”",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 102,
+                    "id": 100,
                     "plz": "12359",
                     "strasse": "Gutschmidtstraße",
                     "tage": "Mo, Do, Sa",
@@ -803,9 +830,9 @@
                     "zeiten": "Mo, Do 08:00 - 13:00\n\nSa 08:00 - 14:00 mit \nNachbarschaftsfloh-markt",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mo, Do, Sa<br>Mo, Do 08:00 - 13:00&#10;&#10;Sa 08:00 - 14:00 mit &#10;Nachbarschaftsfloh-markt<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/102\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/102",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/102",
+                "description": "Mo, Do, Sa<br>Mo, Do 08:00 - 13:00&#10;&#10;Sa 08:00 - 14:00 mit &#10;Nachbarschaftsfloh-markt<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/100\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/100",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/100",
                 "title": "Neuköllner Wochenmärkte Britz-Süd “Frisches vom Markt”"
             },
             "type": "Feature"
@@ -820,12 +847,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "jeden ersten Donnerstag im Monat (April-September) Live-Musik auf dem Markt 13.00-17.00 Uhr",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Hermannplatz “Marktfood – vor Ort und für Zuhause”",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 105,
+                    "id": 103,
                     "plz": "10967",
                     "strasse": "Hermannplatz",
                     "tage": "Mo - Fr",
@@ -833,9 +861,9 @@
                     "zeiten": "10:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mo - Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/105\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/105",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/105",
+                "description": "Mo - Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/103\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/103",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/103",
                 "title": "Neuköllner Wochenmärkte Hermannplatz “Marktfood – vor Ort und für Zuhause”"
             },
             "type": "Feature"
@@ -850,12 +878,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Maybachufer",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 108,
+                    "id": 106,
                     "plz": "12047",
                     "strasse": "Maybachufer 1-16",
                     "tage": "Di, Fr",
@@ -863,9 +892,9 @@
                     "zeiten": "11:00 - 18:30",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Di, Fr<br>11:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/108\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/108",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/108",
+                "description": "Di, Fr<br>11:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/106\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/106",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/106",
                 "title": "Neuköllner Wochenmärkte Maybachufer"
             },
             "type": "Feature"
@@ -880,12 +909,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Parchimer Allee “Freitagsmarkt bis abends!”",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 111,
+                    "id": 109,
                     "plz": "12359",
                     "strasse": "Fritz-Reuter-Allee 73",
                     "tage": "Fr",
@@ -893,9 +923,9 @@
                     "zeiten": "10:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/111\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/111",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/111",
+                "description": "Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/109",
                 "title": "Neuköllner Wochenmärkte Parchimer Allee “Freitagsmarkt bis abends!”"
             },
             "type": "Feature"
@@ -910,12 +940,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner\nDipl.-Ing. Nikolaus Fink\nSanderstr. 4, 12047 Berlin\nTel.: 29 30 96 01, Fax: 29 00 96 23",
                     "bezeichnung": "Neuköllner Wochenmärkte Rixdorf “Gesunder Genuss auf dem Rixdorfer Markt”",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 96,
+                    "id": 94,
                     "plz": "12043",
                     "strasse": "Karl-Marx-Platz",
                     "tage": "Mi, Sa",
@@ -923,9 +954,9 @@
                     "zeiten": "Mi 11:00 - 18:00\nSa 08:00 - 15:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi, Sa<br>Mi 11:00 - 18:00&#10;Sa 08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/96\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/96",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/96",
+                "description": "Mi, Sa<br>Mi 11:00 - 18:00&#10;Sa 08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/94\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/94",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/94",
                 "title": "Neuköllner Wochenmärkte Rixdorf “Gesunder Genuss auf dem Rixdorfer Markt”"
             },
             "type": "Feature"
@@ -940,12 +971,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Rudow “Regionale Qualität in Rudow”",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 99,
+                    "id": 97,
                     "plz": "12355",
                     "strasse": "Prierosser Straße",
                     "tage": "Mi, Sa",
@@ -953,9 +985,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi, Sa<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/99\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/99",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/99",
+                "description": "Mi, Sa<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/97\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/97",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/97",
                 "title": "Neuköllner Wochenmärkte Rudow “Regionale Qualität in Rudow”"
             },
             "type": "Feature"
@@ -970,12 +1002,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "jeden ersten und dritten Samstag von 9.00-12.00 Uhr Glücksrad",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Neuköllner Wochenmärkte Wutzkyallee",
                     "bezirk": "Neukölln",
                     "email": "info@diemarktplaner.de",
-                    "id": 114,
+                    "id": 112,
                     "plz": "12353",
                     "strasse": "Rotrau-Richter-Platz",
                     "tage": "Mi, Sa",
@@ -983,9 +1016,9 @@
                     "zeiten": "Mi 08:00 - 14:00\nSa 08:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi, Sa<br>Mi 08:00 - 14:00&#10;Sa 08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/114\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/114",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/114",
+                "description": "Mi, Sa<br>Mi 08:00 - 14:00&#10;Sa 08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/112",
                 "title": "Neuköllner Wochenmärkte Wutzkyallee"
             },
             "type": "Feature"
@@ -1000,12 +1033,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Der one and only Nowkoelln Flowmarkt am idyllischen Maybachufer bringt Flohmarkt, Kunsthandwerk &amp; feinstes Street food aufs Parkett! \nIn den über 150 voll bestückten Marktbuden gibt es viel zu entdecken: Klamotten, Vinyl &amp; Kurioses zu verhandelbaren Preisen. \nNeben den Klassikern Würstchen &amp; Co gibt es viele vegane Optionen für den Mittagssnack: Delicous again, Peter! - Get in the Flow !!!",
                     "betreiber": "Nowkoelln Flowmarkt",
                     "bezeichnung": "Nowkoelln Flowmarkt",
                     "bezirk": "Neukölln",
                     "email": "info@nowkoelln.de",
-                    "id": 90,
+                    "id": 88,
                     "plz": "12047",
                     "strasse": "Maybachufer 32",
                     "tage": "/",
@@ -1013,9 +1047,9 @@
                     "zeiten": "10:00 - 17:00",
                     "zeitraum": "24.03. - 01.12."
                 },
-                "description": "/<br>10:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/90\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/90",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/90",
+                "description": "/<br>10:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/88\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/88",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/88",
                 "title": "Nowkoelln Flowmarkt"
             },
             "type": "Feature"
@@ -1030,12 +1064,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Wochenmarkt und Kieztreff; viele gute und hochwertige Lebensmittel und Snacks; Kieztreff für viele Anwohner*innen;  authentisch, gute, entspannte Stimmung;  Hingehen, gut einkaufen und miterleben.",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Schillermarkt",
                     "bezirk": "Neukölln",
                     "email": "info@mv-perske.de",
-                    "id": 21,
+                    "id": 19,
                     "plz": "12049",
                     "strasse": "Herrfurthplatz",
                     "tage": "Sa",
@@ -1043,9 +1078,9 @@
                     "zeiten": "10:00 - 16:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/21",
+                "description": "Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/19\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/19",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/19",
                 "title": "Schillermarkt"
             },
             "type": "Feature"
@@ -1060,12 +1095,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Mit über 100 Marktbuden voll mit feinstem privaten Trödel, sowie ausgesuchten Kunsthandwerk. Beim Flowmarkt in Schoeneboerg gibt es sehr viel zu entdecken, wirklich nette Menschen zu treffen, zu stöbern und leckeres Street food fehlt auch nicht. Der perfekte Ort für den \"Easy Sundaie\"",
                     "betreiber": "Nowkoelln Flowmarkt",
                     "bezeichnung": "Schoeneboerg Flowmarkt",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "info@schoeneboerg.de",
-                    "id": 93,
+                    "id": 91,
                     "plz": "10827",
                     "strasse": "Crellestrasse 25",
                     "tage": "/",
@@ -1073,9 +1109,9 @@
                     "zeiten": "10:00 - 16:30",
                     "zeitraum": "16.04. - 27.10.\nSommerpause im August"
                 },
-                "description": "/<br>10:00 - 16:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/93\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/93",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/93",
+                "description": "/<br>10:00 - 16:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/91\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/91",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/91",
                 "title": "Schoeneboerg Flowmarkt"
             },
             "type": "Feature"
@@ -1090,12 +1126,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Jüttner Entertainment",
                     "bezeichnung": "Sommerfest Treptower Park",
                     "bezirk": "Treptow-Köpenick",
                     "email": "info@juettner-entertainment.de",
-                    "id": 195,
+                    "id": 193,
                     "plz": "12435",
                     "strasse": "Alt Treptow 15-17",
                     "tage": "Fr - So",
@@ -1103,9 +1140,9 @@
                     "zeiten": "Fr 14:00 - 22:00\nSa 12:00 - 22:00\nSo 12:00 - 20:00",
                     "zeitraum": "09.08. - 11.08."
                 },
-                "description": "Fr - So<br>Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/195\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/195",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/195",
+                "description": "Fr - So<br>Fr 14:00 - 22:00&#10;Sa 12:00 - 22:00&#10;So 12:00 - 20:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/193\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/193",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/193",
                 "title": "Sommerfest Treptower Park"
             },
             "type": "Feature"
@@ -1120,12 +1157,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Kleiner Anwohner*innenmarkt mit ausgesuchten Spezialtitäten und hochwertigen Lebensmitteln; Treffpunkt und Einkaufsort der Anwohner*innen; Hinkommen, miterleben und genießen.",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Wilhelmsmarkt",
                     "bezirk": "Pankow",
                     "email": "info@mv-perske.de",
-                    "id": 15,
+                    "id": 13,
                     "plz": "13158",
                     "strasse": "Hauptstraße / Goethestraße",
                     "tage": "Sa",
@@ -1133,9 +1171,9 @@
                     "zeiten": "09:00 - 14:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>09:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/15\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/15",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/15",
+                "description": "Sa<br>09:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/13\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/13",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/13",
                 "title": "Wilhelmsmarkt"
             },
             "type": "Feature"
@@ -1150,12 +1188,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Rückert GbR",
                     "bezeichnung": "Wochenmarkt",
                     "bezirk": "Lichtenberg",
                     "email": "j-rueckert@kabelmail.de\nmarkttrans-rueckert@web.de",
-                    "id": 192,
+                    "id": 190,
                     "plz": "10369",
                     "strasse": "Anton-Saefkow-Platz",
                     "tage": "",
@@ -1163,9 +1202,9 @@
                     "zeiten": "09:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "<br>09:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/192\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/192",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/192",
+                "description": "<br>09:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/190\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/190",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/190",
                 "title": "Wochenmarkt"
             },
             "type": "Feature"
@@ -1180,12 +1219,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Gakenholz + Gellesch GmbH",
                     "bezeichnung": "Wochenmarkt",
                     "bezirk": "Reinickendorf",
                     "email": "gakenholz-gellesch@t-online.de",
-                    "id": 30,
+                    "id": 28,
                     "plz": "13439",
                     "strasse": "Wilhelmsruher Damm",
                     "tage": "Di, Do, Sa",
@@ -1193,9 +1233,9 @@
                     "zeiten": "08:00 - 17:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Di, Do, Sa<br>08:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/30\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/30",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/30",
+                "description": "Di, Do, Sa<br>08:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/28\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/28",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/28",
                 "title": "Wochenmarkt"
             },
             "type": "Feature"
@@ -1210,12 +1250,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Gakenholz + Gellesch GmbH",
                     "bezeichnung": "Wochenmarkt",
                     "bezirk": "Treptow-Köpenick",
                     "email": "gakenholz-gellesch@t-online.de",
-                    "id": 33,
+                    "id": 31,
                     "plz": "12489",
                     "strasse": "Dörpfeldstraße",
                     "tage": "Mi, Do",
@@ -1223,9 +1264,9 @@
                     "zeiten": "08:00 - 17:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi, Do<br>08:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/33\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/33",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/33",
+                "description": "Mi, Do<br>08:00 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/31\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/31",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/31",
                 "title": "Wochenmarkt"
             },
             "type": "Feature"
@@ -1240,12 +1281,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Breslauer Platz",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 45,
+                    "id": 43,
                     "plz": "12159",
                     "strasse": "Breslauer Platz",
                     "tage": "Mi, Do, Sa",
@@ -1253,9 +1295,9 @@
                     "zeiten": "Mi 08:00 - 14:00 Do 12:00 - 18:00\nSa 08:00 - 14:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi, Do, Sa<br>Mi 08:00 - 14:00 Do 12:00 - 18:00&#10;Sa 08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/45",
+                "description": "Mi, Do, Sa<br>Mi 08:00 - 14:00 Do 12:00 - 18:00&#10;Sa 08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/43\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/43",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/43",
                 "title": "Wochenmarkt Breslauer Platz"
             },
             "type": "Feature"
@@ -1270,12 +1312,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Crellestraße",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 48,
+                    "id": 46,
                     "plz": "10827",
                     "strasse": "Crellestraße 24",
                     "tage": "Mi, Sa",
@@ -1283,9 +1326,9 @@
                     "zeiten": "10:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi, Sa<br>10:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/48\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/48",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/48",
+                "description": "Mi, Sa<br>10:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/46\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/46",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/46",
                 "title": "Wochenmarkt Crellestraße"
             },
             "type": "Feature"
@@ -1300,12 +1343,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Eberswalde Marktplatz",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 222,
+                    "id": 220,
                     "plz": "16225",
                     "strasse": "Am Markt 6",
                     "tage": "Di, Fr",
@@ -1313,9 +1357,9 @@
                     "zeiten": "08:00 - 16:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Fr<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/222\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/222",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/222",
+                "description": "Di, Fr<br>08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/220\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/220",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/220",
                 "title": "Wochenmarkt Eberswalde Marktplatz"
             },
             "type": "Feature"
@@ -1330,12 +1374,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Eberswalde Potsdamer Platz",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 225,
+                    "id": 223,
                     "plz": "16227",
                     "strasse": "Potsdamer Allee 44",
                     "tage": "Mi",
@@ -1343,9 +1388,9 @@
                     "zeiten": "08:00 - 14:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/225\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/225",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/225",
+                "description": "Mi<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/223\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/223",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/223",
                 "title": "Wochenmarkt Eberswalde Potsdamer Platz"
             },
             "type": "Feature"
@@ -1360,12 +1405,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Fellbacher Straße",
                     "bezirk": "Reinickendorf",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 165,
+                    "id": 163,
                     "plz": "13467",
                     "strasse": "Fellbacher Str. 30a",
                     "tage": "Fr",
@@ -1373,9 +1419,9 @@
                     "zeiten": "10:00 - 18:00",
                     "zeitraum": "/"
                 },
-                "description": "Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/165",
+                "description": "Fr<br>10:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/163\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/163",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/163",
                 "title": "Wochenmarkt Fellbacher Straße"
             },
             "type": "Feature"
@@ -1390,12 +1436,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Finsterwalde",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 204,
+                    "id": 202,
                     "plz": "3238",
                     "strasse": "Am Markt",
                     "tage": "Mi, Fr, Sa",
@@ -1403,9 +1450,9 @@
                     "zeiten": "Mi + Fr 07:00 - 17:00\nSa. 07:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi, Fr, Sa<br>Mi + Fr 07:00 - 17:00&#10;Sa. 07:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/204\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/204",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/204",
+                "description": "Mi, Fr, Sa<br>Mi + Fr 07:00 - 17:00&#10;Sa. 07:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/202\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/202",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/202",
                 "title": "Wochenmarkt Finsterwalde"
             },
             "type": "Feature"
@@ -1420,12 +1467,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Wolfgang Hirche",
                     "bezeichnung": "Wochenmarkt Friedrichshagen",
                     "bezirk": "Treptow-Köpenick",
                     "email": "Markt-Hirche@web.de",
-                    "id": 69,
+                    "id": 67,
                     "plz": "12587",
                     "strasse": "Bölschestraße",
                     "tage": "Mo, Mi, Fr, Sa",
@@ -1433,9 +1481,9 @@
                     "zeiten": "10:00 - 16:00",
                     "zeitraum": "/"
                 },
-                "description": "Mo, Mi, Fr, Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/69",
+                "description": "Mo, Mi, Fr, Sa<br>10:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/67\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/67",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/67",
                 "title": "Wochenmarkt Friedrichshagen"
             },
             "type": "Feature"
@@ -1450,12 +1498,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Großbeeren",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 210,
+                    "id": 208,
                     "plz": "14979",
                     "strasse": "Am Rathaus 1",
                     "tage": "Sa",
@@ -1463,9 +1512,9 @@
                     "zeiten": "08:30 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Sa<br>08:30 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/210\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/210",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/210",
+                "description": "Sa<br>08:30 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/208\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/208",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/208",
                 "title": "Wochenmarkt Großbeeren"
             },
             "type": "Feature"
@@ -1480,12 +1529,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Hohen Neuendorf",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 228,
+                    "id": 226,
                     "plz": "16540",
                     "strasse": "Triftstraße",
                     "tage": "Do",
@@ -1493,9 +1543,9 @@
                     "zeiten": "08:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Do<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/228\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/228",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/228",
+                "description": "Do<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/226\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/226",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/226",
                 "title": "Wochenmarkt Hohen Neuendorf"
             },
             "type": "Feature"
@@ -1510,12 +1560,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt John-F.-Kennedy-Platz",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 42,
+                    "id": 40,
                     "plz": "10825",
                     "strasse": "John-F.-Kennedy-Platz 1",
                     "tage": "Di, Fr",
@@ -1523,9 +1574,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Fr<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/42",
+                "description": "Di, Fr<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/40\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/40",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/40",
                 "title": "Wochenmarkt John-F.-Kennedy-Platz"
             },
             "type": "Feature"
@@ -1540,12 +1591,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Luckau",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 213,
+                    "id": 211,
                     "plz": "15926",
                     "strasse": "Marktplatz 34",
                     "tage": "Do",
@@ -1553,9 +1605,9 @@
                     "zeiten": "07:30 - 14:00",
                     "zeitraum": "/"
                 },
-                "description": "Do<br>07:30 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/213\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/213",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/213",
+                "description": "Do<br>07:30 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/211\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/211",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/211",
                 "title": "Wochenmarkt Luckau"
             },
             "type": "Feature"
@@ -1570,12 +1622,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54 \nneben dem Parkhaus des Einkaufszentrums \"Kolosseum\"",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Lübbenau",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 177,
+                    "id": 175,
                     "plz": "3222",
                     "strasse": "Otto-Grotewohl-Str. 4 a-e",
                     "tage": "Di, Do",
@@ -1583,9 +1636,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Do<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/177\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/177",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/177",
+                "description": "Di, Do<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/175\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/175",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/175",
                 "title": "Wochenmarkt Lübbenau"
             },
             "type": "Feature"
@@ -1600,12 +1653,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Mariendorfer Damm / \nPrinzenstraße",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 36,
+                    "id": 34,
                     "plz": "12109",
                     "strasse": "Mariendorfer Damm / Prinzenstraße",
                     "tage": "Mi, Sa",
@@ -1613,9 +1667,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi, Sa<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/36\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/36",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/36",
+                "description": "Mi, Sa<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/34\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/34",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/34",
                 "title": "Wochenmarkt Mariendorfer Damm / \nPrinzenstraße"
             },
             "type": "Feature"
@@ -1630,12 +1684,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "U-Bahn Onkel-Toms-Hütte",
                     "betreiber": "diemarktplaner",
                     "bezeichnung": "Wochenmarkt Onkel-Toms-Hütte",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "info@diemarktplaner.de",
-                    "id": 126,
+                    "id": 124,
                     "plz": "14169",
                     "strasse": "Onkel-Tom-Str. 99",
                     "tage": "Do",
@@ -1643,9 +1698,9 @@
                     "zeiten": "12:00 - 18:30",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Do<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/126\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/126",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/126",
+                "description": "Do<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/124\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/124",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/124",
                 "title": "Wochenmarkt Onkel-Toms-Hütte"
             },
             "type": "Feature"
@@ -1660,12 +1715,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Ortrand",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 171,
+                    "id": 169,
                     "plz": "1990",
                     "strasse": "Altmarkt 1",
                     "tage": "Di, Fr",
@@ -1673,9 +1729,9 @@
                     "zeiten": "08:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Fr<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/171",
+                "description": "Di, Fr<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/169\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/169",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/169",
                 "title": "Wochenmarkt Ortrand"
             },
             "type": "Feature"
@@ -1690,12 +1746,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Deutsche Marktgilde",
                     "bezeichnung": "Wochenmarkt Schlossplatz Alt-Köpenick",
                     "bezirk": "Treptow-Köpenick",
                     "email": "marketing@marktgilde.de",
-                    "id": 63,
+                    "id": 61,
                     "plz": "12555",
                     "strasse": "Grünstraße 1",
                     "tage": "/",
@@ -1703,9 +1760,9 @@
                     "zeiten": "8:30 - 17:00",
                     "zeitraum": "/"
                 },
-                "description": "/<br>8:30 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/63",
+                "description": "/<br>8:30 - 17:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/61",
                 "title": "Wochenmarkt Schlossplatz Alt-Köpenick"
             },
             "type": "Feature"
@@ -1720,12 +1777,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Schwarzheide",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 174,
+                    "id": 172,
                     "plz": "1987",
                     "strasse": "Ruhlander Straße",
                     "tage": "Di",
@@ -1733,9 +1791,9 @@
                     "zeiten": "08:00 - 14:00",
                     "zeitraum": "/"
                 },
-                "description": "Di<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/174",
+                "description": "Di<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/172\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/172",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/172",
                 "title": "Wochenmarkt Schwarzheide"
             },
             "type": "Feature"
@@ -1750,12 +1808,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Spremberg",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 207,
+                    "id": 205,
                     "plz": "3130",
                     "strasse": "Am Markt 1",
                     "tage": "Di, Do",
@@ -1763,9 +1822,9 @@
                     "zeiten": "08:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Do<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/207\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/207",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/207",
+                "description": "Di, Do<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/205\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/205",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/205",
                 "title": "Wochenmarkt Spremberg"
             },
             "type": "Feature"
@@ -1780,12 +1839,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Suarezstraße",
                     "bezirk": "Charlottenburg-Wilmersdorf",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 168,
+                    "id": 166,
                     "plz": "14057",
                     "strasse": "Suarezstraße 48",
                     "tage": "Do",
@@ -1793,9 +1853,9 @@
                     "zeiten": "08:00 - 14:00",
                     "zeitraum": "/"
                 },
-                "description": "Do<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/168",
+                "description": "Do<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/166\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/166",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/166",
                 "title": "Wochenmarkt Suarezstraße"
             },
             "type": "Feature"
@@ -1810,12 +1870,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Velten",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 219,
+                    "id": 217,
                     "plz": "16727",
                     "strasse": "Am Markt 12",
                     "tage": "Mi",
@@ -1823,9 +1884,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/219\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/219",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/219",
+                "description": "Mi<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/217\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/217",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/217",
                 "title": "Wochenmarkt Velten"
             },
             "type": "Feature"
@@ -1840,12 +1901,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Vetschau",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 201,
+                    "id": 199,
                     "plz": "3226",
                     "strasse": "Markt 34",
                     "tage": "Do",
@@ -1853,9 +1915,9 @@
                     "zeiten": "8:00 - 13:00",
                     "zeitraum": "/"
                 },
-                "description": "Do<br>8:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/201\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/201",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/201",
+                "description": "Do<br>8:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/199\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/199",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/199",
                 "title": "Wochenmarkt Vetschau"
             },
             "type": "Feature"
@@ -1870,12 +1932,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Winterfeldtplatz",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 39,
+                    "id": 37,
                     "plz": "10781",
                     "strasse": "Winterfeldtplatz",
                     "tage": "Mi, Sa",
@@ -1883,9 +1946,9 @@
                     "zeiten": "Mi 08:00 - 14:00 \nSa 08:00 - 16:00",
                     "zeitraum": "/"
                 },
-                "description": "Mi, Sa<br>Mi 08:00 - 14:00 &#10;Sa 08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/39\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/39",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/39",
+                "description": "Mi, Sa<br>Mi 08:00 - 14:00 &#10;Sa 08:00 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37",
                 "title": "Wochenmarkt Winterfeldtplatz"
             },
             "type": "Feature"
@@ -1900,12 +1963,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Bezirksamt Tempelhof-Schöneberg",
                     "bezeichnung": "Wochenmarkt Wittenbergplatz (Nordseite)",
                     "bezirk": "Tempelhof-Schöneberg",
                     "email": "marktverwaltung@ba-ts.berlin.de",
-                    "id": 51,
+                    "id": 49,
                     "plz": "10789",
                     "strasse": "Wittenbergplatz 5",
                     "tage": "Di, Fr",
@@ -1913,9 +1977,9 @@
                     "zeiten": "08:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Fr<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/51\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/51",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/51",
+                "description": "Di, Fr<br>08:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/49\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/49",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/49",
                 "title": "Wochenmarkt Wittenbergplatz (Nordseite)"
             },
             "type": "Feature"
@@ -1930,12 +1994,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Dirk Dieter, Tel.: 0160 / 99 07 58 54",
                     "betreiber": "Deutsche Marktgilde eG",
                     "bezeichnung": "Wochenmarkt Zehdenick",
                     "bezirk": "Brandenburg",
                     "email": "d.dieter@marktgilde.de",
-                    "id": 216,
+                    "id": 214,
                     "plz": "16792",
                     "strasse": "Berliner Straße 37",
                     "tage": "Di, Do",
@@ -1943,9 +2008,9 @@
                     "zeiten": "08:30 - 16:00",
                     "zeitraum": "/"
                 },
-                "description": "Di, Do<br>08:30 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/216\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/216",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/216",
+                "description": "Di, Do<br>08:30 - 16:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/214\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/214",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/214",
                 "title": "Wochenmarkt Zehdenick"
             },
             "type": "Feature"
@@ -1960,12 +2025,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Jörg Ulrich, Tel.: 030 / 90299 - 3807",
                     "betreiber": "Bezirksamt Steglitz-Zehlendorf von Berlin",
                     "bezeichnung": "Wochenmarkt am Rathaus Lankwitz",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "Marktverwaltung@ba-sz.berlin.de",
-                    "id": 144,
+                    "id": 142,
                     "plz": "12247",
                     "strasse": "Hanna-Renate-Laurien-Platz",
                     "tage": "Mo, Fr",
@@ -1973,9 +2039,9 @@
                     "zeiten": "08:00 - 13:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mo, Fr<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/144\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/144",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/144",
+                "description": "Mo, Fr<br>08:00 - 13:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/142\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/142",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/142",
                 "title": "Wochenmarkt am Rathaus Lankwitz"
             },
             "type": "Feature"
@@ -1990,12 +2056,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Wochenmarkt auf dem Antonplatz",
                     "bezirk": "Pankow",
                     "email": "info@mv-perske.de",
-                    "id": 9,
+                    "id": 7,
                     "plz": "13086",
                     "strasse": "Antonplatz 1",
                     "tage": "Di, Fr",
@@ -2003,9 +2070,9 @@
                     "zeiten": "09:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Di, Fr<br>09:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/9\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/9",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/9",
+                "description": "Di, Fr<br>09:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/7\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/7",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/7",
                 "title": "Wochenmarkt auf dem Antonplatz"
             },
             "type": "Feature"
@@ -2020,12 +2087,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Jörg Ulrich, Tel.: 030 / 90299 - 3804",
                     "betreiber": "Bezirksamt Steglitz-Zehlendorf von Berlin",
                     "bezeichnung": "Wochenmarkt auf dem Hermann-Ehlers-Platz",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "Marktverwaltung@ba-sz.berlin.de",
-                    "id": 135,
+                    "id": 133,
                     "plz": "12165",
                     "strasse": "Hermann-Ehlers-Platz",
                     "tage": "Di, Do, Sa",
@@ -2033,9 +2101,9 @@
                     "zeiten": "Di + Sa 08:00 - 14:00\nDo 08:00 - 18:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Di, Do, Sa<br>Di + Sa 08:00 - 14:00&#10;Do 08:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/135\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/135",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/135",
+                "description": "Di, Do, Sa<br>Di + Sa 08:00 - 14:00&#10;Do 08:00 - 18:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/133\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/133",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/133",
                 "title": "Wochenmarkt auf dem Hermann-Ehlers-Platz"
             },
             "type": "Feature"
@@ -2050,12 +2118,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Jörg Ulrich, Tel.: 030 / 90299 - 3805",
                     "betreiber": "Bezirksamt Steglitz-Zehlendorf von Berlin",
                     "bezeichnung": "Wochenmarkt auf dem Kranoldplatz",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "Marktverwaltung@ba-sz.berlin.de",
-                    "id": 138,
+                    "id": 136,
                     "plz": "12209",
                     "strasse": "Kranoldplatz Lichterfelde",
                     "tage": "Mi, Sa",
@@ -2063,9 +2132,9 @@
                     "zeiten": "08:00 - 14:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Mi, Sa<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/138\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/138",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/138",
+                "description": "Mi, Sa<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/136\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/136",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/136",
                 "title": "Wochenmarkt auf dem Kranoldplatz"
             },
             "type": "Feature"
@@ -2080,12 +2149,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Ansprechpartner: Jörg Ulrich, Tel.: 030 / 90299 - 3806",
                     "betreiber": "Bezirksamt Steglitz-Zehlendorf von Berlin",
                     "bezeichnung": "Wochenmarkt auf dem Ludwig-Beck-Platz",
                     "bezirk": "Steglitz-Zehlendorf",
                     "email": "Marktverwaltung@ba-sz.berlin.de",
-                    "id": 141,
+                    "id": 139,
                     "plz": "12203",
                     "strasse": "Ludwig-Beck-Platz",
                     "tage": "Sa",
@@ -2093,9 +2163,9 @@
                     "zeiten": "08:00 - 14:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Sa<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/141\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/141",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/141",
+                "description": "Sa<br>08:00 - 14:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/139\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/139",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/139",
                 "title": "Wochenmarkt auf dem Ludwig-Beck-Platz"
             },
             "type": "Feature"
@@ -2110,12 +2180,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Wochenmarkt und Kieztreff: Gute, hochwertige Lebensmittel und andere Angebote; Ab ca. 16:00 auch Kieztreff; Um die 50 - 100 Anwohner*innen treffen sich hier zum allwöchentlichen Austausch. Sie genießen Wein und ausgefallene kulinarische Highlights. Dabeisein, mitmachen, erleben und genießen.",
                     "betreiber": "Marktverwaltung Rainer Perske",
                     "bezeichnung": "Wochenmarkt und Kieztreff Arkonaplatz",
                     "bezirk": "Mitte",
                     "email": "info@mv-perske.de",
-                    "id": 18,
+                    "id": 16,
                     "plz": "10435",
                     "strasse": "Arkonaplatz",
                     "tage": "Fr",
@@ -2123,9 +2194,9 @@
                     "zeiten": "12:00 - 19:00",
                     "zeitraum": "01.01. - 31.12."
                 },
-                "description": "Fr<br>12:00 - 19:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/18\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/18",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/18",
+                "description": "Fr<br>12:00 - 19:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/16\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/16",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/16",
                 "title": "Wochenmarkt und Kieztreff Arkonaplatz"
             },
             "type": "Feature"
@@ -2140,12 +2211,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktzeit, Ökowochenmärkte & mehr",
                     "bezeichnung": "Ökomarkt & mehr am Nordbahnhof",
                     "bezirk": "Mitte",
                     "email": "marktzeit@posteo.de",
-                    "id": 57,
+                    "id": 55,
                     "plz": "10115",
                     "strasse": "Elisabeth-Schwarzhaupt-Platz",
                     "tage": "Do",
@@ -2153,9 +2225,9 @@
                     "zeiten": "11:00 - 17:30",
                     "zeitraum": "/"
                 },
-                "description": "Do<br>11:00 - 17:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/57",
+                "description": "Do<br>11:00 - 17:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/55\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/55",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/55",
                 "title": "Ökomarkt & mehr am Nordbahnhof"
             },
             "type": "Feature"
@@ -2170,12 +2242,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktzeit, Ökowochenmärkte & mehr",
                     "bezeichnung": "Ökomarkt & mehr an der Thusnelda-Allee",
                     "bezirk": "Mitte",
                     "email": "marktzeit@posteo.de",
-                    "id": 54,
+                    "id": 52,
                     "plz": "10555",
                     "strasse": "Thusnelda-Allee 1",
                     "tage": "Mi",
@@ -2183,9 +2256,9 @@
                     "zeiten": "12:00 - 18:30",
                     "zeitraum": "/"
                 },
-                "description": "Mi<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/54\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/54",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/54",
+                "description": "Mi<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/52\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/52",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/52",
                 "title": "Ökomarkt & mehr an der Thusnelda-Allee"
             },
             "type": "Feature"
@@ -2200,12 +2273,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "/",
                     "betreiber": "Marktzeit, Ökowochenmärkte & mehr",
                     "bezeichnung": "Ökomarkt & mehr im Hansaviertel",
                     "bezirk": "Mitte",
                     "email": "marktzeit@posteo.de",
-                    "id": 60,
+                    "id": 58,
                     "plz": "10557",
                     "strasse": "Altonaer Straße \nEcke Klopstockstraße",
                     "tage": "Fr",
@@ -2213,9 +2287,9 @@
                     "zeiten": "12:00 - 18:30",
                     "zeitraum": "/"
                 },
-                "description": "Fr<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/60",
+                "description": "Fr<br>12:00 - 18:30<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/58\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/58",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/58",
                 "title": "Ökomarkt & mehr im Hansaviertel"
             },
             "type": "Feature"
@@ -2230,12 +2304,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "zwischen U Mehringdamm, U Gneisenaustraße, U Platz der Luftbrücke",
                     "betreiber": "Grüngewusel e.V.",
                     "bezeichnung": "Ökomarkt Chamissoplatz",
                     "bezirk": "Friedrichshain-Kreuzberg",
                     "email": "info@oekomarkt-chamissoplatz.de\nTel: 030 843 00 43",
-                    "id": 198,
+                    "id": 196,
                     "plz": "10965",
                     "strasse": "Chamissoplatz - Nähe Bergmannstraße",
                     "tage": "Sa",
@@ -2243,9 +2318,9 @@
                     "zeiten": "09:00 - 15:00",
                     "zeitraum": "/"
                 },
-                "description": "Sa<br>09:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/198\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/198",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/198",
+                "description": "Sa<br>09:00 - 15:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/196\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/196",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/196",
                 "title": "Ökomarkt Chamissoplatz"
             },
             "type": "Feature"
@@ -2260,12 +2335,13 @@
             },
             "properties": {
                 "data": {
+                    "barrierefreiheit": null,
                     "bemerkungen": "Wörtherstraße zwischen Kollwitz- und Husemannstraße\n12.00 - 19.00 Uhr (Januar bis zur Zeitumstellung 12.00 - 18.00)",
                     "betreiber": "Grüne Liga Berlin e.V.",
                     "bezeichnung": "Ökomarkt am Kollwitzplatz",
                     "bezirk": "Prenzlauer Berg",
                     "email": "oekomarkt.kollwitzplatz@grueneliga-berlin.de",
-                    "id": 189,
+                    "id": 187,
                     "plz": "10405",
                     "strasse": "Wörtherstraße",
                     "tage": "Do\nAdvents-sonntage",
@@ -2273,9 +2349,9 @@
                     "zeiten": "12:00 - 19:00",
                     "zeitraum": "/"
                 },
-                "description": "Do&#10;Advents-sonntage<br>12:00 - 19:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/189\">Mehr...</a>",
-                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/189",
-                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/189",
+                "description": "Do&#10;Advents-sonntage<br>12:00 - 19:00<br> <a href=\"/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/187\">Mehr...</a>",
+                "href": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/187",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/187",
                 "title": "Ökomarkt am Kollwitzplatz"
             },
             "type": "Feature"
