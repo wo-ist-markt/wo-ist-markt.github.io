@@ -307,7 +307,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [muelheim-ad-ruhr-wikipedia]: https://en.wikipedia.org/wiki/Mülheim
 [muelheim-ad-ruhr-markets]: https://www.muelheim-ruhr.de/cms/muelheimer_wochenmaerkte1.html
 [muenchen-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnchen
-[muenchen-markets]: https://www.opengov-muenchen.de/dataset/maerkte
+[muenchen-markets]: https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html
 [muenster-wikipedia]: https://en.wikipedia.org/wiki/M%C3%BCnster
 [muenster-markets]: http://www.muenster.de/stadt/maerkte/markt.html
 [nersingen-wikipedia]: https://de.wikipedia.org/wiki/Nersingen
