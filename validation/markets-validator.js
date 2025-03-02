@@ -633,6 +633,10 @@ function MetadataValidator(metadata, cityName) {
             }
         }
 
+        function handleCertificateLeafVerificationError() {
+            asyncCertificateIssues.push(new CertificateLeafVerificationIssue(cityName));
+        }
+
         var requestParameters = {
             method: 'HEAD',
             timeout: 10000, // 10 seconds
@@ -656,7 +660,18 @@ function MetadataValidator(metadata, cityName) {
                     }
                 }
             });
-            request.on('error', handleError);
+            request.on('error', function(error) {
+                if (error.code === "UNABLE_TO_VERIFY_LEAF_SIGNATURE") { // München
+                    handleCertificateLeafVerificationError();
+                    var agent = new https.Agent({
+                        rejectUnauthorized: false // Bypass SSL verification
+                    });
+                    requestParameters.agent = agent;
+                    executeRequest(url, requestParameters);
+                } else {
+                    handleError(error);
+                }
+            });
             request.end();
         }
 
@@ -812,6 +827,15 @@ function HttpRedirectStatusIssue(cityName, statusCode, location) {
 
     this.toString = function() {
         return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n     --> New location: " + this.location;
+    };
+}
+
+function CertificateLeafVerificationIssue(cityName, error) {
+
+    this.cityName = cityName;
+
+    this.toString = function() {
+        return this.cityName + ": Unable to fully verify cerficate chain.";
     };
 }
 
