@@ -57,7 +57,7 @@ var ACCEPTABLE_WARNINGS_COUNT = 2; // Marl IPv6, Chemnitz user agent
 var exitCode = 0;
 
 var asyncWarnings = [];
-var asyncExpiredCertificateIssues = [];
+var asyncCertificateIssues = [];
 var asyncErrors = [];
 
 colors.setTheme({
@@ -135,7 +135,7 @@ process.on('beforeExit', function () {
     });
 
     console.log("\n");
-    asyncExpiredCertificateIssues.forEach(function (issue) {
+    asyncCertificateIssues.forEach(function (issue) {
         console.log("Info: ".info + getFormattedText(issue.toString()));
     });
 
@@ -627,7 +627,7 @@ function MetadataValidator(metadata, cityName) {
 
         function handleError(error) {
             if (error == "Error: certificate has expired") {
-                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
+                asyncCertificateIssues.push(new ExpiredCertificateIssue(cityName));
             } else {
                 asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
             }
