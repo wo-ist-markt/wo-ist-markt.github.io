@@ -57,7 +57,7 @@ var ACCEPTABLE_WARNINGS_COUNT = 2; // Marl IPv6, Chemnitz user agent
 var exitCode = 0;
 
 var asyncWarnings = [];
-var asyncExpiredCertificateIssues = [];
+var asyncCertificateIssues = [];
 var asyncErrors = [];
 
 colors.setTheme({
@@ -135,7 +135,7 @@ process.on('beforeExit', function () {
     });
 
     console.log("\n");
-    asyncExpiredCertificateIssues.forEach(function (issue) {
+    asyncCertificateIssues.forEach(function (issue) {
         console.log("Info: ".info + getFormattedText(issue.toString()));
     });
 
@@ -627,10 +627,14 @@ function MetadataValidator(metadata, cityName) {
 
         function handleError(error) {
             if (error == "Error: certificate has expired") {
-                asyncExpiredCertificateIssues.push(new ExpiredCertificateIssue(cityName));
+                asyncCertificateIssues.push(new ExpiredCertificateIssue(cityName));
             } else {
                 asyncWarnings.push(new HttpRequestErrorIssue(cityName, error));
             }
+        }
+
+        function handleCertificateLeafVerificationError() {
+            asyncCertificateIssues.push(new CertificateLeafVerificationIssue(cityName));
         }
 
         var requestParameters = {
@@ -656,7 +660,18 @@ function MetadataValidator(metadata, cityName) {
                     }
                 }
             });
-            request.on('error', handleError);
+            request.on('error', function(error) {
+                if (error.code === "UNABLE_TO_VERIFY_LEAF_SIGNATURE") { // München
+                    handleCertificateLeafVerificationError();
+                    var agent = new https.Agent({
+                        rejectUnauthorized: false // Bypass SSL verification
+                    });
+                    requestParameters.agent = agent;
+                    executeRequest(url, requestParameters);
+                } else {
+                    handleError(error);
+                }
+            });
             request.end();
         }
 
@@ -812,6 +827,15 @@ function HttpRedirectStatusIssue(cityName, statusCode, location) {
 
     this.toString = function() {
         return this.cityName + ": HTTP response status of data source url was: " + this.statusCode + "\n     --> New location: " + this.location;
+    };
+}
+
+function CertificateLeafVerificationIssue(cityName, error) {
+
+    this.cityName = cityName;
+
+    this.toString = function() {
+        return this.cityName + ": Unable to fully verify cerficate chain.";
     };
 }
 
