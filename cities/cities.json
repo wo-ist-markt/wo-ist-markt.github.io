@@ -135,6 +135,14 @@
             8.69444444
         ]
     },
+    "donaueschingen": {
+        "id": "donaueschingen",
+        "label": "Donaueschingen",
+        "coordinates": [
+            8.4943664,
+            47.9509839
+        ]
+    },
     "dortmund": {
         "id": "dortmund",
         "label": "Dortmund",
