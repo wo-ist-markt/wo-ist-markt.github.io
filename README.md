@@ -95,6 +95,7 @@ in February 2016.
 |[Chemnitz][chemnitz-wikipedia]|[City of Chemnitz][chemnitz-markets]|
 |[Cottbus][cottbus-wikipedia]|[City of Cottbus][cottbus-markets]|
 |[Cuxhaven][cuxhaven-wikipedia]|[City of Cuxhaven][cuxhaven-markets]|
+|[Donaueschingen][donaueschingen-wikipedia]|[City of Donaueschingen][donaueschingen-markets]|
 |[Dortmund][dortmund-wikipedia]|[City of Dortmund][dortmund-markets]|
 |[Dresden][dresden-wikipedia]|[City of Dresden][dresden-markets]|
 |[Duisburg][duisburg-wikipedia]|[Duisburg Kontor GmbH][duisburg-markets]|
@@ -232,6 +233,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [cottbus-markets]: http://www.cottbuser-wochenmarkt.de/
 [cuxhaven-wikipedia]: https://de.wikipedia.org/wiki/Cuxhaven
 [cuxhaven-markets]: https://www.cuxhaven.de/magazin/artikel.php?artikel=2801&type=2&menuid=686&topmenu=16
+[donaueschingen-wikipedia]: https://de.wikipedia.org/wiki/Donaueschingen
+[donaueschingen-markets]: https://www.donaueschingen.de/Wochenmarkt
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
 [dortmund-markets]: https://www.dortmund.de/dortmund-erleben/einkaufen/wochenmaerkte/
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
