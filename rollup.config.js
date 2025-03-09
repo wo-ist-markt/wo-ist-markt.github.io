@@ -1,9 +1,9 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
-import cssbundle from 'rollup-plugin-css-bundle';
+import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import postcss from 'postcss';
 import postcssImport from 'postcss-import';
 
@@ -26,10 +26,14 @@ export default {
         module: true,
       }
     }),
-    cssbundle({
-      transform: code => postcss([postcssImport]).process(code, {
-        from: "css/main.css"
-      })
+    css({
+      output: 'css/main.css',
+      // Process CSS with PostCSS plugins
+      transformImport: (fileContent, fileId) => {
+        return postcss([postcssImport])
+          .process(fileContent, { from: fileId })
+          .then(result => result.css);
+      }
     }),
     copy({
       targets: [{
