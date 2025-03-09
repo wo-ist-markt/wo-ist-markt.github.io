@@ -5,6 +5,12 @@
 
 // import for bundle.css
 require('../css/main.css');
+require('../node_modules/normalize.css/normalize.css');
+require('../node_modules/select2/dist/css/select2.min.css');
+require('../node_modules/leaflet/dist/leaflet.css');
+require('../node_modules/leaflet.locatecontrol/dist/L.Control.Locate.css');
+require('../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css');
+require('../font/wo-ist-markt.css');
 
 const $ = require('jquery');
 require('select2')($);
