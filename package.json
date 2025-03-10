@@ -18,7 +18,6 @@
     "@rollup/plugin-node-resolve": "^16.0.0",
     "axios": "^1.8.1",
     "colors": "1.4.0",
-    "jasmine": "^5.4.0",
     "jshint": "^2.13.6",
     "opening_hours": "^3.8.0",
     "ora": "^8.1.1",
@@ -37,8 +36,7 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "lint": "jshint js preprocessing validation",
-    "jasmine-tests": "jasmine",
-    "test": "npm run lint && npm run jasmine-tests && npm run validate",
+    "test": "node --test spec/**.test && npm run lint && npm run validate",
     "positions": "node ./preprocessing/addPositionsToCities.js",
     "validate": "node validation/markets-validator.js"
   },
