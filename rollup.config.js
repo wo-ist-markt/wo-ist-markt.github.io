@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import postcss from 'postcss';
 import postcssImport from 'postcss-import';
 import fs from 'fs';
