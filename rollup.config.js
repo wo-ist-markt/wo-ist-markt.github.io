@@ -1,11 +1,12 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
-import cssbundle from 'rollup-plugin-css-bundle';
+import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import postcss from 'postcss';
 import postcssImport from 'postcss-import';
+import fs from 'fs';
 
 const isProduction = !process.env.ROLLUP_WATCH;
 
@@ -18,7 +19,9 @@ export default {
     sourcemap: !isProduction
   },
   plugins: [
-    resolve(),
+    resolve({
+      browser: true
+    }),
     commonjs(),
     json(),
     isProduction && terser({
@@ -26,10 +29,21 @@ export default {
         module: true,
       }
     }),
-    cssbundle({
-      transform: code => postcss([postcssImport]).process(code, {
-        from: "css/main.css"
-      })
+    css({
+      output: function(styles) {
+        const cssContent = fs.readFileSync('css/main.css', 'utf8');
+        postcss([postcssImport])
+          .process(cssContent, {
+            from: 'css/main.css',
+            to: 'public/bundle.css'
+          })
+          .then(result => {
+            fs.writeFileSync('public/bundle.css', result.css);
+          })
+          .catch(error => {
+            console.error('Error processing CSS:', error);
+          });
+      }
     }),
     copy({
       targets: [{
