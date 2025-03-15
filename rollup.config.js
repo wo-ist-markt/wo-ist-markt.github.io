@@ -4,9 +4,6 @@ import json from '@rollup/plugin-json';
 import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
 import { terser } from 'rollup-plugin-terser';
-import postcss from 'postcss';
-import postcssImport from 'postcss-import';
-import fs from 'fs';
 
 const isProduction = !process.env.ROLLUP_WATCH;
 
@@ -30,20 +27,7 @@ export default {
       }
     }),
     css({
-      output: function(styles) {
-        const cssContent = fs.readFileSync('css/main.css', 'utf8');
-        postcss([postcssImport])
-          .process(cssContent, {
-            from: 'css/main.css',
-            to: 'public/bundle.css'
-          })
-          .then(result => {
-            fs.writeFileSync('public/bundle.css', result.css);
-          })
-          .catch(error => {
-            console.error('Error processing CSS:', error);
-          });
-      }
+      output: 'public/bundle.css',
     }),
     copy({
       targets: [{
