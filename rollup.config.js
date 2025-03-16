@@ -1,11 +1,9 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
-import cssbundle from 'rollup-plugin-css-bundle';
+import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
 import { terser } from 'rollup-plugin-terser';
-import postcss from 'postcss';
-import postcssImport from 'postcss-import';
 
 const isProduction = !process.env.ROLLUP_WATCH;
 
@@ -18,7 +16,9 @@ export default {
     sourcemap: !isProduction
   },
   plugins: [
-    resolve(),
+    resolve({
+      browser: true
+    }),
     commonjs(),
     json(),
     isProduction && terser({
@@ -26,10 +26,8 @@ export default {
         module: true,
       }
     }),
-    cssbundle({
-      transform: code => postcss([postcssImport]).process(code, {
-        from: "css/main.css"
-      })
+    css({
+      output: 'bundle.css',
     }),
     copy({
       targets: [{
