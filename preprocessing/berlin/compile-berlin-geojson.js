@@ -280,6 +280,7 @@ function getSanitizeDays(days) {
 	days = days.replace("Do", "Th");
 	days = days.replace("So", "Su");
 	days = days.replace(/sonntags/g, "Su");
+	days = days.replace(" und ", ", ");
 	days = days.replace(/\n\n\n/g, ",");
 	days = days.replace(/, \n/g, ",");
 	days = days.replace(/\n/g, ",");
@@ -299,6 +300,9 @@ function getSanitizeDays(days) {
  */
 function getSanitizeHours(hours) {
 	hours = hours.replace(/ab (\d\d:\d\d)/g, "$1+");
+	hours = hours.replace(/Uhr/g, "");
+	hours = hours.replace(/uhr/g, "");
+	hours = hours.replace(/ bis /g, "-");
 	hours = hours.replace(/ - /g, "-");
 	hours = hours.replace(/\n+/g, " ");
 	hours = hours.replace(/\n\s+/g, " ");
