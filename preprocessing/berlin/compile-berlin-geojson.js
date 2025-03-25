@@ -296,6 +296,16 @@ function getSanitizeDays(days) {
 }
 
 /*
+ * Formats a time range from "H-H" or "HH-HH" to "HH:mm-HH:mm" format.
+ * Pad single digit hours with leading zero.
+ */
+function formatHoursRangeToHHmm(startsAt, endsAt) {
+	startsAt = startsAt.padStart(2, '0');
+	endsAt = endsAt.padStart(2, '0');
+	return `${startsAt}:00-${endsAt}:00`;
+}
+
+/*
  * Returns a sanitized hours string.
  */
 function getSanitizeHours(hours) {
@@ -310,6 +320,7 @@ function getSanitizeHours(hours) {
 	hours = hours.replace(/ /g, ",");
 	hours = hours.replace(/^,/g, "");
 	hours = hours.replace(/,$/g, "");
+	hours = hours.replace(/(\d{1,2})-(\d{1,2})/g, formatHoursRangeToHHmm);
 	hours = hours.trim();
 	return hours;
 }
