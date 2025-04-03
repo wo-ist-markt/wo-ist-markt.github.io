@@ -21,7 +21,7 @@
     "colors": "1.4.0",
     "jshint": "^2.13.6",
     "opening_hours": "^3.8.0",
-    "ora": "^8.1.1",
+    "ora": "^8.2.0",
     "rollup": "^4.38.0",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-css-only": "^4.5.2"
