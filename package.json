@@ -9,6 +9,7 @@
     "leaflet.awesome-markers": "^2.0.5",
     "leaflet.locatecontrol": "^0.81.1",
     "normalize.css": "^8.0.1",
+    "npm": "^11.2.0",
     "opening_hours": "^3.8.0",
     "select2": "^4.0.13"
   },
@@ -40,6 +41,6 @@
   },
   "engines": {
     "node": ">=20",
-    "npm": ">=7"
+    "npm": ">=10"
   }
 }
