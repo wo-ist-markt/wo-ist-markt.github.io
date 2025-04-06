@@ -364,7 +364,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [usingen-wikipedia]: https://de.wikipedia.org/wiki/Usingen
 [usingen-markets]: https://www.usingen.de/pdfs/stadtrecht/marktordnung-der-stadt-usingen.pdf
 [wiesbaden-wikipedia]: https://en.wikipedia.org/wiki/Wiesbaden
-[wiesbaden-markets]: http://www.wiesbaden.de/wiesbadener-wochenmarkt/
+[wiesbaden-markets]: https://www.wiesbaden.de/microsite/wochenmarkt-wiesbaden/
 [witten-wikipedia]: https://en.wikipedia.org/wiki/Witten
 [witten-markets]: https://stadtmarketing-witten.de/einkaufen-geniessen/wochenmaerkte
 [wolfenbuettel-wikipedia]: https://de.wikipedia.org/wiki/Wolfenb%C3%BCttel
