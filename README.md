@@ -236,7 +236,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [donaueschingen-wikipedia]: https://de.wikipedia.org/wiki/Donaueschingen
 [donaueschingen-markets]: https://www.donaueschingen.de/Wochenmarkt
 [dortmund-wikipedia]: https://en.wikipedia.org/wiki/Dortmund
-[dortmund-markets]: https://www.dortmund.de/dortmund-erleben/einkaufen/wochenmaerkte/
+[dortmund-markets]: https://www.dortmund.de/themen/einkaufen-und-city/wochenmaerkte/
 [dresden-wikipedia]: https://en.wikipedia.org/wiki/Dresden
 [dresden-markets]: https://www.dresden.de/de/leben/sport-und-freizeit/maerkte-in-dresden.php
 [duisburg-wikipedia]: https://en.wikipedia.org/wiki/Duisburg
