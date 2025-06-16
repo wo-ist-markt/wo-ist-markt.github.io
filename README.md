@@ -252,7 +252,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
 [freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
-[friedrichsdorf-markets]: http://www.friedrichsdorf.de/lebeninfriedrichsdorf/einkaufenunddienstleistung/wochenmarkt.php
+[friedrichsdorf-markets]: https://www.friedrichsdorf.de/leben/ueber-friedrichsdorf/einkaufen
 [fuerth-wikipedia]: https://en.wikipedia.org/wiki/F%C3%BCrth
 [fuerth-markets]: https://www.fuerthwiki.de/wiki/index.php/Kategorie:M%C3%A4rkte
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
