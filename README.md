@@ -362,7 +362,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm
 [ulm-markets]: http://www.ulm-messe.de/marktwesen/wochenmarkt_ulm_soeflingen.97943.21332,97940,97943.htm
 [usingen-wikipedia]: https://de.wikipedia.org/wiki/Usingen
-[usingen-markets]: https://www.usingen.de/pdfs/stadtrecht/marktordnung-der-stadt-usingen.pdf
+[usingen-markets]: https://www.usingen.de/pdfs/stadtrecht/marktordnung-der-stadt-usingen.pdf?cid=3c
 [wiesbaden-wikipedia]: https://en.wikipedia.org/wiki/Wiesbaden
 [wiesbaden-markets]: https://www.wiesbaden.de/microsite/wochenmarkt-wiesbaden/
 [witten-wikipedia]: https://en.wikipedia.org/wiki/Witten
