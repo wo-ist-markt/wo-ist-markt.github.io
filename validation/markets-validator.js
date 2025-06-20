@@ -52,7 +52,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 2; // Bremen, Chemnitz user agent
+var ACCEPTABLE_WARNINGS_COUNT = 4; // Rostock, Stralsund, Bremen, Chemnitz user agent
 
 var exitCode = 0;
 
