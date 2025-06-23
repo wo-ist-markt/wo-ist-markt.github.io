@@ -20,8 +20,9 @@ const isBetween = require('dayjs/plugin/isBetween');
 const isoWeek = require('dayjs/plugin/isoWeek');
 
 require('leaflet');
-require('leaflet.locatecontrol');
 require('leaflet.awesome-markers');
+
+const { LocateControl } = require("leaflet.locatecontrol");
 
 const opening_hours = require('opening_hours');
 require('i18next-client');
@@ -638,7 +639,7 @@ $(document).ready(function() {
     $("input[name=display]").change(updateLayers);
 
     // add locator
-    L.control.locate({
+    new LocateControl({
         keepCurrentZoomLevel: true,
         icon: 'icon locate',
         drawCircle: false,
