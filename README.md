@@ -226,7 +226,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bruchkoebel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
 [bruchkoebel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
 [bruehl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
-[bruehl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
+[bruehl-markets]: https://www.bruehl.de/veranstaltungskalender/veranstaltungen/hauptkalender/wochenmarkt.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: https://www.chemnitz.de/de/rathaus/ausschreibungen/marktausschreibungen/wochenmaerkte
 [cottbus-wikipedia]: https://de.wikipedia.org/wiki/Cottbus
@@ -250,7 +250,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
 [frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/maerkte-und-einkaufsstrassen/maerkte-und-flohmaerkte/wochenmaerkte
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
-[freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
+[freiburg-markets]: https://visit.freiburg.de/entdecken/shopping/wochenmaerkte
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
 [friedrichsdorf-markets]: https://www.friedrichsdorf.de/leben/ueber-friedrichsdorf/einkaufen
 [fuerth-wikipedia]: https://en.wikipedia.org/wiki/F%C3%BCrth
@@ -258,7 +258,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
 [Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
-[hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
+[hagen-markets]: https://www.hagen.de/aus-dem-rathaus/fachbereiche-und-aemter/fachbereiche-a-z/fachbereich-oeffentliche-sicherheit-und-ordnung/gewerbestelle/#jahr--und-wochenmaerkte
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
 [hamburg-markets]: https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte
 [hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
@@ -372,4 +372,4 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [wuppertal-wikipedia]: https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]: https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
 [zwickau-wikipedia]: https://en.wikipedia.org/wiki/Zwickau
-[zwickau-markets]: https://www.zwickautourist.de/de/wochenmaerkte.php
+[zwickau-markets]: https://www.zwickautourist.de/wochenmaerkte.php

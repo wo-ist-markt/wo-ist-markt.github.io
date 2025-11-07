@@ -64,7 +64,7 @@
     "metadata": {
         "data_source": {
             "title": "Kultour Z.",
-            "url": "https://www.zwickautourist.de/de/wochenmaerkte.php"
+            "url": "https://www.zwickautourist.de/wochenmaerkte.php"
         }
     },
     "type": "FeatureCollection"
