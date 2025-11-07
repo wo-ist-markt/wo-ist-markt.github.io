@@ -1,0 +1,41 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    13.4563722,
+                    48.5714897
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Klostergarten am ZOB",
+                "opening_hours": "Tu 07:00-12:30, Fr 07:00-12:30",
+                "title": "Passauer Wochenmarkt im Klostergarten"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.4642581,
+                    48.5744981
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Domplatz",
+                "opening_hours": "Sa 07:00-14:00",
+                "title": "Passauer Wochenmarkt auf dem Domplatz"
+            },
+            "type": "Feature"
+        }
+    ],
+    "metadata": {
+        "data_source": {
+            "title": "Stadt Passau, abgerufen am 07.11.2025",
+            "url": "https://www.passau.de/stadtleben/sport-freizeit/regionales-vom-wochenmarkt/"
+        }
+    },
+    "type": "FeatureCollection"
+}

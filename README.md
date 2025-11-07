@@ -142,6 +142,7 @@ in February 2016.
 |[Oldenburg][oldenburg-wikipedia]|[City of Oldenburg (Oldb)][oldenburg-markets]|
 |[Osnabrueck][osnabrueck-wikipedia]|[City of Osnabrueck][osnabrueck-markets]|
 |[Paderborn][paderborn-wikipedia]|[City of Paderborn][paderborn-markets]|
+|[Passau][passau-wikipedia]|[City of Passau][passau-markets]|
 |[Potsdam][potsdam-wikipedia]|[City of Potsdam][potsdam-markets]|
 |[Rastatt][rastatt-wikipedia]|[City of Rastatt][rastatt-markets]|
 |[Rheinstetten][rheinstetten-wikipedia]|[City of Rheinstetten][rheinstetten-markets]|
@@ -327,6 +328,8 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [osnabrueck-markets]: https://erleben.osnabrueck.de/de/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
 [paderborn-markets]: http://www.paderborn.de/microsite/wochenmarkt/marktinfos/109010100000079411.php?p=5,1
+[passau-wikipedia]: https://en.wikipedia.org/wiki/Passau
+[passau-markets]: https://www.passau.de/stadtleben/sport-freizeit/regionales-vom-wochenmarkt/
 [potsdam-wikipedia]: https://en.wikipedia.org/wiki/Potsdam
 [potsdam-markets]: https://www.potsdam.de/de/kategorie/einkaufen-schenken
 [rastatt-wikipedia]: https://de.wikipedia.org/wiki/Rastatt
