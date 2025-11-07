@@ -250,7 +250,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
 [frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/maerkte-und-einkaufsstrassen/maerkte-und-flohmaerkte/wochenmaerkte
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
-[freiburg-markets]: http://www.freiburg.de/pb/,Lde/226390.html
+[freiburg-markets]: https://visit.freiburg.de/entdecken/shopping/wochenmaerkte
 [friedrichsdorf-wikipedia]: https://de.wikipedia.org/wiki/Friedrichsdorf
 [friedrichsdorf-markets]: https://www.friedrichsdorf.de/leben/ueber-friedrichsdorf/einkaufen
 [fuerth-wikipedia]: https://en.wikipedia.org/wiki/F%C3%BCrth
