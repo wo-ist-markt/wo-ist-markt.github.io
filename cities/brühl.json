@@ -49,7 +49,7 @@
     "metadata": {
         "data_source": {
             "title": "Stadt Brühl - Wochenmärkte",
-            "url": "https://www.bruehl.de/veranstaltungen.aspx"
+            "url": "https://www.bruehl.de/veranstaltungskalender/veranstaltungen/hauptkalender/wochenmarkt.php"
         }
     },
     "type": "FeatureCollection"

@@ -226,7 +226,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [bruchkoebel-wikipedia]: https://de.wikipedia.org/wiki/Bruchk%C3%B6bel
 [bruchkoebel-markets]: http://www.stadtmarketing-bruchkoebel.de/einkaufen-geniessen/wochenmarkt-bruchkoebel/
 [bruehl-wikipedia]: https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)
-[bruehl-markets]: http://www.bruehl.de/wirtschaft/wirtschaftsfoerderung/wochenmaerkte.php
+[bruehl-markets]: https://www.bruehl.de/veranstaltungskalender/veranstaltungen/hauptkalender/wochenmarkt.php
 [chemnitz-wikipedia]: https://en.wikipedia.org/wiki/Chemnitz
 [chemnitz-markets]: https://www.chemnitz.de/de/rathaus/ausschreibungen/marktausschreibungen/wochenmaerkte
 [cottbus-wikipedia]: https://de.wikipedia.org/wiki/Cottbus
