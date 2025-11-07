@@ -372,4 +372,4 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [wuppertal-wikipedia]: https://en.wikipedia.org/wiki/Wuppertal
 [wuppertal-markets]: https://www.wuppertal.de/tourismus-freizeit/einkaufen/102370100000204430.php
 [zwickau-wikipedia]: https://en.wikipedia.org/wiki/Zwickau
-[zwickau-markets]: https://www.zwickautourist.de/de/wochenmaerkte.php
+[zwickau-markets]: https://www.zwickautourist.de/wochenmaerkte.php
