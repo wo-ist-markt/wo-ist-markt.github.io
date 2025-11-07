@@ -258,7 +258,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
 [Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
-[hagen-markets]: https://www.hagen.de/web/de/fachbereiche/fb_32/fb_32_07/fb_32_0707/wochenmaerkte.html
+[hagen-markets]: https://www.hagen.de/aus-dem-rathaus/fachbereiche-und-aemter/fachbereiche-a-z/fachbereich-oeffentliche-sicherheit-und-ordnung/gewerbestelle/#jahr--und-wochenmaerkte
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
 [hamburg-markets]: https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte
 [hamm-wikipedia]: https://de.wikipedia.org/wiki/Hamm
