@@ -69,7 +69,7 @@
         "data_source":
         {
             "title": "Stadt Marl, aktualisiert am 27.04.2023",
-            "url": "https://www.marl.de/leben-wohnen/einkaufen/wochenmaerkte/"
+            "url": "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte/"
         }
     },
     "type": "FeatureCollection"
