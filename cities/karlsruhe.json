@@ -24,6 +24,22 @@
         {
             "geometry": {
                 "coordinates": [
+                    8.431791,
+                    49.004695
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Alter Schlachthof 35 am Tollhaus" ,
+                "opening_hours": "Th[1] 15:00-20:00",
+                "title": "Bauernmarkt Karlsruhe",
+                "details_url": "https://www.bauernmarkt-karlsruhe.de/"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     8.3323837,
                     49.0046859
                 ],
