@@ -52,7 +52,7 @@ var MIN_LONGITUDE = -180.0;
  * is impossible for us to resolve the issue.
  * The aim is to keep this count as low as possible.
  */
-var ACCEPTABLE_WARNINGS_COUNT = 8; // Brühl, Bremen, Chemnitz, Frankfurt am Main, Münster, Solingen, Trier, Zwickau
+var ACCEPTABLE_WARNINGS_COUNT = 8; // Bremen, Chemnitz, Frankfurt am Main, Köln, Solingen, Wuppertal
 
 var exitCode = 0;
 
