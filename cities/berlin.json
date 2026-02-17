@@ -1,706 +1,163 @@
 {
-    "type": "FeatureCollection",
     "features": [
         {
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.94,
-                    51.878
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Lübbenau",
-                "location": "Otto-Grotewohl-Straße 4 A-E, 03222",
-                "opening_hours": "Tu,Th 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://luebbenau.treffpunkt-wochenmarkt.de/vor-Innenhof-des-Einkaufszentrums-Kolosseum/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.191,
-                    52.641
-                ]
-            },
-            "properties": {
-                "title": "KieFi-Markt LIDL-PARKPLATZ / Flohmarkt / Trödelmarkt",
-                "location": "Rosa-Luxemburg-Platz, 16761",
-                "opening_hours": null,
-                "opening_hours_unclassified": "10:00 - 16:00 Uhr / 18.05.2025",
-                "details_url": "http://KieFi-Markt Hennigsdorf via Facebook"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.532,
-                    51.068
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Obermarkt, 02742",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-10-19-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.532,
-                    51.068
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Obermarkt, 02742",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-09-21-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.532,
-                    51.068
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Obermarkt, 02742",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-08-17-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.532,
-                    51.068
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Obermarkt, 02742",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-07-20-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.532,
-                    51.068
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Obermarkt, 02742",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-05-18-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.364,
-                    51.573
-                ]
-            },
-            "properties": {
-                "title": "Flohmarkt Spremberg",
-                "location": "Am Markt 1, 03130",
-                "opening_hours": "Su 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-05-18-08-00"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.364,
-                    51.573
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Spremberg",
-                "location": "Am Markt 1, 03130",
-                "opening_hours": "Tu,Th 08:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://spremberg.treffpunkt-wochenmarkt.de/Marktplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.259,
-                    53.56
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Neubrandenburg",
-                "location": "Treptower Straße 1, 17033",
-                "opening_hours": "Tu,Th 09:00-17:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://neubrandenburg.treffpunkt-wochenmarkt.de/Marktplatz-vor-dem-Haus-der-Kultur-und-Bildung/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.685,
-                    53.884
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Anklam",
-                "location": "Markt 3, 17389",
-                "opening_hours": "We 08:00-14:00; Sa 08:00-12:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://anklam.treffpunkt-wochenmarkt.de/Marktplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    12.571,
-                    53.775
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Teterow",
-                "location": "Marktplatz 1-3, 17166",
-                "opening_hours": "Tu,Th 08:30-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://teterow.treffpunkt-wochenmarkt.de/Marktplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    12.751,
-                    53.738
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Malchin",
-                "location": "Am Markt 1, 17139",
-                "opening_hours": "Fr 08:30-14:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.821,
-                    52.836
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Eberswalde Marktplatz",
-                "location": "Am Markt 6, 16225",
-                "opening_hours": "Tu 08:00-17:00; Fr 08:00-16:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://eberswalde.treffpunkt-wochenmarkt.de/1608-01/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.175,
-                    52.689
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Velten",
-                "location": "Am Markt 12, 16727",
-                "opening_hours": "We 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.33,
-                    52.976
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Zehdenick",
-                "location": "Berliner Straße 37, 16792",
-                "opening_hours": "Th 08:30-16:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.626,
-                    52.149
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Eisenhüttenstadt (Bauernmarkt)",
-                "location": "Bauernmarkt, 15890",
-                "opening_hours": "Tu,Th 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://eisenhuettenstadt.treffpunkt-wochenmarkt.de/Am-Bauernmarkt/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.71,
-                    51.855
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Luckau",
-                "location": "Marktplatz 34, 15926",
-                "opening_hours": "Th 07:30-14:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://luckau.treffpunkt-wochenmarkt.de/Marktplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.307,
-                    52.355
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Großbeeren",
-                "location": "Am Rathaus 1, 14979",
-                "opening_hours": "Sa 08:30-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://grossbeeren.treffpunkt-wochenmarkt.de/Am-Rathaus-Parkplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.708,
-                    51.634
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Finsterwalde",
-                "location": "Am Markt, 03238",
-                "opening_hours": "We 08:00-17:00; Fr 08:00-17:00; Sa 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://finsterwalde.treffpunkt-wochenmarkt.de/Am-Markt/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.071,
-                    51.783
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Vetschau",
-                "location": "Markt 34, 03226",
-                "opening_hours": "Th 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.758,
-                    52.828
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Eberswalde Brandenburgisches Viertel",
-                "location": "Potsdamer Allee 44, 16227",
-                "opening_hours": "We 08:00-14:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.095,
-                    52.397
-                ]
-            },
-            "properties": {
-                "title": "Floh- und Bauernmarkt",
-                "location": "Weberplatz, 14482",
-                "opening_hours": "Sa 07:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.koscholke.de"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.295,
-                    52.508
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Charlottenburg - Suarezstraße",
-                "location": "Suarezstraße 48, 14057",
-                "opening_hours": "Th 08:00-14:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.treffpunkt-wochenmarkt.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.432,
-                    52.5
-                ]
-            },
-            "properties": {
-                "title": "Markt in der Markthalle Neun",
-                "location": "Eisenbahnstraße 42/43, 10997",
-                "opening_hours": "Mo-Fr 12:00-18:00; Sa 10:00-18:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://markthalleneun.de/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.522,
-                    52.475
-                ]
-            },
-            "properties": {
-                "title": "ANTIK & DESIGNMARKT Trabrennbahn Karlshorst",
-                "location": "Treskowallee 159, 10318",
-                "opening_hours": null,
-                "opening_hours_unclassified": "Sa-So jeweils von 9-17 Uhr / 5.-6.4./3.-4.5./7.-9.6./ 5.-6.7./2.-3.8./13.-14.9./3.-5.10./1-2.11.2025",
-                "details_url": "https://www.oldthing.de/riesenflohmarkt"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.493,
-                    52.515
-                ]
-            },
-            "properties": {
-                "title": "Kreativmarkt im Hubertusbad",
-                "location": "Hubertusstraße 47, 10365",
-                "opening_hours": "Su 11:00-18:00",
-                "opening_hours_unclassified": null
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.4,
-                    52.525
-                ]
-            },
-            "properties": {
-                "title": "Ökomarkt & mehr an der Sophienkirche",
-                "location": "Große Hamburger Str. 29/30, 10115",
-                "opening_hours": "Tu 12:00-18:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://www.marktzeit.berlin"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.435,
-                    52.516
-                ]
-            },
-            "properties": {
-                "title": "Antik & Sammlermarkt am Berliner Ostbahnhof",
-                "location": "Koppenstrasse, 10243",
-                "opening_hours": null,
-                "opening_hours_unclassified": "So Jeweils 9-17 Uhr AUSSER an den Wochenenden, an denen der Antikmarkt Karlshorst stattfindet > 6.4./4.5./9.6./ 6.7./3.8./14.9./5.10./2.11./28.12.2025 geschlossen Volkstrauertag und Totensonntag 16.11./23.11.2025 auch geschlossen! / 05.01.2025 - 28.12.2025",
-                "details_url": "https://www.oldthing.de/Berliner-Flohmarkt/"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.306,
-                    52.615
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Reinickendorf (Hermsdorf)",
-                "location": "Fellbacher Straße 30 A, 13467",
-                "opening_hours": "Fr 10:00-18:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://spremberg.treffpunkt-wochenmarkt.de/Marktplatz/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.307,
-                    52.616
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Reinickendorf (Hermsdorf)",
-                "location": "Fellbacher Straße 30 A, 13467",
-                "opening_hours": "Fr 10:00-18:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://berlin.treffpunkt-wochenmarkt.de/Fellbacher-Platz-am-SBahn-Aufgang/startseite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [
                     13.118,
                     52.469
-                ]
+                ],
+                "type": "Point"
             },
             "properties": {
-                "title": "23. Kinderflohmarkt in der Landstadt Gatow",
                 "location": "Am Flugplatz Gatow 10, 14089",
-                "opening_hours": "Sa 10:00-14:00",
-                "opening_hours_unclassified": null
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.39,
-                    52.435
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Mariendorfer Damm / Prinzenstraße",
-                "location": "Mariendorfer Damm, 12109",
-                "opening_hours": "We,Sa 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.352,
-                    52.496
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Winterfeldtplatz",
-                "location": "Winterfeldtplatz, 10781",
-                "opening_hours": "We 08:00-14:00; Sa 08:00-16:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.344,
-                    52.484
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt John-F.-Kennedy-Platz",
-                "location": "John-F.-Kennedy-Platz 1, 10825",
-                "opening_hours": "Tu,Fr 08:00-13:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.335,
-                    52.471
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Breslauer Platz",
-                "location": "Breslauer Platz, 12159",
-                "opening_hours": "We 08:00-14:00; Th 12:00-18:00; Sa 08:00-14:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.365,
-                    52.49
-                ]
-            },
-            "properties": {
-                "title": "Wochenmarkt Crellestraße",
-                "location": "Crellestraße 24, 10827",
-                "opening_hours": "We,Sa 10:00-15:00",
-                "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.365,
-                    52.49
-                ]
-            },
-            "properties": {
-                "title": "SCHOENEBOERG FLOWMARKT",
-                "location": "Crellemarktplatz, 10829",
                 "opening_hours": null,
-                "opening_hours_unclassified": "10-16:30 Uhr / 30.03.2025 - 07.12.2025",
-                "details_url": "https://www.SCHOENEBOERG.de"
-            }
+                "opening_hours_unclassified": "25.04.2026 10:00-14:00 Uhr",
+                "title": "25. Kinderflohmarkt in der Landstadt Gatow"
+            },
+            "type": "Feature"
         },
         {
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
                 "coordinates": [
-                    13.343,
-                    52.502
-                ]
+                    13.095,
+                    52.397
+                ],
+                "type": "Point"
             },
             "properties": {
-                "title": "Wochenmarkt Wittenbergplatz (Nordseite)",
-                "location": "Wittenbergplatz 5, 10789",
-                "opening_hours": "Tu,Fr 08:00-15:00",
+                "details_url": "https://www.koscholke.de",
+                "location": "Weberplatz, 14482",
+                "opening_hours": "Sa 07:00-13:00",
                 "opening_hours_unclassified": null,
-                "details_url": "https://ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/ordnungsamt/maerkte"
-            }
+                "title": "Floh- und Bauernmarkt Weberplatz"
+            },
+            "type": "Feature"
         },
         {
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
                 "coordinates": [
-                    13.502,
-                    52.443
-                ]
+                    13.402,
+                    52.541
+                ],
+                "type": "Point"
             },
             "properties": {
-                "title": "Berd Gelllesch",
-                "location": "Megedestr. / Sterndamm, 12487",
-                "opening_hours": "Sa 08:00-14:00",
+                "details_url": "https://www.flohmarktimmauerpark.de",
+                "location": "Bernauer Str. 63-64, 13355",
+                "opening_hours": "Su 10:00-18:00",
                 "opening_hours_unclassified": null,
-                "details_url": "https://www.gakenholz-gellesch.de"
-            }
+                "title": "Flohmarkt am Mauerpark"
+            },
+            "type": "Feature"
         },
         {
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
                 "coordinates": [
-                    13.626,
-                    52.462
-                ]
+                    13.549,
+                    52.438
+                ],
+                "type": "Point"
             },
             "properties": {
-                "title": "Flohmarkt am S-Bhf. Friedrichshagen",
-                "location": "Schöneicher Strasse 1, 12587",
+                "details_url": "https://www.gakenholz-gellesch.de",
+                "location": "Dörpfeldstraße, 12489",
+                "opening_hours": "We,Th 08:00-17:00",
+                "opening_hours_unclassified": null,
+                "title": "Frische Wochenmartk"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.385,
+                    52.455
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "details_url": "https://www.hauptstadtkultur.berlin/events/",
+                "location": "Tempelhofer Damm 227, 12099",
                 "opening_hours": null,
-                "opening_hours_unclassified": "So 8-16 Uhr AUSSER an den Wochenenden, an denen der Antikmarkt Karlshorst stattfindet > 6.4./4.5./9.6./ 6.7./3.8./14.9./5.10./2.11./28.12.2025 ist geschlossen ! / 13.04.2025 - 21.12.2025",
-                "details_url": "https://www.oldthing.de/Berliner-Flohmarkt/"
-            }
+                "opening_hours_unclassified": "10-18 Uhr / 04.04.2026 bis 30.10.2026",
+                "title": "Markt am Einkaufscenter Tempelhofer Hafen"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.524,
+                    52.477
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "details_url": "https://oldthing.de/riesenflohmarkt",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "06.04.2026 9-17 Uhr / 04.04.2026",
+                "title": "Osterspezial Riesenflohmarkt Trabrennbahn Karlshorst"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-10-19-08-00",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "19.04.2026 8-15 Uhr / 19.04.2026",
+                "title": "Wochenmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "details_url": "https://www.marktgilde.events/termine-und-orte",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "17.05.2026 8-15 Uhr / 17.05.2026",
+                "title": "Wochenmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.417,
+                    52.536
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "details_url": "https://www.grueneliga-berlin.de/themen-projekte2/oekomarkt/",
+                "location": "Wörther Str. 35-39, 10435",
+                "opening_hours": "Th 12:00-19:00",
+                "opening_hours_unclassified": null,
+                "title": "Ökomarkt am Kollwitzplatz"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
         "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 05.11.2025",
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 09.02.2026",
             "url": "https://daten.berlin.de/datensaetze/simple_search_wwwberlindesenwebservicemaerktefestewochentroedelmaerkte"
         }
-    }
+    },
+    "type": "FeatureCollection"
 }
