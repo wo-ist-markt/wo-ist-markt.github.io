@@ -35,6 +35,70 @@
         {
             "geometry": {
                 "coordinates": [
+                    13.524,
+                    52.477
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Besucherparkplätze, 300m vom S-Bhf. Karlshorst, Tram 21, 27, 37, M17",
+                    "betreiber": "Beste Sammelfreunde UG",
+                    "bezeichnung": "ANTIK & DESIGNMARKT Trabrennbahn Karlshorst",
+                    "bezirk": "Lichtenberg",
+                    "email": "info@oldthing.de",
+                    "lat": "52.477",
+                    "lng": "13.524",
+                    "plz": "10318",
+                    "strasse": "Treskowallee 159",
+                    "tage": "",
+                    "www": "https://www.oldthing.de/riesenflohmarkt",
+                    "zeiten": "9-17 Uhr",
+                    "zeitraum": "Sa-So 4.-6.4./ 2.-3.5./ 23.-25.5./ 4.-5.7./ 1.-2.8./ 12.-13.9./ 2.-4.10./ 7-8.11.2026"
+                },
+                "description": "<br>9-17 Uhr<br> <a href=\"ANTIK &#38; DESIGNMARKT Trabrennbahn Karlshorst\">Mehr...</a>",
+                "href": "ANTIK & DESIGNMARKT Trabrennbahn Karlshorst",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/43",
+                "title": "ANTIK & DESIGNMARKT Trabrennbahn Karlshorst"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.434,
+                    52.513
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "",
+                    "betreiber": "Flohmärkte Berlin P&S eGbR",
+                    "bezeichnung": "Antik & Sammlermarkt am Berliner Ostbahnhof",
+                    "bezirk": "Friedrichshain",
+                    "email": "info@oldthing.de",
+                    "lat": "52.513",
+                    "lng": "13.434",
+                    "plz": "10243",
+                    "strasse": "Hermann-Stöhr-Platz",
+                    "tage": "27.12.2026",
+                    "www": "https://www.oldthing.de/Berliner-Flohmarkt/",
+                    "zeiten": "Sonntags jeweils 9-17 Uhr",
+                    "zeitraum": "04.01.2026"
+                },
+                "description": "27.12.2026<br>Sonntags jeweils 9-17 Uhr<br> <a href=\"Antik &#38; Sammlermarkt am Berliner Ostbahnhof\">Mehr...</a>",
+                "href": "Antik & Sammlermarkt am Berliner Ostbahnhof",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/46",
+                "title": "Antik & Sammlermarkt am Berliner Ostbahnhof"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.095,
                     52.397
                 ],
@@ -67,6 +131,134 @@
         {
             "geometry": {
                 "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Abgesenkte Bordsteine.Am 19. Juli 2026 heißt es auf dem Marktplatz Spremberg echte Schätze finden oder selbst anbieten. Von 8 bis 15 Uhr finden die Gäste dort tolle Angebote für Haus und Hof, den Kleiderschrank und vielleicht auch das ein oder andere Stück zur Erweiterung ihrer Sammlung.",
+                    "betreiber": "Deutsche Marktgilde eG",
+                    "bezeichnung": "Flohmarkt Spremberg",
+                    "bezirk": "Brandenburg",
+                    "email": "d.dieter@marktgilde.de",
+                    "lat": "51.573",
+                    "lng": "14.364",
+                    "plz": "03130",
+                    "strasse": "Am Markt 1",
+                    "tage": "19.07.2026",
+                    "www": "https://www.marktgilde.events/termine-und-orte",
+                    "zeiten": "8-15 Uhr",
+                    "zeitraum": "19.07.2026"
+                },
+                "description": "19.07.2026<br>8-15 Uhr<br> <a href=\"Flohmarkt Spremberg\">Mehr...</a>",
+                "href": "Flohmarkt Spremberg",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/28",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Abgesenkte Bordsteine.Am 19. Juli 2026 heißt es auf dem Marktplatz Spremberg echte Schätze finden oder selbst anbieten. Von 8 bis 15 Uhr finden die Gäste dort tolle Angebote für Haus und Hof, den Kleiderschrank und vielleicht auch das ein oder andere Stück zur Erweiterung ihrer Sammlung.",
+                    "betreiber": "Deutsche Marktgilde eG",
+                    "bezeichnung": "Flohmarkt Spremberg",
+                    "bezirk": "Brandenburg",
+                    "email": "d.dieter@marktgilde.de",
+                    "lat": "51.573",
+                    "lng": "14.364",
+                    "plz": "03130",
+                    "strasse": "Am Markt 1",
+                    "tage": "16.08.2026",
+                    "www": "https://www.marktgilde.events/termine-und-orte",
+                    "zeiten": "8-15 Uhr",
+                    "zeitraum": "16.08.2026"
+                },
+                "description": "16.08.2026<br>8-15 Uhr<br> <a href=\"Flohmarkt Spremberg\">Mehr...</a>",
+                "href": "Flohmarkt Spremberg",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/31",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Abgesenkte Bordsteine.Am 20. September 2026 heißt es auf dem Marktplatz Spremberg echte Schätze finden oder selbst anbieten. Von 8 bis 15 Uhr finden die Gäste dort tolle Angebote für Haus und Hof, den Kleiderschrank und vielleicht auch das ein oder andere Stück zur Erweiterung ihrer Sammlung.",
+                    "betreiber": "Deutsche Marktgilde eG",
+                    "bezeichnung": "Flohmarkt Spremberg",
+                    "bezirk": "Brandenburg",
+                    "email": "d.dieter@marktgilde.de",
+                    "lat": "51.573",
+                    "lng": "14.364",
+                    "plz": "03130",
+                    "strasse": "Am Markt 1",
+                    "tage": "20.09.2026",
+                    "www": "https://www.marktgilde.events/termine-und-orte",
+                    "zeiten": "8-15 Uhr",
+                    "zeitraum": "20.09.2026"
+                },
+                "description": "20.09.2026<br>8-15 Uhr<br> <a href=\"Flohmarkt Spremberg\">Mehr...</a>",
+                "href": "Flohmarkt Spremberg",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/34",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Abgesenkte Bordsteine.Am 18. Oktober 2026 heißt es auf dem Marktplatz Spremberg echte Schätze finden oder selbst anbieten. Von 8 bis 15 Uhr finden die Gäste dort tolle Angebote für Haus und Hof, den Kleiderschrank und vielleicht auch das ein oder andere Stück zur Erweiterung ihrer Sammlung.",
+                    "betreiber": "Deutsche Marktgilde eG",
+                    "bezeichnung": "Flohmarkt Spremberg",
+                    "bezirk": "Brandenburg",
+                    "email": "d.dieter@marktgilde.de",
+                    "lat": "51.573",
+                    "lng": "14.364",
+                    "plz": "03130",
+                    "strasse": "Am Markt 1",
+                    "tage": "18.10.2026",
+                    "www": "https://www.marktgilde.events/termine-und-orte",
+                    "zeiten": "8-15 Uhr",
+                    "zeitraum": "18.10.2026"
+                },
+                "description": "18.10.2026<br>8-15 Uhr<br> <a href=\"Flohmarkt Spremberg\">Mehr...</a>",
+                "href": "Flohmarkt Spremberg",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/40",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     13.402,
                     52.541
                 ],
@@ -93,6 +285,38 @@
                 "href": "Flohmarkt am Mauerpark",
                 "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/7",
                 "title": "Flohmarkt am Mauerpark"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.626,
+                    52.461
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "data": {
+                    "barrierefreiheit": "Ja",
+                    "bemerkungen": "Jeden Sonntag ab 12.04.2026 - 20.12.2026 AUSSER an den Wochenenden, an denen der Antikmarkt Karlshorst stattfindet > 5.4./3.5./24.5./ 5.7./2.8./13.9./4.10./7.11.2026 ist geschlossen. !",
+                    "betreiber": "Flohmärkte Berlin P&S eGbR",
+                    "bezeichnung": "Flohmarkt am S-Bhf. Friedrichshagen",
+                    "bezirk": "Treptow-Köpenick",
+                    "email": "info@oldthing.de",
+                    "lat": "52.461",
+                    "lng": "13.626",
+                    "plz": "12587",
+                    "strasse": "Schöneicher Strasse 1",
+                    "tage": "20.12.2026",
+                    "www": "https://www.oldthing.de/riesenflohmarkt",
+                    "zeiten": "9-16 Uhr",
+                    "zeitraum": "12.04.2026"
+                },
+                "description": "20.12.2026<br>9-16 Uhr<br> <a href=\"Flohmarkt am S-Bhf. Friedrichshagen\">Mehr...</a>",
+                "href": "Flohmarkt am S-Bhf. Friedrichshagen",
+                "id": "/sen/web/service/maerkte-feste/wochen-troedelmaerkte/index.php/detail/37",
+                "title": "Flohmarkt am S-Bhf. Friedrichshagen"
             },
             "type": "Feature"
         },
