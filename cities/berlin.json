@@ -1,30 +1,18 @@
 {
-    "features": [
+    "features":
+    [
         {
-            "geometry": {
-                "coordinates": [
-                    13.118,
-                    52.469
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "location": "Am Flugplatz Gatow 10, 14089",
-                "opening_hours": null,
-                "opening_hours_unclassified": "25.04.2026 10:00-14:00 Uhr",
-                "title": "25. Kinderflohmarkt in der Landstadt Gatow"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
+            "geometry":
+            {
+                "coordinates":
+                [
                     13.095,
                     52.397
                 ],
                 "type": "Point"
             },
-            "properties": {
+            "properties":
+            {
                 "details_url": "https://www.koscholke.de",
                 "location": "Weberplatz, 14482",
                 "opening_hours": "Sa 07:00-13:00",
@@ -34,82 +22,17 @@
             "type": "Feature"
         },
         {
-            "geometry": {
-                "coordinates": [
-                    13.402,
-                    52.541
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "details_url": "https://www.flohmarktimmauerpark.de",
-                "location": "Bernauer Str. 63-64, 13355",
-                "opening_hours": "Su 10:00-18:00",
-                "opening_hours_unclassified": null,
-                "title": "Flohmarkt am Mauerpark"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.549,
-                    52.438
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "details_url": "https://www.gakenholz-gellesch.de",
-                "location": "Dörpfeldstraße, 12489",
-                "opening_hours": "We,Th 08:00-17:00",
-                "opening_hours_unclassified": null,
-                "title": "Frische Wochenmartk"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.385,
-                    52.455
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "details_url": "https://www.hauptstadtkultur.berlin/events/",
-                "location": "Tempelhofer Damm 227, 12099",
-                "opening_hours": null,
-                "opening_hours_unclassified": "10-18 Uhr / 04.04.2026 bis 30.10.2026",
-                "title": "Markt am Einkaufscenter Tempelhofer Hafen"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    13.524,
-                    52.477
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "details_url": "https://oldthing.de/riesenflohmarkt",
-                "location": "Treskowallee 159, 10318",
-                "opening_hours": null,
-                "opening_hours_unclassified": "06.04.2026 9-17 Uhr / 04.04.2026",
-                "title": "Osterspezial Riesenflohmarkt Trabrennbahn Karlshorst"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
+            "geometry":
+            {
+                "coordinates":
+                [
                     14.364,
                     51.573
                 ],
                 "type": "Point"
             },
-            "properties": {
+            "properties":
+            {
                 "details_url": "https://www.marktgilde.events/event-details/flohmarkt-spremberg-2025-10-19-08-00",
                 "location": "Am Markt 1, 03130",
                 "opening_hours": null,
@@ -119,14 +42,17 @@
             "type": "Feature"
         },
         {
-            "geometry": {
-                "coordinates": [
+            "geometry":
+            {
+                "coordinates":
+                [
                     14.364,
                     51.573
                 ],
                 "type": "Point"
             },
-            "properties": {
+            "properties":
+            {
                 "details_url": "https://www.marktgilde.events/termine-und-orte",
                 "location": "Am Markt 1, 03130",
                 "opening_hours": null,
@@ -136,14 +62,177 @@
             "type": "Feature"
         },
         {
-            "geometry": {
-                "coordinates": [
+            "geometry":
+            {
+                "coordinates":
+                [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.marktgilde.events/termine-und-orte",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "19.07.2026 8-15 Uhr / 19.07.2026",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.marktgilde.events/termine-und-orte",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "16.08.2026 8-15 Uhr / 16.08.2026",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.marktgilde.events/termine-und-orte",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "20.09.2026 8-15 Uhr / 20.09.2026",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    14.364,
+                    51.573
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.marktgilde.events/termine-und-orte",
+                "location": "Am Markt 1, 03130",
+                "opening_hours": null,
+                "opening_hours_unclassified": "18.10.2026 8-15 Uhr / 18.10.2026",
+                "title": "Flohmarkt Spremberg"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.434,
+                    52.513
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.oldthing.de/Berliner-Flohmarkt/",
+                "location": "Hermann-Stöhr-Platz, 10243",
+                "opening_hours": null,
+                "opening_hours_unclassified": "27.12.2026 Sonntags jeweils 9-17 Uhr / 04.01.2026",
+                "title": "Antik & Sammlermarkt am Berliner Ostbahnhof"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.524,
+                    52.477
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://oldthing.de/riesenflohmarkt",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "06.04.2026 9-17 Uhr / 04.04.2026",
+                "title": "Osterspezial Riesenflohmarkt Trabrennbahn Karlshorst"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.524,
+                    52.477
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.oldthing.de/riesenflohmarkt",
+                "location": "Treskowallee 159, 10318",
+                "opening_hours": null,
+                "opening_hours_unclassified": "9-17 Uhr / Sa-So 4.-6.4./ 2.-3.5./ 23.-25.5./ 4.-5.7./ 1.-2.8./ 12.-13.9./ 2.-4.10./ 7-8.11.2026",
+                "title": "ANTIK & DESIGNMARKT Trabrennbahn Karlshorst"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.402,
+                    52.541
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.flohmarktimmauerpark.de",
+                "location": "Bernauer Str. 63-64, 13355",
+                "opening_hours": "Su 10:00-18:00",
+                "opening_hours_unclassified": null,
+                "title": "Flohmarkt am Mauerpark"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
                     13.417,
                     52.536
                 ],
                 "type": "Point"
             },
-            "properties": {
+            "properties":
+            {
                 "details_url": "https://www.grueneliga-berlin.de/themen-projekte2/oekomarkt/",
                 "location": "Wörther Str. 35-39, 10435",
                 "opening_hours": "Th 12:00-19:00",
@@ -151,11 +240,92 @@
                 "title": "Ökomarkt am Kollwitzplatz"
             },
             "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.118,
+                    52.469
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "location": "Am Flugplatz Gatow 10, 14089",
+                "opening_hours": null,
+                "opening_hours_unclassified": "25.04.2026 10:00-14:00 Uhr",
+                "title": "25. Kinderflohmarkt in der Landstadt Gatow"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.385,
+                    52.455
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.hauptstadtkultur.berlin/events/",
+                "location": "Tempelhofer Damm 227, 12099",
+                "opening_hours": null,
+                "opening_hours_unclassified": "10-18 Uhr / 04.04.2026 bis 30.10.2026",
+                "title": "Markt am Einkaufscenter Tempelhofer Hafen"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.549,
+                    52.438
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.gakenholz-gellesch.de",
+                "location": "Dörpfeldstraße, 12489",
+                "opening_hours": "We,Th 08:00-17:00",
+                "opening_hours_unclassified": null,
+                "title": "Frische Wochenmartk"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry":
+            {
+                "coordinates":
+                [
+                    13.626,
+                    52.461
+                ],
+                "type": "Point"
+            },
+            "properties":
+            {
+                "details_url": "https://www.oldthing.de/riesenflohmarkt",
+                "location": "Schöneicher Strasse 1, 12587",
+                "opening_hours": null,
+                "opening_hours_unclassified": "20.12.2026 9-16 Uhr / 12.04.2026",
+                "title": "Flohmarkt am S-Bhf. Friedrichshagen"
+            },
+            "type": "Feature"
         }
     ],
-    "metadata": {
-        "data_source": {
-            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 09.02.2026",
+    "metadata":
+    {
+        "data_source":
+        {
+            "title": "Stadt Berlin, CC BY 3.0 DE, aktualisiert am 19.02.2026",
             "url": "https://daten.berlin.de/datensaetze/simple_search_wwwberlindesenwebservicemaerktefestewochentroedelmaerkte"
         }
     },
