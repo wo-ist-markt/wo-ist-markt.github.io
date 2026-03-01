@@ -23,7 +23,7 @@
     "jshint": "^2.13.6",
     "opening_hours": "^3.9.0",
     "ora": "^9.0.0",
-    "rollup": "^4.57.1",
+    "rollup": "^4.59.0",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-css-only": "^4.5.5"
   },
