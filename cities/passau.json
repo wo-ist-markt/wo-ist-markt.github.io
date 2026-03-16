@@ -29,6 +29,22 @@
                 "title": "Passauer Wochenmarkt auf dem Domplatz"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.463198,
+                    48.572978
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "location": "Innpromenade",
+                "opening_hours": "Mar-Oct Sa[2],Sa[4] 08:00-17:00",
+                "title": "Flohmarkt an der Innpromenade",
+                "details_url": "https://flohmarkt-passau-innpromenade.de/"
+            },
+            "type": "Feature"
         }
     ],
     "metadata": {
