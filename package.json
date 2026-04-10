@@ -17,7 +17,7 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-terser": "^1.0.0",
-    "axios": "^1.13.6",
+    "axios": "^1.15.0",
     "colors": "1.4.0",
     "jshint": "^2.13.6",
     "opening_hours": "^3.9.0",
