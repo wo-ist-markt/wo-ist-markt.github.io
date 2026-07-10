@@ -207,7 +207,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [basel-wikipedia]: https://en.wikipedia.org/wiki/Basel
 [basel-markets]: https://www.bs.ch/pd/marketing/messenundmaerkte
 [berlin-wikipedia]: https://en.wikipedia.org/wiki/Berlin
-[berlin-markets]: https://daten.berlin.de/datensaetze/simple_search_wwwberlindesenwebservicemaerktefestewochentroedelmaerkte
+[berlin-markets]: https://www.visitberlin.de/de/wochenmaerkte
 [bielefeld-wikipedia]: https://en.wikipedia.org/wiki/Bielefeld
 [bielefeld-markets]: https://www.bielefeld.de/de/rv/ds_stadtverwaltung/ordg/womae/
 [bochum-wikipedia]: https://en.wikipedia.org/wiki/Bochum
@@ -247,7 +247,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [erlangen-wikipedia]: https://en.wikipedia.org/wiki/Erlangen
 [erlangen-markets]: http://www.erlangen.de
 [essen-wikipedia]: https://en.wikipedia.org/wiki/Essen
-[essen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
+[essen-markets]: https://essener-wochenmaerkte.de
 [frankfurtmain-wikipedia]: https://de.wikipedia.org/wiki/Frankfurt_am_Main
 [frankfurtmain-markets]: https://frankfurt.de/frankfurt-entdecken-und-erleben/maerkte-und-einkaufsstrassen/maerkte-und-flohmaerkte/wochenmaerkte
 [freiburg-wikipedia]: https://en.wikipedia.org/wiki/Freiburg_im_Breisgau
@@ -257,7 +257,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [fuerth-wikipedia]: https://en.wikipedia.org/wiki/F%C3%BCrth
 [fuerth-markets]: https://www.fuerthwiki.de/wiki/index.php/Kategorie:M%C3%A4rkte
 [Gelsenkirchen-wikipedia]: https://en.wikipedia.org/wiki/Gelsenkirchen
-[Gelsenkirchen-markets]: https://www.essen.de/rathaus/aemter/ordner_32/Wochenmaerkte.de.html
+[Gelsenkirchen-markets]: https://essener-wochenmaerkte.de
 [hagen-wikipedia]: https://de.wikipedia.org/wiki/Hagen
 [hagen-markets]: https://www.hagen.de/aus-dem-rathaus/fachbereiche-und-aemter/fachbereiche-a-z/fachbereich-oeffentliche-sicherheit-und-ordnung/gewerbestelle/#jahr--und-wochenmaerkte
 [hamburg-wikipedia]: https://de.wikipedia.org/wiki/Hamburg
@@ -299,11 +299,11 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [loxstedt-wikipedia]: https://en.wikipedia.org/wiki/Loxstedt
 [loxstedt-markets]: https://www.loxstedt.de/kultur-freizeit/maerkte/wochenmarkt/
 [luebeck-wikipedia]: https://de.wikipedia.org/wiki/L%C3%BCbeck
-[luebeck-markets]: https://www.luebeck-tourismus.de/einkaufen/shoppingparadies/maerkte-regionale-produkte.html
+[luebeck-markets]: https://www.luebeck.de/de/stadtleben/freizeit/wochenmaerkte/wochenmaerkte
 [ludwigsburg-wikipedia]: https://de.wikipedia.org/wiki/Ludwigsburg
 [ludwigsburg-markets]: https://visit.ludwigsburg.de/start/events/ludwigsburger+wochenmarkt.html
 [mallorca-wikipedia]: https://en.wikipedia.org/wiki/Mallorca
-[mallorca-markets]: https://mallorca.com/en/activities/free-time/markets-mallorca
+[mallorca-markets]: https://www.mallorca.com/en/guide/activities/free-time/markets-mallorca
 [marl-wikipedia]: https://de.wikipedia.org/wiki/Marl
 [marl-markets]: https://www.marl.de/leben-wohnen/einkaufen/wochenmaerkte
 [moers-wikipedia]: https://en.wikipedia.org/wiki/Moers
@@ -323,7 +323,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [oberursel-wikipedia]: https://en.wikipedia.org/wiki/Oberursel_(Taunus)
 [oberursel-markets]: https://www.oberursel.de/de/erleben-entdecken/oberursel-erleben/handel-wochenmarkt/wochenmaerkte/
 [oldenburg-wikipedia]: https://en.wikipedia.org/wiki/Oldenburg
-[oldenburg-markets]: http://www.oldenburg.de/microsites/wochenmaerkte.html
+[oldenburg-markets]: https://www.oldenburg.de/startseite/kultur/veranstaltungen/wochenmaerkte.html
 [osnabrueck-wikipedia]: https://en.wikipedia.org/wiki/Osnabrueck
 [osnabrueck-markets]: https://erleben.osnabrueck.de/de/
 [paderborn-wikipedia]: https://en.wikipedia.org/wiki/Paderborn
@@ -335,7 +335,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [rastatt-wikipedia]: https://de.wikipedia.org/wiki/Rastatt
 [rastatt-markets]: https://www.rastatt.de/kultur-und-freizeit/freizeit-und-einkaufen/wochenmarkt
 [rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
-[rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte
+[rheinstetten-markets]: https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber
@@ -359,7 +359,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [suhl-wikipedia]: https://en.wikipedia.org/wiki/Suhl
 [suhl-markets]: https://www.suhl.eu/maerkte-feste
 [trier-wikipedia]: https://de.wikipedia.org/wiki/Trier
-[trier-markets]: https://www.trier.de/Wirtschaft-Arbeit/Einzelhandel/Wochenmaerkte/
+[trier-markets]: https://www.trier.de/leben-in-trier/wirtschaft/einzelhandel/6154.Maerkte-Wochenmarkt--staendiger-Markt.html
 [tübingen-wikipedia]: https://en.wikipedia.org/wiki/T%C3%BCbingen
 [tübingen-markets]: https://www.tuebingen.de/wochenmarkt
 [ulm-wikipedia]: https://en.wikipedia.org/wiki/Ulm

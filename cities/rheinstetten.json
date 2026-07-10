@@ -9,16 +9,16 @@
     {
       "geometry": {
         "coordinates": [
-            8.312010,
-            48.974798
+            8.3057,
+            48.9675
         ],
         "type": "Point"
       },
       "properties": {
-          "location": "Haltestelle Forchheim Hauptstraße",
-          "opening_hours": "Th 08:00-12:00",
+          "location": "Marktplatz 1",
+          "opening_hours": "Th 08:00-13:00",
           "title": "Wochenmarkt Rheinstetten",
-          "details_url" : "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte"
+          "details_url" : "https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2"
       },
       "type": "Feature"
     }
@@ -26,9 +26,8 @@
   "metadata": {
     "data_source": {
         "title": "Stadt Rheinstetten",
-        "url": "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmaerkte"
+        "url": "https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2"
     }
   },
   "type": "FeatureCollection"
 }
-
