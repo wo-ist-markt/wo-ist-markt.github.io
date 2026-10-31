@@ -335,7 +335,7 @@ state as the new version of the website available under [https://wo-ist-markt.de
 [rastatt-wikipedia]: https://de.wikipedia.org/wiki/Rastatt
 [rastatt-markets]: https://www.rastatt.de/kultur-und-freizeit/freizeit-und-einkaufen/wochenmarkt
 [rheinstetten-wikipedia]: https://de.wikipedia.org/wiki/Rheinstetten
-[rheinstetten-markets]: https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2
+[rheinstetten-markets]: https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmarkt
 [rostock-wikipedia]: https://en.wikipedia.org/wiki/Rostock
 [rostock-markets]: http://www.rostocker-wochenmaerkte.de/standorte-angebote/
 [rothenburg-wikipedia]: https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber

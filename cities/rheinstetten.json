@@ -18,7 +18,7 @@
           "location": "Marktplatz 1",
           "opening_hours": "Th 08:00-13:00",
           "title": "Wochenmarkt Rheinstetten",
-          "details_url" : "https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2"
+          "details_url" : "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmarkt"
       },
       "type": "Feature"
     }
@@ -26,7 +26,7 @@
   "metadata": {
     "data_source": {
         "title": "Stadt Rheinstetten",
-        "url": "https://www.rheinstetten.de/de/nachrichten/wochenmarkt-in-der-neuen-stadtmitte-2"
+        "url": "https://www.rheinstetten.de/de/leben-in-rheinstetten/freizeit/wochenmarkt"
     }
   },
   "type": "FeatureCollection"
