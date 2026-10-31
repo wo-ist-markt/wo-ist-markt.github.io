@@ -38,6 +38,8 @@ const pkg = loadPackageJson();
 var REPO_URL = pkg.repository.url;
 assert.ok(REPO_URL, 'missing/invalid repo URL in package.json');
 
+var BROWSER_USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
+
 var MARKETS_DIR_PATH = "cities";
 var MARKETS_INDEX_FILE_PATH = path.join('cities', 'cities.json');
 
@@ -642,8 +644,11 @@ function MetadataValidator(metadata, cityName) {
             timeout: 10000, // 10 seconds
             headers: {
                 'Cookie': 'mobile=0', // for Zwickau
-                'User-Agent': REPO_URL,
-                'Accept': '*/*',
+                // Browser-like headers: some city websites (e.g. Chemnitz, Ulm) reject non-browser user agents.
+                // The repository URL is kept as a suffix so site operators can still identify the request.
+                'User-Agent': BROWSER_USER_AGENT + ' (+' + REPO_URL + ')',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
             },
         };
 
