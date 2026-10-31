@@ -27,14 +27,17 @@ const { LocateControl } = require("leaflet.locatecontrol");
 const opening_hours = require('opening_hours');
 require('i18next-client');
 
-var TILES_URL = '//cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
+// CARTO basemaps require an API key, see https://github.com/CartoDB/basemap-styles
+// {r} is replaced by Leaflet with "@2x" on retina displays.
+var CARTO_API_KEY = 'cb1_4z0d_1_bf301ab49aeb46f383f174fb';
+var TILES_URL = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=' + CARTO_API_KEY;
 var ATTRIBUTION = '<a id="daten" href="info.html">Über Wo ist Markt?</a> | ' +
                   '<a id="impressum" href="impressum-datenschutz.html">Impressum &amp; Datenschutz</a> | ' +
                   '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | ' +
                   'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> | ' +
                   'contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">' +
-                  'CC-BY-SA</a> | Tiles &copy; <a href="http://cartodb.com/attributions">' +
-                  'CartoDB</a>';
+                  'CC-BY-SA</a> | Tiles &copy; <a href="https://carto.com/attributions">' +
+                  'CARTO</a>';
 
 var DEFAULT_CITY_ID = "karlsruhe";
 var CITY_LIST_API_URL = 'cities/cities.json';
